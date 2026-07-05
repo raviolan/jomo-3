@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "JOMO 2.0",
+    "slug": "jomo-2",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "jomo2",
+    "platforms": [
+      "web"
+    ],
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
