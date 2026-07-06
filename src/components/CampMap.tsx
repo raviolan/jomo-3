@@ -133,17 +133,19 @@ function CampInfoOverlay({
     square: GridSquareRef;
   };
 }) {
+  const squareBounds = getGridSquareBounds(info.square);
   const anchor = getGridSquareCenter(info.square);
   const isBelowAnchor = anchor.yPercent < 50;
-  const topPercent = isBelowAnchor ? clamp(anchor.yPercent + 3, 3, 72) : clamp(anchor.yPercent - 18, 3, 72);
+  const squareTopPercent = (squareBounds.y / CAMP_MAP_IMAGE.height) * 100;
+  const squareBottomPercent = ((squareBounds.y + squareBounds.height) / CAMP_MAP_IMAGE.height) * 100;
   const horizontalPlacement = getBubbleHorizontalPlacement(anchor.xPercent);
 
   return (
     <>
       <View
+        pointerEvents="none"
         style={[
-          styles.campInfoPointer,
-          isBelowAnchor ? styles.campInfoPointerTop : styles.campInfoPointerBottom,
+          styles.campInfoMarker,
           {
             left: toPercent(anchor.xPercent, 100),
             top: toPercent(anchor.yPercent, 100)
@@ -153,10 +155,8 @@ function CampInfoOverlay({
       <View
         style={[
           styles.campInfoBubble,
-          {
-            top: toPercent(topPercent, 100)
-          },
-          horizontalPlacement
+          isBelowAnchor ? { top: toPercent(squareBottomPercent, 100) } : { bottom: toPercent(100 - squareTopPercent, 100) },
+          horizontalPlacement.style
         ]}
       >
         <View style={styles.campInfoHeader}>
@@ -210,16 +210,30 @@ function clamp(value: number, min: number, max: number) {
 }
 
 function getBubbleHorizontalPlacement(anchorXPercent: number) {
+  const estimatedWidthPercent = 24;
+
   if (anchorXPercent < 22) {
-    return { left: "2%" as const };
+    return {
+      style: { left: "2%" as const },
+      leftPercent: 2,
+      widthPercent: estimatedWidthPercent
+    };
   }
 
   if (anchorXPercent > 78) {
-    return { right: "2%" as const };
+    return {
+      style: { right: "2%" as const },
+      leftPercent: 100 - estimatedWidthPercent - 2,
+      widthPercent: estimatedWidthPercent
+    };
   }
 
+  const leftPercent = clamp(anchorXPercent - estimatedWidthPercent / 2, 2, 100 - estimatedWidthPercent - 2);
+
   return {
-    left: toPercent(clamp(anchorXPercent - 12, 2, 72), 100)
+    style: { left: toPercent(leftPercent, 100) },
+    leftPercent,
+    widthPercent: estimatedWidthPercent
   };
 }
 
@@ -304,28 +318,18 @@ const styles = StyleSheet.create({
     position: "absolute",
     zIndex: 4
   },
-  campInfoPointer: {
-    backgroundColor: theme.surfaces.cardStrong,
+  campInfoMarker: {
+    backgroundColor: theme.colors.pink,
+    borderColor: theme.colors.brandDark,
+    borderRadius: 3,
     borderWidth: 1,
-    height: 10,
-    marginLeft: -5,
-    marginTop: -5,
+    height: 12,
+    marginLeft: -6,
+    marginTop: -6,
     position: "absolute",
     transform: [{ rotate: "45deg" }],
-    width: 10,
-    zIndex: 4
-  },
-  campInfoPointerBottom: {
-    borderBottomColor: theme.colors.border,
-    borderLeftColor: "transparent",
-    borderRightColor: theme.colors.border,
-    borderTopColor: "transparent"
-  },
-  campInfoPointerTop: {
-    borderBottomColor: "transparent",
-    borderLeftColor: theme.colors.border,
-    borderRightColor: "transparent",
-    borderTopColor: theme.colors.border
+    width: 12,
+    zIndex: 3
   },
   closeButton: {
     alignItems: "center",
