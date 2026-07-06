@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useFocusEffect, useRouter } from "expo-router";
-import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
+import { Pressable, ScrollView, StyleSheet, Text, useWindowDimensions, View } from "react-native";
 
 import { EmptyState } from "@/components/EmptyState";
 import { EventCard } from "@/components/EventCard";
@@ -26,20 +26,28 @@ interface ScheduleDayGroup {
   events: FestivalEvent[];
 }
 
-interface ScheduleBlock {
+interface ScheduleTick {
+  label: string;
+  top: number;
+  time: number;
+}
+
+interface ScheduleRow {
+  columnCount: number;
+  columnIndex: number;
+  end: number;
   event: FestivalEvent;
   height: number;
   leftPercent: number;
   top: number;
   widthPercent: number;
-  start: number;
-  end: number;
 }
 
-interface ScheduleLayout {
-  blocks: ScheduleBlock[];
+interface ScheduleTimeline {
   dayEnd: number;
   dayStart: number;
+  rows: ScheduleRow[];
+  ticks: ScheduleTick[];
   timelineHeight: number;
 }
 
@@ -58,8 +66,11 @@ const scheduleBlockStyles = [
 ];
 
 const minuteMs = 60 * 1000;
-const scheduleMinuteHeight = 0.65;
+const scheduleMinuteHeight = 0.62;
+const minTimelineHeight = 160;
 const minScheduleBlockHeight = 54;
+const scheduleHourRailWidth = 54;
+const scheduleHourLineOpacity = 0.12;
 
 export default function SavedScreen() {
   const scrollViewRef = useRef<ScrollView>(null);
@@ -290,6 +301,8 @@ function SavedScheduleView({
   range: ScheduleRange;
 }) {
   const router = useRouter();
+  const { width } = useWindowDimensions();
+  const isCompact = width < 520;
   const now = new Date();
   const scheduleDays = getDisplayedScheduleDays(days, events, range, now);
 
@@ -334,11 +347,12 @@ function SavedScheduleView({
         />
       ) : (
         <View style={styles.scheduleDays}>
-        {scheduleDays.map((group) => (
+          {scheduleDays.map((group) => (
             <ScheduleDaySection
               day={group.day}
               events={group.events}
               key={group.day.id}
+              isCompact={isCompact}
               now={now}
               onBeforeNavigate={onBeforeNavigate}
               onOpenEvent={(eventId) => {
@@ -356,12 +370,14 @@ function SavedScheduleView({
 function ScheduleDaySection({
   day,
   events,
+  isCompact,
   now,
   onBeforeNavigate,
   onOpenEvent
 }: {
   day?: FestivalDay;
   events: FestivalEvent[];
+  isCompact: boolean;
   now: Date;
   onBeforeNavigate: () => void;
   onOpenEvent: (eventId: string) => void;
@@ -370,7 +386,7 @@ function ScheduleDaySection({
     return null;
   }
 
-  const layout = getScheduleLayout(events);
+  const layout = getScheduleTimeline(events, isCompact);
   const currentGuide = getCurrentTimeGuide(day, layout, now);
 
   return (
@@ -382,49 +398,67 @@ function ScheduleDaySection({
         </Text>
       </View>
 
-      {layout.blocks.length === 0 ? (
+      {layout.rows.length === 0 ? (
         <Text style={styles.scheduleEmptyDay}>No saved events in this range.</Text>
       ) : (
-        <View style={[styles.timeline, { minHeight: layout.timelineHeight }]}>
-          {currentGuide ? <CurrentTimeGuide top={currentGuide.top} /> : null}
-          {layout.blocks.map((row, index) => (
-            <View
-              key={row.event.id}
-              style={StyleSheet.flatten([
-                styles.scheduleRow,
-                {
-                  height: row.height,
-                  top: row.top
-                }
-              ])}
+        <View style={StyleSheet.flatten([styles.timeline, { minHeight: layout.timelineHeight }])}>
+          <View style={styles.timelineRails}>
+            <View style={styles.timelineRailLeft}>
+          {layout.ticks.map((tick) => (
+            <Text
+              key={`left-${tick.time}`}
+              style={StyleSheet.flatten([styles.timelineHourLabel, styles.timelineHourLabelLeft, { top: tick.top }])}
             >
-              <View style={styles.scheduleTimeRail}>
-                <Text style={styles.scheduleTimeStart}>{row.event.time.start}</Text>
-                <Text style={styles.scheduleTimeEnd}>{row.event.time.end}</Text>
-              </View>
-              <Pressable
-                accessibilityRole="button"
-                onPress={() => onOpenEvent(row.event.id)}
-                style={StyleSheet.flatten([
-                  styles.scheduleBlock,
-                  scheduleBlockStyles[index % scheduleBlockStyles.length],
-                  {
-                    left: `${getSafeStyleNumber(row.leftPercent)}%`,
-                    minHeight: getSafeStyleNumber(row.height, minScheduleBlockHeight),
-                    width: `${getSafeStyleNumber(row.widthPercent, 100)}%`
-                  }
-                ])}
-              >
-                <Text style={styles.scheduleBlockTitle} numberOfLines={2}>
-                  {row.event.title}
-                </Text>
-                <Text style={styles.scheduleBlockTime}>{row.event.time.display}</Text>
-                <Text style={styles.scheduleBlockMeta} numberOfLines={2}>
-                  {getScheduleLocationLabel(row.event)}
-                </Text>
-              </Pressable>
-            </View>
+              {tick.label}
+            </Text>
           ))}
+            </View>
+            <View style={styles.timelineEventArea}>
+              {layout.ticks.map((tick) => (
+                <View
+                  key={`line-${tick.time}`}
+                  pointerEvents="none"
+                  style={StyleSheet.flatten([styles.timelineHourLine, { top: tick.top }])}
+                />
+              ))}
+              {layout.rows.map((row, index) => (
+                <Pressable
+                  accessibilityRole="button"
+                  key={row.event.id}
+                  onPress={() => onOpenEvent(row.event.id)}
+                  style={StyleSheet.flatten([
+                    styles.scheduleBlock,
+                    scheduleBlockStyles[index % scheduleBlockStyles.length],
+                    {
+                      left: `${getSafeStyleNumber(row.leftPercent)}%`,
+                      minHeight: getSafeStyleNumber(row.height, minScheduleBlockHeight),
+                      top: getSafeStyleNumber(row.top),
+                      width: `${getSafeStyleNumber(row.widthPercent, 100)}%`
+                    }
+                  ])}
+                >
+                  <Text style={styles.scheduleBlockTitle} numberOfLines={2}>
+                    {row.event.title}
+                  </Text>
+                  <Text style={styles.scheduleBlockTime}>{row.event.time.display}</Text>
+                  <Text style={styles.scheduleBlockMeta} numberOfLines={2}>
+                    {getScheduleLocationLabel(row.event)}
+                  </Text>
+                </Pressable>
+              ))}
+              {currentGuide ? <CurrentTimeGuide top={currentGuide.top} /> : null}
+            </View>
+            <View style={styles.timelineRailRight}>
+              {layout.ticks.map((tick) => (
+                <Text
+                  key={`right-${tick.time}`}
+                  style={StyleSheet.flatten([styles.timelineHourLabel, styles.timelineHourLabelRight, { top: tick.top }])}
+                >
+                  {tick.label}
+                </Text>
+              ))}
+            </View>
+          </View>
         </View>
       )}
     </View>
@@ -511,8 +545,8 @@ function getEventsForScheduleDay(events: FestivalEvent[], dayId: string): Festiv
     });
 }
 
-function getScheduleLayout(events: FestivalEvent[]): ScheduleLayout {
-  const rowsWithTimes = events
+function getScheduleTimeline(events: FestivalEvent[], isCompact: boolean): ScheduleTimeline {
+  const timedEvents = events
     .map((event) => {
       const bounds = getEventTimeBounds(event);
       return bounds ? { event, ...bounds } : undefined;
@@ -520,47 +554,40 @@ function getScheduleLayout(events: FestivalEvent[]): ScheduleLayout {
     .filter(isDefined)
     .sort((a, b) => a.start - b.start || a.end - b.end || a.event.title.localeCompare(b.event.title));
 
-  if (rowsWithTimes.length === 0) {
-    return {
-      blocks: [],
-      dayEnd: Number.NaN,
-      dayStart: Number.NaN,
-      timelineHeight: 0
-    };
+  if (timedEvents.length === 0) {
+    return emptyScheduleTimeline();
   }
 
-  const dayStart = floorToHour(Math.min(...rowsWithTimes.map((row) => row.start)));
-  const dayEnd = ceilToHour(Math.max(...rowsWithTimes.map((row) => row.end)));
+  const dayStart = floorToHour(Math.min(...timedEvents.map((row) => row.start)));
+  const dayEnd = ceilToHour(Math.max(...timedEvents.map((row) => row.end)));
 
   if (!isFiniteNumber(dayStart) || !isFiniteNumber(dayEnd) || dayEnd <= dayStart) {
-    return {
-      blocks: [],
-      dayEnd: Number.NaN,
-      dayStart: Number.NaN,
-      timelineHeight: 0
-    };
+    return emptyScheduleTimeline();
   }
 
-  const blocks = assignOverlapColumns(rowsWithTimes, dayStart);
-  const timelineHeight = getSafeStyleNumber(
-    Math.max(minScheduleBlockHeight, ((dayEnd - dayStart) / minuteMs) * scheduleMinuteHeight),
-    minScheduleBlockHeight
+  const ticks = buildHourlyTicks(dayStart, dayEnd);
+  const rows = assignTimelineRows(timedEvents, dayStart, isCompact);
+  const timelineHeight = Math.max(
+    minTimelineHeight,
+    ...rows.map((row) => row.top + row.height),
+    (dayEnd - dayStart) / minuteMs * scheduleMinuteHeight
   );
 
   return {
-    blocks,
     dayEnd,
     dayStart,
-    timelineHeight
+    rows,
+    ticks,
+    timelineHeight: getSafeStyleNumber(timelineHeight, minTimelineHeight)
   };
 }
 
 function getCurrentTimeGuide(
   day: FestivalDay,
-  layout: ScheduleLayout,
+  layout: ScheduleTimeline,
   now: Date
 ): { top: number } | undefined {
-  if (!isValidScheduleDay(day) || layout.blocks.length === 0 || day.date !== toLocalDateString(now)) {
+  if (!isValidScheduleDay(day) || layout.rows.length === 0 || day.date !== toLocalDateString(now)) {
     return undefined;
   }
 
@@ -578,11 +605,7 @@ function getCurrentTimeGuide(
   }
 
   const top = ((nowTime - layout.dayStart) / minuteMs) * scheduleMinuteHeight;
-  if (!isFiniteNumber(top) || top < 0) {
-    return undefined;
-  }
-
-  return { top };
+  return isFiniteNumber(top) && top >= 0 ? { top } : undefined;
 }
 
 function getScheduleLocationLabel(event: FestivalEvent): string {
@@ -620,12 +643,52 @@ function getSafeStyleNumber(value: number, fallback = 0): number {
   return isFiniteNumber(value) && value >= 0 ? value : fallback;
 }
 
-function assignOverlapColumns(rows: { event: FestivalEvent; start: number; end: number }[], dayStart: number): ScheduleBlock[] {
+function emptyScheduleTimeline(): ScheduleTimeline {
+  return {
+    dayEnd: Number.NaN,
+    dayStart: Number.NaN,
+    rows: [],
+    ticks: [],
+    timelineHeight: 0
+  };
+}
+
+function buildHourlyTicks(dayStart: number, dayEnd: number): ScheduleTick[] {
+  if (!isFiniteNumber(dayStart) || !isFiniteNumber(dayEnd) || dayEnd <= dayStart) {
+    return [];
+  }
+
+  const ticks: ScheduleTick[] = [];
+  for (let time = dayStart; time <= dayEnd; time += 60 * minuteMs) {
+    ticks.push({
+      label: formatHourLabel(time),
+      time,
+      top: ((time - dayStart) / minuteMs) * scheduleMinuteHeight
+    });
+  }
+
+  return ticks;
+}
+
+function formatHourLabel(time: number): string {
+  if (!isFiniteNumber(time)) {
+    return "";
+  }
+
+  const date = new Date(time);
+  return `${String(date.getHours()).padStart(2, "0")}:00`;
+}
+
+function assignTimelineRows(
+  events: { event: FestivalEvent; start: number; end: number }[],
+  dayStart: number,
+  isCompact: boolean
+): ScheduleRow[] {
   const groups: { event: FestivalEvent; start: number; end: number }[][] = [];
   let currentGroup: { event: FestivalEvent; start: number; end: number }[] = [];
   let currentGroupEnd = Number.NaN;
 
-  for (const row of rows) {
+  for (const row of events) {
     if (currentGroup.length === 0) {
       currentGroup = [row];
       currentGroupEnd = row.end;
@@ -647,52 +710,75 @@ function assignOverlapColumns(rows: { event: FestivalEvent; start: number; end: 
     groups.push(currentGroup);
   }
 
-  return groups.flatMap((group) => layoutOverlapGroup(group, dayStart));
+  const rows: ScheduleRow[] = [];
+  const columnBottoms: number[] = [];
+
+  for (const group of groups) {
+    const placed = placeTimelineGroup(group);
+    const groupColumnCount = Math.max(1, ...placed.map((row) => row.columnCount));
+    const columnGap = isCompact ? 1 : 2;
+    const widthPercent = (100 - columnGap * (groupColumnCount - 1)) / groupColumnCount;
+
+    for (const row of placed) {
+      const rawTop = ((row.start - dayStart) / minuteMs) * scheduleMinuteHeight;
+      const rawHeight = Math.max(minScheduleBlockHeight, ((row.end - row.start) / minuteMs) * scheduleMinuteHeight);
+      const resolvedTop = Math.max(rawTop, columnBottoms[row.columnIndex] ?? 0);
+      const renderedHeight = rawHeight;
+
+      rows.push({
+        ...row,
+        columnCount: groupColumnCount,
+        height: renderedHeight,
+        leftPercent: row.columnIndex * (widthPercent + columnGap),
+        top: resolvedTop,
+        widthPercent
+      });
+
+      columnBottoms[row.columnIndex] = resolvedTop + renderedHeight;
+    }
+  }
+
+  return rows;
 }
 
-function layoutOverlapGroup(
-  group: { event: FestivalEvent; start: number; end: number }[],
-  dayStart: number
-): ScheduleBlock[] {
-  const columns: number[] = [];
-  const placed = group.map((row) => {
-    let columnIndex = columns.findIndex((columnEnd) => columnEnd <= row.start);
+function placeTimelineGroup(
+  group: { event: FestivalEvent; start: number; end: number }[]
+): { columnCount: number; columnIndex: number; end: number; event: FestivalEvent; height: number; start: number }[] {
+  const activeColumns: number[] = [];
+  const placed: {
+    columnCount: number;
+    columnIndex: number;
+    end: number;
+    event: FestivalEvent;
+    height: number;
+    start: number;
+  }[] = [];
+
+  for (const row of [...group].sort((a, b) => a.start - b.start || a.end - b.end || a.event.title.localeCompare(b.event.title))) {
+    let columnIndex = activeColumns.findIndex((columnEnd) => columnEnd <= row.start);
     if (columnIndex < 0) {
-      columnIndex = columns.length;
-      columns.push(row.end);
+      columnIndex = activeColumns.length;
+      activeColumns.push(row.end);
     } else {
-      columns[columnIndex] = row.end;
+      activeColumns[columnIndex] = row.end;
     }
 
-    return {
-      ...row,
-      columnIndex
-    };
-  });
-
-  const columnCount = Math.max(1, columns.length);
-  const columnGapPercent = columnCount > 1 ? 2 : 0;
-  const widthPercent = (100 - columnGapPercent * (columnCount - 1)) / columnCount;
-  const rowWidthPercent = getSafeStyleNumber(widthPercent, 100);
-
-  return placed.map((row) => {
-    const top = getSafeStyleNumber(Math.max(0, ((row.start - dayStart) / minuteMs) * scheduleMinuteHeight));
-    const height = getSafeStyleNumber(
-      Math.max(minScheduleBlockHeight, ((row.end - row.start) / minuteMs) * scheduleMinuteHeight),
-      minScheduleBlockHeight
-    );
-    const leftPercent = getSafeStyleNumber(row.columnIndex * (rowWidthPercent + columnGapPercent));
-
-    return {
-      event: row.event,
+    placed.push({
+      columnCount: 0,
+      columnIndex,
       end: row.end,
-      height,
-      leftPercent,
-      start: row.start,
-      top,
-      widthPercent: rowWidthPercent
-    };
-  });
+      event: row.event,
+      height: 0,
+      start: row.start
+    });
+  }
+
+  const columnCount = Math.max(1, activeColumns.length);
+
+  return placed.map((row) => ({
+    ...row,
+    columnCount
+  }));
 }
 
 function isDefined<T>(value: T | undefined): value is T {
@@ -817,16 +903,16 @@ const styles = StyleSheet.create({
   currentTimeGuide: {
     alignItems: "center",
     flexDirection: "row",
-    left: 46,
+    left: 0,
     position: "absolute",
     right: 0,
-    zIndex: 2
+    zIndex: 0
   },
   currentTimeLine: {
     backgroundColor: theme.colors.brand,
     flex: 1,
     height: 1,
-    opacity: 0.35
+    opacity: 0.22
   },
   dayDivider: {
     alignItems: "center",
@@ -908,13 +994,13 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     borderWidth: 1,
     gap: 4,
-    left: 0,
     position: "absolute",
     justifyContent: "center",
     minWidth: 0,
-    top: 0,
+    overflow: "hidden",
     paddingHorizontal: 12,
-    paddingVertical: 10
+    paddingVertical: 10,
+    zIndex: 1
   },
   scheduleBlockMeta: {
     color: theme.colors.textMuted,
@@ -966,29 +1052,57 @@ const styles = StyleSheet.create({
     fontSize: 13,
     fontWeight: "700"
   },
-  scheduleRow: {
-    left: 0,
-    overflow: "hidden",
-    paddingLeft: 46,
-    paddingRight: 2,
-    position: "absolute",
-    right: 0,
-    gap: 10
-  },
   scheduleTimeEnd: {
     color: theme.colors.textMuted,
     fontSize: 11,
     fontWeight: "700"
   },
-  scheduleTimeRail: {
-    alignItems: "flex-end",
-    paddingTop: 4,
-    width: 36
-  },
   scheduleTimeStart: {
     color: theme.colors.brand,
     fontSize: 12,
     fontWeight: "900"
+  },
+  timelineEventArea: {
+    flex: 1,
+    position: "relative"
+  },
+  timelineHourLabel: {
+    color: theme.colors.textMuted,
+    fontSize: 10,
+    fontWeight: "800",
+    position: "absolute"
+  },
+  timelineHourLabelLeft: {
+    left: 0,
+    textAlign: "right",
+    width: scheduleHourRailWidth - 6
+  },
+  timelineHourLabelRight: {
+    left: 0,
+    textAlign: "left",
+    width: scheduleHourRailWidth - 6
+  },
+  timelineHourLine: {
+    backgroundColor: theme.colors.borderSoft,
+    left: 0,
+    height: 1,
+    opacity: scheduleHourLineOpacity,
+    position: "absolute",
+    right: 0
+  },
+  timelineRailLeft: {
+    height: "100%",
+    position: "relative",
+    width: scheduleHourRailWidth
+  },
+  timelineRailRight: {
+    height: "100%",
+    position: "relative",
+    width: scheduleHourRailWidth
+  },
+  timelineRails: {
+    flexDirection: "row",
+    minHeight: 0
   },
   segmented: {
     backgroundColor: theme.surfaces.chrome,
