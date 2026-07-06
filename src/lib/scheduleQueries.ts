@@ -12,6 +12,11 @@ import type {
 
 export const schedule: NormalizedSchedule = generatedSchedule;
 
+export interface CampLocationGroup {
+  camps: string[];
+  square: GridSquareRef;
+}
+
 const byId = new Map(schedule.events.map((event) => [event.id, event]));
 const tagAliases: Record<FestivalTag, string[]> = {
   "Adults only": ["Adult only", "Adults"],
@@ -126,6 +131,36 @@ export function getEventsForAdjacentGridSquares(square: GridSquareRef): Festival
   }
 
   return sortEvents(Array.from(eventsById.values()));
+}
+
+export function getCampLocationsByGridSquare(): CampLocationGroup[] {
+  const campsBySquare = new Map<string, { camps: Set<string>; square: GridSquareRef }>();
+
+  for (const event of schedule.events) {
+    if (!event.campHost || !event.gridSquares?.length) {
+      continue;
+    }
+
+    const campHosts = getCampHostGroups(event.campHost);
+    for (const square of event.gridSquares) {
+      const existing = campsBySquare.get(square.key) ?? { camps: new Set<string>(), square };
+      for (const campHost of campHosts) {
+        existing.camps.add(campHost);
+      }
+      campsBySquare.set(square.key, existing);
+    }
+  }
+
+  return Array.from(campsBySquare.values())
+    .map(({ camps, square }) => ({
+      camps: Array.from(camps).sort((a, b) => getCampHostSortKey(a).localeCompare(getCampHostSortKey(b))),
+      square
+    }))
+    .sort((a, b) => a.square.key.localeCompare(b.square.key));
+}
+
+export function getCampsForGridSquare(square: GridSquareRef): string[] {
+  return getCampLocationsByGridSquare().find((item) => item.square.key === square.key)?.camps ?? [];
 }
 
 export function getDayLabelForEvent(event: FestivalEvent): string {

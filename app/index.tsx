@@ -35,7 +35,7 @@ interface CampEventDayGroup {
 }
 
 export default function ScheduleScreen() {
-  const params = useLocalSearchParams<{ view?: string }>();
+  const params = useLocalSearchParams<{ camp?: string; view?: string }>();
   const isCampMode = params.view === "camps";
   const scrollViewRef = useRef<ScrollView>(null);
   const scrollYRef = useRef(0);
@@ -133,6 +133,25 @@ export default function ScheduleScreen() {
       }),
     []
   );
+
+  useEffect(() => {
+    if (!isCampMode || typeof params.camp !== "string") {
+      return;
+    }
+
+    const campHost = getCanonicalCampHost(params.camp);
+    if (!campHosts.includes(campHost)) {
+      return;
+    }
+
+    setSelectedCampHosts([campHost]);
+    setQuery("");
+    setCollapsedCampDayIds([]);
+    setIsPastEventsExpanded(false);
+    campIndexScrollYRef.current = 0;
+    scrollViewRef.current?.scrollTo({ y: 0, animated: false });
+    scrollYRef.current = 0;
+  }, [campHosts, isCampMode, params.camp]);
 
   useFocusEffect(
     useCallback(() => {

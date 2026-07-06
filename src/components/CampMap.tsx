@@ -11,12 +11,21 @@ import { theme } from "@/theme/theme";
 const campgroundMapImage = require("../../assets/maps/campground-map-2026.png") as ImageSourcePropType;
 
 interface CampMapProps {
+  campHighlightSquares?: GridSquareRef[];
+  campInfo?: {
+    camps: string[];
+    onCampPress: (camp: string) => void;
+    onClose: () => void;
+    square: GridSquareRef;
+  };
   highlightedSquares: GridSquareRef[];
   interactiveSquares?: "highlighted" | "all";
   onGridSquarePress?: (gridSquare: GridSquareRef) => void;
 }
 
 export function CampMap({
+  campHighlightSquares = [],
+  campInfo,
   highlightedSquares,
   interactiveSquares = "highlighted",
   onGridSquarePress
@@ -36,6 +45,17 @@ export function CampMap({
       <View style={styles.mapFrame}>
         <Image source={campgroundMapImage} style={styles.mapImage} resizeMode="contain" />
         <View pointerEvents="box-none" style={styles.markerLayer}>
+          {campHighlightSquares.map((square) => {
+            const bounds = getGridSquareBounds(square);
+            const markerStyle = {
+              height: toPercent(bounds.height, CAMP_MAP_IMAGE.height),
+              left: toPercent(bounds.x, CAMP_MAP_IMAGE.width),
+              top: toPercent(bounds.y, CAMP_MAP_IMAGE.height),
+              width: toPercent(bounds.width, CAMP_MAP_IMAGE.width)
+            };
+
+            return <View key={`camp-${square.key}`} pointerEvents="none" style={[styles.campMarker, markerStyle]} />;
+          })}
           {highlightedSquares.map((square) => {
             const bounds = getGridSquareBounds(square);
             const markerStyle = {
@@ -97,8 +117,70 @@ export function CampMap({
               })
             : null}
         </View>
+        {campInfo ? <CampInfoOverlay info={campInfo} /> : null}
       </View>
     </View>
+  );
+}
+
+function CampInfoOverlay({
+  info
+}: {
+  info: {
+    camps: string[];
+    onCampPress: (camp: string) => void;
+    onClose: () => void;
+    square: GridSquareRef;
+  };
+}) {
+  const anchor = getGridSquareCenter(info.square);
+  const isBelowAnchor = anchor.yPercent < 50;
+  const topPercent = isBelowAnchor ? clamp(anchor.yPercent + 3, 3, 72) : clamp(anchor.yPercent - 18, 3, 72);
+  const horizontalPlacement = getBubbleHorizontalPlacement(anchor.xPercent);
+
+  return (
+    <>
+      <View
+        style={[
+          styles.campInfoPointer,
+          isBelowAnchor ? styles.campInfoPointerTop : styles.campInfoPointerBottom,
+          {
+            left: toPercent(anchor.xPercent, 100),
+            top: toPercent(anchor.yPercent, 100)
+          }
+        ]}
+      />
+      <View
+        style={[
+          styles.campInfoBubble,
+          {
+            top: toPercent(topPercent, 100)
+          },
+          horizontalPlacement
+        ]}
+      >
+        <View style={styles.campInfoHeader}>
+          <View style={styles.campInfoList}>
+            {info.camps.map((camp) => (
+              <Pressable accessibilityRole="button" key={camp} onPress={() => info.onCampPress(camp)} style={styles.campInfoButton}>
+                <Text numberOfLines={2} style={styles.campInfoButtonText}>
+                  {camp}
+                </Text>
+              </Pressable>
+            ))}
+          </View>
+          <Pressable
+            accessibilityLabel="Close camp info"
+            accessibilityRole="button"
+            hitSlop={8}
+            onPress={info.onClose}
+            style={styles.closeButton}
+          >
+            <Text style={styles.closeButtonText}>x</Text>
+          </Pressable>
+        </View>
+      </View>
+    </>
   );
 }
 
@@ -112,6 +194,33 @@ function GridSquareMarker({ label }: { label: string }) {
 
 function toPercent(value: number, total: number): `${number}%` {
   return `${(value / total) * 100}%`;
+}
+
+function getGridSquareCenter(square: GridSquareRef) {
+  const bounds = getGridSquareBounds(square);
+
+  return {
+    xPercent: ((bounds.x + bounds.width / 2) / CAMP_MAP_IMAGE.width) * 100,
+    yPercent: ((bounds.y + bounds.height / 2) / CAMP_MAP_IMAGE.height) * 100
+  };
+}
+
+function clamp(value: number, min: number, max: number) {
+  return Math.min(Math.max(value, min), max);
+}
+
+function getBubbleHorizontalPlacement(anchorXPercent: number) {
+  if (anchorXPercent < 22) {
+    return { left: "2%" as const };
+  }
+
+  if (anchorXPercent > 78) {
+    return { right: "2%" as const };
+  }
+
+  return {
+    left: toPercent(clamp(anchorXPercent - 12, 2, 72), 100)
+  };
 }
 
 const styles = StyleSheet.create({
@@ -143,6 +252,92 @@ const styles = StyleSheet.create({
   mapImage: {
     height: "100%",
     width: "100%"
+  },
+  campMarker: {
+    backgroundColor: "rgba(189, 243, 212, 0.42)",
+    borderColor: theme.colors.brandWarm,
+    borderRadius: 2,
+    borderWidth: 2,
+    pointerEvents: "none",
+    position: "absolute",
+    zIndex: 1
+  },
+  campInfoButton: {
+    alignItems: "center",
+    backgroundColor: theme.surfaces.input,
+    borderColor: theme.colors.borderSoft,
+    borderRadius: 999,
+    borderWidth: 1,
+    maxWidth: 148,
+    paddingHorizontal: 8,
+    paddingVertical: 5
+  },
+  campInfoButtonText: {
+    color: theme.colors.text,
+    fontSize: 11,
+    fontWeight: "900",
+    lineHeight: 14,
+    textAlign: "center"
+  },
+  campInfoHeader: {
+    alignItems: "center",
+    flexDirection: "row",
+    gap: 6,
+    justifyContent: "center"
+  },
+  campInfoList: {
+    alignItems: "center",
+    flexDirection: "row",
+    flexWrap: "wrap",
+    gap: 5,
+    justifyContent: "center",
+    maxWidth: 156
+  },
+  campInfoBubble: {
+    backgroundColor: theme.surfaces.cardStrong,
+    borderColor: theme.colors.border,
+    borderRadius: 8,
+    borderWidth: 1,
+    maxWidth: 190,
+    paddingHorizontal: 7,
+    paddingVertical: 6,
+    position: "absolute",
+    zIndex: 4
+  },
+  campInfoPointer: {
+    backgroundColor: theme.surfaces.cardStrong,
+    borderWidth: 1,
+    height: 10,
+    marginLeft: -5,
+    marginTop: -5,
+    position: "absolute",
+    transform: [{ rotate: "45deg" }],
+    width: 10,
+    zIndex: 4
+  },
+  campInfoPointerBottom: {
+    borderBottomColor: theme.colors.border,
+    borderLeftColor: "transparent",
+    borderRightColor: theme.colors.border,
+    borderTopColor: "transparent"
+  },
+  campInfoPointerTop: {
+    borderBottomColor: "transparent",
+    borderLeftColor: theme.colors.border,
+    borderRightColor: "transparent",
+    borderTopColor: theme.colors.border
+  },
+  closeButton: {
+    alignItems: "center",
+    height: 22,
+    justifyContent: "center",
+    width: 22
+  },
+  closeButtonText: {
+    color: theme.colors.text,
+    fontSize: 14,
+    fontWeight: "900",
+    lineHeight: 16
   },
   marker: {
     alignItems: "center",
