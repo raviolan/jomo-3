@@ -50,6 +50,7 @@ export interface FestivalEvent {
   time: EventTimeRange;
   category: FestivalCategory;
   host?: string;
+  campHost?: string;
   location: FestivalLocation;
   tags: FestivalTag[];
   description: string;

@@ -1,4 +1,4 @@
-import { usePathname, useRouter } from "expo-router";
+import { useGlobalSearchParams, usePathname, useRouter } from "expo-router";
 import { Pressable, StyleSheet, Text, View } from "react-native";
 import Svg, { Path } from "react-native-svg";
 
@@ -10,25 +10,32 @@ const shortcuts = [
     href: "/",
     label: "Home",
     icon: HomeIcon,
-    isActive: (pathname: string) => pathname === "/"
+    isActive: (pathname: string, view: string | undefined) => pathname === "/" && view !== "camps"
   },
   {
     href: "/saved",
     label: "Saved",
     icon: HeartIcon,
     isActive: (pathname: string) => pathname === "/saved"
+  },
+  {
+    href: "/?view=camps",
+    label: "Camps",
+    icon: TentIcon,
+    isActive: (pathname: string, view: string | undefined) => pathname === "/" && view === "camps"
   }
 ] as const;
 
 export function BottomShortcuts() {
   const pathname = usePathname();
+  const params = useGlobalSearchParams<{ view?: string }>();
   const router = useRouter();
 
   return (
     <View style={styles.shell}>
       <View style={styles.row}>
         {shortcuts.map((shortcut) => {
-          const active = shortcut.isActive(pathname);
+          const active = shortcut.isActive(pathname, params.view);
           const Icon = shortcut.icon;
           const itemStyle = StyleSheet.flatten([styles.item, active ? styles.itemActive : null]);
           const labelStyle = StyleSheet.flatten([styles.label, active ? styles.labelActive : null]);
@@ -39,7 +46,7 @@ export function BottomShortcuts() {
               accessibilityState={{ selected: active }}
               key={shortcut.href}
               onPress={() => {
-                if (shortcut.href === "/" && pathname === "/") {
+                if (shortcut.href === "/" && pathname === "/" && params.view !== "camps") {
                   requestHomeScrollToTop();
                   return;
                 }
@@ -82,6 +89,21 @@ function HeartIcon({ color }: { color: string }) {
         strokeLinejoin="round"
         strokeWidth={2}
       />
+    </Svg>
+  );
+}
+
+function TentIcon({ color }: { color: string }) {
+  return (
+    <Svg fill="none" height={21} viewBox="0 0 24 24" width={21}>
+      <Path
+        d="M4 20 12 5l8 15H4Z"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+      />
+      <Path d="M12 5v15M8.5 20 12 13l3.5 7" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} />
     </Svg>
   );
 }

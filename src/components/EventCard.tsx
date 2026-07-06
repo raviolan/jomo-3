@@ -45,6 +45,11 @@ export function EventCard({ event, isSaved, onToggleSaved }: EventCardProps) {
             {event.host}
           </Text>
         ) : null}
+        {event.campHost ? (
+          <Text style={styles.campHost} numberOfLines={1}>
+            {event.campHost}
+          </Text>
+        ) : null}
       </Pressable>
     </Link>
   );
@@ -58,6 +63,11 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     gap: 10,
     padding: 14
+  },
+  campHost: {
+    color: theme.colors.brand,
+    fontSize: 13,
+    fontWeight: "800"
   },
   category: {
     color: theme.colors.brand,

@@ -32,6 +32,13 @@ const tags = [
   "Triggering themes"
 ];
 
+const metadataFlagAliases = [
+  ...tags,
+  "Queer inclusive",
+  "Queer-focused",
+  "Queer focused"
+];
+
 const areaNames = [
   "Arctic chill",
   "Bison - North",
@@ -217,6 +224,7 @@ function buildEvents(lines, eventStarts, dayRanges) {
         },
         category,
         host: parsedBody.host,
+        campHost: parsedBody.campHost,
         location: parsedBody.location,
         tags: parsedBody.tags,
         description: parsedBody.description,
@@ -265,12 +273,44 @@ function parseBody(lines) {
   const descriptionLines = lines.slice(safeLocationIndex + 1);
   description.push(...descriptionLines);
 
+  const parsedMetadata = parseEventMetadata(metadata.join(" "));
+
   return {
-    host: metadata.join(" ").replace(/\s+/g, " ").trim() || undefined,
+    host: parsedMetadata.host,
+    campHost: parsedMetadata.campHost,
     tags: foundTags,
     location: parseLocation(locationLines.join(" ")),
     description: description.join(" ").replace(/\s+/g, " ").trim()
   };
+}
+
+function parseEventMetadata(value) {
+  const cleaned = cleanMetadata(value);
+  if (!cleaned) {
+    return {};
+  }
+
+  const parts = cleaned
+    .split("/")
+    .map((part) => cleanMetadata(part))
+    .filter(Boolean);
+
+  if (parts.length < 2) {
+    return { host: cleaned };
+  }
+
+  return {
+    host: parts.slice(0, -1).join(" / "),
+    campHost: parts[parts.length - 1]
+  };
+}
+
+function cleanMetadata(value) {
+  return metadataFlagAliases
+    .reduce((next, tag) => next.replaceAll(tag, ""), value)
+    .replace(/\s+/g, " ")
+    .replace(/(?:\s*[·-]\s*)+$/g, "")
+    .trim();
 }
 
 function extractTags(value) {

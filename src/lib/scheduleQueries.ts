@@ -31,10 +31,18 @@ export function getCategories(): FestivalCategory[] {
   return Array.from(new Set(schedule.events.map((event) => event.category))).sort();
 }
 
+export function getCampHosts(): string[] {
+  return Array.from(new Set(schedule.events.map((event) => event.campHost).filter(isDefinedString))).sort((a, b) =>
+    a.localeCompare(b)
+  );
+}
+
 export interface EventSearchFilters {
   dayId?: string;
   category?: FestivalCategory | "all";
   query?: string;
+  campHostsOnly?: boolean;
+  campHosts?: string[];
 }
 
 export function getDefaultScheduleDayId(now = new Date()): string {
@@ -46,12 +54,21 @@ export function getDefaultScheduleDayId(now = new Date()): string {
 
 export function searchEvents(filters: EventSearchFilters, now = new Date()): FestivalEvent[] {
   const query = normalizeSearch(filters.query ?? "");
+  const selectedCampHosts = new Set(filters.campHosts ?? []);
   const matchingEvents = schedule.events.filter((event) => {
     if (filters.dayId && event.dayId !== filters.dayId) {
       return false;
     }
 
     if (filters.category && filters.category !== "all" && event.category !== filters.category) {
+      return false;
+    }
+
+    if (filters.campHostsOnly && !event.campHost) {
+      return false;
+    }
+
+    if (selectedCampHosts.size > 0 && (!event.campHost || !selectedCampHosts.has(event.campHost))) {
       return false;
     }
 
@@ -64,6 +81,7 @@ export function searchEvents(filters: EventSearchFilters, now = new Date()): Fes
         event.title,
         event.category,
         event.host,
+        event.campHost,
         event.location.name,
         event.location.area,
         event.location.gridSquare,
@@ -124,6 +142,10 @@ export function sortEventsForSelectedDay(
 
 function normalizeSearch(value: string): string {
   return value.trim().toLocaleLowerCase();
+}
+
+function isDefinedString(value: string | undefined): value is string {
+  return Boolean(value);
 }
 
 function getEventTiming(event: FestivalEvent, now: Date): { group: number; sortTime: number } {

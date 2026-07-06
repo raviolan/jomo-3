@@ -1,7 +1,7 @@
 import type { NormalizedSchedule } from "@/models/schedule";
 
 const generatedSchedule: NormalizedSchedule = {
-  "generatedAt": "2026-07-05T20:52:51.053Z",
+  "generatedAt": "2026-07-06T06:30:03.747Z",
   "sourcePdf": "guide_A4_preview.pdf",
   "days": [
     {
@@ -130,7 +130,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:00"
       },
       "category": "Art/Installation",
-      "host": "tiny bag check hostess / back alley",
+      "host": "tiny bag check hostess",
+      "campHost": "back alley",
       "location": {
         "name": "in the barn by Lucifer's pit"
       },
@@ -155,7 +156,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 16:00"
       },
       "category": "Workshop/Class",
-      "host": "Icarus / All Senses, No Sense",
+      "host": "Icarus",
+      "campHost": "All Senses, No Sense",
       "location": {
         "name": "Eastern Slope, X16.",
         "area": "Eastern Slope",
@@ -180,7 +182,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:03 - 16:04"
       },
       "category": "Workshop/Class",
-      "host": "Here / SINagogue",
+      "host": "Here",
+      "campHost": "SINagogue",
       "location": {
         "name": "Downtown, grid square K21. Under the church - Ask about Here at the",
         "area": "Downtown",
@@ -206,7 +209,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 23:00"
       },
       "category": "Music/Performance/Show",
-      "host": "The Great Aleks Delta / Blackwater Operations",
+      "host": "The Great Aleks Delta",
+      "campHost": "Blackwater Operations",
       "location": {
         "name": "Swamp, grid square Q18. Look for the glorious American flag flying above The",
         "area": "Swamp",
@@ -258,7 +262,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:00 - 23:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Jon G. Lör & Itsi-Bitsi / By the fire in Camp Spaceport",
+      "host": "Jon G. Lör & Itsi-Bitsi",
+      "campHost": "By the fire in Camp Spaceport",
       "location": {
         "name": "Lowlands, grid square P13. Look for the big pink temple and the Spaceport",
         "area": "Lowlands",
@@ -286,7 +291,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "00:00 - 23:59"
       },
       "category": "Games/Play",
-      "host": "Miss Information / Acid Aunties & Nasty Uncles Adults only ·",
+      "host": "Miss Information",
+      "campHost": "Acid Aunties & Nasty Uncles",
       "location": {
         "name": "Sunny Hills, grid square J22. Look for a grumpy old hag - good luck",
         "area": "Sunny Hills",
@@ -419,7 +425,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "06:00 - 07:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Lars & Teresa / Njorunn's Garden",
+      "host": "Lars & Teresa",
+      "campHost": "Njorunn's Garden",
       "location": {
         "name": "Downtown, grid square M20.",
         "area": "Downtown",
@@ -501,7 +508,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "09:30 - 13:30"
       },
       "category": "Games/Play",
-      "host": "Crow (Debbie) / Slothenhive · · Queer inclusive",
+      "host": "Crow (Debbie)",
+      "campHost": "Slothenhive",
       "location": {
         "name": "Lowlands, grid square Q13. An enclosed area with dog toys and shade.",
         "area": "Lowlands",
@@ -530,7 +538,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "09:30 - 10:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Self-led / Spaceport",
+      "host": "Self-led",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink temple, Lowlands",
         "area": "Lowlands",
@@ -558,7 +567,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 10:45"
       },
       "category": "Workshop/Class",
-      "host": "Robin Bäckström / Feromonia",
+      "host": "Robin Bäckström",
+      "campHost": "Feromonia",
       "location": {
         "name": "Swamp, grid square T18. @Feromonia, look for glamping bell tent with black",
         "area": "Swamp",
@@ -586,7 +596,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 17:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Kakan, Sickan and Akselito / Java the hut",
+      "host": "Kakan, Sickan and Akselito",
+      "campHost": "Java the hut",
       "location": {
         "name": "Highlands, grid square M09.",
         "area": "Highlands",
@@ -612,7 +623,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 16:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Mårten and Lova / Nest & Twigs",
+      "host": "Mårten and Lova",
+      "campHost": "Nest & Twigs",
       "location": {
         "name": "Bison - South, grid square P24. By the tree house in Bison",
         "area": "Bison - South",
@@ -638,7 +650,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 11:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Little Bear / Spaceport",
+      "host": "Little Bear",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink temple, Lowlands",
         "area": "Lowlands",
@@ -666,7 +679,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:30 - 12:30"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Oskar / A Camp has no Name",
+      "host": "Oskar",
+      "campHost": "A Camp has no Name",
       "location": {
         "name": "Arctic chill, grid square O06.",
         "area": "Arctic chill",
@@ -720,7 +734,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:30 - 12:00"
       },
       "category": "Workshop/Class",
-      "host": "Depends on the day, see program board by SG / Secret Garden",
+      "host": "Depends on the day, see program board by SG",
+      "campHost": "Secret Garden",
       "location": {
         "name": "Downtown, grid square M21. Big white star shaped tent in the Secret Garden",
         "area": "Downtown",
@@ -749,7 +764,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:30 - 11:30"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Lil'L / Socialen",
+      "host": "Lil'L",
+      "campHost": "Socialen",
       "location": {
         "name": "Bison - South, grid square O22. Sunset Plaza",
         "area": "Bison - South",
@@ -775,7 +791,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:30 - 11:30"
       },
       "category": "Workshop/Class",
-      "host": "Erica Velour / Trantric Trolls",
+      "host": "Erica Velour",
+      "campHost": "Trantric Trolls",
       "location": {
         "name": "Highlands, grid square N11. At Penta Plaza",
         "area": "Highlands",
@@ -803,7 +820,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:59 - 11:45"
       },
       "category": "Workshop/Class",
-      "host": "Alexander Walter / The Observatory",
+      "host": "Alexander Walter",
+      "campHost": "The Observatory",
       "location": {
         "name": "Swamp, grid square Q19.",
         "area": "Swamp",
@@ -831,7 +849,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 12:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Domile, Tutte, Matilde / Foyaé Villa Hutlös Queer inclusive",
+      "host": "Domile, Tutte, Matilde",
+      "campHost": "Foyaé Villa Hutlös",
       "location": {
         "name": "Eastern Slope, grid square V17. Look for the wool! Follow the smell!",
         "area": "Eastern Slope",
@@ -885,7 +904,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 12:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "SWICKY / Jam camp",
+      "host": "SWICKY",
+      "campHost": "Jam camp",
       "location": {
         "name": "Lowlands, grid square R13. Behind Space Port , red white circus tent, lowlands,",
         "area": "Lowlands",
@@ -994,7 +1014,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 13:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Nyx / The Sapphic Pond · Queer-focused",
+      "host": "Nyx",
+      "campHost": "The Sapphic Pond",
       "location": {
         "name": "Sunny Hills, grid square J21. Follow the lesbian flag and the fairy lights to the",
         "area": "Sunny Hills",
@@ -1022,7 +1043,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:30 - 13:00"
       },
       "category": "Workshop/Class",
-      "host": "Kalle Grill / Shimmering by the forest edge",
+      "host": "Kalle Grill",
+      "campHost": "Shimmering by the forest edge",
       "location": {
         "name": "Arctic chill, grid square O06. In the Arctic Chill, close to Pamper Plaza, behind",
         "area": "Arctic chill",
@@ -1050,7 +1072,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:40 - 12:10"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Lil'L / Socialen",
+      "host": "Lil'L",
+      "campHost": "Socialen",
       "location": {
         "name": "Bison - South, grid square O22. Sunset Plaza",
         "area": "Bison - South",
@@ -1076,7 +1099,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 12:30"
       },
       "category": "Workshop/Class",
-      "host": "Anton Grip / Cloud Cartel",
+      "host": "Anton Grip",
+      "campHost": "Cloud Cartel",
       "location": {
         "name": "Highlands, grid square P11.",
         "area": "Highlands",
@@ -1102,7 +1126,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 13:30"
       },
       "category": "Workshop/Class",
-      "host": "Jonas Näslund / Club SIN ·",
+      "host": "Jonas Näslund",
+      "campHost": "Club SIN",
       "location": {
         "name": "Bison - North, grid square N19. By the Shameless Plaza",
         "area": "Bison - North",
@@ -1158,7 +1183,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 13:00"
       },
       "category": "Workshop/Class",
-      "host": "Göran / Event place",
+      "host": "Göran",
+      "campHost": "Event place",
       "location": {
         "name": "Sunny Hills, grid square J21. Event place (at Sunny Hills, behind the Clown",
         "area": "Sunny Hills",
@@ -1186,7 +1212,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 13:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "PV / Spaceport",
+      "host": "PV",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink temple, Lowlands",
         "area": "Lowlands",
@@ -1214,7 +1241,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:15 - 13:45"
       },
       "category": "Workshop/Class",
-      "host": "Erica Velour / Tantric Trolls",
+      "host": "Erica Velour",
+      "campHost": "Tantric Trolls",
       "location": {
         "name": "Highlands, grid square N11. Penta Plaza",
         "area": "Highlands",
@@ -1242,7 +1270,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:15 - 13:30"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Mikkel / The Rabbit Hole",
+      "host": "Mikkel",
+      "campHost": "The Rabbit Hole",
       "location": {
         "name": "Sober"
       },
@@ -1297,7 +1326,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:00"
       },
       "category": "Art/Installation",
-      "host": "tiny bag check hostess / back alley",
+      "host": "tiny bag check hostess",
+      "campHost": "back alley",
       "location": {
         "name": "in the barn by Lucifer's pit"
       },
@@ -1322,7 +1352,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:00"
       },
       "category": "Workshop/Class",
-      "host": "Sabrine / Camp All Senses, No Sense",
+      "host": "Sabrine",
+      "campHost": "Camp All Senses, No Sense",
       "location": {
         "name": "Eastern Slope, grid square W16. Look for the Tipi tent, AA sign and the",
         "area": "Eastern Slope",
@@ -1351,7 +1382,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:00"
       },
       "category": "Games/Play",
-      "host": "Göran / Event place",
+      "host": "Göran",
+      "campHost": "Event place",
       "location": {
         "name": "Sunny Hills, grid square J21. Event place (at Sunny Hills, behind the Clown",
         "area": "Sunny Hills",
@@ -1377,7 +1409,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Philip / Flowzone monkeybar",
+      "host": "Philip",
+      "campHost": "Flowzone monkeybar",
       "location": {
         "name": "Highlands, grid square M11. Highlands, Penta plaza (big flag) next to Chilldome",
         "area": "Highlands",
@@ -1403,7 +1436,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 17:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Timothy / K9 - Constellations",
+      "host": "Timothy",
+      "campHost": "K9 - Constellations",
       "location": {
         "name": "Downtown, grid square K21. in the dark dungeons of the church",
         "area": "Downtown",
@@ -1431,7 +1465,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 16:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Jelena / Mermaid Camp",
+      "host": "Jelena",
+      "campHost": "Mermaid Camp",
       "location": {
         "name": "Arctic chill, grid square L05.",
         "area": "Arctic chill",
@@ -1457,7 +1492,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 16:00"
       },
       "category": "Party/Gathering",
-      "host": "celala & Mr black / Occult Oasis Pool Parties",
+      "host": "celala & Mr black",
+      "campHost": "Occult Oasis Pool Parties",
       "location": {
         "name": "Sunny Hills, grid square H22. At sunny hills, next to the water and the saunas",
         "area": "Sunny Hills",
@@ -1483,7 +1519,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "JJ / Plutonia ·",
+      "host": "JJ",
+      "campHost": "Plutonia",
       "location": {
         "name": "Downtown, grid square M19.",
         "area": "Downtown",
@@ -1513,7 +1550,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:30"
       },
       "category": "Workshop/Class",
-      "host": "Depends on the day, see program board by SG / Secret Garden",
+      "host": "Depends on the day, see program board by SG",
+      "campHost": "Secret Garden",
       "location": {
         "name": "Downtown, grid square M21. Big white star shaped tent in the Secret Garden",
         "area": "Downtown",
@@ -1595,7 +1633,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 16:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Fanny Henriksson / Wondrous Forge ·",
+      "host": "Fanny Henriksson",
+      "campHost": "Wondrous Forge",
       "location": {
         "name": "Swamp, grid square S17. next to the Fire Plaza, under a linenroof. Contact for",
         "area": "Swamp",
@@ -1654,7 +1693,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:30 - 15:30"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Amy / Shimmering by the forest edge",
+      "host": "Amy",
+      "campHost": "Shimmering by the forest edge",
       "location": {
         "name": "Arctic chill, grid square O06. In the Arctic Chill, close to Pamper Plaza, behind",
         "area": "Arctic chill",
@@ -1682,7 +1722,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 16:00"
       },
       "category": "Workshop/Class",
-      "host": "Ezequiel and Jemma / Beaver Issues ·",
+      "host": "Ezequiel and Jemma",
+      "campHost": "Beaver Issues",
       "location": {
         "name": "Arctic chill, grid square P07. Look for the beaver sign and stretch tent",
         "area": "Arctic chill",
@@ -1713,7 +1754,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:00"
       },
       "category": "Workshop/Class",
-      "host": "Radiant / Cheeky Butt Chill Camp",
+      "host": "Radiant",
+      "campHost": "Cheeky Butt Chill Camp",
       "location": {
         "name": "Highlands, grid square N11.",
         "area": "Highlands",
@@ -1742,7 +1784,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 16:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Rasmus (Professor emeritus in Advanced Cuddle Puddle Dynamics and Etiquette at the institute of Advanced Cuddle Puddle Dynamics and Etiquette, Cambridge University) / Chilldome",
+      "host": "Rasmus (Professor emeritus in Advanced Cuddle Puddle Dynamics and Etiquette at the institute of Advanced Cuddle Puddle Dynamics and Etiquette, Cambridge University)",
+      "campHost": "Chilldome",
       "location": {
         "name": "Highlands, grid square M11. Big dome in the Penta Plaza.",
         "area": "Highlands",
@@ -1768,7 +1811,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 16:00"
       },
       "category": "Workshop/Class",
-      "host": "Dr. Catman & Ellen / Club SIN · · Sex positive",
+      "host": "Dr. Catman & Ellen",
+      "campHost": "Club SIN",
       "location": {
         "name": "Bison - North, grid square N19. By the Shameless Plaza",
         "area": "Bison - North",
@@ -1797,7 +1841,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:00"
       },
       "category": "Workshop/Class",
-      "host": "Matthias / End Of The Rainbow",
+      "host": "Matthias",
+      "campHost": "End Of The Rainbow",
       "location": {
         "name": "Bison - North, grid square N20. Cross from downtown garden over the wooden",
         "area": "Bison - North",
@@ -1823,7 +1868,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:00"
       },
       "category": "Games/Play",
-      "host": "Göran / Event place",
+      "host": "Göran",
+      "campHost": "Event place",
       "location": {
         "name": "Sunny Hills, grid square J21. Event place (at Sunny Hills, behind the Clown",
         "area": "Sunny Hills",
@@ -1849,7 +1895,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:30"
       },
       "category": "Care/Support/Pampering",
-      "host": "Kia & Jessica / Mystic Groove",
+      "host": "Kia & Jessica",
+      "campHost": "Mystic Groove",
       "location": {
         "name": "Lowlands, grid square T13. We will gather at our camp Mystic Groove in South-",
         "area": "Lowlands",
@@ -1877,7 +1924,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 16:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Dominika and Erin / Plutonia",
+      "host": "Dominika and Erin",
+      "campHost": "Plutonia",
       "location": {
         "name": "Downtown, grid square M19.",
         "area": "Downtown",
@@ -1906,7 +1954,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:00"
       },
       "category": "Workshop/Class",
-      "host": "Agnez / Rainbow Razzle",
+      "host": "Agnez",
+      "campHost": "Rainbow Razzle",
       "location": {
         "name": "Bison - South, grid square O22. Event held at ”Socialen”, Sunset Plaza",
         "area": "Bison - South",
@@ -1934,7 +1983,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:00"
       },
       "category": "Workshop/Class",
-      "host": "Raul / Secret sailors",
+      "host": "Raul",
+      "campHost": "Secret sailors",
       "location": {
         "name": "Lowlands, grid square R12.",
         "area": "Lowlands",
@@ -1962,7 +2012,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:00"
       },
       "category": "Workshop/Class",
-      "host": "Raulito / Secret Sailors",
+      "host": "Raulito",
+      "campHost": "Secret Sailors",
       "location": {
         "name": "Lowlands, grid square R12. Secret Sailors tent by Lowlands plaza",
         "area": "Lowlands",
@@ -1988,7 +2039,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 16:00"
       },
       "category": "Workshop/Class",
-      "host": "Kevin / Spaceport",
+      "host": "Kevin",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink temple, Lowlands",
         "area": "Lowlands",
@@ -2014,7 +2066,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:30"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Rasmus / Tantric Trolls",
+      "host": "Rasmus",
+      "campHost": "Tantric Trolls",
       "location": {
         "name": "Highlands, grid square N11.",
         "area": "Highlands",
@@ -2042,7 +2095,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:30"
       },
       "category": "Workshop/Class",
-      "host": "Mycela / The freaking bitches",
+      "host": "Mycela",
+      "campHost": "The freaking bitches",
       "location": {
         "name": "Swamp, grid square R19.",
         "area": "Swamp",
@@ -2070,7 +2124,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:30"
       },
       "category": "Ritual/Ceremony",
-      "host": "Oline Abildstrøm / The Observatory",
+      "host": "Oline Abildstrøm",
+      "campHost": "The Observatory",
       "location": {
         "name": "Swamp, grid square Q19.",
         "area": "Swamp",
@@ -2096,7 +2151,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Goose / Wild Sacred Fire",
+      "host": "Goose",
+      "campHost": "Wild Sacred Fire",
       "location": {
         "name": "Swamp, grid square S17. Right at the Fire Plaza in Swamp",
         "area": "Swamp",
@@ -2125,7 +2181,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 16:00"
       },
       "category": "Games/Play",
-      "host": "Göran / Event place",
+      "host": "Göran",
+      "campHost": "Event place",
       "location": {
         "name": "Sunny Hills, grid square J21. Event place (at Sunny Hills, behind the Clown",
         "area": "Sunny Hills",
@@ -2151,7 +2208,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 16:00"
       },
       "category": "Workshop/Class",
-      "host": "Lukas Lilja / Captain Silly Songs / Jam Camp",
+      "host": "Lukas Lilja / Captain Silly Songs",
+      "campHost": "Jam Camp",
       "location": {
         "name": "Lowlands, grid square R13.",
         "area": "Lowlands",
@@ -2203,7 +2261,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 19:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Philea & Pan / Room of Requirements",
+      "host": "Philea & Pan",
+      "campHost": "Room of Requirements",
       "location": {
         "name": "Eastern Slope, grid square V19. Entry from the road",
         "area": "Eastern Slope",
@@ -2229,7 +2288,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 16:30"
       },
       "category": "Music/Performance/Show",
-      "host": "Leo / The Dreamers",
+      "host": "Leo",
+      "campHost": "The Dreamers",
       "location": {
         "name": "Arctic chill, grid square L04.",
         "area": "Arctic chill",
@@ -2279,7 +2339,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 16:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Vicca / Yggdrasil",
+      "host": "Vicca",
+      "campHost": "Yggdrasil",
       "location": {
         "name": "Highlands, grid square O10. in the big Tipi",
         "area": "Highlands",
@@ -2305,7 +2366,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:30 - 17:00"
       },
       "category": "Workshop/Class",
-      "host": "Dr. Squishybear / Yggdrasil",
+      "host": "Dr. Squishybear",
+      "campHost": "Yggdrasil",
       "location": {
         "name": "Highlands, grid square O10. in the big Tipi",
         "area": "Highlands",
@@ -2333,7 +2395,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 17:00"
       },
       "category": "Workshop/Class",
-      "host": "Mistress Mercury / Club SIN · · Queer inclusive ·",
+      "host": "Mistress Mercury",
+      "campHost": "Club SIN",
       "location": {
         "name": "Bison - North, grid square N19. By the Shameless Plaza",
         "area": "Bison - North",
@@ -2364,7 +2427,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Food/Drinks",
-      "host": "FLJ or Michaelangelo / End of the Block Lounge",
+      "host": "FLJ or Michaelangelo",
+      "campHost": "End of the Block Lounge",
       "location": {
         "name": "Swamp, grid square U16. We are located where The Swamp, The Missing Piece",
         "area": "Swamp",
@@ -2390,7 +2454,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 16:30"
       },
       "category": "Games/Play",
-      "host": "Göran / Event place",
+      "host": "Göran",
+      "campHost": "Event place",
       "location": {
         "name": "Sunny Hills, grid square J21. Event place (at Sunny Hills, behind the Clown",
         "area": "Sunny Hills",
@@ -2416,7 +2481,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Games/Play",
-      "host": "Cupcakes / GlitterTind · · Queer inclusive",
+      "host": "Cupcakes",
+      "campHost": "GlitterTind",
       "location": {
         "name": "Bison - North, grid square O20. Shameless plaza next to sinnergirl",
         "area": "Bison - North",
@@ -2445,7 +2511,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 17:00"
       },
       "category": "Food/Drinks",
-      "host": "Haky & Merci / Haky & Merci",
+      "host": "Haky & Merci",
+      "campHost": "Haky & Merci",
       "location": {
         "name": "Arctic chill, grid square L08. Orange Van",
         "area": "Arctic chill",
@@ -2500,7 +2567,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 17:30"
       },
       "category": "Workshop/Class",
-      "host": "The Ickys / MŸS · · · Sex positive",
+      "host": "The Ickys",
+      "campHost": "MŸS",
       "location": {
         "name": "Swamp, grid square T16. We will be inside the Dome structure.",
         "area": "Swamp",
@@ -2530,7 +2598,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Food/Drinks",
-      "host": "Nick / Schorle Bar",
+      "host": "Nick",
+      "campHost": "Schorle Bar",
       "location": {
         "name": "Swamp, grid square R18. Directly at the Water Plaza in the Swamp",
         "area": "Swamp",
@@ -2556,7 +2625,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 17:00"
       },
       "category": "Art/Installation",
-      "host": "Captain Hook / Secret Sailors",
+      "host": "Captain Hook",
+      "campHost": "Secret Sailors",
       "location": {
         "name": "Lowlands, grid square R12. Lowlands Plaza, close to Secret Sailors camp.",
         "area": "Lowlands",
@@ -2585,7 +2655,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Britta / Spaceport ·",
+      "host": "Britta",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink temple, Lowlands",
         "area": "Lowlands",
@@ -2615,7 +2686,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Nansea + Mrwien / Spaceport Camp VIP Lounge",
+      "host": "Nansea + Mrwien",
+      "campHost": "Spaceport Camp VIP Lounge",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink temple, Lowlands",
         "area": "Lowlands",
@@ -2641,7 +2713,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Games/Play",
-      "host": "Nyxie / The Sapphic Pond · Queer-focused",
+      "host": "Nyxie",
+      "campHost": "The Sapphic Pond",
       "location": {
         "name": "Sunny Hills, grid square J21. Look for the lesbian flag, we fly it on a pole and",
         "area": "Sunny Hills",
@@ -2669,7 +2742,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "17:00 - 18:00"
       },
       "category": "Workshop/Class",
-      "host": "Dr. Catman / Club SIN",
+      "host": "Dr. Catman",
+      "campHost": "Club SIN",
       "location": {
         "name": "Bison - North, grid square N19. By the Shameless Plaza",
         "area": "Bison - North",
@@ -2697,7 +2771,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "17:00 - 20:00"
       },
       "category": "Music/Performance/Show",
-      "host": "DR.DUUS / DOG DOG DUUS / JAM CAMP",
+      "host": "DR.DUUS / DOG DOG DUUS",
+      "campHost": "JAM CAMP",
       "location": {
         "name": "Lowlands, grid square R13. LOWLANDS - BEHIND Spaceport 50 m. Along grass",
         "area": "Lowlands",
@@ -2779,7 +2854,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "18:00 - 19:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Fire Brigade / Fire Brigade",
+      "host": "Fire Brigade",
+      "campHost": "Fire Brigade",
       "location": {
         "name": "Swamp, grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet",
         "area": "Swamp",
@@ -2805,7 +2881,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "18:00 - 00:00"
       },
       "category": "Party/Gathering",
-      "host": "Kishmastle Spacestation / Kishmastle Spacestation",
+      "host": "Kishmastle Spacestation",
+      "campHost": "Kishmastle Spacestation",
       "location": {
         "name": "Muumin Valley, grid square F10. From sanctuary-follow the forest path toward",
         "gridSquare": "F10"
@@ -2829,7 +2906,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "18:00 - 19:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Miksu / Löyhä Liitto",
+      "host": "Miksu",
+      "campHost": "Löyhä Liitto",
       "location": {
         "name": "Eastern Slope, grid square U20. Look for the foxes on top of the hill, crawl into",
         "area": "Eastern Slope",
@@ -2855,7 +2933,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "18:00 - 19:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "The Storytelling Fairy / Once Upon A Camp",
+      "host": "The Storytelling Fairy",
+      "campHost": "Once Upon A Camp",
       "location": {
         "name": "Arctic chill, grid square O07. Go to the Arctic Chill plaza. You will find signs and",
         "area": "Arctic chill",
@@ -2881,7 +2960,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "18:00 - 19:00"
       },
       "category": "Art/Installation",
-      "host": "FridaW / RA dancefloor",
+      "host": "FridaW",
+      "campHost": "RA dancefloor",
       "location": {
         "name": "Bison - North, grid square O20.",
         "area": "Bison - North",
@@ -2907,7 +2987,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "18:00 - 02:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "FridaW / RA dancefloor",
+      "host": "FridaW",
+      "campHost": "RA dancefloor",
       "location": {
         "name": "Bison - North, grid square O20.",
         "area": "Bison - North",
@@ -2935,7 +3016,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "18:00 - 20:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "The Djinns / The Genie's Lamp",
+      "host": "The Djinns",
+      "campHost": "The Genie's Lamp",
       "location": {
         "name": "Highlands, grid square N13. Agrabah Village, in south eastern Highlands",
         "area": "Highlands",
@@ -2963,7 +3045,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "18:15 - 20:15"
       },
       "category": "Workshop/Class",
-      "host": "Anna & Flo / Tantric Trolls · · Queer inclusive",
+      "host": "Anna & Flo",
+      "campHost": "Tantric Trolls",
       "location": {
         "name": "Highlands, grid square N11. At Penta Plaza, Highlands",
         "area": "Highlands",
@@ -2993,7 +3076,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "18:20 - 19:20"
       },
       "category": "Ritual/Ceremony",
-      "host": "Jonathan / The Jousting Jesters",
+      "host": "Jonathan",
+      "campHost": "The Jousting Jesters",
       "location": {
         "name": "Swamp, grid square Q19. By the patch of trees/forest in Swamp, on the side",
         "area": "Swamp",
@@ -3047,7 +3131,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "19:00 - 21:00"
       },
       "category": "Food/Drinks",
-      "host": "The Sweet Spot / The Sweet Spot",
+      "host": "The Sweet Spot",
+      "campHost": "The Sweet Spot",
       "location": {
         "name": "Lowlands, grid square P13. White with red decorations. Follow the glorious smell",
         "area": "Lowlands",
@@ -3102,7 +3187,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "19:00 - 20:30"
       },
       "category": "Ritual/Ceremony",
-      "host": "Juicy Booboo / Yggdrasil",
+      "host": "Juicy Booboo",
+      "campHost": "Yggdrasil",
       "location": {
         "name": "Highlands, grid square O10. in the big Tipi",
         "area": "Highlands",
@@ -3128,7 +3214,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "19:30 - 21:30"
       },
       "category": "Music/Performance/Show",
-      "host": "StefStern / IcKEA",
+      "host": "StefStern",
+      "campHost": "IcKEA",
       "location": {
         "name": "The Villa, grid square K15.",
         "gridSquare": "K15"
@@ -3178,7 +3265,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 22:00"
       },
       "category": "Music/Performance/Show",
-      "host": "DJ Senator Snowflake / Blackwater Operations",
+      "host": "DJ Senator Snowflake",
+      "campHost": "Blackwater Operations",
       "location": {
         "name": "Swamp, grid square Q18. Look for the glorious American flag flying above The",
         "area": "Swamp",
@@ -3204,7 +3292,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 22:00"
       },
       "category": "Workshop/Class",
-      "host": "Moad / Camp Socialen",
+      "host": "Moad",
+      "campHost": "Camp Socialen",
       "location": {
         "name": "Bison - South, grid square O22.",
         "area": "Bison - South",
@@ -3233,7 +3322,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 00:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Pinkyscha / CIRCUS the ANALOG",
+      "host": "Pinkyscha",
+      "campHost": "CIRCUS the ANALOG",
       "location": {
         "name": "Swamp, grid square S18. The BIG circus tent",
         "area": "Swamp",
@@ -3259,7 +3349,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 21:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Lukas Lilja / Captian Silly Songs / Club Sin",
+      "host": "Lukas Lilja / Captian Silly Songs",
+      "campHost": "Club Sin",
       "location": {
         "name": "Bison - North, grid square N19.",
         "area": "Bison - North",
@@ -3285,7 +3376,7 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 02:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Club SIN ·",
+      "host": "Club SIN",
       "location": {
         "name": "Bison - North, grid square N19. By the Shameful Plaza",
         "area": "Bison - North",
@@ -3371,7 +3462,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 21:00"
       },
       "category": "Music/Performance/Show",
-      "host": "JAM CAMP / JAM CAMP",
+      "host": "JAM CAMP",
+      "campHost": "JAM CAMP",
       "location": {
         "name": "Lowlands, grid square R13. 50 meters behind Spaceport in Lowlands - right at",
         "area": "Lowlands",
@@ -3397,7 +3489,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 22:00"
       },
       "category": "Party/Gathering",
-      "host": "Secret Sailors camp / Secret Sailors",
+      "host": "Secret Sailors camp",
+      "campHost": "Secret Sailors",
       "location": {
         "name": "Lowlands, grid square R12. Look for red and green flags by the entrance of a",
         "area": "Lowlands",
@@ -3425,7 +3518,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 22:00"
       },
       "category": "Games/Play",
-      "host": "Nyxie / The Sapphic Pond Queer-focused",
+      "host": "Nyxie",
+      "campHost": "The Sapphic Pond",
       "location": {
         "name": "Sunny Hills, grid square J21. Look for the lesbian flag, we fly it on a pole and",
         "area": "Sunny Hills",
@@ -3451,7 +3545,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 22:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Touch Divine crew / Touch Divine",
+      "host": "Touch Divine crew",
+      "campHost": "Touch Divine",
       "location": {
         "name": "Wedge, grid square R22. South-east of BL",
         "gridSquare": "R22"
@@ -3477,7 +3572,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 21:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Rolf / Yggdrasil",
+      "host": "Rolf",
+      "campHost": "Yggdrasil",
       "location": {
         "name": "Highlands, grid square O10. in the big Tipi",
         "area": "Highlands",
@@ -3503,7 +3599,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:30 - 22:30"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Danulia / Tantric trolls",
+      "host": "Danulia",
+      "campHost": "Tantric trolls",
       "location": {
         "name": "Highlands, grid square N11. Penta plaza",
         "area": "Highlands",
@@ -3584,7 +3681,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "21:00 - 22:30"
       },
       "category": "Ritual/Ceremony",
-      "host": "Laura / The Genie's Lamp",
+      "host": "Laura",
+      "campHost": "The Genie's Lamp",
       "location": {
         "name": "Highlands, grid square N13. Agrabah Village, in south eastern Highlands",
         "area": "Highlands",
@@ -3612,7 +3710,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "21:00 - 01:00"
       },
       "category": "Party/Gathering",
-      "host": "Camp Yggdrasil / Yggdrasil",
+      "host": "Camp Yggdrasil",
+      "campHost": "Yggdrasil",
       "location": {
         "name": "Highlands, grid square O10. in the big Tipi",
         "area": "Highlands",
@@ -3664,7 +3763,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "21:30 - 22:30"
       },
       "category": "Music/Performance/Show",
-      "host": "Spaceport crew / Spaceport",
+      "host": "Spaceport crew",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P13. The Tall Pink Temple, Lowlands",
         "area": "Lowlands",
@@ -3690,7 +3790,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:00 - 00:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Rodrigo / Circus the Analog",
+      "host": "Rodrigo",
+      "campHost": "Circus the Analog",
       "location": {
         "name": "Swamp, grid square S18. Huge Circus tent",
         "area": "Swamp",
@@ -3718,7 +3819,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:00 - 05:00"
       },
       "category": "Music/Performance/Show",
-      "host": "The Bears / The Bear's Den",
+      "host": "The Bears",
+      "campHost": "The Bear's Den",
       "location": {
         "name": "Sunny Hills, grid square H19. Turn between The Grateful Grogg and Discotech",
         "area": "Sunny Hills",
@@ -3744,7 +3846,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:00 - 01:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "JazzPrr / Wild Sacred Fire",
+      "host": "JazzPrr",
+      "campHost": "Wild Sacred Fire",
       "location": {
         "name": "Swamp, grid square S17.",
         "area": "Swamp",
@@ -3772,7 +3875,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "23:00 - 08:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Regina / The Sapphic Pond Queer-focused",
+      "host": "Regina",
+      "campHost": "The Sapphic Pond",
       "location": {
         "name": "Sunny Hills, grid square J21. Look for the lesbian flag, we fly it on a pole and",
         "area": "Sunny Hills",
@@ -3800,7 +3904,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "00:00 - 23:59"
       },
       "category": "Games/Play",
-      "host": "Miss Information / Acid Aunties & Nasty Uncles Adults only ·",
+      "host": "Miss Information",
+      "campHost": "Acid Aunties & Nasty Uncles",
       "location": {
         "name": "Sunny Hills, grid square J22. Look for a grumpy old hag - good luck",
         "area": "Sunny Hills",
@@ -3933,7 +4038,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "00:01 - 23:59"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Michael Barner-Rasmussen (Dog) / Free camping",
+      "host": "Michael Barner-Rasmussen (Dog)",
+      "campHost": "Free camping",
       "location": {
         "name": "Queer-inclusive"
       },
@@ -3958,7 +4064,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "01:00 - 02:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Filip / The Bears Den",
+      "host": "Filip",
+      "campHost": "The Bears Den",
       "location": {
         "name": "Sunny Hills, grid square H19. You'll find it where the bas is deepest!",
         "area": "Sunny Hills",
@@ -3986,7 +4093,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "02:30 - 06:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Teddy & Artemistress / Club SIN · Sex positive",
+      "host": "Teddy & Artemistress",
+      "campHost": "Club SIN",
       "location": {
         "name": "Bison - North, grid square N19. By the Shameless Plaza",
         "area": "Bison - North",
@@ -4014,7 +4122,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "09:00 - 11:00"
       },
       "category": "Food/Drinks",
-      "host": "Jan & Gabriela / Kidsville",
+      "host": "Jan & Gabriela",
+      "campHost": "Kidsville",
       "location": {
         "name": "Lowlands, grid square P09. Follow the crumbs",
         "area": "Lowlands",
@@ -4069,7 +4178,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "09:00 - 18:00"
       },
       "category": "Food/Drinks",
-      "host": "Victoria Concordia / Moonwalkers",
+      "host": "Victoria Concordia",
+      "campHost": "Moonwalkers",
       "location": {
         "name": "Highlands, grid square L09.",
         "area": "Highlands",
@@ -4125,7 +4235,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "09:00 - 09:45"
       },
       "category": "Workshop/Class",
-      "host": "Leo / The SeaLions Den",
+      "host": "Leo",
+      "campHost": "The SeaLions Den",
       "location": {
         "name": "Highlands, grid square M09. From Penta Plaza you move north between 'The",
         "area": "Highlands",
@@ -4151,7 +4262,7 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "09:00 - 11:00"
       },
       "category": "Workshop/Class",
-      "host": "The Source ·",
+      "host": "The Source",
       "location": {
         "name": "Lowlands, grid square S12. Nearby Lowland Plaza",
         "area": "Lowlands",
@@ -4181,7 +4292,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "09:30 - 11:00"
       },
       "category": "Workshop/Class",
-      "host": "Gustaf, Per & Katinka / Room of Requirement",
+      "host": "Gustaf, Per & Katinka",
+      "campHost": "Room of Requirement",
       "location": {
         "name": "Eastern Slope, grid square V19. Entry from the road",
         "area": "Eastern Slope",
@@ -4209,7 +4321,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "09:30 - 13:30"
       },
       "category": "Games/Play",
-      "host": "Crow (Debbie) / Slothenhive · · Queer inclusive",
+      "host": "Crow (Debbie)",
+      "campHost": "Slothenhive",
       "location": {
         "name": "Lowlands, grid square Q13. An enclosed area with dog toys and shade.",
         "area": "Lowlands",
@@ -4238,7 +4351,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "09:30 - 10:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Self-led / Spaceport",
+      "host": "Self-led",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink temple, Lowlands",
         "area": "Lowlands",
@@ -4266,7 +4380,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "09:30 - 11:30"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "ellie / Wild Sacred Fire",
+      "host": "ellie",
+      "campHost": "Wild Sacred Fire",
       "location": {
         "name": "Swamp, grid square S17. Look for the rune gate.",
         "area": "Swamp",
@@ -4294,7 +4409,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 10:30"
       },
       "category": "Workshop/Class",
-      "host": "Piluci & Felix / B.L.U.E Bureau",
+      "host": "Piluci & Felix",
+      "campHost": "B.L.U.E Bureau",
       "location": {
         "name": "Highlands, grid square N09. We will meet in our office in the dome, next to the",
         "area": "Highlands",
@@ -4320,7 +4436,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 11:00"
       },
       "category": "Party/Gathering",
-      "host": "Ia / Bambi’s Nest (Kidsville)",
+      "host": "Ia",
+      "campHost": "Bambi’s Nest (Kidsville)",
       "location": {
         "name": "Lowlands, grid square P09.",
         "area": "Lowlands",
@@ -4348,7 +4465,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 10:45"
       },
       "category": "Workshop/Class",
-      "host": "Robin Bäckström / Feromonia",
+      "host": "Robin Bäckström",
+      "campHost": "Feromonia",
       "location": {
         "name": "Swamp, grid square T18. @Feromonia, look for glamping bell tent with black",
         "area": "Swamp",
@@ -4376,7 +4494,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 17:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Kakan, Sickan and Akselito / Java the hut",
+      "host": "Kakan, Sickan and Akselito",
+      "campHost": "Java the hut",
       "location": {
         "name": "Highlands, grid square M09.",
         "area": "Highlands",
@@ -4402,7 +4521,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 16:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Mårten and Lova / Nest & Twigs",
+      "host": "Mårten and Lova",
+      "campHost": "Nest & Twigs",
       "location": {
         "name": "Bison - South, grid square P24. By the tree house in Bison",
         "area": "Bison - South",
@@ -4428,7 +4548,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 12:00"
       },
       "category": "Workshop/Class",
-      "host": "Elin / Once Upon A Camp",
+      "host": "Elin",
+      "campHost": "Once Upon A Camp",
       "location": {
         "name": "Arctic chill, grid square O07. Go to the plaza of the Arctic Chill. You will see signs",
         "area": "Arctic chill",
@@ -4454,7 +4575,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 11:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Lina / Spaceport",
+      "host": "Lina",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink temple, Lowlands",
         "area": "Lowlands",
@@ -4509,7 +4631,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 12:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Joshua Carew & Lone Hav / The Observatory",
+      "host": "Joshua Carew & Lone Hav",
+      "campHost": "The Observatory",
       "location": {
         "name": "Swamp, grid square Q19.",
         "area": "Swamp",
@@ -4535,7 +4658,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 11:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Melker / The Sun",
+      "host": "Melker",
+      "campHost": "The Sun",
       "location": {
         "name": "Sunny Hills, grid square I21. Top of Sunny Hills!",
         "area": "Sunny Hills",
@@ -4561,7 +4685,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 11:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Aline / Women who support women",
+      "host": "Aline",
+      "campHost": "Women who support women",
       "location": {
         "name": "Arctic chill, grid square O06. take the path on the right from pamper plaza, we",
         "area": "Arctic chill",
@@ -4587,7 +4712,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:15 - 12:00"
       },
       "category": "Workshop/Class",
-      "host": "Daniel N / Tantric Trolls",
+      "host": "Daniel N",
+      "campHost": "Tantric Trolls",
       "location": {
         "name": "Highlands, grid square N11. Inside the main tent of the Tantric Trolls, High",
         "area": "Highlands",
@@ -4643,7 +4769,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:30 - 12:00"
       },
       "category": "Workshop/Class",
-      "host": "Depends on the day, see program board by SG / Secret Garden",
+      "host": "Depends on the day, see program board by SG",
+      "campHost": "Secret Garden",
       "location": {
         "name": "Downtown, grid square M21. Big white star shaped tent in the Secret Garden",
         "area": "Downtown",
@@ -4672,7 +4799,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:30 - 12:00"
       },
       "category": "Workshop/Class",
-      "host": "Alex & Marco / The Bureau of Justice, Joy, Bubbles, and Other Dangerous Ideas",
+      "host": "Alex & Marco",
+      "campHost": "The Bureau of Justice, Joy, Bubbles, and Other Dangerous Ideas",
       "location": {
         "name": "Swamp, grid square S19. On the corner of Earth Plaza",
         "area": "Swamp",
@@ -4698,7 +4826,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 12:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Aline and Cathrine / Women who supports women",
+      "host": "Aline and Cathrine",
+      "campHost": "Women who supports women",
       "location": {
         "name": "Arctic chill, grid square O06. In the white tippi",
         "area": "Arctic chill",
@@ -4726,7 +4855,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 00:30"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Lilly Ladybird / B.L.U.E Bureau of Logical Universal Enquiries",
+      "host": "Lilly Ladybird",
+      "campHost": "B.L.U.E Bureau of Logical Universal Enquiries",
       "location": {
         "name": "Highlands, grid square N09. We are a big, metal dome structure with very",
         "area": "Highlands",
@@ -4752,7 +4882,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 13:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Giggles / Cheeky Butt Chill Camp",
+      "host": "Giggles",
+      "campHost": "Cheeky Butt Chill Camp",
       "location": {
         "name": "Highlands, grid square N11. Penta Plaza, Highlands",
         "area": "Highlands",
@@ -4778,7 +4909,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 13:00"
       },
       "category": "Art/Installation",
-      "host": "Baher Higazy / Chilldome",
+      "host": "Baher Higazy",
+      "campHost": "Chilldome",
       "location": {
         "name": "Highlands, grid square M11. Big dome on the Penta Plaza.",
         "area": "Highlands",
@@ -4804,7 +4936,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 12:30"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Alenka / Circus the Analog",
+      "host": "Alenka",
+      "campHost": "Circus the Analog",
       "location": {
         "name": "Swamp, grid square S18. Huge Circus tent",
         "area": "Swamp",
@@ -4832,7 +4965,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 12:00"
       },
       "category": "Food/Drinks",
-      "host": "Nils & Sigg from Jousting Jesters / Club SIN",
+      "host": "Nils & Sigg from Jousting Jesters",
+      "campHost": "Club SIN",
       "location": {
         "name": "Bison - North, grid square N19. By the Shameless PlAZA",
         "area": "Bison - North",
@@ -4886,7 +5020,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 12:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Viivi / Cuddle Cloud",
+      "host": "Viivi",
+      "campHost": "Cuddle Cloud",
       "location": {
         "name": "Wedge, grid square R21. We're located in the Wedge neighbourhood, across the",
         "gridSquare": "R21"
@@ -4912,7 +5047,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 20:00"
       },
       "category": "Art/Installation",
-      "host": "Michael Barner-Rasmussen (aka. Dog) / Free camp",
+      "host": "Michael Barner-Rasmussen (aka. Dog)",
+      "campHost": "Free camp",
       "location": {
         "name": "Queer-inclusive · Triggering themes"
       },
@@ -4938,7 +5074,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 13:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Jon / Jam Camp",
+      "host": "Jon",
+      "campHost": "Jam Camp",
       "location": {
         "name": "Lowlands, grid square R13.",
         "area": "Lowlands",
@@ -4992,7 +5129,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 12:45"
       },
       "category": "Music/Performance/Show",
-      "host": "Victoria Concordia / Moonwalkers",
+      "host": "Victoria Concordia",
+      "campHost": "Moonwalkers",
       "location": {
         "name": "Highlands, grid square L09.",
         "area": "Highlands",
@@ -5020,7 +5158,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 13:00"
       },
       "category": "Workshop/Class",
-      "host": "Gustav Orrevad / Room Of Requirement",
+      "host": "Gustav Orrevad",
+      "campHost": "Room Of Requirement",
       "location": {
         "name": "Eastern Slope, grid square V19. Entry from the road",
         "area": "Eastern Slope",
@@ -5048,7 +5187,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 12:00"
       },
       "category": "Food/Drinks",
-      "host": "Captain Hook / Admiral Emmalsion / Secret Sailors",
+      "host": "Captain Hook / Admiral Emmalsion",
+      "campHost": "Secret Sailors",
       "location": {
         "name": "Lowlands, grid square R12. Outside the tent of Secret Sailors, inside of raining.",
         "area": "Lowlands",
@@ -5105,7 +5245,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 11:20"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Lina / Spaceport",
+      "host": "Lina",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink temple, Lowlands",
         "area": "Lowlands",
@@ -5161,7 +5302,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 13:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Nyx / The Sapphic Pond · Queer-focused",
+      "host": "Nyx",
+      "campHost": "The Sapphic Pond",
       "location": {
         "name": "Sunny Hills, grid square J21. Follow the lesbian flag and the fairy lights to the",
         "area": "Sunny Hills",
@@ -5189,7 +5331,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 12:30"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Daniel / The Sealions Den",
+      "host": "Daniel",
+      "campHost": "The Sealions Den",
       "location": {
         "name": "Highlands, grid square M09.",
         "area": "Highlands",
@@ -5218,7 +5361,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 12:00"
       },
       "category": "Workshop/Class",
-      "host": "Sofia Cerne / The Source · · Queer inclusive",
+      "host": "Sofia Cerne",
+      "campHost": "The Source",
       "location": {
         "name": "Lowlands, grid square S12. Near Lowland Plaza",
         "area": "Lowlands",
@@ -5247,7 +5391,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 12:30"
       },
       "category": "Workshop/Class",
-      "host": "Daniel / Yggdrasil",
+      "host": "Daniel",
+      "campHost": "Yggdrasil",
       "location": {
         "name": "Highlands, grid square O10. in the big Tipi",
         "area": "Highlands",
@@ -5299,7 +5444,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:20 - 12:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Parents of Stars / Spaceport",
+      "host": "Parents of Stars",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink temple, Lowlands",
         "area": "Lowlands",
@@ -5325,7 +5471,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:30 - 12:30"
       },
       "category": "Ritual/Ceremony",
-      "host": "Sandrathebluebird / Glittertind in Trolltunga mini tent",
+      "host": "Sandrathebluebird",
+      "campHost": "Glittertind in Trolltunga mini tent",
       "location": {
         "name": "Bison - North, grid square O20. Trolltunga smaller tent",
         "area": "Bison - North",
@@ -5354,7 +5501,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:30 - 12:30"
       },
       "category": "Music/Performance/Show",
-      "host": "Reida / Shimmering by the forest edge",
+      "host": "Reida",
+      "campHost": "Shimmering by the forest edge",
       "location": {
         "name": "Arctic chill, grid square O06. In the Arctic Chill, close to Pamper Plaza, behind",
         "area": "Arctic chill",
@@ -5382,7 +5530,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:59 - 23:11"
       },
       "category": "Ritual/Ceremony",
-      "host": "Sara Bartosova / Heliotropes · Queer inclusive",
+      "host": "Sara Bartosova",
+      "campHost": "Heliotropes",
       "location": {
         "name": "mystery location, quench your thirst for more details/booking ->"
       },
@@ -5408,7 +5557,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 12:30"
       },
       "category": "Workshop/Class",
-      "host": "Younes / Camp Babu",
+      "host": "Younes",
+      "campHost": "Camp Babu",
       "location": {
         "name": "Arctic chill, grid square N05. In Arctic Chill, next to camps: Alajv, Love Nest,",
         "area": "Arctic chill",
@@ -5436,7 +5586,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 13:00"
       },
       "category": "Workshop/Class",
-      "host": "Olivia Lemmel / Camp Nimenoma",
+      "host": "Olivia Lemmel",
+      "campHost": "Camp Nimenoma",
       "location": {
         "name": "Highlands, grid square M13. Right next to Agrabah village. We have a beg",
         "area": "Highlands",
@@ -5464,7 +5615,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 13:30"
       },
       "category": "Workshop/Class",
-      "host": "Anton Grip / Club SIN",
+      "host": "Anton Grip",
+      "campHost": "Club SIN",
       "location": {
         "name": "Bison - North, grid square N19. By the Shameless PlAZA",
         "area": "Bison - North",
@@ -5518,7 +5670,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 13:30"
       },
       "category": "Workshop/Class",
-      "host": "Basem / Fire Brigade",
+      "host": "Basem",
+      "campHost": "Fire Brigade",
       "location": {
         "name": "Swamp, grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet",
         "area": "Swamp",
@@ -5544,7 +5697,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 16:00"
       },
       "category": "Art/Installation",
-      "host": "Magnus / Foajé Villa Hutlös",
+      "host": "Magnus",
+      "campHost": "Foajé Villa Hutlös",
       "location": {
         "name": "Eastern Slope, grid square V17. Foajé Villa Hutlös is a cozy camp with 8x5m",
         "area": "Eastern Slope",
@@ -5570,7 +5724,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 16:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Tino / House of glöd",
+      "host": "Tino",
+      "campHost": "House of glöd",
       "location": {
         "name": "Arctic chill, grid square P06.",
         "area": "Arctic chill",
@@ -5599,7 +5754,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 15:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Gret and Aenni / House of Glöd",
+      "host": "Gret and Aenni",
+      "campHost": "House of Glöd",
       "location": {
         "name": "Arctic chill, grid square P06.",
         "area": "Arctic chill",
@@ -5628,7 +5784,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 13:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Bogsy the Magnificent / Kidsville",
+      "host": "Bogsy the Magnificent",
+      "campHost": "Kidsville",
       "location": {
         "name": "Lowlands, grid square P09. Kidsville Workshop Dome",
         "area": "Lowlands",
@@ -5656,7 +5813,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 13:30"
       },
       "category": "Workshop/Class",
-      "host": "Meow Meow and his Royal Darkness / Lucifer's Pit · · Queer-focused",
+      "host": "Meow Meow and his Royal Darkness",
+      "campHost": "Lucifer's Pit",
       "location": {
         "name": "Downtown, grid square K19. Go in, dive deep!",
         "area": "Downtown",
@@ -5686,7 +5844,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 13:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Cecilie / Spaceport",
+      "host": "Cecilie",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink temple, Lowlands",
         "area": "Lowlands",
@@ -5714,7 +5873,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 13:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Johanna Qvarfordt / The Bear's Den",
+      "host": "Johanna Qvarfordt",
+      "campHost": "The Bear's Den",
       "location": {
         "name": "Sunny Hills, grid square H19.",
         "area": "Sunny Hills",
@@ -5771,7 +5931,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 14:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "The Djinns / The Genie's Lamp",
+      "host": "The Djinns",
+      "campHost": "The Genie's Lamp",
       "location": {
         "name": "Highlands, grid square N13. Agrabah Village, in south eastern Highlands",
         "area": "Highlands",
@@ -5823,7 +5984,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 13:00"
       },
       "category": "Workshop/Class",
-      "host": "Mana / The Sealions Den",
+      "host": "Mana",
+      "campHost": "The Sealions Den",
       "location": {
         "name": "Highlands, grid square M09.",
         "area": "Highlands",
@@ -5851,7 +6013,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 14:00"
       },
       "category": "Workshop/Class",
-      "host": "GOd / The secret outpost!",
+      "host": "GOd",
+      "campHost": "The secret outpost!",
       "location": {
         "name": "Sober"
       },
@@ -5876,7 +6039,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 13:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "HansMathias / The Wild Sacred Fire",
+      "host": "HansMathias",
+      "campHost": "The Wild Sacred Fire",
       "location": {
         "name": "Swamp, grid square S17. The Swamp. In the epic camp of the wild sacred fire -",
         "area": "Swamp",
@@ -5904,7 +6068,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 13:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Sinikka (Leia) / Women's Camp",
+      "host": "Sinikka (Leia)",
+      "campHost": "Women's Camp",
       "location": {
         "name": "Arctic chill, grid square O06. Look for Sinikka (Leia) at Women's Camp.",
         "area": "Arctic chill",
@@ -5961,7 +6126,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:15 - 13:45"
       },
       "category": "Workshop/Class",
-      "host": "Tobias / Tantric Trolls",
+      "host": "Tobias",
+      "campHost": "Tantric Trolls",
       "location": {
         "name": "Highlands, grid square N11. At Penta Plaza in Highlands",
         "area": "Highlands",
@@ -5989,7 +6155,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:30 - 15:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Bomboclaat & Raggamuffin / Grateful Grogg ·",
+      "host": "Bomboclaat & Raggamuffin",
+      "campHost": "Grateful Grogg",
       "location": {
         "name": "Sunny Hills, grid square I20.",
         "area": "Sunny Hills",
@@ -6019,7 +6186,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:30 - 16:30"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "José María / Mystic Groove",
+      "host": "José María",
+      "campHost": "Mystic Groove",
       "location": {
         "name": "Lowlands, grid square T13. There will be signs in the sky",
         "area": "Lowlands",
@@ -6047,7 +6215,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:30 - 16:30"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Kirstine / Mystic Groove",
+      "host": "Kirstine",
+      "campHost": "Mystic Groove",
       "location": {
         "name": "Lowlands, grid square T13. In the Lowland area- a silversmith workshop will",
         "area": "Lowlands",
@@ -6075,7 +6244,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:30"
       },
       "category": "Games/Play",
-      "host": "Twinkle / THE HEARTSPACE",
+      "host": "Twinkle",
+      "campHost": "THE HEARTSPACE",
       "location": {
         "name": "Arctic chill, grid square P07. The red hearttent, ofc",
         "area": "Arctic chill",
@@ -6127,7 +6297,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 15:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "MariMille / Alice in Morocco",
+      "host": "MariMille",
+      "campHost": "Alice in Morocco",
       "location": {
         "name": "Highlands, grid square N12. If it looks like a Moroccan wonderland with a bunch",
         "area": "Highlands",
@@ -6155,7 +6326,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 15:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Dana, Linda och Elina / Camp Fire Energy",
+      "host": "Dana, Linda och Elina",
+      "campHost": "Camp Fire Energy",
       "location": {
         "name": "Swamp, grid square U16. This camp is located behind Crocket Corner",
         "area": "Swamp",
@@ -6185,7 +6357,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:00"
       },
       "category": "Workshop/Class",
-      "host": "Elon Kinberger / Chilldome",
+      "host": "Elon Kinberger",
+      "campHost": "Chilldome",
       "location": {
         "name": "Highlands, grid square M11. Big dome on the Penta Plaza.",
         "area": "Highlands",
@@ -6211,7 +6384,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:00"
       },
       "category": "Workshop/Class",
-      "host": "Pinkysha / Circus the Analog",
+      "host": "Pinkysha",
+      "campHost": "Circus the Analog",
       "location": {
         "name": "Swamp, grid square S18. Huge Circus tent",
         "area": "Swamp",
@@ -6239,7 +6413,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 15:00"
       },
       "category": "Games/Play",
-      "host": "Line / Cuddle Cloud",
+      "host": "Line",
+      "campHost": "Cuddle Cloud",
       "location": {
         "name": "Wedge, grid square R21. We're located in the Wedge neighbourhood, across the",
         "gridSquare": "R21"
@@ -6263,7 +6438,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Michael Fox / DansBanderLand",
+      "host": "Michael Fox",
+      "campHost": "DansBanderLand",
       "location": {
         "name": "Swamp, grid square T19. The LED dansbana (= pavilion)",
         "area": "Swamp",
@@ -6289,7 +6465,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:30"
       },
       "category": "Workshop/Class",
-      "host": "Dunbear and Bunny Witch / End of the Rainbow Adults only",
+      "host": "Dunbear and Bunny Witch",
+      "campHost": "End of the Rainbow",
       "location": {
         "name": "Bison - North, grid square N20. go to the End of the Rainbow",
         "area": "Bison - North",
@@ -6315,7 +6492,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Philip / Flowzone monkeybar",
+      "host": "Philip",
+      "campHost": "Flowzone monkeybar",
       "location": {
         "name": "Highlands, grid square M11. Highlands, Penta plaza (big flag) next to Chilldome",
         "area": "Highlands",
@@ -6341,7 +6519,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:30"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Soledad / Foajé Villa Hutlös",
+      "host": "Soledad",
+      "campHost": "Foajé Villa Hutlös",
       "location": {
         "name": "Swamp, grid square U17. Foajé Villa Hutlös has a wooden dome near the main",
         "area": "Swamp",
@@ -6370,7 +6549,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 16:00"
       },
       "category": "Workshop/Class",
-      "host": "Ola Helgesplass / Gate Of Alvheim",
+      "host": "Ola Helgesplass",
+      "campHost": "Gate Of Alvheim",
       "location": {
         "name": "grid square G10. The gate og of Alvheim in mumin valley",
         "gridSquare": "G10"
@@ -6397,7 +6577,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 17:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Timothy / K9 - Constellations",
+      "host": "Timothy",
+      "campHost": "K9 - Constellations",
       "location": {
         "name": "Downtown, grid square K21. in the dark dungeons of the church",
         "area": "Downtown",
@@ -6425,7 +6606,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 15:00"
       },
       "category": "Games/Play",
-      "host": "Trixter and Alice / LAZY Camp",
+      "host": "Trixter and Alice",
+      "campHost": "LAZY Camp",
       "location": {
         "name": "Bison - North, grid square P22. Take the rabbit hole, down into the underworld",
         "area": "Bison - North",
@@ -6453,7 +6635,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 16:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Jelena / Mermaid Camp",
+      "host": "Jelena",
+      "campHost": "Mermaid Camp",
       "location": {
         "name": "Arctic chill, grid square L05.",
         "area": "Arctic chill",
@@ -6479,7 +6662,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 15:00"
       },
       "category": "Party/Gathering",
-      "host": "Cafe Caminhos Abertos / Pink Parachute",
+      "host": "Cafe Caminhos Abertos",
+      "campHost": "Pink Parachute",
       "location": {
         "name": "Lowlands, grid square P13. Lowlands, close to Spaceport",
         "area": "Lowlands",
@@ -6505,7 +6689,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 19:30"
       },
       "category": "Party/Gathering",
-      "host": "Pink Parachute / Pink Parachute",
+      "host": "Pink Parachute",
+      "campHost": "Pink Parachute",
       "location": {
         "name": "Lowlands, grid square P13.",
         "area": "Lowlands",
@@ -6533,7 +6718,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:30"
       },
       "category": "Workshop/Class",
-      "host": "Depends on the day, see program board by SG / Secret Garden",
+      "host": "Depends on the day, see program board by SG",
+      "campHost": "Secret Garden",
       "location": {
         "name": "Downtown, grid square M21. Big white star shaped tent in the Secret Garden",
         "area": "Downtown",
@@ -6588,7 +6774,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 16:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Miranda Kent / Shiny Knights",
+      "host": "Miranda Kent",
+      "campHost": "Shiny Knights",
       "location": {
         "name": "Far Flung Field, grid square X07. Far Flung Field, along the straight road, look for",
         "gridSquare": "X07"
@@ -6615,7 +6802,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:00"
       },
       "category": "Workshop/Class",
-      "host": "Ping / Spaceport",
+      "host": "Ping",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink temple, Lowlands",
         "area": "Lowlands",
@@ -6641,7 +6829,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:30"
       },
       "category": "Workshop/Class",
-      "host": "Jani / The Divine Dough Sanctuary",
+      "host": "Jani",
+      "campHost": "The Divine Dough Sanctuary",
       "location": {
         "name": "Wedge, grid square R22.",
         "gridSquare": "R22"
@@ -6667,7 +6856,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 15:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Fredrik Liljegren / Wild Sacred Fire ·",
+      "host": "Fredrik Liljegren",
+      "campHost": "Wild Sacred Fire",
       "location": {
         "name": "Swamp, grid square S17.",
         "area": "Swamp",
@@ -6697,7 +6887,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 16:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Fanny Henriksson / Wondrous Forge ·",
+      "host": "Fanny Henriksson",
+      "campHost": "Wondrous Forge",
       "location": {
         "name": "Swamp, grid square S17. next to the Fire Plaza, under a linenroof. Contact for",
         "area": "Swamp",
@@ -6728,7 +6919,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 15:30"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Foxy Lene / Yggdrasil",
+      "host": "Foxy Lene",
+      "campHost": "Yggdrasil",
       "location": {
         "name": "Highlands, grid square O10. in the big Tipi",
         "area": "Highlands",
@@ -6754,7 +6946,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:30 - 15:00"
       },
       "category": "Workshop/Class",
-      "host": "Rika & Anders / Club SIN",
+      "host": "Rika & Anders",
+      "campHost": "Club SIN",
       "location": {
         "name": "Bison - North, grid square N19. By the Shameless Plaza",
         "area": "Bison - North",
@@ -6783,7 +6976,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:30 - 15:30"
       },
       "category": "Ritual/Ceremony",
-      "host": "Linnéa / Shimmering by the forest edge",
+      "host": "Linnéa",
+      "campHost": "Shimmering by the forest edge",
       "location": {
         "name": "Arctic chill, grid square O06. In the Arctic Chill, close to Pamper Plaza, behind",
         "area": "Arctic chill",
@@ -6811,7 +7005,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:30 - 13:45"
       },
       "category": "Workshop/Class",
-      "host": "Jo / The Bureau of Justice, Joy, Bubbles and Other Dangerous Ideas",
+      "host": "Jo",
+      "campHost": "The Bureau of Justice, Joy, Bubbles and Other Dangerous Ideas",
       "location": {
         "name": "Swamp, grid square S19. In front of the Bureau's Reception at the Earth Plaza",
         "area": "Swamp",
@@ -6840,7 +7035,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Sabrina / Arrête Ton Cirque",
+      "host": "Sabrina",
+      "campHost": "Arrête Ton Cirque",
       "location": {
         "name": "Lowlands, grid square S13. Next to Jam Camp, look for the \"ATC\" signs",
         "area": "Lowlands",
@@ -6868,7 +7064,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:15"
       },
       "category": "Workshop/Class",
-      "host": "Seebo / Cheeky Butt Chill Camp",
+      "host": "Seebo",
+      "campHost": "Cheeky Butt Chill Camp",
       "location": {
         "name": "Highlands, grid square N11. Bedouin Tent communal space in the middle of the",
         "area": "Highlands",
@@ -6896,7 +7093,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 16:00"
       },
       "category": "Art/Installation",
-      "host": "Adam & Eve / Chilldome",
+      "host": "Adam & Eve",
+      "campHost": "Chilldome",
       "location": {
         "name": "Highlands, grid square M11. Big dome on the Penta Plaza.",
         "area": "Highlands",
@@ -6922,7 +7120,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 16:00"
       },
       "category": "Workshop/Class",
-      "host": "Kenia / Circus the Analog",
+      "host": "Kenia",
+      "campHost": "Circus the Analog",
       "location": {
         "name": "Swamp, grid square S18. Huge Circus tent",
         "area": "Swamp",
@@ -6950,7 +7149,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 19:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Ola & Calle / Cosmic Cloud",
+      "host": "Ola & Calle",
+      "campHost": "Cosmic Cloud",
       "location": {
         "name": "Bison - North, grid square O22. In Bison - next to bubble plaza - big round 10 m",
         "area": "Bison - North",
@@ -6978,7 +7178,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:00"
       },
       "category": "Workshop/Class",
-      "host": "Egil / DansBanderLand",
+      "host": "Egil",
+      "campHost": "DansBanderLand",
       "location": {
         "name": "Swamp, grid square T19. The LED dansbana (= pavilion)",
         "area": "Swamp",
@@ -7032,7 +7233,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 16:00"
       },
       "category": "Food/Drinks",
-      "host": "Michaelangelo and Lin / End of the Block Lounge in collab with Kidsville",
+      "host": "Michaelangelo and Lin",
+      "campHost": "End of the Block Lounge in collab with Kidsville",
       "location": {
         "name": "Lowlands, grid square P09. This Event will be Held in Kidsville rather than The",
         "area": "Lowlands",
@@ -7060,7 +7262,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 17:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Gustav and Nevyn / Explorers",
+      "host": "Gustav and Nevyn",
+      "campHost": "Explorers",
       "location": {
         "name": "Highlands, grid square N09. How to find us? Look for the Big Shiny Balls in the",
         "area": "Highlands",
@@ -7086,7 +7289,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:30"
       },
       "category": "Workshop/Class",
-      "host": "Soof / Fire Brigade",
+      "host": "Soof",
+      "campHost": "Fire Brigade",
       "location": {
         "name": "Swamp, grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet",
         "area": "Swamp",
@@ -7140,7 +7344,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Mathilde Hellemose Fangel / Hippie-Dippies ·",
+      "host": "Mathilde Hellemose Fangel",
+      "campHost": "Hippie-Dippies",
       "location": {
         "name": "Eastern Slope, grid square V19. Room of Requirements",
         "area": "Eastern Slope",
@@ -7170,7 +7375,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 16:00"
       },
       "category": "Music/Performance/Show",
-      "host": "STEFAN the Happy funny sweet swede / JAM CAMP !",
+      "host": "STEFAN the Happy funny sweet swede",
+      "campHost": "JAM CAMP !",
       "location": {
         "name": "Lowlands, grid square R13. Behind Spaceport in the Lowlands, at the border the",
         "area": "Lowlands",
@@ -7198,7 +7404,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 14:50"
       },
       "category": "Games/Play",
-      "host": "Coco & Loco / Jousting Jesters",
+      "host": "Coco & Loco",
+      "campHost": "Jousting Jesters",
       "location": {
         "name": "Swamp, grid square Q19. At the Jousting Jester camp. By water plaza",
         "area": "Swamp",
@@ -7227,7 +7434,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 16:30"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Sara / Jousting Jesters",
+      "host": "Sara",
+      "campHost": "Jousting Jesters",
       "location": {
         "name": "Swamp, grid square Q19. Close to the water plaza in Swamp",
         "area": "Swamp",
@@ -7255,7 +7463,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 16:00"
       },
       "category": "Food/Drinks",
-      "host": "Meach / Lazy camp",
+      "host": "Meach",
+      "campHost": "Lazy camp",
       "location": {
         "name": "Bison - North, grid square P22. Big 10m diameter dome",
         "area": "Bison - North",
@@ -7281,7 +7490,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 18:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "elina / Lucifer's Pit · · Sensory content",
+      "host": "elina",
+      "campHost": "Lucifer's Pit",
       "location": {
         "name": "Downtown, grid square K19. Entrance to the silo is inside the sheep barn",
         "area": "Downtown",
@@ -7310,7 +7520,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:30"
       },
       "category": "Workshop/Class",
-      "host": "Shiny (they/them) / Njorunns Garden ·",
+      "host": "Shiny (they / them)",
+      "campHost": "Njorunns Garden",
       "location": {
         "name": "Downtown, grid square M20. Dreamy garden in the middle of downtown, look for",
         "area": "Downtown",
@@ -7341,7 +7552,7 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 16:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Plutonia ·",
+      "host": "Plutonia",
       "location": {
         "name": "Downtown, grid square M19.",
         "area": "Downtown",
@@ -7371,7 +7582,7 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 19:00"
       },
       "category": "Games/Play",
-      "host": "Rest & Revelry ·",
+      "host": "Rest & Revelry",
       "location": {
         "name": "Eastern Slope, grid square W15.",
         "area": "Eastern Slope",
@@ -7401,7 +7612,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:30"
       },
       "category": "Workshop/Class",
-      "host": "Erik H / Sacret Kink ·",
+      "host": "Erik H",
+      "campHost": "Sacret Kink",
       "location": {
         "name": "Swamp, grid square R18. Sacret Kink is close to Water Plaza (Swamp",
         "area": "Swamp",
@@ -7431,7 +7643,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:00"
       },
       "category": "Workshop/Class",
-      "host": "Raul / Secret sailors",
+      "host": "Raul",
+      "campHost": "Secret sailors",
       "location": {
         "name": "Lowlands, grid square R12.",
         "area": "Lowlands",
@@ -7459,7 +7672,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:00"
       },
       "category": "Workshop/Class",
-      "host": "Raulito / Secret Sailors",
+      "host": "Raulito",
+      "campHost": "Secret Sailors",
       "location": {
         "name": "Lowlands, grid square R12. Secret Sailors tent by Lowlands plaza",
         "area": "Lowlands",
@@ -7485,7 +7699,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:30"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Allan / Spaceport",
+      "host": "Allan",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink temple, Lowlands",
         "area": "Lowlands",
@@ -7513,7 +7728,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 18:00"
       },
       "category": "Party/Gathering",
-      "host": "jan Wajole / Sunsprout",
+      "host": "jan Wajole",
+      "campHost": "Sunsprout",
       "location": {
         "name": "Swamp, grid square U18.",
         "area": "Swamp",
@@ -7541,7 +7757,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 16:00"
       },
       "category": "Workshop/Class",
-      "host": "Henrik and Maria / Tantric Trolls",
+      "host": "Henrik and Maria",
+      "campHost": "Tantric Trolls",
       "location": {
         "name": "Highlands, grid square N11. Highlands",
         "area": "Highlands",
@@ -7596,7 +7813,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:30"
       },
       "category": "Workshop/Class",
-      "host": "Discolinski (DJ Räjfvhaal) / The Fuckery · Sex positive",
+      "host": "Discolinski (DJ Räjfvhaal)",
+      "campHost": "The Fuckery",
       "location": {
         "name": "Swamp, grid square R17. Look for the big, red neon sign next to the Missing",
         "area": "Swamp",
@@ -7624,7 +7842,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 16:00"
       },
       "category": "Food/Drinks",
-      "host": "The Salt Girls (and boys) / The Goslings",
+      "host": "The Salt Girls (and boys)",
+      "campHost": "The Goslings",
       "location": {
         "name": "Wedge, grid square R21. Find us at the Cuddle Cove plaza in the Wedge!",
         "gridSquare": "R21"
@@ -7701,7 +7920,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 16:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Peter & Clara / The Observatory",
+      "host": "Peter & Clara",
+      "campHost": "The Observatory",
       "location": {
         "name": "Swamp, grid square Q19.",
         "area": "Swamp",
@@ -7759,7 +7979,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:30"
       },
       "category": "Workshop/Class",
-      "host": "Sleepy Lieutenant and the Low Effort Leftover Crew / The Source",
+      "host": "Sleepy Lieutenant and the Low Effort Leftover Crew",
+      "campHost": "The Source",
       "location": {
         "name": "Lowlands, grid square S12. East of Lowlands Plaza, 2nd camp once you turn",
         "area": "Lowlands",
@@ -7788,7 +8009,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 16:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "The Sweet Spot / The Sweet Spot",
+      "host": "The Sweet Spot",
+      "campHost": "The Sweet Spot",
       "location": {
         "name": "Lowlands, grid square P13. White with red decorations. Follow the glorious smell",
         "area": "Lowlands",
@@ -7814,7 +8036,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 16:00"
       },
       "category": "Food/Drinks",
-      "host": "The Sweet Spot / The Sweet Spot · Queer inclusive",
+      "host": "The Sweet Spot",
+      "campHost": "The Sweet Spot",
       "location": {
         "name": "Lowlands, grid square P13. White with red decorations. Follow the glorious smell",
         "area": "Lowlands",
@@ -7868,7 +8091,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 16:00"
       },
       "category": "Workshop/Class",
-      "host": "BeRiver & Omi-peah / Touch Divine",
+      "host": "BeRiver & Omi-peah",
+      "campHost": "Touch Divine",
       "location": {
         "name": "Wedge, grid square R22.",
         "gridSquare": "R22"
@@ -7894,7 +8118,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Astrid / Welcome Home, Darling",
+      "host": "Astrid",
+      "campHost": "Welcome Home, Darling",
       "location": {
         "name": "Highlands, grid square O10. Between Penta Plaza and Bayt al-Noor",
         "area": "Highlands",
@@ -7947,7 +8172,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:15 - 15:45"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Timmy / Flowzone monkeybar",
+      "host": "Timmy",
+      "campHost": "Flowzone monkeybar",
       "location": {
         "name": "Highlands, grid square M11. Highlands, Penta plaza (big flag) next to Chilldome",
         "area": "Highlands",
@@ -7973,7 +8199,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:20 - 16:20"
       },
       "category": "Workshop/Class",
-      "host": "He Whom The Smoke Is Circling / Where The Craving Is",
+      "host": "He Whom The Smoke Is Circling",
+      "campHost": "Where The Craving Is",
       "location": {
         "name": "Settled"
       },
@@ -7998,7 +8225,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:30 - 17:30"
       },
       "category": "Food/Drinks",
-      "host": "The Pink Parasol Potion Bar / The Herd",
+      "host": "The Pink Parasol Potion Bar",
+      "campHost": "The Herd",
       "location": {
         "name": "Highlands, grid square O10.",
         "area": "Highlands",
@@ -8024,7 +8252,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 17:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Odinka / Alice the Malice in Wonderland",
+      "host": "Odinka",
+      "campHost": "Alice the Malice in Wonderland",
       "location": {
         "name": "Wedge, grid square R20.",
         "gridSquare": "R20"
@@ -8076,7 +8305,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 16:30"
       },
       "category": "Workshop/Class",
-      "host": "Tiia & Helena / Beaver Issues",
+      "host": "Tiia & Helena",
+      "campHost": "Beaver Issues",
       "location": {
         "name": "Arctic chill, grid square P07. Look for the beaver sign and stretch tent!",
         "area": "Arctic chill",
@@ -8104,7 +8334,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 16:30"
       },
       "category": "Workshop/Class",
-      "host": "Senator Snowflake and Cpt Gypsy / Blackwater Operations",
+      "host": "Senator Snowflake and Cpt Gypsy",
+      "campHost": "Blackwater Operations",
       "location": {
         "name": "Lowlands, grid square P09. Kidsville, in front of Workshop Dome.",
         "area": "Lowlands",
@@ -8130,7 +8361,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 16:00"
       },
       "category": "Workshop/Class",
-      "host": "Teddy / Club SIN",
+      "host": "Teddy",
+      "campHost": "Club SIN",
       "location": {
         "name": "Bison - North, grid square N19. By the Shameless Plaza",
         "area": "Bison - North",
@@ -8159,7 +8391,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 15:30"
       },
       "category": "Workshop/Class",
-      "host": "Egil / DansBanderLand",
+      "host": "Egil",
+      "campHost": "DansBanderLand",
       "location": {
         "name": "Swamp, grid square T19. The LED dansbana (= pavilion)",
         "area": "Swamp",
@@ -8185,7 +8418,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 16:30"
       },
       "category": "Games/Play",
-      "host": "Sandra / GlitterTind",
+      "host": "Sandra",
+      "campHost": "GlitterTind",
       "location": {
         "name": "Bison - North, grid square O20. Shameless plaza next to sinnergirl",
         "area": "Bison - North",
@@ -8267,7 +8501,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 16:30"
       },
       "category": "Party/Gathering",
-      "host": "Rosa & Lisa / Pink Parachute Queer-focused",
+      "host": "Rosa & Lisa",
+      "campHost": "Pink Parachute",
       "location": {
         "name": "Lowlands, grid square P13. Velvet Loung behind Pink Parachute, if you dont find",
         "area": "Lowlands",
@@ -8293,7 +8528,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 16:00"
       },
       "category": "Workshop/Class",
-      "host": "Ultramarine / Secret Garden · Triggering themes",
+      "host": "Ultramarine",
+      "campHost": "Secret Garden",
       "location": {
         "name": "Downtown, grid square M21. Workshop space at Secret Garden",
         "area": "Downtown",
@@ -8321,7 +8557,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 16:00"
       },
       "category": "Workshop/Class",
-      "host": "Nicola / The Wracked Yachtees Asylum",
+      "host": "Nicola",
+      "campHost": "The Wracked Yachtees Asylum",
       "location": {
         "name": "Eastern Slope, grid square V16. In the Yachtees Magic Offerings area on the",
         "area": "Eastern Slope",
@@ -8373,7 +8610,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 16:30"
       },
       "category": "Workshop/Class",
-      "host": "Izel / Women who support women",
+      "host": "Izel",
+      "campHost": "Women who support women",
       "location": {
         "name": "Arctic chill, grid square O06. take the path on the right from pamper plaza, we",
         "area": "Arctic chill",
@@ -8401,7 +8639,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 16:30"
       },
       "category": "Workshop/Class",
-      "host": "Marie / Yggdrasil",
+      "host": "Marie",
+      "campHost": "Yggdrasil",
       "location": {
         "name": "Highlands, grid square O10. in the big Tipi",
         "area": "Highlands",
@@ -8427,7 +8666,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:03 - 16:04"
       },
       "category": "Workshop/Class",
-      "host": "Here / SINagogue",
+      "host": "Here",
+      "campHost": "SINagogue",
       "location": {
         "name": "Downtown, grid square K21. Under the church - Ask about Here at the",
         "area": "Downtown",
@@ -8453,7 +8693,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:30 - 16:30"
       },
       "category": "Workshop/Class",
-      "host": "Mitzi / Fire Brigade",
+      "host": "Mitzi",
+      "campHost": "Fire Brigade",
       "location": {
         "name": "Swamp, grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet",
         "area": "Swamp",
@@ -8479,7 +8720,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:30 - 17:00"
       },
       "category": "Workshop/Class",
-      "host": "Patrick / Fire Brigade",
+      "host": "Patrick",
+      "campHost": "Fire Brigade",
       "location": {
         "name": "Swamp, grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet",
         "area": "Swamp",
@@ -8505,7 +8747,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:30 - 17:00"
       },
       "category": "Workshop/Class",
-      "host": "Wilma / Secret Sailors",
+      "host": "Wilma",
+      "campHost": "Secret Sailors",
       "location": {
         "name": "Lowlands, grid square R12.",
         "area": "Lowlands",
@@ -8534,7 +8777,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:30 - 16:30"
       },
       "category": "Music/Performance/Show",
-      "host": "Cowboy Joe / The Grateful Grogg",
+      "host": "Cowboy Joe",
+      "campHost": "The Grateful Grogg",
       "location": {
         "name": "Sunny Hills, grid square I20.",
         "area": "Sunny Hills",
@@ -8560,7 +8804,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:30 - 17:15"
       },
       "category": "Workshop/Class",
-      "host": "Feli / The Heartspace",
+      "host": "Feli",
+      "campHost": "The Heartspace",
       "location": {
         "name": "Arctic chill, grid square P07.",
         "area": "Arctic chill",
@@ -8588,7 +8833,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:30 - 16:30"
       },
       "category": "Party/Gathering",
-      "host": "Cleo & JoJo / Welcome Home Darling! (Meeting place)",
+      "host": "Cleo & JoJo",
+      "campHost": "Welcome Home Darling! (Meeting place)",
       "location": {
         "name": "Highlands, grid square O10.",
         "area": "Highlands",
@@ -8642,7 +8888,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Workshop/Class",
-      "host": "Sofia Valborg / Chilldome",
+      "host": "Sofia Valborg",
+      "campHost": "Chilldome",
       "location": {
         "name": "Highlands, grid square M11. Big dome on the Penta Plaza.",
         "area": "Highlands",
@@ -8668,7 +8915,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Games/Play",
-      "host": "Dr. Catman & Slimeus / Club SIN · Sex positive",
+      "host": "Dr. Catman & Slimeus",
+      "campHost": "Club SIN",
       "location": {
         "name": "Bison - North, grid square N19. By the Shameless Plaza",
         "area": "Bison - North",
@@ -8696,7 +8944,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 17:00"
       },
       "category": "Workshop/Class",
-      "host": "Per / DansBanderLand",
+      "host": "Per",
+      "campHost": "DansBanderLand",
       "location": {
         "name": "Swamp, grid square T19. The LED dansbana (= pavilion)",
         "area": "Swamp",
@@ -8722,7 +8971,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 22:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Elven sauna cave community / Elven Saunacave",
+      "host": "Elven sauna cave community",
+      "campHost": "Elven Saunacave",
       "location": {
         "name": "Sunny Hills, grid square H22. just by the big lake Alversjoe",
         "area": "Sunny Hills",
@@ -8748,7 +8998,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 17:00"
       },
       "category": "Art/Installation",
-      "host": "Soledad / Foyaé Villa Hutlös",
+      "host": "Soledad",
+      "campHost": "Foyaé Villa Hutlös",
       "location": {
         "name": "Swamp, grid square U17. There is a wooden dome next to our big tent.",
         "area": "Swamp",
@@ -8777,7 +9028,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 17:00"
       },
       "category": "Food/Drinks",
-      "host": "Haky & Merci / Haky & Merci",
+      "host": "Haky & Merci",
+      "campHost": "Haky & Merci",
       "location": {
         "name": "Arctic chill, grid square L08. Orange Van",
         "area": "Arctic chill",
@@ -8805,7 +9057,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Workshop/Class",
-      "host": "Lukas Lilja / Captain Silly Songs / Jam Camp",
+      "host": "Lukas Lilja / Captain Silly Songs",
+      "campHost": "Jam Camp",
       "location": {
         "name": "Lowlands, grid square R13.",
         "area": "Lowlands",
@@ -8833,7 +9086,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Jovana / Kidsville",
+      "host": "Jovana",
+      "campHost": "Kidsville",
       "location": {
         "name": "Lowlands, grid square P09. At the Kidsville Dome",
         "area": "Lowlands",
@@ -8885,7 +9139,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 17:00"
       },
       "category": "Workshop/Class",
-      "host": "Artemis / Many Mad Mystics",
+      "host": "Artemis",
+      "campHost": "Many Mad Mystics",
       "location": {
         "name": "Arctic chill, grid square N06.",
         "area": "Arctic chill",
@@ -8911,7 +9166,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 17:30"
       },
       "category": "Workshop/Class",
-      "host": "Erik & Erica Velour / Sacret Kink · · Sex positive",
+      "host": "Erik & Erica Velour",
+      "campHost": "Sacret Kink",
       "location": {
         "name": "Swamp, grid square R18. Sacret Kink is close to Water Plaza (Swamp",
         "area": "Swamp",
@@ -8996,7 +9252,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Workshop/Class",
-      "host": "Urban and Mirja / The Fuckery · Queer inclusive",
+      "host": "Urban and Mirja",
+      "campHost": "The Fuckery",
       "location": {
         "name": "Swamp, grid square R17. Go to the empty dark field and look for the fuckoff",
         "area": "Swamp",
@@ -9025,7 +9282,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 17:30"
       },
       "category": "Ritual/Ceremony",
-      "host": "Naina Eira / The Observatory",
+      "host": "Naina Eira",
+      "campHost": "The Observatory",
       "location": {
         "name": "Swamp, grid square Q19.",
         "area": "Swamp",
@@ -9051,7 +9309,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Games/Play",
-      "host": "Nyxie / The Sapphic Pond · Queer-focused",
+      "host": "Nyxie",
+      "campHost": "The Sapphic Pond",
       "location": {
         "name": "Sunny Hills, grid square J21. Look for the lesbian flag, we fly it on a pole and",
         "area": "Sunny Hills",
@@ -9079,7 +9338,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Anji & Met / Touch Divine",
+      "host": "Anji & Met",
+      "campHost": "Touch Divine",
       "location": {
         "name": "Wedge, grid square R22. South-east of BL",
         "gridSquare": "R22"
@@ -9105,7 +9365,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 17:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Philip / Welcome Home Darling",
+      "host": "Philip",
+      "campHost": "Welcome Home Darling",
       "location": {
         "name": "Highlands, grid square N10. It a big white and black tent in the Welcome Home",
         "area": "Highlands",
@@ -9133,7 +9394,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:15 - 18:00"
       },
       "category": "Workshop/Class",
-      "host": "David Boardman / Tantric trolls",
+      "host": "David Boardman",
+      "campHost": "Tantric trolls",
       "location": {
         "name": "Highlands, grid square N11. Look for the pink tantric troll on the side of the",
         "area": "Highlands",
@@ -9161,7 +9423,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:30 - 18:00"
       },
       "category": "Workshop/Class",
-      "host": "Sonja the Pollution Pixie / Room of Requirement",
+      "host": "Sonja the Pollution Pixie",
+      "campHost": "Room of Requirement",
       "location": {
         "name": "Eastern Slope, grid square V19. Entry from the road",
         "area": "Eastern Slope",
@@ -9187,7 +9450,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "17:00 - 19:00"
       },
       "category": "Food/Drinks",
-      "host": "the Mussel Man / Camp at the end of the universe",
+      "host": "the Mussel Man",
+      "campHost": "Camp at the end of the universe",
       "location": {
         "name": "Lowlands, grid square S11. By the big green military tent",
         "area": "Lowlands",
@@ -9213,7 +9477,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "17:00 - 18:00"
       },
       "category": "Workshop/Class",
-      "host": "Lia & Per / DansBanderLand",
+      "host": "Lia & Per",
+      "campHost": "DansBanderLand",
       "location": {
         "name": "Swamp, grid square T19. The LED dansbana (= pavilion)",
         "area": "Swamp",
@@ -9239,7 +9504,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "17:00 - 18:00"
       },
       "category": "Party/Gathering",
-      "host": "Jonathan / Jousting Jesters",
+      "host": "Jonathan",
+      "campHost": "Jousting Jesters",
       "location": {
         "name": "Swamp, grid square Q19. By the small forest in Swamp, the medieval camp on",
         "area": "Swamp",
@@ -9291,7 +9557,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "17:00 - 18:30"
       },
       "category": "Music/Performance/Show",
-      "host": "The Oral Orators / Spaceport",
+      "host": "The Oral Orators",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink temple, Lowlands",
         "area": "Lowlands",
@@ -9346,7 +9613,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "17:00 - 19:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Lila / The Wild Sacred Fire",
+      "host": "Lila",
+      "campHost": "The Wild Sacred Fire",
       "location": {
         "name": "Swamp, grid square S17. Ask for or look for the Vanaheim, the big tent next to",
         "area": "Swamp",
@@ -9402,7 +9670,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "17:30 - 19:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Lisa / The SUN",
+      "host": "Lisa",
+      "campHost": "The SUN",
       "location": {
         "name": "Sunny Hills, grid square I21. We meet at the SUN temple and have our circle",
         "area": "Sunny Hills",
@@ -9430,7 +9699,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "18:00 - 20:00"
       },
       "category": "Party/Gathering",
-      "host": "Stina / Cuddle Cove Piazza",
+      "host": "Stina",
+      "campHost": "Cuddle Cove Piazza",
       "location": {
         "name": "Wedge, grid square R22. We're located in the Wedge neighbourhood, across the",
         "gridSquare": "R22"
@@ -9454,7 +9724,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "18:00 - 20:30"
       },
       "category": "Music/Performance/Show",
-      "host": "Lulu / Elven Saunacave-DOME",
+      "host": "Lulu",
+      "campHost": "Elven Saunacave-DOME",
       "location": {
         "name": "Sunny Hills, grid square H22. just by the big lake Alversjoe",
         "area": "Sunny Hills",
@@ -9480,7 +9751,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "18:00 - 19:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Fire Brigade / Fire Brigade",
+      "host": "Fire Brigade",
+      "campHost": "Fire Brigade",
       "location": {
         "name": "Swamp, grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet",
         "area": "Swamp",
@@ -9506,7 +9778,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "18:00 - 00:00"
       },
       "category": "Party/Gathering",
-      "host": "Kishmastle Spacestation / Kishmastle Spacestation",
+      "host": "Kishmastle Spacestation",
+      "campHost": "Kishmastle Spacestation",
       "location": {
         "name": "Muumin Valley, grid square F10. From sanctuary-follow the forest path toward",
         "gridSquare": "F10"
@@ -9530,7 +9803,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "18:00 - 07:00"
       },
       "category": "Workshop/Class",
-      "host": "Teresa / Njorunn's Garden",
+      "host": "Teresa",
+      "campHost": "Njorunn's Garden",
       "location": {
         "name": "Downtown, grid square M20.",
         "area": "Downtown",
@@ -9584,7 +9858,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "18:00 - 21:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "The Djinns / The Genie's Lamp",
+      "host": "The Djinns",
+      "campHost": "The Genie's Lamp",
       "location": {
         "name": "Highlands, grid square N13. Agrabah Village, in south eastern Highlands",
         "area": "Highlands",
@@ -9612,7 +9887,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "18:15 - 20:15"
       },
       "category": "Workshop/Class",
-      "host": "Jens / Tantric Trolls",
+      "host": "Jens",
+      "campHost": "Tantric Trolls",
       "location": {
         "name": "Highlands, grid square N11. Penta Plaza",
         "area": "Highlands",
@@ -9640,7 +9916,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "18:30 - 19:30"
       },
       "category": "Music/Performance/Show",
-      "host": "Becca and Michaelangelo / End of the Block Lounge",
+      "host": "Becca and Michaelangelo",
+      "campHost": "End of the Block Lounge",
       "location": {
         "name": "Swamp, grid square U16. We are where The Swamp, The Missing Piece and The",
         "area": "Swamp",
@@ -9666,7 +9943,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "19:00 - 01:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Hannah Bacon / Circus the Analog · Queer inclusive",
+      "host": "Hannah Bacon",
+      "campHost": "Circus the Analog",
       "location": {
         "name": "Swamp, grid square S18. Huge Circus tent",
         "area": "Swamp",
@@ -9695,7 +9973,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "19:00 - 22:00"
       },
       "category": "Art/Installation",
-      "host": "Jonas Johansson / Dreamers Maze · Sensory content",
+      "host": "Jonas Johansson",
+      "campHost": "Dreamers Maze",
       "location": {
         "name": "The Villa, grid square K14.",
         "gridSquare": "K14"
@@ -9747,7 +10026,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "19:00 - 21:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Om / Yggdrasil",
+      "host": "Om",
+      "campHost": "Yggdrasil",
       "location": {
         "name": "Highlands, grid square O10. in the big Tipi",
         "area": "Highlands",
@@ -9824,7 +10104,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "19:30 - 20:30"
       },
       "category": "Ritual/Ceremony",
-      "host": "Tribe's Caretaker / The Tribe",
+      "host": "Tribe's Caretaker",
+      "campHost": "The Tribe",
       "location": {
         "name": "Highlands, grid square N13. Somewhere in the Agraba Village in Highlands.",
         "area": "Highlands",
@@ -9850,7 +10131,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "19:45 - 21:15"
       },
       "category": "Music/Performance/Show",
-      "host": "Michaelangelo and Lin / End of the Block Lounge",
+      "host": "Michaelangelo and Lin",
+      "campHost": "End of the Block Lounge",
       "location": {
         "name": "Swamp, grid square U16. We are where The Swamp, The Missing Piece and The",
         "area": "Swamp",
@@ -9961,7 +10243,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 23:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "DansBanderLand and Basmelodi / DansBanderLand",
+      "host": "DansBanderLand and Basmelodi",
+      "campHost": "DansBanderLand",
       "location": {
         "name": "Swamp, grid square T19. The LED dansbana (= pavilion)",
         "area": "Swamp",
@@ -9987,7 +10270,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 21:00"
       },
       "category": "Art/Installation",
-      "host": "DMV / DMV",
+      "host": "DMV",
+      "campHost": "DMV",
       "location": {
         "name": "At the DMV. Behind the barn"
       },
@@ -10010,7 +10294,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 21:30"
       },
       "category": "Workshop/Class",
-      "host": "Chrisaster, Catnip, Rav / End of the Rainbow",
+      "host": "Chrisaster, Catnip, Rav",
+      "campHost": "End of the Rainbow",
       "location": {
         "name": "Bison - North, grid square N20. You can enter into our garden from the",
         "area": "Bison - North",
@@ -10065,7 +10350,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 21:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Lukas Lilja / Captain Silly Songs / Jam Camp",
+      "host": "Lukas Lilja / Captain Silly Songs",
+      "campHost": "Jam Camp",
       "location": {
         "name": "Lowlands, grid square R13.",
         "area": "Lowlands",
@@ -10122,7 +10408,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 22:00"
       },
       "category": "Food/Drinks",
-      "host": "Laura / Shimmering by the forest edge",
+      "host": "Laura",
+      "campHost": "Shimmering by the forest edge",
       "location": {
         "name": "Arctic chill, grid square O06. In the Arctic Chill, close to Pamper Plaza, behind",
         "area": "Arctic chill",
@@ -10150,7 +10437,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 22:30"
       },
       "category": "Party/Gathering",
-      "host": "Seagulls / Spaceport",
+      "host": "Seagulls",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Next to Spaceport dome",
         "area": "Lowlands",
@@ -10176,7 +10464,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 22:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Sound Awakening Tribe & Friends / Temple of Sound",
+      "host": "Sound Awakening Tribe & Friends",
+      "campHost": "Temple of Sound",
       "location": {
         "name": "Eastern Slope, grid square V18.",
         "area": "Eastern Slope",
@@ -10233,7 +10522,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 21:00"
       },
       "category": "Party/Gathering",
-      "host": "Jonathan / The Jousting Jesters",
+      "host": "Jonathan",
+      "campHost": "The Jousting Jesters",
       "location": {
         "name": "Swamp, grid square Q19. North side of the little forest between the roads in",
         "area": "Swamp",
@@ -10259,7 +10549,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 22:00"
       },
       "category": "Games/Play",
-      "host": "Nyxie / The Sapphic Pond Queer-focused",
+      "host": "Nyxie",
+      "campHost": "The Sapphic Pond",
       "location": {
         "name": "Sunny Hills, grid square J21. Look for the lesbian flag, we fly it on a pole and",
         "area": "Sunny Hills",
@@ -10314,7 +10605,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:30 - 22:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Josef / Elven Saunacave-DOME",
+      "host": "Josef",
+      "campHost": "Elven Saunacave-DOME",
       "location": {
         "name": "Sunny Hills, grid square H22. just by the big lake Alversjoe",
         "area": "Sunny Hills",
@@ -10340,7 +10632,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:30 - 22:30"
       },
       "category": "Workshop/Class",
-      "host": "Oskar with support / Tantric Trolls",
+      "host": "Oskar with support",
+      "campHost": "Tantric Trolls",
       "location": {
         "name": "Highlands, grid square N11. Penta Plaza",
         "area": "Highlands",
@@ -10368,7 +10661,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:30 - 22:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Techstil / Tea by the Sea",
+      "host": "Techstil",
+      "campHost": "Tea by the Sea",
       "location": {
         "name": "Bison - South, grid square P23. The big red tent on the hill, by the Bison",
         "area": "Bison - South",
@@ -10394,7 +10688,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "21:00 - 22:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Palle / Chilldome",
+      "host": "Palle",
+      "campHost": "Chilldome",
       "location": {
         "name": "Highlands, grid square M11. Big dome on the Penta Plaza.",
         "area": "Highlands",
@@ -10503,7 +10798,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "21:00 - 01:00"
       },
       "category": "Party/Gathering",
-      "host": "Camp Yggdrasil / Yggdrasil",
+      "host": "Camp Yggdrasil",
+      "campHost": "Yggdrasil",
       "location": {
         "name": "Highlands, grid square O10. in the big Tipi",
         "area": "Highlands",
@@ -10529,7 +10825,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "21:00 - 22:30"
       },
       "category": "Ritual/Ceremony",
-      "host": "Sunny / All Senses, No Sense",
+      "host": "Sunny",
+      "campHost": "All Senses, No Sense",
       "location": {
         "name": "Eastern Slope, W16.",
         "area": "Eastern Slope",
@@ -10557,7 +10854,7 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "21:30 - 04:00"
       },
       "category": "Party/Gathering",
-      "host": "End of the Rainbow · · Sex positive",
+      "host": "End of the Rainbow",
       "location": {
         "name": "Bison - North, grid square N20. By the Shameless Plaza in Bison",
         "area": "Bison - North",
@@ -10587,7 +10884,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "21:30 - 22:00"
       },
       "category": "Workshop/Class",
-      "host": "Fire Brigade / Fire Brigade",
+      "host": "Fire Brigade",
+      "campHost": "Fire Brigade",
       "location": {
         "name": "Swamp, grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet",
         "area": "Swamp",
@@ -10613,7 +10911,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "21:30 - 22:00"
       },
       "category": "Music/Performance/Show",
-      "host": "David / The church · · Queer inclusive",
+      "host": "David",
+      "campHost": "The church",
       "location": {
         "name": "Downtown, grid square K21. The Church, Downtown",
         "area": "Downtown",
@@ -10642,7 +10941,7 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:00 - 02:00"
       },
       "category": "Games/Play",
-      "host": "Club SIN ·",
+      "host": "Club SIN",
       "location": {
         "name": "Bison - North, grid square N19. By the Shameless Plaza",
         "area": "Bison - North",
@@ -10672,7 +10971,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:00 - 00:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Fire Brigade / Fire Brigade",
+      "host": "Fire Brigade",
+      "campHost": "Fire Brigade",
       "location": {
         "name": "Swamp, grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet",
         "area": "Swamp",
@@ -10698,7 +10998,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:00 - 22:15"
       },
       "category": "Music/Performance/Show",
-      "host": "Ley and Jo, The Fire Brigade / Fire Brigade",
+      "host": "Ley and Jo, The Fire Brigade",
+      "campHost": "Fire Brigade",
       "location": {
         "name": "Swamp, grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet",
         "area": "Swamp",
@@ -10724,7 +11025,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:00 - 00:00"
       },
       "category": "Party/Gathering",
-      "host": "The Velvet Lounge / Pink Parachute",
+      "host": "The Velvet Lounge",
+      "campHost": "Pink Parachute",
       "location": {
         "name": "Lowlands, grid square P13. Look for our open sign",
         "area": "Lowlands",
@@ -10752,7 +11054,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:00 - 00:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Tali and Friends / Spaceport",
+      "host": "Tali and Friends",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink temple, Lowlands",
         "area": "Lowlands",
@@ -10778,7 +11081,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:00 - 00:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Daniel N / Tantric Trolls",
+      "host": "Daniel N",
+      "campHost": "Tantric Trolls",
       "location": {
         "name": "Highlands, grid square N11. At Tantric Trolls camp, High lands, where the main",
         "area": "Highlands",
@@ -10806,7 +11110,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:00 - 04:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Alex / The Church · · Sex positive",
+      "host": "Alex",
+      "campHost": "The Church",
       "location": {
         "name": "Downtown, grid square K21. The Church, Downtown",
         "area": "Downtown",
@@ -10835,7 +11140,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:00 - 00:00"
       },
       "category": "Art/Installation",
-      "host": "Ember / Yggdrasil",
+      "host": "Ember",
+      "campHost": "Yggdrasil",
       "location": {
         "name": "Highlands, grid square O10. in the big Tipi",
         "area": "Highlands",
@@ -10886,7 +11192,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:30 - 00:30"
       },
       "category": "Party/Gathering",
-      "host": "James / Cuddle Cove Piazza",
+      "host": "James",
+      "campHost": "Cuddle Cove Piazza",
       "location": {
         "name": "Wedge, grid square R22. We're located in the Wedge neighbourhood, across the",
         "gridSquare": "R22"
@@ -10910,7 +11217,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "23:00 - 01:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Vilgot / Chilldome",
+      "host": "Vilgot",
+      "campHost": "Chilldome",
       "location": {
         "name": "Highlands, grid square M11. Big dome on the Penta Plaza.",
         "area": "Highlands",
@@ -10936,7 +11244,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "23:00 - 08:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Regina / The Sapphic Pond Queer-focused",
+      "host": "Regina",
+      "campHost": "The Sapphic Pond",
       "location": {
         "name": "Sunny Hills, grid square J21. Look for the lesbian flag, we fly it on a pole and",
         "area": "Sunny Hills",
@@ -10993,7 +11302,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "23:59 - 01:00"
       },
       "category": "Music/Performance/Show",
-      "host": "The Lambs / Spaceport",
+      "host": "The Lambs",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink temple, Lowlands",
         "area": "Lowlands",
@@ -11045,7 +11355,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "00:00 - 23:59"
       },
       "category": "Games/Play",
-      "host": "Miss Information / Acid Aunties & Nasty Uncles Adults only ·",
+      "host": "Miss Information",
+      "campHost": "Acid Aunties & Nasty Uncles",
       "location": {
         "name": "Sunny Hills, grid square J22. Look for a grumpy old hag - good luck",
         "area": "Sunny Hills",
@@ -11184,7 +11495,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "00:01 - 23:59"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Michael Barner-Rasmussen (Dog) / Free camping",
+      "host": "Michael Barner-Rasmussen (Dog)",
+      "campHost": "Free camping",
       "location": {
         "name": "Queer-inclusive"
       },
@@ -11232,7 +11544,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "02:30 - 06:00"
       },
       "category": "Games/Play",
-      "host": "Jonas Näslund & Dr. Catman / Club SIN · Sex positive",
+      "host": "Jonas Näslund & Dr. Catman",
+      "campHost": "Club SIN",
       "location": {
         "name": "Bison - North, grid square N19. By the Shameless Plaza",
         "area": "Bison - North",
@@ -11260,7 +11573,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "03:00 - 07:00"
       },
       "category": "Games/Play",
-      "host": "The Jester of the Jousting Table / Jousting Jesters",
+      "host": "The Jester of the Jousting Table",
+      "campHost": "Jousting Jesters",
       "location": {
         "name": "Swamp, grid square Q19. South of Water Plaza",
         "area": "Swamp",
@@ -11288,7 +11602,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "06:30 - 11:59"
       },
       "category": "Party/Gathering",
-      "host": "The Jesters of the Jousting Table / Jousting Jesters",
+      "host": "The Jesters of the Jousting Table",
+      "campHost": "Jousting Jesters",
       "location": {
         "name": "Swamp, grid square Q19. South of Water Plaza",
         "area": "Swamp",
@@ -11344,7 +11659,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "09:00 - 11:00"
       },
       "category": "Food/Drinks",
-      "host": "Jan & Gabriela / Kidsville",
+      "host": "Jan & Gabriela",
+      "campHost": "Kidsville",
       "location": {
         "name": "Lowlands, grid square P09. Follow the crumbs",
         "area": "Lowlands",
@@ -11399,7 +11715,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "09:00 - 18:00"
       },
       "category": "Food/Drinks",
-      "host": "Victoria Concordia / Moonwalkers",
+      "host": "Victoria Concordia",
+      "campHost": "Moonwalkers",
       "location": {
         "name": "Highlands, grid square L09.",
         "area": "Highlands",
@@ -11455,7 +11772,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "09:00 - 10:30"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Cecilia Biarner / The Source · · Queer inclusive",
+      "host": "Cecilia Biarner",
+      "campHost": "The Source",
       "location": {
         "name": "Lowlands, grid square S12. Near Lowland Plaza",
         "area": "Lowlands",
@@ -11484,7 +11802,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "09:30 - 11:30"
       },
       "category": "Food/Drinks",
-      "host": "MonsterMorran / Njorunns Garden",
+      "host": "MonsterMorran",
+      "campHost": "Njorunns Garden",
       "location": {
         "name": "Downtown, grid square M20. Around Downtown",
         "area": "Downtown",
@@ -11510,7 +11829,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "09:30 - 11:00"
       },
       "category": "Workshop/Class",
-      "host": "Gustaf, Per & Katinka / Room of Requirement",
+      "host": "Gustaf, Per & Katinka",
+      "campHost": "Room of Requirement",
       "location": {
         "name": "Eastern Slope, grid square V19. Entry from the road",
         "area": "Eastern Slope",
@@ -11538,7 +11858,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "09:30 - 13:30"
       },
       "category": "Games/Play",
-      "host": "Crow (Debbie) / Slothenhive · · Queer inclusive",
+      "host": "Crow (Debbie)",
+      "campHost": "Slothenhive",
       "location": {
         "name": "Lowlands, grid square Q13. An enclosed area with dog toys and shade.",
         "area": "Lowlands",
@@ -11567,7 +11888,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "09:30 - 10:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Self-led / Spaceport",
+      "host": "Self-led",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink temple, Lowlands",
         "area": "Lowlands",
@@ -11595,7 +11917,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 10:45"
       },
       "category": "Workshop/Class",
-      "host": "Robin Bäckström / Feromonia",
+      "host": "Robin Bäckström",
+      "campHost": "Feromonia",
       "location": {
         "name": "Swamp, grid square T18. @Feromonia, look for glamping bell tent with black",
         "area": "Swamp",
@@ -11623,7 +11946,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 17:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Kakan, Sickan and Akselito / Java the hut",
+      "host": "Kakan, Sickan and Akselito",
+      "campHost": "Java the hut",
       "location": {
         "name": "Highlands, grid square M09.",
         "area": "Highlands",
@@ -11649,7 +11973,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 11:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "M & E / Kidsville",
+      "host": "M & E",
+      "campHost": "Kidsville",
       "location": {
         "name": "Lowlands, grid square P09. Kidsville dome",
         "area": "Lowlands",
@@ -11677,7 +12002,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 22:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Mårten och Lova / Nest & Twigs",
+      "host": "Mårten och Lova",
+      "campHost": "Nest & Twigs",
       "location": {
         "name": "Bison - South, grid square P24. Nest & Twigs not far from the Bison",
         "area": "Bison - South",
@@ -11703,7 +12029,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 10:30"
       },
       "category": "Ritual/Ceremony",
-      "host": "Luca / Pink Parachute",
+      "host": "Luca",
+      "campHost": "Pink Parachute",
       "location": {
         "name": "Lowlands, grid square P13. Search for the Pink Parachute",
         "area": "Lowlands",
@@ -11729,7 +12056,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 11:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Amit / Spaceport",
+      "host": "Amit",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink temple, Lowlands",
         "area": "Lowlands",
@@ -11811,7 +12139,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 11:30"
       },
       "category": "Food/Drinks",
-      "host": "Joda / The Tahinians",
+      "host": "Joda",
+      "campHost": "The Tahinians",
       "location": {
         "name": "Lowlands, grid square Q12.",
         "area": "Lowlands",
@@ -11869,7 +12198,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 12:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "matildaK / Wild Sacred Fire",
+      "host": "matildaK",
+      "campHost": "Wild Sacred Fire",
       "location": {
         "name": "Swamp, grid square S17. Located in western Swamp by Fire Plaza",
         "area": "Swamp",
@@ -11897,7 +12227,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:15 - 12:00"
       },
       "category": "Games/Play",
-      "host": "Malin & Caroline / Tantric Trolls ·",
+      "host": "Malin & Caroline",
+      "campHost": "Tantric Trolls",
       "location": {
         "name": "Highlands, grid square N11. Penta Plaza",
         "area": "Highlands",
@@ -11927,7 +12258,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:30 - 11:30"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Lil'L / Circus the Analog",
+      "host": "Lil'L",
+      "campHost": "Circus the Analog",
       "location": {
         "name": "Swamp, grid square S18. Huge circus tent in the swamp",
         "area": "Swamp",
@@ -11953,7 +12285,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:30 - 12:30"
       },
       "category": "Food/Drinks",
-      "host": "Sara and Axel / Explorers",
+      "host": "Sara and Axel",
+      "campHost": "Explorers",
       "location": {
         "name": "Highlands, grid square N09. Look for the shiny balls in between Arctic Chill and",
         "area": "Highlands",
@@ -12007,7 +12340,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:30 - 12:30"
       },
       "category": "Workshop/Class",
-      "host": "T / Lovelies ·",
+      "host": "T",
+      "campHost": "Lovelies",
       "location": {
         "name": "Arctic chill, grid square M05. Very close to Treshold",
         "area": "Arctic chill",
@@ -12037,7 +12371,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:30 - 12:00"
       },
       "category": "Workshop/Class",
-      "host": "Depends on the day, see program board by SG / Secret Garden",
+      "host": "Depends on the day, see program board by SG",
+      "campHost": "Secret Garden",
       "location": {
         "name": "Downtown, grid square M21. Big white star shaped tent in the Secret Garden",
         "area": "Downtown",
@@ -12066,7 +12401,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:30 - 11:30"
       },
       "category": "Ritual/Ceremony",
-      "host": "Tribe's Caretaker / The Tribe, Argaba Village",
+      "host": "Tribe's Caretaker",
+      "campHost": "The Tribe, Argaba Village",
       "location": {
         "name": "Highlands, grid square N13. Ask for the Tribal mystics in the Agraba village",
         "area": "Highlands",
@@ -12092,7 +12428,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:59 - 11:45"
       },
       "category": "Workshop/Class",
-      "host": "Alexander Walter / The Observatory",
+      "host": "Alexander Walter",
+      "campHost": "The Observatory",
       "location": {
         "name": "Swamp, grid square Q19.",
         "area": "Swamp",
@@ -12120,7 +12457,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 12:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Melker / Camp Nimenoma",
+      "host": "Melker",
+      "campHost": "Camp Nimenoma",
       "location": {
         "name": "Highlands, grid square M13. South end of the Highlands",
         "area": "Highlands",
@@ -12146,7 +12484,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 12:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Nocturne / Chilldome",
+      "host": "Nocturne",
+      "campHost": "Chilldome",
       "location": {
         "name": "Highlands, grid square M11. Big dome on the Penta Plaza.",
         "area": "Highlands",
@@ -12172,7 +12511,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 12:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Rika & Anders / Club SIN",
+      "host": "Rika & Anders",
+      "campHost": "Club SIN",
       "location": {
         "name": "Bison - North, grid square N19. By the Shameless Plaza",
         "area": "Bison - North",
@@ -12200,7 +12540,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 12:00"
       },
       "category": "Workshop/Class",
-      "host": "Björn / Cuddle Cloud",
+      "host": "Björn",
+      "campHost": "Cuddle Cloud",
       "location": {
         "name": "Wedge, grid square R21. We're located in the Wedge neighbourhood, across the",
         "gridSquare": "R21"
@@ -12224,7 +12565,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 12:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Sonja / Fire Brigade",
+      "host": "Sonja",
+      "campHost": "Fire Brigade",
       "location": {
         "name": "Swamp, grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet",
         "area": "Swamp",
@@ -12250,7 +12592,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 12:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Peter / Flowzone monkeybar",
+      "host": "Peter",
+      "campHost": "Flowzone monkeybar",
       "location": {
         "name": "Highlands, grid square M11. Highlands, Penta plaza (big flag) next to Chilldome",
         "area": "Highlands",
@@ -12276,7 +12619,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 20:00"
       },
       "category": "Art/Installation",
-      "host": "Michael Barner-Rasmussen (aka. Dog) / Free camp",
+      "host": "Michael Barner-Rasmussen (aka. Dog)",
+      "campHost": "Free camp",
       "location": {
         "name": "Queer-inclusive · Triggering themes"
       },
@@ -12330,7 +12674,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 13:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Gre / Heliotropes",
+      "host": "Gre",
+      "campHost": "Heliotropes",
       "location": {
         "name": "Eastern Slope, grid square W16. along the edge of the forest, south of the",
         "area": "Eastern Slope",
@@ -12356,7 +12701,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 12:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "SWICKY / JAM CAMP",
+      "host": "SWICKY",
+      "campHost": "JAM CAMP",
       "location": {
         "name": "Lowlands, grid square R13. LOWLANDS- BEHIND SPACEPORT - BIG CIRKUS",
         "area": "Lowlands",
@@ -12382,7 +12728,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 12:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "AJL / Kishmastle Space Station",
+      "host": "AJL",
+      "campHost": "Kishmastle Space Station",
       "location": {
         "name": "Muumin Valley, grid square F10.",
         "gridSquare": "F10"
@@ -12434,7 +12781,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 12:45"
       },
       "category": "Music/Performance/Show",
-      "host": "Bee Love & Lee Nope / Moonwalkers",
+      "host": "Bee Love & Lee Nope",
+      "campHost": "Moonwalkers",
       "location": {
         "name": "Highlands, grid square L09.",
         "area": "Highlands",
@@ -12462,7 +12810,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 13:00"
       },
       "category": "Workshop/Class",
-      "host": "Gustav Orrevad / Room of Requirement",
+      "host": "Gustav Orrevad",
+      "campHost": "Room of Requirement",
       "location": {
         "name": "Eastern Slope, grid square V19. Entry from the road",
         "area": "Eastern Slope",
@@ -12490,7 +12839,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 12:00"
       },
       "category": "Food/Drinks",
-      "host": "Captain Hook / Admiral Emmalsion / Secret Sailors",
+      "host": "Captain Hook / Admiral Emmalsion",
+      "campHost": "Secret Sailors",
       "location": {
         "name": "Lowlands, grid square R12. Outside the tent of Secret Sailors, inside of raining.",
         "area": "Lowlands",
@@ -12518,7 +12868,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 00:30"
       },
       "category": "Workshop/Class",
-      "host": "Ylva Sante aka Duracelle/Wolverina / Silly Sanctuary",
+      "host": "Ylva Sante aka Duracelle / Wolverina",
+      "campHost": "Silly Sanctuary",
       "location": {
         "name": "Swamp, grid square S20.",
         "area": "Swamp",
@@ -12544,7 +12895,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 12:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Yasmin and Tamara / Spaceport",
+      "host": "Yasmin and Tamara",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink temple, Lowlands",
         "area": "Lowlands",
@@ -12598,7 +12950,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 12:30"
       },
       "category": "Workshop/Class",
-      "host": "Adam, Kevin & Eirini / The Observatory",
+      "host": "Adam, Kevin & Eirini",
+      "campHost": "The Observatory",
       "location": {
         "name": "Swamp, grid square Q19.",
         "area": "Swamp",
@@ -12626,7 +12979,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 13:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Nyx / The Sapphic Pond · Queer-focused",
+      "host": "Nyx",
+      "campHost": "The Sapphic Pond",
       "location": {
         "name": "Sunny Hills, grid square J21. Follow the lesbian flag and the fairy lights to the",
         "area": "Sunny Hills",
@@ -12654,7 +13008,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 12:00"
       },
       "category": "Workshop/Class",
-      "host": "Sofia Cerne / The Source · · Queer inclusive",
+      "host": "Sofia Cerne",
+      "campHost": "The Source",
       "location": {
         "name": "Lowlands, grid square S12. Near Lowland Plaza",
         "area": "Lowlands",
@@ -12683,7 +13038,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 14:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Dewi & Rosanna / The Växthus",
+      "host": "Dewi & Rosanna",
+      "campHost": "The Växthus",
       "location": {
         "name": "Downtown, grid square M21. The big greenhouse in the Secret Garden.",
         "area": "Downtown",
@@ -12734,7 +13090,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:30 - 12:30"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "M & E / Kidsville",
+      "host": "M & E",
+      "campHost": "Kidsville",
       "location": {
         "name": "Lowlands, grid square P09. Kidsville dome",
         "area": "Lowlands",
@@ -12762,7 +13119,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:30 - 13:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Reida / Shimmering by the forest edge",
+      "host": "Reida",
+      "campHost": "Shimmering by the forest edge",
       "location": {
         "name": "Arctic chill, grid square O06. In the Arctic Chill, close to Pamper Plaza, behind",
         "area": "Arctic chill",
@@ -12788,7 +13146,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:30 - 12:30"
       },
       "category": "Workshop/Class",
-      "host": "Leo / The SeaLions Den",
+      "host": "Leo",
+      "campHost": "The SeaLions Den",
       "location": {
         "name": "Highlands, grid square M09. From Penta Plaza you move north between 'The",
         "area": "Highlands",
@@ -12814,7 +13173,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:30 - 13:00"
       },
       "category": "Workshop/Class",
-      "host": "Aline / Yggdrasil",
+      "host": "Aline",
+      "campHost": "Yggdrasil",
       "location": {
         "name": "Highlands, grid square O10. in the big Tipi",
         "area": "Highlands",
@@ -12840,7 +13200,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:59 - 23:11"
       },
       "category": "Ritual/Ceremony",
-      "host": "Sara Bartosova / Heliotropes · Queer inclusive",
+      "host": "Sara Bartosova",
+      "campHost": "Heliotropes",
       "location": {
         "name": "mystery location, quench your thirst for more details/booking ->"
       },
@@ -12866,7 +13227,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 14:00"
       },
       "category": "Games/Play",
-      "host": "Lukas, Justin and Rikke / B.L.U.E Bureau",
+      "host": "Lukas, Justin and Rikke",
+      "campHost": "B.L.U.E Bureau",
       "location": {
         "name": "Highlands, grid square N09. geodetic dome",
         "area": "Highlands",
@@ -12892,7 +13254,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 15:00"
       },
       "category": "Party/Gathering",
-      "host": "Divanté & Simpqlicious / Ballroom Bliss",
+      "host": "Divanté & Simpqlicious",
+      "campHost": "Ballroom Bliss",
       "location": {
         "name": "Lowlands, grid square Q10. Look for disco balls and listen for disco groove!",
         "area": "Lowlands",
@@ -12918,7 +13281,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 12:30"
       },
       "category": "Workshop/Class",
-      "host": "Younes / Camp Babu",
+      "host": "Younes",
+      "campHost": "Camp Babu",
       "location": {
         "name": "Arctic chill, grid square N05. In Arctic Chill, next to camps: Alajv, Love Nest,",
         "area": "Arctic chill",
@@ -12946,7 +13310,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 13:00"
       },
       "category": "Workshop/Class",
-      "host": "Olivia Lemmel / Camp Nimenoma",
+      "host": "Olivia Lemmel",
+      "campHost": "Camp Nimenoma",
       "location": {
         "name": "Highlands, grid square M13. Right next to Agrabah village. We have a beg",
         "area": "Highlands",
@@ -12974,7 +13339,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 15:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Satya ORafferty / Chilldome",
+      "host": "Satya ORafferty",
+      "campHost": "Chilldome",
       "location": {
         "name": "Highlands, grid square M11. Big dome on the Penta Plaza.",
         "area": "Highlands",
@@ -13000,7 +13366,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 13:30"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Daniela / Circus teh Analog",
+      "host": "Daniela",
+      "campHost": "Circus teh Analog",
       "location": {
         "name": "Swamp, grid square S18. Huge Circus tent",
         "area": "Swamp",
@@ -13028,7 +13395,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 13:00"
       },
       "category": "Workshop/Class",
-      "host": "Anton Grip / Cloud Cartel",
+      "host": "Anton Grip",
+      "campHost": "Cloud Cartel",
       "location": {
         "name": "Highlands, grid square P11.",
         "area": "Highlands",
@@ -13080,7 +13448,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 13:30"
       },
       "category": "Music/Performance/Show",
-      "host": "Tim / Elven Saunacave-DOME",
+      "host": "Tim",
+      "campHost": "Elven Saunacave-DOME",
       "location": {
         "name": "Sunny Hills, grid square H22. just by the big lake Alversjoe",
         "area": "Sunny Hills",
@@ -13106,7 +13475,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 13:30"
       },
       "category": "Workshop/Class",
-      "host": "Basem / End of the Rainbow",
+      "host": "Basem",
+      "campHost": "End of the Rainbow",
       "location": {
         "name": "Bison - North, grid square N20. Come to End of the Rainbow Play space",
         "area": "Bison - North",
@@ -13135,7 +13505,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 16:00"
       },
       "category": "Art/Installation",
-      "host": "Magnus / Foajé Villa Hutlös",
+      "host": "Magnus",
+      "campHost": "Foajé Villa Hutlös",
       "location": {
         "name": "Eastern Slope, grid square V17. Foajé Villa Hutlös is a cozy camp with 8x5m",
         "area": "Eastern Slope",
@@ -13161,7 +13532,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 12:30"
       },
       "category": "Music/Performance/Show",
-      "host": "Kishmastle Space Station / Gate of Alvheim",
+      "host": "Kishmastle Space Station",
+      "campHost": "Gate of Alvheim",
       "location": {
         "name": "Muumin Valley, grid square F10. As a woman and a man in the same body at",
         "gridSquare": "F10"
@@ -13185,7 +13557,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 13:00"
       },
       "category": "Workshop/Class",
-      "host": "MARTIN the TECH CHAMP FROM JAM CAMP / JAM CAMP",
+      "host": "MARTIN the TECH CHAMP FROM JAM CAMP",
+      "campHost": "JAM CAMP",
       "location": {
         "name": "Lowlands, grid square R13. 50 meters behind SPACEPORT, close to grass,",
         "area": "Lowlands",
@@ -13211,7 +13584,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 13:00"
       },
       "category": "Food/Drinks",
-      "host": "Jaco / Lazy camp",
+      "host": "Jaco",
+      "campHost": "Lazy camp",
       "location": {
         "name": "Bison - North, grid square P22. Big 10m diameter dome",
         "area": "Bison - North",
@@ -13237,7 +13611,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 13:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "JJ / Spaceport",
+      "host": "JJ",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink temple, Lowlands",
         "area": "Lowlands",
@@ -13265,7 +13640,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 14:00"
       },
       "category": "Workshop/Class",
-      "host": "Linus Tunström / The Fuckery ·",
+      "host": "Linus Tunström",
+      "campHost": "The Fuckery",
       "location": {
         "name": "Swamp, grid square R17.",
         "area": "Swamp",
@@ -13349,7 +13725,7 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 17:00"
       },
       "category": "Care/Support/Pampering",
-      "host": "Mar Pacific · · Triggering themes",
+      "host": "Mar Pacific",
       "location": {
         "name": "Sunny Hills, grid square I21. Party Tent, Film casting set up",
         "area": "Sunny Hills",
@@ -13378,7 +13754,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:15 - 14:00"
       },
       "category": "Workshop/Class",
-      "host": "Sean / Pink Parachute",
+      "host": "Sean",
+      "campHost": "Pink Parachute",
       "location": {
         "name": "Lowlands, grid square P13. Come to Pink Parachute, look for the Moomin like",
         "area": "Lowlands",
@@ -13406,7 +13783,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:15 - 13:45"
       },
       "category": "Workshop/Class",
-      "host": "Tobias / Tantric Trolls",
+      "host": "Tobias",
+      "campHost": "Tantric Trolls",
       "location": {
         "name": "Highlands, grid square N11. Penta Plaza in Highlands",
         "area": "Highlands",
@@ -13432,7 +13810,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:30 - 13:30"
       },
       "category": "Workshop/Class",
-      "host": "Sonja and Malcolm / Fire Brigade",
+      "host": "Sonja and Malcolm",
+      "campHost": "Fire Brigade",
       "location": {
         "name": "Swamp, grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet",
         "area": "Swamp",
@@ -13458,7 +13837,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:30 - 13:45"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Juliette / GlitterTind",
+      "host": "Juliette",
+      "campHost": "GlitterTind",
       "location": {
         "name": "Bison - North, grid square O20. Shameless plaza next to sinnergirl",
         "area": "Bison - North",
@@ -13484,7 +13864,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:30 - 20:30"
       },
       "category": "Party/Gathering",
-      "host": "Kishmastle Spacestation / Kishmastle Spacestation",
+      "host": "Kishmastle Spacestation",
+      "campHost": "Kishmastle Spacestation",
       "location": {
         "name": "Muumin Valley, grid square F10. From sanctuary-follow the forest path toward",
         "gridSquare": "F10"
@@ -13508,7 +13889,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:30 - 13:30"
       },
       "category": "Workshop/Class",
-      "host": "Simo & One or Several Wolves / Pink Parachute Queer inclusive",
+      "host": "Simo & One or Several Wolves",
+      "campHost": "Pink Parachute",
       "location": {
         "name": "Lowlands, grid square P13.",
         "area": "Lowlands",
@@ -13560,7 +13942,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:00"
       },
       "category": "Workshop/Class",
-      "host": "Sabrine / Camp All Senses, No Sense",
+      "host": "Sabrine",
+      "campHost": "Camp All Senses, No Sense",
       "location": {
         "name": "Eastern Slope, grid square W16. Look for the Tipi tent, AA sign and the",
         "area": "Eastern Slope",
@@ -13589,7 +13972,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 15:00"
       },
       "category": "Workshop/Class",
-      "host": "Flo / Cheeky Butt Chill Camp · · Queer inclusive",
+      "host": "Flo",
+      "campHost": "Cheeky Butt Chill Camp",
       "location": {
         "name": "Highlands, grid square N11. Workshop will take place in the Beduine Tent",
         "area": "Highlands",
@@ -13619,7 +14003,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 15:00"
       },
       "category": "Workshop/Class",
-      "host": "Mistress Mercury / Club SIN · · Queer inclusive ·",
+      "host": "Mistress Mercury",
+      "campHost": "Club SIN",
       "location": {
         "name": "Bison - North, grid square N19. By the Shameless Plaza",
         "area": "Bison - North",
@@ -13650,7 +14035,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Hannibal / Cuddle Cloud",
+      "host": "Hannibal",
+      "campHost": "Cuddle Cloud",
       "location": {
         "name": "Wedge, grid square R21. We're located in the Wedge neighbourhood, across the",
         "gridSquare": "R21"
@@ -13674,7 +14060,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:00"
       },
       "category": "Workshop/Class",
-      "host": "Max / Explorers",
+      "host": "Max",
+      "campHost": "Explorers",
       "location": {
         "name": "Highlands, grid square N09. Look for the camp with the big shiny balls north of",
         "area": "Highlands",
@@ -13700,7 +14087,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 15:00"
       },
       "category": "Games/Play",
-      "host": "Simon Tank / Fire Energy Camp",
+      "host": "Simon Tank",
+      "campHost": "Fire Energy Camp",
       "location": {
         "name": "Sunny Hills, grid square H20. Sunny Hills find someone playing spikeball in",
         "area": "Sunny Hills",
@@ -13728,7 +14116,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 15:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Janna H / Glitter Light Orange Pink Space Pudding",
+      "host": "Janna H",
+      "campHost": "Glitter Light Orange Pink Space Pudding",
       "location": {
         "name": "Arctic chill, grid square N03. Look for big white fabric on a sunny spot on the hill",
         "area": "Arctic chill",
@@ -13754,7 +14143,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:00"
       },
       "category": "Workshop/Class",
-      "host": "Linnea & Alice / GlitterTind",
+      "host": "Linnea & Alice",
+      "campHost": "GlitterTind",
       "location": {
         "name": "Bison - North, grid square O20. Shameless plaza next to sinnergirl",
         "area": "Bison - North",
@@ -13780,7 +14170,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Aura & Jenni / Kidsville dome",
+      "host": "Aura & Jenni",
+      "campHost": "Kidsville dome",
       "location": {
         "name": "Lowlands, grid square P09. Kidsville dome is located in the North end of",
         "area": "Lowlands",
@@ -13808,7 +14199,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 16:00"
       },
       "category": "Party/Gathering",
-      "host": "Celala & Mr Black / Occult Oasis Pool Parties",
+      "host": "Celala & Mr Black",
+      "campHost": "Occult Oasis Pool Parties",
       "location": {
         "name": "Sunny Hills, grid square H22. Find us at sunny hills by the water inbetween",
         "area": "Sunny Hills",
@@ -13834,7 +14226,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:00"
       },
       "category": "Workshop/Class",
-      "host": "Depends on the day, see program board by SG / Secret Garden",
+      "host": "Depends on the day, see program board by SG",
+      "campHost": "Secret Garden",
       "location": {
         "name": "Downtown, grid square M21. Big white star shaped tent in the Secret Garden",
         "area": "Downtown",
@@ -13863,7 +14256,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:15"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Dragonfly Lina / Sorry About the Mess",
+      "host": "Dragonfly Lina",
+      "campHost": "Sorry About the Mess",
       "location": {
         "name": "Eastern Slope, grid square V16. Next to a fire road in northern part of the",
         "area": "Eastern Slope",
@@ -13915,7 +14309,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:30"
       },
       "category": "Workshop/Class",
-      "host": "MetaTank / Tea by the Sea dream",
+      "host": "MetaTank",
+      "campHost": "Tea by the Sea dream",
       "location": {
         "name": "Bison - South, grid square P23. In Bison South area",
         "area": "Bison - South",
@@ -13941,7 +14336,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 15:00"
       },
       "category": "Workshop/Class",
-      "host": "Tom / The Church",
+      "host": "Tom",
+      "campHost": "The Church",
       "location": {
         "name": "Downtown, grid square K21. The Church, Downtown",
         "area": "Downtown",
@@ -13967,7 +14363,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 15:00"
       },
       "category": "Food/Drinks",
-      "host": "The Sweet Spot / The Sweet Spot",
+      "host": "The Sweet Spot",
+      "campHost": "The Sweet Spot",
       "location": {
         "name": "Lowlands, grid square P13. White with red decorations. Follow the glorious smell",
         "area": "Lowlands",
@@ -13993,7 +14390,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:00"
       },
       "category": "Workshop/Class",
-      "host": "Marie / Welcome Home Darling",
+      "host": "Marie",
+      "campHost": "Welcome Home Darling",
       "location": {
         "name": "Highlands, grid square O10. big black and white tent",
         "area": "Highlands",
@@ -14021,7 +14419,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 16:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Fanny Henriksson / Wondrous Forge ·",
+      "host": "Fanny Henriksson",
+      "campHost": "Wondrous Forge",
       "location": {
         "name": "Swamp, grid square S17. next to the Fire Plaza, under a linenroof. Contact for",
         "area": "Swamp",
@@ -14052,7 +14451,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 15:30"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Foxy Lene / Yggdrasil",
+      "host": "Foxy Lene",
+      "campHost": "Yggdrasil",
       "location": {
         "name": "Highlands, grid square O10. in the big Tipi",
         "area": "Highlands",
@@ -14106,7 +14506,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:30 - 15:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "\"Bubbles\" / Jousting Jesters",
+      "host": "\"Bubbles\"",
+      "campHost": "Jousting Jesters",
       "location": {
         "name": "Swamp, grid square Q19. North side of the little forest between the roads in",
         "area": "Swamp",
@@ -14132,7 +14533,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:30 - 18:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "The Jesters of the Jousting Table / Jousting Jesters",
+      "host": "The Jesters of the Jousting Table",
+      "campHost": "Jousting Jesters",
       "location": {
         "name": "Swamp, grid square Q19. South of Water Plaza",
         "area": "Swamp",
@@ -14160,7 +14562,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:30 - 14:30"
       },
       "category": "Workshop/Class",
-      "host": "Explorer (Marcel) / Pink Parachute",
+      "host": "Explorer (Marcel)",
+      "campHost": "Pink Parachute",
       "location": {
         "name": "Lowlands, grid square P13. Velvet Lounge (next to main Pink Parachute)",
         "area": "Lowlands",
@@ -14186,7 +14589,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:30 - 15:30"
       },
       "category": "Workshop/Class",
-      "host": "Klara / Shimmering by the forest edge",
+      "host": "Klara",
+      "campHost": "Shimmering by the forest edge",
       "location": {
         "name": "Arctic chill, grid square O06. In the Arctic Chill, close to Pamper Plaza, behind",
         "area": "Arctic chill",
@@ -14214,7 +14618,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:30 - 13:45"
       },
       "category": "Workshop/Class",
-      "host": "Jo / The Bureau of Justice, Joy, Bubbles and Other Dangerous Ideas",
+      "host": "Jo",
+      "campHost": "The Bureau of Justice, Joy, Bubbles and Other Dangerous Ideas",
       "location": {
         "name": "Swamp, grid square S19. In front of the Bureau's Reception at the Earth Plaza",
         "area": "Swamp",
@@ -14243,7 +14648,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:30"
       },
       "category": "Workshop/Class",
-      "host": "Jami & co / Beaver Issues",
+      "host": "Jami & co",
+      "campHost": "Beaver Issues",
       "location": {
         "name": "Arctic chill, grid square P07. Look for a beaver sign, enter the strech tent",
         "area": "Arctic chill",
@@ -14271,7 +14677,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 20:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "God / Boris ·",
+      "host": "God",
+      "campHost": "Boris",
       "location": {
         "name": "Downtown, grid square K21. Underneath the Church",
         "area": "Downtown",
@@ -14327,7 +14734,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:00"
       },
       "category": "Workshop/Class",
-      "host": "Pinkysha / Circus the Analog",
+      "host": "Pinkysha",
+      "campHost": "Circus the Analog",
       "location": {
         "name": "Swamp, grid square S18. https://www.theborderland.se/map/?id=315",
         "area": "Swamp",
@@ -14355,7 +14763,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:00"
       },
       "category": "Food/Drinks",
-      "host": "Michaelangelo and Lin / End of the Block Lounge",
+      "host": "Michaelangelo and Lin",
+      "campHost": "End of the Block Lounge",
       "location": {
         "name": "Swamp, grid square U16. We are where The Swamp, The Missing Piece and The",
         "area": "Swamp",
@@ -14383,7 +14792,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 16:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Lila / Frans-Lukas / End of the Rainbow",
+      "host": "Lila / Frans-Lukas",
+      "campHost": "End of the Rainbow",
       "location": {
         "name": "Bison - North, grid square N20. Cross from downtown garden over the wooden",
         "area": "Bison - North",
@@ -14411,7 +14821,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:30"
       },
       "category": "Workshop/Class",
-      "host": "Cuddles / Fire Brigade",
+      "host": "Cuddles",
+      "campHost": "Fire Brigade",
       "location": {
         "name": "Swamp, grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet",
         "area": "Swamp",
@@ -14437,7 +14848,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 14:30"
       },
       "category": "Workshop/Class",
-      "host": "Oskar / Juicebox · · Triggering themes",
+      "host": "Oskar",
+      "campHost": "Juicebox",
       "location": {
         "name": "Bison - South, grid square O23. Location TBC, likely Bison area, near \"The",
         "area": "Bison - South",
@@ -14466,7 +14878,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 14:03"
       },
       "category": "Music/Performance/Show",
-      "host": "Masalin / Mariah Carey ·",
+      "host": "Masalin",
+      "campHost": "Mariah Carey",
       "location": {
         "name": "Sunny Hills, grid square G22. Please arrive to the pier next to Lakeside Plaza,",
         "area": "Sunny Hills",
@@ -14496,7 +14909,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:00"
       },
       "category": "Workshop/Class",
-      "host": "Bente / Nimenoma",
+      "host": "Bente",
+      "campHost": "Nimenoma",
       "location": {
         "name": "Highlands, grid square M13. We are close to the LNT station = look for massive",
         "area": "Highlands",
@@ -14525,7 +14939,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:00"
       },
       "category": "Workshop/Class",
-      "host": "Agnez / Rainbow Razzle",
+      "host": "Agnez",
+      "campHost": "Rainbow Razzle",
       "location": {
         "name": "Bison - South, grid square O22. Event held at ”Socialen”, Sunset Plaza",
         "area": "Bison - South",
@@ -14553,7 +14968,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 17:00"
       },
       "category": "Workshop/Class",
-      "host": "Molly / Sacred Kink ·",
+      "host": "Molly",
+      "campHost": "Sacred Kink",
       "location": {
         "name": "Swamp, grid square R18. Near the water plaza in the swamp",
         "area": "Swamp",
@@ -14583,7 +14999,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 17:00"
       },
       "category": "Food/Drinks",
-      "host": "Cap'n grey gull / Seagull's nest",
+      "host": "Cap'n grey gull",
+      "campHost": "Seagull's nest",
       "location": {
         "name": "Highlands, grid square O11. Follow the squawks to our lighthouse",
         "area": "Highlands",
@@ -14609,7 +15026,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:00"
       },
       "category": "Workshop/Class",
-      "host": "Raul / Secret sailors",
+      "host": "Raul",
+      "campHost": "Secret sailors",
       "location": {
         "name": "Lowlands, grid square R12.",
         "area": "Lowlands",
@@ -14637,7 +15055,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:00"
       },
       "category": "Workshop/Class",
-      "host": "Raulito / Secret Sailors",
+      "host": "Raulito",
+      "campHost": "Secret Sailors",
       "location": {
         "name": "Lowlands, grid square R12. Secret Sailors tent by Lowlands plaza",
         "area": "Lowlands",
@@ -14663,7 +15082,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Egil & Reida / Shimmering by the forest edge",
+      "host": "Egil & Reida",
+      "campHost": "Shimmering by the forest edge",
       "location": {
         "name": "Arctic chill, grid square O06. In the Arctic Chill, close to Pamper Plaza, behind",
         "area": "Arctic chill",
@@ -14692,7 +15112,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 16:00"
       },
       "category": "Workshop/Class",
-      "host": "Benjamin and David / Tantric Trolls",
+      "host": "Benjamin and David",
+      "campHost": "Tantric Trolls",
       "location": {
         "name": "Highlands, grid square N11. Penta Plaza",
         "area": "Highlands",
@@ -14720,7 +15141,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 14:15"
       },
       "category": "Ritual/Ceremony",
-      "host": "Team Security / Team Security",
+      "host": "Team Security",
+      "campHost": "Team Security",
       "location": {
         "name": "Everywhere",
         "area": "Everywhere"
@@ -14744,7 +15166,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 16:00"
       },
       "category": "Workshop/Class",
-      "host": "Discolinski (DJ Räjfvhaal) & The Queen / The Fuckery",
+      "host": "Discolinski (DJ Räjfvhaal) & The Queen",
+      "campHost": "The Fuckery",
       "location": {
         "name": "Swamp, grid square R17. Look for a big, red neon sign. Next to the Missing Piece.",
         "area": "Swamp",
@@ -14800,7 +15223,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:30"
       },
       "category": "Workshop/Class",
-      "host": "Naina Eira, Alexander Bard & Adam Thyssen / The Observatory",
+      "host": "Naina Eira, Alexander Bard & Adam Thyssen",
+      "campHost": "The Observatory",
       "location": {
         "name": "Swamp, grid square Q19.",
         "area": "Swamp",
@@ -14826,7 +15250,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 16:00"
       },
       "category": "Workshop/Class",
-      "host": "Luna / The Sapphic Pond Queer-focused",
+      "host": "Luna",
+      "campHost": "The Sapphic Pond",
       "location": {
         "name": "Sunny Hills, grid square J21. Look for the lesbian flag, we fly it on a pole and",
         "area": "Sunny Hills",
@@ -14852,7 +15277,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:00"
       },
       "category": "Workshop/Class",
-      "host": "Elias / The Tahinians",
+      "host": "Elias",
+      "campHost": "The Tahinians",
       "location": {
         "name": "Lowlands, grid square Q12.",
         "area": "Lowlands",
@@ -14878,7 +15304,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 16:00"
       },
       "category": "Workshop/Class",
-      "host": "Tobias Dinesen / Touch Divine",
+      "host": "Tobias Dinesen",
+      "campHost": "Touch Divine",
       "location": {
         "name": "Wedge, grid square R22. South-East corner of BL",
         "gridSquare": "R22"
@@ -14930,7 +15357,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Goose / Wild Sacred Fire · · Triggering themes",
+      "host": "Goose",
+      "campHost": "Wild Sacred Fire",
       "location": {
         "name": "Swamp, grid square S17. Right at the Fire Plaza in Swamp",
         "area": "Swamp",
@@ -14983,7 +15411,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:30"
       },
       "category": "Workshop/Class",
-      "host": "Erik / Low Effort Lounge",
+      "host": "Erik",
+      "campHost": "Low Effort Lounge",
       "location": {
         "name": "Highlands, grid square O12.",
         "area": "Highlands",
@@ -15009,7 +15438,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:15"
       },
       "category": "Workshop/Class",
-      "host": "Icarus / All Senses, No Sense",
+      "host": "Icarus",
+      "campHost": "All Senses, No Sense",
       "location": {
         "name": "Eastern Slope, W16.",
         "area": "Eastern Slope",
@@ -15034,7 +15464,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:15 - 15:45"
       },
       "category": "Workshop/Class",
-      "host": "LasseGrube / JamCamp",
+      "host": "LasseGrube",
+      "campHost": "JamCamp",
       "location": {
         "name": "Lowlands, grid square R13. Circus Tent (expected)",
         "area": "Lowlands",
@@ -15060,7 +15491,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:20 - 16:20"
       },
       "category": "Workshop/Class",
-      "host": "He Whom The Smoke Is Circling / Where The Craving Is",
+      "host": "He Whom The Smoke Is Circling",
+      "campHost": "Where The Craving Is",
       "location": {
         "name": "Settled"
       },
@@ -15085,7 +15517,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:30 - 15:30"
       },
       "category": "Workshop/Class",
-      "host": "Juhana / Cuddle Cloud",
+      "host": "Juhana",
+      "campHost": "Cuddle Cloud",
       "location": {
         "name": "Wedge, grid square R21. We're located in the Wedge neighbourhood, across the",
         "gridSquare": "R21"
@@ -15111,7 +15544,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:30 - 16:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Josef Kaspar + Slow Moon / Elven Saunacave-DOME",
+      "host": "Josef Kaspar + Slow Moon",
+      "campHost": "Elven Saunacave-DOME",
       "location": {
         "name": "Sunny Hills, grid square H22. just by the big lake Alversjoe",
         "area": "Sunny Hills",
@@ -15137,7 +15571,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:30 - 15:30"
       },
       "category": "Workshop/Class",
-      "host": "Michelle & Alice / GlitterTind · Queer inclusive",
+      "host": "Michelle & Alice",
+      "campHost": "GlitterTind",
       "location": {
         "name": "Bison - North, grid square O20. Shameless plaza next to sinnergirl",
         "area": "Bison - North",
@@ -15165,7 +15600,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:30 - 15:30"
       },
       "category": "Music/Performance/Show",
-      "host": "Geronimo / Sad Alice Blues Bar",
+      "host": "Geronimo",
+      "campHost": "Sad Alice Blues Bar",
       "location": {
         "name": "Downtown, grid square M19. Near Plutonia. It's a big brown container bar",
         "area": "Downtown",
@@ -15193,7 +15629,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:30 - 16:30"
       },
       "category": "Food/Drinks",
-      "host": "Martin, Siri, Fanny, Erik / Secret Garden",
+      "host": "Martin, Siri, Fanny, Erik",
+      "campHost": "Secret Garden",
       "location": {
         "name": "Downtown, grid square M21. Next to the gazebo. Drop in or out at any time",
         "area": "Downtown",
@@ -15219,7 +15656,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:30 - 17:30"
       },
       "category": "Food/Drinks",
-      "host": "The Pink Parasol Potion Bar / The Herd",
+      "host": "The Pink Parasol Potion Bar",
+      "campHost": "The Herd",
       "location": {
         "name": "Highlands, grid square O10.",
         "area": "Highlands",
@@ -15245,7 +15683,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:30 - 15:00"
       },
       "category": "Games/Play",
-      "host": "Veronika / Kidsville",
+      "host": "Veronika",
+      "campHost": "Kidsville",
       "location": {
         "name": "Lowlands, grid square P09. In the Dome, look for babies!",
         "area": "Lowlands",
@@ -15325,7 +15764,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 16:30"
       },
       "category": "Food/Drinks",
-      "host": "Señor and Señorita Sánchez / Blackwater Operations",
+      "host": "Señor and Señorita Sánchez",
+      "campHost": "Blackwater Operations",
       "location": {
         "name": "Swamp, grid square Q18. We are hosting our fiesta with our amigos in",
         "area": "Swamp",
@@ -15351,7 +15791,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 01:00"
       },
       "category": "Games/Play",
-      "host": "Morpheus & Pfaffe Labskaus / Cheeky Butt ·",
+      "host": "Morpheus & Pfaffe Labskaus",
+      "campHost": "Cheeky Butt",
       "location": {
         "name": "Highlands, grid square N11. We will be where the Sin is. Always at your service",
         "area": "Highlands",
@@ -15382,7 +15823,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 18:00"
       },
       "category": "Workshop/Class",
-      "host": "M / Chilldome",
+      "host": "M",
+      "campHost": "Chilldome",
       "location": {
         "name": "Highlands, grid square M11. Big dome on the Penta Plaza.",
         "area": "Highlands",
@@ -15408,7 +15850,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 17:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Afra / Circus the Analog",
+      "host": "Afra",
+      "campHost": "Circus the Analog",
       "location": {
         "name": "Swamp, grid square S18. Biggest circus tent in the swamp … just right next to",
         "area": "Swamp",
@@ -15436,7 +15879,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 16:00"
       },
       "category": "Workshop/Class",
-      "host": "Charlie & Lia / DansBanderLand",
+      "host": "Charlie & Lia",
+      "campHost": "DansBanderLand",
       "location": {
         "name": "Swamp, grid square T19. The LED dansbana (= pavilion)",
         "area": "Swamp",
@@ -15488,7 +15932,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 16:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Kidsville kids / Kidsville",
+      "host": "Kidsville kids",
+      "campHost": "Kidsville",
       "location": {
         "name": "Lowlands, grid square P09. Starting at kidsville walking around the playa. Listen",
         "area": "Lowlands",
@@ -15568,7 +16013,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 16:30"
       },
       "category": "Games/Play",
-      "host": "Yonatan / Pink Parachute",
+      "host": "Yonatan",
+      "campHost": "Pink Parachute",
       "location": {
         "name": "Lowlands, grid square P13.",
         "area": "Lowlands",
@@ -15620,7 +16066,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 18:00"
       },
       "category": "Games/Play",
-      "host": "Valborg / Silly Sanctuary / Silly sanctuary Sensory content",
+      "host": "Valborg / Silly Sanctuary",
+      "campHost": "Silly sanctuary",
       "location": {
         "name": "Swamp, grid square S20.",
         "area": "Swamp",
@@ -15674,7 +16121,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 17:00"
       },
       "category": "Workshop/Class",
-      "host": "Rose / Tea by the Sea",
+      "host": "Rose",
+      "campHost": "Tea by the Sea",
       "location": {
         "name": "Bison - South, grid square Q23.",
         "area": "Bison - South",
@@ -15702,7 +16150,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 18:00"
       },
       "category": "Music/Performance/Show",
-      "host": "The Bears / The Bear's Den",
+      "host": "The Bears",
+      "campHost": "The Bear's Den",
       "location": {
         "name": "Sunny Hills, grid square H19. Turn between The Grateful Grogg and Discotech",
         "area": "Sunny Hills",
@@ -15728,7 +16177,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 17:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Ea and The Bubbles / The Bubbles",
+      "host": "Ea and The Bubbles",
+      "campHost": "The Bubbles",
       "location": {
         "name": "Highlands, grid square N11. Cheeky Butt Chill Camp",
         "area": "Highlands",
@@ -15756,7 +16206,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 18:00"
       },
       "category": "Food/Drinks",
-      "host": "Camp: Nothing Suspicious Here / The Grateful Grogg",
+      "host": "Camp: Nothing Suspicious Here",
+      "campHost": "The Grateful Grogg",
       "location": {
         "name": "Sunny Hills, grid square I20.",
         "area": "Sunny Hills",
@@ -15811,7 +16262,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 17:30"
       },
       "category": "Workshop/Class",
-      "host": "Feli / The Heartspace · · Triggering themes",
+      "host": "Feli",
+      "campHost": "The Heartspace",
       "location": {
         "name": "Arctic chill, grid square P07.",
         "area": "Arctic chill",
@@ -15866,7 +16318,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 16:30"
       },
       "category": "Workshop/Class",
-      "host": "Rasmus and Sonja / The Source · Queer inclusive",
+      "host": "Rasmus and Sonja",
+      "campHost": "The Source",
       "location": {
         "name": "Lowlands, grid square S12.",
         "area": "Lowlands",
@@ -15917,7 +16370,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:30 - 17:00"
       },
       "category": "Workshop/Class",
-      "host": "Amadeus & KinkyWowWow / Club SIN · Sex positive",
+      "host": "Amadeus & KinkyWowWow",
+      "campHost": "Club SIN",
       "location": {
         "name": "Bison - North, grid square N19. By the Shameless Plaza",
         "area": "Bison - North",
@@ -15945,7 +16399,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:30 - 17:30"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Akut / Kidsville",
+      "host": "Akut",
+      "campHost": "Kidsville",
       "location": {
         "name": "Lowlands, grid square P09.",
         "area": "Lowlands",
@@ -15971,7 +16426,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:30 - 16:30"
       },
       "category": "Workshop/Class",
-      "host": "Laura / The Church",
+      "host": "Laura",
+      "campHost": "The Church",
       "location": {
         "name": "Downtown, grid square K21. The Church, Downtown",
         "area": "Downtown",
@@ -16026,7 +16482,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 23:00"
       },
       "category": "Workshop/Class",
-      "host": "BabyPickles / All Senses, No Sense - East slope Adults only",
+      "host": "BabyPickles",
+      "campHost": "All Senses, No Sense - East slope",
       "location": {
         "name": "grid square X16. There will be a sign at the road saying Camp All Senses, No",
         "gridSquare": "X16"
@@ -16053,7 +16510,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 17:00"
       },
       "category": "Food/Drinks",
-      "host": "Museum of Bad Art / Bad Arts Residency",
+      "host": "Museum of Bad Art",
+      "campHost": "Bad Arts Residency",
       "location": {
         "name": "Downtown, grid square K19. Inside the museum",
         "area": "Downtown",
@@ -16110,7 +16568,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 17:00"
       },
       "category": "Workshop/Class",
-      "host": "Einar & Lia / DansBanderLand",
+      "host": "Einar & Lia",
+      "campHost": "DansBanderLand",
       "location": {
         "name": "Swamp, grid square T19. The LED dansbana (= pavilion)",
         "area": "Swamp",
@@ -16136,7 +16595,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 19:00"
       },
       "category": "Food/Drinks",
-      "host": "The High(est) Priestess of the Rosewater Cult / Disciples of Alba - Constellations",
+      "host": "The High(est) Priestess of the Rosewater Cult",
+      "campHost": "Disciples of Alba - Constellations",
       "location": {
         "name": "Eastern Slope, grid square V19. We're in the Constellations Neighborhood in the",
         "area": "Eastern Slope",
@@ -16162,7 +16622,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 17:00"
       },
       "category": "Workshop/Class",
-      "host": "Leo / Fire Brigade",
+      "host": "Leo",
+      "campHost": "Fire Brigade",
       "location": {
         "name": "Swamp, grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet",
         "area": "Swamp",
@@ -16188,7 +16649,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 17:00"
       },
       "category": "Food/Drinks",
-      "host": "Haky & Merci / Haky & Merci",
+      "host": "Haky & Merci",
+      "campHost": "Haky & Merci",
       "location": {
         "name": "Arctic chill, grid square L08. Orange Van",
         "area": "Arctic chill",
@@ -16216,7 +16678,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 19:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Tamiros / Jam Camp",
+      "host": "Tamiros",
+      "campHost": "Jam Camp",
       "location": {
         "name": "Lowlands, grid square R13.",
         "area": "Lowlands",
@@ -16268,7 +16731,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 17:30"
       },
       "category": "Workshop/Class",
-      "host": "Mystical Cowboy / Many Mad Mystics",
+      "host": "Mystical Cowboy",
+      "campHost": "Many Mad Mystics",
       "location": {
         "name": "Arctic chill, grid square N06.",
         "area": "Arctic chill",
@@ -16320,7 +16784,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Hrm Fellonia & Fries / Njorunns Garden",
+      "host": "Hrm Fellonia & Fries",
+      "campHost": "Njorunns Garden",
       "location": {
         "name": "Downtown, grid square M20.",
         "area": "Downtown",
@@ -16348,7 +16813,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 17:30"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Noé / Shimmering by the forest edge",
+      "host": "Noé",
+      "campHost": "Shimmering by the forest edge",
       "location": {
         "name": "Arctic chill, grid square O06. In the Arctic Chill, close to Pamper Plaza, behind",
         "area": "Arctic chill",
@@ -16376,7 +16842,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Workshop/Class",
-      "host": "Kenia / Spaceport",
+      "host": "Kenia",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink temple, Lowlands",
         "area": "Lowlands",
@@ -16405,7 +16872,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 17:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Radiant / Tea by the Sea",
+      "host": "Radiant",
+      "campHost": "Tea by the Sea",
       "location": {
         "name": "Bison - South, grid square P23. Tea by the sea is located next to the lookout the",
         "area": "Bison - South",
@@ -16431,7 +16899,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Art/Installation",
-      "host": "Clara & Niki / The Observatory",
+      "host": "Clara & Niki",
+      "campHost": "The Observatory",
       "location": {
         "name": "Swamp, grid square Q19.",
         "area": "Swamp",
@@ -16485,7 +16954,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Art/Installation",
-      "host": "The Royal Snail at The Jolly Jousters and onwards / The Royal Snail",
+      "host": "The Royal Snail at The Jolly Jousters and onwards",
+      "campHost": "The Royal Snail",
       "location": {
         "name": "Lowlands, grid square P12. At Jousting Tournament and onward from there",
         "area": "Lowlands",
@@ -16513,7 +16983,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Games/Play",
-      "host": "Nyxie / The Sapphic Pond · Queer-focused",
+      "host": "Nyxie",
+      "campHost": "The Sapphic Pond",
       "location": {
         "name": "Sunny Hills, grid square J21. Look for the lesbian flag, we fly it on a pole and",
         "area": "Sunny Hills",
@@ -16541,7 +17012,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Workshop/Class",
-      "host": "Aapo & Omi-peah / Touch Divine · Queer inclusive",
+      "host": "Aapo & Omi-peah",
+      "campHost": "Touch Divine",
       "location": {
         "name": "Wedge, grid square R22. At the south-east corner of BL, in a neighborhood",
         "gridSquare": "R22"
@@ -16568,7 +17040,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 17:30"
       },
       "category": "Workshop/Class",
-      "host": "Daniel / Yggdrasil",
+      "host": "Daniel",
+      "campHost": "Yggdrasil",
       "location": {
         "name": "Highlands, grid square O10. in the big Tipi",
         "area": "Highlands",
@@ -16622,7 +17095,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:30 - 18:00"
       },
       "category": "Workshop/Class",
-      "host": "James / Cuddle Cloud",
+      "host": "James",
+      "campHost": "Cuddle Cloud",
       "location": {
         "name": "Wedge, grid square R21. We're located in the Wedge neighbourhood, across the",
         "gridSquare": "R21"
@@ -16648,7 +17122,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:30 - 18:00"
       },
       "category": "Games/Play",
-      "host": "Brent Chister / End of the Block Lounge",
+      "host": "Brent Chister",
+      "campHost": "End of the Block Lounge",
       "location": {
         "name": "Swamp, grid square U16. We are where The Swamp, The Missing Piece and The",
         "area": "Swamp",
@@ -16676,7 +17151,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:30 - 18:30"
       },
       "category": "Workshop/Class",
-      "host": "David & Sola / End of the Rainbow ·",
+      "host": "David & Sola",
+      "campHost": "End of the Rainbow",
       "location": {
         "name": "Bison - North, grid square N20. Cross from downtown garden over the wooden",
         "area": "Bison - North",
@@ -16706,7 +17182,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:30 - 17:30"
       },
       "category": "Games/Play",
-      "host": "Lucy / Pink Parachute",
+      "host": "Lucy",
+      "campHost": "Pink Parachute",
       "location": {
         "name": "Lowlands, grid square P13.",
         "area": "Lowlands",
@@ -16758,7 +17235,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "17:00 - 18:00"
       },
       "category": "Workshop/Class",
-      "host": "Miss Kitty Oaks / Circus the Analog · Sex positive",
+      "host": "Miss Kitty Oaks",
+      "campHost": "Circus the Analog",
       "location": {
         "name": "Swamp, grid square S18. https://www.theborderland.se/map/?id=315",
         "area": "Swamp",
@@ -16787,7 +17265,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "17:00 - 18:00"
       },
       "category": "Workshop/Class",
-      "host": "Kir Åge Jæger / Club SIN",
+      "host": "Kir Åge Jæger",
+      "campHost": "Club SIN",
       "location": {
         "name": "Bison - North, grid square N19. By the Shameless Plaza.",
         "area": "Bison - North",
@@ -16816,7 +17295,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "17:00 - 18:00"
       },
       "category": "Workshop/Class",
-      "host": "Sajuran / DansBanderLand",
+      "host": "Sajuran",
+      "campHost": "DansBanderLand",
       "location": {
         "name": "Swamp, grid square T19. The LED dansbana (= pavilion)",
         "area": "Swamp",
@@ -16842,7 +17322,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "17:00 - 18:00"
       },
       "category": "Food/Drinks",
-      "host": "Miksu / Löyhä liitto",
+      "host": "Miksu",
+      "campHost": "Löyhä liitto",
       "location": {
         "name": "Eastern Slope, grid square U20. Look for the foxes on top of the hill, crawl into",
         "area": "Eastern Slope",
@@ -16870,7 +17351,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "17:00 - 19:00"
       },
       "category": "Games/Play",
-      "host": "Shay / Mission? Impossible!",
+      "host": "Shay",
+      "campHost": "Mission? Impossible!",
       "location": {
         "name": "Highlands, grid square M12. South point of the Penta Plaze @Highlands",
         "area": "Highlands",
@@ -16925,7 +17407,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "17:00 - 18:30"
       },
       "category": "Workshop/Class",
-      "host": "Kathi / The Tribe (in Agrabah Village)",
+      "host": "Kathi",
+      "campHost": "The Tribe (in Agrabah Village)",
       "location": {
         "name": "Highlands, grid square N13. Find us on the main street of Agrabah Village in the",
         "area": "Highlands",
@@ -16979,7 +17462,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "17:15 - 19:45"
       },
       "category": "Workshop/Class",
-      "host": "Charlotte Fogel / The Tantric Trolls",
+      "host": "Charlotte Fogel",
+      "campHost": "The Tantric Trolls",
       "location": {
         "name": "Highlands, grid square N11. By the ponton bridge of the big lake in front of",
         "area": "Highlands",
@@ -17008,7 +17492,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "17:30 - 20:00"
       },
       "category": "Workshop/Class",
-      "host": "Poppy and Sophie / Fire Brigade",
+      "host": "Poppy and Sophie",
+      "campHost": "Fire Brigade",
       "location": {
         "name": "Swamp, grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet",
         "area": "Swamp",
@@ -17091,7 +17576,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "18:00 - 18:45"
       },
       "category": "Music/Performance/Show",
-      "host": "Jenny Benny / Circus the Analog",
+      "host": "Jenny Benny",
+      "campHost": "Circus the Analog",
       "location": {
         "name": "Swamp, grid square S18. Huge Circus tent",
         "area": "Swamp",
@@ -17119,7 +17605,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "18:00 - 20:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Miksu / Löyhä liitto",
+      "host": "Miksu",
+      "campHost": "Löyhä liitto",
       "location": {
         "name": "Eastern Slope, grid square U20. Look for the foxes on top of the hill, crawl into",
         "area": "Eastern Slope",
@@ -17147,7 +17634,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "18:00 - 19:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "The Storytelling Fairy / Once Upon A Camp",
+      "host": "The Storytelling Fairy",
+      "campHost": "Once Upon A Camp",
       "location": {
         "name": "Arctic chill, grid square O07. Go to the Arctic Chill plaza. You will find signs and",
         "area": "Arctic chill",
@@ -17199,7 +17687,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "18:00 - 19:00"
       },
       "category": "Workshop/Class",
-      "host": "Jennifer / Spaceport",
+      "host": "Jennifer",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink temple, Lowlands",
         "area": "Lowlands",
@@ -17227,7 +17716,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "18:30 - 19:00"
       },
       "category": "Food/Drinks",
-      "host": "Sweetspot (Location and Pancakes) - Slothenhive (the \"Jizz\") / The Sweet Spot",
+      "host": "Sweetspot (Location and Pancakes) - Slothenhive (the \"Jizz\")",
+      "campHost": "The Sweet Spot",
       "location": {
         "name": "Lowlands, grid square P13. LOWLANDS - next to spaceport and Slothenhive",
         "area": "Lowlands",
@@ -17282,7 +17772,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "19:00 - 20:00"
       },
       "category": "Music/Performance/Show",
-      "host": "DR. DUUS, DOG DOG DUUS - Mc Street Juice / JAM CAMP",
+      "host": "DR. DUUS, DOG DOG DUUS - Mc Street Juice",
+      "campHost": "JAM CAMP",
       "location": {
         "name": "Lowlands, grid square R13. BEHIND SPACEPORT 50 meters, maybe 100, maybe",
         "area": "Lowlands",
@@ -17363,7 +17854,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "19:00 - 21:00"
       },
       "category": "Food/Drinks",
-      "host": "Nick / Schorle Bar",
+      "host": "Nick",
+      "campHost": "Schorle Bar",
       "location": {
         "name": "Swamp, grid square R18. Directly at the Water Plaza in the Swamp",
         "area": "Swamp",
@@ -17389,7 +17881,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "19:00 - 21:00"
       },
       "category": "Workshop/Class",
-      "host": "Izel / Spaceport",
+      "host": "Izel",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink temple, Lowlands",
         "area": "Lowlands",
@@ -17418,7 +17911,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "19:00 - 19:30"
       },
       "category": "Party/Gathering",
-      "host": "Valentin / The Church · · Sex positive",
+      "host": "Valentin",
+      "campHost": "The Church",
       "location": {
         "name": "Downtown, grid square K21. The Church, Downtown",
         "area": "Downtown",
@@ -17473,7 +17967,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "19:00 - 21:00"
       },
       "category": "Food/Drinks",
-      "host": "The Sweet Spot / The Sweet Spot · Queer inclusive",
+      "host": "The Sweet Spot",
+      "campHost": "The Sweet Spot",
       "location": {
         "name": "Lowlands, grid square P13. White with red decorations. Follow the glorious smell",
         "area": "Lowlands",
@@ -17501,7 +17996,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "19:00 - 21:00"
       },
       "category": "Workshop/Class",
-      "host": "Deelah / Yggdrasil",
+      "host": "Deelah",
+      "campHost": "Yggdrasil",
       "location": {
         "name": "Highlands, grid square O10. in the big Tipi",
         "area": "Highlands",
@@ -17580,7 +18076,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "19:30 - 22:00"
       },
       "category": "Party/Gathering",
-      "host": "Yanick / The Church · · Sex positive",
+      "host": "Yanick",
+      "campHost": "The Church",
       "location": {
         "name": "Downtown, grid square K21. The Church, Downtown",
         "area": "Downtown",
@@ -17609,7 +18106,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "19:45 - 22:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Omi-peah / Touch Divine",
+      "host": "Omi-peah",
+      "campHost": "Touch Divine",
       "location": {
         "name": "Wedge, grid square R22.",
         "gridSquare": "R22"
@@ -17636,7 +18134,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 22:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Dina / Chilldome",
+      "host": "Dina",
+      "campHost": "Chilldome",
       "location": {
         "name": "Highlands, grid square M11. Big dome on the Penta Plaza.",
         "area": "Highlands",
@@ -17746,7 +18245,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 23:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "DansBanderLand / DansBanderLand",
+      "host": "DansBanderLand",
+      "campHost": "DansBanderLand",
       "location": {
         "name": "Swamp, grid square T19. The LED dansbana (= pavilion)",
         "area": "Swamp",
@@ -17798,7 +18298,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 22:00"
       },
       "category": "Games/Play",
-      "host": "Sara and Axel / Explorers",
+      "host": "Sara and Axel",
+      "campHost": "Explorers",
       "location": {
         "name": "Highlands, grid square N09. Look for the shiny balls in between Arctic Chill and",
         "area": "Highlands",
@@ -17852,7 +18353,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 23:00"
       },
       "category": "Music/Performance/Show",
-      "host": "David Lindberg / RA dancefloor",
+      "host": "David Lindberg",
+      "campHost": "RA dancefloor",
       "location": {
         "name": "Bison - North, grid square O20.",
         "area": "Bison - North",
@@ -17882,7 +18384,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 21:00"
       },
       "category": "Workshop/Class",
-      "host": "Ji / Shimmering by the forest edge",
+      "host": "Ji",
+      "campHost": "Shimmering by the forest edge",
       "location": {
         "name": "Arctic chill, grid square O06. In the Arctic Chill, close to Pamper Plaza, behind",
         "area": "Arctic chill",
@@ -17910,7 +18413,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 22:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Sound Awakening Tribe & Friends / Temple of Sound",
+      "host": "Sound Awakening Tribe & Friends",
+      "campHost": "Temple of Sound",
       "location": {
         "name": "Eastern Slope, grid square V18.",
         "area": "Eastern Slope",
@@ -17967,7 +18471,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 22:00"
       },
       "category": "Games/Play",
-      "host": "Nyxie / The Sapphic Pond Queer-focused",
+      "host": "Nyxie",
+      "campHost": "The Sapphic Pond",
       "location": {
         "name": "Sunny Hills, grid square J21. Look for the lesbian flag, we fly it on a pole and",
         "area": "Sunny Hills",
@@ -17993,7 +18498,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 21:00"
       },
       "category": "Food/Drinks",
-      "host": "The Wrecked Yachtees / The Wrecked Yachtees Asylum",
+      "host": "The Wrecked Yachtees",
+      "campHost": "The Wrecked Yachtees Asylum",
       "location": {
         "name": "Eastern Slope, grid square V16. In the Yachtees Magic Offerings area on the",
         "area": "Eastern Slope",
@@ -18019,7 +18525,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 23:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Ana/Schoepa",
+      "host": "Ana",
+      "campHost": "Schoepa",
       "location": {
         "name": "Sober · Queer-inclusive · Sex positive"
       },
@@ -18046,7 +18553,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:30 - 21:30"
       },
       "category": "Art/Installation",
-      "host": "Soosee / Fire Brigade",
+      "host": "Soosee",
+      "campHost": "Fire Brigade",
       "location": {
         "name": "Swamp, grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet",
         "area": "Swamp",
@@ -18072,7 +18580,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:30 - 22:00"
       },
       "category": "Music/Performance/Show",
-      "host": "JAM CAMP / JAM CAMP",
+      "host": "JAM CAMP",
+      "campHost": "JAM CAMP",
       "location": {
         "name": "Lowlands, grid square R13. LOWLANDS- BEHIND Spaceport 50 m. close to grass",
         "area": "Lowlands",
@@ -18100,7 +18609,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "21:00 - 00:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Teddy Lind / Antra.world",
+      "host": "Teddy Lind",
+      "campHost": "Antra.world",
       "location": {
         "name": "Swamp, grid square T18. Once you hear cool jazz you’re close; find two large",
         "area": "Swamp",
@@ -18156,7 +18666,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "21:00 - 22:30"
       },
       "category": "Ritual/Ceremony",
-      "host": "Meow Meow and His Royal Darkness / Lucifer's Pit",
+      "host": "Meow Meow and His Royal Darkness",
+      "campHost": "Lucifer's Pit",
       "location": {
         "name": "Downtown, grid square K19. Go in and follow the Darkness!",
         "area": "Downtown",
@@ -18212,7 +18723,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "21:00 - 22:30"
       },
       "category": "Art/Installation",
-      "host": "DJ SCHRBR / Passage To Lemuria",
+      "host": "DJ SCHRBR",
+      "campHost": "Passage To Lemuria",
       "location": {
         "name": "grid square P25. The southest part of bison, look for a portal like entrance",
         "gridSquare": "P25"
@@ -18238,7 +18750,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "21:00 - 22:30"
       },
       "category": "Music/Performance/Show",
-      "host": "Rasmus / Tantric Trolls",
+      "host": "Rasmus",
+      "campHost": "Tantric Trolls",
       "location": {
         "name": "Highlands, grid square N11.",
         "area": "Highlands",
@@ -18266,7 +18779,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "21:00 - 22:30"
       },
       "category": "Music/Performance/Show",
-      "host": "Linus Tunström / The Fuckery",
+      "host": "Linus Tunström",
+      "campHost": "The Fuckery",
       "location": {
         "name": "Swamp, grid square R17.",
         "area": "Swamp",
@@ -18295,7 +18809,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "21:30 - 22:15"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Melker / Camp Nimenoma",
+      "host": "Melker",
+      "campHost": "Camp Nimenoma",
       "location": {
         "name": "Highlands, grid square M13. South end of the Highlands",
         "area": "Highlands",
@@ -18321,7 +18836,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "21:30 - 23:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Spongi / Circus the Analog",
+      "host": "Spongi",
+      "campHost": "Circus the Analog",
       "location": {
         "name": "Swamp, grid square S18. Huge Circus tent",
         "area": "Swamp",
@@ -18349,7 +18865,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "21:30 - 22:00"
       },
       "category": "Workshop/Class",
-      "host": "Fire Brigade / Fire Brigade",
+      "host": "Fire Brigade",
+      "campHost": "Fire Brigade",
       "location": {
         "name": "Swamp, grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet",
         "area": "Swamp",
@@ -18401,7 +18918,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:00 - 01:00"
       },
       "category": "Music/Performance/Show",
-      "host": "ricardo kondo / Chilldome",
+      "host": "ricardo kondo",
+      "campHost": "Chilldome",
       "location": {
         "name": "Highlands, grid square M11. Big dome on the Penta Plaza.",
         "area": "Highlands",
@@ -18427,7 +18945,7 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:00 - 02:00"
       },
       "category": "Games/Play",
-      "host": "Club SIN ·",
+      "host": "Club SIN",
       "location": {
         "name": "Bison - North, grid square N19. By the Shameless Plaza",
         "area": "Bison - North",
@@ -18457,7 +18975,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:00 - 00:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Fire Brigade / Fire Brigade",
+      "host": "Fire Brigade",
+      "campHost": "Fire Brigade",
       "location": {
         "name": "Swamp, grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet",
         "area": "Swamp",
@@ -18483,7 +19002,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:00 - 00:00"
       },
       "category": "Party/Gathering",
-      "host": "The Velvet Lounge / Pink Parachute",
+      "host": "The Velvet Lounge",
+      "campHost": "Pink Parachute",
       "location": {
         "name": "Lowlands, grid square P13. Look for our open sign",
         "area": "Lowlands",
@@ -18511,7 +19031,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:00 - 23:30"
       },
       "category": "Music/Performance/Show",
-      "host": "Miss Scarlet Raven / Spaceport · Queer inclusive",
+      "host": "Miss Scarlet Raven",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. The Spaceport Dome",
         "area": "Lowlands",
@@ -18540,7 +19061,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:00 - 05:00"
       },
       "category": "Music/Performance/Show",
-      "host": "The Bears / The Bear's Den",
+      "host": "The Bears",
+      "campHost": "The Bear's Den",
       "location": {
         "name": "Sunny Hills, grid square H19. Turn between The Grateful Grogg and Discotech",
         "area": "Sunny Hills",
@@ -18566,7 +19088,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:00 - 04:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Yanick / The Church · · Sex positive",
+      "host": "Yanick",
+      "campHost": "The Church",
       "location": {
         "name": "Downtown, grid square K21. The Church, Downtown",
         "area": "Downtown",
@@ -18624,7 +19147,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:00 - 02:00"
       },
       "category": "Games/Play",
-      "host": "God / the secret outpost",
+      "host": "God",
+      "campHost": "the secret outpost",
       "location": {
         "name": "Sex positive · Triggering themes"
       },
@@ -18750,7 +19274,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:30 - 00:00"
       },
       "category": "Art/Installation",
-      "host": "Shamama / Passage to Lemuria",
+      "host": "Shamama",
+      "campHost": "Passage to Lemuria",
       "location": {
         "name": "grid square P25. The southest part of bison, look for a portal like entrance",
         "gridSquare": "P25"
@@ -18776,7 +19301,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:30 - 23:59"
       },
       "category": "Music/Performance/Show",
-      "host": "Lisa & Lucy / Pink Parachute & secret location in forest",
+      "host": "Lisa & Lucy",
+      "campHost": "Pink Parachute & secret location in forest",
       "location": {
         "name": "Lowlands, grid square P13. We meet at Pink Parachute and go on a procession",
         "area": "Lowlands",
@@ -18831,7 +19357,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "23:00 - 03:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Fluff / CIRCUS the ANALOG ·",
+      "host": "Fluff",
+      "campHost": "CIRCUS the ANALOG",
       "location": {
         "name": "Swamp, grid square S18.",
         "area": "Swamp",
@@ -18861,7 +19388,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "23:00 - 01:00"
       },
       "category": "Food/Drinks",
-      "host": "hefe & Philea / somewhere near a fireplace",
+      "host": "hefe & Philea",
+      "campHost": "somewhere near a fireplace",
       "location": {
         "name": "Somewhere near a fireplace. Lift your head high, let your nostrils tremble, and"
       },
@@ -18884,7 +19412,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "23:00 - 08:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Regina / The Sapphic Pond Queer-focused",
+      "host": "Regina",
+      "campHost": "The Sapphic Pond",
       "location": {
         "name": "Sunny Hills, grid square J21. Look for the lesbian flag, we fly it on a pole and",
         "area": "Sunny Hills",
@@ -18912,7 +19441,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "23:59 - 01:30"
       },
       "category": "Music/Performance/Show",
-      "host": "Fire Brigade / Fire Brigade",
+      "host": "Fire Brigade",
+      "campHost": "Fire Brigade",
       "location": {
         "name": "Swamp, grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet",
         "area": "Swamp",
@@ -18967,7 +19497,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "00:00 - 23:59"
       },
       "category": "Games/Play",
-      "host": "Miss Information / Acid Aunties & Nasty Uncles Adults only ·",
+      "host": "Miss Information",
+      "campHost": "Acid Aunties & Nasty Uncles",
       "location": {
         "name": "Sunny Hills, grid square J22. Look for a grumpy old hag - good luck",
         "area": "Sunny Hills",
@@ -19073,7 +19604,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "00:00 - 01:30"
       },
       "category": "Art/Installation",
-      "host": "haveabreak / Passage to Lemuria",
+      "host": "haveabreak",
+      "campHost": "Passage to Lemuria",
       "location": {
         "name": "grid square P25. The southest part of bison, look for a portal like entrance",
         "gridSquare": "P25"
@@ -19126,7 +19658,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "21:00 - 22:30"
       },
       "category": "Food/Drinks",
-      "host": "The Sweet Spot / The Sweet Spot",
+      "host": "The Sweet Spot",
+      "campHost": "The Sweet Spot",
       "location": {
         "name": "Lowlands, grid square P13. White with red decorations. Follow the glorious smell",
         "area": "Lowlands",
@@ -19179,7 +19712,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "00:01 - 23:59"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Michael Barner-Rasmussen (Dog) / Free camping",
+      "host": "Michael Barner-Rasmussen (Dog)",
+      "campHost": "Free camping",
       "location": {
         "name": "Queer-inclusive"
       },
@@ -19204,7 +19738,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "01:00 - 02:00"
       },
       "category": "Food/Drinks",
-      "host": "Nils & Sigg / Jousting Jesters",
+      "host": "Nils & Sigg",
+      "campHost": "Jousting Jesters",
       "location": {
         "name": "Swamp, grid square Q19. South of Water Plaza",
         "area": "Swamp",
@@ -19232,7 +19767,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "01:30 - 03:00"
       },
       "category": "Art/Installation",
-      "host": "URHYMN / Passage To Lemuria",
+      "host": "URHYMN",
+      "campHost": "Passage To Lemuria",
       "location": {
         "name": "grid square P25. The southest part of bison, look for a portal like entrance",
         "gridSquare": "P25"
@@ -19258,7 +19794,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "02:30 - 06:00"
       },
       "category": "Games/Play",
-      "host": "Mistress Mercury, Jonas Näslund & Theory / Club SIN ·",
+      "host": "Mistress Mercury, Jonas Näslund & Theory",
+      "campHost": "Club SIN",
       "location": {
         "name": "Bison - North, grid square N19. By the Shameless Plaza",
         "area": "Bison - North",
@@ -19288,7 +19825,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "03:30 - 04:30"
       },
       "category": "Games/Play",
-      "host": "Akut / Kidsville",
+      "host": "Akut",
+      "campHost": "Kidsville",
       "location": {
         "name": "Lowlands, grid square P09.",
         "area": "Lowlands",
@@ -19314,7 +19852,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "08:00 - 10:00"
       },
       "category": "Workshop/Class",
-      "host": "Gustav Orrevad / Room Of Requirement",
+      "host": "Gustav Orrevad",
+      "campHost": "Room Of Requirement",
       "location": {
         "name": "Eastern Slope, grid square V19. Entry from the road",
         "area": "Eastern Slope",
@@ -19342,7 +19881,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "09:00 - 10:30"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "SapphiraSkye / Circus the Analog",
+      "host": "SapphiraSkye",
+      "campHost": "Circus the Analog",
       "location": {
         "name": "Swamp, grid square S18. Huge Circus tent",
         "area": "Swamp",
@@ -19368,7 +19908,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "09:00 - 11:00"
       },
       "category": "Food/Drinks",
-      "host": "Jan & Gabriela / Kidsville",
+      "host": "Jan & Gabriela",
+      "campHost": "Kidsville",
       "location": {
         "name": "Lowlands, grid square P09. Follow the crumbs",
         "area": "Lowlands",
@@ -19423,7 +19964,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "09:00 - 18:00"
       },
       "category": "Food/Drinks",
-      "host": "Victoria Concordia / Moonwalkers",
+      "host": "Victoria Concordia",
+      "campHost": "Moonwalkers",
       "location": {
         "name": "Highlands, grid square L09.",
         "area": "Highlands",
@@ -19479,7 +20021,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "09:00 - 11:00"
       },
       "category": "Food/Drinks",
-      "host": "Michi / The Goslings",
+      "host": "Michi",
+      "campHost": "The Goslings",
       "location": {
         "name": "Wedge, grid square R21.",
         "gridSquare": "R21"
@@ -19503,7 +20046,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "09:30 - 13:30"
       },
       "category": "Games/Play",
-      "host": "Crow (Debbie) / Slothenhive · · Queer inclusive",
+      "host": "Crow (Debbie)",
+      "campHost": "Slothenhive",
       "location": {
         "name": "Lowlands, grid square Q13. An enclosed area with dog toys and shade.",
         "area": "Lowlands",
@@ -19532,7 +20076,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 10:45"
       },
       "category": "Workshop/Class",
-      "host": "Robin Bäckström / Feromonia",
+      "host": "Robin Bäckström",
+      "campHost": "Feromonia",
       "location": {
         "name": "Swamp, grid square T18. @Feromonia, look for glamping bell tent with black",
         "area": "Swamp",
@@ -19560,7 +20105,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 11:00"
       },
       "category": "Workshop/Class",
-      "host": "Rgina Rx / Kidsville Workshop Dome",
+      "host": "Rgina Rx",
+      "campHost": "Kidsville Workshop Dome",
       "location": {
         "name": "Lowlands, grid square P09.",
         "area": "Lowlands",
@@ -19588,7 +20134,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 22:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Mårten och Lova / Nest & Twigs",
+      "host": "Mårten och Lova",
+      "campHost": "Nest & Twigs",
       "location": {
         "name": "Bison - South, grid square P24. Nest & Twigs not far from the Bison",
         "area": "Bison - South",
@@ -19614,7 +20161,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 12:00"
       },
       "category": "Workshop/Class",
-      "host": "Elin / Once Upon A Camp",
+      "host": "Elin",
+      "campHost": "Once Upon A Camp",
       "location": {
         "name": "Arctic chill, grid square O07. Go to the plaza of the Arctic Chill. You will see signs",
         "area": "Arctic chill",
@@ -19640,7 +20188,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 00:00"
       },
       "category": "Workshop/Class",
-      "host": "Gustav Orrevad & Axel Jigander / Room Of Requirement",
+      "host": "Gustav Orrevad & Axel Jigander",
+      "campHost": "Room Of Requirement",
       "location": {
         "name": "Eastern Slope, grid square V19. Entry from the road",
         "area": "Eastern Slope",
@@ -19668,7 +20217,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 10:30"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Self-led / Spaceport",
+      "host": "Self-led",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink temple, Lowlands",
         "area": "Lowlands",
@@ -19722,7 +20272,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 11:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Aline / Women who support women",
+      "host": "Aline",
+      "campHost": "Women who support women",
       "location": {
         "name": "Arctic chill, grid square O06. take the path on the right from pamper plaza, we",
         "area": "Arctic chill",
@@ -19748,7 +20299,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:15 - 11:45"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Timmy / Tantric Trolls",
+      "host": "Timmy",
+      "campHost": "Tantric Trolls",
       "location": {
         "name": "Highlands, grid square N11. Penta Plaza",
         "area": "Highlands",
@@ -19774,7 +20326,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:30 - 12:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Daniela / Circus the Analog",
+      "host": "Daniela",
+      "campHost": "Circus the Analog",
       "location": {
         "name": "Swamp, grid square S18. Huge Circus tent",
         "area": "Swamp",
@@ -19828,7 +20381,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:30 - 10:45"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Simo / Mariah Carey",
+      "host": "Simo",
+      "campHost": "Mariah Carey",
       "location": {
         "name": "Arctic chill, grid square L06.",
         "area": "Arctic chill",
@@ -19856,7 +20410,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:30 - 12:00"
       },
       "category": "Workshop/Class",
-      "host": "Depends on the day, see program board by SG / Secret Garden",
+      "host": "Depends on the day, see program board by SG",
+      "campHost": "Secret Garden",
       "location": {
         "name": "Downtown, grid square M21. Big white star shaped tent in the Secret Garden",
         "area": "Downtown",
@@ -19885,7 +20440,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 13:00"
       },
       "category": "Workshop/Class",
-      "host": "Morten / Camp Holy Mess",
+      "host": "Morten",
+      "campHost": "Camp Holy Mess",
       "location": {
         "name": "Arctic chill, grid square O07.",
         "area": "Arctic chill",
@@ -19913,7 +20469,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 13:00"
       },
       "category": "Workshop/Class",
-      "host": "Tim / Chillcamp",
+      "host": "Tim",
+      "campHost": "Chillcamp",
       "location": {
         "name": "Highlands, grid square M11.",
         "area": "Highlands",
@@ -19941,7 +20498,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 13:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Tim Davidsson / Chilldome",
+      "host": "Tim Davidsson",
+      "campHost": "Chilldome",
       "location": {
         "name": "Highlands, grid square M11. Big dome on the Penta Plaza.",
         "area": "Highlands",
@@ -19967,7 +20525,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 13:00"
       },
       "category": "Workshop/Class",
-      "host": "Pyt / Club SIN ·",
+      "host": "Pyt",
+      "campHost": "Club SIN",
       "location": {
         "name": "Bison - North, grid square N19. By the Shameless Plaza.",
         "area": "Bison - North",
@@ -19997,7 +20556,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 12:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Line / Cuddle Cloud",
+      "host": "Line",
+      "campHost": "Cuddle Cloud",
       "location": {
         "name": "Wedge, grid square R21. We're located in the Wedge neighbourhood, across the",
         "gridSquare": "R21"
@@ -20021,7 +20581,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 12:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Franck and Agathe / Fire Brigade",
+      "host": "Franck and Agathe",
+      "campHost": "Fire Brigade",
       "location": {
         "name": "Swamp, grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet",
         "area": "Swamp",
@@ -20047,7 +20608,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 20:00"
       },
       "category": "Art/Installation",
-      "host": "Michael Barner-Rasmussen (aka. Dog) / Free camp",
+      "host": "Michael Barner-Rasmussen (aka. Dog)",
+      "campHost": "Free camp",
       "location": {
         "name": "Queer-inclusive · Triggering themes"
       },
@@ -20073,7 +20635,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 15:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Pamper Temple / House of Glöd · Queer focused",
+      "host": "Pamper Temple",
+      "campHost": "House of Glöd",
       "location": {
         "name": "Arctic chill, grid square P06.",
         "area": "Arctic chill",
@@ -20101,7 +20664,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 14:00"
       },
       "category": "Workshop/Class",
-      "host": "Hanna / Jam Camp",
+      "host": "Hanna",
+      "campHost": "Jam Camp",
       "location": {
         "name": "Lowlands, grid square R13.",
         "area": "Lowlands",
@@ -20153,7 +20717,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 18:00"
       },
       "category": "Party/Gathering",
-      "host": "Pink Parachute / Pink Parachute",
+      "host": "Pink Parachute",
+      "campHost": "Pink Parachute",
       "location": {
         "name": "Lowlands, grid square P13.",
         "area": "Lowlands",
@@ -20181,7 +20746,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 12:00"
       },
       "category": "Food/Drinks",
-      "host": "Captain Hook / Admiral Emmalsion / Secret Sailors",
+      "host": "Captain Hook / Admiral Emmalsion",
+      "campHost": "Secret Sailors",
       "location": {
         "name": "Lowlands, grid square R12. Outside the tent of Secret Sailors, inside of raining.",
         "area": "Lowlands",
@@ -20209,7 +20775,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 12:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Little Bear / Spaceport",
+      "host": "Little Bear",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink temple, Lowlands",
         "area": "Lowlands",
@@ -20265,7 +20832,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 13:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Nyx / The Sapphic Pond · Queer-focused",
+      "host": "Nyx",
+      "campHost": "The Sapphic Pond",
       "location": {
         "name": "Sunny Hills, grid square J21. Follow the lesbian flag and the fairy lights to the",
         "area": "Sunny Hills",
@@ -20293,7 +20861,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 12:00"
       },
       "category": "Workshop/Class",
-      "host": "Sofia Cerne / The Source · · Queer inclusive",
+      "host": "Sofia Cerne",
+      "campHost": "The Source",
       "location": {
         "name": "Lowlands, grid square S12. Near Lowland Plaza",
         "area": "Lowlands",
@@ -20322,7 +20891,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 14:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Dewi & Rosanna / The Växthus",
+      "host": "Dewi & Rosanna",
+      "campHost": "The Växthus",
       "location": {
         "name": "Downtown, grid square M21. The big greenhouse in the Secret Garden.",
         "area": "Downtown",
@@ -20348,7 +20918,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 12:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Bettina / Yggdrasil",
+      "host": "Bettina",
+      "campHost": "Yggdrasil",
       "location": {
         "name": "Highlands, grid square O10. in the big Tipi",
         "area": "Highlands",
@@ -20374,7 +20945,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 12:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Marie / Yggdrasil",
+      "host": "Marie",
+      "campHost": "Yggdrasil",
       "location": {
         "name": "Highlands, grid square O10. in the big Tipi",
         "area": "Highlands",
@@ -20400,7 +20972,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:30 - 13:00"
       },
       "category": "Workshop/Class",
-      "host": "Mathias & Jaimie / GlitterTind",
+      "host": "Mathias & Jaimie",
+      "campHost": "GlitterTind",
       "location": {
         "name": "Bison - North, grid square O20. Shameless plaza next to sinnergirl",
         "area": "Bison - North",
@@ -20428,7 +21001,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:30 - 13:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Laura / Shimmering by the forest edge",
+      "host": "Laura",
+      "campHost": "Shimmering by the forest edge",
       "location": {
         "name": "Arctic chill, grid square O06. In the Arctic Chill, close to Pamper Plaza, behind",
         "area": "Arctic chill",
@@ -20482,7 +21056,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:59 - 23:11"
       },
       "category": "Ritual/Ceremony",
-      "host": "Sara Bartosova / Heliotropes · Queer inclusive",
+      "host": "Sara Bartosova",
+      "campHost": "Heliotropes",
       "location": {
         "name": "mystery location, quench your thirst for more details/booking ->"
       },
@@ -20508,7 +21083,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 13:30"
       },
       "category": "Workshop/Class",
-      "host": "Piluci & Felix / B.L.U.E Bureau",
+      "host": "Piluci & Felix",
+      "campHost": "B.L.U.E Bureau",
       "location": {
         "name": "Highlands, grid square N09. We will be in our office in the dome next to the",
         "area": "Highlands",
@@ -20534,7 +21110,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 15:00"
       },
       "category": "Party/Gathering",
-      "host": "Divanté & Simpqlicious / Ballroom Bliss",
+      "host": "Divanté & Simpqlicious",
+      "campHost": "Ballroom Bliss",
       "location": {
         "name": "Lowlands, grid square Q10. Look for disco balls and listen for disco groove!",
         "area": "Lowlands",
@@ -20560,7 +21137,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 13:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Armita Borhanazad / Borderlife",
+      "host": "Armita Borhanazad",
+      "campHost": "Borderlife",
       "location": {
         "name": "Arctic chill, grid square O05.",
         "area": "Arctic chill",
@@ -20586,7 +21164,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 13:00"
       },
       "category": "Workshop/Class",
-      "host": "Olivia Lemmel / Camp Nimenoma",
+      "host": "Olivia Lemmel",
+      "campHost": "Camp Nimenoma",
       "location": {
         "name": "Highlands, grid square M13. Right next to Agrabah village. We have a beg",
         "area": "Highlands",
@@ -20640,7 +21219,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 14:30"
       },
       "category": "Food/Drinks",
-      "host": "Mélanie / Couleur Camp ·",
+      "host": "Mélanie",
+      "campHost": "Couleur Camp",
       "location": {
         "name": "Downtown, grid square K21.",
         "area": "Downtown",
@@ -20670,7 +21250,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 12:30"
       },
       "category": "Workshop/Class",
-      "host": "Fanny-nati / Elven Saunacave",
+      "host": "Fanny-nati",
+      "campHost": "Elven Saunacave",
       "location": {
         "name": "Sunny Hills, grid square H22. just by the big lake Alversjoe",
         "area": "Sunny Hills",
@@ -20698,7 +21279,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 13:30"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Emelie / End of the Rainbow",
+      "host": "Emelie",
+      "campHost": "End of the Rainbow",
       "location": {
         "name": "Bison - North, grid square N20. Cross from downtown garden over the wooden",
         "area": "Bison - North",
@@ -20724,7 +21306,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 16:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Tino / House of glöd",
+      "host": "Tino",
+      "campHost": "House of glöd",
       "location": {
         "name": "Arctic chill, grid square P06.",
         "area": "Arctic chill",
@@ -20753,7 +21336,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 14:00"
       },
       "category": "Workshop/Class",
-      "host": "Julia Persson & Shamama / Passage to Lemuria",
+      "host": "Julia Persson & Shamama",
+      "campHost": "Passage to Lemuria",
       "location": {
         "name": "grid square P25. The southest part of bison, look for a portal like entrance",
         "gridSquare": "P25"
@@ -20777,7 +21361,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 13:30"
       },
       "category": "Music/Performance/Show",
-      "host": "Dan Storm / RA dancefloor",
+      "host": "Dan Storm",
+      "campHost": "RA dancefloor",
       "location": {
         "name": "Bison - North, grid square O20.",
         "area": "Bison - North",
@@ -20803,7 +21388,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 13:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Johanna Qvarfordt at the Bears Den / The Bear's Den",
+      "host": "Johanna Qvarfordt at the Bears Den",
+      "campHost": "The Bear's Den",
       "location": {
         "name": "Sunny Hills, grid square H19.",
         "area": "Sunny Hills",
@@ -20831,7 +21417,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 14:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Baher / The Fuckery",
+      "host": "Baher",
+      "campHost": "The Fuckery",
       "location": {
         "name": "Swamp, grid square R17.",
         "area": "Swamp",
@@ -20859,7 +21446,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 14:00"
       },
       "category": "Workshop/Class",
-      "host": "Women who supports women camp members / Women who supports women",
+      "host": "Women who supports women camp members",
+      "campHost": "Women who supports women",
       "location": {
         "name": "Arctic chill, grid square O06. In the big tippi",
         "area": "Arctic chill",
@@ -20887,7 +21475,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 13:30"
       },
       "category": "Workshop/Class",
-      "host": "Christine & Nathan / Yggdrasil",
+      "host": "Christine & Nathan",
+      "campHost": "Yggdrasil",
       "location": {
         "name": "Highlands, grid square O10. in the big Tipi",
         "area": "Highlands",
@@ -20941,7 +21530,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:15 - 13:45"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Erik & Sarha / Tantric Trolls",
+      "host": "Erik & Sarha",
+      "campHost": "Tantric Trolls",
       "location": {
         "name": "Highlands, grid square N11. Penta Plaza in the Highlands",
         "area": "Highlands",
@@ -20967,7 +21557,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:30 - 14:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Josef / Elven Saunacave-DOME",
+      "host": "Josef",
+      "campHost": "Elven Saunacave-DOME",
       "location": {
         "name": "Sunny Hills, grid square H22. just by the big lake Alversjoe",
         "area": "Sunny Hills",
@@ -20993,7 +21584,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:30 - 13:30"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Mitzi / Fire Brigade",
+      "host": "Mitzi",
+      "campHost": "Fire Brigade",
       "location": {
         "name": "Swamp, grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet",
         "area": "Swamp",
@@ -21019,7 +21611,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:30 - 13:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Gate of Alvheim / Gate of Alvheim",
+      "host": "Gate of Alvheim",
+      "campHost": "Gate of Alvheim",
       "location": {
         "name": "Muumin Valley, grid square F10. Look for s man and a woman in the same body",
         "gridSquare": "F10"
@@ -21069,7 +21662,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 15:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "MariMille / Alice in Morocco",
+      "host": "MariMille",
+      "campHost": "Alice in Morocco",
       "location": {
         "name": "Highlands, grid square N12. If it looks like a Moroccan wonderland with a bunch",
         "area": "Highlands",
@@ -21097,7 +21691,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 15:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Dana, Linda och Elina / Camp Fire Energy",
+      "host": "Dana, Linda och Elina",
+      "campHost": "Camp Fire Energy",
       "location": {
         "name": "Swamp, grid square U16. This camp is located behind Crocket Corner",
         "area": "Swamp",
@@ -21127,7 +21722,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 16:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Emma Botin / Chilldome",
+      "host": "Emma Botin",
+      "campHost": "Chilldome",
       "location": {
         "name": "Highlands, grid square M11. Big dome on the Penta Plaza.",
         "area": "Highlands",
@@ -21182,7 +21778,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:00"
       },
       "category": "Workshop/Class",
-      "host": "Dr. Catman / Club SIN",
+      "host": "Dr. Catman",
+      "campHost": "Club SIN",
       "location": {
         "name": "Bison - North, grid square N19. By the Shameless Plaza",
         "area": "Bison - North",
@@ -21211,7 +21808,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 16:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Jelena / Mermaid Camp",
+      "host": "Jelena",
+      "campHost": "Mermaid Camp",
       "location": {
         "name": "Arctic chill, grid square L05.",
         "area": "Arctic chill",
@@ -21265,7 +21863,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Siiri and Erin / Plutonia · · Queer inclusive",
+      "host": "Siiri and Erin",
+      "campHost": "Plutonia",
       "location": {
         "name": "Downtown, grid square M19.",
         "area": "Downtown",
@@ -21294,7 +21893,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:30"
       },
       "category": "Workshop/Class",
-      "host": "Depends on the day, see program board by SG / Secret Garden",
+      "host": "Depends on the day, see program board by SG",
+      "campHost": "Secret Garden",
       "location": {
         "name": "Downtown, grid square M21. Big white star shaped tent in the Secret Garden",
         "area": "Downtown",
@@ -21323,7 +21923,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:30"
       },
       "category": "Workshop/Class",
-      "host": "Tuomas / The Divine Dough Sanctuary",
+      "host": "Tuomas",
+      "campHost": "The Divine Dough Sanctuary",
       "location": {
         "name": "Wedge, grid square R22.",
         "gridSquare": "R22"
@@ -21350,7 +21951,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 13:30"
       },
       "category": "Workshop/Class",
-      "host": "Britni / The Genie's Lamp",
+      "host": "Britni",
+      "campHost": "The Genie's Lamp",
       "location": {
         "name": "Highlands, grid square N13. Agrabah Village, in south eastern Highlands",
         "area": "Highlands",
@@ -21379,7 +21981,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:00"
       },
       "category": "Workshop/Class",
-      "host": "Dekel / The Good, the Bad and the Cuddly",
+      "host": "Dekel",
+      "campHost": "The Good, the Bad and the Cuddly",
       "location": {
         "name": "Wedge, grid square S22.",
         "gridSquare": "S22"
@@ -21403,7 +22006,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Samuel / The Obsetvatory",
+      "host": "Samuel",
+      "campHost": "The Obsetvatory",
       "location": {
         "name": "Swamp, grid square Q19.",
         "area": "Swamp",
@@ -21431,7 +22035,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 15:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "The Sweet Spot / The Sweet Spot · Queer inclusive",
+      "host": "The Sweet Spot",
+      "campHost": "The Sweet Spot",
       "location": {
         "name": "Lowlands, grid square P13. White with red decorations. Follow the glorious smell",
         "area": "Lowlands",
@@ -21459,7 +22064,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 16:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Fanny Henriksson / Wondrous Forge ·",
+      "host": "Fanny Henriksson",
+      "campHost": "Wondrous Forge",
       "location": {
         "name": "Swamp, grid square S17. next to the Fire Plaza, under a linenroof. Contact for",
         "area": "Swamp",
@@ -21490,7 +22096,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:15 - 14:15"
       },
       "category": "Workshop/Class",
-      "host": "Othelie & Niki / GlitterTind ·",
+      "host": "Othelie & Niki",
+      "campHost": "GlitterTind",
       "location": {
         "name": "Bison - North, grid square O20. Shameless plaza next to sinnergirl",
         "area": "Bison - North",
@@ -21520,7 +22127,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:30 - 15:00"
       },
       "category": "Workshop/Class",
-      "host": "Viktor & Becca / End of the Rainbow (Venue)",
+      "host": "Viktor & Becca",
+      "campHost": "End of the Rainbow (Venue)",
       "location": {
         "name": "Bison - North, grid square N20. In the playspace of the end of the rainbow camp",
         "area": "Bison - North",
@@ -21574,7 +22182,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:30 - 14:30"
       },
       "category": "Workshop/Class",
-      "host": "The Elves of Alvheim / Gate Of Alvheim",
+      "host": "The Elves of Alvheim",
+      "campHost": "Gate Of Alvheim",
       "location": {
         "name": "grid square G10. Follow the forest path past the sanctuary, when arriving to",
         "gridSquare": "G10"
@@ -21598,7 +22207,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:30 - 13:45"
       },
       "category": "Workshop/Class",
-      "host": "Jo / The Bureau of Justice, Joy, Bubbles and Other Dangerous Ideas",
+      "host": "Jo",
+      "campHost": "The Bureau of Justice, Joy, Bubbles and Other Dangerous Ideas",
       "location": {
         "name": "Swamp, grid square S19. In front of the Bureau's Reception at the Earth Plaza",
         "area": "Swamp",
@@ -21651,7 +22261,7 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:30 - 15:00"
       },
       "category": "Party/Gathering",
-      "host": "Welcome Home, Darling · Sensory content",
+      "host": "Welcome Home, Darling",
       "location": {
         "name": "Highlands, grid square O10. Right between Penta Plaza and Bayt al-Noor",
         "area": "Highlands",
@@ -21679,7 +22289,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:30 - 15:00"
       },
       "category": "Workshop/Class",
-      "host": "Andromeda / Yggdrasil",
+      "host": "Andromeda",
+      "campHost": "Yggdrasil",
       "location": {
         "name": "Highlands, grid square O10. in the big Tipi",
         "area": "Highlands",
@@ -21705,7 +22316,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Sabrina / Arrête Ton Cirque",
+      "host": "Sabrina",
+      "campHost": "Arrête Ton Cirque",
       "location": {
         "name": "Lowlands, grid square S13. Next to Jam Camp, look for the \"ATC\" signs",
         "area": "Lowlands",
@@ -21733,7 +22345,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 20:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "God / Boris ·",
+      "host": "God",
+      "campHost": "Boris",
       "location": {
         "name": "Downtown, grid square K21. Underneath the Church",
         "area": "Downtown",
@@ -21763,7 +22376,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:30"
       },
       "category": "Games/Play",
-      "host": "Rika & Anders / Club SIN",
+      "host": "Rika & Anders",
+      "campHost": "Club SIN",
       "location": {
         "name": "Bison - North, grid square N19. By the Shameless Plaza",
         "area": "Bison - North",
@@ -21845,7 +22459,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 16:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Arataki / Eld&Rötter Mystic Hammock Haven",
+      "host": "Arataki",
+      "campHost": "Eld&Rötter Mystic Hammock Haven",
       "location": {
         "name": "Highlands, grid square O12.",
         "area": "Highlands",
@@ -21871,7 +22486,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Jenny & Lovisa / Explorers",
+      "host": "Jenny & Lovisa",
+      "campHost": "Explorers",
       "location": {
         "name": "Highlands, grid square N09. How to find us? Look for the Big Shiny Balls in the",
         "area": "Highlands",
@@ -21899,7 +22515,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:00"
       },
       "category": "Workshop/Class",
-      "host": "Hotsauce / Fire Brigade",
+      "host": "Hotsauce",
+      "campHost": "Fire Brigade",
       "location": {
         "name": "Swamp, grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet",
         "area": "Swamp",
@@ -21925,7 +22542,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:30"
       },
       "category": "Party/Gathering",
-      "host": "Eurika! / MYS Dome",
+      "host": "Eurika!",
+      "campHost": "MYS Dome",
       "location": {
         "name": "Swamp, grid square T16.",
         "area": "Swamp",
@@ -21951,7 +22569,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:30"
       },
       "category": "Ritual/Ceremony",
-      "host": "Daisy / Pink Parachute",
+      "host": "Daisy",
+      "campHost": "Pink Parachute",
       "location": {
         "name": "Lowlands, grid square P13. Velvet Lounge",
         "area": "Lowlands",
@@ -21979,7 +22598,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 16:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Dominika and Erin / Plutonia",
+      "host": "Dominika and Erin",
+      "campHost": "Plutonia",
       "location": {
         "name": "Downtown, grid square M19.",
         "area": "Downtown",
@@ -22008,7 +22628,7 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 17:00"
       },
       "category": "Workshop/Class",
-      "host": "Sacred Kink ·",
+      "host": "Sacred Kink",
       "location": {
         "name": "Swamp, grid square R18. Near the water plaza in the swamp",
         "area": "Swamp",
@@ -22038,7 +22658,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:00"
       },
       "category": "Workshop/Class",
-      "host": "Raul / Secret sailors",
+      "host": "Raul",
+      "campHost": "Secret sailors",
       "location": {
         "name": "Lowlands, grid square R12.",
         "area": "Lowlands",
@@ -22066,7 +22687,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:00"
       },
       "category": "Workshop/Class",
-      "host": "Raulito / Secret Sailors",
+      "host": "Raulito",
+      "campHost": "Secret Sailors",
       "location": {
         "name": "Lowlands, grid square R12. Secret Sailors tent by Lowlands plaza",
         "area": "Lowlands",
@@ -22092,7 +22714,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 16:00"
       },
       "category": "Workshop/Class",
-      "host": "Henrik and Maria / Tantric Trolls",
+      "host": "Henrik and Maria",
+      "campHost": "Tantric Trolls",
       "location": {
         "name": "Highlands, grid square N11. Highlands",
         "area": "Highlands",
@@ -22121,7 +22744,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 16:00"
       },
       "category": "Food/Drinks",
-      "host": "Salt Rock City / The Goslings",
+      "host": "Salt Rock City",
+      "campHost": "The Goslings",
       "location": {
         "name": "Wedge, grid square R21. Find us at the Cuddle Cove plaza in the Wedge!",
         "gridSquare": "R21"
@@ -22145,7 +22769,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 16:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Leon / Touch Divine",
+      "host": "Leon",
+      "campHost": "Touch Divine",
       "location": {
         "name": "Wedge, grid square R22. South-east of BL",
         "gridSquare": "R22"
@@ -22172,7 +22797,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Izel / Women who support women",
+      "host": "Izel",
+      "campHost": "Women who support women",
       "location": {
         "name": "Arctic chill, grid square O06. take the path on the right from pamper plaza, we",
         "area": "Arctic chill",
@@ -22223,7 +22849,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:20 - 16:20"
       },
       "category": "Workshop/Class",
-      "host": "He Whom The Smoke Is Circling / Where The Craving Is",
+      "host": "He Whom The Smoke Is Circling",
+      "campHost": "Where The Craving Is",
       "location": {
         "name": "Settled"
       },
@@ -22248,7 +22875,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:30 - 16:00"
       },
       "category": "Workshop/Class",
-      "host": "Vlad / Secret Garden",
+      "host": "Vlad",
+      "campHost": "Secret Garden",
       "location": {
         "name": "Downtown, grid square M21. A big white star shaped tent in the Secret Garden",
         "area": "Downtown",
@@ -22301,7 +22929,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:30 - 17:30"
       },
       "category": "Food/Drinks",
-      "host": "The Pink Parasol Potion Bar / The Herd",
+      "host": "The Pink Parasol Potion Bar",
+      "campHost": "The Herd",
       "location": {
         "name": "Highlands, grid square O10.",
         "area": "Highlands",
@@ -22327,7 +22956,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:30 - 15:00"
       },
       "category": "Games/Play",
-      "host": "Veronika / Kidsville",
+      "host": "Veronika",
+      "campHost": "Kidsville",
       "location": {
         "name": "Lowlands, grid square P09. In the Dome, look for babies!",
         "area": "Lowlands",
@@ -22355,7 +22985,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:44 - 15:15"
       },
       "category": "Ritual/Ceremony",
-      "host": "Gate Of Alvheim / Gate Of Alvheim",
+      "host": "Gate Of Alvheim",
+      "campHost": "Gate Of Alvheim",
       "location": {
         "name": "Muumin Valley, grid square F10.",
         "gridSquare": "F10"
@@ -22407,7 +23038,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:44 - 09:00"
       },
       "category": "Party/Gathering",
-      "host": "Gate of Alvheim / Kishmastle Spacestation",
+      "host": "Gate of Alvheim",
+      "campHost": "Kishmastle Spacestation",
       "location": {
         "name": "Muumin Valley, grid square F10. From sanctuary-follow the forest path toward",
         "gridSquare": "F10"
@@ -22485,7 +23117,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 17:00"
       },
       "category": "Workshop/Class",
-      "host": "Lukas & Lilly Ladybird / B.L.U.E Bureau",
+      "host": "Lukas & Lilly Ladybird",
+      "campHost": "B.L.U.E Bureau",
       "location": {
         "name": "Highlands, grid square N09. geodetic dome",
         "area": "Highlands",
@@ -22511,7 +23144,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 01:00"
       },
       "category": "Games/Play",
-      "host": "Morpheus & Pfaffe Labskaus / Cheeky Butt ·",
+      "host": "Morpheus & Pfaffe Labskaus",
+      "campHost": "Cheeky Butt",
       "location": {
         "name": "Highlands, grid square N11. We will be where the Sin is. Always at your service",
         "area": "Highlands",
@@ -22542,7 +23176,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 17:00"
       },
       "category": "Workshop/Class",
-      "host": "Radiant / Cheeky Butt Chill Camp ·",
+      "host": "Radiant",
+      "campHost": "Cheeky Butt Chill Camp",
       "location": {
         "name": "Highlands, grid square N11.",
         "area": "Highlands",
@@ -22600,7 +23235,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 17:00"
       },
       "category": "Workshop/Class",
-      "host": "Björn & Stina / Cuddle Cloud",
+      "host": "Björn & Stina",
+      "campHost": "Cuddle Cloud",
       "location": {
         "name": "Wedge, grid square R21. We're located in the Wedge neighbourhood, across the",
         "gridSquare": "R21"
@@ -22650,7 +23286,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 17:00"
       },
       "category": "Workshop/Class",
-      "host": "Cara Owning / Many Mad Mystics",
+      "host": "Cara Owning",
+      "campHost": "Many Mad Mystics",
       "location": {
         "name": "Arctic chill, grid square N06.",
         "area": "Arctic chill",
@@ -22676,7 +23313,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 17:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Miro / Moonwalkers",
+      "host": "Miro",
+      "campHost": "Moonwalkers",
       "location": {
         "name": "Highlands, grid square L09.",
         "area": "Highlands",
@@ -22704,7 +23342,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 18:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Mårten / Nest & Twigs",
+      "host": "Mårten",
+      "campHost": "Nest & Twigs",
       "location": {
         "name": "Bison - South, grid square P24. By the tree house in Bison",
         "area": "Bison - South",
@@ -22730,7 +23369,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 19:00"
       },
       "category": "Music/Performance/Show",
-      "host": "The Lemurians of Lemuria / Passage to Lemuria Queer inclusive",
+      "host": "The Lemurians of Lemuria",
+      "campHost": "Passage to Lemuria",
       "location": {
         "name": "grid square P25. The southest part of bison, look for a portal like entrance",
         "gridSquare": "P25"
@@ -22780,7 +23420,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 01:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Tom / The Church",
+      "host": "Tom",
+      "campHost": "The Church",
       "location": {
         "name": "Downtown, grid square K21. The Church, Downtown",
         "area": "Downtown",
@@ -22806,7 +23447,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 16:00"
       },
       "category": "Workshop/Class",
-      "host": "Eirini / The Observatory",
+      "host": "Eirini",
+      "campHost": "The Observatory",
       "location": {
         "name": "Swamp, grid square Q19.",
         "area": "Swamp",
@@ -22832,7 +23474,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 17:00"
       },
       "category": "Workshop/Class",
-      "host": "Sofia Cerne / The Source · · Queer inclusive",
+      "host": "Sofia Cerne",
+      "campHost": "The Source",
       "location": {
         "name": "Lowlands, grid square S12. Near lowlands Plaza",
         "area": "Lowlands",
@@ -22861,7 +23504,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 16:00"
       },
       "category": "Workshop/Class",
-      "host": "Nicola / The Wrecked Yachtees Asylum",
+      "host": "Nicola",
+      "campHost": "The Wrecked Yachtees Asylum",
       "location": {
         "name": "Eastern Slope, grid square V16. In the Yachtees Magic Offerings area on the",
         "area": "Eastern Slope",
@@ -22939,7 +23583,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 15:45"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Mikko / Yggdrasil",
+      "host": "Mikko",
+      "campHost": "Yggdrasil",
       "location": {
         "name": "Highlands, grid square O10. in the big Tipi",
         "area": "Highlands",
@@ -22965,7 +23610,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:30 - 17:00"
       },
       "category": "Workshop/Class",
-      "host": "Jonas Näslund & Ronja / Club SIN · Adults only",
+      "host": "Jonas Näslund & Ronja",
+      "campHost": "Club SIN",
       "location": {
         "name": "Bison - North, grid square N19. By the Shameless Plaza",
         "area": "Bison - North",
@@ -22994,7 +23640,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:30 - 17:00"
       },
       "category": "Workshop/Class",
-      "host": "Tove / DansBanderLand",
+      "host": "Tove",
+      "campHost": "DansBanderLand",
       "location": {
         "name": "Swamp, grid square T19. The LED dansbana (pavilion)",
         "area": "Swamp",
@@ -23020,7 +23667,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:30 - 16:30"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Justina & Jenny / Flowzone monkeybar",
+      "host": "Justina & Jenny",
+      "campHost": "Flowzone monkeybar",
       "location": {
         "name": "Highlands, grid square M11. Highlands, Penta plaza (big flag) next to Chilldome",
         "area": "Highlands",
@@ -23048,7 +23696,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:30 - 17:30"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Kenia / Secret Sailors ·",
+      "host": "Kenia",
+      "campHost": "Secret Sailors",
       "location": {
         "name": "Lowlands, grid square R12. Secret Sailors",
         "area": "Lowlands",
@@ -23078,7 +23727,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Workshop/Class",
-      "host": "Sandy Beutler / Chilldome",
+      "host": "Sandy Beutler",
+      "campHost": "Chilldome",
       "location": {
         "name": "Highlands, grid square M11. Big dome on the Penta Plaza.",
         "area": "Highlands",
@@ -23104,7 +23754,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Workshop/Class",
-      "host": "Live music and breathwork by psychotherapist Anders Mørk / Circus the Analog",
+      "host": "Live music and breathwork by psychotherapist Anders Mørk",
+      "campHost": "Circus the Analog",
       "location": {
         "name": "Swamp, grid square S18. Huge Circus tent",
         "area": "Swamp",
@@ -23132,7 +23783,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 17:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Nagaraju Erigi / Fire Brigade",
+      "host": "Nagaraju Erigi",
+      "campHost": "Fire Brigade",
       "location": {
         "name": "Swamp, grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet",
         "area": "Swamp",
@@ -23158,7 +23810,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 17:00"
       },
       "category": "Food/Drinks",
-      "host": "Haky & Merci / Haky & Merci",
+      "host": "Haky & Merci",
+      "campHost": "Haky & Merci",
       "location": {
         "name": "Arctic chill, grid square L08. Orange Van",
         "area": "Arctic chill",
@@ -23186,7 +23839,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Workshop/Class",
-      "host": "Allison, Nika, Viktoria / Jam Camp · Queer inclusive",
+      "host": "Allison, Nika, Viktoria",
+      "campHost": "Jam Camp",
       "location": {
         "name": "Lowlands, grid square R13.",
         "area": "Lowlands",
@@ -23267,7 +23921,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Games/Play",
-      "host": "Kush / Mission? Impossible!",
+      "host": "Kush",
+      "campHost": "Mission? Impossible!",
       "location": {
         "name": "Highlands, grid square M12. South point of the Penta Plaze @Highlands",
         "area": "Highlands",
@@ -23293,7 +23948,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Workshop/Class",
-      "host": "Runi / Secret Garden",
+      "host": "Runi",
+      "campHost": "Secret Garden",
       "location": {
         "name": "Downtown, grid square M21.",
         "area": "Downtown",
@@ -23322,7 +23978,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 17:30"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Shei / Shimmering by the forest edge",
+      "host": "Shei",
+      "campHost": "Shimmering by the forest edge",
       "location": {
         "name": "Arctic chill, grid square O06. In the Arctic Chill, close to Pamper Plaza, behind",
         "area": "Arctic chill",
@@ -23350,7 +24007,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 17:00"
       },
       "category": "Workshop/Class",
-      "host": "Gret / Socialen Public Offering",
+      "host": "Gret",
+      "campHost": "Socialen Public Offering",
       "location": {
         "name": "Bison - South, grid square O22.",
         "area": "Bison - South",
@@ -23407,7 +24065,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 17:00"
       },
       "category": "Workshop/Class",
-      "host": "Tobias / The Drop",
+      "host": "Tobias",
+      "campHost": "The Drop",
       "location": {
         "name": "Swamp, grid square Q19. Water plaza - The Swamp",
         "area": "Swamp",
@@ -23433,7 +24092,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Workshop/Class",
-      "host": "Magnus & Marie / The Fuckery",
+      "host": "Magnus & Marie",
+      "campHost": "The Fuckery",
       "location": {
         "name": "Highlands, grid square M08.",
         "area": "Highlands",
@@ -23462,7 +24122,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 17:30"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Meg / The Obvervatory",
+      "host": "Meg",
+      "campHost": "The Obvervatory",
       "location": {
         "name": "Swamp, grid square Q19.",
         "area": "Swamp",
@@ -23488,7 +24149,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Games/Play",
-      "host": "Nyxie / The Sapphic Pond · Queer-focused",
+      "host": "Nyxie",
+      "campHost": "The Sapphic Pond",
       "location": {
         "name": "Sunny Hills, grid square J21. Look for the lesbian flag, we fly it on a pole and",
         "area": "Sunny Hills",
@@ -23516,7 +24178,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Omi-peah / Touch Divine · · Queer inclusive",
+      "host": "Omi-peah",
+      "campHost": "Touch Divine",
       "location": {
         "name": "Wedge, grid square R22.",
         "gridSquare": "R22"
@@ -23544,7 +24207,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Fanny / Women who supports women",
+      "host": "Fanny",
+      "campHost": "Women who supports women",
       "location": {
         "name": "Arctic chill, grid square O06.",
         "area": "Arctic chill",
@@ -23573,7 +24237,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:15 - 18:00"
       },
       "category": "Workshop/Class",
-      "host": "Benjamin / Tantric Trolls",
+      "host": "Benjamin",
+      "campHost": "Tantric Trolls",
       "location": {
         "name": "Highlands, grid square N11. Penta Plaza",
         "area": "Highlands",
@@ -23601,7 +24266,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:30 - 18:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Flowzone / Flowzone monkeybar",
+      "host": "Flowzone",
+      "campHost": "Flowzone monkeybar",
       "location": {
         "name": "Highlands, grid square M11. Highlands, Penta plaza (big flag) next to Chilldome",
         "area": "Highlands",
@@ -23627,7 +24293,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "17:00 - 18:00"
       },
       "category": "Workshop/Class",
-      "host": "Basem / Club SIN",
+      "host": "Basem",
+      "campHost": "Club SIN",
       "location": {
         "name": "Bison - North, grid square N19. By the Shameless Plaza",
         "area": "Bison - North",
@@ -23682,7 +24349,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "17:00 - 18:00"
       },
       "category": "Workshop/Class",
-      "host": "Talya - The Poop Princess / The Wrecked Yachtees",
+      "host": "Talya - The Poop Princess",
+      "campHost": "The Wrecked Yachtees",
       "location": {
         "name": "Eastern Slope, grid square V16. In the Yachtees Magic Offerings area on the",
         "area": "Eastern Slope",
@@ -23736,7 +24404,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "17:00 - 18:30"
       },
       "category": "Workshop/Class",
-      "host": "Sunny & Sabrine / All Senses, No Sense",
+      "host": "Sunny & Sabrine",
+      "campHost": "All Senses, No Sense",
       "location": {
         "name": "Eastern Slope, W16.",
         "area": "Eastern Slope",
@@ -23765,7 +24434,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "18:00 - 20:00"
       },
       "category": "Games/Play",
-      "host": "Spongi / Circus the Analog",
+      "host": "Spongi",
+      "campHost": "Circus the Analog",
       "location": {
         "name": "Swamp, grid square S18. Huge Circus tent",
         "area": "Swamp",
@@ -23793,7 +24463,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "18:00 - 19:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Fire Brigade / Fire Brigade",
+      "host": "Fire Brigade",
+      "campHost": "Fire Brigade",
       "location": {
         "name": "Swamp, grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet",
         "area": "Swamp",
@@ -23819,7 +24490,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "18:00 - 20:00"
       },
       "category": "Workshop/Class",
-      "host": "Besties from Berlin / Foxhole · · Sex positive",
+      "host": "Besties from Berlin",
+      "campHost": "Foxhole",
       "location": {
         "name": "Lowlands, grid square Q11.",
         "area": "Lowlands",
@@ -23848,7 +24520,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "18:00 - 20:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Trollungen / Gate of Alvheim",
+      "host": "Trollungen",
+      "campHost": "Gate of Alvheim",
       "location": {
         "name": "Muumin Valley, grid square F10. Just find the colors at the Kishmastle",
         "gridSquare": "F10"
@@ -23900,7 +24573,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "18:15 - 20:15"
       },
       "category": "Workshop/Class",
-      "host": "Klara Berg, Anna Goslund / Tantric Trolls",
+      "host": "Klara Berg, Anna Goslund",
+      "campHost": "Tantric Trolls",
       "location": {
         "name": "Highlands, grid square N11. Penta Plaza",
         "area": "Highlands",
@@ -23929,7 +24603,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "19:00 - 22:00"
       },
       "category": "Art/Installation",
-      "host": "Jonas Johansson / Dreamers Maze · Sensory content",
+      "host": "Jonas Johansson",
+      "campHost": "Dreamers Maze",
       "location": {
         "name": "The Villa, grid square K14.",
         "gridSquare": "K14"
@@ -24007,7 +24682,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "19:00 - 23:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Frida & Villu, from House of Lust / The Genie's Lamp ·",
+      "host": "Frida & Villu, from House of Lust",
+      "campHost": "The Genie's Lamp",
       "location": {
         "name": "Highlands, grid square N13. Agrabah Village, in south eastern Highlands",
         "area": "Highlands",
@@ -24087,7 +24763,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "19:00 - 21:00"
       },
       "category": "Art/Installation",
-      "host": "Kira / Yggdrasil",
+      "host": "Kira",
+      "campHost": "Yggdrasil",
       "location": {
         "name": "Highlands, grid square O10. in the big Tipi",
         "area": "Highlands",
@@ -24164,7 +24841,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "19:30 - 20:30"
       },
       "category": "Ritual/Ceremony",
-      "host": "The Tribe's Boy / The Tribe, Agraba Village",
+      "host": "The Tribe's Boy",
+      "campHost": "The Tribe, Agraba Village",
       "location": {
         "name": "Highlands, grid square N13. Search for the Tribal Mystics in Agraba village,",
         "area": "Highlands",
@@ -24193,7 +24871,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 22:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Palle / Chilldome",
+      "host": "Palle",
+      "campHost": "Chilldome",
       "location": {
         "name": "Highlands, grid square M11. Big dome on the Penta Plaza.",
         "area": "Highlands",
@@ -24219,7 +24898,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 21:30"
       },
       "category": "Music/Performance/Show",
-      "host": "AYA / Circus the analogue",
+      "host": "AYA",
+      "campHost": "Circus the analogue",
       "location": {
         "name": "Swamp, grid square S18. We’re located in the swampedi Swamp. Right in the",
         "area": "Swamp",
@@ -24333,7 +25013,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 23:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Lene and Daniel / DansBanderLand",
+      "host": "Lene and Daniel",
+      "campHost": "DansBanderLand",
       "location": {
         "name": "Swamp, grid square T19. The LED dansbana (= pavilion)",
         "area": "Swamp",
@@ -24359,7 +25040,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 22:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Juicy, Catnip, Lulla Li / End of the Rainbow ·",
+      "host": "Juicy, Catnip, Lulla Li",
+      "campHost": "End of the Rainbow",
       "location": {
         "name": "Bison - North, grid square N20. Cross from downtown garden over the wooden",
         "area": "Bison - North",
@@ -24390,7 +25072,7 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 05:00"
       },
       "category": "Party/Gathering",
-      "host": "GlitterTind ·",
+      "host": "GlitterTind",
       "location": {
         "name": "Bison - North, grid square O20. Shameless plaza next to sinnergirl",
         "area": "Bison - North",
@@ -24445,7 +25127,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 21:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Jonathan / Jousting Jesters",
+      "host": "Jonathan",
+      "campHost": "Jousting Jesters",
       "location": {
         "name": "Swamp, grid square Q19. The medieval camp by the little forest in Swamp, on",
         "area": "Swamp",
@@ -24471,7 +25154,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 23:00"
       },
       "category": "Food/Drinks",
-      "host": "Space-Jarl Zaaki and the band of frenzied Fremen / Njorunns (Space) Garden",
+      "host": "Space-Jarl Zaaki and the band of frenzied Fremen",
+      "campHost": "Njorunns (Space) Garden",
       "location": {
         "name": "Downtown, grid square M20. The mighty worm will work its way throughout the",
         "area": "Downtown",
@@ -24501,7 +25185,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 22:00"
       },
       "category": "Food/Drinks",
-      "host": "Laura / Shimmering by the forest edge",
+      "host": "Laura",
+      "campHost": "Shimmering by the forest edge",
       "location": {
         "name": "Arctic chill, grid square O06. In the Arctic Chill, close to Pamper Plaza, behind",
         "area": "Arctic chill",
@@ -24555,7 +25240,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 22:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Sound Awakening Tribe & Friends / Temple of Sound",
+      "host": "Sound Awakening Tribe & Friends",
+      "campHost": "Temple of Sound",
       "location": {
         "name": "Eastern Slope, grid square V18.",
         "area": "Eastern Slope",
@@ -24612,7 +25298,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 22:00"
       },
       "category": "Games/Play",
-      "host": "Nyxie / The Sapphic Pond Queer-focused",
+      "host": "Nyxie",
+      "campHost": "The Sapphic Pond",
       "location": {
         "name": "Sunny Hills, grid square J21. Look for the lesbian flag, we fly it on a pole and",
         "area": "Sunny Hills",
@@ -24638,7 +25325,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 23:00"
       },
       "category": "Games/Play",
-      "host": "The Sapphic Frog / The Sapphic Pond Queer-focused",
+      "host": "The Sapphic Frog",
+      "campHost": "The Sapphic Pond",
       "location": {
         "name": "Sunny Hills, grid square J21. Look for the lesbian flag, we fly it on a pole and",
         "area": "Sunny Hills",
@@ -24664,7 +25352,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 22:00"
       },
       "category": "Workshop/Class",
-      "host": "Lila / The Wild Sacred Fire",
+      "host": "Lila",
+      "campHost": "The Wild Sacred Fire",
       "location": {
         "name": "Swamp, grid square S17. We'll be around the fire.",
         "area": "Swamp",
@@ -24690,7 +25379,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:30 - 22:30"
       },
       "category": "Workshop/Class",
-      "host": "Jens / Tantric Trolls",
+      "host": "Jens",
+      "campHost": "Tantric Trolls",
       "location": {
         "name": "Highlands, grid square N11. Penta Plaza",
         "area": "Highlands",
@@ -24719,7 +25409,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:30 - 23:30"
       },
       "category": "Food/Drinks",
-      "host": "SALT ROCK CITY / The goslings",
+      "host": "SALT ROCK CITY",
+      "campHost": "The goslings",
       "location": {
         "name": "Wedge, grid square R21. Top right corner of The Wedge, bordering The Swamp",
         "gridSquare": "R21"
@@ -24743,7 +25434,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "21:00 - 00:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Teddy Lind / Antra.world",
+      "host": "Teddy Lind",
+      "campHost": "Antra.world",
       "location": {
         "name": "Swamp, grid square T18. Once you hear cool jazz you’re close; find two large",
         "area": "Swamp",
@@ -24771,7 +25463,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "21:00 - 23:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Pinkysha / Circus the Analog",
+      "host": "Pinkysha",
+      "campHost": "Circus the Analog",
       "location": {
         "name": "Swamp, grid square S18. Huge circus tent",
         "area": "Swamp",
@@ -24827,7 +25520,7 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "21:00 - 04:00"
       },
       "category": "Party/Gathering",
-      "host": "Shibari Chill Web · · Sex positive ·",
+      "host": "Shibari Chill Web",
       "location": {
         "name": "Highlands, grid square M08. Deep in the throbbing woods",
         "area": "Highlands",
@@ -24858,7 +25551,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "21:00 - 23:30"
       },
       "category": "Music/Performance/Show",
-      "host": "You / Spaceport",
+      "host": "You",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink Temple, Lowlands",
         "area": "Lowlands",
@@ -24884,7 +25578,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "21:00 - 04:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "The Fuckers of the Fuckery / The Fuckery",
+      "host": "The Fuckers of the Fuckery",
+      "campHost": "The Fuckery",
       "location": {
         "name": "Swamp, grid square R17. From the big empty field walk towards the fuckoff",
         "area": "Swamp",
@@ -24914,7 +25609,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "21:00 - 01:00"
       },
       "category": "Party/Gathering",
-      "host": "Camp Yggdrasil / Yggdrasil",
+      "host": "Camp Yggdrasil",
+      "campHost": "Yggdrasil",
       "location": {
         "name": "Highlands, grid square O10. in the big Tipi",
         "area": "Highlands",
@@ -24940,7 +25636,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "21:30 - 22:00"
       },
       "category": "Workshop/Class",
-      "host": "Fire Brigade / Fire Brigade",
+      "host": "Fire Brigade",
+      "campHost": "Fire Brigade",
       "location": {
         "name": "Swamp, grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet",
         "area": "Swamp",
@@ -24966,7 +25663,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:00 - 23:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Vilgot / Chilldome",
+      "host": "Vilgot",
+      "campHost": "Chilldome",
       "location": {
         "name": "Highlands, grid square M11. Big dome on the Penta Plaza.",
         "area": "Highlands",
@@ -24992,7 +25690,7 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:00 - 02:00"
       },
       "category": "Games/Play",
-      "host": "Club SIN ·",
+      "host": "Club SIN",
       "location": {
         "name": "Bison - North, grid square N19. By the Shameless Plaza",
         "area": "Bison - North",
@@ -25022,7 +25720,7 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:00 - 04:00"
       },
       "category": "Party/Gathering",
-      "host": "End of the Rainbow · · Sex positive",
+      "host": "End of the Rainbow",
       "location": {
         "name": "Bison - North, grid square N20. In Bison by the Shameless Plaza, below Club Sin",
         "area": "Bison - North",
@@ -25052,7 +25750,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:00 - 00:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Fire Brigade / Fire Brigade",
+      "host": "Fire Brigade",
+      "campHost": "Fire Brigade",
       "location": {
         "name": "Swamp, grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet",
         "area": "Swamp",
@@ -25078,7 +25777,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:00 - 22:30"
       },
       "category": "Ritual/Ceremony",
-      "host": "Gate of Alvheim / Gate of Alvheim",
+      "host": "Gate of Alvheim",
+      "campHost": "Gate of Alvheim",
       "location": {
         "name": "Muumin Valley, grid square F10. You'll find us at the Kishmastle Space Station",
         "gridSquare": "F10"
@@ -25104,7 +25804,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:00 - 00:00"
       },
       "category": "Party/Gathering",
-      "host": "The Velvet Lounge / Pink Parachute",
+      "host": "The Velvet Lounge",
+      "campHost": "Pink Parachute",
       "location": {
         "name": "Lowlands, grid square P13. Look for our open sign",
         "area": "Lowlands",
@@ -25132,7 +25833,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:00 - 23:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Johan & Øystein, the Scientists / TBA",
+      "host": "Johan & Øystein, the Scientists",
+      "campHost": "TBA",
       "location": {
         "name": "Sensory content"
       },
@@ -25157,7 +25859,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:00 - 00:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Mari Mur / Tea by the sea / Tea By The Sea",
+      "host": "Mari Mur / Tea by the sea",
+      "campHost": "Tea By The Sea",
       "location": {
         "name": "Bison - South, grid square P23. Near to metal Bison you will find a big tent with",
         "area": "Bison - South",
@@ -25183,7 +25886,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:00 - 04:00"
       },
       "category": "Games/Play",
-      "host": "The Fuckers of the Fuckery / The Fuckery",
+      "host": "The Fuckers of the Fuckery",
+      "campHost": "The Fuckery",
       "location": {
         "name": "Swamp, grid square R17. Walk through the dark field and go towards the fuckoff",
         "area": "Swamp",
@@ -25236,7 +25940,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "23:00 - 03:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Fluff / CIRCUS the ANALOG ·",
+      "host": "Fluff",
+      "campHost": "CIRCUS the ANALOG",
       "location": {
         "name": "Swamp, grid square S18.",
         "area": "Swamp",
@@ -25266,7 +25971,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "23:00 - 00:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Erik & Johanna / LAZY camp",
+      "host": "Erik & Johanna",
+      "campHost": "LAZY camp",
       "location": {
         "name": "Bison - North, grid square P22. You will see two small fires.",
         "area": "Bison - North",
@@ -25294,7 +26000,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "23:00 - 08:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Regina / The Sapphic Pond Queer-focused",
+      "host": "Regina",
+      "campHost": "The Sapphic Pond",
       "location": {
         "name": "Sunny Hills, grid square J21. Look for the lesbian flag, we fly it on a pole and",
         "area": "Sunny Hills",
@@ -25348,7 +26055,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "00:00 - 23:59"
       },
       "category": "Games/Play",
-      "host": "Miss Information / Acid Aunties & Nasty Uncles Adults only ·",
+      "host": "Miss Information",
+      "campHost": "Acid Aunties & Nasty Uncles",
       "location": {
         "name": "Sunny Hills, grid square J22. Look for a grumpy old hag - good luck",
         "area": "Sunny Hills",
@@ -25400,7 +26108,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "00:00 - 02:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Omri / Chilldome",
+      "host": "Omri",
+      "campHost": "Chilldome",
       "location": {
         "name": "Highlands, grid square M11. Big dome on the Penta Plaza.",
         "area": "Highlands",
@@ -25507,7 +26216,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "00:01 - 23:59"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Michael Barner-Rasmussen (Dog) / Free camping",
+      "host": "Michael Barner-Rasmussen (Dog)",
+      "campHost": "Free camping",
       "location": {
         "name": "Queer-inclusive"
       },
@@ -25532,7 +26242,7 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "01:00 - 07:00"
       },
       "category": "Music/Performance/Show",
-      "host": "The Church ·",
+      "host": "The Church",
       "location": {
         "name": "Downtown, grid square K21. The Church, Downtown",
         "area": "Downtown",
@@ -25562,7 +26272,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "02:00 - 03:30"
       },
       "category": "Music/Performance/Show",
-      "host": "Trinfinity frequencies / Gate Of Alvheim",
+      "host": "Trinfinity frequencies",
+      "campHost": "Gate Of Alvheim",
       "location": {
         "name": "grid square G10. Kishmastle space station x Gate of Alvheim x Fungal refugee",
         "gridSquare": "G10"
@@ -25588,7 +26299,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "02:30 - 06:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Dr. Catman & Ellen / Club SIN",
+      "host": "Dr. Catman & Ellen",
+      "campHost": "Club SIN",
       "location": {
         "name": "Bison - North, grid square N19. By the Shameless Plaza",
         "area": "Bison - North",
@@ -25617,7 +26329,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "09:00 - 11:00"
       },
       "category": "Food/Drinks",
-      "host": "Jan & Gabriela / Kidsville",
+      "host": "Jan & Gabriela",
+      "campHost": "Kidsville",
       "location": {
         "name": "Lowlands, grid square P09. Follow the crumbs",
         "area": "Lowlands",
@@ -25672,7 +26385,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "09:00 - 18:00"
       },
       "category": "Food/Drinks",
-      "host": "Victoria Concordia / Moonwalkers",
+      "host": "Victoria Concordia",
+      "campHost": "Moonwalkers",
       "location": {
         "name": "Highlands, grid square L09.",
         "area": "Highlands",
@@ -25728,7 +26442,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "09:30 - 13:30"
       },
       "category": "Games/Play",
-      "host": "Crow (Debbie) / Slothenhive · · Queer inclusive",
+      "host": "Crow (Debbie)",
+      "campHost": "Slothenhive",
       "location": {
         "name": "Lowlands, grid square Q13. An enclosed area with dog toys and shade.",
         "area": "Lowlands",
@@ -25757,7 +26472,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 10:45"
       },
       "category": "Workshop/Class",
-      "host": "Robin Bäckström / Feromonia",
+      "host": "Robin Bäckström",
+      "campHost": "Feromonia",
       "location": {
         "name": "Swamp, grid square T18. @Feromonia, look for glamping bell tent with black",
         "area": "Swamp",
@@ -25811,7 +26527,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 22:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Mårten och Lova / Nest & Twigs",
+      "host": "Mårten och Lova",
+      "campHost": "Nest & Twigs",
       "location": {
         "name": "Bison - South, grid square P24. Nest & Twigs not far from the Bison",
         "area": "Bison - South",
@@ -25837,7 +26554,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 10:30"
       },
       "category": "Ritual/Ceremony",
-      "host": "Luca / Pink Parachute",
+      "host": "Luca",
+      "campHost": "Pink Parachute",
       "location": {
         "name": "Lowlands, grid square P13. Search for the Pink Parachute",
         "area": "Lowlands",
@@ -25863,7 +26581,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 10:30"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Self-led / Spaceport",
+      "host": "Self-led",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink temple, Lowlands",
         "area": "Lowlands",
@@ -25891,7 +26610,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 12:00"
       },
       "category": "Workshop/Class",
-      "host": "Mark / The Church ·",
+      "host": "Mark",
+      "campHost": "The Church",
       "location": {
         "name": "Downtown, grid square K21. The Church, Downtown",
         "area": "Downtown",
@@ -25921,7 +26641,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 11:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Melker / The Sun",
+      "host": "Melker",
+      "campHost": "The Sun",
       "location": {
         "name": "Sunny Hills, grid square I21. Top of Sunny Hills!",
         "area": "Sunny Hills",
@@ -25975,7 +26696,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:30 - 12:00"
       },
       "category": "Workshop/Class",
-      "host": "Depends on the day, see program board by SG / Secret Garden",
+      "host": "Depends on the day, see program board by SG",
+      "campHost": "Secret Garden",
       "location": {
         "name": "Downtown, grid square M21. Big white star shaped tent in the Secret Garden",
         "area": "Downtown",
@@ -26028,7 +26750,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:30 - 11:30"
       },
       "category": "Ritual/Ceremony",
-      "host": "Tribe's Caretaker / The Tribe, Argaba Village",
+      "host": "Tribe's Caretaker",
+      "campHost": "The Tribe, Argaba Village",
       "location": {
         "name": "Highlands, grid square N13. Ask for the Tribal mystics in the Agraba village",
         "area": "Highlands",
@@ -26054,7 +26777,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 12:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Anna Jois / Chilldome",
+      "host": "Anna Jois",
+      "campHost": "Chilldome",
       "location": {
         "name": "Highlands, grid square M11. Big dome on the Penta Plaza.",
         "area": "Highlands",
@@ -26080,7 +26804,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 14:00"
       },
       "category": "Workshop/Class",
-      "host": "Juhana / Cuddle Cloud",
+      "host": "Juhana",
+      "campHost": "Cuddle Cloud",
       "location": {
         "name": "Wedge, grid square R21. We're located in the Wedge neighbourhood, across the",
         "gridSquare": "R21"
@@ -26107,7 +26832,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 23:59"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Marcurious (Camp Eld&Rötter) / Eld&Rötter (but start is next to Threshold)",
+      "host": "Marcurious (Camp Eld&Rötter)",
+      "campHost": "Eld&Rötter (but start is next to Threshold)",
       "location": {
         "name": "Pretty Parking, grid square K04.",
         "gridSquare": "K04"
@@ -26131,7 +26857,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 20:00"
       },
       "category": "Art/Installation",
-      "host": "Michael Barner-Rasmussen (aka. Dog) / Free camp",
+      "host": "Michael Barner-Rasmussen (aka. Dog)",
+      "campHost": "Free camp",
       "location": {
         "name": "Queer-inclusive · Triggering themes"
       },
@@ -26212,7 +26939,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 12:45"
       },
       "category": "Music/Performance/Show",
-      "host": "Pacho Herrera / Moonwalkers",
+      "host": "Pacho Herrera",
+      "campHost": "Moonwalkers",
       "location": {
         "name": "Highlands, grid square L09.",
         "area": "Highlands",
@@ -26240,7 +26968,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 12:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Little Bear / Spaceport",
+      "host": "Little Bear",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink temple, Lowlands",
         "area": "Lowlands",
@@ -26296,7 +27025,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 13:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Nyx / The Sapphic Pond · Queer-focused",
+      "host": "Nyx",
+      "campHost": "The Sapphic Pond",
       "location": {
         "name": "Sunny Hills, grid square J21. Follow the lesbian flag and the fairy lights to the",
         "area": "Sunny Hills",
@@ -26324,7 +27054,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 12:00"
       },
       "category": "Workshop/Class",
-      "host": "Sofia Cerne / The Source · · Queer inclusive",
+      "host": "Sofia Cerne",
+      "campHost": "The Source",
       "location": {
         "name": "Lowlands, grid square S12. Near Lowland Plaza",
         "area": "Lowlands",
@@ -26353,7 +27084,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:30 - 13:15"
       },
       "category": "Ritual/Ceremony",
-      "host": "Mahé Maé / Club SIN",
+      "host": "Mahé Maé",
+      "campHost": "Club SIN",
       "location": {
         "name": "Bison - North, grid square N19. By the Shameless Plaza",
         "area": "Bison - North",
@@ -26381,7 +27113,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:30 - 12:30"
       },
       "category": "Ritual/Ceremony",
-      "host": "Sandrathebluebird / Glittertind in Trolltunga mini tent",
+      "host": "Sandrathebluebird",
+      "campHost": "Glittertind in Trolltunga mini tent",
       "location": {
         "name": "Bison - North, grid square O20. Trolltunga smaller tent",
         "area": "Bison - North",
@@ -26410,7 +27143,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:30 - 13:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Kalle Grill / Shimmering by the forest edge",
+      "host": "Kalle Grill",
+      "campHost": "Shimmering by the forest edge",
       "location": {
         "name": "Arctic chill, grid square O06. In the Arctic Chill, close to Pamper Plaza, behind",
         "area": "Arctic chill",
@@ -26436,7 +27170,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:59 - 23:11"
       },
       "category": "Ritual/Ceremony",
-      "host": "Sara Bartosova / Heliotropes · Queer inclusive",
+      "host": "Sara Bartosova",
+      "campHost": "Heliotropes",
       "location": {
         "name": "mystery location, quench your thirst for more details/booking ->"
       },
@@ -26462,7 +27197,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 15:00"
       },
       "category": "Party/Gathering",
-      "host": "Divanté & Simpqlicious / Ballroom Bliss",
+      "host": "Divanté & Simpqlicious",
+      "campHost": "Ballroom Bliss",
       "location": {
         "name": "Lowlands, grid square Q10. Look for disco balls and listen for disco groove!",
         "area": "Lowlands",
@@ -26488,7 +27224,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 13:00"
       },
       "category": "Workshop/Class",
-      "host": "Olivia Lemmel / Camp Nimenoma",
+      "host": "Olivia Lemmel",
+      "campHost": "Camp Nimenoma",
       "location": {
         "name": "Highlands, grid square M13. Right next to Agrabah village. We have a beg",
         "area": "Highlands",
@@ -26516,7 +27253,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 14:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Satya ORafferty / Chilldome",
+      "host": "Satya ORafferty",
+      "campHost": "Chilldome",
       "location": {
         "name": "Highlands, grid square M11. Big dome on the Penta Plaza.",
         "area": "Highlands",
@@ -26542,7 +27280,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 13:30"
       },
       "category": "Workshop/Class",
-      "host": "Leon / Elven Saunacave",
+      "host": "Leon",
+      "campHost": "Elven Saunacave",
       "location": {
         "name": "Sunny Hills, grid square H22. just by the big lake Alversjoe",
         "area": "Sunny Hills",
@@ -26568,7 +27307,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 13:30"
       },
       "category": "Ritual/Ceremony",
-      "host": "Lulu / Elven Saunacave-DOME",
+      "host": "Lulu",
+      "campHost": "Elven Saunacave-DOME",
       "location": {
         "name": "Sunny Hills, grid square H22. just by the big lake Alversjoe",
         "area": "Sunny Hills",
@@ -26594,7 +27334,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 13:30"
       },
       "category": "Ritual/Ceremony",
-      "host": "Shamama and Francesco / Passage to Lemuria",
+      "host": "Shamama and Francesco",
+      "campHost": "Passage to Lemuria",
       "location": {
         "name": "grid square P25. The southest part of bison, look for a portal like entrance",
         "gridSquare": "P25"
@@ -26618,7 +27359,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 13:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Giles / Fez Tropicale / Spaceport",
+      "host": "Giles / Fez Tropicale",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink temple, Lowlands",
         "area": "Lowlands",
@@ -26668,7 +27410,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 13:30"
       },
       "category": "Workshop/Class",
-      "host": "Meow Meow and Dawe / The Sauna Cave",
+      "host": "Meow Meow and Dawe",
+      "campHost": "The Sauna Cave",
       "location": {
         "name": "Sunny Hills, grid square H22.",
         "area": "Sunny Hills",
@@ -26697,7 +27440,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 13:30"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Kathi / The Tribe (in Agrabah Village)",
+      "host": "Kathi",
+      "campHost": "The Tribe (in Agrabah Village)",
       "location": {
         "name": "Highlands, grid square N13. Find us on the main street of Agrabah Village",
         "area": "Highlands",
@@ -26723,7 +27467,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 14:00"
       },
       "category": "Workshop/Class",
-      "host": "Renaissance / Yggdrasil",
+      "host": "Renaissance",
+      "campHost": "Yggdrasil",
       "location": {
         "name": "Highlands, grid square O10. in the big Tipi",
         "area": "Highlands",
@@ -26777,7 +27522,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:15 - 13:45"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Chris & Hanne / Tantric Trolls · · Queer inclusive",
+      "host": "Chris & Hanne",
+      "campHost": "Tantric Trolls",
       "location": {
         "name": "Highlands, grid square N11. Penta Plaza",
         "area": "Highlands",
@@ -26807,7 +27553,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:30 - 13:30"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Justina / Flowzone monkeybar",
+      "host": "Justina",
+      "campHost": "Flowzone monkeybar",
       "location": {
         "name": "Highlands, grid square M11. Highlands, Penta plaza (big flag) next to Chilldome",
         "area": "Highlands",
@@ -26835,7 +27582,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:30 - 13:30"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Lisa / Pink Parachute",
+      "host": "Lisa",
+      "campHost": "Pink Parachute",
       "location": {
         "name": "Lowlands, grid square P13.",
         "area": "Lowlands",
@@ -26863,7 +27611,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:00"
       },
       "category": "Workshop/Class",
-      "host": "Sabrine / Camp All Senses, No Sense",
+      "host": "Sabrine",
+      "campHost": "Camp All Senses, No Sense",
       "location": {
         "name": "Eastern Slope, grid square W16. Look for the Tipi tent, AA sign and the",
         "area": "Eastern Slope",
@@ -26947,7 +27696,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:30"
       },
       "category": "Workshop/Class",
-      "host": "Depends on the day, see program board by SG / Secret Garden",
+      "host": "Depends on the day, see program board by SG",
+      "campHost": "Secret Garden",
       "location": {
         "name": "Downtown, grid square M21. Big white star shaped tent in the Secret Garden",
         "area": "Downtown",
@@ -27002,7 +27752,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Amit / Spaceport",
+      "host": "Amit",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink temple, Lowlands",
         "area": "Lowlands",
@@ -27030,7 +27781,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:30"
       },
       "category": "Music/Performance/Show",
-      "host": "Maiken / The Church",
+      "host": "Maiken",
+      "campHost": "The Church",
       "location": {
         "name": "Downtown, grid square K21. The Church, Downtown",
         "area": "Downtown",
@@ -27083,7 +27835,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:30"
       },
       "category": "Ritual/Ceremony",
-      "host": "Adam & Byron / The Observatory",
+      "host": "Adam & Byron",
+      "campHost": "The Observatory",
       "location": {
         "name": "Swamp, grid square Q19.",
         "area": "Swamp",
@@ -27163,7 +27916,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:30 - 14:30"
       },
       "category": "Music/Performance/Show",
-      "host": "Christopher / Passage to Lemuria",
+      "host": "Christopher",
+      "campHost": "Passage to Lemuria",
       "location": {
         "name": "grid square P25. The southest part of bison, look for a portal like entrance",
         "gridSquare": "P25"
@@ -27217,7 +27971,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:00"
       },
       "category": "Workshop/Class",
-      "host": "Ember / Fire Brigade",
+      "host": "Ember",
+      "campHost": "Fire Brigade",
       "location": {
         "name": "Swamp, grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet",
         "area": "Swamp",
@@ -27243,7 +27998,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:30"
       },
       "category": "Workshop/Class",
-      "host": "Fanny-nati / Pink Parachute",
+      "host": "Fanny-nati",
+      "campHost": "Pink Parachute",
       "location": {
         "name": "Lowlands, grid square P13.",
         "area": "Lowlands",
@@ -27271,7 +28027,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 16:00"
       },
       "category": "Art/Installation",
-      "host": "Simon / RA dancefloor",
+      "host": "Simon",
+      "campHost": "RA dancefloor",
       "location": {
         "name": "Bison - North, grid square O20.",
         "area": "Bison - North",
@@ -27297,7 +28054,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:00"
       },
       "category": "Workshop/Class",
-      "host": "Raul / Secret sailors",
+      "host": "Raul",
+      "campHost": "Secret sailors",
       "location": {
         "name": "Lowlands, grid square R12.",
         "area": "Lowlands",
@@ -27325,7 +28083,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:00"
       },
       "category": "Workshop/Class",
-      "host": "Raulito / Secret Sailors",
+      "host": "Raulito",
+      "campHost": "Secret Sailors",
       "location": {
         "name": "Lowlands, grid square R12. Secret Sailors tent by Lowlands plaza",
         "area": "Lowlands",
@@ -27351,7 +28110,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 16:00"
       },
       "category": "Workshop/Class",
-      "host": "Penta Plaza in Highlands / Tantric Trolls",
+      "host": "Penta Plaza in Highlands",
+      "campHost": "Tantric Trolls",
       "location": {
         "name": "Highlands, grid square N11.",
         "area": "Highlands",
@@ -27380,7 +28140,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 17:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Svempa and Michaelangelo / The End of the Block Lounge",
+      "host": "Svempa and Michaelangelo",
+      "campHost": "The End of the Block Lounge",
       "location": {
         "name": "Swamp, grid square U16. We are where The Swamp, The Missing Piece and The",
         "area": "Swamp",
@@ -27462,7 +28223,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 01:00"
       },
       "category": "Games/Play",
-      "host": "Morpheus & Pfaffe Labskaus / Cheeky Butt ·",
+      "host": "Morpheus & Pfaffe Labskaus",
+      "campHost": "Cheeky Butt",
       "location": {
         "name": "Highlands, grid square N11. We will be where the Sin is. Always at your service",
         "area": "Highlands",
@@ -27493,7 +28255,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 16:30"
       },
       "category": "Music/Performance/Show",
-      "host": "Morten / GlitterTind",
+      "host": "Morten",
+      "campHost": "GlitterTind",
       "location": {
         "name": "Bison - North, grid square O20. Shameless plaza next to sinnergirl",
         "area": "Bison - North",
@@ -27521,7 +28284,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 18:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Lukas Lilja / Captain Silly Songs / Jam Camp",
+      "host": "Lukas Lilja / Captain Silly Songs",
+      "campHost": "Jam Camp",
       "location": {
         "name": "Bison - North, grid square N19. ((Note from the JOMO team: we can't figure if it",
         "area": "Bison - North",
@@ -27627,7 +28391,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:30 - 17:00"
       },
       "category": "Workshop/Class",
-      "host": "Klara / End Of The Rainbow ·",
+      "host": "Klara",
+      "campHost": "End Of The Rainbow",
       "location": {
         "name": "Bison - North, grid square N20. Bison - North, Southwest of Shameless Plaza",
         "area": "Bison - North",
@@ -27657,7 +28422,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Workshop/Class",
-      "host": "Maria Botin / Chilldome",
+      "host": "Maria Botin",
+      "campHost": "Chilldome",
       "location": {
         "name": "Highlands, grid square M11. Big dome on the Penta Plaza.",
         "area": "Highlands",
@@ -27683,7 +28449,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 17:00"
       },
       "category": "Workshop/Class",
-      "host": "Inbar / Club SIN ·",
+      "host": "Inbar",
+      "campHost": "Club SIN",
       "location": {
         "name": "Bison - North, grid square N19. By the Shameless Plaza",
         "area": "Bison - North",
@@ -27713,7 +28480,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 17:00"
       },
       "category": "Food/Drinks",
-      "host": "Haky & Merci / Haky & Merci",
+      "host": "Haky & Merci",
+      "campHost": "Haky & Merci",
       "location": {
         "name": "Arctic chill, grid square L08. Orange Van",
         "area": "Arctic chill",
@@ -27793,7 +28561,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 17:30"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Hrm Fellonia / Njorunns Garden",
+      "host": "Hrm Fellonia",
+      "campHost": "Njorunns Garden",
       "location": {
         "name": "Downtown, grid square M20.",
         "area": "Downtown",
@@ -27819,7 +28588,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Workshop/Class",
-      "host": "Runi / Secret Garden · · Triggering themes",
+      "host": "Runi",
+      "campHost": "Secret Garden",
       "location": {
         "name": "Downtown, grid square M21.",
         "area": "Downtown",
@@ -27876,7 +28646,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 17:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Hanna Hedlund / The Church",
+      "host": "Hanna Hedlund",
+      "campHost": "The Church",
       "location": {
         "name": "Downtown, grid square K21.",
         "area": "Downtown",
@@ -27902,7 +28673,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Games/Play",
-      "host": "Nyxie / The Sapphic Pond · Queer-focused",
+      "host": "Nyxie",
+      "campHost": "The Sapphic Pond",
       "location": {
         "name": "Sunny Hills, grid square J21. Look for the lesbian flag, we fly it on a pole and",
         "area": "Sunny Hills",
@@ -27930,7 +28702,7 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 22:00"
       },
       "category": "Party/Gathering",
-      "host": "Alonso Lozano ·",
+      "host": "Alonso Lozano",
       "location": {
         "name": "Sunny Hills, grid square G22. On the jetty by the lake, in SUNNY HILL (Swampy",
         "area": "Sunny Hills",
@@ -27960,7 +28732,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:15 - 18:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Myra Tschante / Tantric Trolls",
+      "host": "Myra Tschante",
+      "campHost": "Tantric Trolls",
       "location": {
         "name": "Highlands, grid square N11.",
         "area": "Highlands",
@@ -27986,7 +28759,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:30 - 17:30"
       },
       "category": "Music/Performance/Show",
-      "host": "Rolf / Yggdrasil",
+      "host": "Rolf",
+      "campHost": "Yggdrasil",
       "location": {
         "name": "Highlands, grid square O10. in the big Tipi",
         "area": "Highlands",
@@ -28012,7 +28786,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "17:00 - 18:00"
       },
       "category": "Workshop/Class",
-      "host": "JJ / Spaceport",
+      "host": "JJ",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink temple, Lowlands",
         "area": "Lowlands",
@@ -28066,7 +28841,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "18:00 - 19:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Fire Brigade / Fire Brigade",
+      "host": "Fire Brigade",
+      "campHost": "Fire Brigade",
       "location": {
         "name": "Swamp, grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet",
         "area": "Swamp",
@@ -28092,7 +28868,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "18:00 - 00:00"
       },
       "category": "Party/Gathering",
-      "host": "Kishmastle Spacestation / Kishmastle Spacestation",
+      "host": "Kishmastle Spacestation",
+      "campHost": "Kishmastle Spacestation",
       "location": {
         "name": "Muumin Valley, grid square F10. From sanctuary-follow the forest path toward",
         "gridSquare": "F10"
@@ -28116,7 +28893,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "18:00 - 19:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Soren / Spaceport",
+      "host": "Soren",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink temple, Lowlands",
         "area": "Lowlands",
@@ -28142,7 +28920,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "18:00 - 19:30"
       },
       "category": "Ritual/Ceremony",
-      "host": "Ania / The Genie's Lamp",
+      "host": "Ania",
+      "campHost": "The Genie's Lamp",
       "location": {
         "name": "Highlands, grid square N13. Agrabah Village, in south eastern Highlands",
         "area": "Highlands",
@@ -28171,7 +28950,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "18:00 - 19:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Angela & Martina / The Golden Caravan Camp Adults only",
+      "host": "Angela & Martina",
+      "campHost": "The Golden Caravan Camp",
       "location": {
         "name": "Sunny Hills, grid square I20. look out for the \"SSS\" sign",
         "area": "Sunny Hills",
@@ -28199,7 +28979,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "18:15 - 20:15"
       },
       "category": "Workshop/Class",
-      "host": "Nocturne / Tantric Trolls ·",
+      "host": "Nocturne",
+      "campHost": "Tantric Trolls",
       "location": {
         "name": "Highlands, grid square N11. Penta Plaza",
         "area": "Highlands",
@@ -28229,7 +29010,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "18:30 - 20:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Pacho Herrera / Moonwalkers",
+      "host": "Pacho Herrera",
+      "campHost": "Moonwalkers",
       "location": {
         "name": "Highlands, grid square L09.",
         "area": "Highlands",
@@ -28283,7 +29065,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "19:00 - 20:30"
       },
       "category": "Music/Performance/Show",
-      "host": "Tim / Yggdrasil",
+      "host": "Tim",
+      "campHost": "Yggdrasil",
       "location": {
         "name": "Highlands, grid square O10. in the big Tipi",
         "area": "Highlands",
@@ -28309,7 +29092,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 22:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Arataki / Chilldome",
+      "host": "Arataki",
+      "campHost": "Chilldome",
       "location": {
         "name": "Highlands, grid square M11. Big Dome on the Penta Plaza.",
         "area": "Highlands",
@@ -28360,7 +29144,7 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 02:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Sacred Kink ·",
+      "host": "Sacred Kink",
       "location": {
         "name": "Swamp, grid square R18. Near the water plaza in the swamp",
         "area": "Swamp",
@@ -28391,7 +29175,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 22:00"
       },
       "category": "Food/Drinks",
-      "host": "Laura / Shimmering by the forest edge",
+      "host": "Laura",
+      "campHost": "Shimmering by the forest edge",
       "location": {
         "name": "Arctic chill, grid square O06. In the Arctic Chill, close to Pamper Plaza, behind",
         "area": "Arctic chill",
@@ -28419,7 +29204,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 22:00"
       },
       "category": "Party/Gathering",
-      "host": "Noé / Shimmering by the forest edge",
+      "host": "Noé",
+      "campHost": "Shimmering by the forest edge",
       "location": {
         "name": "Arctic chill, grid square O06. In the Arctic Chill, close to Pamper Plaza, behind",
         "area": "Arctic chill",
@@ -28447,7 +29233,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 22:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Sound Awakening Tribe & Friends / Temple of Sound",
+      "host": "Sound Awakening Tribe & Friends",
+      "campHost": "Temple of Sound",
       "location": {
         "name": "Eastern Slope, grid square V18.",
         "area": "Eastern Slope",
@@ -28475,7 +29262,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 01:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Lars / The Church",
+      "host": "Lars",
+      "campHost": "The Church",
       "location": {
         "name": "Downtown, grid square K21. The Church, Downtown",
         "area": "Downtown",
@@ -28501,7 +29289,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 22:00"
       },
       "category": "Party/Gathering",
-      "host": "The Djinns / The Genie's Lamp",
+      "host": "The Djinns",
+      "campHost": "The Genie's Lamp",
       "location": {
         "name": "Highlands, grid square N13. Agrabah Village, in south eastern Highlands",
         "area": "Highlands",
@@ -28529,7 +29318,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 22:00"
       },
       "category": "Games/Play",
-      "host": "Nyxie / The Sapphic Pond Queer-focused",
+      "host": "Nyxie",
+      "campHost": "The Sapphic Pond",
       "location": {
         "name": "Sunny Hills, grid square J21. Look for the lesbian flag, we fly it on a pole and",
         "area": "Sunny Hills",
@@ -28555,7 +29345,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 23:00"
       },
       "category": "Games/Play",
-      "host": "The Sapphic Frog / The Sapphic Pond Queer-focused",
+      "host": "The Sapphic Frog",
+      "campHost": "The Sapphic Pond",
       "location": {
         "name": "Sunny Hills, grid square J21. Look for the lesbian flag, we fly it on a pole and",
         "area": "Sunny Hills",
@@ -28581,7 +29372,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "21:00 - 23:00"
       },
       "category": "Music/Performance/Show",
-      "host": "WEDER / Circus the Analog",
+      "host": "WEDER",
+      "campHost": "Circus the Analog",
       "location": {
         "name": "Swamp, grid square S18. Huge Circus tent",
         "area": "Swamp",
@@ -28637,7 +29429,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "21:00 - 03:00"
       },
       "category": "Party/Gathering",
-      "host": "Camp Yggdrasil / Yggdrasil",
+      "host": "Camp Yggdrasil",
+      "campHost": "Yggdrasil",
       "location": {
         "name": "Highlands, grid square O10. in the big Tipi",
         "area": "Highlands",
@@ -28663,7 +29456,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "21:30 - 00:30"
       },
       "category": "Workshop/Class",
-      "host": "Luca / End of the Rainbow · · Queer inclusive",
+      "host": "Luca",
+      "campHost": "End of the Rainbow",
       "location": {
         "name": "Bison - North, grid square N20. End of the Rainbow (N20)",
         "area": "Bison - North",
@@ -28693,7 +29487,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "21:30 - 22:30"
       },
       "category": "Ritual/Ceremony",
-      "host": "Soren and Friends / Spaceport",
+      "host": "Soren and Friends",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink temple, Lowlands",
         "area": "Lowlands",
@@ -28719,7 +29514,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:00 - 00:00"
       },
       "category": "Party/Gathering",
-      "host": "The Velvet Lounge / Pink Parachute",
+      "host": "The Velvet Lounge",
+      "campHost": "Pink Parachute",
       "location": {
         "name": "Lowlands, grid square P13. Look for our open sign",
         "area": "Lowlands",
@@ -28747,7 +29543,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:00 - 05:00"
       },
       "category": "Music/Performance/Show",
-      "host": "The Bears / The Bear's Den",
+      "host": "The Bears",
+      "campHost": "The Bear's Den",
       "location": {
         "name": "Sunny Hills, grid square H19. Turn between The Grateful Grogg and Discotech",
         "area": "Sunny Hills",
@@ -28802,7 +29599,7 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:30 - 04:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Foxhole Public Area · · Sensory content",
+      "host": "Foxhole Public Area",
       "location": {
         "name": "Lowlands, grid square Q11.",
         "area": "Lowlands",
@@ -28831,7 +29628,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:30 - 23:30"
       },
       "category": "Music/Performance/Show",
-      "host": "??? / Spaceport",
+      "host": "???",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink temple, Lowlands",
         "area": "Lowlands",
@@ -28857,7 +29655,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "23:00 - 02:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Ruby / Circus the Analog",
+      "host": "Ruby",
+      "campHost": "Circus the Analog",
       "location": {
         "name": "Swamp, grid square S18. Huge Circus tent",
         "area": "Swamp",
@@ -28885,7 +29684,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "23:00 - 23:59"
       },
       "category": "Music/Performance/Show",
-      "host": "Egil / DansBanderLand",
+      "host": "Egil",
+      "campHost": "DansBanderLand",
       "location": {
         "name": "Swamp, grid square T19. The LED dansbana (= pavilion)",
         "area": "Swamp",
@@ -28911,7 +29711,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "23:00 - 00:30"
       },
       "category": "Music/Performance/Show",
-      "host": "Max & Dawe / The Bear's Den",
+      "host": "Max & Dawe",
+      "campHost": "The Bear's Den",
       "location": {
         "name": "Sunny Hills, grid square H19. Turn between The Grateful Grogg and Discotech",
         "area": "Sunny Hills",
@@ -28937,7 +29738,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "23:00 - 08:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Regina / The Sapphic Pond Queer-focused",
+      "host": "Regina",
+      "campHost": "The Sapphic Pond",
       "location": {
         "name": "Sunny Hills, grid square J21. Look for the lesbian flag, we fly it on a pole and",
         "area": "Sunny Hills",
@@ -28965,7 +29767,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "23:30 - 02:00"
       },
       "category": "Music/Performance/Show",
-      "host": "??? / Spaceport",
+      "host": "???",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink temple, Lowlands",
         "area": "Lowlands",
@@ -28991,7 +29794,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "23:30 - 02:00"
       },
       "category": "Art/Installation",
-      "host": "Tuomas, Chris, Darja, Jessu / The Divine Dough Sanctuary",
+      "host": "Tuomas, Chris, Darja, Jessu",
+      "campHost": "The Divine Dough Sanctuary",
       "location": {
         "name": "Queer-inclusive"
       },
@@ -29016,7 +29820,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "00:00 - 23:59"
       },
       "category": "Games/Play",
-      "host": "Miss Information / Acid Aunties & Nasty Uncles Adults only ·",
+      "host": "Miss Information",
+      "campHost": "Acid Aunties & Nasty Uncles",
       "location": {
         "name": "Sunny Hills, grid square J22. Look for a grumpy old hag - good luck",
         "area": "Sunny Hills",
@@ -29121,7 +29926,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "00:01 - 23:59"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Michael Barner-Rasmussen (Dog) / Free camping",
+      "host": "Michael Barner-Rasmussen (Dog)",
+      "campHost": "Free camping",
       "location": {
         "name": "Queer-inclusive"
       },
@@ -29232,7 +30038,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "02:00 - 04:00"
       },
       "category": "Workshop/Class",
-      "host": "Yanick / The Church · · Sex positive",
+      "host": "Yanick",
+      "campHost": "The Church",
       "location": {
         "name": "Downtown, grid square K21. The Church, Downtown",
         "area": "Downtown",
@@ -29341,7 +30148,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "09:30 - 13:30"
       },
       "category": "Games/Play",
-      "host": "Crow (Debbie) / Slothenhive · · Queer inclusive",
+      "host": "Crow (Debbie)",
+      "campHost": "Slothenhive",
       "location": {
         "name": "Lowlands, grid square Q13. An enclosed area with dog toys and shade.",
         "area": "Lowlands",
@@ -29370,7 +30178,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 10:45"
       },
       "category": "Workshop/Class",
-      "host": "Robin Bäckström / Feromonia",
+      "host": "Robin Bäckström",
+      "campHost": "Feromonia",
       "location": {
         "name": "Swamp, grid square T18. @Feromonia, look for glamping bell tent with black",
         "area": "Swamp",
@@ -29398,7 +30207,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 22:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Mårten och Lova / Nest & Twigs",
+      "host": "Mårten och Lova",
+      "campHost": "Nest & Twigs",
       "location": {
         "name": "Bison - South, grid square P24. Nest & Twigs not far from the Bison",
         "area": "Bison - South",
@@ -29424,7 +30234,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 10:30"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Self-led / Spaceport",
+      "host": "Self-led",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink temple, Lowlands",
         "area": "Lowlands",
@@ -29480,7 +30291,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:30 - 12:00"
       },
       "category": "Workshop/Class",
-      "host": "Depends on the day, see program board by SG / Secret Garden",
+      "host": "Depends on the day, see program board by SG",
+      "campHost": "Secret Garden",
       "location": {
         "name": "Downtown, grid square M21. Big white star shaped tent in the Secret Garden",
         "area": "Downtown",
@@ -29509,7 +30321,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 20:00"
       },
       "category": "Art/Installation",
-      "host": "Michael Barner-Rasmussen (aka. Dog) / Free camp",
+      "host": "Michael Barner-Rasmussen (aka. Dog)",
+      "campHost": "Free camp",
       "location": {
         "name": "Queer-inclusive · Triggering themes"
       },
@@ -29587,7 +30400,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 12:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "You? / Spaceport",
+      "host": "You?",
+      "campHost": "Spaceport",
       "location": {
         "name": "Lowlands, grid square P12. Dome by the tall pink temple, Lowlands",
         "area": "Lowlands",
@@ -29643,7 +30457,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 13:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Nyx / The Sapphic Pond · Queer-focused",
+      "host": "Nyx",
+      "campHost": "The Sapphic Pond",
       "location": {
         "name": "Sunny Hills, grid square J21. Follow the lesbian flag and the fairy lights to the",
         "area": "Sunny Hills",
@@ -29671,7 +30486,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 13:00"
       },
       "category": "Workshop/Class",
-      "host": "Olivia Lemmel / Camp Nimenoma",
+      "host": "Olivia Lemmel",
+      "campHost": "Camp Nimenoma",
       "location": {
         "name": "Highlands, grid square M13. Right next to Agrabah village. We have a beg",
         "area": "Highlands",
@@ -29699,7 +30515,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 14:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Ben Phillips / Chilldome",
+      "host": "Ben Phillips",
+      "campHost": "Chilldome",
       "location": {
         "name": "Highlands, grid square M11. Big dome on the Penta Plaza.",
         "area": "Highlands",
@@ -29725,7 +30542,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 12:30"
       },
       "category": "Workshop/Class",
-      "host": "Anton Grip / Cloud Cartel",
+      "host": "Anton Grip",
+      "campHost": "Cloud Cartel",
       "location": {
         "name": "Highlands, grid square P11.",
         "area": "Highlands",
@@ -29751,7 +30569,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 16:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Tino / House of glöd",
+      "host": "Tino",
+      "campHost": "House of glöd",
       "location": {
         "name": "Arctic chill, grid square P06.",
         "area": "Arctic chill",
@@ -29808,7 +30627,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 15:00"
       },
       "category": "Workshop/Class",
-      "host": "SiaAndTheSacred / End of the Rainbow · Sex positive",
+      "host": "SiaAndTheSacred",
+      "campHost": "End of the Rainbow",
       "location": {
         "name": "Bison - North, grid square N20. Cross from downtown garden over the wooden",
         "area": "Bison - North",
@@ -29836,7 +30656,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Peter / Flowzone monkeybar",
+      "host": "Peter",
+      "campHost": "Flowzone monkeybar",
       "location": {
         "name": "Highlands, grid square M11. Highlands, Penta plaza (big flag) next to Chilldome",
         "area": "Highlands",
@@ -29864,7 +30685,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 15:00"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Gre / Heliotropes",
+      "host": "Gre",
+      "campHost": "Heliotropes",
       "location": {
         "name": "Eastern Slope, grid square W16. along the edge of the forest, south of the",
         "area": "Eastern Slope",
@@ -29890,7 +30712,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:00"
       },
       "category": "Art/Installation",
-      "host": "Filip Nyström / MUSEUM OF BAD ARTS",
+      "host": "Filip Nyström",
+      "campHost": "MUSEUM OF BAD ARTS",
       "location": {
         "name": "Downtown, grid square K19. Lower floor of the Barn (also known as the Living",
         "area": "Downtown",
@@ -29916,7 +30739,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 18:00"
       },
       "category": "Party/Gathering",
-      "host": "Pink Parachute / Pink Parachute",
+      "host": "Pink Parachute",
+      "campHost": "Pink Parachute",
       "location": {
         "name": "Lowlands, grid square P13.",
         "area": "Lowlands",
@@ -29944,7 +30768,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 16:00"
       },
       "category": "Food/Drinks",
-      "host": "The salt angels / Salt Rock City bar @the Goslings",
+      "host": "The salt angels",
+      "campHost": "Salt Rock City bar @the Goslings",
       "location": {
         "name": "Wedge, grid square R21. Look for our sign",
         "gridSquare": "R21"
@@ -29971,7 +30796,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:30"
       },
       "category": "Workshop/Class",
-      "host": "Depends on the day, see program board by SG / Secret Garden",
+      "host": "Depends on the day, see program board by SG",
+      "campHost": "Secret Garden",
       "location": {
         "name": "Downtown, grid square M21. Big white star shaped tent in the Secret Garden",
         "area": "Downtown",
@@ -30000,7 +30826,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 20:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Tom / The Church",
+      "host": "Tom",
+      "campHost": "The Church",
       "location": {
         "name": "Downtown, grid square K21. The Church, Downtown",
         "area": "Downtown",
@@ -30026,7 +30853,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 15:00"
       },
       "category": "Workshop/Class",
-      "host": "Tim / The Good, the Bad and the Cuddly",
+      "host": "Tim",
+      "campHost": "The Good, the Bad and the Cuddly",
       "location": {
         "name": "Wedge, grid square S22.",
         "gridSquare": "S22"
@@ -30052,7 +30880,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:00 - 14:30"
       },
       "category": "Workshop/Class",
-      "host": "Daniel / Yggdrasil",
+      "host": "Daniel",
+      "campHost": "Yggdrasil",
       "location": {
         "name": "Highlands, grid square O10. in the big Tipi",
         "area": "Highlands",
@@ -30106,7 +30935,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 16:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Nocturne / Chilldome",
+      "host": "Nocturne",
+      "campHost": "Chilldome",
       "location": {
         "name": "Highlands, grid square M11. Big dome on the Penta Plaza.",
         "area": "Highlands",
@@ -30132,7 +30962,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 16:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Emily & Dr. Catman / Club SIN",
+      "host": "Emily & Dr. Catman",
+      "campHost": "Club SIN",
       "location": {
         "name": "Bison - North, grid square N19. By the Shameless Plaza",
         "area": "Bison - North",
@@ -30186,7 +31017,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 15:00"
       },
       "category": "Workshop/Class",
-      "host": "Raul / Secret sailors",
+      "host": "Raul",
+      "campHost": "Secret sailors",
       "location": {
         "name": "Lowlands, grid square R12.",
         "area": "Lowlands",
@@ -30240,7 +31072,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 16:00"
       },
       "category": "Workshop/Class",
-      "host": "Johanna / The Observatory",
+      "host": "Johanna",
+      "campHost": "The Observatory",
       "location": {
         "name": "Swamp, grid square Q19.",
         "area": "Swamp",
@@ -30292,7 +31125,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 16:00"
       },
       "category": "Workshop/Class",
-      "host": "Sriracha / Touch Divine",
+      "host": "Sriracha",
+      "campHost": "Touch Divine",
       "location": {
         "name": "Wedge, grid square R22. South-east of BL",
         "gridSquare": "R22"
@@ -30318,7 +31152,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:00 - 16:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Fanny / Women who supports women",
+      "host": "Fanny",
+      "campHost": "Women who supports women",
       "location": {
         "name": "Arctic chill, grid square O06.",
         "area": "Arctic chill",
@@ -30372,7 +31207,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "14:20 - 16:20"
       },
       "category": "Workshop/Class",
-      "host": "He Whom The Smoke Is Circling / Where The Craving Is",
+      "host": "He Whom The Smoke Is Circling",
+      "campHost": "Where The Craving Is",
       "location": {
         "name": "Settled"
       },
@@ -30397,7 +31233,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 17:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Odinka / Alice the Malice in Wonderland",
+      "host": "Odinka",
+      "campHost": "Alice the Malice in Wonderland",
       "location": {
         "name": "Wedge, grid square R20.",
         "gridSquare": "R20"
@@ -30423,7 +31260,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 01:00"
       },
       "category": "Games/Play",
-      "host": "Morpheus & Pfaffe Labskaus / Cheeky Butt ·",
+      "host": "Morpheus & Pfaffe Labskaus",
+      "campHost": "Cheeky Butt",
       "location": {
         "name": "Highlands, grid square N11. We will be where the Sin is. Always at your service",
         "area": "Highlands",
@@ -30454,7 +31292,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 17:00"
       },
       "category": "Workshop/Class",
-      "host": "Thomas / GlitterTind ·",
+      "host": "Thomas",
+      "campHost": "GlitterTind",
       "location": {
         "name": "Bison - North, grid square O20. Shameless plaza next to sinnergirl",
         "area": "Bison - North",
@@ -30510,7 +31349,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 17:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Sniffy & Stinky / Pink Parachute",
+      "host": "Sniffy & Stinky",
+      "campHost": "Pink Parachute",
       "location": {
         "name": "Lowlands, grid square P13.",
         "area": "Lowlands",
@@ -30538,7 +31378,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:00 - 17:00"
       },
       "category": "Workshop/Class",
-      "host": "Vlad & Carmen / Secret Garden · · Sex positive",
+      "host": "Vlad & Carmen",
+      "campHost": "Secret Garden",
       "location": {
         "name": "Downtown, grid square M21. starshade tent",
         "area": "Downtown",
@@ -30567,7 +31408,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:30 - 17:30"
       },
       "category": "Workshop/Class",
-      "host": "Björn & Stina / Cuddle Cloud",
+      "host": "Björn & Stina",
+      "campHost": "Cuddle Cloud",
       "location": {
         "name": "Wedge, grid square R21. We're located in the Wedge neighbourhood, across the",
         "gridSquare": "R21"
@@ -30591,7 +31433,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:30 - 18:30"
       },
       "category": "Workshop/Class",
-      "host": "Cedric Lorenz / End Of The Rainbow · ·",
+      "host": "Cedric Lorenz",
+      "campHost": "End Of The Rainbow",
       "location": {
         "name": "Bison - North, grid square N20. Right on Shameless Plaza",
         "area": "Bison - North",
@@ -30623,7 +31466,7 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:30 - 20:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Fohole Public Area · · Sensory content",
+      "host": "Fohole Public Area",
       "location": {
         "name": "Lowlands, grid square Q11.",
         "area": "Lowlands",
@@ -30652,7 +31495,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Ida Simone / Chilldome",
+      "host": "Ida Simone",
+      "campHost": "Chilldome",
       "location": {
         "name": "Highlands, grid square M11. Big dome on the Penta Plaza.",
         "area": "Highlands",
@@ -30678,7 +31522,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Workshop/Class",
-      "host": "Teddy / Club SIN",
+      "host": "Teddy",
+      "campHost": "Club SIN",
       "location": {
         "name": "Bison - North, grid square N19. By the Shameless Plaza",
         "area": "Bison - North",
@@ -30707,7 +31552,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 17:00"
       },
       "category": "Workshop/Class",
-      "host": "Sophie / Fire Brigade",
+      "host": "Sophie",
+      "campHost": "Fire Brigade",
       "location": {
         "name": "Swamp, grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet",
         "area": "Swamp",
@@ -30733,7 +31579,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 17:00"
       },
       "category": "Food/Drinks",
-      "host": "Haky & Merci / Haky & Merci",
+      "host": "Haky & Merci",
+      "campHost": "Haky & Merci",
       "location": {
         "name": "Arctic chill, grid square L08. Orange Van",
         "area": "Arctic chill",
@@ -30787,7 +31634,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Observers / Not in the drop",
+      "host": "Observers",
+      "campHost": "Not in the drop",
       "location": {
         "name": "Swamp, grid square Q19.",
         "area": "Swamp",
@@ -30813,7 +31661,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Feli + Co-fascilitator / Sacred Kink ·",
+      "host": "Feli + Co-fascilitator",
+      "campHost": "Sacred Kink",
       "location": {
         "name": "Swamp, grid square R18. Near the water plaza in the swamp",
         "area": "Swamp",
@@ -30843,7 +31692,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Games/Play",
-      "host": "Nyxie / The Sapphic Pond · Queer-focused",
+      "host": "Nyxie",
+      "campHost": "The Sapphic Pond",
       "location": {
         "name": "Sunny Hills, grid square J21. Look for the lesbian flag, we fly it on a pole and",
         "area": "Sunny Hills",
@@ -30898,7 +31748,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 17:00"
       },
       "category": "Workshop/Class",
-      "host": "Icarus / All Senses, No Sense",
+      "host": "Icarus",
+      "campHost": "All Senses, No Sense",
       "location": {
         "name": "Eastern Slope, W16.",
         "area": "Eastern Slope",
@@ -30978,7 +31829,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "18:00 - 00:00"
       },
       "category": "Party/Gathering",
-      "host": "Kishmastle Spacestation / Kishmastle Spacestation",
+      "host": "Kishmastle Spacestation",
+      "campHost": "Kishmastle Spacestation",
       "location": {
         "name": "Muumin Valley, grid square F10. From sanctuary-follow the forest path toward",
         "gridSquare": "F10"
@@ -31002,7 +31854,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "18:00 - 23:00"
       },
       "category": "Art/Installation",
-      "host": "Lukas Lilja / Captain Silly Songs / Somewhere in the hills",
+      "host": "Lukas Lilja / Captain Silly Songs",
+      "campHost": "Somewhere in the hills",
       "location": {
         "name": "Somewhere in the hills"
       },
@@ -31075,7 +31928,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 22:00"
       },
       "category": "Games/Play",
-      "host": "Nyxie / The Sapphic Pond Queer-focused",
+      "host": "Nyxie",
+      "campHost": "The Sapphic Pond",
       "location": {
         "name": "Sunny Hills, grid square J21. Look for the lesbian flag, we fly it on a pole and",
         "area": "Sunny Hills",
@@ -31101,7 +31955,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 21:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "The Tribe / The Tribe, Agraba village",
+      "host": "The Tribe",
+      "campHost": "The Tribe, Agraba village",
       "location": {
         "name": "Highlands, grid square N13. Search for the Tribe in Agraba village, Highlands",
         "area": "Highlands",
@@ -31127,7 +31982,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "21:30 - 22:00"
       },
       "category": "Music/Performance/Show",
-      "host": "David / The Church · · Sex positive",
+      "host": "David",
+      "campHost": "The Church",
       "location": {
         "name": "Downtown, grid square K21. The Church, Downtown",
         "area": "Downtown",
@@ -31156,7 +32012,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:00 - 05:00"
       },
       "category": "Music/Performance/Show",
-      "host": "The Bears / The Bear's Den",
+      "host": "The Bears",
+      "campHost": "The Bear's Den",
       "location": {
         "name": "Sunny Hills, grid square H19. Turn between The Grateful Grogg and Discotech",
         "area": "Sunny Hills",
@@ -31182,7 +32039,7 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:00 - 04:00"
       },
       "category": "Party/Gathering",
-      "host": "The Church ·",
+      "host": "The Church",
       "location": {
         "name": "Downtown, grid square K21. The Church, Downtown",
         "area": "Downtown",
@@ -31212,7 +32069,7 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:30 - 04:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Foxhole Public Area · · Sensory content",
+      "host": "Foxhole Public Area",
       "location": {
         "name": "Lowlands, grid square Q11.",
         "area": "Lowlands",
@@ -31241,7 +32098,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "23:00 - 08:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Regina / The Sapphic Pond Queer-focused",
+      "host": "Regina",
+      "campHost": "The Sapphic Pond",
       "location": {
         "name": "Sunny Hills, grid square J21. Look for the lesbian flag, we fly it on a pole and",
         "area": "Sunny Hills",
@@ -31295,7 +32153,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "00:00 - 23:59"
       },
       "category": "Games/Play",
-      "host": "Miss Information / Acid Aunties & Nasty Uncles Adults only ·",
+      "host": "Miss Information",
+      "campHost": "Acid Aunties & Nasty Uncles",
       "location": {
         "name": "Sunny Hills, grid square J22. Look for a grumpy old hag - good luck",
         "area": "Sunny Hills",
@@ -31351,7 +32210,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "00:01 - 23:59"
       },
       "category": "Crafting/Pimping/Arting",
-      "host": "Michael Barner-Rasmussen (Dog) / Free camping",
+      "host": "Michael Barner-Rasmussen (Dog)",
+      "campHost": "Free camping",
       "location": {
         "name": "Queer-inclusive"
       },
@@ -31462,7 +32322,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "10:00 - 22:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Mårten och Lova / Nest & Twigs",
+      "host": "Mårten och Lova",
+      "campHost": "Nest & Twigs",
       "location": {
         "name": "Bison - South, grid square P24. Nest & Twigs not far from the Bison",
         "area": "Bison - South",
@@ -31516,7 +32377,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 20:00"
       },
       "category": "Art/Installation",
-      "host": "Michael Barner-Rasmussen (aka. Dog) / Free camp",
+      "host": "Michael Barner-Rasmussen (aka. Dog)",
+      "campHost": "Free camp",
       "location": {
         "name": "Queer-inclusive · Triggering themes"
       },
@@ -31570,7 +32432,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 13:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Nyx / The Sapphic Pond · Queer-focused",
+      "host": "Nyx",
+      "campHost": "The Sapphic Pond",
       "location": {
         "name": "Sunny Hills, grid square J21. Follow the lesbian flag and the fairy lights to the",
         "area": "Sunny Hills",
@@ -31598,7 +32461,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:33 - 17:35"
       },
       "category": "Workshop/Class",
-      "host": "Here / SINagogue",
+      "host": "Here",
+      "campHost": "SINagogue",
       "location": {
         "name": "Downtown, grid square K21. Under the church - Ask about Here at the",
         "area": "Downtown",
@@ -31627,7 +32491,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "16:00 - 18:00"
       },
       "category": "Games/Play",
-      "host": "Nyxie / The Sapphic Pond · Queer-focused",
+      "host": "Nyxie",
+      "campHost": "The Sapphic Pond",
       "location": {
         "name": "Sunny Hills, grid square J21. Look for the lesbian flag, we fly it on a pole and",
         "area": "Sunny Hills",
@@ -31655,7 +32520,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "20:00 - 22:00"
       },
       "category": "Games/Play",
-      "host": "Nyxie / The Sapphic Pond Queer-focused",
+      "host": "Nyxie",
+      "campHost": "The Sapphic Pond",
       "location": {
         "name": "Sunny Hills, grid square J21. Look for the lesbian flag, we fly it on a pole and",
         "area": "Sunny Hills",
@@ -31681,7 +32547,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:00 - 23:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Jon G. Lör & Itsi-Bitsi / By the fire in Camp Spaceport",
+      "host": "Jon G. Lör & Itsi-Bitsi",
+      "campHost": "By the fire in Camp Spaceport",
       "location": {
         "name": "Lowlands, grid square P13. Look for the big pink temple and the Spaceport",
         "area": "Lowlands",
@@ -31709,7 +32576,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "23:00 - 08:00"
       },
       "category": "Ritual/Ceremony",
-      "host": "Regina / The Sapphic Pond Queer-focused",
+      "host": "Regina",
+      "campHost": "The Sapphic Pond",
       "location": {
         "name": "Sunny Hills, grid square J21. Look for the lesbian flag, we fly it on a pole and",
         "area": "Sunny Hills",
@@ -31764,7 +32632,8 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "11:00 - 13:00"
       },
       "category": "Yoga/Movement/Bodywork",
-      "host": "Nyx / The Sapphic Pond · Queer-focused",
+      "host": "Nyx",
+      "campHost": "The Sapphic Pond",
       "location": {
         "name": "Sunny Hills, grid square J21. Follow the lesbian flag and the fairy lights to the",
         "area": "Sunny Hills",

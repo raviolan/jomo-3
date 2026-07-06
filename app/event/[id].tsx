@@ -35,6 +35,7 @@ export default function EventDetailScreen() {
         <MetaBlock label="Time" value={`${event.date} · ${event.time.display}`} />
         <MetaBlock label="Location" value={event.location.name} />
         {event.host ? <MetaBlock label="Host" value={event.host} /> : null}
+        {event.campHost ? <MetaBlock label="Camp" value={event.campHost} /> : null}
         {event.tags.length > 0 ? <MetaBlock label="Tags" value={event.tags.join(" · ")} /> : null}
       </View>
 
