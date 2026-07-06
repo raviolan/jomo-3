@@ -27,7 +27,7 @@ export default function PrivacyScreen() {
         </Text>
       </View>
 
-      <Text style={styles.body}>This page is made by Raviolan for Alicia, queen of the timeline 🫶🏽💫</Text>
+      <Text style={styles.body}>This page is made by Raviolan for Allie cat, queen of the timeline 🫶🏽💫</Text>
 
       <Text style={styles.body}>
         If you love this as much as we do, feel free to{" "}

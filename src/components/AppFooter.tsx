@@ -6,7 +6,7 @@ import { theme } from "@/theme/theme";
 export function AppFooter() {
   return (
     <View style={styles.shell}>
-      <Text style={styles.text}>Made by Raviolan for Alicia, queen of the timeline 🫶🏽💫</Text>
+      <Text style={styles.text}>Made by Raviolan for Allie cat, queen of the timeline 🫶🏽💫</Text>
       <Text style={styles.text}>
         I'm a solo dev, and{" "}
         <Link href="/privacy" asChild>
