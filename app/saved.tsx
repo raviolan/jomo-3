@@ -66,7 +66,7 @@ const scheduleBlockStyles = [
 ];
 
 const minuteMs = 60 * 1000;
-const scheduleMinuteHeight = 0.62;
+const scheduleMinuteHeight = 0.82;
 const minTimelineHeight = 160;
 const minScheduleBlockHeight = 54;
 const scheduleHourRailWidth = 54;
@@ -440,10 +440,11 @@ function ScheduleDaySection({
                   <Text style={styles.scheduleBlockTitle} numberOfLines={2}>
                     {row.event.title}
                   </Text>
-                  <Text style={styles.scheduleBlockTime}>{row.event.time.display}</Text>
-                  <Text style={styles.scheduleBlockMeta} numberOfLines={2}>
-                    {getScheduleLocationLabel(row.event)}
-                  </Text>
+                  {row.event.host ? (
+                    <Text style={styles.scheduleBlockHost} numberOfLines={1}>
+                      {row.event.host}
+                    </Text>
+                  ) : null}
                 </Pressable>
               ))}
               {currentGuide ? <CurrentTimeGuide top={currentGuide.top} /> : null}
@@ -606,14 +607,6 @@ function getCurrentTimeGuide(
 
   const top = ((nowTime - layout.dayStart) / minuteMs) * scheduleMinuteHeight;
   return isFiniteNumber(top) && top >= 0 ? { top } : undefined;
-}
-
-function getScheduleLocationLabel(event: FestivalEvent): string {
-  if (event.campHost) {
-    return `${event.campHost} · ${event.location.name}`;
-  }
-
-  return event.location.name;
 }
 
 function shortDayLabel(label: string): string {
@@ -998,26 +991,21 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     minWidth: 0,
     overflow: "hidden",
-    paddingHorizontal: 12,
-    paddingVertical: 10,
+    paddingHorizontal: 10,
+    paddingVertical: 8,
     zIndex: 1
-  },
-  scheduleBlockMeta: {
-    color: theme.colors.textMuted,
-    fontSize: 12,
-    fontWeight: "700",
-    lineHeight: 16
-  },
-  scheduleBlockTime: {
-    color: theme.colors.brand,
-    fontSize: 12,
-    fontWeight: "900"
   },
   scheduleBlockTitle: {
     color: theme.colors.text,
     fontSize: 15,
     fontWeight: "900",
     lineHeight: 19
+  },
+  scheduleBlockHost: {
+    color: theme.colors.textMuted,
+    fontSize: 11,
+    fontWeight: "700",
+    lineHeight: 14
   },
   scheduleDay: {
     backgroundColor: theme.surfaces.card,
