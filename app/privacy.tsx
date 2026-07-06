@@ -9,20 +9,21 @@ export default function PrivacyScreen() {
       <View style={styles.section}>
         <Text style={styles.heading}>FOR YOUR PRIVACY:</Text>
         <Text style={styles.body}>
-          This page is fully running on your device’s local storage. There is no backend and no info is being sent to
-          servers. That means that I’ll never be able to see who you are or what events you favorited. Your data is
-          yours.
+          This app runs in your own browser. There are no accounts, no backend, and no syncing, so I can’t see who you
+          are, what you search for, or which events you save.
         </Text>
       </View>
 
       <View style={styles.section}>
         <Text style={styles.subheading}>Here’s how it works:</Text>
         <Text style={styles.body}>
-          Each user’s saved events are stored only in that person’s own browser, using the browser’s local storage. The
-          app saves small lists of everything going on at BL, and does not send anything to a server. The festival
-          schedule itself is bundled with the app, so it can be browsed offline, and each user’s saved choices stay on
-          their device/browser unless they clear site data, switch browsers/devices, or use a browser mode that blocks
-          storage.
+          The festival schedule is bundled into the app, so you can browse it even when connection is shaky. When you
+          save events, those choices are stored only in your own browser using local storage. They are not sent to me or
+          stored in a database.
+        </Text>
+        <Text style={styles.body}>
+          Your saved events stay on the same device and browser unless you clear your site data, switch browser/device,
+          or use a browser mode that blocks storage.
         </Text>
       </View>
 
