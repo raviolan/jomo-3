@@ -81,6 +81,13 @@ const dayNameToDate = new Map([
 const categorySet = new Set(categories);
 const tagSet = new Set(tags);
 const timePattern = /^(\d{1,2}:\d{2})\s*[–-]\s*(\d{1,2}:\d{2})$/;
+const gridColumns = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+const gridColumnSet = new Set(gridColumns);
+const gridRowSet = new Set(Array.from({ length: 27 }, (_, index) => index + 1));
+const contextualGridPattern =
+  /\b(?:grid\s*squares?|maybe\s+square|square)\s+((?:[A-Z]\s*0?\d{1,2})(?:\s*(?:[,/&+]|\band\b|\bor\b)\s*(?:[A-Z]\s*0?\d{1,2}))*)/gi;
+const gridTokenPattern = /([A-Z])\s*(0?\d{1,2})/gi;
+const bareGridPattern = /(?:^|[^A-Z0-9])([A-Z])\s*(0?\d{1,2})(?=$|[^A-Z0-9])/gi;
 
 async function main() {
   await fs.access(pdfPath);
@@ -219,6 +226,7 @@ function buildEvents(lines, eventStarts, dayRanges) {
         .filter((line) => !dayNameToDate.has(line.value.toUpperCase()))
         .map((line) => line.value);
       const parsedBody = parseBody(bodyLines);
+      const gridSquares = extractEventGridSquares(parsedBody);
       const baseId = slugify([day.date, timeMatch[1], parsedBody.location.name, title].join(" "));
       const duplicateCount = idCounts.get(baseId) ?? 0;
       idCounts.set(baseId, duplicateCount + 1);
@@ -238,6 +246,7 @@ function buildEvents(lines, eventStarts, dayRanges) {
         host: parsedBody.host,
         campHost: parsedBody.campHost,
         location: parsedBody.location,
+        ...(gridSquares.length > 0 ? { gridSquares } : {}),
         tags: parsedBody.tags,
         description: parsedBody.description,
         source: {
@@ -367,15 +376,83 @@ function isLocationLine(value) {
 
 function parseLocation(value) {
   const cleanValue = value.replace(/\s+/g, " ").trim() || "Location to be confirmed";
-  const gridMatch = cleanValue.match(/grid square\s+([A-Z]\d{1,2})/i);
+  const gridSquares = extractGridSquareRefsFromText(cleanValue, { allowBare: true });
   const area = areaNames.find((name) => cleanValue.startsWith(name));
 
   return {
     name: cleanValue,
     area,
-    gridSquare: gridMatch?.[1]?.toUpperCase(),
+    gridSquare: gridSquares[0]?.label,
     notes: area ? cleanValue.replace(area, "").replace(/^,\s*/, "").trim() || undefined : undefined
   };
+}
+
+function extractEventGridSquares(parsedBody) {
+  const locationSquares = extractGridSquareRefsFromText(parsedBody.location.name, { allowBare: true });
+  const metadataSquares = extractGridSquareRefsFromText([parsedBody.host, parsedBody.campHost].filter(Boolean).join(" "), {
+    allowBare: false
+  });
+  const descriptionSquares =
+    locationSquares.length === 0
+      ? extractGridSquareRefsFromText(parsedBody.description, { allowBare: false })
+      : [];
+
+  return dedupeGridSquareRefs([...locationSquares, ...metadataSquares, ...descriptionSquares]);
+}
+
+function extractGridSquareRefsFromText(value, options = {}) {
+  const allowBare = options.allowBare ?? false;
+  const refs = [];
+  const text = value.toUpperCase();
+
+  for (const match of text.matchAll(contextualGridPattern)) {
+    const gridList = match[1] ?? "";
+    for (const tokenMatch of gridList.matchAll(gridTokenPattern)) {
+      const ref = createGridSquareRef(tokenMatch[1], tokenMatch[2]);
+      if (ref) {
+        refs.push(ref);
+      }
+    }
+  }
+
+  if (allowBare) {
+    for (const match of text.matchAll(bareGridPattern)) {
+      const ref = createGridSquareRef(match[1], match[2]);
+      if (ref) {
+        refs.push(ref);
+      }
+    }
+  }
+
+  return dedupeGridSquareRefs(refs);
+}
+
+function createGridSquareRef(columnValue, rowValue) {
+  const column = columnValue.toUpperCase();
+  const row = Number(rowValue);
+
+  if (!gridColumnSet.has(column) || !gridRowSet.has(row)) {
+    return undefined;
+  }
+
+  return {
+    column,
+    row,
+    key: `${column}${row}`,
+    label: `${column}${String(row).padStart(2, "0")}`
+  };
+}
+
+function dedupeGridSquareRefs(refs) {
+  const byKey = new Map();
+
+  for (const ref of refs) {
+    if (!byKey.has(ref.key)) {
+      byKey.set(ref.key, ref);
+    }
+  }
+
+  return Array.from(byKey.values());
 }
 
 function buildDays(events) {

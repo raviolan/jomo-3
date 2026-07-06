@@ -1,7 +1,7 @@
 import type { NormalizedSchedule } from "@/models/schedule";
 
 const generatedSchedule: NormalizedSchedule = {
-  "generatedAt": "2026-07-06T07:26:03.455Z",
+  "generatedAt": "2026-07-06T19:24:55.696Z",
   "sourcePdf": "guide_A4_preview.pdf",
   "days": [
     {
@@ -109,6 +109,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "I20",
         "notes": "grid square I20. On top of Sunny Hill"
       },
+      "gridSquares": [
+        {
+          "column": "I",
+          "row": 20,
+          "key": "I20",
+          "label": "I20"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -161,8 +169,17 @@ const generatedSchedule: NormalizedSchedule = {
       "location": {
         "name": "Eastern Slope, X16.",
         "area": "Eastern Slope",
+        "gridSquare": "X16",
         "notes": "X16."
       },
+      "gridSquares": [
+        {
+          "column": "X",
+          "row": 16,
+          "key": "X16",
+          "label": "X16"
+        }
+      ],
       "tags": [],
       "description": "Virgin Borderling or seasoned burner to the playa? Wondering what the principles are? Then come to this light-guided workshop about the 11 principles of The Borderland. Come one, come all and frolick.",
       "source": {
@@ -190,6 +207,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "K21",
         "notes": "grid square K21. Under the church - Ask about Here at the"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 21,
+          "key": "K21",
+          "label": "K21"
+        }
+      ],
       "tags": [],
       "description": "SINagogue Your body is a wonderful music instrument with a lot of untapped musical potential. We'll hear and learn notes, melodies, beats and sounds made by human bodies. Pretty sure at least some of them will be completely new to you. Depending on the group, we'll hopefully end up jamming and co- composing something unforgettable.",
       "source": {
@@ -217,6 +242,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q18",
         "notes": "grid square Q18. Look for the glorious American flag flying above The"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 18,
+          "key": "Q18",
+          "label": "Q18"
+        }
+      ],
       "tags": [],
       "description": "Green Zone. That's Blackwater Operations. Event is in the main tent. As per tradition, Blackwater Operations & The Green Zone will be hosting the worst shitshow money can't buy to celebrate the end of build. Think cruiseship entertainment... if it had been abandoned behind an opossum nest at a salvage yard. Drinks may be cold.",
       "source": {
@@ -243,6 +276,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S17",
         "notes": "grid square S17. by the Fire Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 17,
+          "key": "S17",
+          "label": "S17"
+        }
+      ],
       "tags": [],
       "description": "Together we deliver the rebirth of the WILD SACRED FIRE. Join us in devotion, consecrate the ground, steward the tradition. Here we find ground, that we may lean into intimacy with the unknown. Let Her joy fan the flames of your savage nobility. Bring your heart as kindling.",
       "source": {
@@ -270,6 +311,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P13",
         "notes": "grid square P13. Look for the big pink temple and the Spaceport"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 13,
+          "key": "P13",
+          "label": "P13"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -299,6 +348,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J22",
         "notes": "grid square J22. Look for a grumpy old hag - good luck"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 22,
+          "key": "J22",
+          "label": "J22"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -352,6 +409,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "G21",
         "notes": "grid square G21."
       },
+      "gridSquares": [
+        {
+          "column": "G",
+          "row": 21,
+          "key": "G21",
+          "label": "G21"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -380,6 +445,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O22",
         "notes": "grid square O22. Corner on Sunset Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 22,
+          "key": "O22",
+          "label": "O22"
+        }
+      ],
       "tags": [],
       "description": "Send your(other)self a message in form of postcard from Borderland. Capture the fleeting moment and extract it out before it vanishes. Come hangout at Socialen, we offer a relaxed space to settle in a reflect for a moment and write yourself or others about your current state of mind.",
       "source": {
@@ -435,6 +508,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M20",
         "notes": "grid square M20."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 20,
+          "key": "M20",
+          "label": "M20"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -463,6 +544,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P22",
         "notes": "grid square P22. We have a 10m dome"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 22,
+          "key": "P22",
+          "label": "P22"
+        }
+      ],
       "tags": [],
       "description": "Find a good spot anywhere and just sit back and people-watch while relaxing. It looks like a Borderland movie, doesn’t it?",
       "source": {
@@ -489,6 +578,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. The Pink Tantric Troll on the big workshop tent"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -518,6 +615,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q13",
         "notes": "grid square Q13. An enclosed area with dog toys and shade."
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 13,
+          "key": "Q13",
+          "label": "Q13"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -548,6 +653,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -577,6 +690,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T18",
         "notes": "grid square T18. @Feromonia, look for glamping bell tent with black"
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 18,
+          "key": "T18",
+          "label": "T18"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -606,6 +727,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M09",
         "notes": "grid square M09."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 9,
+          "key": "M9",
+          "label": "M09"
+        }
+      ],
       "tags": [],
       "description": "Where one playa’s cast-offs become your festival glow-up. Curated rags, questionable choices, and impulsive entertainment included. Come dig through the treasures, leave looking fabulous.",
       "source": {
@@ -633,6 +762,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P24",
         "notes": "grid square P24. By the tree house in Bison"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 24,
+          "key": "P24",
+          "label": "P24"
+        }
+      ],
       "tags": [],
       "description": "Come and build in our workshop area where we will construct orgone accumulators. We will provide the drawings, tools, material and guidance needed. The accumulators will be built in a proper Reichian way in order to accumulate orgone the most effective way possible. Once the accumulators are built, we will gather Orgone at Borderland and invite participants to be soaked in it, showered with it, and possibly transformed by it.",
       "source": {
@@ -660,6 +797,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -689,6 +834,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O06",
         "notes": "grid square O06."
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 6,
+          "key": "O6",
+          "label": "O06"
+        }
+      ],
       "tags": [],
       "description": "Come and paint stuff with ultra-black paint! You won’t see any internal shadows on anything you paint. Absorbs ca 99% of all light. There will be some stuff you can paint if you don’t have any yourself.",
       "source": {
@@ -715,6 +868,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J20",
         "notes": "grid square J20. Outside Clown Police HQ"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 20,
+          "key": "J20",
+          "label": "J20"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -744,6 +905,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M21",
         "notes": "grid square M21. Big white star shaped tent in the Secret Garden"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 21,
+          "key": "M21",
+          "label": "M21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -774,6 +943,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O22",
         "notes": "grid square O22. Sunset Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 22,
+          "key": "O22",
+          "label": "O22"
+        }
+      ],
       "tags": [],
       "description": "Wake up your body and shake off the dust with a playful vinyasa flow. Together we'll move, breathe, stretch, and energise ourselves for the day ahead. Grounding, uplifting, and open to all levels. Bring a yoga mat or towel and a water bottle.",
       "source": {
@@ -801,6 +978,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. At Penta Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -830,6 +1015,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q19",
         "notes": "grid square Q19."
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 19,
+          "key": "Q19",
+          "label": "Q19"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -859,6 +1052,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "V17",
         "notes": "grid square V17. Look for the wool! Follow the smell!"
       },
+      "gridSquares": [
+        {
+          "column": "V",
+          "row": 17,
+          "key": "V17",
+          "label": "V17"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -887,6 +1088,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T18",
         "notes": "grid square T18. Look for the Ethiopian flag!"
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 18,
+          "key": "T18",
+          "label": "T18"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -916,6 +1125,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R13",
         "notes": "grid square R13. Behind Space Port , red white circus tent, lowlands,"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 13,
+          "key": "R13",
+          "label": "R13"
+        }
+      ],
       "tags": [],
       "description": "easy to find. Get your sweat on with Jutlandias best Zumba instructor, Fun and good exercise - LETS GOOO !!!",
       "source": {
@@ -942,6 +1159,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P22",
         "notes": "grid square P22. Big 10m diameter dome"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 22,
+          "key": "P22",
+          "label": "P22"
+        }
+      ],
       "tags": [],
       "description": "Master the magical art of doing nothing! No goals, no to-dos just you, a comfy spot, and sweet, glorious idleness. Hug a tree, wiggle your toes, daydream wildly. It’s fun, it’s freeing, it’s fabulously unproductive. Permission to laze: granted!",
       "source": {
@@ -968,6 +1193,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q13",
         "notes": "grid square Q13. next to sweetspot and spaceport"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 13,
+          "key": "Q13",
+          "label": "Q13"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sober"
@@ -997,6 +1230,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "U21",
         "notes": "grid square U21."
       },
+      "gridSquares": [
+        {
+          "column": "U",
+          "row": 21,
+          "key": "U21",
+          "label": "U21"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -1026,6 +1267,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Follow the lesbian flag and the fairy lights to the"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sober"
@@ -1056,6 +1305,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O06",
         "notes": "grid square O06. In the Arctic Chill, close to Pamper Plaza, behind"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 6,
+          "key": "O6",
+          "label": "O06"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -1085,6 +1342,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O22",
         "notes": "grid square O22. Sunset Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 22,
+          "key": "O22",
+          "label": "O22"
+        }
+      ],
       "tags": [],
       "description": "A quiet moment to arrive. Through traditional breathwork and meditation practices, we'll slow down, become present, and gently settle into ourselves before stepping into the day. Open to all. Bring something comfortable to sit or lie on, and let your breath do the rest.",
       "source": {
@@ -1112,6 +1377,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P11",
         "notes": "grid square P11."
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 11,
+          "key": "P11",
+          "label": "P11"
+        }
+      ],
       "tags": [],
       "description": "Remember that time someone hurt you but the way they acknowledged and talked to you afterwards made you feel warm and understood? In this workshop we dive deep into our human psychological needs to find the structure of reparing hurt feelings. Join this workshop to get better at saying \"I'm sorry\"",
       "source": {
@@ -1139,6 +1412,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameless Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sex positive",
@@ -1169,6 +1450,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O22",
         "notes": "grid square O22. Bison - Next to Sunset Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 22,
+          "key": "O22",
+          "label": "O22"
+        }
+      ],
       "tags": [],
       "description": "Enjoy chai, coffee, and cookies that taste like care, baked with love, served with presence and compassion. (There is a good chance that we will also serve coffee, etc outside our listed hours <3)",
       "source": {
@@ -1196,6 +1485,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Event place (at Sunny Hills, behind the Clown"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -1225,6 +1522,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -1254,6 +1559,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. Penta Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -1280,6 +1593,14 @@ const generatedSchedule: NormalizedSchedule = {
       "location": {
         "name": "Sober"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 12,
+          "key": "N12",
+          "label": "N12"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -1308,6 +1629,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T18",
         "notes": "grid square T18. Look for the Ethiopian flag!"
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 18,
+          "key": "T18",
+          "label": "T18"
+        }
+      ],
       "tags": [
         "Sober",
         "Adults only",
@@ -1365,6 +1694,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "W16",
         "notes": "grid square W16. Look for the Tipi tent, AA sign and the"
       },
+      "gridSquares": [
+        {
+          "column": "W",
+          "row": 16,
+          "key": "W16",
+          "label": "W16"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -1395,6 +1732,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Event place (at Sunny Hills, behind the Clown"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [],
       "description": "Police HQ) Learn and laugh :)",
       "source": {
@@ -1422,6 +1767,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M11",
         "notes": "grid square M11. Highlands, Penta plaza (big flag) next to Chilldome"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "Do you know the feeling of wanting to give up? Learn how to repress your feelings and keep on going in this highly paced workout where the social stigma of giving up is the main driver for continuing. (All levels are welcome. It’ll be fun.)",
       "source": {
@@ -1449,6 +1802,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "K21",
         "notes": "grid square K21. in the dark dungeons of the church"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 21,
+          "key": "K21",
+          "label": "K21"
+        }
+      ],
       "tags": [
         "Triggering themes"
       ],
@@ -1478,6 +1839,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "L05",
         "notes": "grid square L05."
       },
+      "gridSquares": [
+        {
+          "column": "L",
+          "row": 5,
+          "key": "L5",
+          "label": "L05"
+        }
+      ],
       "tags": [],
       "description": "Tired of losing your cup? In this drop-in workshop you can craft a band to hang your cup from your bag, belt, or neck, so it stays with you anywhere you go. You can personalize it so everyone can see it's yours.",
       "source": {
@@ -1505,6 +1874,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "H22",
         "notes": "grid square H22. At sunny hills, next to the water and the saunas"
       },
+      "gridSquares": [
+        {
+          "column": "H",
+          "row": 22,
+          "key": "H22",
+          "label": "H22"
+        }
+      ],
       "tags": [],
       "description": "Step through a portal to a reimagined past. We’re clashing the swing of the 1930s with the electricity of the future. Think Gramophone-glitch, brassy melodies, and syncopated beats that make the pool feel like a champagne bath. Dust off your vintage swimwear, find your most eccentric goggles, and prepare for a high-society splash.",
       "source": {
@@ -1532,6 +1909,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M19",
         "notes": "grid square M19."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 19,
+          "key": "M19",
+          "label": "M19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -1563,6 +1948,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M21",
         "notes": "grid square M21. Big white star shaped tent in the Secret Garden"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 21,
+          "key": "M21",
+          "label": "M21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -1592,6 +1985,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R11",
         "notes": "grid square R11. Located in Low Lands close to Foxhole Camper Vans"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 11,
+          "key": "R11",
+          "label": "R11"
+        }
+      ],
       "tags": [],
       "description": "Follow the scent to the Low Lands, just south of Snack Plaza, where crispy delights, surprise twists, and loungey vibes await. We flip with flair, serve with love, and welcome all dusty dreamers. We're just a smell away.",
       "source": {
@@ -1616,6 +2017,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "The Heart",
         "area": "The Heart"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -1646,6 +2055,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S17",
         "notes": "grid square S17. next to the Fire Plaza, under a linenroof. Contact for"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 17,
+          "key": "S17",
+          "label": "S17"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober",
@@ -1677,6 +2094,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "K21",
         "notes": "grid square K21."
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 21,
+          "key": "K21",
+          "label": "K21"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -1706,6 +2131,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O06",
         "notes": "grid square O06. In the Arctic Chill, close to Pamper Plaza, behind"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 6,
+          "key": "O6",
+          "label": "O06"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -1735,6 +2168,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P07",
         "notes": "grid square P07. Look for the beaver sign and stretch tent"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 7,
+          "key": "P7",
+          "label": "P07"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober",
@@ -1767,6 +2208,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11."
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sober"
@@ -1797,6 +2246,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M11",
         "notes": "grid square M11. Big dome in the Penta Plaza."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "Cuddlepuddles are serious business and should be treated as such. This is a condensed theoretical and practical course in advanced cuddlepuddle building. 7.5 university points, fitting virgins and old-timers. Final exam? Build one of the finest cuddlepuddles ever to have visited this puny earth.",
       "source": {
@@ -1824,6 +2281,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameless Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -1854,6 +2319,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N20",
         "notes": "grid square N20. Cross from downtown garden over the wooden"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 20,
+          "key": "N20",
+          "label": "N20"
+        }
+      ],
       "tags": [],
       "description": "bridge by the wood storage or enter from the Shameless Plaza below Club Sin Tune into your inner poet and learn how to write a love poem for old and new crushes.",
       "source": {
@@ -1881,6 +2354,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Event place (at Sunny Hills, behind the Clown"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [],
       "description": "Police HQ) Sing everything you want to say and improvise new lyrics to well-known melodies :) Take part, or just listen!",
       "source": {
@@ -1908,6 +2389,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T13",
         "notes": "grid square T13. We will gather at our camp Mystic Groove in South-"
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 13,
+          "key": "T13",
+          "label": "T13"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -1937,6 +2426,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M19",
         "notes": "grid square M19."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 19,
+          "key": "M19",
+          "label": "M19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive"
@@ -1967,6 +2464,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O22",
         "notes": "grid square O22. Event held at ”Socialen”, Sunset Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 22,
+          "key": "O22",
+          "label": "O22"
+        }
+      ],
       "tags": [
         "Sober",
         "Sensory content"
@@ -1997,6 +2502,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R12",
         "notes": "grid square R12."
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 12,
+          "key": "R12",
+          "label": "R12"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -2026,6 +2539,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R12",
         "notes": "grid square R12. Secret Sailors tent by Lowlands plaza"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 12,
+          "key": "R12",
+          "label": "R12"
+        }
+      ],
       "tags": [],
       "description": "Come and dance tango together! Learn the basics, grab a partner and feel the heat!",
       "source": {
@@ -2053,6 +2574,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [],
       "description": "If you've seen \"the wave\" or the \"moonwalk,\" you've seen Popping – funky grooves, dancing robots and mind-bending visual illusions. In this workshop, you'll learn the basics (pops and waves) and how to build your own unique style. Discover the secrets behind the coolest moves and get ready to impress on the dance floor!",
       "source": {
@@ -2080,6 +2609,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11."
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -2109,6 +2646,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R19",
         "notes": "grid square R19."
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 19,
+          "key": "R19",
+          "label": "R19"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -2138,6 +2683,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q19",
         "notes": "grid square Q19."
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 19,
+          "key": "Q19",
+          "label": "Q19"
+        }
+      ],
       "tags": [],
       "description": "I tap into energy and speak, sing, share. I guide meditation, breathwork, and draw on experiences from both shamanic as well as scientific working experience.",
       "source": {
@@ -2165,6 +2718,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S17",
         "notes": "grid square S17. Right at the Fire Plaza in Swamp"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 17,
+          "key": "S17",
+          "label": "S17"
+        }
+      ],
       "tags": [
         "Sensory content",
         "Sober",
@@ -2196,6 +2757,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Event place (at Sunny Hills, behind the Clown"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [],
       "description": "Police HQ) Welcome friend! We will do a lot of carefully selected short fun games of various kinds. It’s ok to come and go as you like, no game lasts more than a few minutes, so we will always soon do something else :)",
       "source": {
@@ -2223,6 +2792,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R13",
         "notes": "grid square R13."
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 13,
+          "key": "R13",
+          "label": "R13"
+        }
+      ],
       "tags": [],
       "description": "Want to improve your singing? I will teach the basics of warm-up, some improvisations exercises and then ending with som free chanting.",
       "source": {
@@ -2249,6 +2826,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P22",
         "notes": "grid square P22. Inside a 10m diameter dome"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 22,
+          "key": "P22",
+          "label": "P22"
+        }
+      ],
       "tags": [],
       "description": "Lay back, relax, and let your imagination fly, it’s cloud watching time! Spot dragons, donuts, dancing llamas. Who knows what floats by? Bring your wildest daydreams, and some chill vibes. No rules, no rush, just sky-gazing joy and fluffy fun above.",
       "source": {
@@ -2276,6 +2861,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "V19",
         "notes": "grid square V19. Entry from the road"
       },
+      "gridSquares": [
+        {
+          "column": "V",
+          "row": 19,
+          "key": "V19",
+          "label": "V19"
+        }
+      ],
       "tags": [],
       "description": "Have you heard it? The quiet whimper of a tote bag lost in the forest, the nameless cup wandering without hope — too proud to ask for directions, too lost to find its way home. We prevent heartbreak. A sacred labelling service: print a custom vinyl label with your name shimmering golden and steadfast, and stick it on everything you love. You'll lose it anyway — but it will come home to the Temple of the Holy Lostus Foundatus, and you'll find it again. Swing by anytime and get creative!",
       "source": {
@@ -2303,6 +2896,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "L04",
         "notes": "grid square L04."
       },
+      "gridSquares": [
+        {
+          "column": "L",
+          "row": 4,
+          "key": "L4",
+          "label": "L04"
+        }
+      ],
       "tags": [],
       "description": "Come sing Disney songs together! Bring a snack to share of you like and we will have tea.",
       "source": {
@@ -2327,6 +2928,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "The Heart",
         "area": "The Heart"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "Highlands, grid square M11. Look out for the flag with the big heart on it! Move, sing, let go",
       "source": {
@@ -2354,6 +2963,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10. in the big Tipi"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [],
       "description": "Start your BL experience grounded - come plant a tree (probably a fruit tree) and put an intention into the storage of carbon. We provide the tree, compost and tools. We meet at Yggdrasil camp and plan, together we find a good spot to plant it, and then we venture out to the playa to find a good place for the planting.",
       "source": {
@@ -2381,6 +2998,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10. in the big Tipi"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -2410,6 +3035,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameless Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober",
@@ -2442,6 +3075,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "U16",
         "notes": "grid square U16. We are located where The Swamp, The Missing Piece"
       },
+      "gridSquares": [
+        {
+          "column": "U",
+          "row": 16,
+          "key": "U16",
+          "label": "U16"
+        }
+      ],
       "tags": [],
       "description": "and The Lowlands meet! Get your flow energy feeling right from the start!! Easing into the party as F.L.J moves through smooth digital stylings as he paints a chill and rejuvenating soundscape for peeps before you venture forth to explore the town and all the adventures it holds for you. Tania will also serve up some delicious Chai for any who want to partake while they soak in the sound.",
       "source": {
@@ -2469,6 +3110,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Event place (at Sunny Hills, behind the Clown"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [],
       "description": "Police HQ) Who can cry first?",
       "source": {
@@ -2496,6 +3145,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O20",
         "notes": "grid square O20. Shameless plaza next to sinnergirl"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 20,
+          "key": "O20",
+          "label": "O20"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive"
@@ -2526,6 +3183,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "L08",
         "notes": "grid square L08. Orange Van"
       },
+      "gridSquares": [
+        {
+          "column": "L",
+          "row": 8,
+          "key": "L8",
+          "label": "L08"
+        }
+      ],
       "tags": [
         "Sober",
         "Queer-inclusive"
@@ -2555,6 +3220,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q12",
         "notes": "grid square Q12. We welcome you at the Lowlands Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 12,
+          "key": "Q12",
+          "label": "Q12"
+        }
+      ],
       "tags": [],
       "description": "A corner of Paris in the woods — wine, peanuts, and the art of l’Apéro.",
       "source": {
@@ -2582,6 +3255,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T16",
         "notes": "grid square T16. We will be inside the Dome structure."
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 16,
+          "key": "T16",
+          "label": "T16"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -2613,6 +3294,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R18",
         "notes": "grid square R18. Directly at the Water Plaza in the Swamp"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 18,
+          "key": "R18",
+          "label": "R18"
+        }
+      ],
       "tags": [],
       "description": "Start your burn right with a non-alcoholic Schorle made just for you. Each of our bartenders has their own special way of serving, so you never know what you'll get. Don't know what Schorle is? Soon you will!",
       "source": {
@@ -2640,6 +3329,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R12",
         "notes": "grid square R12. Lowlands Plaza, close to Secret Sailors camp."
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 12,
+          "key": "R12",
+          "label": "R12"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -2670,6 +3367,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -2701,6 +3406,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [],
       "description": "Basic Electronic textile workshop : make your blinking badge or hair clip !",
       "source": {
@@ -2728,6 +3441,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive"
@@ -2758,6 +3479,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameless Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -2787,6 +3516,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R13",
         "notes": "grid square R13. LOWLANDS - BEHIND Spaceport 50 m. Along grass"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 13,
+          "key": "R13",
+          "label": "R13"
+        }
+      ],
       "tags": [],
       "description": "line Borderlands MOST talented musicians gather to play some of their original material, maybe supported by som jammers. Each artist can play 3 songs / 10-15 minutes. Dr.Duus will not scout you, you will scout yourself come by monday at 12, if you really wanna play and didnt sign up before hand <3",
       "source": {
@@ -2813,6 +3550,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "I20",
         "notes": "grid square I20. Exact location will be decided on site. Probably"
       },
+      "gridSquares": [
+        {
+          "column": "I",
+          "row": 20,
+          "key": "I20",
+          "label": "I20"
+        }
+      ],
       "tags": [
         "Triggering themes",
         "Sober"
@@ -2840,6 +3585,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "The Heart",
         "area": "The Heart"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive"
@@ -2870,6 +3623,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S16",
         "notes": "grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 16,
+          "key": "S16",
+          "label": "S16"
+        }
+      ],
       "tags": [],
       "description": "area opposite the large tent of CIRCUS the ANALOG. You keep seeing these mythical creatures playing with fire and lights? Anyone can learn it! This is an opportunity to try out different toys and learn some tricks. No matter if you’re completely new to flow arts, want to try a prop you haven’t before, or practice one you know well.",
       "source": {
@@ -2895,6 +3656,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Muumin Valley, grid square F10. From sanctuary-follow the forest path toward",
         "gridSquare": "F10"
       },
+      "gridSquares": [
+        {
+          "column": "F",
+          "row": 10,
+          "key": "F10",
+          "label": "F10"
+        }
+      ],
       "tags": [],
       "description": "the valley. Where the forest meets the valley, take a left and enter the gate of Alvheim, cross the bridge on your right and enter the spacestation (or look for a big ass spaceship and listen for banging music) Starship initialized! On our voyage, we anchored in Orvantis—a dense wilderness of neon cacti where beings speak in vibrations. Deep in the undergrowth, our drones recorded squelchy frequencies like mischievous aliens making love in bushes, mixed with rolling grooves of psytech and forest witches summoning trippy entities.",
       "source": {
@@ -2922,6 +3691,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "U20",
         "notes": "grid square U20. Look for the foxes on top of the hill, crawl into"
       },
+      "gridSquares": [
+        {
+          "column": "U",
+          "row": 20,
+          "key": "U20",
+          "label": "U20"
+        }
+      ],
       "tags": [],
       "description": "the tunnel. Ceremonial Opening of a ceremonially open opening ceremony Kettu",
       "source": {
@@ -2949,6 +3726,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O07",
         "notes": "grid square O07. Go to the Arctic Chill plaza. You will find signs and"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 7,
+          "key": "O7",
+          "label": "O07"
+        }
+      ],
       "tags": [],
       "description": "our big beautiful beige canvas tent with fairy lights. Do you need some rest before the marvelous adventures of the night? Let the Borderland fairy read you some stories while you nap in a big cozy tent with big cozy pillows. Both Children's books will be read while we serve you blueberry tea and homemade sweets. Let us take care of your inner child for a while, love.",
       "source": {
@@ -2976,6 +3761,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O20",
         "notes": "grid square O20."
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 20,
+          "key": "O20",
+          "label": "O20"
+        }
+      ],
       "tags": [],
       "description": "Bear witness as our oiled-up man digs a hole like a hole has never been dug before. Objectification encouraged. Bring snacks, bring eyes, bring nothing else. He digs. You watch. That's the piece.",
       "source": {
@@ -3003,6 +3796,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O20",
         "notes": "grid square O20."
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 20,
+          "key": "O20",
+          "label": "O20"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -3032,6 +3833,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N13",
         "notes": "grid square N13. Agrabah Village, in south eastern Highlands"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 13,
+          "key": "N13",
+          "label": "N13"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -3061,6 +3870,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. At Penta Plaza, Highlands"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober",
@@ -3092,6 +3909,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q19",
         "notes": "grid square Q19. By the patch of trees/forest in Swamp, on the side"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 19,
+          "key": "Q19",
+          "label": "Q19"
+        }
+      ],
       "tags": [
         "Triggering themes"
       ],
@@ -3120,6 +3945,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q12",
         "notes": "grid square Q12. We welcome you at the Lowlands Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 12,
+          "key": "Q12",
+          "label": "Q12"
+        }
+      ],
       "tags": [],
       "description": "Happy Hour à la Française! — Sparkling wine, peanuts, and the art of l’Apéro.",
       "source": {
@@ -3147,6 +3980,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P13",
         "notes": "grid square P13. White with red decorations. Follow the glorious smell"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 13,
+          "key": "P13",
+          "label": "P13"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -3173,6 +4014,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square R22. South-east of BL",
         "gridSquare": "R22"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 22,
+          "key": "R22",
+          "label": "R22"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sober"
@@ -3203,6 +4052,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10. in the big Tipi"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [],
       "description": "Everyone is welcome to light the Yggdrasil fire! Find a natural object that is reflecting your intention for Borderland. We'll give this as a gift to the fire & to the magical cauldron we co-create!",
       "source": {
@@ -3228,6 +4085,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "The Villa, grid square K15.",
         "gridSquare": "K15"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 15,
+          "key": "K15",
+          "label": "K15"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -3254,6 +4119,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "The Heart",
         "area": "The Heart"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "Highlands, grid square M11. Look out for the flag with the big heart on it! Before the gym, before the chair you moved like an animal. This workshop takes you back there. Crawl like an ape, leap like a frog, stalk like a cat. Get on the floor, stretch, crawl & play with fellow creatures. Connect to the intelligence living within you & remember the fun of being on all fours!",
       "source": {
@@ -3281,6 +4154,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q18",
         "notes": "grid square Q18. Look for the glorious American flag flying above The"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 18,
+          "key": "Q18",
+          "label": "Q18"
+        }
+      ],
       "tags": [],
       "description": "Green Zone. That's Blackwater Operations. Event is in the main tent. The anti-senility drugs have kicked in, and Senator Snowflake is back! Kick off your shoes and start your evening with an epic blend of classic rock and country, mixed with pumping tech-house beats.",
       "source": {
@@ -3308,6 +4189,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O22",
         "notes": "grid square O22."
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 22,
+          "key": "O22",
+          "label": "O22"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -3338,6 +4227,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S18",
         "notes": "grid square S18. The BIG circus tent"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 18,
+          "key": "S18",
+          "label": "S18"
+        }
+      ],
       "tags": [],
       "description": "Psssstt… it’s here! Join us for Grand opening of our grandiose tent. Let your imagination run wild and discover our space, where the best you can do is to be present in the moment. The night when anything can happen while all the magic comes together under our Big top.",
       "source": {
@@ -3365,6 +4262,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19."
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [],
       "description": "Want to sing silly songs about going to burns and doing silly things? Caught yourself singing \"You're a dick! You're an asshole!\" Then come to the Captain Silly Songs sing-a-long!",
       "source": {
@@ -3391,6 +4296,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameful Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sensory content",
@@ -3421,6 +4334,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameful Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -3449,6 +4370,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameful Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -3478,6 +4407,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R13",
         "notes": "grid square R13. 50 meters behind Spaceport in Lowlands - right at"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 13,
+          "key": "R13",
+          "label": "R13"
+        }
+      ],
       "tags": [],
       "description": "the grass",
       "source": {
@@ -3505,6 +4442,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R12",
         "notes": "grid square R12. Look for red and green flags by the entrance of a"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 12,
+          "key": "R12",
+          "label": "R12"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -3534,6 +4479,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -3561,6 +4514,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square R22. South-east of BL",
         "gridSquare": "R22"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 22,
+          "key": "R22",
+          "label": "R22"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -3590,6 +4551,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10. in the big Tipi"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [],
       "description": "Workshop, singing, druming, dancing, to celebrate life on Mother Earth. Together with Rolf we will have a magic time singing, druming and dancing. Bring your own drum if you have. Most welcome.",
       "source": {
@@ -3617,6 +4586,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. Penta plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -3646,6 +4623,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "I20",
         "notes": "grid square I20."
       },
+      "gridSquares": [
+        {
+          "column": "I",
+          "row": 20,
+          "key": "I20",
+          "label": "I20"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sensory content"
@@ -3670,8 +4655,17 @@ const generatedSchedule: NormalizedSchedule = {
       "category": "Music/Performance/Show",
       "host": "Nina C",
       "location": {
-        "name": "G22. By the ponton bridge of the big lake in front of Sunny Hill"
+        "name": "G22. By the ponton bridge of the big lake in front of Sunny Hill",
+        "gridSquare": "G22"
       },
+      "gridSquares": [
+        {
+          "column": "G",
+          "row": 22,
+          "key": "G22",
+          "label": "G22"
+        }
+      ],
       "tags": [],
       "description": "Rumor has it that Mermaid Mélisande will appear once again and let her hauntingly beautiful voice sound over the lake in the rays of the evening sun. Can likely be heard in the distance on all of Sunny Hill, but if you want a glimpse of the mermaid herself, come closer...",
       "source": {
@@ -3699,6 +4693,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N13",
         "notes": "grid square N13. Agrabah Village, in south eastern Highlands"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 13,
+          "key": "N13",
+          "label": "N13"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -3728,6 +4730,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10. in the big Tipi"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [],
       "description": "Come, friend, and sit with us. Beneath the roots of the earth tree, we welcome you. Share your stories, warm yourself at our crackling fire and breathe for a while. You are welcome here. Just the way you are.",
       "source": {
@@ -3754,6 +4764,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "I21",
         "notes": "grid square I21. The Sunny Hills by the lake - Temple on top of the"
       },
+      "gridSquares": [
+        {
+          "column": "I",
+          "row": 21,
+          "key": "I21",
+          "label": "I21"
+        }
+      ],
       "tags": [],
       "description": "hill It's the community who creates meaning inside the structures built. To open our shared space of The Sun, The Temple, we'll create a joint singing experience — sharing a sound of togetherness and filling The Temple with the aliveness of the Borderland community. NO SINGING SKILLS REQUIRED! Improvisations, humming, and sun songs for everyone to join. Bring yourself, your voice, and any instrument you feel called to. Suggestion: wear something yellow, gold or white (absolutely optional)",
       "source": {
@@ -3781,6 +4799,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P13",
         "notes": "grid square P13. The Tall Pink Temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 13,
+          "key": "P13",
+          "label": "P13"
+        }
+      ],
       "tags": [],
       "description": "Expect: a life-size Snakes and Ladders game show of spiritual shortcuts and ego traps, a mass deprogramming sermon, epic 1-minute speeches by EVERYONE who does not identify as a cult leader about the sacred art of not being followed... and spectacular performances of holy profanity.",
       "source": {
@@ -3808,6 +4834,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S18",
         "notes": "grid square S18. Huge Circus tent"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 18,
+          "key": "S18",
+          "label": "S18"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -3837,6 +4871,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "H19",
         "notes": "grid square H19. Turn between The Grateful Grogg and Discotech"
       },
+      "gridSquares": [
+        {
+          "column": "H",
+          "row": 19,
+          "key": "H19",
+          "label": "H19"
+        }
+      ],
       "tags": [],
       "description": "Engineering, then head for the tent by the edge of the forest. The Bear awakens. Start the week with heavyweight jungle, rolling drum & bass and deep low-end pressure on our hand-crafted sound system.",
       "source": {
@@ -3864,6 +4906,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S17",
         "notes": "grid square S17."
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 17,
+          "key": "S17",
+          "label": "S17"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -3893,6 +4943,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sex positive"
@@ -3923,6 +4981,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J22",
         "notes": "grid square J22. Look for a grumpy old hag - good luck"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 22,
+          "key": "J22",
+          "label": "J22"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -3976,6 +5042,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "G21",
         "notes": "grid square G21."
       },
+      "gridSquares": [
+        {
+          "column": "G",
+          "row": 21,
+          "key": "G21",
+          "label": "G21"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -4004,6 +5078,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O22",
         "notes": "grid square O22. Corner on Sunset Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 22,
+          "key": "O22",
+          "label": "O22"
+        }
+      ],
       "tags": [],
       "description": "Send your(other)self a message in form of postcard from Borderland. Capture the fleeting moment and extract it out before it vanishes. Come hangout at Socialen, we offer a relaxed space to settle in a reflect for a moment and write yourself or others about your current state of mind.",
       "source": {
@@ -4085,6 +5167,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "H19",
         "notes": "grid square H19. You'll find it where the bas is deepest!"
       },
+      "gridSquares": [
+        {
+          "column": "H",
+          "row": 19,
+          "key": "H19",
+          "label": "H19"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -4114,6 +5204,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameless Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -4143,6 +5241,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P09",
         "notes": "grid square P09. Follow the crumbs"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 9,
+          "key": "P9",
+          "label": "P09"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sober"
@@ -4172,6 +5278,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P22",
         "notes": "grid square P22. We have a 10m dome"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 22,
+          "key": "P22",
+          "label": "P22"
+        }
+      ],
       "tags": [],
       "description": "Find a good spot anywhere and just sit back and people-watch while relaxing. It looks like a Borderland movie, doesn’t it?",
       "source": {
@@ -4199,6 +5313,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "L09",
         "notes": "grid square L09."
       },
+      "gridSquares": [
+        {
+          "column": "L",
+          "row": 9,
+          "key": "L9",
+          "label": "L09"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -4227,6 +5349,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. The Pink Tantric Troll on the big workshop tent"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -4256,6 +5386,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M09",
         "notes": "grid square M09. From Penta Plaza you move north between 'The"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 9,
+          "key": "M9",
+          "label": "M09"
+        }
+      ],
       "tags": [],
       "description": "Heart' and 'Cheeky Butt Chill Camp'. The second last camp to your left ist 'The SeaLions Den' <3 A deep breath is the first thing we do after birth and the last thing we do before dying. It is our steady companion and we dive into her world, to see what was unseen. How does it work and waht is happening to you and your body?",
       "source": {
@@ -4282,6 +5420,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S12",
         "notes": "grid square S12. Nearby Lowland Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 12,
+          "key": "S12",
+          "label": "S12"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -4313,6 +5459,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "V19",
         "notes": "grid square V19. Entry from the road"
       },
+      "gridSquares": [
+        {
+          "column": "V",
+          "row": 19,
+          "key": "V19",
+          "label": "V19"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -4342,6 +5496,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q13",
         "notes": "grid square Q13. An enclosed area with dog toys and shade."
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 13,
+          "key": "Q13",
+          "label": "Q13"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -4372,6 +5534,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -4401,6 +5571,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S17",
         "notes": "grid square S17. Look for the rune gate."
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 17,
+          "key": "S17",
+          "label": "S17"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -4430,6 +5608,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N09",
         "notes": "grid square N09. We will meet in our office in the dome, next to the"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 9,
+          "key": "N9",
+          "label": "N09"
+        }
+      ],
       "tags": [],
       "description": "street. Solve your first case in our academy. Then bring your own suspicious case – or really any – turn it into clues and puzzles, and file it away for future detectives to crack. You might be rewarded, if one chooses to see it that way.",
       "source": {
@@ -4457,6 +5643,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P09",
         "notes": "grid square P09."
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 9,
+          "key": "P9",
+          "label": "P09"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -4486,6 +5680,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T18",
         "notes": "grid square T18. @Feromonia, look for glamping bell tent with black"
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 18,
+          "key": "T18",
+          "label": "T18"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -4515,6 +5717,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M09",
         "notes": "grid square M09."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 9,
+          "key": "M9",
+          "label": "M09"
+        }
+      ],
       "tags": [],
       "description": "Where one playa’s cast-offs become your festival glow-up. Curated rags, questionable choices, and impulsive entertainment included. Come dig through the treasures, leave looking fabulous.",
       "source": {
@@ -4542,6 +5752,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P24",
         "notes": "grid square P24. By the tree house in Bison"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 24,
+          "key": "P24",
+          "label": "P24"
+        }
+      ],
       "tags": [],
       "description": "Come and build in our workshop area where we will construct orgone accumulators. We will provide the drawings, tools, material and guidance needed. The accumulators will be built in a proper Reichian way in order to accumulate orgone the most effective way possible. Once the accumulators are built, we will gather Orgone at Borderland and invite participants to be soaked in it, showered with it, and possibly transformed by it.",
       "source": {
@@ -4569,6 +5787,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O07",
         "notes": "grid square O07. Go to the plaza of the Arctic Chill. You will see signs"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 7,
+          "key": "O7",
+          "label": "O07"
+        }
+      ],
       "tags": [],
       "description": "and a big beautiful cozy beige canvas tent with fairy lights. 2 hours to connect with your true capacity and find what feels most true for you for this day and the festival. Max 20 people.",
       "source": {
@@ -4596,6 +5822,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -4622,6 +5856,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "The Heart",
         "area": "The Heart"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sober"
@@ -4652,6 +5894,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q19",
         "notes": "grid square Q19."
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 19,
+          "key": "Q19",
+          "label": "Q19"
+        }
+      ],
       "tags": [],
       "description": "A contact improvisation/movement/somatic workshop led by Lone Hav and with live instrumentation by Joshua (William Florelle) where participants are invited to explore the theme of the ocean and evolution. From a singled celled organism to a many limbed being, how do we make sense of our bodies and the bodies around us at these varied stages of development. Vivid, poetic.",
       "source": {
@@ -4679,6 +5929,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "I21",
         "notes": "grid square I21. Top of Sunny Hills!"
       },
+      "gridSquares": [
+        {
+          "column": "I",
+          "row": 21,
+          "key": "I21",
+          "label": "I21"
+        }
+      ],
       "tags": [],
       "description": "Join this art run around the whole Borderland area and become the friend who says 'dude, you need to see this.' Bonus: you'll get the lay of the land, and the nature? Pretty banging too. Social-pace jog (~6.30-7.00/km), ~4km on trail, grass and gravel. Swim after optional.",
       "source": {
@@ -4706,6 +5964,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O06",
         "notes": "grid square O06. take the path on the right from pamper plaza, we"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 6,
+          "key": "O6",
+          "label": "O06"
+        }
+      ],
       "tags": [],
       "description": "are at the corner of the next turn Welcome to Lunar Yoga - a yoga session using the ancient Kundalini yoga technology applied for WOMEN! Bring your yoga mat and reconnect with yourself. Satnam, Aline",
       "source": {
@@ -4733,6 +5999,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. Inside the main tent of the Tantric Trolls, High"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -4761,6 +6035,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J20",
         "notes": "grid square J20. Outside Clown Police HQ"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 20,
+          "key": "J20",
+          "label": "J20"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -4790,6 +6072,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M21",
         "notes": "grid square M21. Big white star shaped tent in the Secret Garden"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 21,
+          "key": "M21",
+          "label": "M21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -4820,6 +6110,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S19",
         "notes": "grid square S19. On the corner of Earth Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 19,
+          "key": "S19",
+          "label": "S19"
+        }
+      ],
       "tags": [],
       "description": "Join us for a session connecting to our inherently ecological nature. Taking time to slow down, connect to the living beings that we share this space with, and ground in practices to open up to a reciprocity and gratitude for this wonderfully interconnected, embodied and magical world.",
       "source": {
@@ -4847,6 +6145,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O06",
         "notes": "grid square O06. In the white tippi"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 6,
+          "key": "O6",
+          "label": "O06"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -4876,6 +6182,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N09",
         "notes": "grid square N09. We are a big, metal dome structure with very"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 9,
+          "key": "N9",
+          "label": "N09"
+        }
+      ],
       "tags": [],
       "description": "serious detective furniture inside! You may have physically arrived at Borderland, but maybe lost some presence along the way? The Blue Detectives are looking for it. Come discover it together through grounding practices, breath, somatic movement and dance. Watch out for hidden presence along the way.",
       "source": {
@@ -4903,6 +6217,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. Penta Plaza, Highlands"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [],
       "description": "Decorate yourself, your friends and maybe the person next to you with temporary, metallic tattoos! Get the face tattoo you always wanted! If tattoos are left-over at the end, we will make a small DIY station in our Beduin tent.",
       "source": {
@@ -4930,6 +6252,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M11",
         "notes": "grid square M11. Big dome on the Penta Plaza."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "Explore touch, embodied presence, & body awareness through guided partner bodywork exercises. Using relaxation, pressure, & movement. The workshop emphasises embodiment, active listening, and intuitive movement, in a consent aware container. Bring towel, sarong & oil if interested in using oil.",
       "source": {
@@ -4957,6 +6287,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S18",
         "notes": "grid square S18. Huge Circus tent"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 18,
+          "key": "S18",
+          "label": "S18"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -4986,6 +6324,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameless PlAZA"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -5014,6 +6360,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "U16",
         "notes": "grid square U16. Look for the croquet court!"
       },
+      "gridSquares": [
+        {
+          "column": "U",
+          "row": 16,
+          "key": "U16",
+          "label": "U16"
+        }
+      ],
       "tags": [],
       "description": "Come get your own little tempeh \"egg\" that you will incubate using your own body! We'll fit you with your own little pet that you need to keep close in order for it to mature into beautiful (and edible) tempeh. Come back Thursday at 19:00 and get it cooked (or cook it yourself).",
       "source": {
@@ -5039,6 +6393,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square R21. We're located in the Wedge neighbourhood, across the",
         "gridSquare": "R21"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 21,
+          "key": "R21",
+          "label": "R21"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -5095,6 +6457,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R13",
         "notes": "grid square R13."
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 13,
+          "key": "R13",
+          "label": "R13"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -5123,6 +6493,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P22",
         "notes": "grid square P22. Big 10m diameter dome"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 22,
+          "key": "P22",
+          "label": "P22"
+        }
+      ],
       "tags": [],
       "description": "Master the magical art of doing nothing! No goals, no to-dos just you, a comfy spot, and sweet, glorious idleness. Hug a tree, wiggle your toes, daydream wildly. It’s fun, it’s freeing, it’s fabulously unproductive. Permission to laze: granted!",
       "source": {
@@ -5150,6 +6528,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "L09",
         "notes": "grid square L09."
       },
+      "gridSquares": [
+        {
+          "column": "L",
+          "row": 9,
+          "key": "L9",
+          "label": "L09"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -5179,6 +6565,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "V19",
         "notes": "grid square V19. Entry from the road"
       },
+      "gridSquares": [
+        {
+          "column": "V",
+          "row": 19,
+          "key": "V19",
+          "label": "V19"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -5208,6 +6602,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R12",
         "notes": "grid square R12. Outside the tent of Secret Sailors, inside of raining."
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 12,
+          "key": "R12",
+          "label": "R12"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -5236,6 +6638,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q13",
         "notes": "grid square Q13. next to sweetspot and spaceport"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 13,
+          "key": "Q13",
+          "label": "Q13"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sober"
@@ -5266,6 +6676,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -5294,6 +6712,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "U21",
         "notes": "grid square U21."
       },
+      "gridSquares": [
+        {
+          "column": "U",
+          "row": 21,
+          "key": "U21",
+          "label": "U21"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -5323,6 +6749,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Follow the lesbian flag and the fairy lights to the"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sober"
@@ -5353,6 +6787,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M09",
         "notes": "grid square M09."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 9,
+          "key": "M9",
+          "label": "M09"
+        }
+      ],
       "tags": [
         "Sober",
         "Triggering themes"
@@ -5383,6 +6825,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S12",
         "notes": "grid square S12. Near Lowland Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 12,
+          "key": "S12",
+          "label": "S12"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -5413,6 +6863,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10. in the big Tipi"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [],
       "description": "Lecture based on book \"Sex at Dawn\". 45min talk, then time for discussion. Topics include: (non)monogamy in perspective to human desires for touch and connection. Why are penises mushroom shaped? Why do we moan during sex? Why is our \"sex to fertilisation\" ratio so high? Come and find out :) THE JEWELLERY MARKET Weird shit/Other 11:00 – 21:00 This magical jewellery market will pop up at random times and at random places around the playa. If you’re supposed to, you’ll find it. All jewellery: $Free.99 I bring jewellery from all over the world to this magical little pop-up! Come pick the piece(s) that speak to you and leave a kind word for the next person. Walk off with your new jewellery and a mystery note from the person before you.",
       "source": {
@@ -5437,6 +6895,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Sanctuary, grid square K14. Meet in Front of the Sanctuary",
         "gridSquare": "K14"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 14,
+          "key": "K14",
+          "label": "K14"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -5466,6 +6932,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [],
       "description": "Is your kid dreaming of being the star of the show? Now's their chance! They'll step into the spotlight, push buttons, and drop beats live - while you cheer and dance like their biggest and proudest fan. No experience needed, just curiosity and courage! Tolerant non-parents are welcome too.",
       "source": {
@@ -5493,6 +6967,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O20",
         "notes": "grid square O20. Trolltunga smaller tent"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 20,
+          "key": "O20",
+          "label": "O20"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -5523,6 +7005,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O06",
         "notes": "grid square O06. In the Arctic Chill, close to Pamper Plaza, behind"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 6,
+          "key": "O6",
+          "label": "O06"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -5579,6 +7069,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N05",
         "notes": "grid square N05. In Arctic Chill, next to camps: Alajv, Love Nest,"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 5,
+          "key": "N5",
+          "label": "N05"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -5608,6 +7106,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M13",
         "notes": "grid square M13. Right next to Agrabah village. We have a beg"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 13,
+          "key": "M13",
+          "label": "M13"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -5637,6 +7143,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameless PlAZA"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -5665,6 +7179,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O22",
         "notes": "grid square O22. Bison - Next to Sunset Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 22,
+          "key": "O22",
+          "label": "O22"
+        }
+      ],
       "tags": [],
       "description": "Enjoy chai, coffee, and cookies that taste like care, baked with love, served with presence and compassion. (There is a good chance that we will also serve coffee, etc outside our listed hours <3)",
       "source": {
@@ -5692,6 +7214,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S16",
         "notes": "grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 16,
+          "key": "S16",
+          "label": "S16"
+        }
+      ],
       "tags": [],
       "description": "area opposite the large tent of CIRCUS the ANALOG. Before the gym, before the chair you moved like an animal. This workshop takes you back there. Crawl like an ape, leap like a frog, stalk like a cat. Get on the floor, stretch, crawl and play with fellow creatures. Connect to the intelligence living within you. Remember the fun to be on all fours.",
       "source": {
@@ -5719,6 +7249,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "V17",
         "notes": "grid square V17. Foajé Villa Hutlös is a cozy camp with 8x5m"
       },
+      "gridSquares": [
+        {
+          "column": "V",
+          "row": 17,
+          "key": "V17",
+          "label": "V17"
+        }
+      ],
       "tags": [],
       "description": "main tent and a chill dome with hammocks. There will be a sign with the camp name. Come by and record your stories, secrets, poems, dreams, jokes or anything else you'd like to share. The only rule is that you have to whisper. Your recording will be played later in the week at the Whispering Forest, a sound installation placed deep in the woods.",
       "source": {
@@ -5746,6 +7284,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P06",
         "notes": "grid square P06."
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 6,
+          "key": "P6",
+          "label": "P06"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sensory content"
@@ -5776,6 +7322,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P06",
         "notes": "grid square P06."
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 6,
+          "key": "P6",
+          "label": "P06"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sober"
@@ -5806,6 +7360,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P09",
         "notes": "grid square P09. Kidsville Workshop Dome"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 9,
+          "key": "P9",
+          "label": "P09"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -5835,6 +7397,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "K19",
         "notes": "grid square K19. Go in, dive deep!"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 19,
+          "key": "K19",
+          "label": "K19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -5866,6 +7436,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -5895,6 +7473,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "H19",
         "notes": "grid square H19."
       },
+      "gridSquares": [
+        {
+          "column": "H",
+          "row": 19,
+          "key": "H19",
+          "label": "H19"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -5923,6 +7509,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R17",
         "notes": "grid square R17."
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 17,
+          "key": "R17",
+          "label": "R17"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive"
@@ -5953,6 +7547,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N13",
         "notes": "grid square N13. Agrabah Village, in south eastern Highlands"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 13,
+          "key": "N13",
+          "label": "N13"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -5979,6 +7581,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "The Heart",
         "area": "The Heart"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "Highlands, grid square M11. Look out for the flag with the big heart on it! Reclaim your true essence of love, light, and wholeness. Through intense circular breathing, we release what no longer serves us to remember a profound truth: everything you seek is already within you. Come breathe, let go, and return home to yourself.",
       "source": {
@@ -6006,6 +7616,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M09",
         "notes": "grid square M09."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 9,
+          "key": "M9",
+          "label": "M09"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -6061,6 +7679,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S17",
         "notes": "grid square S17. The Swamp. In the epic camp of the wild sacred fire -"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 17,
+          "key": "S17",
+          "label": "S17"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -6090,6 +7716,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O06",
         "notes": "grid square O06. Look for Sinikka (Leia) at Women's Camp."
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 6,
+          "key": "O6",
+          "label": "O06"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -6119,6 +7753,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q19",
         "notes": "grid square Q19. A curly haired lad in a black beanie roaming around,"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 19,
+          "key": "Q19",
+          "label": "Q19"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -6148,6 +7790,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. At Penta Plaza in Highlands"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -6177,6 +7827,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "I20",
         "notes": "grid square I20."
       },
+      "gridSquares": [
+        {
+          "column": "I",
+          "row": 20,
+          "key": "I20",
+          "label": "I20"
+        }
+      ],
       "tags": [
         "Sex positive",
         "Sensory content",
@@ -6208,6 +7866,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T13",
         "notes": "grid square T13. There will be signs in the sky"
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 13,
+          "key": "T13",
+          "label": "T13"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -6237,6 +7903,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T13",
         "notes": "grid square T13. In the Lowland area- a silversmith workshop will"
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 13,
+          "key": "T13",
+          "label": "T13"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -6266,6 +7940,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P07",
         "notes": "grid square P07. The red hearttent, ofc"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 7,
+          "key": "P7",
+          "label": "P07"
+        }
+      ],
       "tags": [
         "Sex positive"
       ],
@@ -6294,6 +7976,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "U13",
         "notes": "grid square U13."
       },
+      "gridSquares": [
+        {
+          "column": "U",
+          "row": 13,
+          "key": "U13",
+          "label": "U13"
+        }
+      ],
       "tags": [],
       "description": "Sigil & Tattoo workshop Join us in creating a personal sigil from a word, intention, or desire. Through a simple ritual of letters and shapes, language dissolves into symbol—a mark that belongs only to you. Take your sigil home on paper, or choose to have it tattooed as a permanent reminder of this moment, this place, and whatever called you here. Every mark tells a story. Perhaps it’s time to write yours.",
       "source": {
@@ -6321,6 +8011,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N12",
         "notes": "grid square N12. If it looks like a Moroccan wonderland with a bunch"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 12,
+          "key": "N12",
+          "label": "N12"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -6350,6 +8048,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "U16",
         "notes": "grid square U16. This camp is located behind Crocket Corner"
       },
+      "gridSquares": [
+        {
+          "column": "U",
+          "row": 16,
+          "key": "U16",
+          "label": "U16"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sensory content",
@@ -6381,6 +8087,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M11",
         "notes": "grid square M11. Big dome on the Penta Plaza."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "The Pretzel is here! Learn the legendary cuddle/hangout technique that lets two humans lean back comfortably while still facing each other — no chairs or props needed. We’ll even attempt the first-ever Infinite Pretzel. Bring a partner or meet one there. Fully clothed. Get ready to Pretzel!",
       "source": {
@@ -6408,6 +8122,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S18",
         "notes": "grid square S18. Huge Circus tent"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 18,
+          "key": "S18",
+          "label": "S18"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -6435,6 +8157,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square R21. We're located in the Wedge neighbourhood, across the",
         "gridSquare": "R21"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 21,
+          "key": "R21",
+          "label": "R21"
+        }
+      ],
       "tags": [],
       "description": "road from a swamp with a massive rock Embark on a feline-inspired adventure across the playa, where every player embodies a good, a bad or a cudly cat through 15 different quirky, interactive, kitty missions. Explore hidden corners, charm strangers in playful mischief, cuddle on warm laps and get kitty treats when you succeed in completing your quest. Love cats? You will love these quests!",
       "source": {
@@ -6462,6 +8192,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T19",
         "notes": "grid square T19. The LED dansbana (= pavilion)"
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 19,
+          "key": "T19",
+          "label": "T19"
+        }
+      ],
       "tags": [],
       "description": "Discover the foundations of house dance in a fun, welcoming session open to everyone - no experience needed. We’ll explore the core grooves, rhythms, footwork, and freestyle elements that make house dance so expressive and joyful. Come move, connect with the music, and experience the energy and culture behind one of the world’s most vibrant street dance styles.",
       "source": {
@@ -6489,6 +8227,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N20",
         "notes": "grid square N20. go to the End of the Rainbow"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 20,
+          "key": "N20",
+          "label": "N20"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -6518,6 +8264,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M11",
         "notes": "grid square M11. Highlands, Penta plaza (big flag) next to Chilldome"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "Do you know the feeling of wanting to give up? Learn how to repress your feelings and keep on going in this highly paced workout where the social stigma of giving up is the main driver for continuing. (All levels are welcome. It’ll be fun.)",
       "source": {
@@ -6545,6 +8299,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "U17",
         "notes": "grid square U17. Foajé Villa Hutlös has a wooden dome near the main"
       },
+      "gridSquares": [
+        {
+          "column": "U",
+          "row": 17,
+          "key": "U17",
+          "label": "U17"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sober"
@@ -6573,6 +8335,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "grid square G10. The gate og of Alvheim in mumin valley",
         "gridSquare": "G10"
       },
+      "gridSquares": [
+        {
+          "column": "G",
+          "row": 10,
+          "key": "G10",
+          "label": "G10"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -6603,6 +8373,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "K21",
         "notes": "grid square K21. in the dark dungeons of the church"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 21,
+          "key": "K21",
+          "label": "K21"
+        }
+      ],
       "tags": [
         "Triggering themes"
       ],
@@ -6632,6 +8410,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P22",
         "notes": "grid square P22. Take the rabbit hole, down into the underworld"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 22,
+          "key": "P22",
+          "label": "P22"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -6661,6 +8447,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "L05",
         "notes": "grid square L05."
       },
+      "gridSquares": [
+        {
+          "column": "L",
+          "row": 5,
+          "key": "L5",
+          "label": "L05"
+        }
+      ],
       "tags": [],
       "description": "In this drop-in workshop you can decorate a cute little box for yourself to store small things like jewellery, candy, or little toys.",
       "source": {
@@ -6688,6 +8482,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P13",
         "notes": "grid square P13. Lowlands, close to Spaceport"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 13,
+          "key": "P13",
+          "label": "P13"
+        }
+      ],
       "tags": [],
       "description": "Come shake it to Brazilian samba, strong coffee & caipirinhas made with love! Dr. Phil (Cafe Caminhos Abertos) brings classic percussion-heavy carnival vibes + live musicians. Bring instruments, colourful clothes & all the Portuguese you've got!",
       "source": {
@@ -6715,6 +8517,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P13",
         "notes": "grid square P13."
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 13,
+          "key": "P13",
+          "label": "P13"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -6744,6 +8554,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M21",
         "notes": "grid square M21. Big white star shaped tent in the Secret Garden"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 21,
+          "key": "M21",
+          "label": "M21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -6773,6 +8591,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R11",
         "notes": "grid square R11. Located in Low Lands close to Foxhole Camper Vans"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 11,
+          "key": "R11",
+          "label": "R11"
+        }
+      ],
       "tags": [],
       "description": "Follow the scent to the Low Lands, just south of Snack Plaza, where crispy delights, surprise twists, and loungey vibes await. We flip with flair, serve with love, and welcome all dusty dreamers. We're just a smell away.",
       "source": {
@@ -6798,6 +8624,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Far Flung Field, grid square X07. Far Flung Field, along the straight road, look for",
         "gridSquare": "X07"
       },
+      "gridSquares": [
+        {
+          "column": "X",
+          "row": 7,
+          "key": "X7",
+          "label": "X07"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -6828,6 +8662,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [],
       "description": "Come learn and practice NVC with us! NVC is a life-affirming way to connect with others and with yourself, useful in relationships of all kinds and even in the trickiest conflicts. We'll try to start on time, right at 11. Come as you are; no experience necessary.",
       "source": {
@@ -6853,6 +8695,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square R22.",
         "gridSquare": "R22"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 22,
+          "key": "R22",
+          "label": "R22"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -6882,6 +8732,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S17",
         "notes": "grid square S17."
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 17,
+          "key": "S17",
+          "label": "S17"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober",
@@ -6913,6 +8771,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S17",
         "notes": "grid square S17. next to the Fire Plaza, under a linenroof. Contact for"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 17,
+          "key": "S17",
+          "label": "S17"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober",
@@ -6945,6 +8811,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10. in the big Tipi"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [],
       "description": "Move out of your head and into your imagination. Using actor/director Michael Chekhov's techniques of psychological gesture, imaginary body, atmosphere, radiating, we'll unlock creativity through the body, together. Radical self- expression, no experience needed. Bring water and a willingness to move.",
       "source": {
@@ -6972,6 +8846,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameless Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive"
@@ -7002,6 +8884,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O06",
         "notes": "grid square O06. In the Arctic Chill, close to Pamper Plaza, behind"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 6,
+          "key": "O6",
+          "label": "O06"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -7031,6 +8921,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S19",
         "notes": "grid square S19. In front of the Bureau's Reception at the Earth Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 19,
+          "key": "S19",
+          "label": "S19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive"
@@ -7061,6 +8959,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S13",
         "notes": "grid square S13. Next to Jam Camp, look for the \"ATC\" signs"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 13,
+          "key": "S13",
+          "label": "S13"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -7090,6 +8996,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. Bedouin Tent communal space in the middle of the"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -7119,6 +9033,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M11",
         "notes": "grid square M11. Big dome on the Penta Plaza."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "A clownish experiment in non-hierarchical politics. Everyone submits a statement, we debate them one by one, then attempt to turn the chaos into a manifesto. Afterwards, we email it to politicians. Serious experiment, very silly mood.",
       "source": {
@@ -7146,6 +9068,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S18",
         "notes": "grid square S18. Huge Circus tent"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 18,
+          "key": "S18",
+          "label": "S18"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -7175,6 +9105,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O22",
         "notes": "grid square O22. In Bison - next to bubble plaza - big round 10 m"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 22,
+          "key": "O22",
+          "label": "O22"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -7204,6 +9142,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T19",
         "notes": "grid square T19. The LED dansbana (= pavilion)"
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 19,
+          "key": "T19",
+          "label": "T19"
+        }
+      ],
       "tags": [],
       "description": "This is an event where guys who aren't comfortable with dancing get to practise some basic moves to use for the rest of Borderland. To make this a SAFE SPACE, it's a MEN-ONLY EVENT. Come here, let yourself look uncool, and then conquer the dancefloor later this evening.",
       "source": {
@@ -7230,6 +9176,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "H20",
         "notes": "grid square H20. Between the big boobs on Sunny Hill under the"
       },
+      "gridSquares": [
+        {
+          "column": "H",
+          "row": 20,
+          "key": "H20",
+          "label": "H20"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -7259,6 +9213,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P09",
         "notes": "grid square P09. This Event will be Held in Kidsville rather than The"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 9,
+          "key": "P9",
+          "label": "P09"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -7288,6 +9250,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N09",
         "notes": "grid square N09. How to find us? Look for the Big Shiny Balls in the"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 9,
+          "key": "N9",
+          "label": "N09"
+        }
+      ],
       "tags": [],
       "description": "northern Highlands A cozy workshop for making your own shiny LED accessories. Inspired by the amazing light creations people wear on the playa? Come to Shiny Workshop! We bring lights, tools, and inspiration, to help you make your brightest and shiniest outfit. Bring your own accessory or garment to decorate.",
       "source": {
@@ -7315,6 +9285,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S16",
         "notes": "grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 16,
+          "key": "S16",
+          "label": "S16"
+        }
+      ],
       "tags": [],
       "description": "area opposite the large tent of CIRCUS the ANALOG. An introductory workshop for spinning Poi. We'll practice the fundamentals of playing with your balls. There will be a few practice poi on the workshop area, but please bring your own if you have some.",
       "source": {
@@ -7341,6 +9319,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O20",
         "notes": "grid square O20. Shameless plaza next to sinnergirl"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 20,
+          "key": "O20",
+          "label": "O20"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -7370,6 +9356,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "V19",
         "notes": "grid square V19. Room of Requirements"
       },
+      "gridSquares": [
+        {
+          "column": "V",
+          "row": 19,
+          "key": "V19",
+          "label": "V19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -7401,6 +9395,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R13",
         "notes": "grid square R13. Behind Spaceport in the Lowlands, at the border the"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 13,
+          "key": "R13",
+          "label": "R13"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -7430,6 +9432,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q19",
         "notes": "grid square Q19. At the Jousting Jester camp. By water plaza"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 19,
+          "key": "Q19",
+          "label": "Q19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -7460,6 +9470,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q19",
         "notes": "grid square Q19. Close to the water plaza in Swamp"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 19,
+          "key": "Q19",
+          "label": "Q19"
+        }
+      ],
       "tags": [
         "Sex positive"
       ],
@@ -7489,6 +9507,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P22",
         "notes": "grid square P22. Big 10m diameter dome"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 22,
+          "key": "P22",
+          "label": "P22"
+        }
+      ],
       "tags": [],
       "description": "Come relax while our crepe wizard whips up Breton delights with homemade salted butter caramel & apple jam. Veggie-friendly, not vegan nor gluten-free. Bring a plate and forks, just roll, bite, smile, repeat!",
       "source": {
@@ -7516,6 +9542,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "K19",
         "notes": "grid square K19. Entrance to the silo is inside the sheep barn"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 19,
+          "key": "K19",
+          "label": "K19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -7547,6 +9581,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M20",
         "notes": "grid square M20. Dreamy garden in the middle of downtown, look for"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 20,
+          "key": "M20",
+          "label": "M20"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober",
@@ -7578,6 +9620,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M19",
         "notes": "grid square M19."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 19,
+          "key": "M19",
+          "label": "M19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -7608,6 +9658,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "W15",
         "notes": "grid square W15."
       },
+      "gridSquares": [
+        {
+          "column": "W",
+          "row": 15,
+          "key": "W15",
+          "label": "W15"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -7639,6 +9697,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R18",
         "notes": "grid square R18. Sacret Kink is close to Water Plaza (Swamp"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 18,
+          "key": "R18",
+          "label": "R18"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive",
@@ -7670,6 +9736,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R12",
         "notes": "grid square R12."
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 12,
+          "key": "R12",
+          "label": "R12"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -7699,6 +9773,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R12",
         "notes": "grid square R12. Secret Sailors tent by Lowlands plaza"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 12,
+          "key": "R12",
+          "label": "R12"
+        }
+      ],
       "tags": [],
       "description": "Come and dance tango together! Learn the basics, grab a partner and feel the heat!",
       "source": {
@@ -7726,6 +9808,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -7755,6 +9845,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "U18",
         "notes": "grid square U18."
       },
+      "gridSquares": [
+        {
+          "column": "U",
+          "row": 18,
+          "key": "U18",
+          "label": "U18"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -7784,6 +9882,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. Highlands"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive"
@@ -7813,6 +9919,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P23",
         "notes": "grid square P23. Tea by the sea is located next to the lookout the"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 23,
+          "key": "P23",
+          "label": "P23"
+        }
+      ],
       "tags": [],
       "description": "big red roofed tea house next to Metal Bison Sunny popping mango boba tea, served with mellow groovy music. bring your own cup. We provide the straws.",
       "source": {
@@ -7840,6 +9954,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R17",
         "notes": "grid square R17. Look for the big, red neon sign next to the Missing"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 17,
+          "key": "R17",
+          "label": "R17"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -7867,6 +9989,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square R21. Find us at the Cuddle Cove plaza in the Wedge!",
         "gridSquare": "R21"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 21,
+          "key": "R21",
+          "label": "R21"
+        }
+      ],
       "tags": [],
       "description": "SALT ROCK CITY is here to provide for all your salty needs! Today we invite you to find whatever voodoo your salty soul requires. Non-salty demons are also welcome. Expect a journey through our unique salt tasting experience, experimental snacking, refreshing electro-mock/cocktails and much more!",
       "source": {
@@ -7891,6 +10021,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "The Heart",
         "area": "The Heart"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -7918,6 +10056,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "The Heart",
         "area": "The Heart"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -7947,6 +10093,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q19",
         "notes": "grid square Q19."
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 19,
+          "key": "Q19",
+          "label": "Q19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive"
@@ -7976,6 +10130,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O11",
         "notes": "grid square O11. Look for the lighthouse"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 11,
+          "key": "O11",
+          "label": "O11"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive"
@@ -8006,6 +10168,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S12",
         "notes": "grid square S12. East of Lowlands Plaza, 2nd camp once you turn"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 12,
+          "key": "S12",
+          "label": "S12"
+        }
+      ],
       "tags": [
         "Sober",
         "Triggering themes"
@@ -8036,6 +10206,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P13",
         "notes": "grid square P13. White with red decorations. Follow the glorious smell"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 13,
+          "key": "P13",
+          "label": "P13"
+        }
+      ],
       "tags": [],
       "description": "of pancakes. Craft paper fortune tellers and dream catchers with the Sweet Spot! Coming to Borderland for the first time ever: Sweet Spot Crafting! We are expanding our cozy vibes this year by offering a crafting space connected to our beloved pancake café. Come and craft paper fortune tellers (loppa!) and dream catchers with us!",
       "source": {
@@ -8063,6 +10241,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P13",
         "notes": "grid square P13. White with red decorations. Follow the glorious smell"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 13,
+          "key": "P13",
+          "label": "P13"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -8091,6 +10277,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q12",
         "notes": "grid square Q12."
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 12,
+          "key": "Q12",
+          "label": "Q12"
+        }
+      ],
       "tags": [],
       "description": "The Tahini goddess herself invites you to this spectacular ceremony where we will open the BIG bucket. There will be Tahini songs, Tahini blessings, Tahini fika and so much Tahini. Please come and join the one true faith that is Tahini!",
       "source": {
@@ -8116,6 +10310,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square R22.",
         "gridSquare": "R22"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 22,
+          "key": "R22",
+          "label": "R22"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -8145,6 +10347,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10. Between Penta Plaza and Bayt al-Noor"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -8199,6 +10409,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M11",
         "notes": "grid square M11. Highlands, Penta plaza (big flag) next to Chilldome"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "A collaborative movement lab where we explore, invent, and prototype games for the climbing rig. Through playful warm-ups, creative prompts, and experimentation, we’ll discover what emerges—then finish with an open flow jam. Curiosity over perfection.",
       "source": {
@@ -8252,6 +10470,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10."
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [],
       "description": "Welcome to The Herd! We dance in the afternoon calm (Tue-Thu, 14:30– 17:30). Join the pack for daylight grooves, great company, and a refreshing cup of our home-brewed mango-lemon sour beer from The Pink Parasol Potion Bar!",
       "source": {
@@ -8277,6 +10503,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square R20.",
         "gridSquare": "R20"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 20,
+          "key": "R20",
+          "label": "R20"
+        }
+      ],
       "tags": [],
       "description": "Bring your fabulous hat, tiny treasures you'd like to attach to it, fabric scraps, and all your sparkly bits, and come pimp your hat at Alice the Malice! Get ready for your burn and the Mad Hatter Tea Party on Thursday.",
       "source": {
@@ -8303,6 +10537,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "W16",
         "notes": "grid square W16. The meeting is in the Tipi tent at Camp All"
       },
+      "gridSquares": [
+        {
+          "column": "W",
+          "row": 16,
+          "key": "W16",
+          "label": "W16"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -8332,6 +10574,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P07",
         "notes": "grid square P07. Look for the beaver sign and stretch tent!"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 7,
+          "key": "P7",
+          "label": "P07"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -8361,6 +10611,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P09",
         "notes": "grid square P09. Kidsville, in front of Workshop Dome."
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 9,
+          "key": "P9",
+          "label": "P09"
+        }
+      ],
       "tags": [],
       "description": "Parents: your kid deserves better than a boring hula-hoop workshop. The Baby Badgers Youth Corps offers one afternoon of real military training: tactical face paint, spy craft, reconnaissance and obstacle course. They'll come home braver, stronger and ready to win in life. Limited spots. Go Badgers, go! #freedomdontcomefree",
       "source": {
@@ -8388,6 +10646,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameless Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive"
@@ -8418,6 +10684,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T19",
         "notes": "grid square T19. The LED dansbana (= pavilion)"
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 19,
+          "key": "T19",
+          "label": "T19"
+        }
+      ],
       "tags": [],
       "description": "For 20 minutes, we dance through 5 kinds of dance: ring dance, moving to couples', then solo, mosh pit, basic choreographed, and finally ring dance again. The tempo will be high and participants are not expected to have previous experience in any of the dances.",
       "source": {
@@ -8445,6 +10719,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O20",
         "notes": "grid square O20. Shameless plaza next to sinnergirl"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 20,
+          "key": "O20",
+          "label": "O20"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -8475,6 +10757,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P22",
         "notes": "grid square P22. Inside a 10m diameter dome"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 22,
+          "key": "P22",
+          "label": "P22"
+        }
+      ],
       "tags": [],
       "description": "Lay back, relax, and let your imagination fly, it’s cloud watching time! Spot dragons, donuts, dancing llamas. Who knows what floats by? Bring your wildest daydreams, and some chill vibes. No rules, no rush, just sky-gazing joy and fluffy fun above.",
       "source": {
@@ -8501,6 +10791,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T16",
         "notes": "grid square T16. Wooden Dome, near Fire Brigade"
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 16,
+          "key": "T16",
+          "label": "T16"
+        }
+      ],
       "tags": [],
       "description": "Every piece of MOOP is looking for its destiny — bring yours! The lonely bottle cap, the mysterious plastic thing nobody can identify. Bring a piece of MOOP, ideally not bigger than your hand nor heavier than your soul. Together we'll transform forgotten leftovers into curious creatures and cosmic artifacts for a floating mobile. Weird, beautiful, silly, impossible — no skills required. Help bring the universe back into balance. Or at least make it wobble more interestingly.",
       "source": {
@@ -8528,6 +10826,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P13",
         "notes": "grid square P13. Velvet Loung behind Pink Parachute, if you dont find"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 13,
+          "key": "P13",
+          "label": "P13"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -8557,6 +10863,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M21",
         "notes": "grid square M21. Workshop space at Secret Garden"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 21,
+          "key": "M21",
+          "label": "M21"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Triggering themes"
@@ -8587,6 +10901,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "V16",
         "notes": "grid square V16. In the Yachtees Magic Offerings area on the"
       },
+      "gridSquares": [
+        {
+          "column": "V",
+          "row": 16,
+          "key": "V16",
+          "label": "V16"
+        }
+      ],
       "tags": [],
       "description": "Eastern Slope, between The Wrecked Yachtees Asylum and Linda Land. It's just east of The Brothel and immediately south of the main road through the camping area next to Camp YES! Let's stick our neurons together to draft a bold and peaceful vision of an utopia we all would like to live in. We will split into groups to develop our AI cyberpunk utopia in different domains of life, from democracy, housing, community, security and (maybe) more. This is where creative thinkers are supposed to meet AI tech nerds",
       "source": {
@@ -8613,6 +10935,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R19",
         "notes": "grid square R19. We are orange"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 19,
+          "key": "R19",
+          "label": "R19"
+        }
+      ],
       "tags": [],
       "description": "Come squeeze yourself a glass of orange juice - you never know where it might take you.",
       "source": {
@@ -8640,6 +10970,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O06",
         "notes": "grid square O06. take the path on the right from pamper plaza, we"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 6,
+          "key": "O6",
+          "label": "O06"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -8669,6 +11007,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10. in the big Tipi"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [],
       "description": "Come to the tipi to create your own Tree of Life dreakcatcher necklace and share thoughts along it !",
       "source": {
@@ -8696,6 +11042,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "K21",
         "notes": "grid square K21. Under the church - Ask about Here at the"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 21,
+          "key": "K21",
+          "label": "K21"
+        }
+      ],
       "tags": [],
       "description": "SINagogue Your body is a wonderful music instrument with a lot of untapped musical potential. We'll hear and learn notes, melodies, beats and sounds made by human bodies. Pretty sure at least some of them will be completely new to you. Depending on the group, we'll hopefully end up jamming and co- composing something unforgettable.",
       "source": {
@@ -8723,6 +11077,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S16",
         "notes": "grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 16,
+          "key": "S16",
+          "label": "S16"
+        }
+      ],
       "tags": [],
       "description": "area opposite the large tent of CIRCUS the ANALOG. Bring your stuck, unfinished, abandoned artistic and creative ideas - or come manifest new ones from scratch. A creativity lab with short prompts and simple experiments to loosen the brain and bypass the inner critic. sort of a writing workshop but not exactly!",
       "source": {
@@ -8750,6 +11112,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S16",
         "notes": "grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 16,
+          "key": "S16",
+          "label": "S16"
+        }
+      ],
       "tags": [],
       "description": "area opposite the large tent of CIRCUS the ANALOG. Have you got your dragonstaff spinning yet and want to explore further? Then this is the workshop for you! We will be exploring different pathways and tricks to enable greater flowplay with your dragonstaff. Prereqs: Chi-roll and Cheating death. Limited amount of staffs, please bring your own",
       "source": {
@@ -8777,6 +11147,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R12",
         "notes": "grid square R12."
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 12,
+          "key": "R12",
+          "label": "R12"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -8807,6 +11185,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "I20",
         "notes": "grid square I20."
       },
+      "gridSquares": [
+        {
+          "column": "I",
+          "row": 20,
+          "key": "I20",
+          "label": "I20"
+        }
+      ],
       "tags": [],
       "description": "Cowboy Joe and Bobbie Sue are back to play rock'n'roll classics live at everybody's favourite dive bar.",
       "source": {
@@ -8834,6 +11220,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P07",
         "notes": "grid square P07."
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 7,
+          "key": "P7",
+          "label": "P07"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -8863,6 +11257,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10."
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [],
       "description": "Do you have something with leopard print, tiger stripes, lion vibes, cheetah energy—or any other outfit that channels your inner magnificent feline? Then join! We'll gather, stretch our paws and then wander across the playa together as one majestic pride – it’s a moving party. Expect dramatic catwalks, playful roars and plenty of purring. Meow!",
       "source": {
@@ -8918,6 +11320,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M11",
         "notes": "grid square M11. Big dome on the Penta Plaza."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "People that have left a religious lifestyle can meet each other and share their experiences.",
       "source": {
@@ -8945,6 +11355,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameless Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -8974,6 +11392,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T19",
         "notes": "grid square T19. The LED dansbana (= pavilion)"
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 19,
+          "key": "T19",
+          "label": "T19"
+        }
+      ],
       "tags": [],
       "description": "Workshop on the basics of Bugg. Bugg is a Swedish swing partner dance that is mostly danced to \"Dansband\" music, but can be danced to almost any 4/4 music",
       "source": {
@@ -9001,6 +11427,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "H22",
         "notes": "grid square H22. just by the big lake Alversjoe"
       },
+      "gridSquares": [
+        {
+          "column": "H",
+          "row": 22,
+          "key": "H22",
+          "label": "H22"
+        }
+      ],
       "tags": [],
       "description": "Welcome to the Saunacave! We're opening the doors and can't wait to sweat, reset, and share this space close to Mother Earth. Experience the heat and beautiful Aufguss sessions. Bring a towel (mandatory to sit on!), water bottle, and an open, peaceful mind. Afterwards, dip in the lake to cool down, then drift to the DOME and melt into the music. Check the daily schedule at camp for Aufguss and set times!",
       "source": {
@@ -9028,6 +11462,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "U17",
         "notes": "grid square U17. There is a wooden dome next to our big tent."
       },
+      "gridSquares": [
+        {
+          "column": "U",
+          "row": 17,
+          "key": "U17",
+          "label": "U17"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sober"
@@ -9058,6 +11500,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "L08",
         "notes": "grid square L08. Orange Van"
       },
+      "gridSquares": [
+        {
+          "column": "L",
+          "row": 8,
+          "key": "L8",
+          "label": "L08"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -9087,6 +11537,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R13",
         "notes": "grid square R13."
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 13,
+          "key": "R13",
+          "label": "R13"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -9116,6 +11574,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P09",
         "notes": "grid square P09. At the Kidsville Dome"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 9,
+          "key": "P9",
+          "label": "P09"
+        }
+      ],
       "tags": [],
       "description": "Join us for a crafting workshop where you get to create your very own animal tail and become a real animal just in time for the great Kidsville Animal Parade",
       "source": {
@@ -9142,6 +11608,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q12",
         "notes": "grid square Q12. We welcome you at the Lowlands Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 12,
+          "key": "Q12",
+          "label": "Q12"
+        }
+      ],
       "tags": [],
       "description": "A corner of Paris in the woods — wine, peanuts, and the art of l’Apéro.",
       "source": {
@@ -9169,6 +11643,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N06",
         "notes": "grid square N06."
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 6,
+          "key": "N6",
+          "label": "N06"
+        }
+      ],
       "tags": [],
       "description": "Pair up, spin the cosmic wheel, and meet yourself in the gap between awe and deflation. One balloon gives you thirty seconds of what it is to be a Mystic — the other contains helium. You don't know which you'll get. The helium- getter takes the microphone and confesses: what disappointment are they processing now? Come solo or with a friend — leave transformed, or at least mystically bewildered.",
       "source": {
@@ -9196,6 +11678,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R18",
         "notes": "grid square R18. Sacret Kink is close to Water Plaza (Swamp"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 18,
+          "key": "R18",
+          "label": "R18"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -9225,6 +11715,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O22",
         "notes": "grid square O22. Corner of Sunset Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 22,
+          "key": "O22",
+          "label": "O22"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -9253,6 +11751,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12."
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -9282,6 +11788,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R17",
         "notes": "grid square R17. Go to the empty dark field and look for the fuckoff"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 17,
+          "key": "R17",
+          "label": "R17"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive"
@@ -9312,6 +11826,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q19",
         "notes": "grid square Q19."
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 19,
+          "key": "Q19",
+          "label": "Q19"
+        }
+      ],
       "tags": [],
       "description": "Sound as transmission. Lineage-based Buddhist Tantra scholar-practitioner Naina Eira and composer Robot Koch fuse non-dual tantric View with soundscapes. View, sound, integration- 90 minutes where self and sound dissolve into one field. Come and luxuriate in nondual awareness.",
       "source": {
@@ -9339,6 +11861,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive"
@@ -9367,6 +11897,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square R22. South-east of BL",
         "gridSquare": "R22"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 22,
+          "key": "R22",
+          "label": "R22"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -9396,6 +11934,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N10",
         "notes": "grid square N10. It a big white and black tent in the Welcome Home"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 10,
+          "key": "N10",
+          "label": "N10"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -9425,6 +11971,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. Look for the pink tantric troll on the side of the"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -9454,6 +12008,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "V19",
         "notes": "grid square V19. Entry from the road"
       },
+      "gridSquares": [
+        {
+          "column": "V",
+          "row": 19,
+          "key": "V19",
+          "label": "V19"
+        }
+      ],
       "tags": [],
       "description": "Why do we not burn treated wood? Why is eco-friendly soap and sunscreen important? Why can I not wear my pretty glitter? Peeing in the bush is fine, right? Learn from an ecotoxicologist how the products and chemicals we use at Borderland affect organisms in the environment.",
       "source": {
@@ -9481,6 +12043,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S11",
         "notes": "grid square S11. By the big green military tent"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 11,
+          "key": "S11",
+          "label": "S11"
+        }
+      ],
       "tags": [],
       "description": "The bivalvetarian's loophole: technically animal, debatably sentient, definitely tasty. No brain, no pain, all gain — protein-packed tacos for the consciously unconscious. Come flex.",
       "source": {
@@ -9508,6 +12078,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T19",
         "notes": "grid square T19. The LED dansbana (= pavilion)"
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 19,
+          "key": "T19",
+          "label": "T19"
+        }
+      ],
       "tags": [],
       "description": "Workshop on the fundamentals of the Swedish partner dance Mys-fox. A Swedish and more intimate version of the foxtrot, typically danced to slower music.",
       "source": {
@@ -9535,6 +12113,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q19",
         "notes": "grid square Q19. By the small forest in Swamp, the medieval camp on"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 19,
+          "key": "Q19",
+          "label": "Q19"
+        }
+      ],
       "tags": [],
       "description": "the side facing the empty field The tenderness, the longing, the triumph, the transcendence - we too seldom let symphonies become dance. From melancholic to energetic to ecstatic, we will follow their unfolding, and let centuries of music find their way into our bodies.",
       "source": {
@@ -9561,6 +12147,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T16",
         "notes": "grid square T16. Wooden Dome near Fire Brigade"
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 16,
+          "key": "T16",
+          "label": "T16"
+        }
+      ],
       "tags": [],
       "description": "MŸS invites you to experience rare, fluffylicious downtempo sounds. We love to pitch down. Tickle your curiosity, listen or dance to twisted dust cracking vinyl gems. Lovers and dancers welcome inside our cozy MŸS Dome",
       "source": {
@@ -9588,6 +12182,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive"
@@ -9615,6 +12217,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "The Heart",
         "area": "The Heart"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -9644,6 +12254,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S17",
         "notes": "grid square S17. Ask for or look for the Vanaheim, the big tent next to"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 17,
+          "key": "S17",
+          "label": "S17"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -9672,6 +12290,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "I20",
         "notes": "grid square I20. Exact location will be decided on site. Probably"
       },
+      "gridSquares": [
+        {
+          "column": "I",
+          "row": 20,
+          "key": "I20",
+          "label": "I20"
+        }
+      ],
       "tags": [
         "Triggering themes"
       ],
@@ -9701,6 +12327,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "I21",
         "notes": "grid square I21. We meet at the SUN temple and have our circle"
       },
+      "gridSquares": [
+        {
+          "column": "I",
+          "row": 21,
+          "key": "I21",
+          "label": "I21"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -9728,6 +12362,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square R22. We're located in the Wedge neighbourhood, across the",
         "gridSquare": "R22"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 22,
+          "key": "R22",
+          "label": "R22"
+        }
+      ],
       "tags": [],
       "description": "road from a swamp with a massive rock Nip in and get to know the good, the bad and the cuddly cats that likes to stretch out in the Cuddle Cove. Let's see yo pawty paws pickin up on that feline beat - cuz everythin else is obsolete!",
       "source": {
@@ -9755,6 +12397,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "H22",
         "notes": "grid square H22. just by the big lake Alversjoe"
       },
+      "gridSquares": [
+        {
+          "column": "H",
+          "row": 22,
+          "key": "H22",
+          "label": "H22"
+        }
+      ],
       "tags": [],
       "description": "Elven saunacave Opening and Dome Afterglow Welcome to the Saunacave and Dome! After the heat, drift over to the Sauna cave DOME to enjoy the beautiful atmosphere and melt into the music program.",
       "source": {
@@ -9782,6 +12432,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S16",
         "notes": "grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 16,
+          "key": "S16",
+          "label": "S16"
+        }
+      ],
       "tags": [],
       "description": "area opposite the large tent of CIRCUS the ANALOG. You keep seeing these mythical creatures playing with fire and lights? Anyone can learn it! This is an opportunity to try out different toys and learn some tricks. No matter if you’re completely new to flow arts, want to try a prop you haven’t before, or practice one you know well.",
       "source": {
@@ -9807,6 +12465,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Muumin Valley, grid square F10. From sanctuary-follow the forest path toward",
         "gridSquare": "F10"
       },
+      "gridSquares": [
+        {
+          "column": "F",
+          "row": 10,
+          "key": "F10",
+          "label": "F10"
+        }
+      ],
       "tags": [],
       "description": "the valley. Where the forest meets the valley, take a left and enter the gate of Alvheim, cross the bridge on your right and enter the spacestation (or look for a big ass spaceship and listen for banging music) Starship transmission incoming! We navigated the neon depths of Xythwera-4Q2, a world of autonomous robots mining rare cyber-crystals to slot into motherboards for high-voltage fiestas. Our drones captured the raw, heavy metallic resonance of mines blending with erratic modular synths of underground raves. Unleashing files tonight: prepare for driving techno, raw electro, and industrial beats that rewire your systems!",
       "source": {
@@ -9834,6 +12500,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M20",
         "notes": "grid square M20."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 20,
+          "key": "M20",
+          "label": "M20"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -9862,6 +12536,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O22",
         "notes": "grid square O22. Sunset plaza"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 22,
+          "key": "O22",
+          "label": "O22"
+        }
+      ],
       "tags": [],
       "description": "The Playa is transforming from daytime playground to nighttime adventure. Rest your legs & butts, meet new friends over shared shisha and tea, and prepare for the adventures of the night!",
       "source": {
@@ -9889,6 +12571,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N13",
         "notes": "grid square N13. Agrabah Village, in south eastern Highlands"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 13,
+          "key": "N13",
+          "label": "N13"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -9918,6 +12608,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. Penta Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -9947,6 +12645,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "U16",
         "notes": "grid square U16. We are where The Swamp, The Missing Piece and The"
       },
+      "gridSquares": [
+        {
+          "column": "U",
+          "row": 16,
+          "key": "U16",
+          "label": "U16"
+        }
+      ],
       "tags": [],
       "description": "Lowlands meet! Rebecca Bergcrantz and Sven-Erik Lundeqvist are teaming up on a piano vocal duo to bring the city a solid set of both classic standards and new compositions for all the Jazz aficionados of the city. Bring your own blanket or borrow one from us.",
       "source": {
@@ -9974,6 +12680,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S18",
         "notes": "grid square S18. Huge Circus tent"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 18,
+          "key": "S18",
+          "label": "S18"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive"
@@ -10002,6 +12716,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "The Villa, grid square K14.",
         "gridSquare": "K14"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 14,
+          "key": "K14",
+          "label": "K14"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sensory content"
@@ -10031,6 +12753,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q12",
         "notes": "grid square Q12. We welcome you at the Lowlands Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 12,
+          "key": "Q12",
+          "label": "Q12"
+        }
+      ],
       "tags": [],
       "description": "Happy Hour à la Française! — Sparkling wine, peanuts, and the art of l’Apéro.",
       "source": {
@@ -10058,6 +12788,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10. in the big Tipi"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [],
       "description": "Still breath. Deep rhythm. Ancient pulse. A journey into what holds you back — old patterns, buried emotions, inherited stories. Move through them. Release them. Return clean, open and alive.",
       "source": {
@@ -10107,6 +12845,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "The Heart",
         "area": "The Heart"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -10136,6 +12882,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N13",
         "notes": "grid square N13. Somewhere in the Agraba Village in Highlands."
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 13,
+          "key": "N13",
+          "label": "N13"
+        }
+      ],
       "tags": [],
       "description": "Search for drumming sounds and weird chants Free acoustic jamming with an oriental touch. Bring along any instruments you have. Or just bring yourself, if you can find it. Open to all, no music experience required.",
       "source": {
@@ -10163,6 +12917,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "U16",
         "notes": "grid square U16. We are where The Swamp, The Missing Piece and The"
       },
+      "gridSquares": [
+        {
+          "column": "U",
+          "row": 16,
+          "key": "U16",
+          "label": "U16"
+        }
+      ],
       "tags": [],
       "description": "Lowlands meet! A mirthful and eclectic blend of poetry, literature, comedy and spoken performance to inspire, entice and orientate the perspective’s palate before venturing out into the evening. There will be a sharing portion too on the tail end if anyone feels inspired.",
       "source": {
@@ -10189,6 +12951,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameless Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sensory content"
@@ -10218,6 +12988,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameful Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -10246,6 +13024,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameful Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -10275,6 +13061,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T19",
         "notes": "grid square T19. The LED dansbana (= pavilion)"
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 19,
+          "key": "T19",
+          "label": "T19"
+        }
+      ],
       "tags": [],
       "description": "A couple dance party where you can use what we taught you earlier in the day, in the super cool Swedish partner dances bugg and fox. You will have the chance to try it with different music styles such as rock, pop, disco, etc., and of course, the fantastic Swedish music style “dansband”!",
       "source": {
@@ -10326,6 +13120,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N20",
         "notes": "grid square N20. You can enter into our garden from the"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 20,
+          "key": "N20",
+          "label": "N20"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -10382,6 +13184,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R13",
         "notes": "grid square R13."
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 13,
+          "key": "R13",
+          "label": "R13"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -10410,6 +13220,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T16",
         "notes": "grid square T16. Wooden Dome, near Fire Brigade"
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 16,
+          "key": "T16",
+          "label": "T16"
+        }
+      ],
       "tags": [
         "Sober",
         "Triggering themes"
@@ -10440,6 +13258,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O06",
         "notes": "grid square O06. In the Arctic Chill, close to Pamper Plaza, behind"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 6,
+          "key": "O6",
+          "label": "O06"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -10469,6 +13295,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Next to Spaceport dome"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [],
       "description": "Struggling with FOMO and a short attention span? Worry not! Join the Seagulls' Party Parade, where we will hit every party spot on the Playa for 5 minutes glorious minutes each! We meet by the Spaceport dome at 20.00, and start marching at 20.30! Experience the Borderland like a true Seagull: Land, squawk, party and take off again!",
       "source": {
@@ -10496,6 +13330,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "V18",
         "notes": "grid square V18."
       },
+      "gridSquares": [
+        {
+          "column": "V",
+          "row": 18,
+          "key": "V18",
+          "label": "V18"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -10524,6 +13366,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R17",
         "notes": "grid square R17."
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 17,
+          "key": "R17",
+          "label": "R17"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive"
@@ -10554,6 +13404,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q19",
         "notes": "grid square Q19. North side of the little forest between the roads in"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 19,
+          "key": "Q19",
+          "label": "Q19"
+        }
+      ],
       "tags": [],
       "description": "Swamp, close to Blackwater SWIG THREE SHOTS, OR YER OUT! In exchange, ye shall receive: lyrics, crewmates, and the sacred right to bellow sea shanties into the night. Tunelessness is a feature. Enter, ye brave fool.",
       "source": {
@@ -10581,6 +13439,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -10609,6 +13475,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R17",
         "notes": "grid square R17."
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 17,
+          "key": "R17",
+          "label": "R17"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive"
@@ -10639,6 +13513,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "H22",
         "notes": "grid square H22. just by the big lake Alversjoe"
       },
+      "gridSquares": [
+        {
+          "column": "H",
+          "row": 22,
+          "key": "H22",
+          "label": "H22"
+        }
+      ],
       "tags": [],
       "description": "Memory Play (DJ Set) - Techno / Organic / Percussive - percussive, psychedelic with driving beats and guttural vocals.",
       "source": {
@@ -10666,6 +13548,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. Penta Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -10695,6 +13585,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P23",
         "notes": "grid square P23. The big red tent on the hill, by the Bison"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 23,
+          "key": "P23",
+          "label": "P23"
+        }
+      ],
       "tags": [],
       "description": "sculpture. Set sail for golden hour with warm Balearic grooves, downtempo rhythms, and sun-soaked sounds. BYOC, find a cushion, and let the music be your compass.",
       "source": {
@@ -10722,6 +13620,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M11",
         "notes": "grid square M11. Big dome on the Penta Plaza."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "Just a jam session for air-band enthusiasts!",
       "source": {
@@ -10748,6 +13654,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R12",
         "notes": "grid square R12. Look for the neon sign"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 12,
+          "key": "R12",
+          "label": "R12"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -10776,6 +13690,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "L10",
         "notes": "grid square L10. In the far west of the Highlands."
       },
+      "gridSquares": [
+        {
+          "column": "L",
+          "row": 10,
+          "key": "L10",
+          "label": "L10"
+        }
+      ],
       "tags": [],
       "description": "Come and see the reveal of Le Observable Universe! For the occasion, for a fleeting moment, the Keepers of Le Observable Universe manifest a celestial anomaly: the Supernova Sandwich Station. Every bite is a cosmic revelation. Interact with celestial beings, meet fellow travelers, and play games that bend spacetime. Who knows - you might uncover the universe’s deepest secrets…",
       "source": {
@@ -10802,6 +13724,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R17",
         "notes": "grid square R17."
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 17,
+          "key": "R17",
+          "label": "R17"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive"
@@ -10832,6 +13762,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10. in the big Tipi"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [],
       "description": "Come, friend, and sit with us. Beneath the roots of the earth tree, we welcome you. Share your stories, warm yourself at our crackling fire and feel for a while. You are welcome here. Just the way you are.",
       "source": {
@@ -10856,8 +13794,17 @@ const generatedSchedule: NormalizedSchedule = {
       "location": {
         "name": "Eastern Slope, W16.",
         "area": "Eastern Slope",
+        "gridSquare": "W16",
         "notes": "W16."
       },
+      "gridSquares": [
+        {
+          "column": "W",
+          "row": 16,
+          "key": "W16",
+          "label": "W16"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -10887,6 +13834,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N20",
         "notes": "grid square N20. By the Shameless Plaza in Bison"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 20,
+          "key": "N20",
+          "label": "N20"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -10918,6 +13873,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S16",
         "notes": "grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 16,
+          "key": "S16",
+          "label": "S16"
+        }
+      ],
       "tags": [],
       "description": "area opposite the large tent of CIRCUS the ANALOG. A safety briefing for fire spinners who want to play at The Fire Brigade's fire jams or spin before the effigy. We will walk you through our safety protocol and give you a token of trust. Wear natural fabrics to play with fire (cotton, wool, linnen, leather).",
       "source": {
@@ -10945,6 +13908,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "K21",
         "notes": "grid square K21. The Church, Downtown"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 21,
+          "key": "K21",
+          "label": "K21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive"
@@ -10974,6 +13945,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameless Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -11005,6 +13984,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S16",
         "notes": "grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 16,
+          "key": "S16",
+          "label": "S16"
+        }
+      ],
       "tags": [],
       "description": "area opposite the large tent of CIRCUS the ANALOG. Witness the power of fire bending! Fire spinning and performances, chillspace and hot tea. We have fuel and safety equipment. Wear natural fabrics to spin or help with fire safety. Attend a safety briefing at 21:45 if you want to spin. Bring your fire props or borrow from us.",
       "source": {
@@ -11032,6 +14019,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S16",
         "notes": "grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 16,
+          "key": "S16",
+          "label": "S16"
+        }
+      ],
       "tags": [],
       "description": "area opposite the large tent of CIRCUS the ANALOG. Join us for the grand opening of the fire space! Come and watch this mesmerising performance before the space opens for the free jam for all firespinners.",
       "source": {
@@ -11059,6 +14054,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P13",
         "notes": "grid square P13. Look for our open sign"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 13,
+          "key": "P13",
+          "label": "P13"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -11088,6 +14091,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [],
       "description": "Looking to share your talent, art, or your creative voice? Spaceport’s Open Mic Night is the perfect venue for you to shine your light or try out new things in a supportive, fun environment. Bring your instruments for a possible Jam! Signup opens at 2145! hosted by Tali and friends",
       "source": {
@@ -11115,6 +14126,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. At Tantric Trolls camp, High lands, where the main"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -11144,6 +14163,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "K21",
         "notes": "grid square K21. The Church, Downtown"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 21,
+          "key": "K21",
+          "label": "K21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive"
@@ -11174,6 +14201,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10. in the big Tipi"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -11224,6 +14259,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square R22. We're located in the Wedge neighbourhood, across the",
         "gridSquare": "R22"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 22,
+          "key": "R22",
+          "label": "R22"
+        }
+      ],
       "tags": [],
       "description": "road from a swamp with a massive rock Cuddle City: the cuddle camps combine this year in one district at Cuddle Cove Piazza and offer you tonight a horizontal block party. Forget the bar crawl, come on a cuddle hop and get squishy with a whole city or snuggly with a buddy.",
       "source": {
@@ -11251,6 +14294,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M11",
         "notes": "grid square M11. Big dome on the Penta Plaza."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "Music: ambient, downtempo, space dub.",
       "source": {
@@ -11278,6 +14329,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sex positive"
@@ -11307,6 +14366,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R17",
         "notes": "grid square R17."
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 17,
+          "key": "R17",
+          "label": "R17"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive"
@@ -11337,6 +14404,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [],
       "description": "Soulful songs, wild tales while we serve you cheese & port wine. Burners from the Netherlands, Denmark & Scotland weave original music, heartfelt stories and magical vibes. A deliciously cheesy concert full of warmth, wonder and connection.",
       "source": {
@@ -11363,6 +14438,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10. Follow your nose"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [],
       "description": "Come and get your tummies filled.",
       "source": {
@@ -11390,6 +14473,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J22",
         "notes": "grid square J22. Look for a grumpy old hag - good luck"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 22,
+          "key": "J22",
+          "label": "J22"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -11446,6 +14537,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "G21",
         "notes": "grid square G21."
       },
+      "gridSquares": [
+        {
+          "column": "G",
+          "row": 21,
+          "key": "G21",
+          "label": "G21"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -11474,6 +14573,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O22",
         "notes": "grid square O22. Corner on Sunset Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 22,
+          "key": "O22",
+          "label": "O22"
+        }
+      ],
       "tags": [
         "Adults only",
         "Triggering themes",
@@ -11582,6 +14689,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameless Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -11611,6 +14726,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q19",
         "notes": "grid square Q19. South of Water Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 19,
+          "key": "Q19",
+          "label": "Q19"
+        }
+      ],
       "tags": [
         "Triggering themes"
       ],
@@ -11640,6 +14763,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q19",
         "notes": "grid square Q19. South of Water Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 19,
+          "key": "Q19",
+          "label": "Q19"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -11668,6 +14799,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q11",
         "notes": "grid square Q11."
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 11,
+          "key": "Q11",
+          "label": "Q11"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -11697,6 +14836,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P09",
         "notes": "grid square P09. Follow the crumbs"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 9,
+          "key": "P9",
+          "label": "P09"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sober"
@@ -11726,6 +14873,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P22",
         "notes": "grid square P22. We have a 10m dome"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 22,
+          "key": "P22",
+          "label": "P22"
+        }
+      ],
       "tags": [],
       "description": "Find a good spot anywhere and just sit back and people-watch while relaxing. It looks like a Borderland movie, doesn’t it?",
       "source": {
@@ -11753,6 +14908,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "L09",
         "notes": "grid square L09."
       },
+      "gridSquares": [
+        {
+          "column": "L",
+          "row": 9,
+          "key": "L9",
+          "label": "L09"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -11781,6 +14944,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. The Pink Tantric Troll on the big workshop tent"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -11810,6 +14981,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S12",
         "notes": "grid square S12. Near Lowland Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 12,
+          "key": "S12",
+          "label": "S12"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -11840,6 +15019,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M20",
         "notes": "grid square M20. Around Downtown"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 20,
+          "key": "M20",
+          "label": "M20"
+        }
+      ],
       "tags": [],
       "description": "Welcome Boderlings to En Goare Morgon Refill your strength & enjoy breakfeast with some nice Goa Trance & other chill tunes. We will serve you Odens Overnight Oats (with yummy toppings), coffee, tea & some Swedish fika. Let’s start the day together with sunny & uplifting psytrance for a Goare morning.",
       "source": {
@@ -11867,6 +15054,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "V19",
         "notes": "grid square V19. Entry from the road"
       },
+      "gridSquares": [
+        {
+          "column": "V",
+          "row": 19,
+          "key": "V19",
+          "label": "V19"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -11896,6 +15091,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q13",
         "notes": "grid square Q13. An enclosed area with dog toys and shade."
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 13,
+          "key": "Q13",
+          "label": "Q13"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -11926,6 +15129,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -11955,6 +15166,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T18",
         "notes": "grid square T18. @Feromonia, look for glamping bell tent with black"
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 18,
+          "key": "T18",
+          "label": "T18"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -11984,6 +15203,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M09",
         "notes": "grid square M09."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 9,
+          "key": "M9",
+          "label": "M09"
+        }
+      ],
       "tags": [],
       "description": "Where one playa’s cast-offs become your festival glow-up. Curated rags, questionable choices, and impulsive entertainment included. Come dig through the treasures, leave looking fabulous.",
       "source": {
@@ -12011,6 +15238,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P09",
         "notes": "grid square P09. Kidsville dome"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 9,
+          "key": "P9",
+          "label": "P09"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -12040,6 +15275,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P24",
         "notes": "grid square P24. Nest & Twigs not far from the Bison"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 24,
+          "key": "P24",
+          "label": "P24"
+        }
+      ],
       "tags": [],
       "description": "Participants will be soaked in orgone, showered with it, and possibly transformed by it. This is likely a once-in-a-lifetime opportunity to expose a large population to orgone. Available 24/7 for restorative use. Guided Sessions and experiments will be announced on white board at camp.",
       "source": {
@@ -12067,6 +15310,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P13",
         "notes": "grid square P13. Search for the Pink Parachute"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 13,
+          "key": "P13",
+          "label": "P13"
+        }
+      ],
       "tags": [],
       "description": "The \"P\" in Psyllium is silent, The \"Poo\" with Psyllium is immaculate. Bring a mug, get ready to get some goopy Psyllium, then make your guts happy and thank us later!",
       "source": {
@@ -12094,6 +15345,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -12122,6 +15381,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N13",
         "notes": "grid square N13."
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 13,
+          "key": "N13",
+          "label": "N13"
+        }
+      ],
       "tags": [],
       "description": "The legend lives — and this year it walks among you! The curse of the Cave of Wonders has broken its seal: thieves, sorcerers and desert wanderers have escaped into the Borderland, and they're looking for you. For two days, live characters roam the camp weaving riddles, mischief and theatrical magic — a mysterious guide by the Bedouin Tent, a hidden clue, a quest you didn't know you'd joined. All welcome: every gender, every magic-maker. Queer stars of the Borderland, this adventure is yours too. Follow the whispers. Trust no one. Note: the Cave of Wonders escape room is open 24/7 for those who wish to go deeper.",
       "source": {
@@ -12146,6 +15413,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "The Heart",
         "area": "The Heart"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober",
@@ -12177,6 +15452,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q12",
         "notes": "grid square Q12."
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 12,
+          "key": "Q12",
+          "label": "Q12"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sober"
@@ -12206,6 +15489,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q23",
         "notes": "grid square Q23. Follow the white rabbit"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 23,
+          "key": "Q23",
+          "label": "Q23"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sober"
@@ -12236,6 +15527,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S17",
         "notes": "grid square S17. Located in western Swamp by Fire Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 17,
+          "key": "S17",
+          "label": "S17"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -12265,6 +15564,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. Penta Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober",
@@ -12296,6 +15603,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S18",
         "notes": "grid square S18. Huge circus tent in the swamp"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 18,
+          "key": "S18",
+          "label": "S18"
+        }
+      ],
       "tags": [],
       "description": "Step into the circus tent for a playful vinyasa flow to wake up your body and shake off the dust. Together we'll move, breathe, stretch, and energise ourselves for the day ahead. Grounding, uplifting, and open to all levels. Bring a yoga mat or towel, a YOGA BLOCK OR BOOK to balance in your hand and a water bottle.",
       "source": {
@@ -12323,6 +15638,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N09",
         "notes": "grid square N09. Look for the shiny balls in between Arctic Chill and"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 9,
+          "key": "N9",
+          "label": "N09"
+        }
+      ],
       "tags": [],
       "description": "Highlands Welcome to Explorer's Living Room. Come by, squeeze in and get cozy. Enjoy a delicious cup of coffee and have a banana pancake right from the Muurikka. Let's ease into the day together. Soft 60s tunes and good vibes guaranteed. Bisou Sara & Axel",
       "source": {
@@ -12349,6 +15672,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J20",
         "notes": "grid square J20. Outside Clown Police HQ"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 20,
+          "key": "J20",
+          "label": "J20"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -12378,6 +15709,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M05",
         "notes": "grid square M05. Very close to Treshold"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 5,
+          "key": "M5",
+          "label": "M05"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sober",
@@ -12409,6 +15748,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M21",
         "notes": "grid square M21. Big white star shaped tent in the Secret Garden"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 21,
+          "key": "M21",
+          "label": "M21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -12439,6 +15786,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N13",
         "notes": "grid square N13. Ask for the Tribal mystics in the Agraba village"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 13,
+          "key": "N13",
+          "label": "N13"
+        }
+      ],
       "tags": [],
       "description": "Lets all come together and chant our hearts out in this intuitive chanting workshop. No singing experience required. Come with an open mind, chant for an open heart",
       "source": {
@@ -12466,6 +15821,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q19",
         "notes": "grid square Q19."
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 19,
+          "key": "Q19",
+          "label": "Q19"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -12495,6 +15858,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M13",
         "notes": "grid square M13. South end of the Highlands"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 13,
+          "key": "M13",
+          "label": "M13"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -12524,6 +15895,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M11",
         "notes": "grid square M11. Big dome on the Penta Plaza."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "Dying to release your inner child/thespian/kaiju? We will create a safe space to explore drama skills, with a variety of games and exercises. Hilarious, provocative & challenging! No previous experience necessary. Hosted by Nocturne.",
       "source": {
@@ -12551,6 +15930,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameless Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -12578,6 +15965,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square R21. We're located in the Wedge neighbourhood, across the",
         "gridSquare": "R21"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 21,
+          "key": "R21",
+          "label": "R21"
+        }
+      ],
       "tags": [],
       "description": "road from a swamp with a massive rock Slink in and learn how to yowl and meow parts in the \"Sad Cat Song\" led by a professional choir conductor. Kitt, stray or feral - all is welcome to nuzzle in for some grrroovy mewsic.",
       "source": {
@@ -12605,6 +16000,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S16",
         "notes": "grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 16,
+          "key": "S16",
+          "label": "S16"
+        }
+      ],
       "tags": [],
       "description": "area opposite the large tent of CIRCUS the ANALOG. Join this workshop to learn some mobility exercises, wake up your body and get rid of the stiffness from sleeping on too thin camping matresses. Mobility is a combination of strength and flexibility, extending our active range of motion. Any level welcome.",
       "source": {
@@ -12632,6 +16035,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M11",
         "notes": "grid square M11. Highlands, Penta plaza (big flag) next to Chilldome"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "Movement session including both play around and try some challenges on the monkeybar, and maybe finish with a short team workout (in cruise mode or beast mode).",
       "source": {
@@ -12685,6 +16096,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T18",
         "notes": "grid square T18. Look for the Ethiopian flag!"
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 18,
+          "key": "T18",
+          "label": "T18"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -12714,6 +16133,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "W16",
         "notes": "grid square W16. along the edge of the forest, south of the"
       },
+      "gridSquares": [
+        {
+          "column": "W",
+          "row": 16,
+          "key": "W16",
+          "label": "W16"
+        }
+      ],
       "tags": [],
       "description": "transcendental forest temple Only happening if the sun is shining! Make a souvenir with paper, sunlight, and findings from the playa. Bring a small object you found, something meaningful to you, or use our bits to create a blue sun-printed postcard.",
       "source": {
@@ -12741,6 +16168,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R13",
         "notes": "grid square R13. LOWLANDS- BEHIND SPACEPORT - BIG CIRKUS"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 13,
+          "key": "R13",
+          "label": "R13"
+        }
+      ],
       "tags": [],
       "description": "RED WHITE TENT, 2 mast. fuck around the playa, ask som playas Zumba is good for you, if you missed the first, you now have the chance to prove YOU CAN DO it, do not be scared!",
       "source": {
@@ -12766,6 +16201,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Muumin Valley, grid square F10.",
         "gridSquare": "F10"
       },
+      "gridSquares": [
+        {
+          "column": "F",
+          "row": 10,
+          "key": "F10",
+          "label": "F10"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -12794,6 +16237,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P22",
         "notes": "grid square P22. Big 10m diameter dome"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 22,
+          "key": "P22",
+          "label": "P22"
+        }
+      ],
       "tags": [],
       "description": "Master the magical art of doing nothing! No goals, no to-dos just you, a comfy spot, and sweet, glorious idleness. Hug a tree, wiggle your toes, daydream wildly. It’s fun, it’s freeing, it’s fabulously unproductive. Permission to laze: granted!",
       "source": {
@@ -12821,6 +16272,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "L09",
         "notes": "grid square L09."
       },
+      "gridSquares": [
+        {
+          "column": "L",
+          "row": 9,
+          "key": "L9",
+          "label": "L09"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -12850,6 +16309,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "V19",
         "notes": "grid square V19. Entry from the road"
       },
+      "gridSquares": [
+        {
+          "column": "V",
+          "row": 19,
+          "key": "V19",
+          "label": "V19"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -12879,6 +16346,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R12",
         "notes": "grid square R12. Outside the tent of Secret Sailors, inside of raining."
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 12,
+          "key": "R12",
+          "label": "R12"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -12908,6 +16383,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S20",
         "notes": "grid square S20."
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 20,
+          "key": "S20",
+          "label": "S20"
+        }
+      ],
       "tags": [],
       "description": "Interactive talk immersing into a biohacking world of cacao exploring somatic health benefits, psychoactive nutrients, synergistic interaction with other bioactive substances, physiological/psychological impact, purpose, conscious usage, intentional dosing, scientific approach to serotonin syndrome. Inviting YOU to ceremonial drinking.",
       "source": {
@@ -12935,6 +16418,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [],
       "description": "This is not a regular breathwork session and definitely not a cult! Come shake off the seriousness with us. Through breath, movement, music, and playful exploration, we'll create space to drop the masks and reconnect with ourselves. No pressure to be happy, spiritual, or healed - all emotions welcome, even messy ones. Come to play, express, connect, or simply be.",
       "source": {
@@ -12961,6 +16452,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "U21",
         "notes": "grid square U21."
       },
+      "gridSquares": [
+        {
+          "column": "U",
+          "row": 21,
+          "key": "U21",
+          "label": "U21"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -12990,6 +16489,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q19",
         "notes": "grid square Q19."
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 19,
+          "key": "Q19",
+          "label": "Q19"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -13019,6 +16526,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Follow the lesbian flag and the fairy lights to the"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sober"
@@ -13049,6 +16564,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S12",
         "notes": "grid square S12. Near Lowland Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 12,
+          "key": "S12",
+          "label": "S12"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -13079,6 +16602,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M21",
         "notes": "grid square M21. The big greenhouse in the Secret Garden."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 21,
+          "key": "M21",
+          "label": "M21"
+        }
+      ],
       "tags": [],
       "description": "Bring your favorite cloth that has a hole or more. We have string, needles, and patches for you to use. We can teach you how to repair your clothes with sashiko, weave darning, embroidery or patching. You can also bring your own project. Let's repair, create, learn and hang out together. THE JEWELLERY MARKET Weird shit/Other 11:00 – 21:00 This magical jewellery market will pop up at random times and at random places around the playa. If you’re supposed to, you’ll find it. All jewellery: $Free.99 I bring jewellery from all over the world to this magical little pop-up! Come pick the piece(s) that speak to you and leave a kind word for the next person. Walk off with your new jewellery and a mystery note from the person before you.",
       "source": {
@@ -13099,8 +16630,17 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "category": "Games/Play",
       "location": {
-        "name": "G22. The pier by the lake"
+        "name": "G22. The pier by the lake",
+        "gridSquare": "G22"
       },
+      "gridSquares": [
+        {
+          "column": "G",
+          "row": 22,
+          "key": "G22",
+          "label": "G22"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -13131,6 +16671,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P09",
         "notes": "grid square P09. Kidsville dome"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 9,
+          "key": "P9",
+          "label": "P09"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -13160,6 +16708,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O06",
         "notes": "grid square O06. In the Arctic Chill, close to Pamper Plaza, behind"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 6,
+          "key": "O6",
+          "label": "O06"
+        }
+      ],
       "tags": [],
       "description": "the camp \"Women who supports women\" Was it 2023 or 2024? Bob had a great JOMO, with writing, eyesgazing and other elements. Let´s try some real live co-creation and recreate what we remember. We might not remember much so freestyling is encouraged! We take turns facilitating. Maybe Bob himself will attend if at BL. Bring pen and paper.",
       "source": {
@@ -13187,6 +16743,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M09",
         "notes": "grid square M09. From Penta Plaza you move north between 'The"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 9,
+          "key": "M9",
+          "label": "M09"
+        }
+      ],
       "tags": [],
       "description": "Heart' and 'Cheeky Butt Chill Camp'. The second last camp to your left is 'The SeaLions Den' <3 You may just listen to what others wanna share or you talk about your own experience. It doesn't matter if you bear under such conditions or you need some new inspiration for your loved ones. Here we will discuss chronice diseases and if the are our fate or if they can be a chance.",
       "source": {
@@ -13214,6 +16778,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10. in the big Tipi"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [],
       "description": "Together we will dream about utopian futures and express our utopias with art. Inspired by utopias described in the book \"Driv utopierna\" we will dream about peace, sustainability, justice, equality, inclusion, and more.",
       "source": {
@@ -13268,6 +16840,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N09",
         "notes": "grid square N09. geodetic dome"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 9,
+          "key": "N9",
+          "label": "N09"
+        }
+      ],
       "tags": [],
       "description": "Interrogate a witness, create a composite sketch, follow the clues, and hunt down mysterious puppets hidden across Borderland. Collect evidence, solve the cases, and earn your detective credentials.",
       "source": {
@@ -13295,6 +16875,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q10",
         "notes": "grid square Q10. Look for disco balls and listen for disco groove!"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 10,
+          "key": "Q10",
+          "label": "Q10"
+        }
+      ],
       "tags": [],
       "description": "Do you love disco, house classics, groove in body and soul, ice-cold slushies, effortless community with openness, joy and warmth in focus? Then, my friend, you are welcome to our little social space and mini dancefloor under the disco ball's inviting glow next to our cozy tipi. Wednesday through Friday between approx. 12–15, DJ Divanté & DJ Simpqlicious with friends invite you all to celebrate life – because disco is life and disco lives in all of us!",
       "source": {
@@ -13322,6 +16910,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N05",
         "notes": "grid square N05. In Arctic Chill, next to camps: Alajv, Love Nest,"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 5,
+          "key": "N5",
+          "label": "N05"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -13351,6 +16947,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M13",
         "notes": "grid square M13. Right next to Agrabah village. We have a beg"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 13,
+          "key": "M13",
+          "label": "M13"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -13380,6 +16984,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M11",
         "notes": "grid square M11. Big dome on the Penta Plaza."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "Satya will host a mask making workshop. Materials will be provided.",
       "source": {
@@ -13407,6 +17019,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S18",
         "notes": "grid square S18. Huge Circus tent"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 18,
+          "key": "S18",
+          "label": "S18"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -13436,6 +17056,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P11",
         "notes": "grid square P11."
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 11,
+          "key": "P11",
+          "label": "P11"
+        }
+      ],
       "tags": [],
       "description": "Some people effortlessly draw people in and sense tension in a conversation without hearing a word. You’ll learn how to project competence and warmth, while also decoding emotions to communicate more effectively, build stronger connections, and navigate any interaction with more ease.",
       "source": {
@@ -13462,6 +17090,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O22",
         "notes": "grid square O22. Bison - Next to Sunset Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 22,
+          "key": "O22",
+          "label": "O22"
+        }
+      ],
       "tags": [],
       "description": "Enjoy chai, coffee, and cookies that taste like care, baked with love, served with presence and compassion. (There is a good chance that we will also serve coffee, etc outside our listed hours <3)",
       "source": {
@@ -13489,6 +17125,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "H22",
         "notes": "grid square H22. just by the big lake Alversjoe"
       },
+      "gridSquares": [
+        {
+          "column": "H",
+          "row": 22,
+          "key": "H22",
+          "label": "H22"
+        }
+      ],
       "tags": [],
       "description": "Come drift to the reggae world post neo psychedelic vibes of Driftwood. I will play a set of original music for chilling, thinking and a little bit of booty shaking",
       "source": {
@@ -13516,6 +17160,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N20",
         "notes": "grid square N20. Come to End of the Rainbow Play space"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 20,
+          "key": "N20",
+          "label": "N20"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive"
@@ -13546,6 +17198,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "V17",
         "notes": "grid square V17. Foajé Villa Hutlös is a cozy camp with 8x5m"
       },
+      "gridSquares": [
+        {
+          "column": "V",
+          "row": 17,
+          "key": "V17",
+          "label": "V17"
+        }
+      ],
       "tags": [],
       "description": "main tent and a chill dome with hammocks. There will be a sign with the camp name. Come by and record your stories, secrets, poems, dreams, jokes or anything else you'd like to share. The only rule is that you have to whisper. Your recording will be played later in the week at the Whispering Forest, a sound installation placed deep in the woods.",
       "source": {
@@ -13571,6 +17231,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Muumin Valley, grid square F10. As a woman and a man in the same body at",
         "gridSquare": "F10"
       },
+      "gridSquares": [
+        {
+          "column": "F",
+          "row": 10,
+          "key": "F10",
+          "label": "F10"
+        }
+      ],
       "tags": [],
       "description": "Kishmastle Space Station Jenny Benny is a character I've created and I'm so happy to bring to Borderland — an elf-inspired figure, singing as both a man and a woman, performing duets with myself. Most songs are my own, written for Jenny Benny, plus a few fitting covers. A short musical performance, playful, emotional, sometimes funny, sometimes touching. My hope: you leave with a smile and a song in your heart.",
       "source": {
@@ -13598,6 +17266,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R13",
         "notes": "grid square R13. 50 meters behind SPACEPORT, close to grass,"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 13,
+          "key": "R13",
+          "label": "R13"
+        }
+      ],
       "tags": [],
       "description": "lowlands- find it on the map its easy and square <3 GONG BATH - SO NICE, SO RELAX, think jam camp makes lot of noice normally, this is your time to come and get your vibrational shine <3",
       "source": {
@@ -13625,6 +17301,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P22",
         "notes": "grid square P22. Big 10m diameter dome"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 22,
+          "key": "P22",
+          "label": "P22"
+        }
+      ],
       "tags": [],
       "description": "Stop by for quesadillas & guacamole, enjoy a taste of Mexico, and fuel your- self with delicious snacks before exploring the burn.",
       "source": {
@@ -13652,6 +17336,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -13681,6 +17373,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R17",
         "notes": "grid square R17."
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 17,
+          "key": "R17",
+          "label": "R17"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive",
@@ -13711,6 +17411,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "I20",
         "notes": "grid square I20. The Grateful Grogg (we'll aim at doing it outside,"
       },
+      "gridSquares": [
+        {
+          "column": "I",
+          "row": 20,
+          "key": "I20",
+          "label": "I20"
+        }
+      ],
       "tags": [],
       "description": "from a spot where we can overlook the sun, but in case it rains, it's nice to have the roof) This year we will have more Fire Art than ever NO Fire Art Safety Team = NO BURNS. Join the training, become F.A.S.T. and stand the perimeter for one of the burns. When standing perimeter you watch people’s faces while they watch the fire - you experience the burn through others in front of you.",
       "source": {
@@ -13737,6 +17445,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q19",
         "notes": "grid square Q19. A curly haired lad in a black beanie roaming around,"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 19,
+          "key": "Q19",
+          "label": "Q19"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -13765,6 +17481,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "I21",
         "notes": "grid square I21. Party Tent, Film casting set up"
       },
+      "gridSquares": [
+        {
+          "column": "I",
+          "row": 21,
+          "key": "I21",
+          "label": "I21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -13796,6 +17520,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P13",
         "notes": "grid square P13. Come to Pink Parachute, look for the Moomin like"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 13,
+          "key": "P13",
+          "label": "P13"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -13825,6 +17557,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. Penta Plaza in Highlands"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [],
       "description": "Enlightenment Intensive dyads is an interpersonal meditative reflectice technique created to quickly penetrate into fundamental experience and can bring about insight into the nature of reality. Come see how all narratives fall short. Come and look into what's actually going on!",
       "source": {
@@ -13852,6 +17592,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S16",
         "notes": "grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 16,
+          "key": "S16",
+          "label": "S16"
+        }
+      ],
       "tags": [],
       "description": "area opposite the large tent of CIRCUS the ANALOG. Bored with playing poi by yourself? Connect with a partner and dance together! We will show you the basics in partner poi and some more advanced stuff that's fun to play with. Prereqs: 3-Beat-Weave without partner. Poi and partners available.",
       "source": {
@@ -13879,6 +17627,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O20",
         "notes": "grid square O20. Shameless plaza next to sinnergirl"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 20,
+          "key": "O20",
+          "label": "O20"
+        }
+      ],
       "tags": [],
       "description": "An invitation to do absolutely nothing useful. Through gentle yin yoga, calming scents, head scratches, and deep rest, we'll create a space free from expectations, performance, productivity, or self-improvement. Nothing to fix, nothing to build, nowhere to be. Bring an eye pillow or a piece of fabric to cover your eyes, and come practice the radical art of simply being.",
       "source": {
@@ -13904,6 +17660,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Muumin Valley, grid square F10. From sanctuary-follow the forest path toward",
         "gridSquare": "F10"
       },
+      "gridSquares": [
+        {
+          "column": "F",
+          "row": 10,
+          "key": "F10",
+          "label": "F10"
+        }
+      ],
       "tags": [],
       "description": "the valley. Where the forest meets the valley, take a left and enter the gate of Alvheim, cross the bridge on your right and enter the spacestation (or look for a big ass spaceship and listen for banging music) Starship transmission incoming! We crashed into the vibrant orbit of RubbR- DUX, a world where the sun is a massive disco ball. We discovered goofy cosmic ducks waddling to the groove alongside funky forest creatures. To keep their sun spinning, dancing is a vital ecosystemic need! We brought back a trunk of sun-drenched frequencies. Today, we release this blend of uplifting disco, house, reggae, and funk. What the duck—help us keep the sun spinning!",
       "source": {
@@ -13931,6 +17695,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P13",
         "notes": "grid square P13."
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 13,
+          "key": "P13",
+          "label": "P13"
+        }
+      ],
       "tags": [],
       "description": "Energizing & grounding mid-day movement & DJ set. Feel the spirit rising as we enter the Ring of Cyclical Vitality. A psychosomatic release of dynamic meditation & daytime microparty. Queer-forward, no aerobics diploma required, all bodies welcome. Guided by Simo, soundtracked by One/Several Wolves",
       "source": {
@@ -13955,6 +17727,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "The Heart",
         "area": "The Heart"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -13984,6 +17764,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "W16",
         "notes": "grid square W16. Look for the Tipi tent, AA sign and the"
       },
+      "gridSquares": [
+        {
+          "column": "W",
+          "row": 16,
+          "key": "W16",
+          "label": "W16"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -14014,6 +17802,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. Workshop will take place in the Beduine Tent"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober",
@@ -14045,6 +17841,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameless Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober",
@@ -14075,6 +17879,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square R21. We're located in the Wedge neighbourhood, across the",
         "gridSquare": "R21"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 21,
+          "key": "R21",
+          "label": "R21"
+        }
+      ],
       "tags": [],
       "description": "road from a swamp with a massive rock I'm a tale collector and I want your tales! Come tell your best tale and listen to others and I will give you a gogo. One tale, one gogo. Or two if it's just that good. Or maybe three, but just if I get gogoosebumps.",
       "source": {
@@ -14102,6 +17914,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N09",
         "notes": "grid square N09. Look for the camp with the big shiny balls north of"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 9,
+          "key": "N9",
+          "label": "N09"
+        }
+      ],
       "tags": [],
       "description": "Highlands Learn how to juggle at this beginner-focused workshop! Max will guide you through step-by-step instructions, teaching you the fundamentals of juggling three balls. Discover the art of coordination and timing as you learn the basic throws, catches, and patterns. This workshop is designed for complete beginners and those who have just started juggling, but everyone is welcome to join!",
       "source": {
@@ -14129,6 +17949,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "H20",
         "notes": "grid square H20. Sunny Hills find someone playing spikeball in"
       },
+      "gridSquares": [
+        {
+          "column": "H",
+          "row": 20,
+          "key": "H20",
+          "label": "H20"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -14158,6 +17986,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N03",
         "notes": "grid square N03. Look for big white fabric on a sunny spot on the hill"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 3,
+          "key": "N3",
+          "label": "N03"
+        }
+      ],
       "tags": [],
       "description": "Forget about paintbrushes and use your whole body for art! Explore colors with all your senses and let yourself free on a big canvas: Your body might want to shake, slide, turn, stamp, shiver or dance as it expresses itself. All the colors are edible, and thus ecological and washable from skin.",
       "source": {
@@ -14185,6 +18021,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O20",
         "notes": "grid square O20. Shameless plaza next to sinnergirl"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 20,
+          "key": "O20",
+          "label": "O20"
+        }
+      ],
       "tags": [],
       "description": "Plant a dream in a flower. Create your own paper flower in the enchanted garden while reflecting on future adventures, personal aspirations, and the things that make life feel magical. Share your vision, or simply let it bloom.",
       "source": {
@@ -14212,6 +18056,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P09",
         "notes": "grid square P09. Kidsville dome is located in the North end of"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 9,
+          "key": "P9",
+          "label": "P09"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -14241,6 +18093,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "H22",
         "notes": "grid square H22. Find us at sunny hills by the water inbetween"
       },
+      "gridSquares": [
+        {
+          "column": "H",
+          "row": 22,
+          "key": "H22",
+          "label": "H22"
+        }
+      ],
       "tags": [],
       "description": "saunas around the big round pool As the sun hits its zenith, the Oasis transforms into a humid, sonic sanctuary. We’re bringing the pulse of the rainforest to the poolside with Deep Jungle Dub. Imagine heavy basslines echoing through the forest, intertwining with the splashing water like ancient vines. The air is thick with rhythm and BASS.",
       "source": {
@@ -14268,6 +18128,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M21",
         "notes": "grid square M21. Big white star shaped tent in the Secret Garden"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 21,
+          "key": "M21",
+          "label": "M21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -14298,6 +18166,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "V16",
         "notes": "grid square V16. Next to a fire road in northern part of the"
       },
+      "gridSquares": [
+        {
+          "column": "V",
+          "row": 16,
+          "key": "V16",
+          "label": "V16"
+        }
+      ],
       "tags": [],
       "description": "Eastern slope, you find this workshop to help you cope! Come land for an hour. We'll use Yoga Therapy, Breath and somatic movement to reset your nervous system, release tension from hips and neck, and recharge body and mind. No experience needed—just come as you are and leave ready for whatever the playa brings next.",
       "source": {
@@ -14324,6 +18200,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [],
       "description": "Come have a chat at the Spaceport Dome if you'd like to offer something for the Big Thursday Nite Cabaret. (Seen a performance that wowed or moved you at Borderland? Please encourage them to come along and offer their gift!) (with Tali and Giles).",
       "source": {
@@ -14351,6 +18235,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P23",
         "notes": "grid square P23. In Bison South area"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 23,
+          "key": "P23",
+          "label": "P23"
+        }
+      ],
       "tags": [],
       "description": "How do we welcome newcomers across The Threshold into Borderland? And carry the best of Borderland back out into the default world? To what extent should we? A workshop on stewarding a growing culture — and whether the two worlds can pull in the same direction.",
       "source": {
@@ -14378,6 +18270,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "K21",
         "notes": "grid square K21. The Church, Downtown"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 21,
+          "key": "K21",
+          "label": "K21"
+        }
+      ],
       "tags": [],
       "description": "South Korean-inspired complaining circle. The aim is to build connection, feel heard and get in touch with your human side. No fixing, no judgement, no deep trauma.",
       "source": {
@@ -14405,6 +18305,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P13",
         "notes": "grid square P13. White with red decorations. Follow the glorious smell"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 13,
+          "key": "P13",
+          "label": "P13"
+        }
+      ],
       "tags": [],
       "description": "of pancakes. Welcome, thou holy food critic, to a fine dining experience at the finest, tiniest, sweetest spot of them all, recognized with three highly unofficial stars for its exceptional cuisine. We promise thee the tiniest gastronomic experience of thy life, please don't come hungry.",
       "source": {
@@ -14432,6 +18340,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10. big black and white tent"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -14461,6 +18377,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S17",
         "notes": "grid square S17. next to the Fire Plaza, under a linenroof. Contact for"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 17,
+          "key": "S17",
+          "label": "S17"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober",
@@ -14493,6 +18417,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10. in the big Tipi"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [],
       "description": "Explore your nightdreams' potential through dance- & drama therapy",
       "source": {
@@ -14519,6 +18451,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "K21",
         "notes": "grid square K21."
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 21,
+          "key": "K21",
+          "label": "K21"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -14548,6 +18488,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q19",
         "notes": "grid square Q19. North side of the little forest between the roads in"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 19,
+          "key": "Q19",
+          "label": "Q19"
+        }
+      ],
       "tags": [],
       "description": "Swamp, close to Blackwater Twist wire and crystal beads into a Tree of Life as a dreamcatcher, earrings, or a gift. A calm, hands-on crafting session to ground yourself in the BL madness while making something beautiful. No experience needed. Come by, get creative, and leave with a little magic.",
       "source": {
@@ -14575,6 +18523,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q19",
         "notes": "grid square Q19. South of Water Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 19,
+          "key": "Q19",
+          "label": "Q19"
+        }
+      ],
       "tags": [
         "Triggering themes"
       ],
@@ -14604,6 +18560,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P13",
         "notes": "grid square P13. Velvet Lounge (next to main Pink Parachute)"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 13,
+          "key": "P13",
+          "label": "P13"
+        }
+      ],
       "tags": [],
       "description": "Ever wonder why optical illusions work? Our brains are wired to survive, not show reality. We're hallucinating our experience! We’ll use cognitive science to expose our mind’s glitches, and spiritual practices to break our programming. Skeptics and mystics share one goal: understanding reality.",
       "source": {
@@ -14631,6 +18595,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O06",
         "notes": "grid square O06. In the Arctic Chill, close to Pamper Plaza, behind"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 6,
+          "key": "O6",
+          "label": "O06"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -14660,6 +18632,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S19",
         "notes": "grid square S19. In front of the Bureau's Reception at the Earth Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 19,
+          "key": "S19",
+          "label": "S19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive"
@@ -14690,6 +18670,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P07",
         "notes": "grid square P07. Look for a beaver sign, enter the strech tent"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 7,
+          "key": "P7",
+          "label": "P07"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -14719,6 +18707,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "K21",
         "notes": "grid square K21. Underneath the Church"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 21,
+          "key": "K21",
+          "label": "K21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive",
@@ -14749,6 +18745,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "U13",
         "notes": "grid square U13."
       },
+      "gridSquares": [
+        {
+          "column": "U",
+          "row": 13,
+          "key": "U13",
+          "label": "U13"
+        }
+      ],
       "tags": [],
       "description": "Crispy fried tacos & ice-cold craft beer! Fried corn tortillas, melted cheese, flavorful vegetarian filling, topped with fresh pico de gallo — juicy, salty, spicy, sweet & tangy. Paired with good vibes and daytime techno. Come for the tacos, stay for the music and community!",
       "source": {
@@ -14776,6 +18780,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S18",
         "notes": "grid square S18. https://www.theborderland.se/map/?id=315"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 18,
+          "key": "S18",
+          "label": "S18"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -14805,6 +18817,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "U16",
         "notes": "grid square U16. We are where The Swamp, The Missing Piece and The"
       },
+      "gridSquares": [
+        {
+          "column": "U",
+          "row": 16,
+          "key": "U16",
+          "label": "U16"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -14834,6 +18854,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N20",
         "notes": "grid square N20. Cross from downtown garden over the wooden"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 20,
+          "key": "N20",
+          "label": "N20"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -14863,6 +18891,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S16",
         "notes": "grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 16,
+          "key": "S16",
+          "label": "S16"
+        }
+      ],
       "tags": [],
       "description": "area opposite the large tent of CIRCUS the ANALOG. You’ve learned a few tricks with the contact staff but don’t really know how to combine them yet? In this workshop we’ll look into some cool transitions, combos and recoveries that will allow you to have more fun and give you more confidence in your flow.",
       "source": {
@@ -14890,6 +18926,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O23",
         "notes": "grid square O23. Location TBC, likely Bison area, near \"The"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 23,
+          "key": "O23",
+          "label": "O23"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -14921,6 +18965,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "G22",
         "notes": "grid square G22. Please arrive to the pier next to Lakeside Plaza,"
       },
+      "gridSquares": [
+        {
+          "column": "G",
+          "row": 22,
+          "key": "G22",
+          "label": "G22"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive",
@@ -14952,6 +19004,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M13",
         "notes": "grid square M13. We are close to the LNT station = look for massive"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 13,
+          "key": "M13",
+          "label": "M13"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sober"
@@ -14982,6 +19042,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O22",
         "notes": "grid square O22. Event held at ”Socialen”, Sunset Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 22,
+          "key": "O22",
+          "label": "O22"
+        }
+      ],
       "tags": [
         "Sober",
         "Sensory content"
@@ -15012,6 +19080,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R18",
         "notes": "grid square R18. Near the water plaza in the swamp"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 18,
+          "key": "R18",
+          "label": "R18"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive",
@@ -15043,6 +19119,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O11",
         "notes": "grid square O11. Follow the squawks to our lighthouse"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 11,
+          "key": "O11",
+          "label": "O11"
+        }
+      ],
       "tags": [],
       "description": "Be ye thirstin' for a cold refreshment? Climb on up to the Seagull's nest and splurge on the frozen droppings of our feathery shepherd Steven Seagull. His creamy blessings taste remarkably like soft ice cream (mjukglass!), whether eaten from yer cup or favourite body part. Weather dependent.",
       "source": {
@@ -15070,6 +19154,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R12",
         "notes": "grid square R12."
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 12,
+          "key": "R12",
+          "label": "R12"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -15099,6 +19191,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R12",
         "notes": "grid square R12. Secret Sailors tent by Lowlands plaza"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 12,
+          "key": "R12",
+          "label": "R12"
+        }
+      ],
       "tags": [],
       "description": "Come and dance tango together! Learn the basics, grab a partner and feel the heat!",
       "source": {
@@ -15126,6 +19226,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O06",
         "notes": "grid square O06. In the Arctic Chill, close to Pamper Plaza, behind"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 6,
+          "key": "O6",
+          "label": "O06"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -15156,6 +19264,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. Penta Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -15210,6 +19326,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R17",
         "notes": "grid square R17. Look for a big, red neon sign. Next to the Missing Piece."
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 17,
+          "key": "R17",
+          "label": "R17"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive"
@@ -15237,6 +19361,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "The Heart",
         "area": "The Heart"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -15267,6 +19399,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q19",
         "notes": "grid square Q19."
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 19,
+          "key": "Q19",
+          "label": "Q19"
+        }
+      ],
       "tags": [],
       "description": "Three taboo doorways, one question: can ecstasy be technology for waking up, not escape? No New Age fluff, no puritan fear tantra as practice, psychedelics as method, sex as transmission. We’ll dissolve the self epistemically, and put scientism itself on trial, whose epistemology gets to count as knowledge? Come ready to be provoked.",
       "source": {
@@ -15294,6 +19434,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -15323,6 +19471,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q12",
         "notes": "grid square Q12."
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 12,
+          "key": "Q12",
+          "label": "Q12"
+        }
+      ],
       "tags": [],
       "description": "In this workshop we will do some fun and casual improv theater games. Beginners are welcome as well as advanced, no pressure - lets be playfull and have fun together!",
       "source": {
@@ -15348,6 +19504,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square R22. South-East corner of BL",
         "gridSquare": "R22"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 22,
+          "key": "R22",
+          "label": "R22"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -15376,6 +19540,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P06",
         "notes": "grid square P06. Pamper Plaza in Arctic Chill"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 6,
+          "key": "P6",
+          "label": "P06"
+        }
+      ],
       "tags": [],
       "description": "Do you have a conflict with a friend here at Borderland that you'd like to take to court? Do you need to cleanse the air about a matter? Do you have an urge to finally delare yourself the winner of this conflict? Come to us and let us guide you, mislead you, analyse and transform you! Solve your conflicts in a playful, non-deadly duel to the death.",
       "source": {
@@ -15403,6 +19575,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S17",
         "notes": "grid square S17. Right at the Fire Plaza in Swamp"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 17,
+          "key": "S17",
+          "label": "S17"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober",
@@ -15460,6 +19640,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O12",
         "notes": "grid square O12."
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 12,
+          "key": "O12",
+          "label": "O12"
+        }
+      ],
       "tags": [],
       "description": "How do you apply the Burning Man principles in your real life? How can we improve? Discussion workshop.",
       "source": {
@@ -15484,8 +19672,17 @@ const generatedSchedule: NormalizedSchedule = {
       "location": {
         "name": "Eastern Slope, W16.",
         "area": "Eastern Slope",
+        "gridSquare": "W16",
         "notes": "W16."
       },
+      "gridSquares": [
+        {
+          "column": "W",
+          "row": 16,
+          "key": "W16",
+          "label": "W16"
+        }
+      ],
       "tags": [],
       "description": "Want to feel more Awe? Join on this wimshical walk and try to feel as much wonder, admiration, and magic together. Come as you are and frolick.",
       "source": {
@@ -15513,6 +19710,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R13",
         "notes": "grid square R13. Circus Tent (expected)"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 13,
+          "key": "R13",
+          "label": "R13"
+        }
+      ],
       "tags": [],
       "description": "Come and experience music as a powerful way to connect, express your self, and be part of something shared. In a guided, playful and supportive space, you’ll free your voice, open your awareness and explore the joy of creating music together. No experience is needed. All voices are welcome!",
       "source": {
@@ -15564,6 +19769,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square R21. We're located in the Wedge neighbourhood, across the",
         "gridSquare": "R21"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 21,
+          "key": "R21",
+          "label": "R21"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -15593,6 +19806,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "H22",
         "notes": "grid square H22. just by the big lake Alversjoe"
       },
+      "gridSquares": [
+        {
+          "column": "H",
+          "row": 22,
+          "key": "H22",
+          "label": "H22"
+        }
+      ],
       "tags": [],
       "description": "This meditation class explores our relationship with our inner critic, offering practical tools and gentle approaches to help soften that negative inner voice.",
       "source": {
@@ -15620,6 +19841,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O20",
         "notes": "grid square O20. Shameless plaza next to sinnergirl"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 20,
+          "key": "O20",
+          "label": "O20"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -15649,6 +19878,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M19",
         "notes": "grid square M19. Near Plutonia. It's a big brown container bar"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 19,
+          "key": "M19",
+          "label": "M19"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -15678,6 +19915,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M21",
         "notes": "grid square M21. Next to the gazebo. Drop in or out at any time"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 21,
+          "key": "M21",
+          "label": "M21"
+        }
+      ],
       "tags": [],
       "description": "during the event. A non-verbal feast where you can only feed others. Borrow a venetian mask and step into the Secret Garden as a creature attending a magical feast. However, the Garden magic means you cannot talk, and you cannot put food in your own mouth, only others. Drop in or out at any time during the event.",
       "source": {
@@ -15705,6 +19950,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10."
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [],
       "description": "Welcome to The Herd! We dance in the afternoon calm (Tue-Thu, 14:30– 17:30). Join the pack for daylight grooves, great company, and a refreshing cup of our home-brewed mango-lemon sour beer from The Pink Parasol Potion Bar!",
       "source": {
@@ -15732,6 +19985,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P09",
         "notes": "grid square P09. In the Dome, look for babies!"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 9,
+          "key": "P9",
+          "label": "P09"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -15758,6 +20019,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square R20.",
         "gridSquare": "R20"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 20,
+          "key": "R20",
+          "label": "R20"
+        }
+      ],
       "tags": [],
       "description": "Tumble down the rabbit hole for an afternoon of Alice in Wonderland tales and other curious surprises. Curl up, get cozy, and lose yourself in the wonderfully strange world of Wonderland. Kida and inner kids are warmly welcome.",
       "source": {
@@ -15784,6 +20053,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N09",
         "notes": "grid square N09. The detective dome!"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 9,
+          "key": "N9",
+          "label": "N09"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -15813,6 +20090,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q18",
         "notes": "grid square Q18. We are hosting our fiesta with our amigos in"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 18,
+          "key": "Q18",
+          "label": "Q18"
+        }
+      ],
       "tags": [],
       "description": "Blackwater Operations. Look for the big Gringo flag. ¡Amigos! Are you ready for a fiesta, full of passion, amor and tequila? Then join us for some sweet latin rhythms and the smooth taste of El Famoso Tequila Sánchez! Feel free to show up in culturally appropriate attire like sombreros, ponchos and ballroom Latin dresses. All ages welcome.",
       "source": {
@@ -15840,6 +20125,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. We will be where the Sin is. Always at your service"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -15872,6 +20165,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M11",
         "notes": "grid square M11. Big dome on the Penta Plaza."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "Who would you become if you stopped telling the tales that have defined you uptill now? Questioning the tales that we like to tell ourselves can lead to self- transformation. It's introspective, intense self-work and a great start to all the shenanigans of a burn. Dont be late, bring water.",
       "source": {
@@ -15899,6 +20200,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S18",
         "notes": "grid square S18. Biggest circus tent in the swamp … just right next to"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 18,
+          "key": "S18",
+          "label": "S18"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -15928,6 +20237,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T19",
         "notes": "grid square T19. The LED dansbana (= pavilion)"
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 19,
+          "key": "T19",
+          "label": "T19"
+        }
+      ],
       "tags": [],
       "description": "Workshop on the basics of Bachata. Bachata is a latino partner dance originally from Dominican Republic.",
       "source": {
@@ -15954,6 +20271,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S10",
         "notes": "grid square S10. Look for our MINIKEA sign!"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 10,
+          "key": "S10",
+          "label": "S10"
+        }
+      ],
       "tags": [],
       "description": "Aren't all miniature things cute? Imagine finding them at a festival - or even building them yourself. At MINIKEA, you'll build your own miniature furniture using tiny materials, questionable instructions, and just enough chaos to keep things interesting. Craft a microscopic chair, a uselessly small table, or something that definitely was not in the manual. Take your tiny masterpiece home to your kinky doll house, no questions asked. Come unwind, get crafty, and meet other mini-freaks.",
       "source": {
@@ -15981,6 +20306,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P09",
         "notes": "grid square P09. Starting at kidsville walking around the playa. Listen"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 9,
+          "key": "P9",
+          "label": "P09"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -16009,6 +20342,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P22",
         "notes": "grid square P22. Big 10m diameter dome"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 22,
+          "key": "P22",
+          "label": "P22"
+        }
+      ],
       "tags": [],
       "description": "Delay like a pro! In this workshop, we’ll not start anything meaningful on purpose. We’ll bond over distractions and reasons not to act. Bring your unfinished to-do list, then ignore it with flair. Let’s waste time, brilliantly! Come late, leave later, achieve nothing.",
       "source": {
@@ -16035,6 +20376,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P22",
         "notes": "grid square P22. Inside a 10m diameter dome"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 22,
+          "key": "P22",
+          "label": "P22"
+        }
+      ],
       "tags": [],
       "description": "Lay back, relax, and let your imagination fly, it’s cloud watching time! Spot dragons, donuts, dancing llamas. Who knows what floats by? Bring your wildest daydreams, and some chill vibes. No rules, no rush, just sky-gazing joy and fluffy fun above.",
       "source": {
@@ -16062,6 +20411,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P13",
         "notes": "grid square P13."
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 13,
+          "key": "P13",
+          "label": "P13"
+        }
+      ],
       "tags": [],
       "description": "Clown games are easy, silly and absurdly fun. No winners, no losers, no audience. No any experience, talent or equipment needed. Just a willingness to play games and have fun! No physical contact required. Clothing & Sobriety optional. *Not that kind of play, you pervert.",
       "source": {
@@ -16088,6 +20445,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R11",
         "notes": "grid square R11. South of snackplaza, by Fox Hole Camper Vans"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 11,
+          "key": "R11",
+          "label": "R11"
+        }
+      ],
       "tags": [],
       "description": "Some follow the music. Others follow the smoke. Wander into the Low Lands, just south of Snack Plaza, where glowing coals, happy bellies, and friendly faces await. We grill with heart, season with joy, and serve questionable grill- master jokes free of charge.",
       "source": {
@@ -16115,6 +20480,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S20",
         "notes": "grid square S20."
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 20,
+          "key": "S20",
+          "label": "S20"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -16143,6 +20516,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q12",
         "notes": "grid square Q12. Look for the big yellow bus and 50 shades of tahina"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 12,
+          "key": "Q12",
+          "label": "Q12"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -16172,6 +20553,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q23",
         "notes": "grid square Q23."
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 23,
+          "key": "Q23",
+          "label": "Q23"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -16201,6 +20590,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "H19",
         "notes": "grid square H19. Turn between The Grateful Grogg and Discotech"
       },
+      "gridSquares": [
+        {
+          "column": "H",
+          "row": 19,
+          "key": "H19",
+          "label": "H19"
+        }
+      ],
       "tags": [],
       "description": "Engineering, then head for the tent by the edge of the forest. The Bear takes it slow. Join us for an afternoon of dub reggae in the sun. Warm bass, cold drinks and deep sounds on our hand-crafted sound system. Mellow out and sip on drinks from the bears and friends.",
       "source": {
@@ -16228,6 +20625,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. Cheeky Butt Chill Camp"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -16257,6 +20662,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "I20",
         "notes": "grid square I20."
       },
+      "gridSquares": [
+        {
+          "column": "I",
+          "row": 20,
+          "key": "I20",
+          "label": "I20"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -16283,6 +20696,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "The Heart",
         "area": "The Heart"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -16313,6 +20734,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P07",
         "notes": "grid square P07."
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 7,
+          "key": "P7",
+          "label": "P07"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober",
@@ -16343,6 +20772,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "L18",
         "notes": "grid square L18. The Containerpark Launchpad (next to Plutonia)"
       },
+      "gridSquares": [
+        {
+          "column": "L",
+          "row": 18,
+          "key": "L18",
+          "label": "L18"
+        }
+      ],
       "tags": [],
       "description": "Welcome to The Mothership Takeoff. This is our one and only departure. The Containerpark Launchpad will be used only on this day. Travellers access midday, under the warming sun. Bring your curious playful self, we want you onboard. Celebrate the wonders of life on earth, dance and connect. As the sun sets, we gather close to launch our energy into space. Expect a journey far far away, until reunited with the rising sun.",
       "source": {
@@ -16370,6 +20807,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S12",
         "notes": "grid square S12."
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 12,
+          "key": "S12",
+          "label": "S12"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -16422,6 +20867,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameless Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -16451,6 +20904,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P09",
         "notes": "grid square P09."
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 9,
+          "key": "P9",
+          "label": "P09"
+        }
+      ],
       "tags": [],
       "description": "Let's create a hobby horse together. Create your mare of dare or your stallion of batallion! Material and tools are on premises. You can use your creation for Thursday's hobbyhorse contest.",
       "source": {
@@ -16478,6 +20939,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "K21",
         "notes": "grid square K21. The Church, Downtown"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 21,
+          "key": "K21",
+          "label": "K21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive"
@@ -16507,6 +20976,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "V17",
         "notes": "grid square V17. Not far from where shibari-chill-web was last"
       },
+      "gridSquares": [
+        {
+          "column": "V",
+          "row": 17,
+          "key": "V17",
+          "label": "V17"
+        }
+      ],
       "tags": [],
       "description": "year. A camp with a pavilion tent and a wooden dome. Min chéri! Too much techno minimale is melting your hjärna, no? Mi amor, being cool all the time is deprimente. Basta! Kom dansa och be dumbom with os. Meine Liebe we vill stjäla your dans moves and hear you zingen out lout in the language of amore (danish?).",
       "source": {
@@ -16532,6 +21009,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "grid square X16. There will be a sign at the road saying Camp All Senses, No",
         "gridSquare": "X16"
       },
+      "gridSquares": [
+        {
+          "column": "X",
+          "row": 16,
+          "key": "X16",
+          "label": "X16"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober",
@@ -16563,6 +21048,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "K19",
         "notes": "grid square K19. Inside the museum"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 19,
+          "key": "K19",
+          "label": "K19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive"
@@ -16592,6 +21085,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T17",
         "notes": "grid square T17. The Party will take place right next to the Chai Chill"
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 17,
+          "key": "T17",
+          "label": "T17"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -16621,6 +21122,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T19",
         "notes": "grid square T19. The LED dansbana (= pavilion)"
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 19,
+          "key": "T19",
+          "label": "T19"
+        }
+      ],
       "tags": [],
       "description": "Workshop on the basics of LA Salsa. Salsa is a latino partner dance originally from Cuba, LA Salsa is a style developed in Los Angeles.",
       "source": {
@@ -16648,6 +21157,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "V19",
         "notes": "grid square V19. We're in the Constellations Neighborhood in the"
       },
+      "gridSquares": [
+        {
+          "column": "V",
+          "row": 19,
+          "key": "V19",
+          "label": "V19"
+        }
+      ],
       "tags": [],
       "description": "Eastern Slope Have you always wanted to explore Borderland? But also want to party? And you refuse to choose because choosing is for people with self-control? The High(est) Priestesses of the Rosewater Cult x Disciples of Alba invite you to a sacred party procession across Borderland. Wear pink.",
       "source": {
@@ -16675,6 +21192,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S16",
         "notes": "grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 16,
+          "key": "S16",
+          "label": "S16"
+        }
+      ],
       "tags": [],
       "description": "area opposite the large tent of CIRCUS the ANALOG. Have you run out of limbs to spin your stick on? Fear not. In this workshop we will explore rolling about on the floor, manipulating contact and dragon staffs with our legs and feet. Some sticks available, bring your own if you have :)",
       "source": {
@@ -16702,6 +21227,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "L08",
         "notes": "grid square L08. Orange Van"
       },
+      "gridSquares": [
+        {
+          "column": "L",
+          "row": 8,
+          "key": "L8",
+          "label": "L08"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -16731,6 +21264,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R13",
         "notes": "grid square R13."
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 13,
+          "key": "R13",
+          "label": "R13"
+        }
+      ],
       "tags": [],
       "description": "Want a memory recorded from this burn in a form of audio recording of you singing / rapping / playing an instrument on house beats? Come sing or play an instrument over our house beats",
       "source": {
@@ -16757,6 +21298,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q12",
         "notes": "grid square Q12. We welcome you at the Lowlands Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 12,
+          "key": "Q12",
+          "label": "Q12"
+        }
+      ],
       "tags": [],
       "description": "A corner of Paris in the woods — wine, peanuts, and the art of l’Apéro.",
       "source": {
@@ -16784,6 +21333,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N06",
         "notes": "grid square N06."
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 6,
+          "key": "N6",
+          "label": "N06"
+        }
+      ],
       "tags": [],
       "description": "Ever wonder what’s hiding behind all those masks you wear? Come strip away the fake stuff, explore who you actually are underneath, and maybe discover something weird, mystical and wonderful in the process. We’ll peel back the layers a few times, get uncomfortable, get real, and possibly meet the deep unknown. No judgment, just honest chaos and self-discovery. All the real magic happens when you stop pretending. Will you dare to?",
       "source": {
@@ -16810,6 +21367,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "K19",
         "notes": "grid square K19. Lower floor of the Barn (also known as the Living"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 19,
+          "key": "K19",
+          "label": "K19"
+        }
+      ],
       "tags": [],
       "description": "Room) We are honored to finally welcome you to the opening vernissage at the world’s first museum solely dedicated to Bad Arts, and the aesthetic, artistic and academic center for the Bad Arts movement. Expect red wine, difficult words, pretentious debates, a human chocolate fountain and lots of Bad Arts.",
       "source": {
@@ -16837,6 +21402,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M20",
         "notes": "grid square M20."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 20,
+          "key": "M20",
+          "label": "M20"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -16866,6 +21439,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O06",
         "notes": "grid square O06. In the Arctic Chill, close to Pamper Plaza, behind"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 6,
+          "key": "O6",
+          "label": "O06"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -16895,6 +21476,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sensory content"
@@ -16925,6 +21514,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P23",
         "notes": "grid square P23. Tea by the sea is located next to the lookout the"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 23,
+          "key": "P23",
+          "label": "P23"
+        }
+      ],
       "tags": [],
       "description": "big red roofed tea house next to Metal Bison In this musical group meditation we celebrate being alive on this Earth and pledge our gratitude and devotion to our Sacred Earth. Our process involves vivid dancing, quiet reflection, and shared hugs.",
       "source": {
@@ -16952,6 +21549,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q19",
         "notes": "grid square Q19."
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 19,
+          "key": "Q19",
+          "label": "Q19"
+        }
+      ],
       "tags": [],
       "description": "Merge with others through interactive audiovisual heart and brain biofeedback stimulation.",
       "source": {
@@ -16978,6 +21583,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P08",
         "notes": "grid square P08. Find the Oracle camp close to Kidsville and the"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 8,
+          "key": "P8",
+          "label": "P08"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -17007,6 +21620,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. At Jousting Tournament and onward from there"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -17036,6 +21657,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive"
@@ -17064,6 +21693,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square R22. At the south-east corner of BL, in a neighborhood",
         "gridSquare": "R22"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 22,
+          "key": "R22",
+          "label": "R22"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive"
@@ -17094,6 +21731,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10. in the big Tipi"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [],
       "description": "This is a 2x40min guided session of thai massage which is fully clothed and uses bodyweight to soften dense muscles, calm the nervous system and relax our bodies. You will work in pairs, come with a friend or make new friends.",
       "source": {
@@ -17119,6 +21764,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P23",
         "notes": "grid square P23. Meet up at the Tree house Bison South"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 23,
+          "key": "P23",
+          "label": "P23"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive"
@@ -17147,6 +21800,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square R21. We're located in the Wedge neighbourhood, across the",
         "gridSquare": "R21"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 21,
+          "key": "R21",
+          "label": "R21"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -17176,6 +21837,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "U16",
         "notes": "grid square U16. We are where The Swamp, The Missing Piece and The"
       },
+      "gridSquares": [
+        {
+          "column": "U",
+          "row": 16,
+          "key": "U16",
+          "label": "U16"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -17205,6 +21874,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N20",
         "notes": "grid square N20. Cross from downtown garden over the wooden"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 20,
+          "key": "N20",
+          "label": "N20"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober",
@@ -17236,6 +21913,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P13",
         "notes": "grid square P13."
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 13,
+          "key": "P13",
+          "label": "P13"
+        }
+      ],
       "tags": [],
       "description": "Come and play, with nothing and everything, imagine worlds and of course some silliness, lots of it! Shhhhh what is there when you can listen?",
       "source": {
@@ -17262,6 +21947,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "G21",
         "notes": "grid square G21. Lakeside Plaza, outside Magic Banya where you"
       },
+      "gridSquares": [
+        {
+          "column": "G",
+          "row": 21,
+          "key": "G21",
+          "label": "G21"
+        }
+      ],
       "tags": [],
       "description": "see a group carrying pillows... Let's have a flash mob for a friendly pillow fight! Let's play by Burnberry Rules, aka no strike on person on the ground, no strike on innocent bystanders (person w/o pillow), if someone raise both hands they should be granted safe passage out of the fight. No excessive force. Also LNT, if your pillow rupture, help clean up afterwards. You can play with any soft pillowish object, inside out bag for sleeping bag, stuff sack.",
       "source": {
@@ -17289,6 +21982,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S18",
         "notes": "grid square S18. https://www.theborderland.se/map/?id=315"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 18,
+          "key": "S18",
+          "label": "S18"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sensory content"
@@ -17319,6 +22020,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameless Plaza."
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober",
@@ -17350,6 +22059,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T19",
         "notes": "grid square T19. The LED dansbana (= pavilion)"
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 19,
+          "key": "T19",
+          "label": "T19"
+        }
+      ],
       "tags": [],
       "description": "Workshop on the basics of Salsa Cubana. Salsa is a latino partner dance originally from Cuba.",
       "source": {
@@ -17377,6 +22094,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "U20",
         "notes": "grid square U20. Look for the foxes on top of the hill, crawl into"
       },
+      "gridSquares": [
+        {
+          "column": "U",
+          "row": 20,
+          "key": "U20",
+          "label": "U20"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -17406,6 +22131,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M12",
         "notes": "grid square M12. South point of the Penta Plaze @Highlands"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 12,
+          "key": "M12",
+          "label": "M12"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -17435,6 +22168,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "The Heart",
         "area": "The Heart"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "Highlands, grid square M11. Look out for the flag with the big heart on it! You are invited for a restful inner journey through soft movement to loosen the body, yogic breath exercise to soothen the mind, and deep guided relaxation to recharge the soul. Come and recharge between adventures on the playa Bring a Yoga mat",
       "source": {
@@ -17462,6 +22203,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N13",
         "notes": "grid square N13. Find us on the main street of Agrabah Village in the"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 13,
+          "key": "N13",
+          "label": "N13"
+        }
+      ],
       "tags": [],
       "description": "Highlands Together we dive into a colorful flow on canvas, connect to ourselves and our intuition- no particular art skills needed!",
       "source": {
@@ -17488,6 +22237,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "I20",
         "notes": "grid square I20. Exact location will be decided on site. Probably"
       },
+      "gridSquares": [
+        {
+          "column": "I",
+          "row": 20,
+          "key": "I20",
+          "label": "I20"
+        }
+      ],
       "tags": [
         "Triggering themes"
       ],
@@ -17517,6 +22274,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. By the ponton bridge of the big lake in front of"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -17547,6 +22312,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S16",
         "notes": "grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 16,
+          "key": "S16",
+          "label": "S16"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -17576,6 +22349,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T16",
         "notes": "grid square T16. Wooden Dome, near Fire Brigade"
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 16,
+          "key": "T16",
+          "label": "T16"
+        }
+      ],
       "tags": [],
       "description": "Dreamy analogue synths and psychedelic guitar riffs blend with downtempo beats and noises from another dimension. The live set begins with ambient textures opening space for drum machines conjuring the Brazilian spirit. Enjoy your trip while sipping on Sencha or grooving to the sound.",
       "source": {
@@ -17602,6 +22383,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "K21",
         "notes": "grid square K21. The Church"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 21,
+          "key": "K21",
+          "label": "K21"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -17631,6 +22420,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S18",
         "notes": "grid square S18. Huge Circus tent"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 18,
+          "key": "S18",
+          "label": "S18"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -17660,6 +22457,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "U20",
         "notes": "grid square U20. Look for the foxes on top of the hill, crawl into"
       },
+      "gridSquares": [
+        {
+          "column": "U",
+          "row": 20,
+          "key": "U20",
+          "label": "U20"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -17689,6 +22494,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O07",
         "notes": "grid square O07. Go to the Arctic Chill plaza. You will find signs and"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 7,
+          "key": "O7",
+          "label": "O07"
+        }
+      ],
       "tags": [],
       "description": "our big beautiful beige canvas tent with fairy lights. Do you need some rest before the marvelous adventures of the night? Let the Borderland fairy read you some stories while you nap in a big cozy tent with big cozy pillows. Both Children's books will be read while we serve you blueberry tea and homemade sweets. Let us take care of your inner child for a while, love.",
       "source": {
@@ -17715,6 +22528,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T19",
         "notes": "grid square T19. The LED dansbana (= pavilion)"
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 19,
+          "key": "T19",
+          "label": "T19"
+        }
+      ],
       "tags": [],
       "description": "Workshop on the basics of Zouk. Zouk is a partner dance originally from Brazil.",
       "source": {
@@ -17742,6 +22563,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -17771,6 +22600,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P13",
         "notes": "grid square P13. LOWLANDS - next to spaceport and Slothenhive"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 13,
+          "key": "P13",
+          "label": "P13"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive"
@@ -17800,6 +22637,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M13",
         "notes": "grid square M13. We got a lot of lamps and and two large tents. We"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 13,
+          "key": "M13",
+          "label": "M13"
+        }
+      ],
       "tags": [],
       "description": "are located close to the sanctuary in the left bottom part of the Highlands Bar's Open Tonight The bar's open with some good music drifting through the camp. Come hang out, for the evening, and let your night start here. Sink into our soft hay bales, look up at the lanterns swaying in the wind, and grab a drink with us. Ps. there might be crispy fries. See you at the bar.",
       "source": {
@@ -17827,6 +22672,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R13",
         "notes": "grid square R13. BEHIND SPACEPORT 50 meters, maybe 100, maybe"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 13,
+          "key": "R13",
+          "label": "R13"
+        }
+      ],
       "tags": [
         "Sensory content",
         "Triggering themes"
@@ -17856,6 +22709,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q12",
         "notes": "grid square Q12. We welcome you at the Lowlands Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 12,
+          "key": "Q12",
+          "label": "Q12"
+        }
+      ],
       "tags": [],
       "description": "Happy Hour à la Française! — Sparkling wine, peanuts, and the art of l’Apéro.",
       "source": {
@@ -17882,6 +22743,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T16",
         "notes": "grid square T16. Wooden Dome, near Fire Brigade"
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 16,
+          "key": "T16",
+          "label": "T16"
+        }
+      ],
       "tags": [],
       "description": "Blending bass-driven grooves, harmonic textures, and hypnotic rhythms; sounds that move between organic warmth and powerful club energy. Expect a carefully curated 3-hour voyage full of global influences, emotional moments, and dancefloor-driven intensity — music that connects cultures, emotions, and movement into one shared experience.",
       "source": {
@@ -17909,6 +22778,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R18",
         "notes": "grid square R18. Directly at the Water Plaza in the Swamp"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 18,
+          "key": "R18",
+          "label": "R18"
+        }
+      ],
       "tags": [],
       "description": "Come on by and one of our playful bartenders will serve you a special non- alcoholic Schorle made just for you. Each of us has their own unique way of serving, so you never know what you'll get. Don't know what Schorle is? Soon you will!",
       "source": {
@@ -17936,6 +22813,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive"
@@ -17966,6 +22851,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "K21",
         "notes": "grid square K21. The Church, Downtown"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 21,
+          "key": "K21",
+          "label": "K21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive"
@@ -17993,6 +22886,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "The Heart",
         "area": "The Heart"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -18022,6 +22923,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P13",
         "notes": "grid square P13. White with red decorations. Follow the glorious smell"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 13,
+          "key": "P13",
+          "label": "P13"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -18051,6 +22960,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10. in the big Tipi"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -18104,6 +23021,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S18",
         "notes": "grid square S18. The BIG circus tent"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 18,
+          "key": "S18",
+          "label": "S18"
+        }
+      ],
       "tags": [],
       "description": "Our one and only - Varieté show! Diverse mix of playful circus performances, art, music, laugh and everything you can only imagine. Stop for the moment and allow yourself to dive into Analogue presence and evening full of magic.",
       "source": {
@@ -18131,6 +23056,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "K21",
         "notes": "grid square K21. The Church, Downtown"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 21,
+          "key": "K21",
+          "label": "K21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive"
@@ -18159,6 +23092,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square R22.",
         "gridSquare": "R22"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 22,
+          "key": "R22",
+          "label": "R22"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive"
@@ -18189,6 +23130,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M11",
         "notes": "grid square M11. Big dome on the Penta Plaza."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "What happens when skin meets fishnet? Something softens. Step into a space of flowing fabric, gentle music, and consent-based touch where we slow down, explore texture, and melt a little into shared presence. A sensual, non- sexual cuddle workshop. Some fishnets will be provided, or wear your own.",
       "source": {
@@ -18215,6 +23164,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameless Plaza."
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -18243,6 +23200,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameful Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -18271,6 +23236,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameful Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -18300,6 +23273,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T19",
         "notes": "grid square T19. The LED dansbana (= pavilion)"
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 19,
+          "key": "T19",
+          "label": "T19"
+        }
+      ],
       "tags": [],
       "description": "Latin Dance party! An evening of Salsa and Bachata social dancing. Bring your partner and get steamy, or ask a cute stranger to dance. Perfect opportunity to practice what you learned in our previous workshops!",
       "source": {
@@ -18326,6 +23307,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N09",
         "notes": "grid square N09. Look for the huge shiny balls"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 9,
+          "key": "N9",
+          "label": "N09"
+        }
+      ],
       "tags": [],
       "description": "Bubbles come in all sizes, from the tiniest sparkles in a glass to the shiniest of spheres on the grass. But this pre party is more than just cava, music and big shinny balls: hidden delights are scattered like raisins in a cake. Small surprises and unexpected moments await. A great lift-off point before the night takes off!",
       "source": {
@@ -18353,6 +23342,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N09",
         "notes": "grid square N09. Look for the shiny balls in between Arctic Chill and"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 9,
+          "key": "N9",
+          "label": "N09"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -18379,6 +23376,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "grid square P25. The southest part of bison",
         "gridSquare": "P25"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 25,
+          "key": "P25",
+          "label": "P25"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -18408,6 +23413,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O20",
         "notes": "grid square O20."
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 20,
+          "key": "O20",
+          "label": "O20"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober",
@@ -18439,6 +23452,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O06",
         "notes": "grid square O06. In the Arctic Chill, close to Pamper Plaza, behind"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 6,
+          "key": "O6",
+          "label": "O06"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -18468,6 +23489,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "V18",
         "notes": "grid square V18."
       },
+      "gridSquares": [
+        {
+          "column": "V",
+          "row": 18,
+          "key": "V18",
+          "label": "V18"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -18496,6 +23525,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R17",
         "notes": "grid square R17."
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 17,
+          "key": "R17",
+          "label": "R17"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive"
@@ -18526,6 +23563,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -18555,6 +23600,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "V16",
         "notes": "grid square V16. In the Yachtees Magic Offerings area on the"
       },
+      "gridSquares": [
+        {
+          "column": "V",
+          "row": 16,
+          "key": "V16",
+          "label": "V16"
+        }
+      ],
       "tags": [],
       "description": "Eastern Slope, between The Wrecked Yachtees Asylum and Linda Land. It's just east of The Brothel and immediately south of the main road through the camping area next to Camp YES! Anchor down at The Wrecked Yachtees Asylum for a night of kernels and chaos! We’re turning our deck into the finest snack-port in the festival. Whether you’re craving salty sea-spray or sweet sunshine, we’ve got the goods to transform your plain corn into a culinary treasure. -> B.Y.O.C. (Bring Your Own Cup): Bring your favorite vessel, fill it to the brim with our fresh- popped gold, and customize it with a sea of magical drizzles and enchanted toppings.",
       "source": {
@@ -18610,6 +23663,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S16",
         "notes": "grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 16,
+          "key": "S16",
+          "label": "S16"
+        }
+      ],
       "tags": [],
       "description": "area opposite the large tent of CIRCUS the ANALOG. A participatory photo experience for fire spinners celebrating Gifting & Immediacy. Step into a professional photo setup during your fire flow. Receive a printed photo or sticker, then watch your digital image be ceremoniously sacrificed to the Delete Button.",
       "source": {
@@ -18637,6 +23698,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R13",
         "notes": "grid square R13. LOWLANDS- BEHIND Spaceport 50 m. close to grass"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 13,
+          "key": "R13",
+          "label": "R13"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -18666,6 +23735,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T18",
         "notes": "grid square T18. Once you hear cool jazz you’re close; find two large"
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 18,
+          "key": "T18",
+          "label": "T18"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -18694,6 +23771,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R12",
         "notes": "grid square R12. Look for the neon sign"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 12,
+          "key": "R12",
+          "label": "R12"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -18723,6 +23808,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "K19",
         "notes": "grid square K19. Go in and follow the Darkness!"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 19,
+          "key": "K19",
+          "label": "K19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sensory content"
@@ -18750,6 +23843,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "grid square P25. The southest part of bison, look for a portal-like entrance",
         "gridSquare": "P25"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 25,
+          "key": "P25",
+          "label": "P25"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sensory content"
@@ -18778,6 +23879,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "grid square P25. The southest part of bison, look for a portal like entrance",
         "gridSquare": "P25"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 25,
+          "key": "P25",
+          "label": "P25"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -18807,6 +23916,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11."
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -18836,6 +23953,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R17",
         "notes": "grid square R17."
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 17,
+          "key": "R17",
+          "label": "R17"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive"
@@ -18866,6 +23991,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M13",
         "notes": "grid square M13. South end of the Highlands"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 13,
+          "key": "M13",
+          "label": "M13"
+        }
+      ],
       "tags": [],
       "description": "Flow through Borderland at night and get into optic flow with the colors and lights. I’ve always wanted to try this, and it would be a lot cooler if you came along. Let’s check out some of the light art! Social-pace jog (~6.30-7.00/km), ~4km on easy paths. I have headlight and hi-vis vest.",
       "source": {
@@ -18893,6 +24026,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S18",
         "notes": "grid square S18. Huge Circus tent"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 18,
+          "key": "S18",
+          "label": "S18"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -18922,6 +24063,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S16",
         "notes": "grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 16,
+          "key": "S16",
+          "label": "S16"
+        }
+      ],
       "tags": [],
       "description": "area opposite the large tent of CIRCUS the ANALOG. A safety briefing for fire spinners who want to play at The Fire Brigade's fire jams or spin before the effigy. We will walk you through our safety protocol and give you a token of trust. Wear natural fabrics to play with fire (cotton, wool, linnen, leather).",
       "source": {
@@ -18946,6 +24095,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square R22.",
         "gridSquare": "R22"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 22,
+          "key": "R22",
+          "label": "R22"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -18975,6 +24132,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M11",
         "notes": "grid square M11. Big dome on the Penta Plaza."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "A downtempo chill set — dance, sway, or just melt into the beauty of the Chilldome!",
       "source": {
@@ -19001,6 +24166,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameless Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -19032,6 +24205,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S16",
         "notes": "grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 16,
+          "key": "S16",
+          "label": "S16"
+        }
+      ],
       "tags": [],
       "description": "area opposite the large tent of CIRCUS the ANALOG. Witness the power of fire bending! Fire spinning and performances, chillspace and hot tea. We have fuel and safety equipment. Wear natural fabrics to spin or help with fire safety. Attend a safety briefing at 21:45 if you want to spin. Bring your fire props or borrow from us.",
       "source": {
@@ -19059,6 +24240,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P13",
         "notes": "grid square P13. Look for our open sign"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 13,
+          "key": "P13",
+          "label": "P13"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -19088,6 +24277,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. The Spaceport Dome"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sensory content"
@@ -19118,6 +24315,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "H19",
         "notes": "grid square H19. Turn between The Grateful Grogg and Discotech"
       },
+      "gridSquares": [
+        {
+          "column": "H",
+          "row": 19,
+          "key": "H19",
+          "label": "H19"
+        }
+      ],
       "tags": [],
       "description": "Engineering, then head for the tent by the edge of the forest. The Bear rumbles. Lose yourself in heavy dubstep, UK bass and other low-end sounds. Expect chest-rattling bass on our hand-crafted sound system until the early hours.",
       "source": {
@@ -19145,6 +24350,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "K21",
         "notes": "grid square K21. The Church, Downtown"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 21,
+          "key": "K21",
+          "label": "K21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive"
@@ -19174,6 +24387,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "I20",
         "notes": "grid square I20."
       },
+      "gridSquares": [
+        {
+          "column": "I",
+          "row": 20,
+          "key": "I20",
+          "label": "I20"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sensory content"
@@ -19230,6 +24451,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R19",
         "notes": "grid square R19. we are orange"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 19,
+          "key": "R19",
+          "label": "R19"
+        }
+      ],
       "tags": [],
       "description": "Freshly squeezed. Unexpectedly seductive. You never know what an orange juice might lead to",
       "source": {
@@ -19256,6 +24485,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q23",
         "notes": "grid square Q23. Follow the white rabbit"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 23,
+          "key": "Q23",
+          "label": "Q23"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -19329,6 +24566,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "grid square P25. The southest part of bison, look for a portal like entrance",
         "gridSquare": "P25"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 25,
+          "key": "P25",
+          "label": "P25"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -19358,6 +24603,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P13",
         "notes": "grid square P13. We meet at Pink Parachute and go on a procession"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 13,
+          "key": "P13",
+          "label": "P13"
+        }
+      ],
       "tags": [],
       "description": "to the secret location As the sun goes to sleep, we its lovers gather to praise the Moon in sweet & poetic ways. In between the trees we find a melancholic clown, the stars, a rabbit and a goddess & we meet the many faces & phases of Grandmother Moon. Come howl, sing, listen and whisper to this celestial being with us.",
       "source": {
@@ -19384,6 +24637,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R17",
         "notes": "grid square R17."
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 17,
+          "key": "R17",
+          "label": "R17"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive"
@@ -19414,6 +24675,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S18",
         "notes": "grid square S18."
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 18,
+          "key": "S18",
+          "label": "S18"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive",
@@ -19469,6 +24738,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sex positive"
@@ -19499,6 +24776,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S16",
         "notes": "grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 16,
+          "key": "S16",
+          "label": "S16"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive"
@@ -19528,6 +24813,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10. Follow your nose"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [],
       "description": "Come and get your tummies filled.",
       "source": {
@@ -19555,6 +24848,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J22",
         "notes": "grid square J22. Look for a grumpy old hag - good luck"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 22,
+          "key": "J22",
+          "label": "J22"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -19608,6 +24909,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "G21",
         "notes": "grid square G21."
       },
+      "gridSquares": [
+        {
+          "column": "G",
+          "row": 21,
+          "key": "G21",
+          "label": "G21"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -19636,6 +24945,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "L10",
         "notes": "grid square L10. In the far west of the Highlands."
       },
+      "gridSquares": [
+        {
+          "column": "L",
+          "row": 10,
+          "key": "L10",
+          "label": "L10"
+        }
+      ],
       "tags": [],
       "description": "Yet another anomaly is manifested by the Keepers of Le Observable Universe: a pop-up version of the Supernova Sandwich Station. Every bite is a cosmic revelation. Interact with celestial beings, meet fellow travelers, and play games that bend spacetime. Who knows - you might uncover the universe’s deepest secrets…",
       "source": {
@@ -19661,6 +24978,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "grid square P25. The southest part of bison, look for a portal like entrance",
         "gridSquare": "P25"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 25,
+          "key": "P25",
+          "label": "P25"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sensory content"
@@ -19690,6 +25015,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O22",
         "notes": "grid square O22. Corner on Sunset Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 22,
+          "key": "O22",
+          "label": "O22"
+        }
+      ],
       "tags": [],
       "description": "Send your(other)self a message in form of postcard from Borderland. Capture the fleeting moment and extract it out before it vanishes. Come hangout at Socialen, we offer a relaxed space to settle in a reflect for a moment and write yourself or others about your current state of mind. ✺ ✺",
       "source": {
@@ -19717,6 +25050,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P13",
         "notes": "grid square P13. White with red decorations. Follow the glorious smell"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 13,
+          "key": "P13",
+          "label": "P13"
+        }
+      ],
       "tags": [],
       "description": "of pancakes. Brave enough to grab the mic? No singing skills needed! The Sweet Spot will never give you up, nor let you down. Instead we will serve all brave kareoke singers a warm pancake, fresh off the griddle. Top it however you dare: sprinkles, dried fruits, syrup, peanut butter or chaos. Glory awaits the bold!",
       "source": {
@@ -19798,6 +25139,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q19",
         "notes": "grid square Q19. South of Water Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 19,
+          "key": "Q19",
+          "label": "Q19"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -19825,6 +25174,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "grid square P25. The southest part of bison, look for a portal like entrance",
         "gridSquare": "P25"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 25,
+          "key": "P25",
+          "label": "P25"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -19854,6 +25211,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameless Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -19885,6 +25250,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P09",
         "notes": "grid square P09."
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 9,
+          "key": "P9",
+          "label": "P09"
+        }
+      ],
       "tags": [],
       "description": "Enter the small hobbyhorse contest. Open for everyone from horse whisperers to harness pulling whipping artists. BYOHH. If you haven't your horse with you, create one at Wednesday's hobbyhorse creation workshop. Disciplines: showjumping and dressage.",
       "source": {
@@ -19912,6 +25285,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "V19",
         "notes": "grid square V19. Entry from the road"
       },
+      "gridSquares": [
+        {
+          "column": "V",
+          "row": 19,
+          "key": "V19",
+          "label": "V19"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -19941,6 +25322,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S18",
         "notes": "grid square S18. Huge Circus tent"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 18,
+          "key": "S18",
+          "label": "S18"
+        }
+      ],
       "tags": [],
       "description": "A journey into the lower realms to meet your power animal or guide that will give you a vision of what you need to see and hear. Meet a guide for life and unlock tools for growth and change.",
       "source": {
@@ -19968,6 +25357,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P09",
         "notes": "grid square P09. Follow the crumbs"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 9,
+          "key": "P9",
+          "label": "P09"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sober"
@@ -19997,6 +25394,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P22",
         "notes": "grid square P22. We have a 10m dome"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 22,
+          "key": "P22",
+          "label": "P22"
+        }
+      ],
       "tags": [],
       "description": "Find a good spot anywhere and just sit back and people-watch while relaxing. It looks like a Borderland movie, doesn’t it?",
       "source": {
@@ -20024,6 +25429,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "L09",
         "notes": "grid square L09."
       },
+      "gridSquares": [
+        {
+          "column": "L",
+          "row": 9,
+          "key": "L9",
+          "label": "L09"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -20052,6 +25465,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. The Pink Tantric Troll on the big workshop tent"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -20079,6 +25500,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square R21.",
         "gridSquare": "R21"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 21,
+          "key": "R21",
+          "label": "R21"
+        }
+      ],
       "tags": [],
       "description": "A cozy spot to gently come back to life after a long night of dancing. Pull up a seat for coffee, tea, and cookies, and ease into the morning at your own pace. No rush, no noise, just a warm place to wake up.",
       "source": {
@@ -20106,6 +25535,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q13",
         "notes": "grid square Q13. An enclosed area with dog toys and shade."
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 13,
+          "key": "Q13",
+          "label": "Q13"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -20136,6 +25573,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T18",
         "notes": "grid square T18. @Feromonia, look for glamping bell tent with black"
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 18,
+          "key": "T18",
+          "label": "T18"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -20165,6 +25610,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P09",
         "notes": "grid square P09."
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 9,
+          "key": "P9",
+          "label": "P09"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -20194,6 +25647,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P24",
         "notes": "grid square P24. Nest & Twigs not far from the Bison"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 24,
+          "key": "P24",
+          "label": "P24"
+        }
+      ],
       "tags": [],
       "description": "Participants will be soaked in orgone, showered with it, and possibly transformed by it. This is likely a once-in-a-lifetime opportunity to expose a large population to orgone. Available 24/7 for restorative use. Guided Sessions and experiments will be announced on white board at camp.",
       "source": {
@@ -20221,6 +25682,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O07",
         "notes": "grid square O07. Go to the plaza of the Arctic Chill. You will see signs"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 7,
+          "key": "O7",
+          "label": "O07"
+        }
+      ],
       "tags": [],
       "description": "and a big beautiful cozy beige canvas tent with fairy lights. 2 hours to connect with your true capacity and find what feels most true for you for this day and the festival. Max 20 people.",
       "source": {
@@ -20248,6 +25717,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "V19",
         "notes": "grid square V19. Entry from the road"
       },
+      "gridSquares": [
+        {
+          "column": "V",
+          "row": 19,
+          "key": "V19",
+          "label": "V19"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -20277,6 +25754,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -20305,6 +25790,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N13",
         "notes": "grid square N13."
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 13,
+          "key": "N13",
+          "label": "N13"
+        }
+      ],
       "tags": [],
       "description": "The legend lives — and this year it walks among you! The curse of the Cave of Wonders has broken its seal: thieves, sorcerers and desert wanderers have escaped into the Borderland, and they're looking for you. For two days, live characters roam the camp weaving riddles, mischief and theatrical magic — a mysterious guide by the Bedouin Tent, a hidden clue, a quest you didn't know you'd joined. All welcome: every gender, every magic-maker. Queer stars of the Borderland, this adventure is yours too. Follow the whispers. Trust no one. Note: the Cave of Wonders escape room is open 24/7 for those who wish to go deeper.",
       "source": {
@@ -20332,6 +25825,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O06",
         "notes": "grid square O06. take the path on the right from pamper plaza, we"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 6,
+          "key": "O6",
+          "label": "O06"
+        }
+      ],
       "tags": [],
       "description": "are at the corner of the next turn Welcome to Lunar Yoga - a yoga session using the ancient Kundalini yoga technology applied for WOMEN! Bring your yoga mat and reconnect with yourself. Satnam, Aline",
       "source": {
@@ -20359,6 +25860,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. Penta Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [],
       "description": "Come wrestle like puppies, move like ninjas and flow like water. Playfight & Flow is a movement workshop with games, soft sparring, balance battles and creative chaos - while exploring flow and the triggers that help us drop into it.",
       "source": {
@@ -20386,6 +25895,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S18",
         "notes": "grid square S18. Huge Circus tent"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 18,
+          "key": "S18",
+          "label": "S18"
+        }
+      ],
       "tags": [],
       "description": "Defy gravity and discover fluid movement trough dynamic sequences and surprinsing wraps. Come to fly in the air and transform the silks into your own canvas.",
       "source": {
@@ -20412,6 +25929,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J20",
         "notes": "grid square J20. Outside Clown Police HQ"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 20,
+          "key": "J20",
+          "label": "J20"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -20441,6 +25966,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "L06",
         "notes": "grid square L06."
       },
+      "gridSquares": [
+        {
+          "column": "L",
+          "row": 6,
+          "key": "L6",
+          "label": "L06"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -20470,6 +26003,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M21",
         "notes": "grid square M21. Big white star shaped tent in the Secret Garden"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 21,
+          "key": "M21",
+          "label": "M21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -20500,6 +26041,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O07",
         "notes": "grid square O07."
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 7,
+          "key": "O7",
+          "label": "O07"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -20529,6 +26078,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M11",
         "notes": "grid square M11."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -20558,6 +26115,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M11",
         "notes": "grid square M11. Big dome on the Penta Plaza."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "Come enjoy the healing sounds of crystal singing bowls and vibrations of weighted tuning forks. We will enjoy 35-45 minutes of singing bowls and after that we pair up to enjoy tuning forks with different frequencies for the rest of the time.",
       "source": {
@@ -20585,6 +26150,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameless Plaza."
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -20614,6 +26187,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square R21. We're located in the Wedge neighbourhood, across the",
         "gridSquare": "R21"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 21,
+          "key": "R21",
+          "label": "R21"
+        }
+      ],
       "tags": [],
       "description": "road from a swamp with a massive rock Feeling stif after yesterdays shananigans? Come join a soothing cat yoga session inspired by mindful movements from our flexible, feline friends. We will stretch, de-stress and share a puurfect moment to get you ready for another day of playfulness in the playa. (There will be no live cats. You are welcome to bring your best cat pose). See you on the mat! Miav!",
       "source": {
@@ -20641,6 +26222,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S16",
         "notes": "grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 16,
+          "key": "S16",
+          "label": "S16"
+        }
+      ],
       "tags": [],
       "description": "area opposite the large tent of CIRCUS the ANALOG. Trust, balance, laughter and occasional graceful collapse. Learn to fly, catch, and connect through movement. No experience needed, just curiosity and a willing partner.",
       "source": {
@@ -20695,6 +26284,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P06",
         "notes": "grid square P06."
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 6,
+          "key": "P6",
+          "label": "P06"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -20724,6 +26321,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R13",
         "notes": "grid square R13."
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 13,
+          "key": "R13",
+          "label": "R13"
+        }
+      ],
       "tags": [],
       "description": "No drums Electro acoustic and vocals Chilled out Electronic beats synths vocals and spacey sounds. Analog visual projection by Hanna Want to bring your synth? come half an hour before we start.",
       "source": {
@@ -20750,6 +26355,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P22",
         "notes": "grid square P22. Big 10m diameter dome"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 22,
+          "key": "P22",
+          "label": "P22"
+        }
+      ],
       "tags": [],
       "description": "Master the magical art of doing nothing! No goals, no to-dos just you, a comfy spot, and sweet, glorious idleness. Hug a tree, wiggle your toes, daydream wildly. It’s fun, it’s freeing, it’s fabulously unproductive. Permission to laze: granted!",
       "source": {
@@ -20777,6 +26390,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P13",
         "notes": "grid square P13."
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 13,
+          "key": "P13",
+          "label": "P13"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -20806,6 +26427,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R12",
         "notes": "grid square R12. Outside the tent of Secret Sailors, inside of raining."
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 12,
+          "key": "R12",
+          "label": "R12"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -20835,6 +26464,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -20863,6 +26500,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "U21",
         "notes": "grid square U21."
       },
+      "gridSquares": [
+        {
+          "column": "U",
+          "row": 21,
+          "key": "U21",
+          "label": "U21"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -20892,6 +26537,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Follow the lesbian flag and the fairy lights to the"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sober"
@@ -20922,6 +26575,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S12",
         "notes": "grid square S12. Near Lowland Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 12,
+          "key": "S12",
+          "label": "S12"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -20952,6 +26613,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M21",
         "notes": "grid square M21. The big greenhouse in the Secret Garden."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 21,
+          "key": "M21",
+          "label": "M21"
+        }
+      ],
       "tags": [],
       "description": "Bring your favorite cloth that has a hole or more. We have string, needles, and patches for you to use. We can teach you how to repair your clothes with sashiko, weave darning, embroidery or patching. You can also bring your own project. Let's repair, create, learn and hang out together.",
       "source": {
@@ -20979,6 +26648,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10. in the big Tipi"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [],
       "description": "A llight and easy Kundalini Yoga set with stretching, breathing exercises and relaxation at the end. Bring a towel or yoga mat.",
       "source": {
@@ -21006,6 +26683,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10. in the big Tipi"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -21035,6 +26720,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O20",
         "notes": "grid square O20. Shameless plaza next to sinnergirl"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 20,
+          "key": "O20",
+          "label": "O20"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -21064,6 +26757,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O06",
         "notes": "grid square O06. In the Arctic Chill, close to Pamper Plaza, behind"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 6,
+          "key": "O6",
+          "label": "O06"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -21090,6 +26791,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "The Heart",
         "area": "The Heart"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -21146,6 +26855,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N09",
         "notes": "grid square N09. We will be in our office in the dome next to the"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 9,
+          "key": "N9",
+          "label": "N09"
+        }
+      ],
       "tags": [],
       "description": "street. Solve cases together on stage! Explore the dynamics of dominance and submission, and observe how your brain panics or triumphs in real-time. This safe space offers play, experimentation, and unpredictable insights. Bring your cases, curiosity, and a watertight alibi — you will need it.",
       "source": {
@@ -21173,6 +26890,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q10",
         "notes": "grid square Q10. Look for disco balls and listen for disco groove!"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 10,
+          "key": "Q10",
+          "label": "Q10"
+        }
+      ],
       "tags": [],
       "description": "Do you love disco, house classics, groove in body and soul, ice-cold slushies, effortless community with openness, joy and warmth in focus? Then, my friend, you are welcome to our little social space and mini dancefloor under the disco ball's inviting glow next to our cozy tipi. Wednesday through Friday between approx. 12–15, DJ Divanté & DJ Simpqlicious with friends invite you all to celebrate life – because disco is life and disco lives in all of us!",
       "source": {
@@ -21200,6 +26925,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O05",
         "notes": "grid square O05."
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 5,
+          "key": "O5",
+          "label": "O05"
+        }
+      ],
       "tags": [],
       "description": "A gentle space to reconnect with your body. Join us for yoga, mindful movement, breathwork, and deep stretches to recover from dancing, release tension, and start or end your day feeling grounded. Everyone is welcome, no experience needed.",
       "source": {
@@ -21227,6 +26960,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M13",
         "notes": "grid square M13. Right next to Agrabah village. We have a beg"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 13,
+          "key": "M13",
+          "label": "M13"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -21255,6 +26996,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O22",
         "notes": "grid square O22. Bison - Next to Sunset Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 22,
+          "key": "O22",
+          "label": "O22"
+        }
+      ],
       "tags": [],
       "description": "Enjoy chai, coffee, and cookies that taste like care, baked with love, served with presence and compassion. (There is a good chance that we will also serve coffee, etc outside our listed hours <3)",
       "source": {
@@ -21282,6 +27031,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "K21",
         "notes": "grid square K21."
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 21,
+          "key": "K21",
+          "label": "K21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Triggering themes",
@@ -21313,6 +27070,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "H22",
         "notes": "grid square H22. just by the big lake Alversjoe"
       },
+      "gridSquares": [
+        {
+          "column": "H",
+          "row": 22,
+          "key": "H22",
+          "label": "H22"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -21342,6 +27107,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N20",
         "notes": "grid square N20. Cross from downtown garden over the wooden"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 20,
+          "key": "N20",
+          "label": "N20"
+        }
+      ],
       "tags": [],
       "description": "bridge by the wood storage or enter from the Shameless Plaza below Club Sin In this workshop we explore mingling and play on the dance floor. How do we create a dance floor that's a little more interactive, respectful and playful? Easy party steps will be handed out! No prior experience of dancing, mingling or sense of humor is required. Come as you are with curiosity in you back pocket!",
       "source": {
@@ -21369,6 +27142,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P06",
         "notes": "grid square P06."
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 6,
+          "key": "P6",
+          "label": "P06"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sensory content"
@@ -21397,6 +27178,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "grid square P25. The southest part of bison, look for a portal like entrance",
         "gridSquare": "P25"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 25,
+          "key": "P25",
+          "label": "P25"
+        }
+      ],
       "tags": [],
       "description": "A guided Life Force Activation session with facilitator Julia Persson, with live vocals by Shamama. LFA is a gentle yet powerful energy practice: lie on a yoga mat, relax, and let music and touch on energy points guide your journey — physical movement, emotional release, expanded awareness or inner visions may arise. Reconnect with your authentic self beyond conditioning and fear- based patterns. Light breakfast 2–3h before Soft, comfortable clothes Avoid intoxicating substances 1–2 days prior Not recommended with epilepsy, third-trimester pregnancy, or history of schizophrenia/psychosis. Limited to 10 people.",
       "source": {
@@ -21424,6 +27213,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O20",
         "notes": "grid square O20."
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 20,
+          "key": "O20",
+          "label": "O20"
+        }
+      ],
       "tags": [],
       "description": "Drift. Dissolve. Improvised music played with strange instruments you've never heard and can't name. Horizontal participation strongly encouraged. Bring a blanket, leave your sense of time.",
       "source": {
@@ -21451,6 +27248,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "H19",
         "notes": "grid square H19."
       },
+      "gridSquares": [
+        {
+          "column": "H",
+          "row": 19,
+          "key": "H19",
+          "label": "H19"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -21480,6 +27285,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R17",
         "notes": "grid square R17."
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 17,
+          "key": "R17",
+          "label": "R17"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -21509,6 +27322,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O06",
         "notes": "grid square O06. In the big tippi"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 6,
+          "key": "O6",
+          "label": "O06"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -21538,6 +27359,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10. in the big Tipi"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [],
       "description": "We notice things about people all the time, but how often do we actually say them? This workshop is about closing the gap between what you silently appreciate and what you actually offer. We practice turning observation into gift. No performance. No pressure. Just the quiet radical act of telling someone what you genuinely see in them. Come with your eyes open. Leave with a lighter mouth.",
       "source": {
@@ -21564,6 +27393,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q19",
         "notes": "grid square Q19. A curly haired lad in a black beanie roaming around,"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 19,
+          "key": "Q19",
+          "label": "Q19"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -21593,6 +27430,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. Penta Plaza in the Highlands"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [],
       "description": "Feeling stuck, heavy or too serious? Are you trying to micromanage your experience or feel it should be different? Thursdays at Borderland can often carry with it all of the above, or not?! Either way… come explore these themes and your relationship to them. Practice moving from heaviness to lightheartedness through improvisation, somatic exploration, expression and witnessing.",
       "source": {
@@ -21620,6 +27465,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "H22",
         "notes": "grid square H22. just by the big lake Alversjoe"
       },
+      "gridSquares": [
+        {
+          "column": "H",
+          "row": 22,
+          "key": "H22",
+          "label": "H22"
+        }
+      ],
       "tags": [],
       "description": "Gratitude is a gateway to freedom. It is also a muscle that needs to be trained regularly. Josef will guide a gratitude-based meditation, while ambient musician Slow Moon takes us on an immersive live sound journey.",
       "source": {
@@ -21647,6 +27500,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S16",
         "notes": "grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 16,
+          "key": "S16",
+          "label": "S16"
+        }
+      ],
       "tags": [],
       "description": "area opposite the large tent of CIRCUS the ANALOG. A low-pressure guided movement playground inspired by bellydance, flamenco, Indian dance, hip hop and general weirdness. Explore hips, spine, hands, circles, waves, accents, softness and presence. No experience required. Just come move without needing it to become anything.",
       "source": {
@@ -21672,6 +27533,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Muumin Valley, grid square F10. Look for s man and a woman in the same body",
         "gridSquare": "F10"
       },
+      "gridSquares": [
+        {
+          "column": "F",
+          "row": 10,
+          "key": "F10",
+          "label": "F10"
+        }
+      ],
       "tags": [],
       "description": "around Kishmastle Space Station Jenny Benny is a character I've created and I'm so happy to bring to Borderland — an elf-inspired figure, singing as both a man and a woman, performing duets with myself. Most songs are my own, written for Jenny Benny, plus a few fitting covers. A short musical performance, playful, emotional, sometimes funny, sometimes touching. My hope: you leave with a smile and a song in your heart.",
       "source": {
@@ -21698,6 +27567,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "U13",
         "notes": "grid square U13."
       },
+      "gridSquares": [
+        {
+          "column": "U",
+          "row": 13,
+          "key": "U13",
+          "label": "U13"
+        }
+      ],
       "tags": [],
       "description": "Sigil & Tattoo workshop Join us in creating a personal sigil from a word, intention, or desire. Through a simple ritual of letters and shapes, language dissolves into symbol—a mark that belongs only to you. Take your sigil home on paper, or choose to have it tattooed as a permanent reminder of this moment, this place, and whatever called you here. Every mark tells a story. Perhaps it’s time to write yours.",
       "source": {
@@ -21725,6 +27602,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N12",
         "notes": "grid square N12. If it looks like a Moroccan wonderland with a bunch"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 12,
+          "key": "N12",
+          "label": "N12"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -21754,6 +27639,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "U16",
         "notes": "grid square U16. This camp is located behind Crocket Corner"
       },
+      "gridSquares": [
+        {
+          "column": "U",
+          "row": 16,
+          "key": "U16",
+          "label": "U16"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sensory content",
@@ -21785,6 +27678,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M11",
         "notes": "grid square M11. Big dome on the Penta Plaza."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "Come as you are or bring something to embroider on! There will be materials and tools to use and whatever you create is yours to bring with you home. A chill hangout open for quietness or conversations as we create with our hands <3",
       "source": {
@@ -21811,6 +27712,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S18",
         "notes": "grid square S18. big circus tent"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 18,
+          "key": "S18",
+          "label": "S18"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sober"
@@ -21841,6 +27750,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameless Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive"
@@ -21871,6 +27788,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "L05",
         "notes": "grid square L05."
       },
+      "gridSquares": [
+        {
+          "column": "L",
+          "row": 5,
+          "key": "L5",
+          "label": "L05"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -21899,6 +27824,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "K19",
         "notes": "grid square K19. Lower floor of the Barn (also known as the Living"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 19,
+          "key": "K19",
+          "label": "K19"
+        }
+      ],
       "tags": [],
       "description": "Room) The Museum of Bad Art (MoBA) and MoBAxDEBATE presents one of the most urgent art debates of the year. Join the urgent debacle between the sheltered meaning of the Snail and the naked truth of the Slug. Expect nothing, learn less.",
       "source": {
@@ -21926,6 +27859,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M19",
         "notes": "grid square M19."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 19,
+          "key": "M19",
+          "label": "M19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -21956,6 +27897,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M21",
         "notes": "grid square M21. Big white star shaped tent in the Secret Garden"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 21,
+          "key": "M21",
+          "label": "M21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -21984,6 +27933,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square R22.",
         "gridSquare": "R22"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 22,
+          "key": "R22",
+          "label": "R22"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive"
@@ -22014,6 +27971,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N13",
         "notes": "grid square N13. Agrabah Village, in south eastern Highlands"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 13,
+          "key": "N13",
+          "label": "N13"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -22042,6 +28007,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square S22.",
         "gridSquare": "S22"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 22,
+          "key": "S22",
+          "label": "S22"
+        }
+      ],
       "tags": [],
       "description": "Play With Your Food - an opportunity to explore flavors and textures, your senses and your perceptions",
       "source": {
@@ -22069,6 +28042,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q19",
         "notes": "grid square Q19."
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 19,
+          "key": "Q19",
+          "label": "Q19"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -22098,6 +28079,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P13",
         "notes": "grid square P13. White with red decorations. Follow the glorious smell"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 13,
+          "key": "P13",
+          "label": "P13"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -22127,6 +28116,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S17",
         "notes": "grid square S17. next to the Fire Plaza, under a linenroof. Contact for"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 17,
+          "key": "S17",
+          "label": "S17"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober",
@@ -22159,6 +28156,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O20",
         "notes": "grid square O20. Shameless plaza next to sinnergirl"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 20,
+          "key": "O20",
+          "label": "O20"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive",
@@ -22190,6 +28195,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N20",
         "notes": "grid square N20. In the playspace of the end of the rainbow camp"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 20,
+          "key": "N20",
+          "label": "N20"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -22216,6 +28229,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "grid square G10. In the old Muumima Valley you will find two spacestations",
         "gridSquare": "G10"
       },
+      "gridSquares": [
+        {
+          "column": "G",
+          "row": 10,
+          "key": "G10",
+          "label": "G10"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -22243,6 +28264,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "grid square G10. Follow the forest path past the sanctuary, when arriving to",
         "gridSquare": "G10"
       },
+      "gridSquares": [
+        {
+          "column": "G",
+          "row": 10,
+          "key": "G10",
+          "label": "G10"
+        }
+      ],
       "tags": [],
       "description": "hyperstition space station, take the left forest path through the Gate of Alvheim to Kishmastle Space station. Come join the Elves of Alvheim to find your inner Elvish voice and let loose before the Ceremony of The Light will set the space for our full day and night journey through psychedelic soundscapes. Explorative voice activation, expect singing and jibberish, elf ears and creative expression to find the essence of your elvish creature.",
       "source": {
@@ -22270,6 +28299,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S19",
         "notes": "grid square S19. In front of the Bureau's Reception at the Earth Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 19,
+          "key": "S19",
+          "label": "S19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive"
@@ -22297,6 +28334,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "The Heart",
         "area": "The Heart"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "Highlands, grid square M11. Look out for the flag with the big heart on it! The runes is more than an alphabet for the Nordic folk. They carried spiritual meaning, magical significance, and were often used for divination, protection, and guidance. In this workshop will be learning the elder and younger Futhark and how to bind runes together into our own sigils. Bring an knife and a stick if you want to carve the runes into wood. Paper and pens will be provided.",
       "source": {
@@ -22323,6 +28368,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10. Right between Penta Plaza and Bayt al-Noor"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sensory content"
@@ -22353,6 +28406,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10. in the big Tipi"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [],
       "description": "Tapping into our senses, of touch, smell, taste. Do you dare to close your eyes and rely fully on your chosen partner?",
       "source": {
@@ -22380,6 +28441,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S13",
         "notes": "grid square S13. Next to Jam Camp, look for the \"ATC\" signs"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 13,
+          "key": "S13",
+          "label": "S13"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -22409,6 +28478,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "K21",
         "notes": "grid square K21. Underneath the Church"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 21,
+          "key": "K21",
+          "label": "K21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive",
@@ -22440,6 +28517,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameless Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sensory content"
@@ -22469,6 +28554,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "H20",
         "notes": "grid square H20. Between the big boobs on Sunny Hill under the"
       },
+      "gridSquares": [
+        {
+          "column": "H",
+          "row": 20,
+          "key": "H20",
+          "label": "H20"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -22497,6 +28590,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O12",
         "notes": "grid square O12. By the hammock haven in the southeast of"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 12,
+          "key": "O12",
+          "label": "O12"
+        }
+      ],
       "tags": [],
       "description": "highlands Eld & Rötter invites you to a daytime dance party with DJs serving good tunes and grilled cheese sandwiches served hot. Come hungry, come wiggly, and let the beats, cheese, and forest magic melt together.",
       "source": {
@@ -22524,6 +28625,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O12",
         "notes": "grid square O12."
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 12,
+          "key": "O12",
+          "label": "O12"
+        }
+      ],
       "tags": [],
       "description": "A daytime set for people who want to relax in a hammock cocoon and tune into delicious hand-picked music. Mixing modal jazz, neo soul, instrumental hip hop, and whatever else fits the afternoon. Grab some shade and let the music take over your soul, body, and mind.",
       "source": {
@@ -22551,6 +28660,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N09",
         "notes": "grid square N09. How to find us? Look for the Big Shiny Balls in the"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 9,
+          "key": "N9",
+          "label": "N09"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -22580,6 +28697,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S16",
         "notes": "grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 16,
+          "key": "S16",
+          "label": "S16"
+        }
+      ],
       "tags": [],
       "description": "area opposite the large tent of CIRCUS the ANALOG. Welcome to the wild west of gunslinging, an introduction to the world of double-headed poi!",
       "source": {
@@ -22607,6 +28732,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T16",
         "notes": "grid square T16."
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 16,
+          "key": "T16",
+          "label": "T16"
+        }
+      ],
       "tags": [],
       "description": "Do you remember life before the internet? Can you read a paper map? Have you ever made a mixtape from the radio? Congratulations—you may qualify! Join an informal gathering of Borderland's rarest creatures: participants aged 55+. Come meet fellow elders for stories, laughter, questions and connection.",
       "source": {
@@ -22634,6 +28767,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P13",
         "notes": "grid square P13. Velvet Lounge"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 13,
+          "key": "P13",
+          "label": "P13"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -22663,6 +28804,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M19",
         "notes": "grid square M19."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 19,
+          "key": "M19",
+          "label": "M19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive"
@@ -22692,6 +28841,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R18",
         "notes": "grid square R18. Near the water plaza in the swamp"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 18,
+          "key": "R18",
+          "label": "R18"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive",
@@ -22723,6 +28880,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R12",
         "notes": "grid square R12."
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 12,
+          "key": "R12",
+          "label": "R12"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -22752,6 +28917,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R12",
         "notes": "grid square R12. Secret Sailors tent by Lowlands plaza"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 12,
+          "key": "R12",
+          "label": "R12"
+        }
+      ],
       "tags": [],
       "description": "Come and dance tango together! Learn the basics, grab a partner and feel the heat!",
       "source": {
@@ -22779,6 +28952,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. Highlands"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive"
@@ -22807,6 +28988,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square R21. Find us at the Cuddle Cove plaza in the Wedge!",
         "gridSquare": "R21"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 21,
+          "key": "R21",
+          "label": "R21"
+        }
+      ],
       "tags": [],
       "description": "Wine tasting with a focus on wines with minerals. Come and replenish all the salts and minerals you just danced off, or just join us and enjoy some good wine!",
       "source": {
@@ -22832,6 +29021,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square R22. South-east of BL",
         "gridSquare": "R22"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 22,
+          "key": "R22",
+          "label": "R22"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sober"
@@ -22862,6 +29059,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O06",
         "notes": "grid square O06. take the path on the right from pamper plaza, we"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 6,
+          "key": "O6",
+          "label": "O06"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -22940,6 +29145,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M21",
         "notes": "grid square M21. A big white star shaped tent in the Secret Garden"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 21,
+          "key": "M21",
+          "label": "M21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -22967,6 +29180,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "The Heart",
         "area": "The Heart"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "Highlands, grid square M11. Look out for the flag with the big heart on it! Two worlds collide! The creative contemporary movement meets the freedom, rhythm, & pure joy of club culture. We'll explore movement from different centres of the body, playing with tension & release, relating to one another & discovering what lives between stillness & motion. No experience needed.",
       "source": {
@@ -22994,6 +29215,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10."
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [],
       "description": "Welcome to The Herd! We dance in the afternoon calm (Tue-Thu, 14:30– 17:30). Join the pack for daylight grooves, great company, and a refreshing cup of our home-brewed mango-lemon sour beer from The Pink Parasol Potion Bar!",
       "source": {
@@ -23021,6 +29250,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P09",
         "notes": "grid square P09. In the Dome, look for babies!"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 9,
+          "key": "P9",
+          "label": "P09"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -23048,6 +29285,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Muumin Valley, grid square F10.",
         "gridSquare": "F10"
       },
+      "gridSquares": [
+        {
+          "column": "F",
+          "row": 10,
+          "key": "F10",
+          "label": "F10"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -23074,6 +29319,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "grid square G10. Follow the forest gates near the spacestations...",
         "gridSquare": "G10"
       },
+      "gridSquares": [
+        {
+          "column": "G",
+          "row": 10,
+          "key": "G10",
+          "label": "G10"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -23101,6 +29354,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Muumin Valley, grid square F10. From sanctuary-follow the forest path toward",
         "gridSquare": "F10"
       },
+      "gridSquares": [
+        {
+          "column": "F",
+          "row": 10,
+          "key": "F10",
+          "label": "F10"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -23127,6 +29388,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square R20.",
         "gridSquare": "R20"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 20,
+          "key": "R20",
+          "label": "R20"
+        }
+      ],
       "tags": [],
       "description": "Somewhere between logic and nonsense lies the Mad Hatter's Tea Party. Tea, cakes, mad games, and our legendary Biscuit Dunking Competition await! Dress as wildly as you wish, embrace the absurd, and join the table—because we're all mad here... and we serve snacks.",
       "source": {
@@ -23153,6 +29422,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "W16",
         "notes": "grid square W16. The meeting is in the Tipi tent at Camp All"
       },
+      "gridSquares": [
+        {
+          "column": "W",
+          "row": 16,
+          "key": "W16",
+          "label": "W16"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -23182,6 +29459,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N09",
         "notes": "grid square N09. geodetic dome"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 9,
+          "key": "N9",
+          "label": "N09"
+        }
+      ],
       "tags": [],
       "description": "A long day of detective work leaves traces. Step into our Evidence Removal Unit (Human Carcass Wash), get gently scrubbed clean by fellow detectives, then join the line and help wash away the evidence for the next investigator. Consent and care come first.",
       "source": {
@@ -23209,6 +29494,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. We will be where the Sin is. Always at your service"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -23241,6 +29534,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11."
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober",
@@ -23271,6 +29572,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O22",
         "notes": "grid square O22. Bison - Next to Sunset Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 22,
+          "key": "O22",
+          "label": "O22"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -23298,6 +29607,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square R21. We're located in the Wedge neighbourhood, across the",
         "gridSquare": "R21"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 21,
+          "key": "R21",
+          "label": "R21"
+        }
+      ],
       "tags": [],
       "description": "road from a swamp with a massive rock Come sing the nordic folks' songs to acquiant yourself with \"visa & vemod\". Parts will be taught out by our seasoned singing maester. Tongues from afar mayst find their inner whispers of northen chants, and that they had been there all along.",
       "source": {
@@ -23324,6 +29641,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P22",
         "notes": "grid square P22. Inside a 10m diameter dome"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 22,
+          "key": "P22",
+          "label": "P22"
+        }
+      ],
       "tags": [],
       "description": "Lay back, relax, and let your imagination fly, it’s cloud watching time! Spot dragons, donuts, dancing llamas. Who knows what floats by? Bring your wildest daydreams, and some chill vibes. No rules, no rush, just sky-gazing joy and fluffy fun above.",
       "source": {
@@ -23351,6 +29676,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N06",
         "notes": "grid square N06."
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 6,
+          "key": "N6",
+          "label": "N06"
+        }
+      ],
       "tags": [],
       "description": "Where attention goes, energy flows! Get filled up by the audience's energy, channel your boldest inner mystic and shine your light. Use the stage to overcome your fear of being seen, discover parts of yourself that love to take space, and step into the confidence of being fully witnessed. We want all of you — your magic, your madness, your mystic! Cross the edge of fear and experience the alchemy of supporting each other to shine.",
       "source": {
@@ -23378,6 +29711,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "L09",
         "notes": "grid square L09."
       },
+      "gridSquares": [
+        {
+          "column": "L",
+          "row": 9,
+          "key": "L9",
+          "label": "L09"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -23407,6 +29748,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P24",
         "notes": "grid square P24. By the tree house in Bison"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 24,
+          "key": "P24",
+          "label": "P24"
+        }
+      ],
       "tags": [],
       "description": "Are you tired of getting all that macro plastic in your body? Dont get that homey fealing sticking post order plugs up your but? Dont wory we got you covered. Join in on carving your own but plug out of apple wood ! I have sourced beautiful apple and made bite sized bits of different sizes to fit your specific crevice. Come finish the job. BYOK - Bring your own knife Use finished product at your own risk.",
       "source": {
@@ -23432,6 +29781,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "grid square P25. The southest part of bison, look for a portal like entrance",
         "gridSquare": "P25"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 25,
+          "key": "P25",
+          "label": "P25"
+        }
+      ],
       "tags": [],
       "description": "Welcome to the Rainbows and Joys DAYYPARTYY! Ease into the day with playful DJ sets by nissan, Christopher, admzoo and many more. Expect a dancefloor full of joyful tunes like disco, house and happy vibes.",
       "source": {
@@ -23458,6 +29815,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R11",
         "notes": "grid square R11. South of snackplaza, by Fox Hole Camper Vans"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 11,
+          "key": "R11",
+          "label": "R11"
+        }
+      ],
       "tags": [],
       "description": "Some follow the music. Others follow the smoke. Wander into the Low Lands, just south of Snack Plaza, where glowing coals, happy bellies, and friendly faces await. We grill with heart, season with joy, and serve questionable grill- master jokes free of charge.",
       "source": {
@@ -23485,6 +29850,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "K21",
         "notes": "grid square K21. The Church, Downtown"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 21,
+          "key": "K21",
+          "label": "K21"
+        }
+      ],
       "tags": [],
       "description": "Metal music played under the eaves of the Church. No burning churches allowed. Special guest DJ at 23:00",
       "source": {
@@ -23512,6 +29885,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q19",
         "notes": "grid square Q19."
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 19,
+          "key": "Q19",
+          "label": "Q19"
+        }
+      ],
       "tags": [],
       "description": "Intro to understanding psychedelic trips as diversifying experiences and group sharing on learning from psychedelic challenges in community",
       "source": {
@@ -23539,6 +29920,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S12",
         "notes": "grid square S12. Near lowlands Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 12,
+          "key": "S12",
+          "label": "S12"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -23569,6 +29958,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "V16",
         "notes": "grid square V16. In the Yachtees Magic Offerings area on the"
       },
+      "gridSquares": [
+        {
+          "column": "V",
+          "row": 16,
+          "key": "V16",
+          "label": "V16"
+        }
+      ],
       "tags": [],
       "description": "Eastern Slope, between The Wrecked Yachtees Asylum and Linda Land. It's just east of The Brothel and immediately south of the main road through the camping area next to Camp YES! For all who want to play a round of hacky sack or to learn how to do it Individuals, partners or groups are welcomed But if you expect this to be a kinky Playspace, you will be PROBABLY at the wrong place",
       "source": {
@@ -23593,6 +29990,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Pretty Parking, grid square L04.",
         "gridSquare": "L04"
       },
+      "gridSquares": [
+        {
+          "column": "L",
+          "row": 4,
+          "key": "L4",
+          "label": "L04"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -23621,6 +30026,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R19",
         "notes": "grid square R19. We are orange"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 19,
+          "key": "R19",
+          "label": "R19"
+        }
+      ],
       "tags": [],
       "description": "Come squeeze yourself a glass of orange juice - you never know where it might take you.",
       "source": {
@@ -23648,6 +30061,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10. in the big Tipi"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [],
       "description": "The Five Tibetan Rites are a series of five simple exercises that combine movement, balance, strength, and controlled breathing. They support vitality, slow the effect of aging, and promote longevity when practiced regularly. Rites are easy to learn and can be integrated into daily life easily.",
       "source": {
@@ -23675,6 +30096,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameless Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive",
@@ -23706,6 +30135,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T19",
         "notes": "grid square T19. The LED dansbana (pavilion)"
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 19,
+          "key": "T19",
+          "label": "T19"
+        }
+      ],
       "tags": [],
       "description": "Looking for a place to play or dance to Swedish folk music? Come to DansBanderLand at 16:00! Basic Swedish folk dance workshop at 15:30.",
       "source": {
@@ -23733,6 +30170,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M11",
         "notes": "grid square M11. Highlands, Penta plaza (big flag) next to Chilldome"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -23762,6 +30207,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R12",
         "notes": "grid square R12. Secret Sailors"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 12,
+          "key": "R12",
+          "label": "R12"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -23793,6 +30246,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M11",
         "notes": "grid square M11. Big dome on the Penta Plaza."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "House isn't just about the music — there's a dance to it! I'll teach you some steps, share a bit of community history, and we'll groove together. Pack a few moves in your backpack to unpack whenever it's time to house it down!",
       "source": {
@@ -23820,6 +30281,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S18",
         "notes": "grid square S18. Huge Circus tent"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 18,
+          "key": "S18",
+          "label": "S18"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -23849,6 +30318,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S16",
         "notes": "grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 16,
+          "key": "S16",
+          "label": "S16"
+        }
+      ],
       "tags": [],
       "description": "area opposite the large tent of CIRCUS the ANALOG. Connection, trust, Play between two people and group",
       "source": {
@@ -23876,6 +30353,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "L08",
         "notes": "grid square L08. Orange Van"
       },
+      "gridSquares": [
+        {
+          "column": "L",
+          "row": 8,
+          "key": "L8",
+          "label": "L08"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -23905,6 +30390,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R13",
         "notes": "grid square R13."
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 13,
+          "key": "R13",
+          "label": "R13"
+        }
+      ],
       "tags": [
         "Sober",
         "Queer-inclusive"
@@ -23934,6 +30427,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q12",
         "notes": "grid square Q12. We welcome you at the Lowlands Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 12,
+          "key": "Q12",
+          "label": "Q12"
+        }
+      ],
       "tags": [],
       "description": "A corner of Paris in the woods — wine, peanuts, and the art of l’Apéro.",
       "source": {
@@ -23958,6 +30459,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square Q21. our camp will be close to the slow zone, in between",
         "gridSquare": "Q21"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 21,
+          "key": "Q21",
+          "label": "Q21"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -23987,6 +30496,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M12",
         "notes": "grid square M12. South point of the Penta Plaze @Highlands"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 12,
+          "key": "M12",
+          "label": "M12"
+        }
+      ],
       "tags": [],
       "description": "Welcome to ACPI. Present your delightfully useless invention to our judges, who will evaluate each creation for pointlessness.",
       "source": {
@@ -24014,6 +30531,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M21",
         "notes": "grid square M21."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 21,
+          "key": "M21",
+          "label": "M21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -24044,6 +30569,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O06",
         "notes": "grid square O06. In the Arctic Chill, close to Pamper Plaza, behind"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 6,
+          "key": "O6",
+          "label": "O06"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -24073,6 +30606,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O22",
         "notes": "grid square O22."
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 22,
+          "key": "O22",
+          "label": "O22"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -24101,6 +30642,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P23",
         "notes": "grid square P23."
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 23,
+          "key": "P23",
+          "label": "P23"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive"
@@ -24131,6 +30680,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q19",
         "notes": "grid square Q19. Water plaza - The Swamp"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 19,
+          "key": "Q19",
+          "label": "Q19"
+        }
+      ],
       "tags": [],
       "description": "A support group and sharing circle exploring the conscious and unconscious motivations we bring into spiritual practice, and the psychological conflicts that arise: how much to \"buy into\" a tradition, ambivalence about lifestyle, spirituality as escape fantasy, shame, self-judgement, pride, and swapping a worldly ego-identity for a shiny new spiritual one. A non-hierarchical space of empathic listening and mutual respect.",
       "source": {
@@ -24158,6 +30715,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M08",
         "notes": "grid square M08."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 8,
+          "key": "M8",
+          "label": "M08"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive"
@@ -24188,6 +30753,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q19",
         "notes": "grid square Q19."
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 19,
+          "key": "Q19",
+          "label": "Q19"
+        }
+      ],
       "tags": [],
       "description": "Collaborative creature-doodling, summoning surrealist spirits. Draw. Fold. Pass. Reveal. Bring your own hand, we'll provide the pen and paper.",
       "source": {
@@ -24215,6 +30788,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive"
@@ -24243,6 +30824,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square R22.",
         "gridSquare": "R22"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 22,
+          "key": "R22",
+          "label": "R22"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober",
@@ -24274,6 +30863,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O06",
         "notes": "grid square O06."
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 6,
+          "key": "O6",
+          "label": "O06"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -24304,6 +30901,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. Penta Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -24333,6 +30938,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M11",
         "notes": "grid square M11. Highlands, Penta plaza (big flag) next to Chilldome"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "Borderland needs more reggae! Flowzone DJ will take you on a journey from classic reggae into unrestringingly good dancing tunes. Bring your best vibe, maybe something to sit on, snacks/drink -or all of it, and enjoy some sweet wonderful music by the monkeybar.",
       "source": {
@@ -24360,6 +30973,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameless Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive"
@@ -24387,6 +31008,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "The Heart",
         "area": "The Heart"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -24416,6 +31045,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "V16",
         "notes": "grid square V16. In the Yachtees Magic Offerings area on the"
       },
+      "gridSquares": [
+        {
+          "column": "V",
+          "row": 16,
+          "key": "V16",
+          "label": "V16"
+        }
+      ],
       "tags": [],
       "description": "Eastern Slope, between The Wrecked Yachtees Asylum and Linda Land. It's just east of The Brothel and immediately south of the main road through the camping area next to Camp YES. Ever wondered if your POOP is trying to tell you something? LAUGH, learn, and flush away the poop TABOO in this wildly interactive comedy-meets- science experience. Expect surprising facts, hilarious moments, and toilet truths that will help you understand what your gut's been trying to tell you. Come curious and leave ready to spread the good shit.",
       "source": {
@@ -24442,6 +31079,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "I20",
         "notes": "grid square I20. Exact location will be decided on site. Probably"
       },
+      "gridSquares": [
+        {
+          "column": "I",
+          "row": 20,
+          "key": "I20",
+          "label": "I20"
+        }
+      ],
       "tags": [
         "Triggering themes"
       ],
@@ -24468,8 +31113,17 @@ const generatedSchedule: NormalizedSchedule = {
       "location": {
         "name": "Eastern Slope, W16.",
         "area": "Eastern Slope",
+        "gridSquare": "W16",
         "notes": "W16."
       },
+      "gridSquares": [
+        {
+          "column": "W",
+          "row": 16,
+          "key": "W16",
+          "label": "W16"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -24501,6 +31155,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S18",
         "notes": "grid square S18. Huge Circus tent"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 18,
+          "key": "S18",
+          "label": "S18"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -24530,6 +31192,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S16",
         "notes": "grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 16,
+          "key": "S16",
+          "label": "S16"
+        }
+      ],
       "tags": [],
       "description": "area opposite the large tent of CIRCUS the ANALOG. You keep seeing these mythical creatures playing with fire and lights? Anyone can learn it! This is an opportunity to try out different toys and learn some tricks. No matter if you’re completely new to flow arts, want to try a prop you haven’t before, or practice one you know well.",
       "source": {
@@ -24557,6 +31227,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q11",
         "notes": "grid square Q11."
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 11,
+          "key": "Q11",
+          "label": "Q11"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -24585,6 +31263,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Muumin Valley, grid square F10. Just find the colors at the Kishmastle",
         "gridSquare": "F10"
       },
+      "gridSquares": [
+        {
+          "column": "F",
+          "row": 10,
+          "key": "F10",
+          "label": "F10"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -24613,6 +31299,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O22",
         "notes": "grid square O22. Sunset plaza"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 22,
+          "key": "O22",
+          "label": "O22"
+        }
+      ],
       "tags": [],
       "description": "The Playa is transforming from daytime playground to nighttime adventure. Rest your legs & butts, meet new friends over shared shisha and tea, and prepare for the adventures of the night!",
       "source": {
@@ -24640,6 +31334,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. Penta Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -24668,6 +31370,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "The Villa, grid square K14.",
         "gridSquare": "K14"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 14,
+          "key": "K14",
+          "label": "K14"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sensory content"
@@ -24697,6 +31407,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q12",
         "notes": "grid square Q12. We welcome you at the Lowlands Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 12,
+          "key": "Q12",
+          "label": "Q12"
+        }
+      ],
       "tags": [],
       "description": "Happy Hour à la Française! — Sparkling wine, peanuts, and the art of l’Apéro.",
       "source": {
@@ -24721,6 +31439,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "grid square P25. The southest part of bison, look for a portal like entrance",
         "gridSquare": "P25"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 25,
+          "key": "P25",
+          "label": "P25"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -24750,6 +31476,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N13",
         "notes": "grid square N13. Agrabah Village, in south eastern Highlands"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 13,
+          "key": "N13",
+          "label": "N13"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive",
@@ -24778,6 +31512,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "The Heart",
         "area": "The Heart"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -24804,6 +31546,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "The Heart",
         "area": "The Heart"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "Highlands, grid square M11. Look out for the flag with the big heart on it! Do you still do \"skipping\"? Do you remember how we all used to skip as kids? Skipping is the art of effortles movement. It's the closest thing to flying. Feels like bouncing the Earth away from us, not the other way around. Skipping!",
       "source": {
@@ -24831,6 +31581,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10. in the big Tipi"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [],
       "description": "See your breath in light. Feel calm and connected. Expand the diaphragm, explore pranayama breathwork and connect using Sym - an interactive art object that visualises breathing real-time in a soothing light, using custom sensors. As we sync our breath, Sym radiates with rainbows! Limited capacity.",
       "source": {
@@ -24880,6 +31638,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "The Heart",
         "area": "The Heart"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -24909,6 +31675,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N13",
         "notes": "grid square N13. Search for the Tribal Mystics in Agraba village,"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 13,
+          "key": "N13",
+          "label": "N13"
+        }
+      ],
       "tags": [
         "Triggering themes",
         "Sensory content"
@@ -24939,6 +31713,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M11",
         "notes": "grid square M11. Big dome on the Penta Plaza."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "Welcome to our executive presentation simulator. Roll for a slideshow from our curated library and present it like you wrote it yourself. No preparation. No context. Just confidence, business buzzwords, and impeccable delivery.",
       "source": {
@@ -24966,6 +31748,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S18",
         "notes": "grid square S18. We’re located in the swampedi Swamp. Right in the"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 18,
+          "key": "S18",
+          "label": "S18"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive"
@@ -24995,6 +31785,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameless Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sensory content"
@@ -25024,6 +31822,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameful Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -25052,6 +31858,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameful Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -25081,6 +31895,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T19",
         "notes": "grid square T19. The LED dansbana (= pavilion)"
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 19,
+          "key": "T19",
+          "label": "T19"
+        }
+      ],
       "tags": [],
       "description": "Welcome to a night of blending dances together. First we warm up with contact impro and establish limits. After that we will host 15 min workshops in bug, bachata and kizomba/folkdans? , encouraging you to blend all styles.",
       "source": {
@@ -25108,6 +31930,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N20",
         "notes": "grid square N20. Cross from downtown garden over the wooden"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 20,
+          "key": "N20",
+          "label": "N20"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -25139,6 +31969,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O20",
         "notes": "grid square O20. Shameless plaza next to sinnergirl"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 20,
+          "key": "O20",
+          "label": "O20"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -25195,6 +32033,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q19",
         "notes": "grid square Q19. The medieval camp by the little forest in Swamp, on"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 19,
+          "key": "Q19",
+          "label": "Q19"
+        }
+      ],
       "tags": [],
       "description": "the side facing the empty field The world is changing. The world will never be the same. Whether you think this epochal transformation will be for good or ill, we are here to say goodbye to the old world We gather while the present is still ordinary enough to recognize - the only world any of us have known. At the precipice of great change, we meet in uncertainty, to feel what matters, to share what we fear losing, and to carry it forward together.",
       "source": {
@@ -25222,6 +32068,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M20",
         "notes": "grid square M20. The mighty worm will work its way throughout the"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 20,
+          "key": "M20",
+          "label": "M20"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Triggering themes",
@@ -25253,6 +32107,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O06",
         "notes": "grid square O06. In the Arctic Chill, close to Pamper Plaza, behind"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 6,
+          "key": "O6",
+          "label": "O06"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -25281,6 +32143,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P23",
         "notes": "grid square P23. The big red tent on the hill, by the Bison"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 23,
+          "key": "P23",
+          "label": "P23"
+        }
+      ],
       "tags": [],
       "description": "sculpture. Brew, breathe, and drift into the night. Let the fireplace, gentle melodies, and our homemade chai be your safe harbor until the stars take over.",
       "source": {
@@ -25308,6 +32178,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "V18",
         "notes": "grid square V18."
       },
+      "gridSquares": [
+        {
+          "column": "V",
+          "row": 18,
+          "key": "V18",
+          "label": "V18"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -25336,6 +32214,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R17",
         "notes": "grid square R17."
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 17,
+          "key": "R17",
+          "label": "R17"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive"
@@ -25366,6 +32252,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -25395,6 +32289,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -25424,6 +32326,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S17",
         "notes": "grid square S17. We'll be around the fire."
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 17,
+          "key": "S17",
+          "label": "S17"
+        }
+      ],
       "tags": [],
       "description": "Come travellers, witches and wizards: gather by the Wild Sacred Fire to enter myth through twilight. Together we become a threefold creature: story, teller and listener. Bring a story, a poem, or simply your listening — by the heat of the fire and a warm cup of cacao.",
       "source": {
@@ -25451,6 +32361,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. Penta Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive"
@@ -25479,6 +32397,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square R21. Top right corner of The Wedge, bordering The Swamp",
         "gridSquare": "R21"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 21,
+          "key": "R21",
+          "label": "R21"
+        }
+      ],
       "tags": [],
       "description": "and forest Michalada is a beer-based cocktail with tomato juice. It's awesome. There might also be crisps",
       "source": {
@@ -25506,6 +32432,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T18",
         "notes": "grid square T18. Once you hear cool jazz you’re close; find two large"
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 18,
+          "key": "T18",
+          "label": "T18"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -25535,6 +32469,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S18",
         "notes": "grid square S18. Huge circus tent"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 18,
+          "key": "S18",
+          "label": "S18"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -25563,6 +32505,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R12",
         "notes": "grid square R12. Look for the neon sign"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 12,
+          "key": "R12",
+          "label": "R12"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -25591,6 +32541,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M08",
         "notes": "grid square M08. Deep in the throbbing woods"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 8,
+          "key": "M8",
+          "label": "M08"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -25623,6 +32581,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink Temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [],
       "description": "Borderlings- gather together and seek no more! For on this very night we shall find the answers! • 9pm Bring your art cars and mobile bars! • 945pm Liftoff.. • 1130pm Universal Block Party - Gods, fire and lights performers check in Weds 1pm and/or https://tinyurl.com/87utmrrz",
       "source": {
@@ -25650,6 +32616,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R17",
         "notes": "grid square R17. From the big empty field walk towards the fuckoff"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 17,
+          "key": "R17",
+          "label": "R17"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -25681,6 +32655,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10. in the big Tipi"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [],
       "description": "Come, friend, and sit with us. Beneath the roots of the earth tree, we welcome you. Share your stories, warm yourself at our crackling fire and slow down for a while. You are welcome here. Just the way you are.",
       "source": {
@@ -25708,6 +32690,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S16",
         "notes": "grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 16,
+          "key": "S16",
+          "label": "S16"
+        }
+      ],
       "tags": [],
       "description": "area opposite the large tent of CIRCUS the ANALOG. A safety briefing for fire spinners who want to play at The Fire Brigade's fire jams or spin before the effigy. We will walk you through our safety protocol and give you a token of trust. Wear natural fabrics to play with fire (cotton, wool, linnen, leather).",
       "source": {
@@ -25735,6 +32725,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M11",
         "notes": "grid square M11. Big dome on the Penta Plaza."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "Can you noot like Pingu? Serious jury for a serious noot-off. Noot alone or in groups. Performances encouraged. Expect questionable judging, unnecessary penguin noises, and eternal glory. Come compete, or just noot in the crowd.",
       "source": {
@@ -25761,6 +32759,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameless Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -25791,6 +32797,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N20",
         "notes": "grid square N20. In Bison by the Shameless Plaza, below Club Sin"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 20,
+          "key": "N20",
+          "label": "N20"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -25822,6 +32836,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S16",
         "notes": "grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 16,
+          "key": "S16",
+          "label": "S16"
+        }
+      ],
       "tags": [],
       "description": "area opposite the large tent of CIRCUS the ANALOG. Witness the power of fire bending! Fire spinning and performances, chillspace and hot tea. We have fuel and safety equipment. Wear natural fabrics to spin or help with fire safety. Attend a safety briefing at 21:45 if you want to spin. Bring your fire props or borrow from us.",
       "source": {
@@ -25847,6 +32869,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Muumin Valley, grid square F10. You'll find us at the Kishmastle Space Station",
         "gridSquare": "F10"
       },
+      "gridSquares": [
+        {
+          "column": "F",
+          "row": 10,
+          "key": "F10",
+          "label": "F10"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -25876,6 +32906,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P13",
         "notes": "grid square P13. Look for our open sign"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 13,
+          "key": "P13",
+          "label": "P13"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -25931,6 +32969,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P23",
         "notes": "grid square P23. Near to metal Bison you will find a big tent with"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 23,
+          "key": "P23",
+          "label": "P23"
+        }
+      ],
       "tags": [],
       "description": "red roof, next to mycelium and Lookout Born from explorations on how violin sounds when drowned in deep reverb, these live improvisations use a looper and electronics to create a drifted atmospheric journey. Expect a raw, unpredictable path through moments of stillness, ethereal beauty, and bliss.",
       "source": {
@@ -25958,6 +33004,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R17",
         "notes": "grid square R17. Walk through the dark field and go towards the fuckoff"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 17,
+          "key": "R17",
+          "label": "R17"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -26012,6 +33066,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S18",
         "notes": "grid square S18."
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 18,
+          "key": "S18",
+          "label": "S18"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive",
@@ -26043,6 +33105,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P22",
         "notes": "grid square P22. You will see two small fires."
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 22,
+          "key": "P22",
+          "label": "P22"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -26072,6 +33142,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sex positive"
@@ -26101,6 +33179,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10. Follow your nose"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [],
       "description": "Come and get your tummies filled.",
       "source": {
@@ -26128,6 +33214,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J22",
         "notes": "grid square J22. Look for a grumpy old hag - good luck"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 22,
+          "key": "J22",
+          "label": "J22"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -26182,6 +33276,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M11",
         "notes": "grid square M11. Big dome on the Penta Plaza."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "A chill set that drifts wherever the moment takes it!",
       "source": {
@@ -26208,6 +33310,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "G21",
         "notes": "grid square G21."
       },
+      "gridSquares": [
+        {
+          "column": "G",
+          "row": 21,
+          "key": "G21",
+          "label": "G21"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -26236,6 +33346,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O22",
         "notes": "grid square O22. Corner on Sunset Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 22,
+          "key": "O22",
+          "label": "O22"
+        }
+      ],
       "tags": [],
       "description": "Send your(other)self a message in form of postcard from Borderland. Capture the fleeting moment and extract it out before it vanishes. Come hangout at Socialen, we offer a relaxed space to settle in a reflect for a moment and write yourself or others about your current state of mind.",
       "source": {
@@ -26316,6 +33434,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "K21",
         "notes": "grid square K21. The Church, Downtown"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 21,
+          "key": "K21",
+          "label": "K21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -26345,6 +33471,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "grid square G10. Kishmastle space station x Gate of Alvheim x Fungal refugee",
         "gridSquare": "G10"
       },
+      "gridSquares": [
+        {
+          "column": "G",
+          "row": 10,
+          "key": "G10",
+          "label": "G10"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -26374,6 +33508,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameless Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive"
@@ -26404,6 +33546,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P09",
         "notes": "grid square P09. Follow the crumbs"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 9,
+          "key": "P9",
+          "label": "P09"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sober"
@@ -26433,6 +33583,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P22",
         "notes": "grid square P22. We have a 10m dome"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 22,
+          "key": "P22",
+          "label": "P22"
+        }
+      ],
       "tags": [],
       "description": "Find a good spot anywhere and just sit back and people-watch while relaxing. It looks like a Borderland movie, doesn’t it?",
       "source": {
@@ -26460,6 +33618,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "L09",
         "notes": "grid square L09."
       },
+      "gridSquares": [
+        {
+          "column": "L",
+          "row": 9,
+          "key": "L9",
+          "label": "L09"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -26488,6 +33654,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. The Pink Tantric Troll on the big workshop tent"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -26517,6 +33691,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q13",
         "notes": "grid square Q13. An enclosed area with dog toys and shade."
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 13,
+          "key": "Q13",
+          "label": "Q13"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -26547,6 +33729,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T18",
         "notes": "grid square T18. @Feromonia, look for glamping bell tent with black"
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 18,
+          "key": "T18",
+          "label": "T18"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -26575,6 +33765,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T16",
         "notes": "grid square T16. Wooden Dome, near Fire Brigade"
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 16,
+          "key": "T16",
+          "label": "T16"
+        }
+      ],
       "tags": [],
       "description": "Start your Friday trip inside our cozy MŸS dome. Warm tea and slow, energetic vinyl sounds gently guide you into your orbit. Lovers and dreamers welcome!",
       "source": {
@@ -26602,6 +33800,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P24",
         "notes": "grid square P24. Nest & Twigs not far from the Bison"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 24,
+          "key": "P24",
+          "label": "P24"
+        }
+      ],
       "tags": [],
       "description": "Participants will be soaked in orgone, showered with it, and possibly transformed by it. This is likely a once-in-a-lifetime opportunity to expose a large population to orgone. Available 24/7 for restorative use. Guided Sessions and experiments will be announced on white board at camp.",
       "source": {
@@ -26629,6 +33835,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P13",
         "notes": "grid square P13. Search for the Pink Parachute"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 13,
+          "key": "P13",
+          "label": "P13"
+        }
+      ],
       "tags": [],
       "description": "The \"P\" in Psyllium is silent, The \"Poo\" with Psyllium is immaculate. Bring a mug, get ready to get some goopy Psyllium, then make your guts happy and thank us later!",
       "source": {
@@ -26656,6 +33870,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -26685,6 +33907,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "K21",
         "notes": "grid square K21. The Church, Downtown"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 21,
+          "key": "K21",
+          "label": "K21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive",
@@ -26716,6 +33946,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "I21",
         "notes": "grid square I21. Top of Sunny Hills!"
       },
+      "gridSquares": [
+        {
+          "column": "I",
+          "row": 21,
+          "key": "I21",
+          "label": "I21"
+        }
+      ],
       "tags": [],
       "description": "A fluent combination of movement, stretching, breathing and mindfulness. Your joints, lymph, fascia, muscles, mind and heart will thank you. Physical, but more energizing than tiring. A perfect way to connect with your whole body.",
       "source": {
@@ -26742,6 +33980,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J20",
         "notes": "grid square J20. Outside Clown Police HQ"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 20,
+          "key": "J20",
+          "label": "J20"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -26771,6 +34017,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M21",
         "notes": "grid square M21. Big white star shaped tent in the Secret Garden"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 21,
+          "key": "M21",
+          "label": "M21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -26798,6 +34052,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "The Heart",
         "area": "The Heart"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "Highlands, grid square M11. Look out for the flag with the big heart on it! Ancient techniques for ancient like longevity. 5 simple full body excercises that wake your whole system up. It's quick, easy, fun and 100% effective!",
       "source": {
@@ -26825,6 +34087,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N13",
         "notes": "grid square N13. Ask for the Tribal mystics in the Agraba village"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 13,
+          "key": "N13",
+          "label": "N13"
+        }
+      ],
       "tags": [],
       "description": "Lets all come together and chant our hearts out in this intuitive chanting workshop. No singing experience required. Come with an open mind, chant for an open heart",
       "source": {
@@ -26852,6 +34122,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M11",
         "notes": "grid square M11. Big dome on the Penta Plaza."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "Relax, recharge and maybe even transform your life towards more freedom. The international solo artist Liberty a.k.a Anna Jois reads the room and fills it with intuitive music, words, and her angelic singing voice that pierces straight to the soul.",
       "source": {
@@ -26877,6 +34155,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square R21. We're located in the Wedge neighbourhood, across the",
         "gridSquare": "R21"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 21,
+          "key": "R21",
+          "label": "R21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -26905,6 +34191,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Pretty Parking, grid square K04.",
         "gridSquare": "K04"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 4,
+          "key": "K4",
+          "label": "K04"
+        }
+      ],
       "tags": [],
       "description": "For the first time ever!!! Become delirious on Friday without having to consume anyting but water (and salt). A full 42k marathon: 7 laps around Borderland. Run, jog or walk your way through and around Alversjö. We promise you will see Borderland in a way you've never seen pr experienced before!!!",
       "source": {
@@ -26958,6 +34252,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "U16",
         "notes": "grid square U16. There will be rugs on the ground, music playing and"
       },
+      "gridSquares": [
+        {
+          "column": "U",
+          "row": 16,
+          "key": "U16",
+          "label": "U16"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sober"
@@ -26987,6 +34289,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P22",
         "notes": "grid square P22. Big 10m diameter dome"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 22,
+          "key": "P22",
+          "label": "P22"
+        }
+      ],
       "tags": [],
       "description": "Master the magical art of doing nothing! No goals, no to-dos just you, a comfy spot, and sweet, glorious idleness. Hug a tree, wiggle your toes, daydream wildly. It’s fun, it’s freeing, it’s fabulously unproductive. Permission to laze: granted!",
       "source": {
@@ -27014,6 +34324,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "L09",
         "notes": "grid square L09."
       },
+      "gridSquares": [
+        {
+          "column": "L",
+          "row": 9,
+          "key": "L9",
+          "label": "L09"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -27043,6 +34361,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -27071,6 +34397,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "U21",
         "notes": "grid square U21."
       },
+      "gridSquares": [
+        {
+          "column": "U",
+          "row": 21,
+          "key": "U21",
+          "label": "U21"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -27100,6 +34434,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Follow the lesbian flag and the fairy lights to the"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sober"
@@ -27130,6 +34472,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S12",
         "notes": "grid square S12. Near Lowland Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 12,
+          "key": "S12",
+          "label": "S12"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -27160,6 +34510,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameless Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -27189,6 +34547,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O20",
         "notes": "grid square O20. Trolltunga smaller tent"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 20,
+          "key": "O20",
+          "label": "O20"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -27219,6 +34585,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O06",
         "notes": "grid square O06. In the Arctic Chill, close to Pamper Plaza, behind"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 6,
+          "key": "O6",
+          "label": "O06"
+        }
+      ],
       "tags": [],
       "description": "the camp \"Women who supports women\" Relax on the tipi floor and allow yourself to go on an inner journey. Return with a gift and share the experience with your fellow travelers.",
       "source": {
@@ -27273,6 +34647,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q10",
         "notes": "grid square Q10. Look for disco balls and listen for disco groove!"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 10,
+          "key": "Q10",
+          "label": "Q10"
+        }
+      ],
       "tags": [],
       "description": "Do you love disco, house classics, groove in body and soul, ice-cold slushies, effortless community with openness, joy and warmth in focus? Then, my friend, you are welcome to our little social space and mini dancefloor under the disco ball's inviting glow next to our cozy tipi. Wednesday through Friday between approx. 12–15, DJ Divanté & DJ Simpqlicious with friends invite you all to celebrate life – because disco is life and disco lives in all of us!",
       "source": {
@@ -27300,6 +34682,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M13",
         "notes": "grid square M13. Right next to Agrabah village. We have a beg"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 13,
+          "key": "M13",
+          "label": "M13"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -27329,6 +34719,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M11",
         "notes": "grid square M11. Big dome on the Penta Plaza."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "Satya will host a bracelet making workshop. Materials will be provided.",
       "source": {
@@ -27356,6 +34754,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "H22",
         "notes": "grid square H22. just by the big lake Alversjoe"
       },
+      "gridSquares": [
+        {
+          "column": "H",
+          "row": 22,
+          "key": "H22",
+          "label": "H22"
+        }
+      ],
       "tags": [],
       "description": "We will host a throat singing workshop for beginners in the Sauna Cave.",
       "source": {
@@ -27383,6 +34789,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "H22",
         "notes": "grid square H22. just by the big lake Alversjoe"
       },
+      "gridSquares": [
+        {
+          "column": "H",
+          "row": 22,
+          "key": "H22",
+          "label": "H22"
+        }
+      ],
       "tags": [],
       "description": "Begin your trip together with others in a ceremonial estatic dance. Leave your expectations at the door, bring your curiosity to the dance floor. A journey of movement, music, and connection - where every step is an invitation to explore, laugh, and let go. No choreography. No judgment. Just rhythm, presence, and a little bit of magic.",
       "source": {
@@ -27408,6 +34822,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "grid square P25. The southest part of bison, look for a portal like entrance",
         "gridSquare": "P25"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 25,
+          "key": "P25",
+          "label": "P25"
+        }
+      ],
       "tags": [],
       "description": "Set your intention for the day ahead with a gentle sound journey. Live vocals, ambient soundscapes and instruments that invites you to land, rest and open yourself to the magic. Bring a notebook and pen to write/paint in during the sound journey<3",
       "source": {
@@ -27435,6 +34857,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [],
       "description": "EXCLUSIVO!!! DJ Fez Tropical spins original vinyl gems from around the world- cumbia, african, music you may never have heard before, music to make your heart sing and your body follow.",
       "source": {
@@ -27459,6 +34889,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "The Heart",
         "area": "The Heart"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "Highlands, grid square M11. Look out for the flag with the big heart on it! You've seen them. The TED speaker. The guru. The one who holds a room. You've wondered what it feels like to be that person. Now try it. Step into the seat, speak with presence, own the room! even just for a moment. What you discover about yourself will stay long after the dust settles.",
       "source": {
@@ -27486,6 +34924,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "H22",
         "notes": "grid square H22."
       },
+      "gridSquares": [
+        {
+          "column": "H",
+          "row": 22,
+          "key": "H22",
+          "label": "H22"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sensory content"
@@ -27516,6 +34962,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N13",
         "notes": "grid square N13. Find us on the main street of Agrabah Village"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 13,
+          "key": "N13",
+          "label": "N13"
+        }
+      ],
       "tags": [],
       "description": "(Highlands) This is an invitation to create your own flow and shake things off. Through guided improvisation and playful movement practice we'll reconnect with ourselves, express what words can't, and celebrate the freedom of moving without rules.",
       "source": {
@@ -27543,6 +34997,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10. in the big Tipi"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [],
       "description": "Drop the script and play. This workshop is a no-pressure, all-fun dive into improv acting and theater games, the kind that get you laughing, quick on your feet, and gloriously unafraid to look ridiculous.",
       "source": {
@@ -27569,6 +35031,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q19",
         "notes": "grid square Q19. A curly haired lad in a black beanie roaming around,"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 19,
+          "key": "Q19",
+          "label": "Q19"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -27598,6 +35068,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. Penta Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober",
@@ -27629,6 +35107,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M11",
         "notes": "grid square M11. Highlands, Penta plaza (big flag) next to Chilldome"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -27658,6 +35144,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P13",
         "notes": "grid square P13."
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 13,
+          "key": "P13",
+          "label": "P13"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -27687,6 +35181,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "W16",
         "notes": "grid square W16. Look for the Tipi tent, AA sign and the"
       },
+      "gridSquares": [
+        {
+          "column": "W",
+          "row": 16,
+          "key": "W16",
+          "label": "W16"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -27716,6 +35218,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S18",
         "notes": "grid square S18. Circus the analague in the Swamp neighborhood"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 18,
+          "key": "S18",
+          "label": "S18"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sober"
@@ -27745,6 +35255,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "U16",
         "notes": "grid square U16. Look for the croquet court!"
       },
+      "gridSquares": [
+        {
+          "column": "U",
+          "row": 16,
+          "key": "U16",
+          "label": "U16"
+        }
+      ],
       "tags": [],
       "description": "Come and see, feel and taste the marvel that is hairy tofu! Bring your own (or someone else's hairy body) to eat it from. A hairy, fuzzy and moldy (in the good way) delicacy!",
       "source": {
@@ -27772,6 +35290,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M21",
         "notes": "grid square M21. Big white star shaped tent in the Secret Garden"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 21,
+          "key": "M21",
+          "label": "M21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -27801,6 +35327,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R11",
         "notes": "grid square R11. Located in Low Lands close to Foxhole Camper Vans"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 11,
+          "key": "R11",
+          "label": "R11"
+        }
+      ],
       "tags": [],
       "description": "Follow the scent to the Low Lands, just south of Snack Plaza, where crispy delights, surprise twists, and loungey vibes await. We flip with flair, serve with love, and welcome all dusty dreamers. We're just a smell away.",
       "source": {
@@ -27828,6 +35362,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -27857,6 +35399,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "K21",
         "notes": "grid square K21. The Church, Downtown"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 21,
+          "key": "K21",
+          "label": "K21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive"
@@ -27884,6 +35434,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "The Heart",
         "area": "The Heart"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "Highlands, grid square M11. Look out for the flag with the big heart on it! With our breath, we will travel far beyond our consciousness",
       "source": {
@@ -27911,6 +35469,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q19",
         "notes": "grid square Q19."
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 19,
+          "key": "Q19",
+          "label": "Q19"
+        }
+      ],
       "tags": [],
       "description": "Are you also tired of sharing circles? Skip the polished \"authentic\" sharing and come overshare instead! Bring an unsolicited insight, a confession, or an observation with questionable social value.",
       "source": {
@@ -27937,6 +35503,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "K21",
         "notes": "grid square K21."
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 21,
+          "key": "K21",
+          "label": "K21"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -27963,6 +35537,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "grid square G10. In the old Muumima Valley you will find two spacestations",
         "gridSquare": "G10"
       },
+      "gridSquares": [
+        {
+          "column": "G",
+          "row": 10,
+          "key": "G10",
+          "label": "G10"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -27990,6 +35572,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "grid square P25. The southest part of bison, look for a portal like entrance",
         "gridSquare": "P25"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 25,
+          "key": "P25",
+          "label": "P25"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -28018,6 +35608,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "H20",
         "notes": "grid square H20. Between the big boobs on Sunny Hill under the"
       },
+      "gridSquares": [
+        {
+          "column": "H",
+          "row": 20,
+          "key": "H20",
+          "label": "H20"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -28047,6 +35645,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S16",
         "notes": "grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 16,
+          "key": "S16",
+          "label": "S16"
+        }
+      ],
       "tags": [],
       "description": "area opposite the large tent of CIRCUS the ANALOG. Learn how to truly let your poi follow the geodesics they so long to do! I will show you the principles of tossing and would love to go very advanced! Approachable from all levels.",
       "source": {
@@ -28074,6 +35680,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P13",
         "notes": "grid square P13."
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 13,
+          "key": "P13",
+          "label": "P13"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -28103,6 +35717,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O20",
         "notes": "grid square O20."
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 20,
+          "key": "O20",
+          "label": "O20"
+        }
+      ],
       "tags": [],
       "description": "The movie reinvented. Every flyby scored in real time, every volleyball scene echoing into the cosmos. Maverick has never been more shamanic. Goose has never been more dead.",
       "source": {
@@ -28130,6 +35752,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R12",
         "notes": "grid square R12."
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 12,
+          "key": "R12",
+          "label": "R12"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -28159,6 +35789,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R12",
         "notes": "grid square R12. Secret Sailors tent by Lowlands plaza"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 12,
+          "key": "R12",
+          "label": "R12"
+        }
+      ],
       "tags": [],
       "description": "Come and dance tango together! Learn the basics, grab a partner and feel the heat!",
       "source": {
@@ -28186,6 +35824,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11."
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -28216,6 +35862,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "U16",
         "notes": "grid square U16. We are where The Swamp, The Missing Piece and The"
       },
+      "gridSquares": [
+        {
+          "column": "U",
+          "row": 16,
+          "key": "U16",
+          "label": "U16"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -28242,6 +35896,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square R22. South-east of BL",
         "gridSquare": "R22"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 22,
+          "key": "R22",
+          "label": "R22"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sober"
@@ -28269,6 +35931,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "grid square G10. Follow the forest gates near the spacestations...",
         "gridSquare": "G10"
       },
+      "gridSquares": [
+        {
+          "column": "G",
+          "row": 10,
+          "key": "G10",
+          "label": "G10"
+        }
+      ],
       "tags": [
         "Sensory content",
         "Queer-inclusive"
@@ -28299,6 +35969,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. We will be where the Sin is. Always at your service"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -28331,6 +36009,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O20",
         "notes": "grid square O20. Shameless plaza next to sinnergirl"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 20,
+          "key": "O20",
+          "label": "O20"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -28360,6 +36046,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. ((Note from the JOMO team: we can't figure if it"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -28388,6 +36082,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P22",
         "notes": "grid square P22. Inside a 10m diameter dome"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 22,
+          "key": "P22",
+          "label": "P22"
+        }
+      ],
       "tags": [],
       "description": "Lay back, relax, and let your imagination fly, it’s cloud watching time! Spot dragons, donuts, dancing llamas. Who knows what floats by? Bring your wildest daydreams, and some chill vibes. No rules, no rush, just sky-gazing joy and fluffy fun above.",
       "source": {
@@ -28412,6 +36114,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "grid square P25. The southest part of bison, look for a portal like entrance",
         "gridSquare": "P25"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 25,
+          "key": "P25",
+          "label": "P25"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -28438,6 +36148,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "The Heart",
         "area": "The Heart"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -28467,6 +36185,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N20",
         "notes": "grid square N20. Bison - North, Southwest of Shameless Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 20,
+          "key": "N20",
+          "label": "N20"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -28498,6 +36224,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M11",
         "notes": "grid square M11. Big dome on the Penta Plaza."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "Let your Friday evening take off to the vibrations of singing bowls. Perhaps there will be a flute. There will definitely be singing, parts of Swedish folk songs which I write, and then tweak, because it’s all about the energy of the room, of the moment.",
       "source": {
@@ -28525,6 +36259,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameless Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive",
@@ -28556,6 +36298,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "L08",
         "notes": "grid square L08. Orange Van"
       },
+      "gridSquares": [
+        {
+          "column": "L",
+          "row": 8,
+          "key": "L8",
+          "label": "L08"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -28584,6 +36334,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P22",
         "notes": "grid square P22. Big 10m diameter dome"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 22,
+          "key": "P22",
+          "label": "P22"
+        }
+      ],
       "tags": [],
       "description": "Bingo! Burners Edition is not your grandma’s game night. It’s wild, weird, and full of sparkle. Expect Burner-style chaos. Costumes encouraged, laughter guaranteed. Eyes on your card, bingo glory awaits!",
       "source": {
@@ -28610,6 +36368,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q12",
         "notes": "grid square Q12. We welcome you at the Lowlands Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 12,
+          "key": "Q12",
+          "label": "Q12"
+        }
+      ],
       "tags": [],
       "description": "A corner of Paris in the woods — wine, peanuts, and the art of l’Apéro.",
       "source": {
@@ -28637,6 +36403,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M20",
         "notes": "grid square M20."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 20,
+          "key": "M20",
+          "label": "M20"
+        }
+      ],
       "tags": [],
       "description": "Wanna look fancy for your Friday festivities? Not sure how to get those braids just right? I'll help you gather those locks into fabulous braids — the classic 3- strand, French and Dutch braid, twists and 4-strand variations. Bring: yourself, at least 10 cm of well-brushed, reasonably clean hair, a hairbrush, hair ties, and as much patience as you can muster! Braiders and braidees alike welcome — luxury hairspa seekers, this is your day!",
       "source": {
@@ -28664,6 +36438,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M21",
         "notes": "grid square M21."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 21,
+          "key": "M21",
+          "label": "M21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober",
@@ -28694,6 +36476,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R13",
         "notes": "grid square R13. LOWLANDS. - 50 m Behind Spaceport, at the grass"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 13,
+          "key": "R13",
+          "label": "R13"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -28723,6 +36513,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "K21",
         "notes": "grid square K21."
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 21,
+          "key": "K21",
+          "label": "K21"
+        }
+      ],
       "tags": [],
       "description": "Come and enjoy Pink Floyd music combined with live psycadelic visuals. The tracks and light show will be on the calmer side so you can enjoy it in whatever state of mind you're in. Welcome old Pink Floyd fans, new ones who want to fall in love with their music and any other lost Borderling. Also to clarify: this will take place upstairs in The Church but it is NOT an orgy.",
       "source": {
@@ -28750,6 +36548,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive"
@@ -28779,6 +36585,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "G22",
         "notes": "grid square G22. On the jetty by the lake, in SUNNY HILL (Swampy"
       },
+      "gridSquares": [
+        {
+          "column": "G",
+          "row": 22,
+          "key": "G22",
+          "label": "G22"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -28810,6 +36624,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11."
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [],
       "description": "Smooth Honey for the Nervous System is a gentle workshop designed to help you release the tension of an intense week at BL, calm your nervous system, and reconnect with a sense of ease. Leave feeling lighter, more grounded, and ready to fully enjoy the final days of the festival.",
       "source": {
@@ -28837,6 +36659,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10. in the big Tipi"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [],
       "description": "Workshop, singing, druming, dancing, to celebrate life on Mother Earth. Together with Rolf we will have a magic time singing, druming and dancing. Bring your own drum if you have. Most welcome.",
       "source": {
@@ -28864,6 +36694,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [],
       "description": "Dancing Tango together is a game of leading and following, a connection with yourself, and from yourself with the other. During this workshop we focus on the playfulness of connection, as we hope to melt together like four-legged animals to the music. Absolute beginners are welcome.",
       "source": {
@@ -28890,6 +36728,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "I20",
         "notes": "grid square I20. Exact location will be decided on site. Probably"
       },
+      "gridSquares": [
+        {
+          "column": "I",
+          "row": 20,
+          "key": "I20",
+          "label": "I20"
+        }
+      ],
       "tags": [
         "Triggering themes"
       ],
@@ -28919,6 +36765,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S16",
         "notes": "grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 16,
+          "key": "S16",
+          "label": "S16"
+        }
+      ],
       "tags": [],
       "description": "area opposite the large tent of CIRCUS the ANALOG. You keep seeing these mythical creatures playing with fire and lights? Anyone can learn it! This is an opportunity to try out different toys and learn some tricks. No matter if you’re completely new to flow arts, want to try a prop you haven’t before, or practice one you know well.",
       "source": {
@@ -28944,6 +36798,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Muumin Valley, grid square F10. From sanctuary-follow the forest path toward",
         "gridSquare": "F10"
       },
+      "gridSquares": [
+        {
+          "column": "F",
+          "row": 10,
+          "key": "F10",
+          "label": "F10"
+        }
+      ],
       "tags": [],
       "description": "the valley. Where the forest meets the valley, take a left and enter the gate of Alvheim, cross the bridge on your right and enter the spacestation (or look for a big ass spaceship and listen for banging music) Alert: Extreme gravitational anomaly! Our starship is pulled into the event horizon of Urannuss-X—a tropical, magnetic Black Hole where physics bend to attraction. There is no escaping this cosmic sweatbox. The gravity perfectly mimics deep, heavy basslines echoing from its core, drawing bodies closer together. Tonight, we release a heavy stream of house, bounce, and infectious rave music designed to make you lose your inhibitions. Surrender and let the groove drag you straight to the center!",
       "source": {
@@ -28971,6 +36833,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [],
       "description": "Jazz in the Afternoon",
       "source": {
@@ -28998,6 +36868,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N13",
         "notes": "grid square N13. Agrabah Village, in south eastern Highlands"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 13,
+          "key": "N13",
+          "label": "N13"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -29028,6 +36906,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "I20",
         "notes": "grid square I20. look out for the \"SSS\" sign"
       },
+      "gridSquares": [
+        {
+          "column": "I",
+          "row": 20,
+          "key": "I20",
+          "label": "I20"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive"
@@ -29058,6 +36944,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. Penta Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive",
@@ -29089,6 +36983,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "L09",
         "notes": "grid square L09."
       },
+      "gridSquares": [
+        {
+          "column": "L",
+          "row": 9,
+          "key": "L9",
+          "label": "L09"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -29117,6 +37019,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q12",
         "notes": "grid square Q12. We welcome you at the Lowlands Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 12,
+          "key": "Q12",
+          "label": "Q12"
+        }
+      ],
       "tags": [],
       "description": "Happy Hour à la Française! — Sparkling wine, peanuts, and the art of l’Apéro.",
       "source": {
@@ -29144,6 +37054,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10. in the big Tipi"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [],
       "description": "Come enjoy the healing sounds of crystal singing bowls and vibrations of weighted tuning forks. We will enjoy 30-40 minutes of sound healing and after that we pair up to enjoy tuning forks with different frequencies.",
       "source": {
@@ -29171,6 +37089,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M11",
         "notes": "grid square M11. Big Dome on the Penta Plaza."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "A synth-heavy set mixing ethereal tracks from the Silent Hill soundtrack with trip hop and downtempo classics (Portishead, Massive Attack, DJ Shadow, etc.). Industrial lullabies with slow-burning beats and strings dripping with aura.",
       "source": {
@@ -29222,6 +37148,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R18",
         "notes": "grid square R18. Near the water plaza in the swamp"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 18,
+          "key": "R18",
+          "label": "R18"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive",
@@ -29254,6 +37188,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O06",
         "notes": "grid square O06. In the Arctic Chill, close to Pamper Plaza, behind"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 6,
+          "key": "O6",
+          "label": "O06"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -29283,6 +37225,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O06",
         "notes": "grid square O06. In the Arctic Chill, close to Pamper Plaza, behind"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 6,
+          "key": "O6",
+          "label": "O06"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -29312,6 +37262,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "V18",
         "notes": "grid square V18."
       },
+      "gridSquares": [
+        {
+          "column": "V",
+          "row": 18,
+          "key": "V18",
+          "label": "V18"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -29341,6 +37299,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "K21",
         "notes": "grid square K21. The Church, Downtown"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 21,
+          "key": "K21",
+          "label": "K21"
+        }
+      ],
       "tags": [],
       "description": "The Church changes gear for an evening of live music, ambient sets and chilled vibes. Playspace closed.",
       "source": {
@@ -29368,6 +37334,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N13",
         "notes": "grid square N13. Agrabah Village, in south eastern Highlands"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 13,
+          "key": "N13",
+          "label": "N13"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -29397,6 +37371,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -29426,6 +37408,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -29455,6 +37445,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S18",
         "notes": "grid square S18. Huge Circus tent"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 18,
+          "key": "S18",
+          "label": "S18"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -29483,6 +37481,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R12",
         "notes": "grid square R12. Look for the neon sign"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 12,
+          "key": "R12",
+          "label": "R12"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -29512,6 +37518,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10. in the big Tipi"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [],
       "description": "Come, friend, and sit with us. Beneath the roots of the earth tree, we welcome you. Share your stories, warm yourself at our crackling fire and just be, for a while. You are welcome here. Just the way you are.",
       "source": {
@@ -29539,6 +37553,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N20",
         "notes": "grid square N20. End of the Rainbow (N20)"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 20,
+          "key": "N20",
+          "label": "N20"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober",
@@ -29570,6 +37592,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [],
       "description": "1 hour of Prince's 'Purple Rain' on vinyl repeat, subject to neighbourly tolerance. A sparkly friday night Borderland tradition, but this time even purplier as we use the whole plaza for one final final encore.. (Please note the DJ takes requests, but only for one song). Bring an umbrella in case of rain..",
       "source": {
@@ -29597,6 +37627,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P13",
         "notes": "grid square P13. Look for our open sign"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 13,
+          "key": "P13",
+          "label": "P13"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -29626,6 +37664,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "H19",
         "notes": "grid square H19. Turn between The Grateful Grogg and Discotech"
       },
+      "gridSquares": [
+        {
+          "column": "H",
+          "row": 19,
+          "key": "H19",
+          "label": "H19"
+        }
+      ],
       "tags": [],
       "description": "Engineering, then head for the tent by the edge of the forest. The Bear loses its mind. Journey through high-energy bass music on our hand-crafted sound system. Live improvisation and strange turns may occur.",
       "source": {
@@ -29652,6 +37698,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "I20",
         "notes": "grid square I20. Sinnergirl will be burned at the same location"
       },
+      "gridSquares": [
+        {
+          "column": "I",
+          "row": 20,
+          "key": "I20",
+          "label": "I20"
+        }
+      ],
       "tags": [
         "Sensory content",
         "Adults only"
@@ -29681,6 +37735,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q11",
         "notes": "grid square Q11."
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 11,
+          "key": "Q11",
+          "label": "Q11"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sensory content",
@@ -29712,6 +37774,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [],
       "description": "Something Suitable for a Friday Evening..",
       "source": {
@@ -29739,6 +37809,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S18",
         "notes": "grid square S18. Huge Circus tent"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 18,
+          "key": "S18",
+          "label": "S18"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -29768,6 +37846,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T19",
         "notes": "grid square T19. The LED dansbana (= pavilion)"
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 19,
+          "key": "T19",
+          "label": "T19"
+        }
+      ],
       "tags": [],
       "description": "No, you're not just imaging the sparkling lights. Welcome to a place where the flowartists of Borderland gather and show off, not with fire, but with the entire palette of the rainbow.",
       "source": {
@@ -29795,6 +37881,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "H19",
         "notes": "grid square H19. Turn between The Grateful Grogg and Discotech"
       },
+      "gridSquares": [
+        {
+          "column": "H",
+          "row": 19,
+          "key": "H19",
+          "label": "H19"
+        }
+      ],
       "tags": [],
       "description": "Engineering, then head for the tent by the edge of the forest. Join Max & Dawe on a communal dance trip into the bear’s den. Bass music with live improv vocals and experimental electronics weave into a story shaped by the audience. Will we rave again? Maybe heal some pain? You choose the way, we all will play!",
       "source": {
@@ -29822,6 +37916,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sex positive"
@@ -29852,6 +37954,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [],
       "description": "Spaceport Closing Party, we never know what will happen- it could be the silence of windswept weeds, it could be madness.",
       "source": {
@@ -29905,6 +38015,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J22",
         "notes": "grid square J22. Look for a grumpy old hag - good luck"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 22,
+          "key": "J22",
+          "label": "J22"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -29958,6 +38076,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O22",
         "notes": "grid square O22. Corner on Sunset Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 22,
+          "key": "O22",
+          "label": "O22"
+        }
+      ],
       "tags": [],
       "description": "Send your(other)self a message in form of postcard from Borderland. Capture the fleeting moment and extract it out before it vanishes. Come hangout at Socialen, we offer a relaxed space to settle in a reflect for a moment and write yourself or others about your current state of mind.",
       "source": {
@@ -30038,6 +38164,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameful Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sensory content"
@@ -30067,6 +38201,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameful Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -30095,6 +38237,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameless Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive"
@@ -30125,6 +38275,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "K21",
         "notes": "grid square K21. The Church, Downtown"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 21,
+          "key": "K21",
+          "label": "K21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive"
@@ -30154,6 +38312,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "I21",
         "notes": "grid square I21. At the hillside on the lake side next to the The Sun"
       },
+      "gridSquares": [
+        {
+          "column": "I",
+          "row": 21,
+          "key": "I21",
+          "label": "I21"
+        }
+      ],
       "tags": [],
       "description": "(or Discotech Engineering next door if it rains) or The Sun if it feels right for the atmosphere and sound levels Come experience the sun rising with full aliveness of your body. This movement meditation & conscious dance will be dedicated to the sun above and to our light within. Once the sun rises and after the dance meditation, you will be invited to join in the small ritual of closing The Sun, The Temple, so it can burn that day.",
       "source": {
@@ -30180,6 +38346,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P22",
         "notes": "grid square P22. We have a 10m dome"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 22,
+          "key": "P22",
+          "label": "P22"
+        }
+      ],
       "tags": [],
       "description": "Find a good spot anywhere and just sit back and people-watch while relaxing. It looks like a Borderland movie, doesn’t it?",
       "source": {
@@ -30206,6 +38380,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. The Pink Tantric Troll on the big workshop tent"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -30235,6 +38417,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q13",
         "notes": "grid square Q13. An enclosed area with dog toys and shade."
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 13,
+          "key": "Q13",
+          "label": "Q13"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -30265,6 +38455,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T18",
         "notes": "grid square T18. @Feromonia, look for glamping bell tent with black"
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 18,
+          "key": "T18",
+          "label": "T18"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -30294,6 +38492,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P24",
         "notes": "grid square P24. Nest & Twigs not far from the Bison"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 24,
+          "key": "P24",
+          "label": "P24"
+        }
+      ],
       "tags": [],
       "description": "Participants will be soaked in orgone, showered with it, and possibly transformed by it. This is likely a once-in-a-lifetime opportunity to expose a large population to orgone. Available 24/7 for restorative use. Guided Sessions and experiments will be announced on white board at camp.",
       "source": {
@@ -30321,6 +38527,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -30349,6 +38563,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J20",
         "notes": "grid square J20. Outside Clown Police HQ"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 20,
+          "key": "J20",
+          "label": "J20"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -30378,6 +38600,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M21",
         "notes": "grid square M21. Big white star shaped tent in the Secret Garden"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 21,
+          "key": "M21",
+          "label": "M21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -30434,6 +38664,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P22",
         "notes": "grid square P22. Big 10m diameter dome"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 22,
+          "key": "P22",
+          "label": "P22"
+        }
+      ],
       "tags": [],
       "description": "Master the magical art of doing nothing! No goals, no to-dos just you, a comfy spot, and sweet, glorious idleness. Hug a tree, wiggle your toes, daydream wildly. It’s fun, it’s freeing, it’s fabulously unproductive. Permission to laze: granted!",
       "source": {
@@ -30460,6 +38698,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P22",
         "notes": "grid square P22. Inside a 10m diameter dome"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 22,
+          "key": "P22",
+          "label": "P22"
+        }
+      ],
       "tags": [],
       "description": "Pillows, blankets and a lazy power nap... What can be better than lying down in a cozy spot and taking a nap. It’s the ultimate lazy activity and great for recharging!",
       "source": {
@@ -30487,6 +38733,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P12",
         "notes": "grid square P12. Dome by the tall pink temple, Lowlands"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 12,
+          "key": "P12",
+          "label": "P12"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -30515,6 +38769,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "U21",
         "notes": "grid square U21."
       },
+      "gridSquares": [
+        {
+          "column": "U",
+          "row": 21,
+          "key": "U21",
+          "label": "U21"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -30544,6 +38806,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Follow the lesbian flag and the fairy lights to the"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sober"
@@ -30574,6 +38844,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M13",
         "notes": "grid square M13. Right next to Agrabah village. We have a beg"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 13,
+          "key": "M13",
+          "label": "M13"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -30603,6 +38881,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M11",
         "notes": "grid square M11. Big dome on the Penta Plaza."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "Deep house/chill/ambient soundscapes. 100 bpm.",
       "source": {
@@ -30630,6 +38916,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P11",
         "notes": "grid square P11."
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 11,
+          "key": "P11",
+          "label": "P11"
+        }
+      ],
       "tags": [],
       "description": "Everything happens a last time. Let yourself join a guided solitary experience through life and death. What can you bring out of the positive experience of death?",
       "source": {
@@ -30657,6 +38951,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P06",
         "notes": "grid square P06."
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 6,
+          "key": "P6",
+          "label": "P06"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sensory content"
@@ -30686,6 +38988,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q19",
         "notes": "grid square Q19. A curly haired lad in a black beanie roaming around,"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 19,
+          "key": "Q19",
+          "label": "Q19"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -30715,6 +39025,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N20",
         "notes": "grid square N20. Cross from downtown garden over the wooden"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 20,
+          "key": "N20",
+          "label": "N20"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -30744,6 +39062,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M11",
         "notes": "grid square M11. Highlands, Penta plaza (big flag) next to Chilldome"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -30773,6 +39099,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "W16",
         "notes": "grid square W16. along the edge of the forest, south of the"
       },
+      "gridSquares": [
+        {
+          "column": "W",
+          "row": 16,
+          "key": "W16",
+          "label": "W16"
+        }
+      ],
       "tags": [],
       "description": "transcendental forest temple Only happening if the sun is shining! Make a souvenir with paper, sunlight, and findings from the playa. Bring a small object you found, something meaningful to you, or use our bits to create a blue sun-printed postcard.",
       "source": {
@@ -30800,6 +39134,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "K19",
         "notes": "grid square K19. Lower floor of the Barn (also known as the Living"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 19,
+          "key": "K19",
+          "label": "K19"
+        }
+      ],
       "tags": [],
       "description": "Room) The Museum of Bad Arts welcome you to the first iteration of our ongoing initiative to premiere Bad Poetry. Come by and read your bad poems, or listen to some of the worst poets at the burn. There might be wine.",
       "source": {
@@ -30827,6 +39169,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P13",
         "notes": "grid square P13."
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 13,
+          "key": "P13",
+          "label": "P13"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -30854,6 +39204,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square R21. Look for our sign",
         "gridSquare": "R21"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 21,
+          "key": "R21",
+          "label": "R21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -30884,6 +39242,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M21",
         "notes": "grid square M21. Big white star shaped tent in the Secret Garden"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 21,
+          "key": "M21",
+          "label": "M21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -30914,6 +39280,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "K21",
         "notes": "grid square K21. The Church, Downtown"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 21,
+          "key": "K21",
+          "label": "K21"
+        }
+      ],
       "tags": [],
       "description": "Bring your USB and spin some tunes! A chilled, daytime session. Playspace closed",
       "source": {
@@ -30939,6 +39313,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square S22.",
         "gridSquare": "S22"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 22,
+          "key": "S22",
+          "label": "S22"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -30968,6 +39350,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10. in the big Tipi"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 10,
+          "key": "O10",
+          "label": "O10"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -30996,6 +39386,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P23",
         "notes": "grid square P23. The big red tent on the hill, by the Bison"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 23,
+          "key": "P23",
+          "label": "P23"
+        }
+      ],
       "tags": [],
       "description": "sculpture. A guided tea experience that aims to soothe and ground mind and body after a long night. Bring your favourite cup.",
       "source": {
@@ -31023,6 +39421,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M11",
         "notes": "grid square M11. Big dome on the Penta Plaza."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "Dying to release your inner child/thespian/kaiju? We will create a safe space to explore drama skills, with a variety of games and exercises. Hilarious, provocative & challenging! No previous experience necessary. Hosted by Nocturne.",
       "source": {
@@ -31050,6 +39456,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameless Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -31076,6 +39490,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "grid square P25. The southest part of bison, look for a portal like entrance",
         "gridSquare": "P25"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 25,
+          "key": "P25",
+          "label": "P25"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -31105,6 +39527,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R12",
         "notes": "grid square R12."
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 12,
+          "key": "R12",
+          "label": "R12"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -31133,6 +39563,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O22",
         "notes": "grid square O22. Corner of Sunset Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 22,
+          "key": "O22",
+          "label": "O22"
+        }
+      ],
       "tags": [],
       "description": "Care for a slice of Neapolitan-style margherita pizza while you are hanging out Socialen? This is the dream for filling your stomach and satisfying your taste buds while enjoying the vibes and activities of the Socialen.",
       "source": {
@@ -31160,6 +39598,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q19",
         "notes": "grid square Q19."
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 19,
+          "key": "Q19",
+          "label": "Q19"
+        }
+      ],
       "tags": [],
       "description": "During this two hour workshop we will learn the ancient art of the divinatory tool I Ching and integrate the hexagram we draw through a gentle art practice. There will also be a small group/pair sharing about your hexagram and how it relates to your life, and a closing circle.",
       "source": {
@@ -31186,6 +39632,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q12",
         "notes": "grid square Q12."
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 12,
+          "key": "Q12",
+          "label": "Q12"
+        }
+      ],
       "tags": [],
       "description": "Our BIG bucket of Tahini has supplied you all the with the holy powers of the Tahini goddess for this borderland and now it is time to close the lid on another chapter. There will be Tahini songs, Tahini blessings, Tahini fika and so much more. All are welcome to have one last taste of the divine.",
       "source": {
@@ -31211,6 +39665,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square R22. South-east of BL",
         "gridSquare": "R22"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 22,
+          "key": "R22",
+          "label": "R22"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -31240,6 +39702,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O06",
         "notes": "grid square O06."
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 6,
+          "key": "O6",
+          "label": "O06"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -31319,6 +39789,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square R20.",
         "gridSquare": "R20"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 20,
+          "key": "R20",
+          "label": "R20"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -31348,6 +39826,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N11",
         "notes": "grid square N11. We will be where the Sin is. Always at your service"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 11,
+          "key": "N11",
+          "label": "N11"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -31380,6 +39866,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O20",
         "notes": "grid square O20. Shameless plaza next to sinnergirl"
       },
+      "gridSquares": [
+        {
+          "column": "O",
+          "row": 20,
+          "key": "O20",
+          "label": "O20"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -31410,6 +39904,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P22",
         "notes": "grid square P22. Inside a 10m diameter dome"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 22,
+          "key": "P22",
+          "label": "P22"
+        }
+      ],
       "tags": [],
       "description": "Lay back, relax, and let your imagination fly, it’s cloud watching time! Spot dragons, donuts, dancing llamas. Who knows what floats by? Bring your wildest daydreams, and some chill vibes. No rules, no rush, just sky-gazing joy and fluffy fun above.",
       "source": {
@@ -31437,6 +39939,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P13",
         "notes": "grid square P13."
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 13,
+          "key": "P13",
+          "label": "P13"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -31466,6 +39976,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M21",
         "notes": "grid square M21. starshade tent"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 21,
+          "key": "M21",
+          "label": "M21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober"
@@ -31494,6 +40012,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square R21. We're located in the Wedge neighbourhood, across the",
         "gridSquare": "R21"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 21,
+          "key": "R21",
+          "label": "R21"
+        }
+      ],
       "tags": [],
       "description": "road from a swamp with a massive rock Kate Bush's Wuthering Heights choreography taught and experienced. Discard all your prior dance experience - the only prerequisite you will need is passion. Dress code: eery red optional",
       "source": {
@@ -31521,6 +40047,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N20",
         "notes": "grid square N20. Right on Shameless Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 20,
+          "key": "N20",
+          "label": "N20"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober",
@@ -31553,6 +40087,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q11",
         "notes": "grid square Q11."
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 11,
+          "key": "Q11",
+          "label": "Q11"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sensory content",
@@ -31584,6 +40126,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M11",
         "notes": "grid square M11. Big dome on the Penta Plaza."
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "Come and witness music being made in the moment. Maybe you have some words that you want to hear as a song? Or a message for someone you want to surprise with a song made for them. What happens in the moment stays in our memory!",
       "source": {
@@ -31611,6 +40161,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameless Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive"
@@ -31641,6 +40199,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "S16",
         "notes": "grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet"
       },
+      "gridSquares": [
+        {
+          "column": "S",
+          "row": 16,
+          "key": "S16",
+          "label": "S16"
+        }
+      ],
       "tags": [],
       "description": "area opposite the large tent of CIRCUS the ANALOG. Have you seen someone play and dance with a weight on a long rope (glowing or even on fire) and wondered how to get into this? Or are you already an experienced dartist wanting to learn something new? Either way, join this all- levels workshop. Rope darts available.",
       "source": {
@@ -31668,6 +40234,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "L08",
         "notes": "grid square L08. Orange Van"
       },
+      "gridSquares": [
+        {
+          "column": "L",
+          "row": 8,
+          "key": "L8",
+          "label": "L08"
+        }
+      ],
       "tags": [
         "Sober"
       ],
@@ -31696,6 +40270,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q12",
         "notes": "grid square Q12. We welcome you at the Lowlands Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 12,
+          "key": "Q12",
+          "label": "Q12"
+        }
+      ],
       "tags": [],
       "description": "A corner of Paris in the woods — wine, peanuts, and the art of l’Apéro.",
       "source": {
@@ -31723,6 +40305,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q19",
         "notes": "grid square Q19."
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 19,
+          "key": "Q19",
+          "label": "Q19"
+        }
+      ],
       "tags": [],
       "description": "",
       "source": {
@@ -31750,6 +40340,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "R18",
         "notes": "grid square R18. Near the water plaza in the swamp"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 18,
+          "key": "R18",
+          "label": "R18"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sober",
@@ -31781,6 +40379,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive"
@@ -31808,6 +40414,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Wedge, grid square R22. South-east of BL",
         "gridSquare": "R22"
       },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 22,
+          "key": "R22",
+          "label": "R22"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sober"
@@ -31835,8 +40449,17 @@ const generatedSchedule: NormalizedSchedule = {
       "location": {
         "name": "Eastern Slope, W16.",
         "area": "Eastern Slope",
+        "gridSquare": "W16",
         "notes": "W16."
       },
+      "gridSquares": [
+        {
+          "column": "W",
+          "row": 16,
+          "key": "W16",
+          "label": "W16"
+        }
+      ],
       "tags": [],
       "description": "After a week of Borderland our bodies dusted and our minds our blown. How to get yourself back into normal life? In this workshop we're sharing experiences, tips about moving back into the real world. Pre-sharing rule #1: do not make any life changing decisions in the first three weeks after Borderlands. Come one, come all and frolick.",
       "source": {
@@ -31863,6 +40486,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "T16",
         "notes": "grid square T16. Wooden Dome, near Fire Brigade"
       },
+      "gridSquares": [
+        {
+          "column": "T",
+          "row": 16,
+          "key": "T16",
+          "label": "T16"
+        }
+      ],
       "tags": [],
       "description": "The MŸS crew invites you for a downtempo live set in preparation for the effigy. Get your joints loose and sink in a sea of reverberating analogue synths and squelching live guitars. Let the fire rise!",
       "source": {
@@ -31889,6 +40520,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "I20",
         "notes": "grid square I20. Exact location will be decided on site. Probably"
       },
+      "gridSquares": [
+        {
+          "column": "I",
+          "row": 20,
+          "key": "I20",
+          "label": "I20"
+        }
+      ],
       "tags": [
         "Triggering themes",
         "Sober"
@@ -31917,6 +40556,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Muumin Valley, grid square F10. From sanctuary-follow the forest path toward",
         "gridSquare": "F10"
       },
+      "gridSquares": [
+        {
+          "column": "F",
+          "row": 10,
+          "key": "F10",
+          "label": "F10"
+        }
+      ],
       "tags": [],
       "description": "the valley. Where the forest meets the valley, take a left and enter the gate of Alvheim, cross the bridge on your right and enter the spacestation (or look for a big ass spaceship and listen for banging music) Final coordinates locked! We explored Krangelax—a world of extreme dualities. We basked under twin suns, recording a smooth flow of daytime disco, deep house, and melodic rhythms. But as dusk fell and cosmic fire erupted, the heat awoke high-voltage storm entities slumbering in the core. The atmosphere electrified, transforming paradise into a lightning-fast whirlwind of full-on psytrance and dark Hi-tech. Recreating this elemental clash tonight: gather for the pre-burn and prepare for the storm!",
       "source": {
@@ -31967,6 +40614,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q12",
         "notes": "grid square Q12. We welcome you at the Lowlands Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 12,
+          "key": "Q12",
+          "label": "Q12"
+        }
+      ],
       "tags": [],
       "description": "Happy Hour à la Française! — Sparkling wine, peanuts, and the art of l’Apéro.",
       "source": {
@@ -31991,6 +40646,14 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "The Heart",
         "area": "The Heart"
       },
+      "gridSquares": [
+        {
+          "column": "M",
+          "row": 11,
+          "key": "M11",
+          "label": "M11"
+        }
+      ],
       "tags": [],
       "description": "Highlands, grid square M11. Look out for the flag with the big heart on it! Feeling tired and need some Love after whole week of BL? Come and relax. Give and receive. Tap into the source...",
       "source": {
@@ -32018,6 +40681,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -32047,6 +40718,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N13",
         "notes": "grid square N13. Search for the Tribe in Agraba village, Highlands"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 13,
+          "key": "N13",
+          "label": "N13"
+        }
+      ],
       "tags": [],
       "description": "Let your Tribal self out before the big Burn. A ritual offering including music, movement and spirit. EFFIGY BURN - CIVIC RESPONSIBILITY Weird shit/Other 20:00 – 23:00 Sunny Hills, grid square I21. When the effigy falls and the perimeter breaks, the energy is electric—but please remember the safety of our community. If you want to stand, admire, or stay still, please stay further back and leave a wide, clear path for the runners. If you are close to the heat, keep moving. Let’s make sure those who want to run have the space to do so safely. Look out for each other out there.",
       "source": {
@@ -32074,6 +40753,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "K21",
         "notes": "grid square K21. The Church, Downtown"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 21,
+          "key": "K21",
+          "label": "K21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive"
@@ -32104,6 +40791,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "H19",
         "notes": "grid square H19. Turn between The Grateful Grogg and Discotech"
       },
+      "gridSquares": [
+        {
+          "column": "H",
+          "row": 19,
+          "key": "H19",
+          "label": "H19"
+        }
+      ],
       "tags": [],
       "description": "Engineering, then head for the tent by the edge of the forest. The Bear isn’t done yet. One final night of jungle, drum & bass, garage, dubstep and other low-end sounds on our hand-crafted sound system. Let’s send the week off properly.",
       "source": {
@@ -32130,6 +40825,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "K21",
         "notes": "grid square K21. The Church, Downtown"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 21,
+          "key": "K21",
+          "label": "K21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -32160,6 +40863,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "Q11",
         "notes": "grid square Q11."
       },
+      "gridSquares": [
+        {
+          "column": "Q",
+          "row": 11,
+          "key": "Q11",
+          "label": "Q11"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sensory content",
@@ -32191,6 +40902,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sex positive"
@@ -32220,6 +40939,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "I21",
         "notes": "grid square I21."
       },
+      "gridSquares": [
+        {
+          "column": "I",
+          "row": 21,
+          "key": "I21",
+          "label": "I21"
+        }
+      ],
       "tags": [],
       "description": "The Sun, The Temple burns to mark the ending and the beginning.",
       "source": {
@@ -32247,6 +40974,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J22",
         "notes": "grid square J22. Look for a grumpy old hag - good luck"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 22,
+          "key": "J22",
+          "label": "J22"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive",
@@ -32331,6 +41066,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameless Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sensory content"
@@ -32360,6 +41103,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameful Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only"
       ],
@@ -32388,6 +41139,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "N19",
         "notes": "grid square N19. By the Shameless Plaza"
       },
+      "gridSquares": [
+        {
+          "column": "N",
+          "row": 19,
+          "key": "N19",
+          "label": "N19"
+        }
+      ],
       "tags": [
         "Adults only",
         "Sex positive"
@@ -32418,6 +41177,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P24",
         "notes": "grid square P24. Nest & Twigs not far from the Bison"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 24,
+          "key": "P24",
+          "label": "P24"
+        }
+      ],
       "tags": [],
       "description": "Participants will be soaked in orgone, showered with it, and possibly transformed by it. This is likely a once-in-a-lifetime opportunity to expose a large population to orgone. Available 24/7 for restorative use. Guided Sessions and experiments will be announced on white board at camp. STRIKE Weird shit/Other 10:00 – 00:00 The Barn Is there life after The Borderland? I don't know, but there is Strike! Thank you in advance for being the absolute legend who stays that last extra day(s) to coil electrical cables, chop onions for the kitchen crew, and hand-pick the tiny pieces of trash. We hope you have a beautiful time slowing down, making lasting memories, and leaving Alversjö even better than we found it. Every morning at 10:00, we meet at the barn, review what needs to be done, and assign tasks. At the end, there’s the deep satisfaction of being the last ones standing, working together with a lovely crew to close the chapter properly. No special skills needed! Just plan your departure a little later than you normally would: shifts run daily from Sunday, July 26, through Wednesday, July 29. Sunday 26th By 12:00 Power grid will be disconnected By 14:00 Fully packed down and removed your camp, and done your own moop sweep It's NOT OK to stay on site without contributing to the strike efforts. Leftover food is warmly received at the barn for feeding strike legends.",
       "source": {
@@ -32444,6 +41211,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J20",
         "notes": "grid square J20. Outside Clown Police HQ"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 20,
+          "key": "J20",
+          "label": "J20"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -32499,6 +41274,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "U21",
         "notes": "grid square U21."
       },
+      "gridSquares": [
+        {
+          "column": "U",
+          "row": 21,
+          "key": "U21",
+          "label": "U21"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -32528,6 +41311,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Follow the lesbian flag and the fairy lights to the"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sober"
@@ -32558,6 +41349,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "K21",
         "notes": "grid square K21. Under the church - Ask about Here at the"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 21,
+          "key": "K21",
+          "label": "K21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive"
@@ -32588,6 +41387,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [
         "Adults only",
         "Queer-inclusive"
@@ -32618,6 +41425,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -32647,6 +41462,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P13",
         "notes": "grid square P13. Look for the big pink temple and the Spaceport"
       },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 13,
+          "key": "P13",
+          "label": "P13"
+        }
+      ],
       "tags": [
         "Queer-inclusive"
       ],
@@ -32676,6 +41499,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sex positive"
@@ -32734,6 +41565,14 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Follow the lesbian flag and the fairy lights to the"
       },
+      "gridSquares": [
+        {
+          "column": "J",
+          "row": 21,
+          "key": "J21",
+          "label": "J21"
+        }
+      ],
       "tags": [
         "Queer-inclusive",
         "Sober",

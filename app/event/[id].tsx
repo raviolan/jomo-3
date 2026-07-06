@@ -1,8 +1,9 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Link, useLocalSearchParams, useRouter } from "expo-router";
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 
 import { AppFooter } from "@/components/AppFooter";
+import { CampMap } from "@/components/CampMap";
 import { EmptyState } from "@/components/EmptyState";
 import { LinkifiedText } from "@/components/LinkifiedText";
 import { UndoNotice } from "@/components/UndoNotice";
@@ -12,12 +13,16 @@ import { getDayLabelForEvent, getEventById } from "@/lib/scheduleQueries";
 import { subscribeToScrollToTop } from "@/lib/scrollToTopEvents";
 import { theme } from "@/theme/theme";
 
+type EventDetailTab = "info" | "map";
+
 export default function EventDetailScreen() {
   const scrollViewRef = useRef<ScrollView>(null);
   const router = useRouter();
   const { id } = useLocalSearchParams<{ id: string }>();
   const event = typeof id === "string" ? getEventById(id) : undefined;
   const saved = useSavedEvents();
+  const [activeTab, setActiveTab] = useState<EventDetailTab>("info");
+  const hasMap = Boolean(event?.gridSquares?.length);
 
   useEffect(
     () =>
@@ -26,6 +31,12 @@ export default function EventDetailScreen() {
       }),
     []
   );
+
+  useEffect(() => {
+    if (!hasMap) {
+      setActiveTab("info");
+    }
+  }, [hasMap, id]);
 
   if (!event) {
     return (
@@ -59,30 +70,69 @@ export default function EventDetailScreen() {
       <Text style={styles.category}>{event.category}</Text>
       <Text style={styles.title}>{event.title}</Text>
 
-      <View style={styles.metaGrid}>
-        <MetaBlock label="Time" value={`${getDayLabelForEvent(event)} · ${event.time.display}`} />
-        <MetaBlock label="Location" value={event.location.name} />
-        <DescriptionBlock value={event.description || "No description was extracted for this event."} />
-        {event.host ? <MetaBlock label="Host" value={event.host} /> : null}
-        {event.campHost ? <MetaBlock label="Camp" value={event.campHost} /> : null}
-        {event.tags.length > 0 ? <MetaBlock label="Tags" value={event.tags.join(" · ")} /> : null}
-      </View>
+      {hasMap ? <EventDetailTabs activeTab={activeTab} onChange={setActiveTab} /> : null}
 
-      <Pressable
-        accessibilityRole="button"
-        onPress={() => saved.toggleSaved(event.id)}
-        style={[styles.saveButton, isSaved && styles.saveButtonActive]}
-      >
-        <Text style={[styles.saveButtonText, isSaved && styles.saveButtonTextActive]}>
-          {isSaved ? "Saved locally" : "Save event"}
-        </Text>
-      </Pressable>
+      {activeTab === "map" && event.gridSquares?.length ? (
+        <View style={styles.metaGrid}>
+          <MetaBlock label="Location" value={event.location.name} />
+          <CampMap highlightedSquares={event.gridSquares} onGridSquarePress={() => setActiveTab("info")} />
+        </View>
+      ) : (
+        <>
+          <View style={styles.metaGrid}>
+            <MetaBlock label="Time" value={`${getDayLabelForEvent(event)} · ${event.time.display}`} />
+            <MetaBlock label="Location" value={event.location.name} />
+            <DescriptionBlock value={event.description || "No description was extracted for this event."} />
+            {event.host ? <MetaBlock label="Host" value={event.host} /> : null}
+            {event.campHost ? <MetaBlock label="Camp" value={event.campHost} /> : null}
+            {event.tags.length > 0 ? <MetaBlock label="Tags" value={event.tags.join(" · ")} /> : null}
+          </View>
 
-      {saved.storageError ? <Text style={styles.warning}>{saved.storageError}</Text> : null}
+          <Pressable
+            accessibilityRole="button"
+            onPress={() => saved.toggleSaved(event.id)}
+            style={[styles.saveButton, isSaved && styles.saveButtonActive]}
+          >
+            <Text style={[styles.saveButtonText, isSaved && styles.saveButtonTextActive]}>
+              {isSaved ? "Saved locally" : "Save event"}
+            </Text>
+          </Pressable>
 
-      <Text style={styles.source}>Source: {event.source.pdf}, page {event.source.page}</Text>
+          {saved.storageError ? <Text style={styles.warning}>{saved.storageError}</Text> : null}
+
+          <Text style={styles.source}>Source: {event.source.pdf}, page {event.source.page}</Text>
+        </>
+      )}
       <AppFooter />
     </ScrollView>
+  );
+}
+
+function EventDetailTabs({
+  activeTab,
+  onChange
+}: {
+  activeTab: EventDetailTab;
+  onChange: (tab: EventDetailTab) => void;
+}) {
+  return (
+    <View accessibilityRole="tablist" style={styles.tabs}>
+      <TabButton active={activeTab === "info"} label="Info" onPress={() => onChange("info")} />
+      <TabButton active={activeTab === "map"} label="Map" onPress={() => onChange("map")} />
+    </View>
+  );
+}
+
+function TabButton({ active, label, onPress }: { active: boolean; label: string; onPress: () => void }) {
+  return (
+    <Pressable
+      accessibilityRole="tab"
+      accessibilityState={{ selected: active }}
+      onPress={onPress}
+      style={[styles.tabButton, active && styles.tabButtonActive]}
+    >
+      <Text style={[styles.tabButtonText, active && styles.tabButtonTextActive]}>{label}</Text>
+    </Pressable>
   );
 }
 
@@ -203,6 +253,35 @@ const styles = StyleSheet.create({
   source: {
     color: theme.colors.textMuted,
     fontSize: 12
+  },
+  tabButton: {
+    alignItems: "center",
+    borderRadius: 999,
+    flex: 1,
+    justifyContent: "center",
+    minHeight: 40,
+    paddingHorizontal: 14,
+    paddingVertical: 9
+  },
+  tabButtonActive: {
+    backgroundColor: theme.colors.brandDark
+  },
+  tabButtonText: {
+    color: theme.colors.text,
+    fontSize: 14,
+    fontWeight: "900"
+  },
+  tabButtonTextActive: {
+    color: theme.colors.textOnDark
+  },
+  tabs: {
+    backgroundColor: theme.surfaces.chrome,
+    borderColor: theme.colors.border,
+    borderRadius: 999,
+    borderWidth: 1,
+    flexDirection: "row",
+    gap: 4,
+    padding: 4
   },
   title: {
     color: theme.colors.text,

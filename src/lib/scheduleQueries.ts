@@ -284,6 +284,7 @@ export function searchEvents(filters: EventSearchFilters, now = new Date()): Fes
         event.location.name,
         event.location.area,
         event.location.gridSquare,
+        ...(event.gridSquares ?? []).flatMap((square) => [square.key, square.label]),
         event.location.notes,
         event.description,
         ...event.tags.flatMap(getSearchableTagTerms)
