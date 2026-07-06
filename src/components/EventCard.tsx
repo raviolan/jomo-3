@@ -6,11 +6,12 @@ import { theme } from "@/theme/theme";
 
 interface EventCardProps {
   event: FestivalEvent;
+  campHostLabel?: string;
   isSaved: boolean;
   onToggleSaved: (eventId: string) => void;
 }
 
-export function EventCard({ event, isSaved, onToggleSaved }: EventCardProps) {
+export function EventCard({ event, campHostLabel, isSaved, onToggleSaved }: EventCardProps) {
   return (
     <Link href={`/event/${event.id}`} asChild>
       <Pressable style={styles.card}>
@@ -47,7 +48,7 @@ export function EventCard({ event, isSaved, onToggleSaved }: EventCardProps) {
         ) : null}
         {event.campHost ? (
           <Text style={styles.campHost} numberOfLines={1}>
-            {event.campHost}
+            {campHostLabel ?? event.campHost}
           </Text>
         ) : null}
       </Pressable>

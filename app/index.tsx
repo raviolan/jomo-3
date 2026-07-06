@@ -8,14 +8,23 @@ import { EventCard } from "@/components/EventCard";
 import { useSavedEvents } from "@/hooks/useSavedEvents";
 import { subscribeToHomeScrollToTop } from "@/lib/homeScrollEvents";
 import {
+  campHostMatchesQuery,
   getCampHosts,
+  getCanonicalCampHost,
   getCategories,
   getDefaultScheduleDayId,
+  getEventEndTime,
   getScheduleDays,
   searchEvents
 } from "@/lib/scheduleQueries";
-import type { FestivalCategory } from "@/models/schedule";
+import type { FestivalCategory, FestivalEvent } from "@/models/schedule";
 import { theme } from "@/theme/theme";
+
+interface CampEventDayGroup {
+  dayId: string;
+  label: string;
+  events: FestivalEvent[];
+}
 
 export default function ScheduleScreen() {
   const params = useLocalSearchParams<{ view?: string }>();
@@ -30,9 +39,11 @@ export default function ScheduleScreen() {
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState<FestivalCategory | "all">("all");
   const [selectedCampHosts, setSelectedCampHosts] = useState<string[]>([]);
+  const [collapsedCampDayIds, setCollapsedCampDayIds] = useState<string[]>([]);
+  const [isPastEventsExpanded, setIsPastEventsExpanded] = useState(false);
   const saved = useSavedEvents();
   const hasActiveFilters = isCampMode
-    ? query.trim().length > 0 || selectedCampHosts.length > 0 || selectedDayId !== defaultDayId
+    ? query.trim().length > 0 || selectedCampHosts.length > 0
     : query.trim().length > 0 || category !== "all" || selectedDayId !== defaultDayId;
   const campSuggestions = useMemo(() => {
     const normalizedQuery = query.trim().toLocaleLowerCase();
@@ -42,7 +53,7 @@ export default function ScheduleScreen() {
 
     return campHosts
       .filter((campHost) => !selectedCampHosts.includes(campHost))
-      .filter((campHost) => campHost.toLocaleLowerCase().includes(normalizedQuery))
+      .filter((campHost) => campHostMatchesQuery(campHost, normalizedQuery))
       .slice(0, 8);
   }, [campHosts, query, selectedCampHosts]);
 
@@ -50,7 +61,7 @@ export default function ScheduleScreen() {
     () =>
       searchEvents(
         {
-          dayId: selectedDayId,
+          dayId: isCampMode ? undefined : selectedDayId,
           category: isCampMode ? "all" : category,
           query: isCampMode ? "" : query,
           campHostsOnly: isCampMode,
@@ -59,6 +70,10 @@ export default function ScheduleScreen() {
         scheduleNow
       ),
     [category, isCampMode, query, scheduleNow, selectedCampHosts, selectedDayId]
+  );
+  const campEventSections = useMemo(
+    () => (isCampMode ? buildCampEventSections(events, days, scheduleNow) : { upcomingGroups: [], pastGroups: [] }),
+    [days, events, isCampMode, scheduleNow]
   );
 
   useEffect(
@@ -73,7 +88,11 @@ export default function ScheduleScreen() {
     setQuery("");
     setCategory("all");
     setSelectedCampHosts([]);
-    setSelectedDayId(defaultDayId);
+    setCollapsedCampDayIds([]);
+    setIsPastEventsExpanded(false);
+    if (!isCampMode) {
+      setSelectedDayId(defaultDayId);
+    }
   }
 
   function addCampHost(campHost: string) {
@@ -83,6 +102,12 @@ export default function ScheduleScreen() {
 
   function removeCampHost(campHost: string) {
     setSelectedCampHosts((current) => current.filter((item) => item !== campHost));
+  }
+
+  function toggleCampDay(dayId: string) {
+    setCollapsedCampDayIds((current) =>
+      current.includes(dayId) ? current.filter((item) => item !== dayId) : [...current, dayId]
+    );
   }
 
   return (
@@ -132,7 +157,7 @@ export default function ScheduleScreen() {
         </View>
       ) : null}
 
-      <DayTabs days={days} selectedDayId={selectedDayId} onSelectDay={setSelectedDayId} />
+      {!isCampMode ? <DayTabs days={days} selectedDayId={selectedDayId} onSelectDay={setSelectedDayId} /> : null}
 
       {isCampMode && selectedCampHosts.length > 0 ? (
         <View style={styles.selectedCamps}>
@@ -177,29 +202,191 @@ export default function ScheduleScreen() {
         </ScrollView>
       ) : null}
 
-      <View style={styles.list}>
-        {events.length === 0 ? (
-          <EmptyState
-            title="No events found"
-            body={
-              isCampMode
-                ? "Try another day or selected camp."
-                : "Try a different day, category, or search term."
-            }
-          />
-        ) : (
-          events.map((event) => (
-            <EventCard
-              event={event}
-              isSaved={saved.isSaved(event.id)}
-              key={event.id}
-              onToggleSaved={saved.toggleSaved}
-            />
-          ))
-        )}
-      </View>
+      {isCampMode ? (
+        <CampEventList
+          collapsedDayIds={collapsedCampDayIds}
+          isPastEventsExpanded={isPastEventsExpanded}
+          isSaved={saved.isSaved}
+          onTogglePastEvents={() => setIsPastEventsExpanded((current) => !current)}
+          onToggleSaved={saved.toggleSaved}
+          onToggleDay={toggleCampDay}
+          pastGroups={campEventSections.pastGroups}
+          upcomingGroups={campEventSections.upcomingGroups}
+        />
+      ) : (
+        <View style={styles.list}>
+          {events.length === 0 ? (
+            <EmptyState title="No events found" body="Try a different day, category, or search term." />
+          ) : (
+            events.map((event) => (
+              <EventCard
+                event={event}
+                isSaved={saved.isSaved(event.id)}
+                key={event.id}
+                onToggleSaved={saved.toggleSaved}
+              />
+            ))
+          )}
+        </View>
+      )}
     </ScrollView>
   );
+}
+
+function CampEventList({
+  collapsedDayIds,
+  isPastEventsExpanded,
+  isSaved,
+  onToggleDay,
+  onTogglePastEvents,
+  onToggleSaved,
+  pastGroups,
+  upcomingGroups
+}: {
+  collapsedDayIds: string[];
+  isPastEventsExpanded: boolean;
+  isSaved: (eventId: string) => boolean;
+  onToggleDay: (dayId: string) => void;
+  onTogglePastEvents: () => void;
+  onToggleSaved: (eventId: string) => void;
+  pastGroups: CampEventDayGroup[];
+  upcomingGroups: CampEventDayGroup[];
+}) {
+  const pastEventCount = pastGroups.reduce((count, group) => count + group.events.length, 0);
+
+  if (upcomingGroups.length === 0 && pastEventCount === 0) {
+    return (
+      <View style={styles.list}>
+        <EmptyState title="No events found" body="Try another selected camp." />
+      </View>
+    );
+  }
+
+  return (
+    <View style={styles.campFlow}>
+      {upcomingGroups.map((group) => (
+        <CampDaySection
+          group={group}
+          isCollapsed={collapsedDayIds.includes(group.dayId)}
+          isSaved={isSaved}
+          key={group.dayId}
+          onToggleDay={onToggleDay}
+          onToggleSaved={onToggleSaved}
+        />
+      ))}
+
+      {pastEventCount > 0 ? (
+        <View style={styles.pastSection}>
+          <Pressable accessibilityRole="button" onPress={onTogglePastEvents} style={styles.dayHeader}>
+            <View style={styles.dayHeaderText}>
+              <Text style={styles.dayEyebrow}>Past events</Text>
+              <Text style={styles.dayTitle}>{pastEventCount} events</Text>
+            </View>
+            <Text style={styles.dayToggle}>{isPastEventsExpanded ? "-" : "+"}</Text>
+          </Pressable>
+
+          {isPastEventsExpanded ? (
+            <View style={styles.pastGroups}>
+              {pastGroups.map((group) => (
+                <View key={group.dayId} style={styles.pastGroup}>
+                  <Text style={styles.pastGroupTitle}>{group.label}</Text>
+                  <View style={styles.list}>
+                    {group.events.map((event) => (
+                      <EventCard
+                        event={event}
+                        campHostLabel={event.campHost ? getCanonicalCampHost(event.campHost) : undefined}
+                        isSaved={isSaved(event.id)}
+                        key={event.id}
+                        onToggleSaved={onToggleSaved}
+                      />
+                    ))}
+                  </View>
+                </View>
+              ))}
+            </View>
+          ) : null}
+        </View>
+      ) : null}
+    </View>
+  );
+}
+
+function CampDaySection({
+  group,
+  isCollapsed,
+  isSaved,
+  onToggleDay,
+  onToggleSaved
+}: {
+  group: CampEventDayGroup;
+  isCollapsed: boolean;
+  isSaved: (eventId: string) => boolean;
+  onToggleDay: (dayId: string) => void;
+  onToggleSaved: (eventId: string) => void;
+}) {
+  return (
+    <View style={styles.daySection}>
+      <Pressable accessibilityRole="button" onPress={() => onToggleDay(group.dayId)} style={styles.dayHeader}>
+        <View style={styles.dayHeaderText}>
+          <Text style={styles.dayEyebrow}>{group.events.length} events</Text>
+          <Text style={styles.dayTitle}>{group.label}</Text>
+        </View>
+        <Text style={styles.dayToggle}>{isCollapsed ? "+" : "-"}</Text>
+      </Pressable>
+
+      {!isCollapsed ? (
+        <View style={styles.list}>
+          {group.events.map((event) => (
+            <EventCard
+              campHostLabel={event.campHost ? getCanonicalCampHost(event.campHost) : undefined}
+              event={event}
+              isSaved={isSaved(event.id)}
+              key={event.id}
+              onToggleSaved={onToggleSaved}
+            />
+          ))}
+        </View>
+      ) : null}
+    </View>
+  );
+}
+
+function buildCampEventSections(
+  events: FestivalEvent[],
+  days: ReturnType<typeof getScheduleDays>,
+  now: Date
+): { upcomingGroups: CampEventDayGroup[]; pastGroups: CampEventDayGroup[] } {
+  const nowTime = now.getTime();
+  const upcomingEvents: FestivalEvent[] = [];
+  const pastEvents: FestivalEvent[] = [];
+
+  for (const event of events) {
+    if (getEventEndTime(event) <= nowTime) {
+      pastEvents.push(event);
+    } else {
+      upcomingEvents.push(event);
+    }
+  }
+
+  return {
+    upcomingGroups: groupEventsByDay(upcomingEvents, days),
+    pastGroups: groupEventsByDay(pastEvents, days)
+  };
+}
+
+function groupEventsByDay(events: FestivalEvent[], days: ReturnType<typeof getScheduleDays>): CampEventDayGroup[] {
+  const daysById = new Map(days.map((day) => [day.id, day]));
+  const groups = new Map<string, FestivalEvent[]>();
+
+  for (const event of events) {
+    groups.set(event.dayId, [...(groups.get(event.dayId) ?? []), event]);
+  }
+
+  return Array.from(groups.entries()).map(([dayId, groupEvents]) => ({
+    dayId,
+    label: daysById.get(dayId)?.label ?? groupEvents[0]?.date ?? dayId,
+    events: groupEvents
+  }));
 }
 
 const styles = StyleSheet.create({
@@ -210,6 +397,48 @@ const styles = StyleSheet.create({
     paddingBottom: theme.spacing.bottomNavPadding,
     paddingTop: 18,
     width: "100%"
+  },
+  campFlow: {
+    gap: 14
+  },
+  dayEyebrow: {
+    color: theme.colors.brand,
+    fontSize: 12,
+    fontWeight: "900",
+    textTransform: "uppercase"
+  },
+  dayHeader: {
+    alignItems: "center",
+    backgroundColor: theme.surfaces.chrome,
+    borderColor: theme.colors.border,
+    borderRadius: 8,
+    borderWidth: 1,
+    flexDirection: "row",
+    gap: 12,
+    justifyContent: "space-between",
+    marginHorizontal: theme.spacing.screenX,
+    paddingHorizontal: 12,
+    paddingVertical: 10
+  },
+  dayHeaderText: {
+    flex: 1,
+    gap: 2,
+    minWidth: 0
+  },
+  daySection: {
+    gap: 10
+  },
+  dayTitle: {
+    color: theme.colors.text,
+    fontSize: 18,
+    fontWeight: "900"
+  },
+  dayToggle: {
+    color: theme.colors.text,
+    fontSize: 20,
+    fontWeight: "900",
+    minWidth: 18,
+    textAlign: "center"
   },
   eyebrow: {
     color: theme.colors.brand,
@@ -255,6 +484,22 @@ const styles = StyleSheet.create({
   list: {
     gap: 12,
     paddingHorizontal: theme.spacing.screenX
+  },
+  pastGroup: {
+    gap: 8
+  },
+  pastGroups: {
+    gap: 12
+  },
+  pastGroupTitle: {
+    color: theme.colors.textMuted,
+    fontSize: 13,
+    fontWeight: "900",
+    marginHorizontal: theme.spacing.screenX,
+    textTransform: "uppercase"
+  },
+  pastSection: {
+    gap: 10
   },
   screen: {
     backgroundColor: "transparent",
