@@ -6,7 +6,7 @@ import { DayTabs } from "@/components/DayTabs";
 import { EmptyState } from "@/components/EmptyState";
 import { EventCard } from "@/components/EventCard";
 import { useSavedEvents } from "@/hooks/useSavedEvents";
-import { subscribeToHomeScrollToTop } from "@/lib/homeScrollEvents";
+import { subscribeToScrollToTop } from "@/lib/scrollToTopEvents";
 import {
   campHostMatchesQuery,
   getCampHosts,
@@ -78,7 +78,7 @@ export default function ScheduleScreen() {
 
   useEffect(
     () =>
-      subscribeToHomeScrollToTop(() => {
+      subscribeToScrollToTop(() => {
         scrollViewRef.current?.scrollTo({ y: 0, animated: true });
       }),
     []

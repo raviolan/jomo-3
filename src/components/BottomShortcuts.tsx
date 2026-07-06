@@ -2,7 +2,7 @@ import { useGlobalSearchParams, usePathname, useRouter } from "expo-router";
 import { Pressable, StyleSheet, Text, View } from "react-native";
 import Svg, { Path } from "react-native-svg";
 
-import { requestHomeScrollToTop } from "@/lib/homeScrollEvents";
+import { requestScrollToTop } from "@/lib/scrollToTopEvents";
 import { theme } from "@/theme/theme";
 
 const shortcuts = [
@@ -47,7 +47,7 @@ export function BottomShortcuts() {
               key={shortcut.href}
               onPress={() => {
                 if (shortcut.href === "/" && pathname === "/" && params.view !== "camps") {
-                  requestHomeScrollToTop();
+                  requestScrollToTop();
                   return;
                 }
 

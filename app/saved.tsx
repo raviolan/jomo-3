@@ -1,17 +1,28 @@
+import { useEffect, useRef } from "react";
 import { ScrollView, StyleSheet, Text, View } from "react-native";
 
 import { EmptyState } from "@/components/EmptyState";
 import { EventCard } from "@/components/EventCard";
 import { useSavedEvents } from "@/hooks/useSavedEvents";
 import { getAllEvents } from "@/lib/scheduleQueries";
+import { subscribeToScrollToTop } from "@/lib/scrollToTopEvents";
 import { theme } from "@/theme/theme";
 
 export default function SavedScreen() {
+  const scrollViewRef = useRef<ScrollView>(null);
   const saved = useSavedEvents();
   const events = saved.savedEvents(getAllEvents());
 
+  useEffect(
+    () =>
+      subscribeToScrollToTop(() => {
+        scrollViewRef.current?.scrollTo({ y: 0, animated: true });
+      }),
+    []
+  );
+
   return (
-    <ScrollView style={styles.screen} contentContainerStyle={styles.content}>
+    <ScrollView ref={scrollViewRef} style={styles.screen} contentContainerStyle={styles.content}>
       <View style={styles.header}>
         <Text style={styles.title}>Saved events</Text>
         <Text style={styles.subtitle}>

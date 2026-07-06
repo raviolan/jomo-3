@@ -1,15 +1,26 @@
+import { useEffect, useRef } from "react";
 import { Link, useLocalSearchParams } from "expo-router";
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 
 import { EmptyState } from "@/components/EmptyState";
 import { useSavedEvents } from "@/hooks/useSavedEvents";
 import { getEventById } from "@/lib/scheduleQueries";
+import { subscribeToScrollToTop } from "@/lib/scrollToTopEvents";
 import { theme } from "@/theme/theme";
 
 export default function EventDetailScreen() {
+  const scrollViewRef = useRef<ScrollView>(null);
   const { id } = useLocalSearchParams<{ id: string }>();
   const event = typeof id === "string" ? getEventById(id) : undefined;
   const saved = useSavedEvents();
+
+  useEffect(
+    () =>
+      subscribeToScrollToTop(() => {
+        scrollViewRef.current?.scrollTo({ y: 0, animated: true });
+      }),
+    []
+  );
 
   if (!event) {
     return (
@@ -27,7 +38,7 @@ export default function EventDetailScreen() {
   const isSaved = saved.isSaved(event.id);
 
   return (
-    <ScrollView style={styles.screen} contentContainerStyle={styles.content}>
+    <ScrollView ref={scrollViewRef} style={styles.screen} contentContainerStyle={styles.content}>
       <Text style={styles.category}>{event.category}</Text>
       <Text style={styles.title}>{event.title}</Text>
 

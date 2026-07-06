@@ -4,6 +4,7 @@ import { StatusBar } from "expo-status-bar";
 import { StyleSheet, View } from "react-native";
 
 import { AppBackground } from "@/components/AppBackground";
+import { BackToTopButton } from "@/components/BackToTopButton";
 import { BottomShortcuts } from "@/components/BottomShortcuts";
 import { theme } from "@/theme/theme";
 
@@ -39,6 +40,7 @@ export default function RootLayout() {
           </Stack>
         </ThemeProvider>
       </View>
+      <BackToTopButton />
       <BottomShortcuts />
     </View>
   );
