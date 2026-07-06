@@ -3,6 +3,7 @@ import { Link, useLocalSearchParams, useRouter } from "expo-router";
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 
 import { EmptyState } from "@/components/EmptyState";
+import { LinkifiedText } from "@/components/LinkifiedText";
 import { UndoNotice } from "@/components/UndoNotice";
 import { useSavedEvents } from "@/hooks/useSavedEvents";
 import { getReturnContext, getReturnHref } from "@/lib/returnNavigation";
@@ -60,7 +61,7 @@ export default function EventDetailScreen() {
       <View style={styles.metaGrid}>
         <MetaBlock label="Time" value={`${getDayLabelForEvent(event)} · ${event.time.display}`} />
         <MetaBlock label="Location" value={event.location.name} />
-        <MetaBlock label="Description" value={event.description || "No description was extracted for this event."} />
+        <DescriptionBlock value={event.description || "No description was extracted for this event."} />
         {event.host ? <MetaBlock label="Host" value={event.host} /> : null}
         {event.campHost ? <MetaBlock label="Camp" value={event.campHost} /> : null}
         {event.tags.length > 0 ? <MetaBlock label="Tags" value={event.tags.join(" · ")} /> : null}
@@ -88,6 +89,15 @@ function MetaBlock({ label, value }: { label: string; value: string }) {
     <View style={styles.metaBlock}>
       <Text style={styles.metaLabel}>{label}</Text>
       <Text style={styles.metaValue}>{value}</Text>
+    </View>
+  );
+}
+
+function DescriptionBlock({ value }: { value: string }) {
+  return (
+    <View style={styles.metaBlock}>
+      <Text style={styles.metaLabel}>Description</Text>
+      <LinkifiedText style={styles.metaValue} text={value} />
     </View>
   );
 }
