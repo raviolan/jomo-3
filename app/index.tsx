@@ -3,6 +3,7 @@ import type { ReactNode } from "react";
 import { useFocusEffect, useLocalSearchParams } from "expo-router";
 import { Pressable, ScrollView, StyleSheet, Text, TextInput, View } from "react-native";
 
+import { AppFooter } from "@/components/AppFooter";
 import { DayTabs } from "@/components/DayTabs";
 import { EmptyState } from "@/components/EmptyState";
 import { EventCard } from "@/components/EventCard";
@@ -539,6 +540,7 @@ export default function ScheduleScreen() {
           </View>
         </>
       )}
+      <AppFooter />
     </ScrollView>
   );
 }

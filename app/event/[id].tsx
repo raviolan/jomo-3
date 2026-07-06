@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react";
 import { Link, useLocalSearchParams, useRouter } from "expo-router";
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 
+import { AppFooter } from "@/components/AppFooter";
 import { EmptyState } from "@/components/EmptyState";
 import { LinkifiedText } from "@/components/LinkifiedText";
 import { UndoNotice } from "@/components/UndoNotice";
@@ -80,6 +81,7 @@ export default function EventDetailScreen() {
       {saved.storageError ? <Text style={styles.warning}>{saved.storageError}</Text> : null}
 
       <Text style={styles.source}>Source: {event.source.pdf}, page {event.source.page}</Text>
+      <AppFooter />
     </ScrollView>
   );
 }

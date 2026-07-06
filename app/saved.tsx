@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useFocusEffect, useRouter } from "expo-router";
 import { Pressable, ScrollView, StyleSheet, Text, useWindowDimensions, View } from "react-native";
 
+import { AppFooter } from "@/components/AppFooter";
 import { EmptyState } from "@/components/EmptyState";
 import { EventCard } from "@/components/EventCard";
 import { UndoNotice } from "@/components/UndoNotice";
@@ -293,6 +294,7 @@ export default function SavedScreen() {
           )}
         </View>
       )}
+      <AppFooter />
     </ScrollView>
   );
 }
