@@ -18,7 +18,7 @@ import {
   getCategories,
   getDefaultHomeDayId,
   getEventEndTime,
-  getEventTitleSuggestions,
+  getEventSuggestions,
   getScheduleDays,
   getTags,
   searchEvents,
@@ -82,7 +82,7 @@ export default function ScheduleScreen() {
       camps: campHosts
         .filter((campHost) => campHostMatchesQuery(campHost, normalizedQuery))
         .slice(0, 5),
-      events: getEventTitleSuggestions(normalizedQuery, 5, selectedDayId),
+      events: getEventSuggestions(normalizedQuery, 5, selectedDayId),
       tags: tags
         .filter((tag) => !selectedTags.includes(tag))
         .filter((tag) => tagMatchesQuery(tag, normalizedQuery))
@@ -324,7 +324,13 @@ export default function ScheduleScreen() {
         <View style={styles.suggestions}>
           <SuggestionGroup title="Camps">
             {homeSuggestions.camps.map((campHost) => (
-              <SuggestionButton key={campHost} label={campHost} onPress={() => setQuery(campHost)} />
+              <CampSuggestionButton
+                campHost={campHost}
+                isSaved={saved.isCampSaved(campHost)}
+                key={campHost}
+                onSelect={() => setQuery(campHost)}
+                onToggleSaved={() => saved.toggleSavedCamp(campHost)}
+              />
             ))}
           </SuggestionGroup>
           <SuggestionGroup title="Tags">
@@ -333,8 +339,14 @@ export default function ScheduleScreen() {
             ))}
           </SuggestionGroup>
           <SuggestionGroup title="Events">
-            {homeSuggestions.events.map((title) => (
-              <SuggestionButton key={title} label={title} onPress={() => setQuery(title)} />
+            {homeSuggestions.events.map((event) => (
+              <EventSuggestionButton
+                event={event}
+                isSaved={saved.isSaved(event.id)}
+                key={event.id}
+                onSelect={() => setQuery(event.title)}
+                onToggleSaved={() => saved.toggleSaved(event.id)}
+              />
             ))}
           </SuggestionGroup>
         </View>
@@ -549,6 +561,62 @@ function SuggestionButton({ label, onPress }: { label: string; onPress: () => vo
     <Pressable accessibilityRole="button" onPress={onPress} style={styles.suggestionButton}>
       <Text style={styles.suggestionText}>{label}</Text>
     </Pressable>
+  );
+}
+
+function CampSuggestionButton({
+  campHost,
+  isSaved,
+  onSelect,
+  onToggleSaved
+}: {
+  campHost: string;
+  isSaved: boolean;
+  onSelect: () => void;
+  onToggleSaved: () => void;
+}) {
+  return (
+    <View style={[styles.suggestionButton, styles.campSuggestionRow]}>
+      <Pressable accessibilityRole="button" onPress={onSelect} style={styles.campSuggestionLabelButton}>
+        <Text style={styles.suggestionText}>{campHost}</Text>
+      </Pressable>
+      <Pressable
+        accessibilityLabel={isSaved ? "Unsave camp" : "Save camp"}
+        accessibilityRole="button"
+        onPress={onToggleSaved}
+        style={styles.campSuggestionHeartButton}
+      >
+        <HeartIcon color={theme.colors.brandDark} filled={isSaved} size={21} />
+      </Pressable>
+    </View>
+  );
+}
+
+function EventSuggestionButton({
+  event,
+  isSaved,
+  onSelect,
+  onToggleSaved
+}: {
+  event: FestivalEvent;
+  isSaved: boolean;
+  onSelect: () => void;
+  onToggleSaved: () => void;
+}) {
+  return (
+    <View style={[styles.suggestionButton, styles.campSuggestionRow]}>
+      <Pressable accessibilityRole="button" onPress={onSelect} style={styles.campSuggestionLabelButton}>
+        <Text style={styles.suggestionText}>{event.title}</Text>
+      </Pressable>
+      <Pressable
+        accessibilityLabel={isSaved ? "Unsave event" : "Save event"}
+        accessibilityRole="button"
+        onPress={onToggleSaved}
+        style={styles.campSuggestionHeartButton}
+      >
+        <HeartIcon color={theme.colors.brandDark} filled={isSaved} size={21} />
+      </Pressable>
+    </View>
   );
 }
 
@@ -879,6 +947,26 @@ const styles = StyleSheet.create({
     flexWrap: "wrap",
     gap: 8,
     marginHorizontal: theme.spacing.screenX
+  },
+  campSuggestionHeartButton: {
+    alignItems: "center",
+    height: 40,
+    justifyContent: "center",
+    width: 40
+  },
+  campSuggestionLabelButton: {
+    flex: 1,
+    justifyContent: "center",
+    minHeight: 40,
+    minWidth: 0
+  },
+  campSuggestionRow: {
+    alignItems: "center",
+    flexDirection: "row",
+    gap: 8,
+    paddingBottom: 4,
+    paddingRight: 4,
+    paddingTop: 4
   },
   dayEyebrow: {
     color: theme.colors.brand,

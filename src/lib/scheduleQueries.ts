@@ -160,17 +160,29 @@ export function tagMatchesQuery(tag: FestivalTag, query: string): boolean {
 }
 
 export function getEventTitleSuggestions(query: string, limit = 6, dayId?: string): string[] {
+  return getEventSuggestions(query, limit, dayId).map((event) => event.title);
+}
+
+export function getEventSuggestions(query: string, limit = 6, dayId?: string): FestivalEvent[] {
   const normalizedQuery = normalizeSearch(query);
   if (normalizedQuery.length < 2) {
     return [];
   }
 
-  const titles = schedule.events
+  const eventsByTitle = new Map<string, FestivalEvent>();
+  const matchingEvents = sortEvents(schedule.events)
     .filter((event) => !dayId || event.dayId === dayId)
-    .filter((event) => normalizeSearch(event.title).includes(normalizedQuery))
-    .map((event) => event.title);
+    .filter((event) => normalizeSearch(event.title).includes(normalizedQuery));
 
-  return Array.from(new Set(titles)).sort((a, b) => a.localeCompare(b)).slice(0, limit);
+  for (const event of matchingEvents) {
+    if (!eventsByTitle.has(event.title)) {
+      eventsByTitle.set(event.title, event);
+    }
+  }
+
+  return Array.from(eventsByTitle.values())
+    .sort((a, b) => a.title.localeCompare(b.title))
+    .slice(0, limit);
 }
 
 export function getCampHosts(): string[] {
