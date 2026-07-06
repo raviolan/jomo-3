@@ -1,6 +1,7 @@
 import { Image, Pressable, StyleSheet, Text, View, type ImageSourcePropType } from "react-native";
 
 import {
+  ALL_GRID_SQUARES,
   CAMP_MAP_IMAGE,
   getGridSquareBounds
 } from "@/lib/mapGrid";
@@ -11,18 +12,27 @@ const campgroundMapImage = require("../../assets/maps/campground-map-2026.png") 
 
 interface CampMapProps {
   highlightedSquares: GridSquareRef[];
+  interactiveSquares?: "highlighted" | "all";
   onGridSquarePress?: (gridSquare: GridSquareRef) => void;
 }
 
-export function CampMap({ highlightedSquares, onGridSquarePress }: CampMapProps) {
+export function CampMap({
+  highlightedSquares,
+  interactiveSquares = "highlighted",
+  onGridSquarePress
+}: CampMapProps) {
   const labels = highlightedSquares.map((square) => square.label).join(", ");
+  const pressableSquares =
+    onGridSquarePress && interactiveSquares === "all" ? ALL_GRID_SQUARES : highlightedSquares;
 
   return (
     <View style={styles.container}>
-      <View style={styles.header}>
-        <Text style={styles.title}>Show on map</Text>
-        <Text style={styles.refs}>{labels}</Text>
-      </View>
+      {highlightedSquares.length > 0 ? (
+        <View style={styles.header}>
+          <Text style={styles.title}>Show on map</Text>
+          <Text style={styles.refs}>{labels}</Text>
+        </View>
+      ) : null}
       <View style={styles.mapFrame}>
         <Image source={campgroundMapImage} style={styles.mapImage} resizeMode="contain" />
         <View pointerEvents="box-none" style={styles.markerLayer}>
@@ -56,6 +66,36 @@ export function CampMap({ highlightedSquares, onGridSquarePress }: CampMapProps)
               </View>
             );
           })}
+          {onGridSquarePress
+            ? pressableSquares.map((square) => {
+                const bounds = getGridSquareBounds(square);
+                const markerStyle = {
+                  height: toPercent(bounds.height, CAMP_MAP_IMAGE.height),
+                  left: toPercent(bounds.x, CAMP_MAP_IMAGE.width),
+                  top: toPercent(bounds.y, CAMP_MAP_IMAGE.height),
+                  width: toPercent(bounds.width, CAMP_MAP_IMAGE.width)
+                };
+
+                return (
+                  <Pressable
+                    accessibilityLabel={
+                      interactiveSquares === "all"
+                        ? `Open grid square ${square.label}`
+                        : `Show event info for grid square ${square.label}`
+                    }
+                    accessibilityRole="button"
+                    hitSlop={interactiveSquares === "all" ? 0 : 18}
+                    key={`${square.key}-target`}
+                    onPress={() => onGridSquarePress(square)}
+                    style={[
+                      styles.pressTarget,
+                      interactiveSquares === "highlighted" && styles.highlightPressTarget,
+                      markerStyle
+                    ]}
+                  />
+                );
+              })
+            : null}
         </View>
       </View>
     </View>
@@ -107,7 +147,9 @@ const styles = StyleSheet.create({
   marker: {
     alignItems: "center",
     justifyContent: "center",
-    position: "absolute"
+    pointerEvents: "none",
+    position: "absolute",
+    zIndex: 2
   },
   markerCell: {
     alignItems: "center",
@@ -138,6 +180,15 @@ const styles = StyleSheet.create({
   markerLayer: {
     ...StyleSheet.absoluteFillObject,
     zIndex: 2
+  },
+  pressTarget: {
+    backgroundColor: "transparent",
+    position: "absolute",
+    zIndex: 3
+  },
+  highlightPressTarget: {
+    minHeight: 24,
+    minWidth: 24
   },
   refs: {
     color: theme.colors.text,

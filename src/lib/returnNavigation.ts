@@ -29,6 +29,11 @@ export type ReturnContext =
   | {
       route: "saved";
       scrollY: number;
+    }
+  | {
+      route: "mapSquare";
+      scrollY: number;
+      square: string;
     };
 
 let returnContext: ReturnContext | undefined;
@@ -45,7 +50,7 @@ export function clearReturnContext() {
   returnContext = undefined;
 }
 
-export function getReturnHref(context: ReturnContext | undefined): "/" | "/saved" | "/?view=camps" {
+export function getReturnHref(context: ReturnContext | undefined): "/" | "/saved" | "/?view=camps" | `/map/${string}` {
   if (!context) {
     return "/";
   }
@@ -56,6 +61,10 @@ export function getReturnHref(context: ReturnContext | undefined): "/" | "/saved
 
   if (context.route === "camps") {
     return "/?view=camps";
+  }
+
+  if (context.route === "mapSquare") {
+    return `/map/${context.square}`;
   }
 
   return "/";

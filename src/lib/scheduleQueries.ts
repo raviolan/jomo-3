@@ -5,6 +5,7 @@ import type {
   FestivalEvent,
   FestivalEventId,
   FestivalTag,
+  GridSquareRef,
   NormalizedSchedule
 } from "@/models/schedule";
 
@@ -107,6 +108,10 @@ export function getAllEvents(): FestivalEvent[] {
 
 export function getEventById(id: FestivalEventId): FestivalEvent | undefined {
   return byId.get(id);
+}
+
+export function getEventsForGridSquare(square: GridSquareRef): FestivalEvent[] {
+  return sortEvents(schedule.events.filter((event) => event.gridSquares?.some((item) => item.key === square.key)));
 }
 
 export function getDayLabelForEvent(event: FestivalEvent): string {

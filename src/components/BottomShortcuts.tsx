@@ -24,6 +24,12 @@ const shortcuts = [
     label: "Camps",
     icon: TentIcon,
     isActive: (pathname: string, view: string | undefined) => pathname === "/" && view === "camps"
+  },
+  {
+    href: "/map",
+    label: "Map",
+    icon: MapIcon,
+    isActive: (pathname: string) => pathname === "/map" || pathname.startsWith("/map/")
   }
 ] as const;
 
@@ -99,6 +105,21 @@ function TentIcon({ color }: { color: string }) {
   );
 }
 
+function MapIcon({ color }: { color: string }) {
+  return (
+    <Svg fill="none" height={21} viewBox="0 0 24 24" width={21}>
+      <Path
+        d="m9 18-5 2V6l5-2 6 2 5-2v14l-5 2-6-2Z"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+      />
+      <Path d="M9 4v14M15 6v14" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} />
+    </Svg>
+  );
+}
+
 const styles = StyleSheet.create({
   item: {
     alignItems: "center",
@@ -129,7 +150,7 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     borderWidth: 1,
     flexDirection: "row",
-    gap: 6,
+    gap: 4,
     maxWidth: 520,
     padding: 6,
     width: "100%"

@@ -77,6 +77,38 @@ export const CAMP_MAP_CELL = {
   height: CAMP_MAP_GRID_BOUNDS.height / GRID_ROWS.length
 } as const;
 
+const gridColumnSet = new Set<string>(GRID_COLUMNS);
+const gridRowSet = new Set<number>(GRID_ROWS);
+
+export const ALL_GRID_SQUARES = GRID_COLUMNS.flatMap((column) =>
+  GRID_ROWS.map((row) => createGridSquareRef(column, row))
+);
+
+export function createGridSquareRef(column: GridColumn, row: GridRow): GridSquareRef {
+  return {
+    column,
+    row,
+    key: `${column}${row}`,
+    label: `${column}${String(row).padStart(2, "0")}`
+  };
+}
+
+export function parseGridSquareRef(value: string | undefined): GridSquareRef | undefined {
+  const match = value?.trim().toUpperCase().match(/^([A-Z])0?(\d{1,2})$/);
+  if (!match) {
+    return undefined;
+  }
+
+  const column = match[1];
+  const row = Number(match[2]);
+
+  if (!isGridColumn(column) || !isGridRow(row)) {
+    return undefined;
+  }
+
+  return createGridSquareRef(column, row);
+}
+
 export function getGridSquareBounds(square: GridSquareRef) {
   const columnIndex = GRID_COLUMNS.indexOf(square.column);
   const rowIndex = GRID_ROWS.indexOf(square.row);
@@ -87,4 +119,12 @@ export function getGridSquareBounds(square: GridSquareRef) {
     width: CAMP_MAP_CELL.width,
     height: CAMP_MAP_CELL.height
   };
+}
+
+function isGridColumn(value: string): value is GridColumn {
+  return gridColumnSet.has(value);
+}
+
+function isGridRow(value: number): value is GridRow {
+  return gridRowSet.has(value);
 }
