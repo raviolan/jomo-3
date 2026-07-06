@@ -109,6 +109,26 @@ export function parseGridSquareRef(value: string | undefined): GridSquareRef | u
   return createGridSquareRef(column, row);
 }
 
+export function getAdjacentGridSquares(square: GridSquareRef): GridSquareRef[] {
+  const columnIndex = GRID_COLUMNS.indexOf(square.column);
+
+  return [-1, 0, 1].flatMap((columnOffset) =>
+    [-1, 0, 1]
+      .filter((rowOffset) => columnOffset !== 0 || rowOffset !== 0)
+      .map((rowOffset) => {
+        const column = GRID_COLUMNS[columnIndex + columnOffset];
+        const row = square.row + rowOffset;
+
+        if (!column || !isGridRow(row)) {
+          return undefined;
+        }
+
+        return createGridSquareRef(column, row);
+      })
+      .filter(isDefinedGridSquare)
+  );
+}
+
 export function getGridSquareBounds(square: GridSquareRef) {
   const columnIndex = GRID_COLUMNS.indexOf(square.column);
   const rowIndex = GRID_ROWS.indexOf(square.row);
@@ -127,4 +147,8 @@ function isGridColumn(value: string): value is GridColumn {
 
 function isGridRow(value: number): value is GridRow {
   return gridRowSet.has(value);
+}
+
+function isDefinedGridSquare(value: GridSquareRef | undefined): value is GridSquareRef {
+  return value !== undefined;
 }

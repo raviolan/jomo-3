@@ -1,4 +1,5 @@
 import generatedSchedule from "@/data/generatedSchedule";
+import { getAdjacentGridSquares } from "@/lib/mapGrid";
 import type {
   FestivalCategory,
   FestivalDay,
@@ -112,6 +113,19 @@ export function getEventById(id: FestivalEventId): FestivalEvent | undefined {
 
 export function getEventsForGridSquare(square: GridSquareRef): FestivalEvent[] {
   return sortEvents(schedule.events.filter((event) => event.gridSquares?.some((item) => item.key === square.key)));
+}
+
+export function getEventsForAdjacentGridSquares(square: GridSquareRef): FestivalEvent[] {
+  const adjacentSquareKeys = new Set(getAdjacentGridSquares(square).map((item) => item.key));
+  const eventsById = new Map<FestivalEventId, FestivalEvent>();
+
+  for (const event of schedule.events) {
+    if (event.gridSquares?.some((item) => adjacentSquareKeys.has(item.key))) {
+      eventsById.set(event.id, event);
+    }
+  }
+
+  return sortEvents(Array.from(eventsById.values()));
 }
 
 export function getDayLabelForEvent(event: FestivalEvent): string {

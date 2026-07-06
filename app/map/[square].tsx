@@ -9,7 +9,7 @@ import { UndoNotice } from "@/components/UndoNotice";
 import { useSavedEvents } from "@/hooks/useSavedEvents";
 import { clearReturnContext, getReturnContext, setReturnContext } from "@/lib/returnNavigation";
 import { parseGridSquareRef } from "@/lib/mapGrid";
-import { getEventsForGridSquare } from "@/lib/scheduleQueries";
+import { getEventsForAdjacentGridSquares, getEventsForGridSquare } from "@/lib/scheduleQueries";
 import { subscribeToScrollToTop } from "@/lib/scrollToTopEvents";
 import { theme } from "@/theme/theme";
 
@@ -20,6 +20,10 @@ export default function MapSquareScreen() {
   const { square: squareParam } = useLocalSearchParams<{ square: string }>();
   const square = parseGridSquareRef(typeof squareParam === "string" ? squareParam : undefined);
   const events = useMemo(() => (square ? getEventsForGridSquare(square) : []), [square]);
+  const nearbyEvents = useMemo(
+    () => (square && events.length === 0 ? getEventsForAdjacentGridSquares(square) : []),
+    [events.length, square]
+  );
   const saved = useSavedEvents();
 
   useEffect(
@@ -108,7 +112,23 @@ export default function MapSquareScreen() {
 
       <View style={styles.list}>
         {events.length === 0 ? (
-          <EmptyState title="No events found" body="No bundled schedule events are linked to this grid square yet." />
+          <>
+            <EmptyState title="No events found" body="No bundled schedule events are linked to this grid square yet." />
+            {nearbyEvents.length > 0 ? (
+              <View style={styles.nearbySection}>
+                <Text style={styles.nearbyTitle}>Looking for one of these? They're close to that!</Text>
+                {nearbyEvents.map((event) => (
+                  <EventCard
+                    event={event}
+                    isSaved={saved.isSaved(event.id)}
+                    key={event.id}
+                    onBeforeNavigate={captureReturnContext}
+                    onToggleSaved={saved.toggleSaved}
+                  />
+                ))}
+              </View>
+            ) : null}
+          </>
         ) : (
           events.map((event) => (
             <EventCard
@@ -156,6 +176,15 @@ const styles = StyleSheet.create({
   },
   list: {
     gap: 12
+  },
+  nearbySection: {
+    gap: 12
+  },
+  nearbyTitle: {
+    color: theme.colors.text,
+    fontSize: 18,
+    fontWeight: "900",
+    lineHeight: 23
   },
   missing: {
     backgroundColor: "transparent",
