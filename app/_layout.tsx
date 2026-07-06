@@ -37,6 +37,7 @@ export default function RootLayout() {
             <Stack.Screen name="index" options={{ title: "JOMO 2.0" }} />
             <Stack.Screen name="saved" options={{ title: "Saved events" }} />
             <Stack.Screen name="event/[id]" options={{ title: "Event" }} />
+            <Stack.Screen name="privacy" options={{ title: "Privacy" }} />
           </Stack>
         </ThemeProvider>
       </View>
