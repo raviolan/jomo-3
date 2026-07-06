@@ -69,5 +69,7 @@ export interface NormalizedSchedule {
 
 export interface SavedEventState {
   savedEventIds: FestivalEventId[];
+  savedCampHosts: string[];
+  hiddenEventIds: FestivalEventId[];
   updatedAt: string;
 }

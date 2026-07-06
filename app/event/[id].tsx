@@ -1,15 +1,18 @@
 import { useEffect, useRef } from "react";
-import { Link, useLocalSearchParams } from "expo-router";
+import { Link, useLocalSearchParams, useRouter } from "expo-router";
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 
 import { EmptyState } from "@/components/EmptyState";
+import { UndoNotice } from "@/components/UndoNotice";
 import { useSavedEvents } from "@/hooks/useSavedEvents";
-import { getEventById } from "@/lib/scheduleQueries";
+import { getReturnContext, getReturnHref } from "@/lib/returnNavigation";
+import { getDayLabelForEvent, getEventById } from "@/lib/scheduleQueries";
 import { subscribeToScrollToTop } from "@/lib/scrollToTopEvents";
 import { theme } from "@/theme/theme";
 
 export default function EventDetailScreen() {
   const scrollViewRef = useRef<ScrollView>(null);
+  const router = useRouter();
   const { id } = useLocalSearchParams<{ id: string }>();
   const event = typeof id === "string" ? getEventById(id) : undefined;
   const saved = useSavedEvents();
@@ -39,12 +42,25 @@ export default function EventDetailScreen() {
 
   return (
     <ScrollView ref={scrollViewRef} style={styles.screen} contentContainerStyle={styles.content}>
+      <Pressable
+        accessibilityRole="button"
+        onPress={() => {
+          router.replace(getReturnHref(getReturnContext()));
+        }}
+        style={styles.backButton}
+      >
+        <Text style={styles.backButtonText}>Back to list</Text>
+      </Pressable>
+
+      <UndoNotice label={saved.undoLabel} onUndo={saved.undoLastAction} />
+
       <Text style={styles.category}>{event.category}</Text>
       <Text style={styles.title}>{event.title}</Text>
 
       <View style={styles.metaGrid}>
-        <MetaBlock label="Time" value={`${event.date} · ${event.time.display}`} />
+        <MetaBlock label="Time" value={`${getDayLabelForEvent(event)} · ${event.time.display}`} />
         <MetaBlock label="Location" value={event.location.name} />
+        <MetaBlock label="Description" value={event.description || "No description was extracted for this event."} />
         {event.host ? <MetaBlock label="Host" value={event.host} /> : null}
         {event.campHost ? <MetaBlock label="Camp" value={event.campHost} /> : null}
         {event.tags.length > 0 ? <MetaBlock label="Tags" value={event.tags.join(" · ")} /> : null}
@@ -62,7 +78,6 @@ export default function EventDetailScreen() {
 
       {saved.storageError ? <Text style={styles.warning}>{saved.storageError}</Text> : null}
 
-      <Text style={styles.description}>{event.description || "No description was extracted for this event."}</Text>
       <Text style={styles.source}>Source: {event.source.pdf}, page {event.source.page}</Text>
     </ScrollView>
   );
@@ -78,6 +93,21 @@ function MetaBlock({ label, value }: { label: string; value: string }) {
 }
 
 const styles = StyleSheet.create({
+  backButton: {
+    alignItems: "center",
+    alignSelf: "flex-start",
+    backgroundColor: theme.surfaces.chrome,
+    borderColor: theme.colors.border,
+    borderRadius: 999,
+    borderWidth: 1,
+    paddingHorizontal: 12,
+    paddingVertical: 8
+  },
+  backButtonText: {
+    color: theme.colors.text,
+    fontSize: 12,
+    fontWeight: "900"
+  },
   category: {
     color: theme.colors.brand,
     fontSize: 13,
@@ -91,11 +121,6 @@ const styles = StyleSheet.create({
     padding: theme.spacing.screenX,
     paddingBottom: theme.spacing.bottomNavPadding,
     width: "100%"
-  },
-  description: {
-    color: theme.colors.text,
-    fontSize: 17,
-    lineHeight: 25
   },
   metaBlock: {
     backgroundColor: theme.surfaces.card,

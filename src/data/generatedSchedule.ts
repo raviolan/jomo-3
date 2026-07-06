@@ -1,7 +1,7 @@
 import type { NormalizedSchedule } from "@/models/schedule";
 
 const generatedSchedule: NormalizedSchedule = {
-  "generatedAt": "2026-07-06T06:30:03.747Z",
+  "generatedAt": "2026-07-06T07:26:03.455Z",
   "sourcePdf": "guide_A4_preview.pdf",
   "days": [
     {
@@ -292,7 +292,7 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "category": "Games/Play",
       "host": "Miss Information",
-      "campHost": "Acid Aunties & Nasty Uncles",
+      "campHost": "Acid Aunties & Nasty Uncles only",
       "location": {
         "name": "Sunny Hills, grid square J22. Look for a grumpy old hag - good luck",
         "area": "Sunny Hills",
@@ -300,6 +300,7 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square J22. Look for a grumpy old hag - good luck"
       },
       "tags": [
+        "Adults only",
         "Queer-inclusive",
         "Triggering themes"
       ],
@@ -404,6 +405,7 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "tags": [
         "Queer-inclusive",
+        "Sensory content",
         "Sex positive",
         "Sober"
       ],
@@ -857,7 +859,9 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "V17",
         "notes": "grid square V17. Look for the wool! Follow the smell!"
       },
-      "tags": [],
+      "tags": [
+        "Sensory content"
+      ],
       "description": "Want to try something new but old? Then come and have fun with spinning yarn on a drop spindle, exactly as our ancestors did it! Starts 11 am **Warnings** Sensory: raw smell of sheep Addictive: chance of adopting a new hobby",
       "source": {
         "pdf": "guide_A4_preview.pdf",
@@ -1023,6 +1027,7 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square J21. Follow the lesbian flag and the fairy lights to the"
       },
       "tags": [
+        "Queer-inclusive",
         "Sober"
       ],
       "description": "water, the cluster of tents around the Pond with the bell tent at the heart. Melt into the soft hours with a slow, juicy yin yoga practice for femmes loving femmes (butches & nb folks included). Long-held poses, deep breath, gentle touch, come home to your body by the water. All levels, all bodies. Daily at 11, bring yourself, leave puddly THE JEWELLERY MARKET Weird shit/Other 11:00 – 21:00 This magical jewellery market will pop up at random times and at random places around the playa. If you’re supposed to, you’ll find it. All jewellery: $Free.99 I bring jewellery from all over the world to this magical little pop-up! Come pick the piece(s) that speak to you and leave a kind word for the next person. Walk off with your new jewellery and a mystery note from the person before you.",
@@ -1963,7 +1968,8 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square O22. Event held at ”Socialen”, Sunset Plaza"
       },
       "tags": [
-        "Sober"
+        "Sober",
+        "Sensory content"
       ],
       "description": "Come with me and have a new sensory experience what it’s like living with a visual impairment. A chance to enhance your other senses in a playful way. All participants will get a pair of glasses blurring your vision. You won’t be completely blind. Together we’ll get comfortable and then do activities that challenge the way you use your senses. Let’s play together!",
       "source": {
@@ -2161,7 +2167,8 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "tags": [
         "Sensory content",
-        "Sober"
+        "Sober",
+        "Adults only"
       ],
       "description": "Is your child ready for the hero’s journey? We welcome the young ones to challenge mighty warriors and emerge victorious! (It’s playwrestling, aiming to teach confidence and resilience to the kids, winning guaranteed). Drop-in. Ages 5 and up. Volunteering adults welcome (prepare a warrior persona)",
       "source": {
@@ -2722,7 +2729,8 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
       "tags": [
-        "Adults only"
+        "Adults only",
+        "Queer-inclusive"
       ],
       "description": "spread it on the ground at the Pond, right by the Police Clown. Every day at 16:00 we march from there down to the water with the flag held high. Just follow the pink, orange and white stripes (and the trail of happy sapphics heading for a swim) Every day at 16:00 we rise from the Pond and parade to the lake, lesbian flag flying, for 2 hours of swimming, floating, splashing and sun. Beavers, nymphs & neighbours all welcome to join the procession. Come get wet with us Meet at the Pond, follow the flag.",
       "source": {
@@ -3526,7 +3534,9 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
-      "tags": [],
+      "tags": [
+        "Queer-inclusive"
+      ],
       "description": "spread it on the ground at the Pond, right by the Police Clown. Opening-night magic: pin your heart to the Soul Matchmaking Board and let the Pond play cupid. We'll show you how it works, then set you loose to find your person (or your Tuesday-night U-Haul partner). Bring your crush energy",
       "source": {
         "pdf": "guide_A4_preview.pdf",
@@ -3884,6 +3894,7 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
       "tags": [
+        "Queer-inclusive",
         "Sex positive"
       ],
       "description": "spread it on the ground at the Pond, right by the Police Clown. A warm communal cuddle-nest in the Summerge tent, held by Regina through the small hours. Crawl in, get cozy, be held against the cold and the loneliness.",
@@ -3905,7 +3916,7 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "category": "Games/Play",
       "host": "Miss Information",
-      "campHost": "Acid Aunties & Nasty Uncles",
+      "campHost": "Acid Aunties & Nasty Uncles only",
       "location": {
         "name": "Sunny Hills, grid square J22. Look for a grumpy old hag - good luck",
         "area": "Sunny Hills",
@@ -3913,6 +3924,7 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square J22. Look for a grumpy old hag - good luck"
       },
       "tags": [
+        "Adults only",
         "Queer-inclusive",
         "Triggering themes"
       ],
@@ -4017,6 +4029,7 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "tags": [
         "Queer-inclusive",
+        "Sensory content",
         "Sex positive",
         "Sober"
       ],
@@ -5311,6 +5324,7 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square J21. Follow the lesbian flag and the fairy lights to the"
       },
       "tags": [
+        "Queer-inclusive",
         "Sober"
       ],
       "description": "water, the cluster of tents around the Pond with the bell tent at the heart. Melt into the soft hours with a slow, juicy yin yoga practice for femmes loving femmes (butches & nb folks included). Long-held poses, deep breath, gentle touch, come home to your body by the water. All levels, all bodies. Daily at 11, bring yourself, leave puddly",
@@ -6252,7 +6266,9 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P07",
         "notes": "grid square P07. The red hearttent, ofc"
       },
-      "tags": [],
+      "tags": [
+        "Sex positive"
+      ],
       "description": "What's your wildest BL longing? Meet the love of your life? Eye-gaze with a cat? Float on pink clouds? Come cheat Miss Reality: we circle up, you share a BL-wish, and we conjure it through roleplay & collective imagination. No acting skills — just curiosity. Not a nudity/sex-positive space; all desires welcome, fully clothed.",
       "source": {
         "pdf": "guide_A4_preview.pdf",
@@ -6466,14 +6482,16 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "category": "Workshop/Class",
       "host": "Dunbear and Bunny Witch",
-      "campHost": "End of the Rainbow",
+      "campHost": "End of the Rainbow only",
       "location": {
         "name": "Bison - North, grid square N20. go to the End of the Rainbow",
         "area": "Bison - North",
         "gridSquare": "N20",
         "notes": "grid square N20. go to the End of the Rainbow"
       },
-      "tags": [],
+      "tags": [
+        "Adults only"
+      ],
       "description": "Who is it for, and what do you really want? A playful approach to the Wheel of Consent (Betty Martin), exploring Giving, Receiving, Taking and Allowing through animal archetypes. We move beyond basic consent exercises to embody how to ask for what you want and play with integrity. A fun introduction — come stretch those consent muscles as a warmup for steamy nights at Borderland!",
       "source": {
         "pdf": "guide_A4_preview.pdf",
@@ -7491,7 +7509,7 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "category": "Crafting/Pimping/Arting",
       "host": "elina",
-      "campHost": "Lucifer's Pit",
+      "campHost": "Lucifer's Pit · content",
       "location": {
         "name": "Downtown, grid square K19. Entrance to the silo is inside the sheep barn",
         "area": "Downtown",
@@ -7500,7 +7518,8 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "tags": [
         "Adults only",
-        "Queer-inclusive"
+        "Queer-inclusive",
+        "Sensory content"
       ],
       "description": "Pimped armpits at Lucifer's Pit! Bleach, dye, trim, shave, or wax and get a henna tattoo of pentagrams. Possibility for suspension! Explore how satanism can be fun while giving your armpits a new look!",
       "source": {
@@ -8509,7 +8528,9 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "P13",
         "notes": "grid square P13. Velvet Loung behind Pink Parachute, if you dont find"
       },
-      "tags": [],
+      "tags": [
+        "Queer-inclusive"
+      ],
       "description": "us, ask at the bar Queers of the Borderland unite. Let's meet each other over a delicious (vegan) soft serve ice-cream and connet. Because its nice to know who your rainbow siblings are! An easy mostly informal hangout with a name round, an opportunity to be joyously gay and to plot the Queer Take Over ;)",
       "source": {
         "pdf": "guide_A4_preview.pdf",
@@ -8529,7 +8550,7 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "category": "Workshop/Class",
       "host": "Ultramarine",
-      "campHost": "Secret Garden",
+      "campHost": "Secret Garden themes",
       "location": {
         "name": "Downtown, grid square M21. Workshop space at Secret Garden",
         "area": "Downtown",
@@ -8537,7 +8558,8 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square M21. Workshop space at Secret Garden"
       },
       "tags": [
-        "Queer-inclusive"
+        "Queer-inclusive",
+        "Triggering themes"
       ],
       "description": "A workshop focused on Hospice in the Anthropocene - how can we help each other cope with Solastalgia, the grief or emotional loss from living in a degraded or dying ecosystems and societies? The focus is a facilitaded self- help group to share thoughts and feelings from living through difficult times, and climate angst for the future and coping mechanism.",
       "source": {
@@ -9318,7 +9340,8 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
       "tags": [
-        "Adults only"
+        "Adults only",
+        "Queer-inclusive"
       ],
       "description": "spread it on the ground at the Pond, right by the Police Clown. Every day at 16:00 we march from there down to the water with the flag held high. Just follow the pink, orange and white stripes (and the trail of happy sapphics heading for a swim) Every day at 16:00 we rise from the Pond and parade to the lake, lesbian flag flying, for 2 hours of swimming, floating, splashing and sun. Beavers, nymphs & neighbours all welcome to join the procession. Come get wet with us Meet at the Pond, follow the flag.",
       "source": {
@@ -9974,13 +9997,14 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "category": "Art/Installation",
       "host": "Jonas Johansson",
-      "campHost": "Dreamers Maze",
+      "campHost": "Dreamers Maze content",
       "location": {
         "name": "The Villa, grid square K14.",
         "gridSquare": "K14"
       },
       "tags": [
-        "Adults only"
+        "Adults only",
+        "Sensory content"
       ],
       "description": "The BorderLAN returns and the year is 2002. During the day you are welcome for unsolicited play, and in the evening a party of four can book a 45-min slot and enjoy an authentic 2002 LAN experience. Learn more and book at www.borderlan.land.",
       "source": {
@@ -10557,7 +10581,9 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
-      "tags": [],
+      "tags": [
+        "Queer-inclusive"
+      ],
       "description": "spread it on the ground at the Pond, right by the Police Clown. Opening-night magic: pin your heart to the Soul Matchmaking Board and let the Pond play cupid. We'll show you how it works, then set you loose to find your person (or your Tuesday-night U-Haul partner). Bring your crush energy",
       "source": {
         "pdf": "guide_A4_preview.pdf",
@@ -11253,6 +11279,7 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
       "tags": [
+        "Queer-inclusive",
         "Sex positive"
       ],
       "description": "spread it on the ground at the Pond, right by the Police Clown. A warm communal cuddle-nest in the Summerge tent, held by Regina through the small hours. Crawl in, get cozy, be held against the cold and the loneliness.",
@@ -11356,7 +11383,7 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "category": "Games/Play",
       "host": "Miss Information",
-      "campHost": "Acid Aunties & Nasty Uncles",
+      "campHost": "Acid Aunties & Nasty Uncles only",
       "location": {
         "name": "Sunny Hills, grid square J22. Look for a grumpy old hag - good luck",
         "area": "Sunny Hills",
@@ -11364,6 +11391,7 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square J22. Look for a grumpy old hag - good luck"
       },
       "tags": [
+        "Adults only",
         "Queer-inclusive",
         "Triggering themes"
       ],
@@ -11390,7 +11418,8 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Anywhere"
       },
       "tags": [
-        "Queer-inclusive"
+        "Queer-inclusive",
+        "Sensory content"
       ],
       "description": "When you've packed up all of your mojo, your tent feels impossibly far away, and truthfully.. you've got a tiny existential wobble brewing, come find us. Lazy Treats Hour will serve you hot toasties, silliness and giggles, plus a generous serving of camp love. Survival, but make it fabulous. HUMAN CARWASH Weird shit/Other 00:00 – 00:00 huismuis / Camp Juicebox Queer-inclusive · Sensory content G22. At the lakeside [Date unsure - hosted on a sunny day at the lakeside] Feel like a muddy car getting a fresh scrub by our team! Experience being a dirty offroad 4x4 getting deepcleaned by our team of carwashers. Come find us, whenever we feel like it, at the lake (oil replacement included).",
       "source": {
@@ -11474,6 +11503,7 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "tags": [
         "Queer-inclusive",
+        "Sensory content",
         "Sex positive",
         "Sober"
       ],
@@ -12465,7 +12495,9 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "M13",
         "notes": "grid square M13. South end of the Highlands"
       },
-      "tags": [],
+      "tags": [
+        "Sensory content"
+      ],
       "description": "A TIME MACHINE! Quantum physics have come a long way and we’re bringing our machine out of it’s controlled environment and on to the land of Borderland. Experience time travel to the future and go on a sensory ride. Your future you said it was great. Max 20 ppl.",
       "source": {
         "pdf": "guide_A4_preview.pdf",
@@ -12988,6 +13020,7 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square J21. Follow the lesbian flag and the fairy lights to the"
       },
       "tags": [
+        "Queer-inclusive",
         "Sober"
       ],
       "description": "water, the cluster of tents around the Pond with the bell tent at the heart. Melt into the soft hours with a slow, juicy yin yoga practice for femmes loving femmes (butches & nb folks included). Long-held poses, deep breath, gentle touch, come home to your body by the water. All levels, all bodies. Daily at 11, bring yourself, leave puddly",
@@ -13725,7 +13758,7 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "12:00 - 17:00"
       },
       "category": "Care/Support/Pampering",
-      "host": "Mar Pacific",
+      "host": "Mar Pacific · themes",
       "location": {
         "name": "Sunny Hills, grid square I21. Party Tent, Film casting set up",
         "area": "Sunny Hills",
@@ -13734,7 +13767,8 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "tags": [
         "Adults only",
-        "Queer-inclusive"
+        "Queer-inclusive",
+        "Triggering themes"
       ],
       "description": "A Casting Call Step into the spotlight and let your front goodies audition for the role they were born to play. If you're selected (spoiler: you probably will be), you'll become the star of your very own sculptural masterpiece. An unforgettable experience where you'll be gently pampered, admired, asked to hold perfectly still, and immortalized. A memory you'll keep forever... or at least until you decide otherwise. THE BELLYBUTTON FLUFF DONATION JAR RETURNS Weird shit/Other 12:01 – 11:59 Pernille & Babs / Alice the Malice in Wonderland Wedge, grid square R20. Got lint? Put your hairy bellybutton to work and donate that gloriously useless fluff to something even more useless. Stuff it in our Collection Jar and receive a Certificate of Donorship. Enough fluff = possible hamster sweater. Do your part for recycling. Multiple donations accepted.",
       "source": {
@@ -14849,7 +14883,7 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "category": "Workshop/Class",
       "host": "Oskar",
-      "campHost": "Juicebox",
+      "campHost": "Juicebox · themes",
       "location": {
         "name": "Bison - South, grid square O23. Location TBC, likely Bison area, near \"The",
         "area": "Bison - South",
@@ -14858,7 +14892,8 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "tags": [
         "Adults only",
-        "Queer-inclusive"
+        "Queer-inclusive",
+        "Triggering themes"
       ],
       "description": "imaginarium\" (blue triangular tent), exact location will be displayed @The Imaginarium once confirmed There is a safe, comfy, cheap, effective and temporary contraception method for peo- ple with testicles: thermal contraception. A (silicone) ring keeps your marbles close to the body for 15 hours daily, altering sperm production to achieve reversible infertillity. Come for a personal report plus Q&A. Location TBC, will be posted at the Imaginarium. Open to people with and without testicles!",
       "source": {
@@ -14948,7 +14983,8 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square O22. Event held at ”Socialen”, Sunset Plaza"
       },
       "tags": [
-        "Sober"
+        "Sober",
+        "Sensory content"
       ],
       "description": "Come with me and have a new sensory experience what it’s like living with a visual impairment. A chance to enhance your other senses in a playful way. All participants will get a pair of glasses blurring your vision. You won’t be completely blind. Together we’ll get comfortable and then do activities that challenge the way you use your senses. Let’s play together!",
       "source": {
@@ -15258,7 +15294,9 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
-      "tags": [],
+      "tags": [
+        "Queer-inclusive"
+      ],
       "description": "spread it on the ground at the Pond, right by the Police Clown. A wisdom circle on the menstrual cycle with Luna, honour your blood, your rhythms and your inner seasons. For everyone who bleeds or has ever felt ruled by the moon. Soft, sacred, one afternoon",
       "source": {
         "pdf": "guide_A4_preview.pdf",
@@ -15358,7 +15396,7 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "category": "Yoga/Movement/Bodywork",
       "host": "Goose",
-      "campHost": "Wild Sacred Fire",
+      "campHost": "Wild Sacred Fire · themes",
       "location": {
         "name": "Swamp, grid square S17. Right at the Fire Plaza in Swamp",
         "area": "Swamp",
@@ -15368,6 +15406,7 @@ const generatedSchedule: NormalizedSchedule = {
       "tags": [
         "Adults only",
         "Sober",
+        "Triggering themes",
         "Sensory content"
       ],
       "description": "Unleash your primal force! Cast off your garments and paint your face with sacred ash, as we wrestle with vigour to the beat of the drums under the loving watchful eyes of the Fire. All bodies and skill levels are welcome. Safety measures in place, though we all share this responsibility.",
@@ -15392,7 +15431,9 @@ const generatedSchedule: NormalizedSchedule = {
       "location": {
         "name": "Queer-focused"
       },
-      "tags": [],
+      "tags": [
+        "Queer-inclusive"
+      ],
       "description": "Fire Plaza, north of Circus the Analogue. Look for the guy with a transgender flag! Transgender folks of the Borderland, let's swim together! Come with me and make a safe space for us to practice body positivity, and take a step towards feeling more comfortable in your body among peers. On wednesday afternoon we'll gather at the Fire Plaza, then walk together to the nearby eastern lake where we will undress and have a dip. Nudity and swimming completely optional but very much encouraged! In case of bad weather this event will be pushed to Thursday.",
       "source": {
         "pdf": "guide_A4_preview.pdf",
@@ -16067,14 +16108,16 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "category": "Games/Play",
       "host": "Valborg / Silly Sanctuary",
-      "campHost": "Silly sanctuary",
+      "campHost": "Silly sanctuary content",
       "location": {
         "name": "Swamp, grid square S20.",
         "area": "Swamp",
         "gridSquare": "S20",
         "notes": "grid square S20."
       },
-      "tags": [],
+      "tags": [
+        "Sensory content"
+      ],
       "description": "Wanna show off your noisy party tricks? Can you whistle through your front teeth? Make really loud farts with your knees? Are you the Queen of queefs? Valborg of Silly Sanctuary will be the judge!",
       "source": {
         "pdf": "guide_A4_preview.pdf",
@@ -16263,7 +16306,7 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "category": "Workshop/Class",
       "host": "Feli",
-      "campHost": "The Heartspace",
+      "campHost": "The Heartspace · themes",
       "location": {
         "name": "Arctic chill, grid square P07.",
         "area": "Arctic chill",
@@ -16272,7 +16315,8 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "tags": [
         "Adults only",
-        "Sober"
+        "Sober",
+        "Triggering themes"
       ],
       "description": "A guided journey from personality > soul > spirit, meeting our soul current and rewiring whence service flows: from sacrifice to overflowing cup. By cracking our heart open to what truly matters, real purpose emerges. Advanced: requires holding your emotions and meeting another as a pure mirror.",
       "source": {
@@ -16483,12 +16527,13 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "category": "Workshop/Class",
       "host": "BabyPickles",
-      "campHost": "All Senses, No Sense - East slope",
+      "campHost": "All Senses, No Sense - East slope only",
       "location": {
         "name": "grid square X16. There will be a sign at the road saying Camp All Senses, No",
         "gridSquare": "X16"
       },
       "tags": [
+        "Adults only",
         "Sober",
         "Queer-inclusive"
       ],
@@ -16992,7 +17037,8 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
       "tags": [
-        "Adults only"
+        "Adults only",
+        "Queer-inclusive"
       ],
       "description": "spread it on the ground at the Pond, right by the Police Clown. Every day at 16:00 we march from there down to the water with the flag held high. Just follow the pink, orange and white stripes (and the trail of happy sapphics heading for a swim) Every day at 16:00 we rise from the Pond and parade to the lake, lesbian flag flying, for 2 hours of swimming, floating, splashing and sun. Beavers, nymphs & neighbours all welcome to join the procession. Come get wet with us Meet at the Pond, follow the flag.",
       "source": {
@@ -17275,7 +17321,8 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "tags": [
         "Adults only",
-        "Sober"
+        "Sober",
+        "Sex positive"
       ],
       "description": "Imagine a room where people flow between each other like a living organism: Playful, present, and deeply attuned. That kind of magic doesn't happen by accident. Join us to explore consent, communication, boundaries, and practical tools for navigating sex-positive spaces with care. Because the best orgies are an art of trust, awareness, and practice.",
       "source": {
@@ -18479,7 +18526,9 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
-      "tags": [],
+      "tags": [
+        "Queer-inclusive"
+      ],
       "description": "spread it on the ground at the Pond, right by the Police Clown. Opening-night magic: pin your heart to the Soul Matchmaking Board and let the Pond play cupid. We'll show you how it works, then set you loose to find your person (or your Tuesday-night U-Haul partner). Bring your crush energy",
       "source": {
         "pdf": "guide_A4_preview.pdf",
@@ -19421,6 +19470,7 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
       "tags": [
+        "Queer-inclusive",
         "Sex positive"
       ],
       "description": "spread it on the ground at the Pond, right by the Police Clown. A warm communal cuddle-nest in the Summerge tent, held by Regina through the small hours. Crawl in, get cozy, be held against the cold and the loneliness.",
@@ -19498,7 +19548,7 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "category": "Games/Play",
       "host": "Miss Information",
-      "campHost": "Acid Aunties & Nasty Uncles",
+      "campHost": "Acid Aunties & Nasty Uncles only",
       "location": {
         "name": "Sunny Hills, grid square J22. Look for a grumpy old hag - good luck",
         "area": "Sunny Hills",
@@ -19506,6 +19556,7 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square J22. Look for a grumpy old hag - good luck"
       },
       "tags": [
+        "Adults only",
         "Queer-inclusive",
         "Triggering themes"
       ],
@@ -19691,6 +19742,7 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "tags": [
         "Queer-inclusive",
+        "Sensory content",
         "Sex positive",
         "Sober"
       ],
@@ -20841,6 +20893,7 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square J21. Follow the lesbian flag and the fairy lights to the"
       },
       "tags": [
+        "Queer-inclusive",
         "Sober"
       ],
       "description": "water, the cluster of tents around the Pond with the bell tent at the heart. Melt into the soft hours with a slow, juicy yin yoga practice for femmes loving femmes (butches & nb folks included). Long-held poses, deep breath, gentle touch, come home to your body by the water. All levels, all bodies. Daily at 11, bring yourself, leave puddly",
@@ -20953,7 +21006,9 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "O10",
         "notes": "grid square O10. in the big Tipi"
       },
-      "tags": [],
+      "tags": [
+        "Adults only"
+      ],
       "description": "Hey Kids, let's dance! I invite you to join me for an hour dance moment. Put on your most colorful and shiny outfit. Let's put some great music, learn a few steps, and shake together! Feel the energy we share! (Adults/Parents are invited to sit down and whitness the magic happen if they want :) ) THE JEWELLERY MARKET Weird shit/Other 11:00 – 21:00 This magical jewellery market will pop up at random times and at random places around the playa. If you’re supposed to, you’ll find it. All jewellery: $Free.99 I bring jewellery from all over the world to this magical little pop-up! Come pick the piece(s) that speak to you and leave a kind word for the next person. Walk off with your new jewellery and a mystery note from the person before you.",
       "source": {
         "pdf": "guide_A4_preview.pdf",
@@ -22261,7 +22316,7 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "13:30 - 15:00"
       },
       "category": "Party/Gathering",
-      "host": "Welcome Home, Darling",
+      "host": "Welcome Home, Darling content",
       "location": {
         "name": "Highlands, grid square O10. Right between Penta Plaza and Bayt al-Noor",
         "area": "Highlands",
@@ -22269,7 +22324,8 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square O10. Right between Penta Plaza and Bayt al-Noor"
       },
       "tags": [
-        "Queer-inclusive"
+        "Queer-inclusive",
+        "Sensory content"
       ],
       "description": "(artwork) We are in the worst possible timeline! COME RESET THE TIMELINE AT THIS EPIC DANCE PARTY! We will only be playing music from 1995-2012! Dress in your best millennial outfit (statement necklace, galaxy leggings, clueless, manbun, UGGs, capris, layered shirts, playsuits) & get low-low-low. NO",
       "source": {
@@ -22385,7 +22441,8 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square N19. By the Shameless Plaza"
       },
       "tags": [
-        "Adults only"
+        "Adults only",
+        "Sensory content"
       ],
       "description": "Sensory Cocktail Party – Mix experiences, not beverages. Craft irresistible sensory cocktails from touch, scent, sound, taste, movement, temperature, and imagination. Name them, serve them, and surprise your fellow guests with a menu no other bar could offer.",
       "source": {
@@ -23611,7 +23668,7 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "category": "Workshop/Class",
       "host": "Jonas Näslund & Ronja",
-      "campHost": "Club SIN",
+      "campHost": "Club SIN only",
       "location": {
         "name": "Bison - North, grid square N19. By the Shameless Plaza",
         "area": "Bison - North",
@@ -23619,6 +23676,7 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square N19. By the Shameless Plaza"
       },
       "tags": [
+        "Adults only",
         "Sex positive",
         "Queer-inclusive"
       ],
@@ -24158,7 +24216,8 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
       "tags": [
-        "Adults only"
+        "Adults only",
+        "Queer-inclusive"
       ],
       "description": "spread it on the ground at the Pond, right by the Police Clown. Every day at 16:00 we march from there down to the water with the flag held high. Just follow the pink, orange and white stripes (and the trail of happy sapphics heading for a swim) Every day at 16:00 we rise from the Pond and parade to the lake, lesbian flag flying, for 2 hours of swimming, floating, splashing and sun. Beavers, nymphs & neighbours all welcome to join the procession. Come get wet with us Meet at the Pond, follow the flag.",
       "source": {
@@ -24604,13 +24663,14 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "category": "Art/Installation",
       "host": "Jonas Johansson",
-      "campHost": "Dreamers Maze",
+      "campHost": "Dreamers Maze content",
       "location": {
         "name": "The Villa, grid square K14.",
         "gridSquare": "K14"
       },
       "tags": [
-        "Adults only"
+        "Adults only",
+        "Sensory content"
       ],
       "description": "The BorderLAN returns and the year is 2002. During the day you are welcome for unsolicited play, and in the evening a party of four can book a 45-min slot and enjoy an authentic 2002 LAN experience. Learn more and book at www.borderlan.land.",
       "source": {
@@ -25306,7 +25366,9 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
-      "tags": [],
+      "tags": [
+        "Queer-inclusive"
+      ],
       "description": "spread it on the ground at the Pond, right by the Police Clown. Opening-night magic: pin your heart to the Soul Matchmaking Board and let the Pond play cupid. We'll show you how it works, then set you loose to find your person (or your Tuesday-night U-Haul partner). Bring your crush energy",
       "source": {
         "pdf": "guide_A4_preview.pdf",
@@ -25333,7 +25395,9 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
-      "tags": [],
+      "tags": [
+        "Queer-inclusive"
+      ],
       "description": "spread it on the ground at the Pond, right by the Police Clown. Enter blindfolded, meet in the dark. A self-organized space for slow, non- verbal, consensual connection, no eyes, no words, no idea if she's flirting (she or they is). The cure for the lesbian sheep problem",
       "source": {
         "pdf": "guide_A4_preview.pdf",
@@ -26009,6 +26073,7 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
       "tags": [
+        "Queer-inclusive",
         "Sex positive"
       ],
       "description": "spread it on the ground at the Pond, right by the Police Clown. A warm communal cuddle-nest in the Summerge tent, held by Regina through the small hours. Crawl in, get cozy, be held against the cold and the loneliness.",
@@ -26056,7 +26121,7 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "category": "Games/Play",
       "host": "Miss Information",
-      "campHost": "Acid Aunties & Nasty Uncles",
+      "campHost": "Acid Aunties & Nasty Uncles only",
       "location": {
         "name": "Sunny Hills, grid square J22. Look for a grumpy old hag - good luck",
         "area": "Sunny Hills",
@@ -26064,6 +26129,7 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square J22. Look for a grumpy old hag - good luck"
       },
       "tags": [
+        "Adults only",
         "Queer-inclusive",
         "Triggering themes"
       ],
@@ -26195,6 +26261,7 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "tags": [
         "Queer-inclusive",
+        "Sensory content",
         "Sex positive",
         "Sober"
       ],
@@ -27034,6 +27101,7 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square J21. Follow the lesbian flag and the fairy lights to the"
       },
       "tags": [
+        "Queer-inclusive",
         "Sober"
       ],
       "description": "water, the cluster of tents around the Pond with the bell tent at the heart. Melt into the soft hours with a slow, juicy yin yoga practice for femmes loving femmes (butches & nb folks included). Long-held poses, deep breath, gentle touch, come home to your body by the water. All levels, all bodies. Daily at 11, bring yourself, leave puddly",
@@ -28589,7 +28657,7 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "category": "Workshop/Class",
       "host": "Runi",
-      "campHost": "Secret Garden",
+      "campHost": "Secret Garden · themes",
       "location": {
         "name": "Downtown, grid square M21.",
         "area": "Downtown",
@@ -28598,7 +28666,8 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "tags": [
         "Adults only",
-        "Sober"
+        "Sober",
+        "Triggering themes"
       ],
       "description": "A Circling session with a focus on the question \"What would you do in this moment if you felt completely free\"",
       "source": {
@@ -28682,7 +28751,8 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
       "tags": [
-        "Adults only"
+        "Adults only",
+        "Queer-inclusive"
       ],
       "description": "spread it on the ground at the Pond, right by the Police Clown. Every day at 16:00 we march from there down to the water with the flag held high. Just follow the pink, orange and white stripes (and the trail of happy sapphics heading for a swim) Every day at 16:00 we rise from the Pond and parade to the lake, lesbian flag flying, for 2 hours of swimming, floating, splashing and sun. Beavers, nymphs & neighbours all welcome to join the procession. Come get wet with us Meet at the Pond, follow the flag.",
       "source": {
@@ -28951,7 +29021,7 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "category": "Ritual/Ceremony",
       "host": "Angela & Martina",
-      "campHost": "The Golden Caravan Camp",
+      "campHost": "The Golden Caravan Camp only",
       "location": {
         "name": "Sunny Hills, grid square I20. look out for the \"SSS\" sign",
         "area": "Sunny Hills",
@@ -28959,6 +29029,7 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square I20. look out for the \"SSS\" sign"
       },
       "tags": [
+        "Adults only",
         "Sex positive"
       ],
       "description": "Calling all Kundalinis and curious beings for an Energizing Breath Ritual. With the heightened energy, openness, and playful spirit of Friday, you may awaken your Kundalini energy. If you're lucky, you might even experience an energetic orgasm... A guided solo practice, held and amplified by the collective energy field. Let's play. Clothes on — just bring a blankie.",
@@ -29326,7 +29397,9 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
-      "tags": [],
+      "tags": [
+        "Queer-inclusive"
+      ],
       "description": "spread it on the ground at the Pond, right by the Police Clown. Opening-night magic: pin your heart to the Soul Matchmaking Board and let the Pond play cupid. We'll show you how it works, then set you loose to find your person (or your Tuesday-night U-Haul partner). Bring your crush energy",
       "source": {
         "pdf": "guide_A4_preview.pdf",
@@ -29353,7 +29426,9 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
-      "tags": [],
+      "tags": [
+        "Queer-inclusive"
+      ],
       "description": "spread it on the ground at the Pond, right by the Police Clown. Enter blindfolded, meet in the dark. A self-organized space for slow, non- verbal, consensual connection, no eyes, no words, no idea if she's flirting (she or they is). The cure for the lesbian sheep problem",
       "source": {
         "pdf": "guide_A4_preview.pdf",
@@ -29599,7 +29674,7 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:30 - 04:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Foxhole Public Area",
+      "host": "Foxhole Public Area · content",
       "location": {
         "name": "Lowlands, grid square Q11.",
         "area": "Lowlands",
@@ -29608,6 +29683,7 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "tags": [
         "Adults only",
+        "Sensory content",
         "Sex positive"
       ],
       "description": "The Foxhole opens its velvet curtains. Slip into a candlelit salon where burlesque, pole, cabaret, masks, mischief, and a touch of the unexpected unfold throughout the night. Sip delicious drinks, linger a little longer, flirt with curiosity, enjoy our playroom, applaud generously, dance and let yourself be surprised. A place where glamour meets play, and every fox has a front-row seat.",
@@ -29747,6 +29823,7 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
       "tags": [
+        "Queer-inclusive",
         "Sex positive"
       ],
       "description": "spread it on the ground at the Pond, right by the Police Clown. A warm communal cuddle-nest in the Summerge tent, held by Regina through the small hours. Crawl in, get cozy, be held against the cold and the loneliness.",
@@ -29821,7 +29898,7 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "category": "Games/Play",
       "host": "Miss Information",
-      "campHost": "Acid Aunties & Nasty Uncles",
+      "campHost": "Acid Aunties & Nasty Uncles only",
       "location": {
         "name": "Sunny Hills, grid square J22. Look for a grumpy old hag - good luck",
         "area": "Sunny Hills",
@@ -29829,6 +29906,7 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square J22. Look for a grumpy old hag - good luck"
       },
       "tags": [
+        "Adults only",
         "Queer-inclusive",
         "Triggering themes"
       ],
@@ -29905,6 +29983,7 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "tags": [
         "Queer-inclusive",
+        "Sensory content",
         "Sex positive",
         "Sober"
       ],
@@ -30466,6 +30545,7 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square J21. Follow the lesbian flag and the fairy lights to the"
       },
       "tags": [
+        "Queer-inclusive",
         "Sober"
       ],
       "description": "water, the cluster of tents around the Pond with the bell tent at the heart. Melt into the soft hours with a slow, juicy yin yoga practice for femmes loving femmes (butches & nb folks included). Long-held poses, deep breath, gentle touch, come home to your body by the water. All levels, all bodies. Daily at 11, bring yourself, leave puddly THE JEWELLERY MARKET Weird shit/Other 11:00 – 21:00 This magical jewellery market will pop up at random times and at random places around the playa. If you’re supposed to, you’ll find it. All jewellery: $Free.99 I bring jewellery from all over the world to this magical little pop-up! Come pick the piece(s) that speak to you and leave a kind word for the next person. Walk off with your new jewellery and a mystery note from the person before you.",
@@ -31466,7 +31546,7 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "15:30 - 20:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Fohole Public Area",
+      "host": "Fohole Public Area · content",
       "location": {
         "name": "Lowlands, grid square Q11.",
         "area": "Lowlands",
@@ -31475,6 +31555,7 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "tags": [
         "Adults only",
+        "Sensory content",
         "Sex positive"
       ],
       "description": "A lazy afternoon with very little intention of staying lazy. DJs weave slow- burning rhythms while the bar keeps spirits high and the dancefloor gently calls your name. Wander between music, mischief, conversation, and connection. Whether you're here to dance, play, flirt, or simply bask in the strange beauty of it all, the Foxhole is yours to explore. We might have a playful suprise closing act prepared...",
@@ -31701,7 +31782,8 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
       "tags": [
-        "Adults only"
+        "Adults only",
+        "Queer-inclusive"
       ],
       "description": "spread it on the ground at the Pond, right by the Police Clown. Every day at 16:00 we march from there down to the water with the flag held high. Just follow the pink, orange and white stripes (and the trail of happy sapphics heading for a swim) Every day at 16:00 we rise from the Pond and parade to the lake, lesbian flag flying, for 2 hours of swimming, floating, splashing and sun. Beavers, nymphs & neighbours all welcome to join the procession. Come get wet with us Meet at the Pond, follow the flag.",
       "source": {
@@ -31936,7 +32018,9 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
-      "tags": [],
+      "tags": [
+        "Queer-inclusive"
+      ],
       "description": "spread it on the ground at the Pond, right by the Police Clown. Opening-night magic: pin your heart to the Soul Matchmaking Board and let the Pond play cupid. We'll show you how it works, then set you loose to find your person (or your Tuesday-night U-Haul partner). Bring your crush energy",
       "source": {
         "pdf": "guide_A4_preview.pdf",
@@ -32069,7 +32153,7 @@ const generatedSchedule: NormalizedSchedule = {
         "display": "22:30 - 04:00"
       },
       "category": "Music/Performance/Show",
-      "host": "Foxhole Public Area",
+      "host": "Foxhole Public Area · content",
       "location": {
         "name": "Lowlands, grid square Q11.",
         "area": "Lowlands",
@@ -32078,6 +32162,7 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "tags": [
         "Adults only",
+        "Sensory content",
         "Sex positive"
       ],
       "description": "The Foxhole opens its velvet curtains. Slip into a candlelit salon where burlesque, pole, cabaret, masks, mischief, and a touch of the unexpected unfold throughout the night. Sip delicious drinks, linger a little longer, flirt with curiosity, enjoy our playroom, applaud generously, dance and let yourself be surprised. A place where glamour meets play, and every fox has a front-row seat.",
@@ -32107,6 +32192,7 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
       "tags": [
+        "Queer-inclusive",
         "Sex positive"
       ],
       "description": "spread it on the ground at the Pond, right by the Police Clown. A warm communal cuddle-nest in the Summerge tent, held by Regina through the small hours. Crawl in, get cozy, be held against the cold and the loneliness.",
@@ -32154,7 +32240,7 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "category": "Games/Play",
       "host": "Miss Information",
-      "campHost": "Acid Aunties & Nasty Uncles",
+      "campHost": "Acid Aunties & Nasty Uncles only",
       "location": {
         "name": "Sunny Hills, grid square J22. Look for a grumpy old hag - good luck",
         "area": "Sunny Hills",
@@ -32162,6 +32248,7 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square J22. Look for a grumpy old hag - good luck"
       },
       "tags": [
+        "Adults only",
         "Queer-inclusive",
         "Triggering themes"
       ],
@@ -32189,6 +32276,7 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "tags": [
         "Queer-inclusive",
+        "Sensory content",
         "Sex positive",
         "Sober"
       ],
@@ -32441,6 +32529,7 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square J21. Follow the lesbian flag and the fairy lights to the"
       },
       "tags": [
+        "Queer-inclusive",
         "Sober"
       ],
       "description": "water, the cluster of tents around the Pond with the bell tent at the heart. Melt into the soft hours with a slow, juicy yin yoga practice for femmes loving femmes (butches & nb folks included). Long-held poses, deep breath, gentle touch, come home to your body by the water. All levels, all bodies. Daily at 11, bring yourself, leave puddly",
@@ -32500,7 +32589,8 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
       "tags": [
-        "Adults only"
+        "Adults only",
+        "Queer-inclusive"
       ],
       "description": "spread it on the ground at the Pond, right by the Police Clown. Every day at 16:00 we march from there down to the water with the flag held high. Just follow the pink, orange and white stripes (and the trail of happy sapphics heading for a swim) Every day at 16:00 we rise from the Pond and parade to the lake, lesbian flag flying, for 2 hours of swimming, floating, splashing and sun. Beavers, nymphs & neighbours all welcome to join the procession. Come get wet with us Meet at the Pond, follow the flag.",
       "source": {
@@ -32528,7 +32618,9 @@ const generatedSchedule: NormalizedSchedule = {
         "gridSquare": "J21",
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
-      "tags": [],
+      "tags": [
+        "Queer-inclusive"
+      ],
       "description": "spread it on the ground at the Pond, right by the Police Clown. Opening-night magic: pin your heart to the Soul Matchmaking Board and let the Pond play cupid. We'll show you how it works, then set you loose to find your person (or your Tuesday-night U-Haul partner). Bring your crush energy",
       "source": {
         "pdf": "guide_A4_preview.pdf",
@@ -32585,6 +32677,7 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square J21. Look for the lesbian flag, we fly it on a pole and"
       },
       "tags": [
+        "Queer-inclusive",
         "Sex positive"
       ],
       "description": "spread it on the ground at the Pond, right by the Police Clown. A warm communal cuddle-nest in the Summerge tent, held by Regina through the small hours. Crawl in, get cozy, be held against the cold and the loneliness.",
@@ -32611,6 +32704,7 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "tags": [
         "Queer-inclusive",
+        "Sensory content",
         "Sex positive",
         "Sober"
       ],
@@ -32641,11 +32735,11 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square J21. Follow the lesbian flag and the fairy lights to the"
       },
       "tags": [
+        "Queer-inclusive",
         "Sober",
         "Sensory content",
         "Adults only",
-        "Sex positive",
-        "Queer-inclusive"
+        "Sex positive"
       ],
       "description": "water, the cluster of tents around the Pond with the bell tent at the heart. Melt into the soft hours with a slow, juicy yin yoga practice for femmes loving femmes (butches & nb folks included). Long-held poses, deep breath, gentle touch, come home to your body by the water. All levels, all bodies. Daily at 11, bring yourself, leave puddly ART/INSTALLATION CAMP VALET 4 people Downtown, grid square K20. a \"Valet Parking\" sign and white gloves. Do you need your art car to reach somewhere but you don't have time? Do you have a ridden task nees completion but you're having too much fun? Did your friend arrive late from the parking lot, but you're naked in the lake dancing? This is where we come in! full valet service. we will drive your art car where it needs to go, safely and surely. Sober GOLDEN SHOWER SING-A-LONG Go towards the Golden reflections where Angels sings. It's a rolling golden shower kareoke - no funny business. Well... it is fun! Body-positive Sensory content IT*S A SIGN!!!WORKSHOP IN THE BARN 20-30 people Downtown, grid square K18. Follow the signs :3 downtown in the barn, downstairs north Walk into the barn any time, day or night, and make a sign for yourself or others. or order one for a random hippie to make for you. or just sit on a pillow, drink tea, and watch the art happen. cosy creative chaos, self- organising, open 24/7 from buildweek onwards ˖ ° ࿐ Kid-friendly WE ALL SEEK THE LIGHT 4 people grid square J14. Follow the lämps along the trees, seek the light. Deep in the forest, a delicate cocoon rests between the trees, neither shelter nor sculpture, but a real threshold. Those who dare to enter are not spectators nor participants, not yet anything at all. Sensory content BOREDER-LAND PERMITS OFFICE 10 people Sunny Hills, grid square K21. Left of the clown police HQ, and in the back of your mind when you're being somewhat too jolly. Are you having too much fun? Make a visit to the permits office to ensure full compliance with 137.6-c F.U.N standards on emotionally pragmatic burning. Consider signing up for our workshop, \"Leave no trace (in hearts and minds)\". Experience may vary, we apologize for any convenience or conviviality this may cause. For complaints, please howl into the void or reach out to noreply@fun.com Sober Kid-friendly LUCIFER'S PIT Downtown, grid square K19. Upstairs in the barn, around the silo, and inside the sheep barn An immersive satanic dreamscape in the silo featuring aerial sock-wrestling battles, crowd spectacle, and chaotic, participatory combat, among other weird shit. Kid-friendly Sensory content THE FUNGAL REFUGE 10-15 people grid square G11. Past the Sanctuary into the forest before the open field of the Muumin Valley A dimension within a parallel universe. A space for recharging and connecting with the earth and the mycelium. Come here to be transported into another realm. A cozy space with lots of love and heart. Borderland can be overwhelming at times. Find us when things seem intense or just too much. During the daytime you will find us here drinking chai, meditating, giving massages and just a chill cozy space. At night the mycelium might be resting. But you never know. Hope to see you there! Also find here: “A space full of love. Come for a hug or a chat. Sometimes a massage might be offered for deep relaxation. Meditations and yoga during the day!” ✧ 81 | MONDAY 27/7 (STRIKE) THE POST OFFICE Arctic chill, grid square O06. The Post Office is the official delivery service for all goods and letters across the playa. A love letter to your playa crush? A hug for a friend or an urgent request for candies? Come visit one of our three locations , slot your item through the post box (or speak to one of our representatives on site) and watch the magic of postal work in action. We have postcards! We have pens! Open for drop offs 24/7! The Post Office - We Deliver! Kid-friendly Body-positive BOHEMIAN QUEEN'S CHALET Highlands, grid square M10. A black tent. A black tent. A Bohemian witch. An AI oracle. Step across the threshold where ancient mystery meets machine intelligence. Tea, cookies, strange questions, stranger answers. Not a fortune teller — a mirror. Ask the Oraculum. Remember what you already know. ELSEWHERE - THE PERSIAN KORSI 24 people Highlands, grid square M12. Find us in Agrabah A Persian oasis in the middle of cold soaky Scandinavia. Come in and warm yourself under our Korsi - a heated, low-table covered with blankets which families traditionally gather around during the harsh winters of northern and central Iran. Join us here to escape the frosty nights. Forget about your sauna, temazcal and what not. Warmth comes from good company, a cup of masala chai and good music Also find here: “Warmth, chai, good conversation.” HOT SAUNA 24/7 15 people Sunny Hills, grid square G21. Sunny hill, next to water The hot sauna aka Sompasauna will be operational 24/7 right on the water in Sunny hill. Self service, add firewood, carry water, make it hot! Sober Kid-friendly Body-positive Sensory content HIPPY SAFARI 3-6 people Highlands, grid square O11. Crossroads near Bayt al-Noor, beside the cafe Borderland is a spectacle! Witness The Great Borderling Migration - Enjoy a curated expedition into this strange world of burners and hippies. Our expert field guide, D[ai]vid Attenborough, will help you learn about some of the countless creatures you might see on the Playa, all from the comfort and safety of our observation window. So grab a seat, hold onto your binoculars, and take it all in - today you're a naturalist on safari Kid-friendly ALICE IN MOROCCO 30 people Highlands, grid square N12. If it looks like a Moroccan wonderland with a bunch of fairy lights - it should be us! “I wonder if I shall fall right through the earth.” Alice said - and so she did. She fell all the way into the mysterious wonderland of Morocco, which, for some reason, was located in the Swedish forest. Fall down the rabbit hole into a magical place of colorful glittering fabrics, spicy tea-parties and mystical characters. And don’t worry about being a little crazy, after all: we’re all mad here. Also find here: “We always have a riddle and sometimes a cup of tea;)” GATE OF ALVHEIM Many. Maybe 500+ people grid square G10. Old Mumima valley will have two space stations connected by an elven path, Visit on Thursday for the full elf experience. Welcome to Gate Of Alvheim! The elves sacred ritual space. When Alvheims Gate opens on Thursday; Expect elves dancing, mystical art co- created with nature and profound psychedelic dance music imbued with ceremonies and rituals. Workshops during daytime and refreshments in the bar. Collaborating with Kishmastle Spacestation and fungal refugee to create a full week complete and mystical dance resort. Hope we see you in the misty forest! Sensory content \"EVERYTHING IS POLITICAL\" CHAI STAND 15 people We will be on the playa.. somewhere. From time to time. You may smell the brew of our spicy delights... you may hear powerful mantras vibrating through the playa.. that would be your sign.. to come find us. Step into our chai cave where the air hums with sacred vibrations and the aroma of cardamom hangs thick enough make you question that Borderland is 'apolitical'. When you emerge from your mantra-induced coma, join us for chai-fueled conversations about how the 11 principles are radical and political - and how great that is! Kid-friendly Pet-friendly Also find here: “We're a chai stand that is guided by the reality that power and politics are present everywhere, if this may evoke dis-comfort - excellent. Come take a seat on The Carpet of Dangerous Ideas to find comfort in these discomforts, soothed by \"the best Chai at Borderland, maybe ever\"” MYCELIUM 10 people Bison - South, grid square P22. Look for the smell of tea and mellow movements Gentle art installation in the lookout, next to tea by the sea and metal bison. When the sun goes down, mycelium sparks to life. PHONY BOOTHS one-to-one calls people Most likely the central phone booth in nort-western part of lowlands. Then we will expan southward as far as we can. Atleast three booths in total. We are building the official Borderland Phone Network! We want you to use it for any phone-calling needs you may have. It could be a key in some puzzle game you are running. You could have phone support of some kind at certain times. If you for some reason have use for a small phone network where you can call the other phone booths with special telephone numbers, feel free to do so. Contact me for more information: username Ricky @ borderland discord. Also find here: “Connected to dreams: The phone booth & Bothy call” LE OBSERVABLE UNIVERSE Flexible people Highlands, grid square L10. The Keepers of Le Observable Universe cordially invite you to come and see Le Observable Universe, which they very diligently and safely keep for all of us to enjoy in the form of an audiovisual installation. Pass by their camp in the far west of the Highlands any day from Tuesday to Saturday after darkness reins in the sky. EXPLORERS Highlands, grid square N09. The northern part of Highlands Searching for a new look? Stop by Explorers Clothing Swap, open 24/7. Leave one, take one. THE GLASS HOUSE 5 people Highlands, grid square O10. You‘ll know when you see it! The walls are clear but the light plays tricks. Colored walls cast the inside in shifting hues, making what's visible feel uncertain. Step inside The Glass House and open The Cabinets of Half-Remembered Things. Each drawer holds a lie you were told, a lie you still believe. Leave one of your own. Adults only SLOTHENHIVE HAMMOCK STAR 6 people Lowlands, grid square Q13. Next to Swetspot and Spaceport The Hammockstar is a chill art installation where you can hang out. The sun is shining, you wander around, maybe just got a fresh cup of coffee an suddenly there comes a place that is inviting you to relax and let your soul dangle. While the hammock is hugging you and you gaze into the sky and over the playa, you may dream away, you may meet the eyes of a strager in the hammock next to you and this might be a start of a beautiful connection. Kid-friendly Pet-friendly Also find here: “Sweet spot next to us - the hammocks and pancakes go very well together ” 82 | ART/INSTALLATION SINNERGIRL 30 people Bison - North, grid square O20. On the Shameless Plaza Sinnergirl is a six metre tall effigy with two faces, angel and demon, holding a glowing brain as a gift. Four walls of Pain, Grief, Hope, and Joy invite Borderlings to leave their testimonies. At night, projections and LEDs bring her to life before she burns into memory, ash, and light. Adults only THE BUREAU OF JUSTICE, JOY, BUBBLES AND OTHER DANGEROUS IDEAS 30 people Swamp, grid square S19. Our name tells the story of sincere seriousness and serious silliness. We ground in the radical roots of Justice and Joy to navigate the world, a place to explore Dangerous Ideas that dismantle, unlearn, and meet the world as it is - a magically interconnected and sacred web of life. Also find here: “Swing by for dreams of Justice and Joy, fill out a form at the reception, get your Offical Bureau Approved stamp on all bubbling, joyful, or dangerous endeavours, or come chat and drink some Chai at our Everything is Political Chai stand” HEXOLOGY 8 people Lowlands, grid square R12. A private magical ritual and interactive art game for small groups of 2-8 that we run all night. Sober Kid-friendly Sensory content COSMIC PORTAL 40 people Downtown, grid square K18. Lie beneath a 6m ring of 8,000 living LED lights as they breathe with you. The Cosmic Portal blurs dreams and the waking life. A hammock between dimensions, woven in color. Live artists and DJs will guide you to the far reaches of the cosmos. Always open, alive at night. In the Barn, top floor. Kid-friendly A TEA PARTY IN WONDERLAND 15 people Swamp, grid square T18. From the outside it’s a big black tent but look for the mannequin they will show you the entrance Where the mannequin points, you must follow! When the mannequin points you in, come join us in our imaginarium for a brew, a soothing warm beverage, cup of tea. Our home made tea blends and small bites will help you to gather your strength ready for your next side quest. Sober Kid-friendly Pet-friendly Also find here: “Come around for soothing beverages whenever you need” FUCKIE TALKIE - DISPATCHES FROM THE FUCKERY All of Borderland. people grid square K13. The crossroads next to Sanctuary, leading in to the Muumimaa forest. Pick up the walkie-talkie placed on the station next to the Sanctuary crossroads (close to the Villa Toilets) and give the Fuckery a call on our playnight evenings (Tue-Thu 21-05). The other walkie-talkie (the fuckie- talkie) lives inside the Fuckery playspace tent, where one of our playnight angels will pick up your call and facilitate broadcast transmissions from willing horny people to you. Adults only Body-positive Sex positive SILENT CINEMAS IN THE DARK WOODS All of Borderland people Look for spooky lights in the dark woods. A constellation of small, intimate silent movie theaters scattered through the dark woods — each a self-contained pocket of light and shadow, inspired by the visual language of David Lynch and Gregory Crewdson. Some screen classic silent films, some experimental and surrealist shorts. At least one will show something you cannot fully explain afterwards but will think about for the rest of Borderland. THE FLOCK - BIRDHOUSE RAVES Everyone. people Look for small blinking lights in the dark forests. The Flock is a scattered constellation of birdhouses throughout the dark forests — each one a tiny, fully functional rave. Strobing LEDs, the suggestion of a crowd of no one, music that takes itself completely seriously despite emanating from something a sparrow might live in. Each birdhouse is its own ecosystem. Different music. Different light palette. Different vibe. A rave is a rave whether it fits 2000 people or zero. The forest doesn't care. Sensory content CIRCUS THE ANALOG 100 people Swamp, grid square S18. The BIG circus tent An immersive playground for the senses. A traveling way of life. A gathering of analog lovers and performers of all kinds. A place to arrive, build, connect, exchange, flirt, create, rest and play.. We step away from the digital world and return to the present moment: Analog sound and real presence — vinyl, tapes, reel-to-reel tape, synthesizer, live instruments, radios and warm human sound.. Come to visit us in person and let your inner child play. Also find here: “A lot of opportunities for people who feel call build and strike hard :) Also reach out for free hugs family atmosphere.” MUSEUM OF BAD ART Downtown, grid square K19. Lower floor of the Barn (in the Living Room) Welcome to the worlds first museum solely dedicated to Bad Arts, and the aesthetic, artistic and academic center for the Bad Arts movement. Body-positive Pet-friendly Also find here: “The Museum will provide several exhibition halls, both for showcasing a representable selection of contemporary examples of Bad Arts aesthetics, and as a dynamic surface on which to project the ever-changing multitude of Bad Art created at the Borderland during the week.” CAMP OF RA Bison - North, grid square O20. We are Sound Camp RA and will host a \"closing build week party\" on Monday. We obey the sun god RA and his fight during the night so we all get to have a new morning sunrise. We play weird ravy shit. Also find here: “Sun prayers” THE INTERVIEW 3.1 10-15 people The Villa, grid square K14. Search for the villa that is placed next to sanctuary, enter and try to find The interview Step into this interview, play, have fun, listen, listen, listen and then ask interesting questions, with a twist, if you want. Maybe you see yourself or your interviewer/interviewee in another light in this installation. A successful interview might have something hard and spanking nice for you.. Part of The Maze in the villa so opening times might differ. CONFESSION CHAMBER 2 people Highlands, grid square N09. Next to our detective's bureau, a confession chamber opens. A small desk, a chair, paper and pens. What have you done wrong in Borderland? What are you ashamed of? Write it down and drop it in the mailbox — and be rewarded for your honesty with entry to the second chamber, where you'll see the (anonymous) notes of your fellow visitors and realize: nobody's perfect. The craziest and most \"forbidden\" things happen… HOUSE OF GLÖD'S *PAMPER TEMPLE* 10 people Arctic chill, grid square P06. A blue Tent, there will be a sign Step into a magical underwater world where relaxation meets creativity. Our wellness tent is designed to transport you into a dreamy oceanic realm, filled with shimmering colors and soothing sensations. Enjoy custom- blended massage oils, vibrant body painting, and artistic decorations. Treat yourself or get treated from us in our spacious cuddle corner. Let yourself be pampered in an atmosphere of pure enchantment! Also find here: “We will offer some homemade Oils, fancy make-up und cozy places for you. Everyone is invited to get a treatment from us, or you pamper each other ;)” 83 | ART/INSTALLATION LAZARONES 15 people Swamp, grid square S20. A dark tower, filled with light Welcome to the vibrant world of fotons, where smoke and mirrors may trick your brain, and forever leave the most beautiful stain. A tower of light - where dreams blend seamlessly in with reality! Pet-friendly Sensory content THE ALTAR OF THE GODS OF BORDERLAND Wedge, grid square R22. The Altar location can be found out here. It's time to pay our thankyous to the Gods of Borderland. You can bring your offerings, prayers and sacrifice. Opening on Tuesday. RESONANT DREAMS 15 people grid square Y15. A light, sound and smell installation beneath the trees On the path to the lake near Eastern Slope. Let yourself oscillate and dream away. ELVEN SAUNACAVE AND DOME 25 people Sunny Hills, grid square H22. Next to the big Alversjoe lake at Sunnyhill The Saunacave is built into the earth, warmed by a wood fire, offering ceremonies and lovely Aufguss sessions. The Dome is our space for gifting — live music, dance and ceremonies. Check the Noticeboard for daily programs. Open approx. morning till evening (sometimes night), except Fri & Sat night when we open according to our mood (: Bring a towel (obligatory to sit on) & drinking water. And lots of love Also find here: “always happy to meet and greet (:” THE ROYAL SNAIL Everywhere Legs are for losers. Slimily and slowly royally sliding along the Borderlands is the new way to get anywhere. This is the Royal Snail - but roaming. The Royal Snail Art Car Pet-friendly Sensory content Also find here: “Think of all the things you know and love from the Royal Snail: Theatrics! Left-coiling snail love stories. Spiritual-snail-sass, mini-everything and megaphone grilling. But now, mobile! Join, jump on, slide along, slime up against or slut around with your coily twirly dance moves as the Royal Snail womps out bangers, lights up eyestalks and serves snail-sized-and-shaped rum shots.” WONDROUS FORGE 3 people Swamp, grid square S17. In the swamp next to the fire Plaza, under a linen roof. Show up drop-in, or even better, pre-book via mail since spots are limited! Contact me if you want to cancel or will get late, otherwise your place might go to a drop-in if you do not show up on time. Want to brainstorm an idea beforehand Borderland? Contact me via email: fanny.henriksson1@gmail.com Sober Adults only Sensory content Also find here: “Some high sounds from hammering metal will occur.” PAMPERING/CARE MERMAID CAVE 12 people Bison - North, grid square O19. Mermaid cave is at the corner of Shameless plaza, by Glittertind and Club SIN. It also hosts the Wellness of Figging and the Sea Witches Den. The Mermaid Cave will return as a safe haven for burners, sailors, and denizens of the deep. It is an island of serenity in the middle of the party, providing a comfortable place to let the storm pass. The Mermaid cave will be a soft and cosy chill area, protected from the elements and lit up in a careful balance of mood and visibility. The Mermaid cave is built and tendered by Borderlands oldest camp; the Mermaid camp Kid-friendly Pet-friendly LEAVE NO TRACE SHOWER FOR DIRTY HIPPIES 1 people Better just call/text +45 51 90 31 49 Wash the Dirty Burners. A warm off-grid shower for dusty humans. Bring 6 liters of water (I'll try to store some as well) and enjoy a minute or two of hot, wet bliss. Greywater is collected and filtered to minimize environmental impact. Open once set up. Sober Kid-friendly Body-positive Pet-friendly Also find here: “Water. Bring water ” FOREST IS FOR REST 25 people grid square S06. In nature reserve, beside the road leading to Far Flung Field from Missing Piece Cottage Forest Is For Rest is an oasis for relaxation - open all week. Beautiful fabrics woven into the trees, hammocks, swings and art create a sanctuary of shade and relaxation. Come take a nap or connect with a friend. Sound Journey Jomo Tuesday 13.30. A kid-free quiet zone. Adults only Pet-friendly ASK YOUR FATHER ANYTHING (OR TELL HIM TO FUCK OFF) 1-2 people N/A Need a dad for a moment? Pull up a chair. Ask for advice, a hug, approval, understanding, life skills, or answers to impossible questions. Cry, laugh, rant, or just sit together. Make an appointment (call +45 51 90 31 49) or let the playa find me. Pet-friendly Also find here: “There will be hot, maybe also cold, drinks, cookies, sacred cacao, and plenty of napkins.” CRAFTING/ARTING THE MARTIAN 4 people Arctic chill, grid square M05. northwestern arctic circle, look out for the techy looking lightpole and the silver van I support your sparkle or help with textile repairs. I can also teach you how to use a sewing machine and help yourself. Every day from 12:00 to 14:00. If I'm not there, find my number behind the windscreen. Adults only Body-positive Also find here: “repairs of tents, tarps or clothing,” SOCIALEN 20(yoga) - 50(seated) people Bison - South, grid square O22. Sunset Plaza Come for the coffee - stay for the benefits! Our space is your space. A cosy living room where you can get caffeinated, pizza sedated and shisha vibrated. Open 25/7, 8 days a week. Pet-friendly Also find here: “Opening party on Tuesday! Pizza b2b Shisha” 84 | PAMPERING/CARE THE BURROW ~10 people Lowlands, grid square U13. An emotionally safe space. Need to catch you breath? Have a great story to share but noone to listen? Need a a shiukder to cry on? Come as you are, sit down by the altar, see what the tarot has in store for you or take a quiet moment for yourself, anything and anyone is welcome here. Doggie cuddles from Lucy the lab is also available. Pet-friendly Also find here: “Doggie cuddles, emotional support, lots of love” PUSSY JUICE CAMP: PIMP MY PARTS 3-5 people at a time people Eastern Slope, grid square W18. A playful, juicy oasis of sparkle and chaotic kitten energy A small ritual space for fresh bodies, sparkly bits, and a moment to admire yourself. Adults only Body-positive Sex positive GALLERI EPHEMERALIS 10 people Eastern Slope, grid square W16. Play with natural clay at this evolving, transitory art space CREATIVE SANCTUARY 30 at a time people Downtown, grid square L18. Downstairs at the Barn A creative sanctuary for painting, drawing, experimenting and making. A place to create, add to something, or follow your own inspiration. Basic materials are available whenever creativity strikes, with extra magic added when I’m around. Open for visitors anytime. Sober Kid-friendly THE SWEET SPOT 30ish people Lowlands, grid square P13. Follow the glorious smell of pancakes into the Lowlands! You'll find us between Spaceport and Pink Parachute! At this kingdom of nomnomnom you'll find warm pancakes, countless toppings, and a soft place to land. New this year: a crafting table for quiet creating or unleashing the creative chaos gremlin inside you. New shenanigans guaranteed daily, but our chill, cozy cafe stays just the same. DIY NAILS 5ish people Highlands, grid square N11. We're in Cheeky Butt Chill Camp in the Penta Plaza, Highlands Need some polish? We got you covered! Come by and do your nails! SHIMMERING BY THE FOREST EDGE 20 people Arctic chill, grid square O06. In the Arctic Chill, close to Pamper Plaza, behind the camp \"Women who supports women\" Shimmering by the Forest Edge is a low-sensory camp. Unwind under fairy lights with gentle crafting, meditation, or sound journeys. Relax by the fire, or find a dream of peace in our \"forest is for rest\" hammocks. On select evenings, gather for warm vegan chai. Everyone is welcome. A safe space. Pet-friendly Also find here: “Chai Tuesday, Thursday, Friday. Don't miss our Forest is for rest area, east of the main path to the north lake.” QUEERS & FLINTA* FUN Arctic chill, grid square P06. House of Glöd Queers & FLINTA* (women, lesbians, intersex, non-binary, trans & agender people), ready for a safer space full of care, creativity & community? Enjoy sauna, massages, make-up magic, fresh fruit, workshops and beautiful connections. Come by and let’s shine together! MŸS DOME 30 people Swamp, grid square T16. Wooden Dome, near Fire Brigade The MŸS Dome is a wooden structure that invites you to relax, dream, or dance, protected from the elements. A sphere like its own universe. Stretch your limbs and prick up your ears when the MŸS Crew has enchanted you with quirky vinyl sessions, downtempo DJ sets, or experimental live music featuring synths and guitars. Kid-friendly LE(T)GO @ SLOTHENHIVE 6 people Lowlands, grid square Q13. Come and embrace your inner child. We have a cozy tipi tent where you can play with bricks like back in your childhood room. Several different sized sets with instructions and mixed brick boxes are waiting for you. Perfect place to take a little break from all the BL madness. Accessible every day 9am - 19pm Kid-friendly Pet-friendly THE ORGONE ACCUMULATION RESEARCH PROJECT 20 people Bison - South, grid square P24. Close to the tree house in Bison We're bringing Orgone back — the largest Orgone accumulation project in history! Orgone is life force, cosmic energy, described by Wilhelm Reich in the 1930s. A workshop, experiment and ritual — a trip into the muddy waters of pseudo-science, gathering life-positive energy. We build Monday and Tuesday; the rest of the week the accumulators are open for experiencing. Body-positive THE IMAGINARIUM 3 people Bison - South, grid square O23. Bison-South, next to Camp Juicebox. Somewhere between Socialen Public Offering and The herd Borderland can bring up a variety of colourful emotions — sometimes you need a quiet place to sit with yourself and let your imagination flow. That's the Imaginarium. Draw or paint whatever's on your mind, quietly colour an elephant, add to a collaborative painting or draw a guidance card. No classes, no expectations, no spectators. Open for everyone — future adults in training under supervision, please. POLITICAL POST OFFICE - LETTER WRITING STATION 8 people Swamp, grid square T17. Right next to the Chai Chill Chinchilla Yurt A space to slow down and write. We share background on political prisoners imprisoned for resisting fascism and oppression, and invite you to write them letters of solidarity. But you can also write to friends or your (chosen) family - we collect and send all letters after Borderland. Kid-friendly Pet-friendly RIBBITCAL EXCLUSION 1-2 people Arctic chill, grid square N06. camouflaged (but well marked) nest on top of the small Arctic Chill hill Amid all the radical inclusion, frogs bring a 12th principle: radical exclusion — a froggy sanctuary to hop off to when things become a bit too croakey. Feel, reflect, slime - or just be a tiny frog for a while. This is a retreat for people who seek a moment of rest in SOLITUDE, with a trusted amphibian+ if needed - Fluffy blankets + sensory comforts/crafts assured Also find here: “Please be gentle around the nest; frogs startle easily. Feel free to gift what might help your fellow tadpoles get through their metamorphosis in this foam- nest after you. Gossip: I heard sexy toadstruction workers like to amplify their croak in bins. They might also be found hopping up a forest dancefloor during ribbiting season” 85 | CRAFTING/ARTING DO YOU FEEL LUCKY? - CROQOUIS DRAWING KIT BORROWING 5 people Sunny Hills, grid square G20. We are a small camp below the bunny horse bar close to the lake. Drop by our camp and see if you're lucky — a croquis drawing kit might be free to borrow. Grab one, wander to the lake, and sketch the sunbathers in the afternoon light. No skill needed, just curious eyes and a willing hand. Return it when you're done so the next artist can feel lucky too. Kid-friendly Body-positive Also find here: “We will have a few croqouis drawing kits to borrow. Not too many.” FRONT GOODIES CAST 8 people Sunny Hills, grid square I21. A Casting Call Step into the spotlight and let your front goodies audition for the role they were born to play. If you're selected (spoiler: you probably will be), you'll become the star of your very own sculptural masterpiece. An unforgettable experience where you'll be gently pampered, admired, asked to hold perfectly still, and immortalized in plaster. A memory you'll keep forever... or at least until you decide otherwise. Adults only Body-positive FOOD/DRINKS LAZY CAMP - LAZY TREATS HOUR 100 people Follow the cheesy toasts smell When you've packed up all of your mojo, your tent feels impossibly far away, and truthfully.. you've got a tiny existential wobble brewing, come find us. Lazy Treats Hour will serve you hot toasties, silliness and giggles, plus a generous serving of camp love. Survival, but make it fabulous. Kid-friendly SCHORLE BAR 10 people Swamp, grid square R18. Directly at the Water Plaza in the Swamp Feel the bubbles and the ocean at our underwater-themed bar filled with non-alcoholic Schorle and playful bartenders. Don't know what Schorle is? Come find out! VEGAN WAFFLE WAGON It's portable! Usually quite central.... A four wheeled wagon with striped red & white roof, striped black & white sides. Usually a queue of hungry hippies and good (often weird) music! Vegan. Life-altering. Sourdough. Waffles. With homemade toppings! The Vegan Waffle Wagon will be here and there. Also appearing at some parties, happenings and workshops. Come find us if you want to eat (or maybe serve) waffles! We will have a printed schedule where you can sign up for a waffle serving shift! Kid-friendly Pet-friendly CAMP NIMENOMA 70 people Highlands, grid square M13. We got a lot of lamps and and two large tents. We are located close to the sanctuary in the left bottom part of the Highlands Welcome to Our Camp We've got a cozy living room with soft hay bales, lots of warm lights, and a bar right in the middle with some good background music. Everything you need to start your evening off in the best way. THE DIVINE DOUGH SANCTUARY 30 people Wedge, grid square R22. A cozy retreat from all the chaos: fire-heated bell tent, crackling outdoor fires, artisan pizza, live acoustic music. Slow down, stay awhile, and replenish both body and soul. Body-positive Pet-friendly COFFEE & CONTEMPLATION 4 people Swamp, grid square S19. Come for semi-self-organized coffee of your choice (moka, phin, cezve, filter) and radically dangerous contemplative process (fortune telling, mug- reading, and more). Located in the waiting room of the reception of The Bureau of Justice, Joy, Bubbles, and Other Dangerous Ideas. Bureau APPROVED! CROCKET CORNER 30 people Swamp, grid square U16. Look for the neon-lit croquet court! Let's have a vacation! Bring your most awesome vacay-mode to The Crocket Corner — play croquet, sip crocktails, and enjoy a croque monsieur, served by chatty bartenders and a grumpy old grandpa. Let the traditional \"Swedish vacation\" begin! Croquet court open most non-curfew hours; bar open Tue–Thu 19–21. Grand Opening Tuesday with a croquet tournament — experts and beginners (with or without luck) welcome! Kids can play anytime except bar hours. Pet-friendly THE COMMUNAL BBQ 45+ people Downtown, grid square K20. Between the Square and the Sheepbarn Last year the Square was built. And water was brought. This year next to it, the outdoor BBQ area is in place. Firewood, bbq, charcoal, tables, benches are all there. Bring your ingredients, put it over the fire (fire it up if you are the first one there). Free and available for anyone to use. Dare to invite the unknown... Also find here: “the \"kitchen\" of Downtown Borderland” THE BUNNYHORSE BAR Sunny Hills, grid square G19. Go to the far end of the sunny hils and look for the flaming Bunnyhorse on top of a highly modified horse trailer. We might spew fire in your honour! Your friendly, magical, quirky water hole in the hills. Enjoy the legendary One|Trick|Pony drink. All Glitter stallions, Phony Ponies and Massive Mules welcome. We're here 24/7: sun-baked afternoons, blissed-out nights, and those strange mornings where time doesn't matter. Adults only Body-positive Sex positive Also find here: “Ice cold water and hot hot hot water.” THE GRATEFUL GROGG Sunny Hills, grid square I20. At the very top of the Sunny Hill The Grateful Grogg returns to bless Borderland with her sturdy presence! Offering tasty grogg, cold beer & rowdy parties. Need a jam space, someone to chat with, or just a wholesome place to rest? Open day, night & sunrise—though you might serve yourself & fellow Borderlings. Always welcome! FIKASTUND AT SOCIALEN Bison - South, grid square O22. Coffee on a self-service basis, every day from 10:00–22:00. Grab a cup, stay awhile, challenge someone to a board game, and see where the conversation leads. 86 | FOOD/DRINKS HALLOUMI-NATI We will be moving around and not be located at our camp site . You will see out black tent moving around on the playa! The Holy Cheese Temple: not food — a multi-sensory immersion into the essence of cheese. At night, the Black Temple appears east of the Lowlands. To enter: spirit cleansed with Holy Feta Water, then confess a sin to receive the Fermented Blood of the Vine. Drink, be absolved, and submerge into our Lacto Sensory Play Experience. In Caseus Veritas — in cheese we trust You said: The legendary sanctuary for your senses returns, serving weird and wonderful teas in a weird and wonderful way! Adults only Body-positive Sensory content BOB-UP CAFÉ max 5 people Swamp, grid square R18. You will find Bob being a white van with a big label and cartoon print of the Bob-up design next to Schorle Bar (Schorle Bar is all purple, turqoise and gold) My car Bob and I always dreamt of being a Bob-up Café and we will realize it at Borderland. Come by for a coffee, a cuddle, compliment or conversation. You'll get your decaf or caffeine fix with a dope conversationalist as a barista and a hang out space to unwind from the excitements of the playa. Sober Also find here: “I will offer a space to hang, get some shade (or rain protection), a warm beverage in your hand (bring a cup!) and a warm-hearted person to talk to. Or: to not talk at all but just: be.” LE BISTRO FRANÇAIS 20 people Lowlands, grid square Q12. Just come to the main plaza in lowland, you can't miss us Le Bistro Français is a gift from a group of French friends to the Borderland community. We offer wine (with and without alcohol), peanuts and olives. Then, once a day, something shifts. The guinguette fades and the best goes up. Welcome to l'Heure Heureuse — our happy hour — where the whole neighbourhood is invited to celebrate absolutely nothing in particular, but with bubbles... LÉ BAGUETTELLE 20 people Lowlands, grid square Q13. Lé Baguette Wagon, we will start at camp Slothenhive and then roam around. Come find us! What is it that you smelly - a hunger in your belly? In the morning when we wake, bread for you we bake! And in the darkness of the night, from the forest close at site; a wagon of baguette shows its silhouette. MARGHE & HER LITTLE LAMBS Wedge, grid square Q21. in between alice the malice in wonderland, and club sin camp We're a wee camp w a dream to boost the people of the playa w cozy himalayan dumplings (mo:mo) pop-up, and have caffè corretto mornings <3 ° live, laugh, love, mo:mo, & margherita ° Kid-friendly THE AUTOMATED CAFÉ 30 people Highlands, grid square O11. Crossroads west of Bayt-al-Noor, Highlands. .. the sign reads coffee Looking for coffee? Come find our always open self service café! Push a button to brew a cup. Add vegan milk and sugar. Sit down and enjoy. The space offers soft music, cosy light and a few games.The rest is up to you. Kid-friendly KIMCHII TREASSURE HUNT The Vegan Waffle Wagon, which will be moving around. A wagon with red/white striped ceiling, steaming waffle irons, and a red flag. There are hidden jars of vegan kimchii here at Borderland, will you find one and save your camp from kimchii-deficiency? First step is finding The Vegan Waffle Wagon, if the red flag is up it means you can get a map or clue and continue your quest! WELCOME HOME, DARLING 20-40 people Highlands, grid square O10. WHD is right between Penta Plaza and Bayt al-Noor Welcome Home, Darling is the place where you can take a break from the playa. Our big tent is cool and shaded by day, calm by night for cozy conversation. Some evenings, our soup kitchen cooks up food for hungry Borderlings. WHD also have a water truck you can borrow. Body-positive Also find here: “WHD has a water truck (golf cart) for all to borrow. We are a sort of quiet camp by night, but by day we have some party going on. But much more focus on pop and rock rather than EDM.” CHAI CHILL CHINCHILLA 20 people Swamp, grid square T17. Follow the scent of fresh-baked vegan cookies and spiced chai to a softly glowing yurt in the trees. Sink into vintage rugs and cushions, play games, enjoy live readings, or drift to mellow tunes. Your cozy sanctuary—always vegan, always warm. Kid-friendly Pet-friendly Also find here: “Need a hand, a chat, or just a break? We're always happy to help. And you are always welcome for as many chai and cookies as you can have!” COZY SLUTTY WAFFLE CAFÉ- HAPPENING MONDAY 21ST OF JULY BETWEEN 14:00-18:00 200 people Lowlands, grid square Q11. A koselig waffle café blooms on the playa for one golden afternoon. Warm waffles, brunost, jam, a wake-up shot — Norwegian hygge with a wink. Bring a cup, an open heart, and your slutiest secret. Body-positive Sex positive SALT ROCK CITY 20 people Wedge, grid square R21. Top right corner of The Wedge, bordering The Swamp and forest A bar for salt addicts. Here, we celebrate our addiction. You can try our salt tasting experience, have savory cocktails or a salty snack. Anybody said mango sticky rice? We'll replenish you with alcohol-free electrolyte cocktails, or, electrococktails. Salt Rock City is the best (and maybe only) place to boast about how many kinds of salt you have in your kitchen. Salt- normative folks are welcome too ;) THE TAHINIANS Around 50 people people Lowlands, grid square Q12. In the middle of the lowlands The Tahinians welcome you to indulge in the wonderful godly amazing deliciousness of Tahini at our beautiful Tahini temple. Tahini fika will be there always for you to enjoy in a nice relaxing atmosphere and if you are willing please join our religion and be blessed! Kid-friendly Also find here: “Please come say hi and eat some Tahini!” GAMES/PLAY PARTY/GATHERING 87 | FOOD/DRINKS GOOD VIBES 20 people Sunny Hills, grid square I23. Come and play games with us, freaky lovers or Tipsy temptations Adults only Body-positive Sex positive Also find here: “Good Vibes and not to loud music” BUCK: THE BLACKWATER UNCONSCIOUS COMMUNITY KASINO @ BLACKWATER OPERATIONS 20 people Swamp, grid square Q18. Look for the glorious American flag flying above The Green Zone. That's Blackwater Operations. BUCK Casino is right there — follow the sound of chips and poor choices. A smoky tent, cowboy hats, and the smell of bad decisions. BUCK Casino runs blackjack, poker and poker dice when the night calls for it. Come by late — you may lose your chips, your watch, and whatever dignity you had left. The house always wins. But you won't be able to stop. ATLANTIS - THE LOST DEEP SEA CITY 2-5 people It will move around so kepp your eyes open ;) The lost city of Atlantis has risen close to the playa — now ruled by jellyfish, deep-sea creatures and mermaids. They've found a treasure chest they cannot open: three beings must manifest the old ideals of compassion, truth and humility to earn it. While you wait, visit The Cart at the gate for seaweed chips, blue schnapps, salty fish and green algae. MISSION? IMPOSSIBLE! 25 people Highlands, grid square M12. South point of the Penta Plaza @Highlands Life is not always as successful as we want it to be, right? Come celebrate those moments we all call \"Failure\", which are actually great opportunities for adventures and growth. See what happens when success is literally not an option Facilitated time wasting, guided failures and 24/8 Self-served experiences available Also find here: “Free Hugs & Chaos” END OF THE RAINBOW - THE PONY PARTY 69 people Bison - North, grid square N20. You can enter into our garden from the downtown garden area when you cross over the wooden bridge from the wood storage or you can enter from the Shameless Plaza below Club Sin. At the End of the Rainbow, where mystical creatures roam and magic fills the air, we host unforgettable parties where only your imagination sets the limits. Come play, express yourself freely, embody your sensuality, and explore your desires without judgment. Adults only Body-positive Sex positive Sensory content SPIKEBATTLE OF BORDERLAND 2026 20 people Sunny Hills, grid square H20. Spike battle of Borderland 2026 (SBB26) is here for it's first edition! Bring your best energy and get ready for a great competition! Either come by yourself and make a team on the spot or come as a team. - Playing 2 vs 2 - Clothes on private parts are mandatory - Limited spots avaliable - Age limit 15 and above (younger can watch) It's a spikeball tournament. Playing in groups. Then those best handling the ball will play semi finals and then finals! Kid-friendly Adults only THE FIGGING STAND: THE FINAL FIG @ BLACKWATER OPERATIONS 50 people Swamp, grid square Q18. Look for the glorious American flag flying above The Green Zone. That's Blackwater Operations. Find the wheeled wagon with the neon sign and you've found us. Raw peeled ginger, hand-carved with competence, inserted with intention. The sweet burn of enlightenment awaits. Pops up when the time is right. BEWARE OF COPYCATS AND QUACKS! LEADERSHIP APPRECIATION LOUNGE @ BLACKWATER OPERATIONS 6 people Swamp, grid square Q18. Look for the glorious American flag flying above The Green Zone. That's Blackwater Operations. The Leadership Appreciation Lounge is right inside. Follow the sound of well-deserved rest. Come celebrate the souls who make The Borderland possible. A beautifully decorated lounge for rest, luxury and recharging for leads, founders, board members and anyone else with power and panache! A gift to the community, because without them the dream stops. Definitely not a honeypot. JOUSTING JESTERS 200 people Swamp, grid square Q19. South of Water Plaza Welcome to the Jousting Jesters! Step into our medieval realm of knights, jesters, and merriment. Dance to medieval-inspired beats, test your skill in playful games, enjoy soul-shaking talks, and gather for our grand tournament, where honour, laughter, and glorious revelry await all who enter! Also find here: “Medieval whimsical vibes for all!” BORROW AND BECOME 10-15 people Swamp, grid square T15. Ordinary is overrated. Become the Dazzling Diva or one-of-a-kind Unique Unicorn of your dreams! Step into Borrow & Become — a living, pulsating wardrobe where you can borrow your outfit for the evening, reinvent yourself, or bring one piece and leave with another. Soft guidance, intuitive styling and a welcoming atmosphere. Come curious. Leave Legendary. Tuesday 17–19 & Friday 16–18. Welcome to the Peacock magic! Adults only Body-positive FLUFFY DEN @ SLOTHENHIVE Lowlands, grid square Q13. Play area for our furry friends. Come and let your doggy roam free and play in a fenced in area with shade, toys and a little pool. Space is accessible every day 8am - 8pm Pet-friendly THE REST REVELRY FIRST EVER \"LATEX STRUT YOUR STUFF PARTY WALK & TUMBLE\"! 20-ish people Eastern Slope, grid square W15. Do you have a certain dark, physical desire? Does it spell LATEX? Heck yes - we've got an event for you! Dress up or down in your finest black, and join us at Rest & Revelry for a swaggering tour around the playa. Let's strut our stuff, let's show others how to be spankalicious and sparkling in black. What, where, and how it ends? Come find out.... Adults only Sex positive Also find here: “We might get nude at times” THE 40-ISH THIEVES 10 people Highlands, grid square N13. Our camp is located in Agrabah Village. Once there, look for the Bedouin tent. Step into a world of treasure hunters, magical beings, cursed bandits, lost riches, hidden secrets, and unforgettable adventures. Uncover clues, hear mysterious tales, and perhaps even find the Magical Compass. Only those with sharp minds, curious hearts, and a touch of daring will reveal the secrets hidden from ordinary travelers. Will you heed the call? Kid-friendly 88 | GAMES/PLAY PARTY/GATHERING CAMP CONSCIOUSNESS PLAYGROUND: HOSTING BORDERLAND SPECIAL OLYMPICS (BSO) 50 people Swamp, grid square T19. We will have a 20 meter banner alongside our camp saying BORDERLAND SPECIAL OLYPICS Borderland Special Olympics — a competition based on burn principles! We've added special secret sauce to games you already know: the old world in a new form your soul will recognize, where everyone competing is a winner! Keep an eye on the scoreboard throughout the week — the winning person or team earns a facilitated journey Saturday at 5pm, in the building constructed especially for this purpose! Adults only Body-positive Sex positive Sensory content Also find here: “We have a lot of salt water” MOVEMENT/ BODYWORK SCRUB & SAUNA 2 people Sunny Hills, grid square G21. Come naked. Birch whisking and scrub. Served by towel boy. Book a one hour session, and you will get a pampered. Totally non-scientifically inspired by the Lithuanian sauna tradition. Sober Adults only Body-positive WOMEN WHO SUPPORTS WOMEN 20 people Arctic chill, grid square O06. A soft, heart-centered sanctuary rooted in connection, presence, and feminine support. We warmly invite all women who feel aligned with the intention of the camp to contribute. The values of the camp: softness, respect, authenticity, and a desire to support one another. Sober NJORUNNS GARDEN about 100 people Downtown, grid square M20. Follow the signs <3 Njorunns Garden is the magical grove of many possibilities in the heart of Borderlands downtown, a welcoming space among the trees with flowers, fairy lights, a pavilion, a campfire, and PA. Here we host everything from braiding workshops, Handpan jam, Goa morning and snippets of our favorite books during the day to Nordic traditional song circle, pre-parties and Chai during the evening. Come and join for our many offerings or create one in our beautiful garden! Body-positive Sensory content Also find here: “We have the luxury of shade during the hottest hour of the day and a fire by night, There is always worth dropping in.” MAGIC BANYA Sunny Hills, grid square G21. We are the sauna tent right at the Sunny Hills lake shore, our entrance is close to the pier! A lakeside sanctuary of steam, tea, ritual and connection. Through heat, herbs, sound and meditation, we create a sauna experience. Sweat, sip tea by the fire, then cool off in the lake. Banya ceremonies morning to evening. Drop-in or sign up ahead. Bring towel & cup. Sober Body-positive Also find here: “SUNNY HILLS SAUNA PLAZA - we bring extra towel hooks and benches! TEA & REFRESHMENTS - for those coming out of the sauna and those that want to hang out with us in our lounge!” THE HEART 40-ish people Highlands, grid square M11. We are directly at the Penta plaza in the Highlands. The Heart is a calm sanctuary in the middle of Borderland's chaos — a yurt dedicated to workshops, movement, and genuine human connection: yoga, dance, sound, massage, somatic practices. Got a workshop and nowhere to host it? Show up — there might be a free slot. We also have a cuddle-puddle tee-pee, small tearoom and shisha! No loud sound — no public sex — no drama! Sober Body-positive Also find here: “Pop-up cuddle-puddle with random business hours.” TOUCH DIVINE RITUALS 50 people people Wedge, grid square R22. South-east of BL Go beyond your wildest dreams! Touch Divine is back with an amazing 60 m2 decorated tent with soft tatami-floor. This year we offer Contact jam, Embodied futuring lab, Dough ritual, Conscious shibari, Ecstatic breastfeeding, Zenith of softness, Sex ritual for clowns, Shamanic dream workshop, Money-healing ceremony and more. Adults only Body-positive MINGLE & PLAY ON THE DANCEFLOOR Bison - North, grid square N20. In this workshop we explore mingling and play on the dance floor. How do we create a dance floor that's a little more interactive, respectful and playful? Easy party steps will be handed out! No prior experience of dancing, mingling or sense of humor is required. Come as you are with curiosity in you back pocket! FLOWZONE Many people Highlands, grid square M11. Highlands, Penta plaza (the big flag) next to Chilldome. An always open, physical playground with bars, parallells, rings and other training equipment to have fun with movement. Made for hanging out, working out, climbing and playing outside. There’s challenges & workouts to do on your own, or at our workshops. (Bring an adult if under 15). Sober Kid-friendly Adults only Pet-friendly THE SAPPHIC POND 12 people Sunny Hills, grid square J21. Big lesbian flags! If you see them! That is us! A soft, watery sanctuary for femmes loving femmes (butches & nonbinary folks included). Daily yin yoga, lake swims under the lesbian flag, tea ceremony, soul-matchmaking & slow dating. Come single, leave with a girlfriend, a cat & a shared lease Open all week. Adults only Body-positive Sex positive Also find here: “Lesbian neighbours, please come our gaydar says you're out there. We've got free hugs, a soft place to land, cold lake dips & emotional processing on tap (alarmingly good at it ). Every day ~16:00 we parade to the lake for a swim under the lesbian flag, come join the splash! Good to know: femmes loving femmes (butches & nb folks included), adults only, soft by day. Lost? Follow the flag and the sound of two people who met yesterday already planning to move in together ” PASSAGE TO LEMURIA 100 people grid square P25. The southest part of bison, look for a portal like entrance House of Lemuria brings you a dream inspired by the myth of Lemuria: A utopian civilization believed to have existed millions of years ago. The passage to Lemuria unfolds as an ongoing immersive performance, inhabited by characters that exist beyond time. You are invited to enter at specific times when the house is open, as well as during parties, workshops and performances. Come hang out in the house or enjoy an afternoon in our backyard. Also find here: “Come by and hang out in our cozy backyard<3” 89 | MOVEMENT/ BODYWORK THE ROOM OF REQUIREMENTS 30 people Eastern Slope, grid square V19. Entry from the road Want to host or facilitate a workshop or something else but don't have the space? Use our space! Create something meaningful in a flexible setting. No fixed purpose, just possibility. Be mindful of the space and area. Underwear stays on! Book your timeslot and read more here - www.ror.staeger.se Sober Kid-friendly Adults only Body-positive Also find here: “Open hangout area available when no workshop is in progress.” MUSIC/SHOW END OF THE BLOCK LOUNGE 50-75 people Swamp, grid square U16. We are at where The Swamp, The Missing Piece and The Lowlands meet! Whether you are wandering in from the dust or actively seeking out one of our activities, the End of the Block Lounge offers a range of events over the week to amuse, distract and occupy a bit of your time at your Burn. Our events will be listed individually Also find here: “We have three kiddos in camp. Most of our events are family friendly.” DISCOTECH ENGINEERING 100-125 people Sunny Hills, grid square H20. Between the big boobs on Sunny Hills :) A daytime, lakeside, golden hour sound camp where we engineer atmosphere in real time and cater for some refreshing electrolyte drinks. Carefully tuned for a warm, physical, high-fidelity dancefloor. Music matched to the moment, as the Swedish summer sunset slowly approaches over the beautiful waters. Sensory content THE CHURCH 250 people Downtown, grid square K21. The wooden structure with the Church windows near the Clow Police Station. Old wooden structure with amazing light art and other art. Only enter when the doors are open. Closed doors means a workshop is in progress or we are offering bodies. Thursday and Friday afternoon are the safest times to admire art and architecture. At night it transforms into a decadent nightclub for sinners! Adults only Body-positive Sex positive Sensory content Also find here: “Playspace on teusday, wednesday an thursday during the night.” MOONWALKERS 50 people Highlands, grid square L09. Coffee is brewing. Live Radio Show happening. Storytelling open mic, between two ferns intervjues. Adults only FOXHOLE 150 people Lowlands, grid square Q11. A staple of Borderland, The Foxhole creates a sex positive sound camp where people can push their boundaries and safely explore their desires. The establishment is inspired by sultry French cabaret vibes and curated as a home. We create this experience, but most importantly, we embrace this experience together. Join us, and let’s embrace the journey together. Adults only Body-positive Sex positive Sensory content LAZZARONES 15 people Swamp, grid square S20. A black tower of trampolines Enter the world of fotons where Smoke and mirrors may trick your mind! Powerful vibrations of poetry and music will fill this space, come slow, life is no race! Pet-friendly Sensory content JAM CAMP 150 people Lowlands, grid square R13. Behind Spaceport along the grass line WE LOVE TO JAM - AND YOU ARE WELCOME ! Come join us ! Play with us, dance, listen, relax! <3 Please Stop by for a workshop/spontanious jams etc.! \"Organized\" OPEN jams from 20-22 quiet jam from 22-24. Kid-friendly Sensory content Also find here: “We love you, come talk to us if you do/ dont like the sound, we can maybe teach you how to play <3” THE BEAR'S DEN 100-150 people Sunny Hills, grid square H19. Turn between The Grateful Grogg and Discotech Engineering, then head for the tent by the edge of the forest. Deep bass on a hand-crafted sound system. Jungle, drum & bass, dubstep, UK bass, garage and dub. Join us Monday, Wednesday, Friday and Saturday nights 22.00–05.00, plus daytime sessions: Dub & Drinks, Bass Yoga and Bass Meditation. Also find here: “We’ll be serving homemade elderflower juice!” THE HERD 15 people Highlands, grid square O10. Afternoon Beats & Mango Sour Beer. Also find here: “Will host dance parties Tuesday, Wednesday and Thursday afternoon 14:30 to 17:30.” RITUAL/CEREMONY HEXEMUTTERS GALEHUS 1-3 at a time people Sunny Hills, grid square H20. Look for a grumpy old hag Hexemutters Galehus Warning: experimental medicine cabinet. 41 remedies — yours to judge, yours to draw. Side effects include self- knowledge, mild existential crisis and uncontrollable honesty. We are not responsible for what the cards unlock. Open. Always open. We never sleep. Adults only Body-positive RADICAL THERAPIST BY PSYCH HIKE 6 people Swamp, grid square R19. On the north side of Åkerholme Ever wondered if you should see a therapist, or what they really think of you? Explore your inner world in a quick, impactful session with fearless therapists who help you understand yourself more deeply. DISCLAIMER: This is not a substitute for therapy. We are not mental health professionals. If you need care, seek professional help. Adults only 90 | MUSIC/SHOW KETUNKOLO, THE REAL FOXHOLE WITH ACTUAL FOXES 10 people Eastern Slope, grid square U20. Look for the foxes on top of the hill, crawl into the tunnel. Do you dare to Krawl into the tunnel? KetunKolo (fin. fox hole) where lost wanderers rejuvenate and foxy rituals happen. Strange, mysterious and Konfusing things happen there. What's waiting for you in the hole? Body-positive THE WELLNESS OF FIGGING 12 people Bison - North, grid square O19. The Wellness of Figging is hosted by the Mermaid cave at the beginning of Shameless Boulevard, right between Club SIN and Glittertind. The figging station returns with a new generation of treatment specialists! We've travelled far and wide to build the most holistic figging treatment to date — the most complete ginger-based treatments. Your root chakra will open, your aura will regain its colors. All with a simple insertion of ginger up your asshole. Come experience the most powerful version of the legendary figging treatment yet. Now with moxibustion. Body-positive THE SEA WITCHES LAIR 1 people Bison - North, grid square O19. The Sea Witches Lair can hardly be found by searching. On some rare occasion, in the deepest, darkest corners of the Mermaid cave, you might hear an invitation. It is most assuredly best to heed the call and enter. If the fates so choose, you might be invited to enter the Sea Witches Lair. You never know will you receive an incantation, a curse or a divination, but your destiny will have been irrevocably changed. Also find here: “The witches will sometimes grant boons to allies. It is best not to refuse them. To be safe, do not, under any circumstances, turn away any vaguely goth women in black, but welcome them with hospitality lest you receive an unbreakable curse.” THE RECEPTION 15 people Swamp, grid square S19. Earth Plaza THE RECEPTION is here to grant your deepest desires - provided you can pick out the correct form for that desire. Get your official bubble license. File a noise complaint. Apply for a cleansing ritual. Opening Hours are between now and sometimes during off-world business days. Your number is next. Sober Kid-friendly Also find here: “We will have bubble soap to keep the bubbles alive.” THE GENIE'S LAMP 20-30 people Highlands, grid square N13. The most south eastern parts of the Highlands, in Agrabah Village. The Genie's Lamp is an intimate, sensual oasis, inspired by One Thousand and One Nights—a space designed to feel like stepping inside a genie's lamp. The space will mainly be open during it's scheduled dreams & workshops, but if you drop by you might just get a private tour. Adults only Body-positive Also find here: “A relaxing, sensual resting place.” THE STORYTELLER 1-3 at a time people Find them in the woods.... Some say the Thieves or those who walk the moon know the way. So asking there is a good place to start... Throughout their travels, the Storyteller has gathered innumerable stories about all manner of wondrous things. The only guarantee is that the story you will hear has never been told before and will never be told again. So look out for the Storyteller to hear a unique tale told only for you. THE HEARTSPACE Arctic chill, grid square P07. HEARTSPACE Disconnected and lost in the magic? We welcome you to THE HEARTSPACE – a red portal for souls longing to soften and return Open heart meditation between 9-11 am Sober Kid-friendly Body-positive Pet-friendly TEMPLE OF SOUND 40 people Eastern Slope, grid square V18. Welcome once again to the Temple of Sound Enter an ancient world of healing sounds and powerful vibrations to alter your state of consciousness and Awaken A sacred space for breathework, sound healing and medicine music. Adults only WHITE RABBIT TEA HUT 8 people Bison - South, grid square Q23. Follow the white rabbit Tiny camp offering some nice teas prepared in gong fu cha style: open only when announced. Sober Also find here: “First aid.” WORKSHOPS/CLASSES ALICE THE MALICE IN WONDERLAND Wedge, grid square R20. Somewhere between logic and nonsense, lays the wonderland of Alice the malice. Shenanigans will happen everyday at 15:00 from Monday to Friday: Hat pimping workshop, fuzzy story reading time, our nutritious mad hatter tea party and other elusive surprises We're all mad here, so shall we? Kid-friendly Body-positive Pet-friendly REVERSE PICK-POCKETING 22 people Highlands, grid square N11. Bedouin Tent communal space in the middle of the Cheeky Butt Chill Camp Slip into the role of an undercover gifter! Learn to discreetly place small gifts on people — without them noticing — through three stages of reverse pick-pocketing, distraction and body movement. Hands-on pair practice, lots of laughter. Wear something with accessible pockets (hoodie, cargo pants). No experience needed — just curiosity and respect. You said: Looking for that perfect accessory to take your Borderling Ensemble for the evening to the next level? Kid-friendly Body-positive Also find here: “The Reverse Pick-Pocketing Workshop will take place at a fixed location in an open tent in our camp and is designed to integrate harmoniously with its surroundings. The experience is interactive. The sound level is rather low. Laughter will be the loudest.” CHATEAU VADEAU 40 people Lowlands, grid square U13. A tiny château where curiosity is always on tap. Hidden between noble ambitions and terrible decisions, Château Vadeau welcomes wanderers, weirdos, artists and accidental aristocrats. By day we craft strange symbols and leave our marks on each other; by afternoon the courtyard becomes Tacos & Techno — sizzling food, cold craft beer, infectious beats. Come for a tattoo. Stay for a taco. Or drop by for whatever unexpected magic happens when good people gather. KISHMASTLE SPACESTATION 400 people Muumin Valley, grid square F10. From Sanctuary- follow the forest path toward the valley. Where the forest meets the valley, take a left and enter the gate of Alvheim, cross the bridge on your right and enter the spacestation (or look for a big ass spaceship and listen for banging music) The Kishmastlers have travelled space and collected music from all over the universe! Every day represents the sound and theme of a different planet. During daytime we have invited Bordelings to hold space (pun intended) gifting workshops, sound journeys and shenanigans. Wednesday is daytime party! Bring your quirkiest look (Ducks prioritized) Sensory content Also find here: “We have a bar open some nights serving juicy stuff!”  91 | WORKSHOPS/CLASSES THE FUCKERY Swamp, grid square R17. Go to the empty dark field and look for the fuck-off \"Fuckery\"sign in the Swamp across the ditch The Fuckery: Borderland's most unapologetic and sexiest camp cum community. Not a tantra workshop, BDSM playparty, swingers get-together or burner rave — we bring worlds together, with hosts like your nosy grandmother if she was also your fuckbuddy. Mindblowing workshops, hair- fucking PlayNights, and performances that leave you whispering \"Fuck Yeah!\" Adults only Body-positive Sex positive Sensory content Also find here: “We do sex. But we are not a passive PlaySpace. If you visit us you are part of the experience of others - so think through what you want to gift not only what you want. We take extra good care of Rookies and beginners in S+ spaces but you need to be brave.” TEA BY THE SEA 40 people Bison - South, grid square Q23. The red tent, on the hill, in the sunset. The legendary sanctuary for your senses returns, serving weird and wonderful teas in a weird and wonderful way! We, a talented gang of misfits, invite you for tea and ceremonial happy hours. Step into our famous red tent, where time slows down — world-class teas, creative workshops, live music, DJ sets and a cozy fireplace. A welcoming space for deep conversations, unexpected art, and magical moments. Kid-friendly Also find here: “Sunsets, world class tea, cozy vibes, and a fireplace to gather around.” SILLY STUDIOS 4 people Bison - North, grid square N19. In Jam Camp Come in, tell me a story, we will turn it into a song and record it. In max 30 min. Quality may vary. LOVELIES 20 people Arctic chill, grid square M05. Just lovely :) DEN OF THE GOLDEN FOXES 35 people grid square Q23. Enter by the treehouse We invite to playful, consent-based intimacy in a magical fox den where we explore presence, curiosity, and transformation by roleplaying the golden foxes. Body-positive Sex positive THE POLLUTION PIXIE 5 at a time people Swamp, grid square S17. Find me on the playa by following the sprout hair clips or come to my home at the Fire Brigade Why do we not burn treated wood? Why is eco-friendly soap and sunscreen important? Why can I not wear my pretty glitter? Peeing in the bush is fine, right? Take a short quiz about how the products and chemicals we use at Borderland affect organisms in the environment and get a cute prize! Kid-friendly HYPNOTIC HANDCRAFT 10 people Lowlands, grid square T13. Drop by and get swept into the mesmerising world of crochet and handcraft! No prior experience needed — just curiosity. We provide all materials. Come overflowing with ideas, or completely blank, and leave with a small handmade memory to carry through the week. Wednesday, 12.30-16.30 Sober Pet-friendly SECRET GARDEN 50 people Downtown, grid square M21. The Garden offers a place to slow down, land and reconnect — with yourself, with others, with nature and with what is actually here. We offer events focused on presence and connection incl. daily circling sessions, serve pancakes and invite you to come and spend time with the garden and gardeners. Also find here: “We have room in our workshop programme and have a 17m diameter WS tent.” CLOUD CARTEL 10 people Highlands, grid square P11. Letting people ride the bunny and unicorn on a a cloud of fluff. ONCE UPON A DREAM 15 people Arctic chill, grid square O07. Look for our sign, and a big beautiful beige canvas tent with fairy lights A place to return to when your inner child longs to be comforted and norished. Let us read you bed time stories, sing you lullabies & serve you blueberry tea. Look for our stuff in the guide, but more than that: look for our pop up schedule and signs in the arctic chill <3 Kid-friendly TANTRIC TROLLS 50 people Highlands, grid square N11. Penta Plaza in the Highlands The Tantric Trolls invite you into a space where connection becomes something you can feel in the body — a glance, a breath, a boundary, a yes, a no. Through embodied rituals and guided workshops, we practice listening to desire without losing ourselves, expressing truth with clarity and respect, and discovering the tenderness that emerges when people dare to be real together. A place for courage, softness, consent and intimacy. Adults only Body-positive THE VANILLA KNOT CLUB Downtown, grid square K19. Big barn, 1st floor, next to Lucifer's Pit (the silo). We will go through some basic rope and knots skills that will help you and your camp through the next days. Beginner to advanced. No skills needed. BYOR (bring your own rope - if you have one) Disclaimer: We will only tie on non-living things. If you want to tie humans/lovers together, this is not the workshop you are looking for. Sober Kid-friendly Pet-friendly WEIRD SHIT/OTHER ELECTRICAL (DIZZZ)AGREEMENT 2 people, face to face people Forest Cave, grid square L22. A pimped up table in front of the cheeky badgers tavern Take a seat at our buzzing table! Read the cards, find a topic, and let the (literal) sparks fly. The rules are simple: Both of you will attach a small electrode to your body before the discussion begins. If your friend talks bullshit, send them a shocking present, and see how much you really have in common. Sensory content END OF THE BLOCK BOUTIQUE a dozen or more people Swamp, grid square U16. Walk to where the Swamp, The Missing Piece and the Lowlands meet. Looking for the perfect accessory to take your Borderling Ensemble to the next level? Head to the End of the Block Boutique — open Monday– Saturday, 10–12. An assortment of curated jewelry and accessories, possibly one made just for you. Plus Tania's world-famous penis cardigans (now in various sizes…). Self-serve, 1 item per person per day to spread the love. New baubles daily until we run out! Kid-friendly 92 | WEIRD SHIT/OTHER BOOTHY CALL 2 at a time people Lowlands, grid square Q10. The phoniest booths at the playa We're bringing back the analog thrill of the phone call! Hidden on the Playa are two phone booths decked like your wildest 90s fever dream. The only rule: pick up when it rings. High-stakes social roulette — a spontaneous blind date, a grilling from a Smålandstidningen \"reporter\", or a debate about why horses aren't real. No DMs, no ghosting. Your boothy call is waiting! Sober Kid-friendly Pet-friendly B.L.U.E BUREAU OF LOGICAL UNIVERSAL ENQUIRIES 25 people Highlands, grid square N09. We have a dome with a white tarp, it is close to the \"street\" and blue signs all around. Unlicensed detectives solving any case badly. Join our questionable academy for absurd workshops, blue chai, snacks and the art of professional confusion. Collect your detective ID card at our camp, earn detective ranks and look incredibly professional until you accidentally solve a case. Also find here: “we are really open to help with any case, we have a water trolley aswell” THE WING WOMEN SERVICES We'll be all over the place!. We will be wearing green, brown and purple outfits. And wings of course! Need a partner for a workshop or someone to go on a date with? The Wing Women are here to make that awkward first move for you! We’ll help you find your festival crush or deliver your yearning message across the plains. Sometimes the most radical thing to do is outsource the flirting to the pros! LASER BUTTPLUG GAMES - BORDERLAND CUP 400 people Downtown, grid square M19. Plutonia Simple rules. Complex strategy. Infinite chaos. And one very personal piece of equipment. Welcome to the sport you never knew you needed. - open for visitors all the time Adults only Body-positive Sex positive Sensory content THE LOST COCKS RESORT 30 people Bison - North, grid square O19. We are a bit lost, trying to find out where we are. Feeling lost? Excellent! That means you're exactly where you need to be. Stop by the Lost Reception for directions, answers, or a little moral support. Our receptionist is also on a thrilling quest to figure out where everything is. She'll do her best to help you - but there's a chance you'll end up even more lost! SILLY SANCTUARY Swamp, grid square S20. We aim to be a kinder garden for \"grown ups\" but since our space is created by the same people who need a kinder garden, who knows what will emerge. Swing by and be silly with us and join our workshops! Sensory content Also find here: “We invite you to our Chilly Living Room and Silly Adult Playground, and anything we feel up for sharing and gifting <3 Though we do no commitment of offerings or services, since we will be ridiculously busy with chillying and sillying around :D We might be home. Or not :)” SPECIAL SHOWER 5 people Sunny Hills, grid square H19 For one hour only! Special shower will be offering the most unique of experiences. We will gather and store the graywater from the Hot sauna and you get to use it as shower water. Never before has it been possible to take a shower with the ass sweat of thousands of hippies. First come first served! Adults only Sensory content ABSOLUTE NONSENSE Downtown, grid square M20 Luxury Spa Experience - Absolut Nonsense is an immersive art piece disguised as a luxury spa. We are creating a sensory illusion: a 100% dry “hot tub” where participants can enjoy the psychological benefits of a good soak, social bonding, and relaxation without a single drop of water. PAMPERING/CARE/SUPPORT MAKE YOUR BORDERLAND DREAM HAPPEN… BEFORE IT ACTUALLY HAPPENS!! 40 people Arctic chill, grid square P07. Red hearttent - ofc What is your wildest longing for this year's BL? Meet the love of your life? Eye-gaze with a cat? Why wait — come cheat Miss Reality! We circle up, you share a Borderland-wish, and together we bring it to life through spontaneous roleplay and collective imagination. No acting skills needed — just curiosity. Note: not a nudity/sex-positive space; all desires welcome, fully clothed. Also find here: “Free hugs” PERIOD PALACE 1 people Highlands, grid square N11. Find the palace along the road connecting the Bait Al Noor plaza to the Penta Plaza, in Highlands. A great place to change your tampon! Take what you need, use the space if you want, bring your moop with you when you go. All who bleed are welcome. CAMP BODY ART 1 million people Sunny Hills, grid square G20. Go to the big lake to swim. There will be a platform below camp bunny horse bar. The board will be there A sign for writing your desires out loud. Make an offer, or ask for one. A massage, a poem, a a kiss. Name a time and meet right here (or elsewhere if it rains). Then show up and wait staying present. Feel the butterflies not knowing who shows up. Maybe a knight in shining armor, maybe an experience speaking your truth and staying with it, or an occasion to hold your boundaries. Analog only. No phones. Body-positive BUZZCUTS & COFFEE @ BLACKWATER OPERATIONS 3 people Swamp, grid square Q18. Look for the glorious American flag flying above The Green Zone. That's Blackwater Operations. Find Dr. Bill-Bull and sit down. Sit down, get a buzzcut, and leave with a coffee and a war story. No appointment needed. No regrets guaranteed. Open when we feel like it. Swing by The Green Zone and see if the barber is in. THE OUTDOOR SPA 4-7 per hour people Sunny Hills, grid square G22. The Sunny Hills, just next to the dock by the lake. Hot tubs by the lake! Operating hours monday - thursday 21-00 (ish!) till 00.00 (ish!) Kid-friendly Body-positive Pet-friendly Also find here: “The tubs are there, the water cauldron is there, so is someone wants a hot tub during the night or any time of the day, feel free to make yourself one!” KIDSVILLE Lowlands, grid square P09. Find us in the tent Only at the times announced Sober Kid-friendly WORKSHOP/CLASS  93 | PAMPERING/CARE/SUPPORT THE CHILLDOME 20-50 people Highlands, grid square M11. Big dome on the Penta Plaza. One moment you’re surviving Borderland. The next you’re horizontal. Welcome to Chilldome, where pillows, blankets, beautiful lights, and a cozy atmosphere await. Stay for a moment, or until you forget why you came. CUDDLE CLOUD Wedge, grid square R21 Warm and cozy 7 m diameter bell tent for workshops at day and deep talk at night. YGGDRASIL Highlands, grid square O10 Yggdrasil we have a tipi and welcome you to host workshops in it. BEAVER ISSUES Arctic chill, grid square P07 A cosy camp of Beavers offering beavery things, like cucumbers for your sauna eyes and pickles for your soul. We will have a 75m2 strech tent for hanging out and also workshops / public offerings. TIPI WORKSHOPAREA - RITUALS & RIDICULES Arctic chill, grid square M04 This tipi tent will offer many different workshops including AA-meetings, ACA mettings and other workshops MOVEMENT THE FIRE BRIGADE 70 people Swamp, grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet area opposite the large tent of CIRCUS the ANALOG. Come during the day to practice poi, staff and other flow arts. We offer various workshops, but drop by anytime and if you're lucky, someone is around to teach you. Come at night and be awed by mesmerizing fire dancers, or take your own props out for a burn (nightly safety training required!). Body-positive Sensory content Also find here: “Knife Sharpening Bring you blunt knives and blades and we’ll sharpen them with a high quality DMT Diafold sharpener. Ask for Soof at the Fire Brigade (in the Swamp, opposite the tent of CIRCUS the ANALOG).” PARTY/GATHERING GLITTERTIND 100 people Bison - North, grid square O20. Shameless plaza next to sinnergirl Deep within Glittertind, the Mountain King welcomes trolls, witches, ravers and all wandering creatures. Dovregubbens Hall: trolls stomp, goblins twerk, basslines ring — later, workshops and rituals. Trolltunga: a velvet yurt where philosophy and pleasure share the same breath. Bifröst: sound baths, ritual nonsense, mossy rugs. Leave stranger than you found it. Adults only Sex positive Queer-inclusive HOUSE OF SIN 40 people Bison - North, grid square N19. By the Shameless Plaza House of SIN is Club SIN’s 12x6m playground for sensual, kinky, sexual, silly, and sinful exploration. By day: workshops, rituals, games, slothing, and temptations. By night: sex+ afterparties. Step in, consent, and sin with us day and night... Adults only T H E M O O N - HYPERSTITION Muumin Valley, grid square G09 HYPERSTITION is going to the MOON and we are not coming back. 2026 is the final year for HYPERSTITION at Borderland. We are stepping up to take on the Valley (the legendary Muumima spot), more than doubling our size, light and sound. The Moon Dome is part of the Hyperstition dream universe, which also include the Black Box and Chrome Room. PINK PARACHUTE & VELVET LOUNGE + PP KITCHEN Lowlands, grid square P13 Queer-focused and inclusive events Pink Parachute: Day Parties, workshops, weird happenings. Velvet Lounge: a cozy place for uncanny relaxation COSMIC CLOUD OFFERING AND CAMP Bison - North, grid square O22 Tuesday- Saturday: Cosmic cloud Café Tuesday: Cosmic Fungal Frequencies sound journey Thursday: Cosmic Day Party RA CAMPING Bison - North, grid square O21 We are Sound Camp RA and will host a \" closing build week party\" on Monday. We obey the sun god RA and his fight during the night so we all get to have a new morning sunrise. We play weird ravy shit. LISBOETTA Bison - South, grid square O23 Bringing some southern European vibes. Offering light music and other interactive offerings. OCCULT OASIS POOL PARTIES Sunny Hills, grid square H22 The horizon is shimmering, the water is calling, and the blue burner creatures are stirring once more. Welcome back to the Occult Oasis. This year, we’ve distilled our dreams into two distinct, immersive day-party voyages. THE PSYCAMP grid square T28 Your new favorite dancefloor! Tired of boring repetetive techno? Need a place where you can truly move to the beats? A place to truly dance, be wild & free THE MOTHERSHIP Downtown, grid square L18 As S.O.U.N..D. map instructs, as partly funded provides and as possible to fulfill. Speakers directed SW and whole containerpark as an activity area 94 | WORKSHOP/CLASS BALLROOM BLISS Lowlands, grid square Q10 Ballroom Bliss – Disco with love! Wed - Fri 12–15, we're here spinning pure grooves next to our tipi. The free zone for all open-minded disco loving heartbreakers. Tiny dancefloor, ice-cold slushies, real vibes. No sad faces, no negativity. Not a large camp, two freecampers creating a social space! DANCING SLOTHS Swamp, grid square T17 A gathering of soft explorers, building a safe space to take off and land. Day time music when suitable. Ground for spontaneous offerings, come gather with us! PSY Lowlands, grid square S12 A fun happy camp loving psytrance! LES FLEURS Swamp, grid square Q19 Chill music open format and good conversations hangout. Disco, Boogie, Rare Groove, Brazilian Grooves, Reggae & Dancehall. Late night-Vocal, soulful, garage, deep, disco, HOUSE. DISCO BALL grid square J11 We will put a big spinning disco ball here and play the song Like and Eagle with Dennis Parker on repeat the entire week. LOUDLY! GAMES/PLAY CLUB SIN 300 people Bison - North, grid square N19. By shameless plaza, next to 6m tall Sinnergirl. Born at Borderland, Club SIN fuses the hedonistic spirit of a nightclub with the co-creative energy of the Burner community. Expect casino games with a twist, a dance floor pulsing with sweaty disco and house beats, juicy workshops, and a bar serving deliciously wicked treats. But nothing is free at Club SIN: to play blackjack, poker or roulette, or order from our Menu of Treats, you'll need SINcoins — earned by committing playful sins or accepting delightful punishments. Adults only CASINO 40 people Bison - North, grid square N19. By the Shameless Plaza CaSINo is Club SIN’s twisted casino, where sincoins, shame, dignity, luck, and temptation are all on the table. Play sinful casino games; blackjack, poker, and roulette, win juicy treats, accept delicious punishments, and gamble your comfort zone away. Come place your bet, commit your sins, and lose yourself with us tonight at caSINo... Adults only HOLY SHIT! Highlands, grid square N10 A sacred rest stop for the curious, the contemplative, and the urgently inspired. Help yourself to something from the jars. Flip a card. Make a confession. Get questions answered about the backdoor play. No queue. Just you, questionable snacks, and the quiet wisdom that has always lived deep inside. WATER SLIDES Sunny Hills, grid square H19 We will have a day of racing and betting on the water slides! They will probably stay there for a couple more days as well. People have to rinse off in the shower before bathing BRANDENBURNERS Arctic chill, grid square N05 Small intentional community of hippies that used to chase the dream of having a fulfilling life in The Borderland. However, rising rents and gentrification pushed us to rethink our priorities and move to the countryside uhm Artic zone. Planned public offerings: - Popcorn station - Noseflute gifting TEENTOWN Arctic chill, grid square L05 Teentown is the meeting place for burner teens. CAMP PUSSY JUICE Swamp, grid square T19 A playful, juicy oasis of sparkle and chaotic kitten energy at Borderland. THE GHOST TRAIN grid square V14 It's Pac-Man/Spank-Man chased by two Ghosts. This will a complete stage with beautiful lights and super tunes to Dance all night long! JELLY STABLE Sunny Hills, grid square G19 A noble makers spot for mega creatures and lost creators. Mega Mårran is brought to life from fabric, helium and a touch of Newton. True chemistry, pure physics, real magic. At dawn, sun-phobic Jelly finds shelter in the Jelly stable. Stick for corny pop, salt sprinkles, watermelon and mellow minds. MADAME DUPHOUSSE & MONSIEUR GOUSSILIEUX Swamp, grid square Q18 Enter the respected Goussilie/Duphousse salon-masters of dramatic card divination and unlicensed spiritual guidance. With an ancient and somewhat questionable deck of cards, they will uncover fate and expose terrible decisions. Expect prophecies, accusations, emotional damage, and occasional wisdom. BORDERLAN 2.002 The Villa, grid square K14 BorderLAN takes place in the earth cellar by the red villa/Dreamers Maze. It's a 4-person \"LAN\" with a host, offering food, snacks and drinks over a 45 minute audiovisual and immersive gaming session. Outside of the booking slots, the space is open to anyone for play. THE OBSERVATORY - THE DROP - CHILL OUT SPACE Swamp, grid square Q19 Temple forest consciousness lab for all sorts of fun experiments of body and mind. AND Inclusive chill space (we accept all orientations: standing, sitting, laying, etc) SS-OP Eastern Slope, grid square V20 Welcome to the Safari Sightseeing Observation Post! Come and join the high ground, sit down and have a cigar. Lets observe the common people on the lowlands through our binoculars and have a colonial conversation. TRANSFORMATION OFFICE Wedge, grid square R22 Transformation office aids you with your transformation, big or small. GLITTERING GOLD & TRINKETS Highlands, grid square O10 Lost in the dust and blinded by the noon sun? Follow the shimmer to Glittering Gold & Trinkets. We are a sensory oasis of shiny things, clinking treasures, and open hearts. Step inside our gilded canopy to trade a story for a charm, lounge on plush carpets, or find that perfect piece of playa flair 95 | GAMES/PLAY CAMP NOTHING SUSPICIOUS HERE Highlands, grid square L13 We will be offering a number of things, a spy bar, a bubble trouble experience, some shape shifting shows and so on. This will also be a coy hang out space. QUANTOM CHAOS Wedge, grid square O19 Protein banana pancakes, shamanic face paintings and black holes mindfucks. We create a cozy space with colorful vans, (fake) candles and fairylights. YOGA/MOVEMENT/BODYWORK DANSING 200 people Bison - North, grid square N19. By the Shameless Plaza DanSINg is Club SIN’s covered dance temple, where disco, funk, house, techno, live acts, pole dancers, cages, flames, and sinful bodies meet. Come lose yourself in sweaty joy, silly desire, wicked grooves, and collective delirium, from daytime sparkle to late-night sin, rain or shine under the roof with us! Adults only THE SEALIONS DEN Highlands, grid square M09 Offering calm workshops as talks, breathwork, meditation and movement and a Teastand KRUSTY'S PLAYGROUND Arctic chill, grid square P06 Pool, showers and potentially the bouncing castle. ALIEN EMBASSY Eastern Slope, grid square V18 Those of you who have experienced the Alien Embassy already know us, and this year we are setting up an outpost camp. As all diplomats, we are eager to facilitate earthly relationships and cultural exchange, including The Mars Mellow Café, The Ininite Cuddle Cave, and Earth Alien Movement Training. DUBBLE THE TRUBBEL Swamp, grid square U18 A dreamy camp with focus on sexy playfulness hosting pleasurable embodied workshop, cuddles and love! THE SOURCE Lowlands, grid square S12 Camp and Workshop Tent (40 m²) Beautifully decorated and equipped with comfortable yogamats and flooring. We will offer breathwork sessions, tantric workshops, and more—and we may also be able to host your workshops. ART OF LUST Swamp, grid square R18 Rope play, sex magic, orgasmic breathwork ALIBABA AND THE HOLY TROUBLE NUN Arctic chill, grid square M04 We are a heart-centered, playful, embodied camp, primarily a cozy place for sleeping and landing, but we will also share music, meditation and breathwork as some of our superskills. We will also offer a golf-car to confess sins in. RITUAL/CEREMONY SINSALABIM 15 people Bison - North, grid square N19. By the Shameless Plaza SIN Salabim is Club SIN's exclusive members' lounge, where indulgence meets luxury. Entry has its price, but once inside, every pleasure is free. Relax, indulge, connect and explore—because the richest rewards aren't always made of gold. Adults only WILD SACRED FIRE Swamp, grid square S17 Day and night, the Fire burns bright. There’s always room for more people. We’ll sing together, enjoy each other’s company, and keep warm throughout the night. There’s always room for more people at the Fire, and we have plenty of space for co-creation. TEMPLE OF WE ARE NOT A CULT Lowlands, grid square P13 Temple of We Are Not A Cult - A Temple that in no way resembles that of a cult. SAKRED KINK TEMPLE Swamp, grid square R18 Sober 18+ Sex positive Magic workshops Adults only Sober Sex positive QUESTICLES Highlands, grid square O11 If you play just one quest game at The Borderland, don't play ours! Questicles promises one thing: ours is the worst — frustrating, time- wasting, utterly pointless. No prize. (Okay, a sticker.) A site-wide, multi-day immersive quest / theatre project that reshapes your event. There is a curse on the Borderland. We cast it. Because we don't like you! HUT OF THE BUBBLE WITCH Arctic chill, grid square N07 Formally known as the Bubble Wotch of Citrus Rains, she has now moved to a new neighborhood. Filled with synchronicity, madness and potions. TRANCEDENTAL FOREST TEMPLE grid square X16 Transcendental Forest Temple Dreaming of your perfect hideaway from the hustle-and-bustle of Borderland. THE TRIBE Highlands, grid square N13 tribal jam sessions with singing and percussions intuitive painting tribal dance movement THE SOCIAL EXPERIMENT Bison - North, grid square N19 Offering conversations that transform 96 | YOGA/MOVEMENT/BODYWORK CONFESSION BOOTH Eastern Slope, grid square V19 Come in with a secret, leave lighter FOOD/DRINKS SIN BAR 20 people Bison - North, grid square N19. By the Shameless Plaza Commit wicked sins or accept deserved punishments from our curated menus at SIN Bar, Club SIN's handcrafted wooden haven beside the dancefloor. Earn sincoins, ask nicely, and our SINtenders may reward you with cocktails, non-alcoholic delights, special snacks, and redeeming treats. Sinful tonight? Adults only LOW EFFORT LEFTOVERS Highlands, grid square O12 Come effortlessly in and join us in our lounge. This is a place to just be - while still looking at the vibrant life at BL. Also there is waffles!! ELD&RÖTTER MYSTIC HAMMOCK HAVEN Highlands, grid square O12 Come and hang, literally, in our wodden hammock dome. This year we will add some fire, both literally and figuratively. Grilled cheese sandwiches, for even more chill. LAZY CAMP - PUBLIC OFFERING Bison - North, grid square P22 - Chill area to hang - Low-key bar - Sandwiches, snacks and treats at different time of day or night. SLOTHENHIVE FOOD TENT Lowlands, grid square Q13 Food offering: jizz me up Toast for a toast MACHO KITCHEN Highlands, grid square M12 Art pieces and sausage parties. LUCID STATE Lowlands, grid square U14 Hi! \"The popcorner\" dreamers here :) We have a popcorn wagon that will spontaneously server popcorn. Apart from that our camp has a lot of musicians so expect live music every now and then :) CINEMA PIZZAISO Eastern Slope, grid square W16 20 jolly friends baking pizza for their cinema guests. MELLOWS ON TOUR Eastern Slope, grid square V15 We offer a cozy chill place and some good drinks for any mood. LIVMOR Arctic chill, grid square O06 A welcoming and warm sanctuary centered around a cozy tipi with a wood stove, sheepskins, and hot herbal teas. A perfect spot to escape the cold, relax, and chill out.We live and sleep here,also:) YACHTEES MAGIC OFFERINGS Eastern Slope, grid square V16 Yachtees bring food and magic from far countries. Pop up offerings and events will enrich the neighbourhood with unexpected sweets and treats. A CAMP HAS NO NAME (TRUST IN YOUR DESTINY) Arctic chill, grid square O06 We will hold some workshops e.g. painting with ultrablack paint, waffles, maybe circling and other nice things. THE SERVING CUNTS Lowlands, grid square R11 Soup kitchen were you can come and enjoy our delicious food, we will also have a dining hall were you can sit down and eat in peace. CAMP ROULETTE Arctic chill, grid square L04 What can 2 happy campers offer? A) End of Coffee Bar (matcha, turmeric, cacao, tea) B) Vegan liquorice (sweet and salty) C) Idea Graveyard D) Colourful sunglasses shop ASS2ROID CRASH ZONE Sunny Hills, grid square I22 We're a mining operation on the asteroid known as Korova Rock with a mobile roid bar serving supplements, electrolytes, and also Milk+. Imagine The Fifth Element if Luc Besson had made slightly worse decisions, which would have made it considerably better. WAFFLES Arctic chill, grid square L05 There will be waffles PINK PIANO BAR Lowlands, grid square T14 A Piano, and a Bar, both Pink KV CANTINA Lowlands, grid square P09 Kidsville Cantina... Think pancakes, waffles, grilled cheese... THE CARROT CAMP Bison - South, grid square M23 A friendly gang of carrot lovers - come say hello and eat a carrot! This is both our camp and where we will be offering free carrots and possibly other vegetables for the hungry Borderlanders needing a healthy and tasty snack! WAFFLES OFFERING Eastern Slope, grid square V18 Popup style waffle/muurikka pancake stand, likely on Tuesday, Wednesday and Thursday evenings. LUCKYPOTLICKY Forest Cave, grid square K23 A BYO potluck space for food, treats, ideas and experiences. This is an experimental space where anyone from any corner of the world can bring anything they like to share with likeminded rainbow warriors. If you pass by hungry, you will not leave so. Licking your plate is OK! HEART ELEMENT Wedge, grid square Q20 Protein banana pancakes, open hearted conversations and shamanic face paintings. We create a cozy space with a colorful van with fake candles and fairylights (LNT though). 97 | FOOD/DRINKS PICKLE FAIRY TREAT Eastern Slope, grid square V18 Somewhere between camps, when the music dips and time feels softer… she appears. A small glowing setup — jars, sauces, something sweet, something hot. If you catch her eye: \"Have you been blessed yet?\" One pickle, chosen for you, dressed in honey, heat and a touch of shimmer. Some say it's a snack. Others say it's a moment. Find her if you can — she doesn't stay long. PSYCHAI HQ Eastern Slope, grid square V17 Do you need psytrance with your chai? Do you need some chai with your psytrance? This is where we will be making our mobile PsyChai offering. We fully have our racoon energy ready to help with any other shenanigans, capers and japes that need assistance! Two in a friendly yellow van. MUSIC/PERFORMANCE/SHOW SPACEPORT Dome 100, Plaza 800 people Lowlands, grid square P12. By our pink Temple of We Are Not A Cult Community Space at Borderland, Workshops, Performance, Theatre. Designed by Borderlings, since 2014. Come and hang by the fire. Legendary Thursday Cabaret Nite Queer-inclusive CARE/SUPPORT/PAMPERING ÅNGSTRÖM [Å] Forest Cave, grid square L22 A music stage built on the love for music, light and sound. Step into Ångström and experience ambient journeys and live performances. Here, every frequency is felt, every beam of light is shaped, and every moment invites you to slow down, drift, and connect. One Ångström is the wavelength scale of visible light — a small promise to treat sound and light with the precision they deserve. SAUNA CARAVAN DREAM + LOUNGE Arctic chill, grid square P06 Cute little sauna plus lounge with hammock and sunbathing beds, plus space for clothes CLOWN POLICE HQ Sunny Hills, grid square J20 HQ is the small red wooden house behind the barn, by the water station — home of the Clown Police and Helm. At least one Clown is always here, day and night, also on radio. Your first point of contact for anything that isn't a medical emergency. Friendly, sober Borderlings — not rangers, just participants with hugs, answers, and direct access to emergency services. MORTYCAVE Highlands, grid square N09 After the perfect and long party, you need a smooth transition to calm down, laugh and love and talk about your experiences to some chill music and maybe a last bit of magic to last. This is the MortyCave concept. We create the most soothing surroundings to let go of your night and go to bed. SKY IS THE ROOF Eastern Slope, grid square V15 Our mostly Finnish camp has a large(!) communal hangout tent with comfy stuff and star projector for all SACRED RESET Highlands, grid square N10 Offering a simple reset with sacred plants (hapé, sananga etc.) & 1:1 meditation/spaceholding. CAMP HOLY MESS Arctic chill, grid square O07 Camp Holy Mess is a cozy, heart-centered Borderland camp focused on connection, playfulness, creativity, and deep presence. We value authentic relating, shared responsibility, softness, spontaneity, and collective magic. Expect lakeside hangs, nourishing food, silly moments, meaningful conversations PONYCORNLAND Swamp, grid square U18 A veterinary clinic to check the health of borderlings animals. FOYAÉ VILLA HUTLÖS Eastern Slope, grid square V17 Chill camp with old friends, new friends and good vibes. We offer a no bullshit peaceful villa where you can relax, connect and have good conversations. Come by if you seek a small break from all the chaos in town- there might even be some tea, tarot, soundhealing or massage in it for you ;) APORIA Bison - South, grid square O23 Offering introspection and exploration. Possibly a smaller outdoor gym. MISSION-IMPOSSIBLE FIREPIT Highlands, grid square M11 A firepit to chill around in the cold nights SOUTH BISON'S SEXY PYTHONS Bison - South, grid square P25 Slippery crawlers of the south Bison fields. Find us on a sunny rock. Shedding skin is the new fab. Welcome to Sssssouth Bison'ssss Sssssexy Pythonssss Previously hidden behind the innocent name of \"Frisky's Fish Pond,\" they were actually deadly pythons all along. CAMP YES Eastern Slope, grid square W16 Ice pops, support talks, daytime hangs, music, shade, dancing and somewhere in the middle of it all: a proper wedding. Come by if you need something cold, warm, or simply a place to exist TIPI FOR WORKSHOP FOR CAMP ALL SENSES NO SENSE Eastern Slope, grid square W16 Tipi for AA meetings and Sensual Workshops ANTRA.WORLD Swamp, grid square T18 Cuddles & Jazz The Antra.world camp is back to bring a cozy cuddlespace and soothing, smooth Jazz concerts for all the beautiful borderlings to come and relax, hang out, cuddle and land. The camp members will also have their tents here as their dedicated sleeping area. 98 | MUSIC/PERFORMANCE/SHOW CASA AMOR Eastern Slope, grid square W17 A camp who believe deeply in openness, softness, connection, and community. At the heart of our camp is a shared tipi — a home where the door is always open Offering a (moving) throne of appreciation, with care, and nurturing for tired hippies, around Borderland. PORTAL OF RECONNECTION Forest Cave, grid square J23 This will be a portal for people to connect to themselves and to the land amidst the chaos of the borderland PIECE OF LOVE Eastern Slope, grid square U21 Panncaces and massage. Chill vibes and low key music THE OASIS Arctic chill, grid square M07 Come by for a ceremonial grade cacao, a hang-out, sit-down or workshop in our wonderful tipi. SECRET SPOT Highlands, grid square L10 4 happy campers offering Concious Cosmetics testing, relaxing kundalini massages, and soulful private partner dance classes. ART/INSTALLATION EROTIC OSCILLATIONS Forest Cave, grid square K22 The 'Moaning Swings' art installation. THE GERMS Arctic chill, grid square N06 A gaggle of germs bringing interactive art installations, workshops, big laughs and chill vibes. FLOATING SWING Lowlands, grid square Q11 Somewhere between a playground and a daydream, this kinetic sculpture invites you to sit, sway… and maybe forget gravity for a while. Designed for 1–3 people, it takes the familiar language of a swing and teaches it to grow wings. Above, vast translucent sails — part butterfly, part underwater creature, part cosmos dancer — stretch nearly three meters wide, their burgundy organza shimmering with violet reflections. THE SEAGULLS NEST Highlands, grid square O11 Radical self-entertainment, tiny art, and shade. Connected to dream-area across the fire road. Squak. BIRDS WITH A VIEW (SEAGULLS) Highlands, grid square O11 A lighthouse to guide you safely home to harbour. A place to hang out & experience the view of the chaos below. Tiny art & big birds. The period palace. ARTISTNEST F33 Downtown, grid square M21 F33 project. A human-sized bird’s nest floating in the meadow. Climb in, steal inspiration, leave a sketch, and fly off with something new. THE SEC ND SUNSET grid square F23 A hydrogen balloon burns above the lake. Fire arrow, cello, a 4-metre spherical burn. A woof, not a bang. A second sunset. THEROAMINGSNAIL Lowlands, grid square P12 Royal Snail is on the move! Introducing...the Roaming Snail. Funky sounds, ridiculous shenanigans, slory holes, rum shots: all in a slow, snaily art carriage. This is an art car, but we will probably also have some little events at our public facing offering. TRAMSBULANS Highlands, grid square O09 Artcar camp with a \"busstop\" and a living room, our dreams is a tram that takes people around BL to pre set stops, for public offering we have a livingroom/lounge, and a \"start station\" for our tram(sbulance). SECRET SAILORS Lowlands, grid square R12 A workshop tent, art car, and confession booth. Offering speed dating and breakfast, daytime workshops ISHARA, DEITY OF THE BINDING OATH Highlands, grid square N08 Ishara is a camp organzied around our scorpion shaped art car, which is both a light art piece at night and a DJ sound stage (with its own sound system onboard). We also offer a cozy tipi for anyone looking for a rain shelter, or a place to chill, play games and connect. CHROMA SYNESTHESIA grid square K12 Cro-sy returns — bigger, stranger, and more inviting than before. Building on the audio-visual light installation that delighted audiences at the Borderland 2025, this second edition transforms into a full sculpture garden to wander through: a curated landscape of works past and present, all woven together by color, sound, motion and interactivity. WILLY WONKA Arctic chill, grid square L08 Come to explore trippy sculptures. THE EGGZISTENCE Sunny Hills, grid square H21 The EGGzistence art installation represents the legend about the creation of the world. It is believed that Perkūnas or Thunderer (Thor) – the god of thunder and lightning in Baltic mythology, created the world by laying an egg, from which fire was born and that is how life in the world was created. DREAMER´S MAZE The Villa, old building Dreamer´s Maze is an immersive interactive art experience, located in the Villa: 3 floors, 15+ rooms designed by different artists, connected by secret passages 99 | ART/INSTALLATION TRANSCENDENTAL FOREST TEMPLE Eastern Slope, grid square X16 Transcendental Forest Temple Your perfect hideaway from the hustle- and-bustle of Borderland. Deep in the trees, something is glowing Part art. Part altar. All playground for the soul. A space to wander, rest, create… or completely lose track of time. Come alone for deep reflection, or melt into the moment with someone you love. Follow the lights, leave an offering, lie back, look up, and let yourself drift ECHOES OF ALVERSJÖ First floor of the Barn Echoes of Alversjö is an interactive soundmap of Borderland. Borderlings will be able to interact with the installation to hear sounds from the Borderland. When they move their hands in front of the map, it will play sounds corresponding to the area their hands are. This allows them to go on a sound-journey through Borderland, or to create their very own soundscape. SECRET SAILORS LOVE BOAT HARBOUR Bison - South, grid square P24 The art car Secret Sailors love boat will find its mooring there different times during the week and offer singing, cruising, a bar and other fun. Also part of the harbour is the sister artcar of Circus Max. MIKE MOE MONEY: RECOMMODIFY THE BORDERLAND Highlands, grid square O12 Satirical ever-changing art project and info-zone, highlighting the creeping commodification of the Borderland. Want to own your very own Mike Moe Money advertising board? Get rich selling ad space! NATTFJÄRILAR Swamp, grid square R19 Art, Dance, Bar and daytime fun. supplied by dagsländor THE ENLIGHTENED AND ERECTED SEXTANT grid square O13 Just a Lighthouse. It's very lit. PIANO IN THE FOREST grid square I12 Last years piano on the path to Muumimaa was appreciated by many. Borderland has unsurprisingly many piano players! FLYING VAN Arctic chill, grid square O07 We are a small group of storytellers with a flying van that will glow at night and will allow you to fly during the day THE PIT grid square H17 The Pit is a sound experience during the night, taking place at a given moment announced later. The place is empty during daytime. G STRING Swamp, grid square S17, Fire Plaza in front of Circus the Analogue A piece of string and some blinky lights. Black Rock City's most fashionable art installation. Simply place G String on your head and enjoy a 2 minute mind blowing experience. This installation's evolution was guided by the 10+ Principles and exhibits them all simultaneously. Thanks Fund33 KAGORA Forest Cave, grid square K22. An 9m wide cozy, glowing sanctuary of spatial weaving with over 1km of programmable LEDs. Inspired by Japanese structural basketry (Kago) THE SUN Sunny Hills, grid square I21. The Sun is an immersive wooden space crowned by a glowing sphere — a symbolic sun suspended above. At its heart hangs a fire-place that welcomes and warms everyone. We see The Sun as a light and soft space, away from intensity, to be with others or with oneself, to soften and drop into presence. There’s a strong sense of light and illumination, in the structural and light elements of its design as much as in the philosophy of the piece. May the Sun support whatever needs to come to light and come to life there. Ultimately, this space is a celebration of light. TREE OF LIGHT Swamp, grid square S17 It a interactive tree lighted by beautiful leds THE HUMBLE FISH GOES TO ATLANTIS grid square J12 Relaxed, immersive art installation where burners can gather beneath glowing fish, jellyfish, and soft underwater lights. Audio-reactive sculptures drift overhead as slow bass, bubbling textures, and distant chimes surround the forest. Co-created with kids from Kidsville. SPARKLING FOREST grid square J11 come play the piano and find out just how much it sparkles in the forest. or maybe it’ll attract the fae… take a chance and find out we have a specific ditch in mond and will use that, but for the sake of finding that god forsaken ditch, we’re reserving more area. contact us if you need! THE OCTOPUS OF YOUR MOTHER grid square S21 Chill space which adores octopuses and cats THE VOID Forest Cave, grid square J23 Infinite Hippy Trap! Step inside The Void — a shimmering silver cube that seems to have slipped through a crack in reality and landed at The Borderlands. Built from reclaimed materials and fresh from Burning Nest and Nowhere, The Void returns bigger, bolder, and more mesmerising than ever. Whether you’re seeking a moment of calm, a spark of wonder, or a full-on mind-bending experience, The Void invites you to step inside… although you might find more than you bargained for within! THE DROP Forest Cave, grid square J23 The Drop is a giant shiny suspended sculpture that looks like it's about to descend from space into the Alversjö playground — and when burners turn the lever, it sounds like it too. By day it gleams like an oil drop, futuristic and surreal; by night, silver/blue lighting gives it a water-like halo — mystical, hopeful, earthly and alien all at once. Switch the lights to yellow and red, and it becomes a burning flame. THE LISTENING FOREST grid square H12 The Listening Forest is a place for sound installations and other listening experiences. THE TEMPLE OF DIGITAL OBLIVION Forest Cave, grid square L22 The Temple of Digital Oblivion is a place to let go of your digital memories. You discover a shrine in the forest. You choose a picture and upload it to the installation (thanks to an app that you can pre-download or get on site via wifi). The picture is projected onto a wall of mist and once it dissolves, the photo gets deleted on your phone This installation is very likely to move somewhere totally elsewhere 100 | ART/INSTALLATION ALMOST-A-BRIDGE Forest Cave, grid square J22 Almost a bridge. Almost connecting till Hills and the temple area. Not for human consumption REMEMBER THE REMNANTS Arctic chill, grid square M07 Did you know that not EVERYBODY will go to Borderland? That's right, 99% of people are left behind! We're here to serve as living reminders, and you can too! WYSIWYG Missing Piece, grid square O17 A telescope with headphones, overlooking Borderland. WEIRD SHIT/OTHER EMERGENT LOBSTERS Highlands, grid square N09 You know that thing lobsters do when they need to grow? They crawl into a little cave, rip off their entire shell, and sit there naked and vulnerable until a new one forms. Then they emerge bigger, stronger, and probably a little embarrassed. Come grow in our weird workshop cave. CAMPGLAMPS ARTCARGARAGE Bison - South, grid square N22 Formerly aNGRY oLD mEN art car garage - Redneck mechanic campsite BLUE SWALLOW Swamp, grid square T18 Swallow Express Taxi service BJÖRD BRAINWORK BUREAU Lowlands, grid square Q10 Björd Brainwork Bureau is a small blue camouflaged office at the edge of certainty that accepts all cases, especially those that cannot be explained. Something is being prepared or perhaps quietly misplaced. No one knows. You are welcome, particularly if you have no appointment. GOSSIP GAZETTE HEADQUARTER Downtown, grid square K19 An office where we write, edit and print our nnewspaper DEPARTMENT OF MUDDY VEHICLES Power Hill, grid square K20 DMV Garage. This is where Muddy Vehicles gets inspected and fixed BALDURS ROTATING SEESAW Lowlands, grid square P13 BIG rotating seesaw CRAFTING/PIMPING/ARTING THE EMBER & THE EARTH Sunny Hills, grid square G21 Ceramic alchemy at the Amber Burn. A sanctuary of clay and a ritual of fire. Transform raw earth into rainbow or structural glaze art through the magic of Raku. MORNING PASTE SOCIETY Eastern Slope, grid square U21 Cosy little camp of friends offering toothpaste testing mornings (at 11 each day). Will also be making suncatchers and crepes for wandering souls needing a rest. PIMP YOUR NAILS Bison - North, grid square O20 Everything you need to get your nails burn-ready is right here. Grab a polish, get creative, and do it yourself whenever you want! JAVA THE HUT Highlands, grid square M09 Enjoy Borderland's best thrift shop! And Java the Hut's camping grounds. THE FUZZY CREATURES Eastern Slope, grid square V17 We are a small camp from Belgium who will offer some chill arts and crafts on a mobile chariot. We will go around the playa with our cart to make fuzzy monster creatures. Watch out, they can bite :). 101 | WEIRD SHIT/OTHER",
       "source": {

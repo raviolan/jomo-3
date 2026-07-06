@@ -32,11 +32,23 @@ const tags = [
   "Triggering themes"
 ];
 
+const tagAliases = {
+  "Adults only": ["Adult only", "Adults"],
+  "Queer-inclusive": ["Queer inclusive", "Queer-focused", "Queer focused"],
+  "Sensory content": ["Sensory", "Sensory warning", "Sensory warnings"],
+  "Sex positive": ["Sex-positive", "Sexpositive"],
+  Sober: [],
+  "Triggering themes": ["Triggering", "Trigger warning", "Trigger warnings"]
+};
+
+const tagAliasEntries = Object.entries(tagAliases).flatMap(([tag, aliases]) => [
+  [tag, tag],
+  ...aliases.map((alias) => [alias, tag])
+]);
+
 const metadataFlagAliases = [
   ...tags,
-  "Queer inclusive",
-  "Queer-focused",
-  "Queer focused"
+  ...Object.values(tagAliases).flat()
 ];
 
 const areaNames = [
@@ -307,18 +319,38 @@ function parseEventMetadata(value) {
 
 function cleanMetadata(value) {
   return metadataFlagAliases
-    .reduce((next, tag) => next.replaceAll(tag, ""), value)
+    .reduce((next, tag) => removeTagAlias(next, tag), value)
     .replace(/\s+/g, " ")
     .replace(/(?:\s*[·-]\s*)+$/g, "")
     .trim();
 }
 
 function extractTags(value) {
-  return tags.filter((tag) => value.includes(tag));
+  return tagAliasEntries
+    .filter(([alias]) => hasTagAlias(value, alias))
+    .map(([, tag]) => tag);
 }
 
 function removeTags(value) {
-  return tags.reduce((next, tag) => next.replace(tag, ""), value).replace(/[·-]\s*$/g, "");
+  return tagAliasEntries
+    .reduce((next, [alias]) => removeTagAlias(next, alias), value)
+    .replace(/[·-]\s*$/g, "");
+}
+
+function hasTagAlias(value, alias) {
+  return createTagAliasPattern(alias).test(value);
+}
+
+function removeTagAlias(value, alias) {
+  return value.replace(createTagAliasPattern(alias), "");
+}
+
+function createTagAliasPattern(alias) {
+  return new RegExp(`(^|\\b)${escapeRegExp(alias)}(?=$|\\b)`, "gi");
+}
+
+function escapeRegExp(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
 function isLocationLine(value) {

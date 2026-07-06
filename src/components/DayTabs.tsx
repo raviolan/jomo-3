@@ -5,7 +5,7 @@ import { theme } from "@/theme/theme";
 
 interface DayTabsProps {
   days: FestivalDay[];
-  selectedDayId: string;
+  selectedDayId?: string;
   onSelectDay: (dayId: string) => void;
 }
 

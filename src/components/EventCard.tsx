@@ -1,6 +1,8 @@
 import { Link } from "expo-router";
 import { Pressable, StyleSheet, Text, View } from "react-native";
 
+import { HeartIcon } from "@/components/HeartIcon";
+import { getDayLabelForEvent } from "@/lib/scheduleQueries";
 import type { FestivalEvent } from "@/models/schedule";
 import { theme } from "@/theme/theme";
 
@@ -8,17 +10,19 @@ interface EventCardProps {
   event: FestivalEvent;
   campHostLabel?: string;
   isSaved: boolean;
+  onBeforeNavigate?: () => void;
   onToggleSaved: (eventId: string) => void;
 }
 
-export function EventCard({ event, campHostLabel, isSaved, onToggleSaved }: EventCardProps) {
+export function EventCard({ event, campHostLabel, isSaved, onBeforeNavigate, onToggleSaved }: EventCardProps) {
   return (
     <Link href={`/event/${event.id}`} asChild>
-      <Pressable style={styles.card}>
+      <Pressable onPress={onBeforeNavigate} style={styles.card}>
         <View style={styles.header}>
           <View style={styles.timeBlock}>
+            <Text style={styles.timeMeta}>{getDayLabelForEvent(event)}</Text>
             <Text style={styles.time}>{event.time.start}</Text>
-            <Text style={styles.timeEnd}>{event.time.end}</Text>
+            <Text style={styles.timeMeta}>{event.time.end}</Text>
           </View>
           <View style={styles.titleBlock}>
             <Text style={styles.category}>{event.category}</Text>
@@ -31,11 +35,9 @@ export function EventCard({ event, campHostLabel, isSaved, onToggleSaved }: Even
               pressEvent.preventDefault();
               onToggleSaved(event.id);
             }}
-            style={[styles.saveButton, isSaved && styles.saveButtonActive]}
+            style={styles.saveButton}
           >
-            <Text style={[styles.saveButtonText, isSaved && styles.saveButtonTextActive]}>
-              {isSaved ? "Saved" : "Save"}
-            </Text>
+            <HeartIcon color={theme.colors.brandDark} filled={isSaved} size={21} />
           </Pressable>
         </View>
         <Text style={styles.location} numberOfLines={2}>
@@ -93,24 +95,9 @@ const styles = StyleSheet.create({
   },
   saveButton: {
     alignItems: "center",
-    backgroundColor: theme.surfaces.input,
-    borderColor: theme.colors.border,
-    borderRadius: 999,
-    borderWidth: 1,
-    minHeight: 36,
-    paddingHorizontal: 10,
-    paddingVertical: 6
-  },
-  saveButtonActive: {
-    backgroundColor: theme.colors.brandDark
-  },
-  saveButtonText: {
-    color: theme.colors.text,
-    fontSize: 12,
-    fontWeight: "800"
-  },
-  saveButtonTextActive: {
-    color: theme.colors.textOnDark
+    height: 40,
+    justifyContent: "center",
+    width: 40
   },
   time: {
     color: theme.colors.text,
@@ -118,9 +105,9 @@ const styles = StyleSheet.create({
     fontWeight: "900"
   },
   timeBlock: {
-    minWidth: 54
+    minWidth: 62
   },
-  timeEnd: {
+  timeMeta: {
     color: theme.colors.brand,
     fontSize: 12,
     fontWeight: "700"

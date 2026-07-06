@@ -2,6 +2,7 @@ import { useGlobalSearchParams, usePathname, useRouter } from "expo-router";
 import { Pressable, StyleSheet, Text, View } from "react-native";
 import Svg, { Path } from "react-native-svg";
 
+import { HeartIcon } from "@/components/HeartIcon";
 import { requestScrollToTop } from "@/lib/scrollToTopEvents";
 import { theme } from "@/theme/theme";
 
@@ -15,7 +16,7 @@ const shortcuts = [
   {
     href: "/saved",
     label: "Saved",
-    icon: HeartIcon,
+    icon: SavedIcon,
     isActive: (pathname: string) => pathname === "/saved"
   },
   {
@@ -79,18 +80,8 @@ function HomeIcon({ color }: { color: string }) {
   );
 }
 
-function HeartIcon({ color }: { color: string }) {
-  return (
-    <Svg fill="none" height={21} viewBox="0 0 24 24" width={21}>
-      <Path
-        d="M12 20s-7-4.4-9.1-8.2C1.3 8.7 3.1 5 6.6 5c2 0 3.4 1 4.2 2.3C11.6 6 13 5 15.4 5c3.5 0 5.3 3.7 3.7 6.8C17 15.6 12 20 12 20Z"
-        stroke={color}
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth={2}
-      />
-    </Svg>
-  );
+function SavedIcon({ color }: { color: string }) {
+  return <HeartIcon color={color} />;
 }
 
 function TentIcon({ color }: { color: string }) {
