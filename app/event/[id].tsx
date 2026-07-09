@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import { useEffect, useRef, useState } from "react";
 import { Link, useLocalSearchParams, useRouter } from "expo-router";
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
@@ -74,14 +75,14 @@ export default function EventDetailScreen() {
 
       {activeTab === "map" && event.gridSquares?.length ? (
         <View style={styles.metaGrid}>
-          <MetaBlock label="Location" value={event.location.name} />
+          <MetaBlock label="Location" value={<LinkifiedText style={styles.metaValue} text={event.location.name} />} />
           <CampMap highlightedSquares={event.gridSquares} onGridSquarePress={() => setActiveTab("info")} />
         </View>
       ) : (
         <>
           <View style={styles.metaGrid}>
             <MetaBlock label="Time" value={`${getDayLabelForEvent(event)} · ${event.time.display}`} />
-            <MetaBlock label="Location" value={event.location.name} />
+            <MetaBlock label="Location" value={<LinkifiedText style={styles.metaValue} text={event.location.name} />} />
             <DescriptionBlock value={event.description || "No description was extracted for this event."} />
             {event.host ? <MetaBlock label="Host" value={event.host} /> : null}
             {event.campHost ? <MetaBlock label="Camp" value={event.campHost} /> : null}
@@ -136,11 +137,11 @@ function TabButton({ active, label, onPress }: { active: boolean; label: string;
   );
 }
 
-function MetaBlock({ label, value }: { label: string; value: string }) {
+function MetaBlock({ label, value }: { label: string; value: ReactNode }) {
   return (
     <View style={styles.metaBlock}>
       <Text style={styles.metaLabel}>{label}</Text>
-      <Text style={styles.metaValue}>{value}</Text>
+      {typeof value === "string" ? <Text style={styles.metaValue}>{value}</Text> : value}
     </View>
   );
 }

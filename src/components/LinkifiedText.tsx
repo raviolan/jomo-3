@@ -15,6 +15,7 @@ interface TextPart {
 }
 
 const urlPattern = /https?:\/\/\s*(?:www\.)?[^\s]+\.[^\s]+|www\.[^\s]+/gi;
+const phoneNumberPattern = /\+\d(?:[\d\s()-]{6,}\d)/g;
 const trailingUrlPunctuationPattern = /[.,)\]]+$/;
 
 export function LinkifiedText({ style, text }: LinkifiedTextProps) {
@@ -81,14 +82,45 @@ function getLinkifiedTextParts(text: string): TextPart[] {
     lastIndex = matchIndex + rawText.length;
   }
 
+  appendPhoneAwarePlainText(parts, text.slice(lastIndex), lastIndex);
+
+  return parts.length > 0 ? parts : [{ key: "text-0", text }];
+}
+
+function appendPhoneAwarePlainText(parts: TextPart[], text: string, offset: number) {
+  let lastIndex = 0;
+
+  for (const match of text.matchAll(phoneNumberPattern)) {
+    const rawText = match[0];
+    const matchIndex = match.index ?? 0;
+    const normalizedPhoneUrl = normalizePhoneUrl(rawText);
+
+    if (!normalizedPhoneUrl) {
+      continue;
+    }
+
+    if (matchIndex > lastIndex) {
+      parts.push({
+        key: `text-${offset + lastIndex}`,
+        text: text.slice(lastIndex, matchIndex)
+      });
+    }
+
+    parts.push({
+      key: `link-${offset + matchIndex}`,
+      text: rawText,
+      url: normalizedPhoneUrl
+    });
+
+    lastIndex = matchIndex + rawText.length;
+  }
+
   if (lastIndex < text.length) {
     parts.push({
-      key: `text-${lastIndex}`,
+      key: `text-${offset + lastIndex}`,
       text: text.slice(lastIndex)
     });
   }
-
-  return parts.length > 0 ? parts : [{ key: "text-0", text }];
 }
 
 function normalizeUrl(rawText: string): string | undefined {
@@ -104,6 +136,11 @@ function normalizeUrl(rawText: string): string | undefined {
   }
 
   return undefined;
+}
+
+function normalizePhoneUrl(rawText: string): string | undefined {
+  const normalizedNumber = rawText.replace(/[^\d+]/g, "");
+  return normalizedNumber.startsWith("+") && normalizedNumber.length >= 8 ? `sms:${normalizedNumber}` : undefined;
 }
 
 const styles = StyleSheet.create({

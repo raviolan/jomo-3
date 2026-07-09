@@ -11,13 +11,37 @@ Mobile-first, web-only Expo schedule guide for offline festival use.
 
 ## PDF Import
 
-The source schedule material is `guide_A4_preview.pdf` at the project root. The app never reads that PDF at runtime. Instead, run:
+The source schedule material is `JOMO26_A4.pdf` at the project root. The app never reads that PDF at runtime. Instead, run:
 
 ```sh
 npm run import:schedule
+npm run audit:schedule
 ```
 
 The importer extracts PDF text with `pdf2json`, normalizes the best-known event rows, and writes `src/data/generatedSchedule.ts`.
+
+Recommended workflow after changing the PDF or importer:
+
+```sh
+npm run import:schedule
+npm run audit:schedule
+npm run typecheck
+npm run lint
+npm run build:web
+```
+
+The audit reports:
+
+- total events and days
+- per-day event counts
+- `gridSquares` coverage
+- `campHost` coverage
+- unresolved, mystery, or not-decided locations
+- tag-only locations
+- duplicate-looking title/date/time entries
+- descriptions that still start with the full location text
+
+Saved-event IDs are derived from normalized date, time, location, and title content. If importer fixes change extracted title or location text, saved event IDs can churn and previously saved items in local storage may stop matching until the user re-saves them.
 
 ### Known Parser Limitations
 
@@ -27,6 +51,7 @@ This is a first-pass parser for a visual PDF, not a structured spreadsheet. It u
 
 ```sh
 npm run import:schedule
+npm run audit:schedule
 npm run typecheck
 npm run lint
 npm run build:web
