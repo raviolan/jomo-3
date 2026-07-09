@@ -1,6 +1,6 @@
 import { Children, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { ReactNode } from "react";
-import { useFocusEffect, useLocalSearchParams } from "expo-router";
+import { Link, useFocusEffect, useLocalSearchParams } from "expo-router";
 import { Pressable, ScrollView, StyleSheet, Text, TextInput, View } from "react-native";
 
 import { AppFooter } from "@/components/AppFooter";
@@ -364,7 +364,7 @@ export default function ScheduleScreen() {
                 event={event}
                 isSaved={saved.isSaved(event.id)}
                 key={event.id}
-                onSelect={() => setQuery(event.title)}
+                onSelect={captureEventReturnContext}
                 onToggleSaved={() => saved.toggleSaved(event.id)}
               />
             ))}
@@ -626,13 +626,18 @@ function EventSuggestionButton({
 }) {
   return (
     <View style={[styles.suggestionButton, styles.campSuggestionRow]}>
-      <Pressable accessibilityRole="button" onPress={onSelect} style={styles.campSuggestionLabelButton}>
-        <Text style={styles.suggestionText}>{event.title}</Text>
-      </Pressable>
+      <Link href={`/event/${event.id}`} asChild>
+        <Pressable accessibilityRole="link" onPress={onSelect} style={styles.campSuggestionLabelButton}>
+          <Text style={styles.suggestionText}>{event.title}</Text>
+        </Pressable>
+      </Link>
       <Pressable
         accessibilityLabel={isSaved ? "Unsave event" : "Save event"}
         accessibilityRole="button"
-        onPress={onToggleSaved}
+        onPress={(pressEvent) => {
+          pressEvent.preventDefault();
+          onToggleSaved();
+        }}
         style={styles.campSuggestionHeartButton}
       >
         <HeartIcon color={theme.colors.brandDark} filled={isSaved} size={21} />

@@ -3,6 +3,8 @@ import { Image, Pressable, StyleSheet, Text, View, type ImageSourcePropType } fr
 import {
   ALL_GRID_SQUARES,
   CAMP_MAP_IMAGE,
+  getGridColumnBounds,
+  getGridRowBounds,
   getGridSquareBounds
 } from "@/lib/mapGrid";
 import type { GridSquareRef } from "@/models/schedule";
@@ -31,6 +33,7 @@ export function CampMap({
   onGridSquarePress
 }: CampMapProps) {
   const labels = highlightedSquares.map((square) => square.label).join(", ");
+  const isEventDetailHighlightMode = interactiveSquares === "highlighted";
   const pressableSquares =
     onGridSquarePress && interactiveSquares === "all" ? ALL_GRID_SQUARES : highlightedSquares;
 
@@ -58,12 +61,51 @@ export function CampMap({
           })}
           {highlightedSquares.map((square) => {
             const bounds = getGridSquareBounds(square);
-            const markerStyle = {
+            const cellStyle = {
               height: toPercent(bounds.height, CAMP_MAP_IMAGE.height),
               left: toPercent(bounds.x, CAMP_MAP_IMAGE.width),
               top: toPercent(bounds.y, CAMP_MAP_IMAGE.height),
               width: toPercent(bounds.width, CAMP_MAP_IMAGE.width)
             };
+            const rowBounds = getGridRowBounds(square);
+            const rowStyle = {
+              height: toPercent(rowBounds.height, CAMP_MAP_IMAGE.height),
+              left: toPercent(rowBounds.x, CAMP_MAP_IMAGE.width),
+              top: toPercent(rowBounds.y, CAMP_MAP_IMAGE.height),
+              width: toPercent(rowBounds.width, CAMP_MAP_IMAGE.width)
+            };
+            const columnBounds = getGridColumnBounds(square);
+            const columnStyle = {
+              height: toPercent(columnBounds.height, CAMP_MAP_IMAGE.height),
+              left: toPercent(columnBounds.x, CAMP_MAP_IMAGE.width),
+              top: toPercent(columnBounds.y, CAMP_MAP_IMAGE.height),
+              width: toPercent(columnBounds.width, CAMP_MAP_IMAGE.width)
+            };
+
+            if (isEventDetailHighlightMode) {
+              return (
+                <View key={square.key} pointerEvents="box-none" style={StyleSheet.absoluteFill}>
+                  <View pointerEvents="none" style={[styles.eventGuide, styles.eventGuideRow, rowStyle]} />
+                  <View pointerEvents="none" style={[styles.eventGuide, styles.eventGuideColumn, columnStyle]} />
+                  {onGridSquarePress ? (
+                    <Pressable
+                      accessibilityLabel={`Show event info for grid square ${square.label}`}
+                      accessibilityRole="button"
+                      hitSlop={18}
+                      key={`${square.key}-highlight`}
+                      onPress={() => onGridSquarePress(square)}
+                      style={[styles.eventCellHighlight, cellStyle]}
+                    >
+                      <Text style={styles.eventCellLabel}>{square.label}</Text>
+                    </Pressable>
+                  ) : (
+                    <View key={`${square.key}-highlight`} pointerEvents="none" style={[styles.eventCellHighlight, cellStyle]}>
+                      <Text style={styles.eventCellLabel}>{square.label}</Text>
+                    </View>
+                  )}
+                </View>
+              );
+            }
 
             if (onGridSquarePress) {
               return (
@@ -73,7 +115,7 @@ export function CampMap({
                   hitSlop={18}
                   key={square.key}
                   onPress={() => onGridSquarePress(square)}
-                  style={[styles.marker, markerStyle]}
+                  style={[styles.marker, cellStyle]}
                 >
                   <GridSquareMarker label={square.label} />
                 </Pressable>
@@ -81,7 +123,7 @@ export function CampMap({
             }
 
             return (
-              <View key={square.key} pointerEvents="none" style={[styles.marker, markerStyle]}>
+              <View key={square.key} pointerEvents="none" style={[styles.marker, cellStyle]}>
                 <GridSquareMarker label={square.label} />
               </View>
             );
@@ -342,6 +384,52 @@ const styles = StyleSheet.create({
     fontSize: 14,
     fontWeight: "900",
     lineHeight: 16
+  },
+  eventCellHighlight: {
+    alignItems: "center",
+    backgroundColor: "rgba(211, 255, 0, 0.44)",
+    borderColor: "rgba(249, 255, 164, 1)",
+    borderRadius: 4,
+    borderWidth: 2,
+    justifyContent: "center",
+    position: "absolute",
+    shadowColor: "#d6ff00",
+    shadowOffset: {
+      width: 0,
+      height: 0
+    },
+    shadowOpacity: 0.45,
+    shadowRadius: 8,
+    zIndex: 2
+  },
+  eventCellLabel: {
+    color: "#152100",
+    fontSize: 11,
+    fontWeight: "900",
+    letterSpacing: 0.3,
+    textShadowColor: "rgba(255, 255, 255, 0.55)",
+    textShadowOffset: {
+      width: 0,
+      height: 0
+    },
+    textShadowRadius: 2
+  },
+  eventGuide: {
+    backgroundColor: "rgba(211, 255, 0, 0.26)",
+    position: "absolute",
+    zIndex: 1
+  },
+  eventGuideColumn: {
+    borderLeftColor: "rgba(247, 255, 149, 0.9)",
+    borderLeftWidth: 1.5,
+    borderRightColor: "rgba(247, 255, 149, 0.9)",
+    borderRightWidth: 1.5
+  },
+  eventGuideRow: {
+    borderBottomColor: "rgba(247, 255, 149, 0.9)",
+    borderBottomWidth: 1.5,
+    borderTopColor: "rgba(247, 255, 149, 0.9)",
+    borderTopWidth: 1.5
   },
   marker: {
     alignItems: "center",

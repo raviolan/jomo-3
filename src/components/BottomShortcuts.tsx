@@ -1,5 +1,5 @@
 import { useGlobalSearchParams, usePathname, useRouter } from "expo-router";
-import { Pressable, StyleSheet, Text, View } from "react-native";
+import { Pressable, StyleSheet, Text, View, useWindowDimensions } from "react-native";
 import Svg, { Path } from "react-native-svg";
 
 import { HeartIcon } from "@/components/HeartIcon";
@@ -37,15 +37,25 @@ export function BottomShortcuts() {
   const pathname = usePathname();
   const params = useGlobalSearchParams<{ view?: string }>();
   const router = useRouter();
+  const { width } = useWindowDimensions();
+  const isCompactLayout = width < 420;
 
   return (
     <View style={styles.shell}>
-      <View style={styles.row}>
+      <View style={[styles.row, isCompactLayout && styles.rowCompact]}>
         {shortcuts.map((shortcut) => {
           const active = shortcut.isActive(pathname, params.view);
           const Icon = shortcut.icon;
-          const itemStyle = StyleSheet.flatten([styles.item, active ? styles.itemActive : null]);
-          const labelStyle = StyleSheet.flatten([styles.label, active ? styles.labelActive : null]);
+          const itemStyle = StyleSheet.flatten([
+            styles.item,
+            isCompactLayout && styles.itemCompact,
+            active ? styles.itemActive : null
+          ]);
+          const labelStyle = StyleSheet.flatten([
+            styles.label,
+            isCompactLayout && styles.labelCompact,
+            active ? styles.labelActive : null
+          ]);
 
           return (
             <Pressable
@@ -62,7 +72,9 @@ export function BottomShortcuts() {
               }}
               style={itemStyle}
             >
-              <Icon color={active ? theme.colors.textOnDark : theme.colors.text} />
+              <View style={styles.iconSlot}>
+                <Icon color={active ? theme.colors.textOnDark : theme.colors.text} />
+              </View>
               <Text style={labelStyle}>{shortcut.label}</Text>
             </Pressable>
           );
@@ -132,16 +144,36 @@ const styles = StyleSheet.create({
     paddingHorizontal: 12,
     paddingVertical: 10
   },
+  itemCompact: {
+    flexDirection: "column",
+    gap: 4,
+    minHeight: 56,
+    paddingHorizontal: 8,
+    paddingVertical: 8
+  },
   itemActive: {
     backgroundColor: theme.colors.brandDark
+  },
+  iconSlot: {
+    alignItems: "center",
+    flexShrink: 0,
+    height: 24,
+    justifyContent: "center",
+    width: 24
   },
   label: {
     color: theme.colors.text,
     fontSize: 14,
-    fontWeight: "900"
+    fontWeight: "900",
+    minWidth: 0
   },
   labelActive: {
     color: theme.colors.textOnDark
+  },
+  labelCompact: {
+    fontSize: 12,
+    lineHeight: 14,
+    textAlign: "center"
   },
   row: {
     alignSelf: "center",
@@ -154,6 +186,10 @@ const styles = StyleSheet.create({
     maxWidth: 520,
     padding: 6,
     width: "100%"
+  },
+  rowCompact: {
+    gap: 2,
+    padding: 4
   },
   shell: {
     backgroundColor: "rgba(247, 216, 210, 0.72)",

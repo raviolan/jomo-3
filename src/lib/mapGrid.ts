@@ -141,6 +141,28 @@ export function getGridSquareBounds(square: GridSquareRef) {
   };
 }
 
+export function getGridRowBounds(square: GridSquareRef) {
+  const rowIndex = GRID_ROWS.indexOf(square.row);
+
+  return {
+    x: CAMP_MAP_GRID_BOUNDS.x,
+    y: CAMP_MAP_GRID_BOUNDS.y + rowIndex * CAMP_MAP_CELL.height,
+    width: CAMP_MAP_GRID_BOUNDS.width,
+    height: CAMP_MAP_CELL.height
+  };
+}
+
+export function getGridColumnBounds(square: GridSquareRef) {
+  const columnIndex = GRID_COLUMNS.indexOf(square.column);
+
+  return {
+    x: CAMP_MAP_GRID_BOUNDS.x + columnIndex * CAMP_MAP_CELL.width,
+    y: CAMP_MAP_GRID_BOUNDS.y,
+    width: CAMP_MAP_CELL.width,
+    height: CAMP_MAP_GRID_BOUNDS.height
+  };
+}
+
 function isGridColumn(value: string): value is GridColumn {
   return gridColumnSet.has(value);
 }
