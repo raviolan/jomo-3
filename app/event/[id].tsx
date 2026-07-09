@@ -10,7 +10,14 @@ import { LinkifiedText } from "@/components/LinkifiedText";
 import { UndoNotice } from "@/components/UndoNotice";
 import { useSavedEvents } from "@/hooks/useSavedEvents";
 import { getReturnContext, getReturnHref } from "@/lib/returnNavigation";
-import { getDayLabelForEvent, getEventById } from "@/lib/scheduleQueries";
+import {
+  getDayLabelForEvent,
+  getEventById,
+  getRawCampHostLabelsForEvent,
+  getRawHostLabelsForEvent,
+  resolveCampHostSelection,
+  resolveHostSelection
+} from "@/lib/scheduleQueries";
 import { subscribeToScrollToTop } from "@/lib/scrollToTopEvents";
 import { theme } from "@/theme/theme";
 
@@ -24,6 +31,8 @@ export default function EventDetailScreen() {
   const saved = useSavedEvents();
   const [activeTab, setActiveTab] = useState<EventDetailTab>("info");
   const hasMap = Boolean(event?.gridSquares?.length);
+  const eventHosts = event ? getRawHostLabelsForEvent(event) : [];
+  const eventCampHosts = event ? getRawCampHostLabelsForEvent(event) : [];
 
   useEffect(
     () =>
@@ -84,8 +93,20 @@ export default function EventDetailScreen() {
             <MetaBlock label="Time" value={`${getDayLabelForEvent(event)} · ${event.time.display}`} />
             <MetaBlock label="Location" value={<LinkifiedText style={styles.metaValue} text={event.location.name} />} />
             <DescriptionBlock value={event.description || "No description was extracted for this event."} />
-            {event.host ? <MetaBlock label="Host" value={event.host} /> : null}
-            {event.campHost ? <MetaBlock label="Camp" value={event.campHost} /> : null}
+            {eventHosts.length > 0 ? (
+              <LinkedMetaBlock
+                items={eventHosts}
+                label="Hosts"
+                onSelect={(host) => openHostSelection(router, host)}
+              />
+            ) : null}
+            {eventCampHosts.length > 0 ? (
+              <LinkedMetaBlock
+                items={eventCampHosts}
+                label="Camps"
+                onSelect={(camp) => openCampSelection(router, camp)}
+              />
+            ) : null}
             {event.tags.length > 0 ? <MetaBlock label="Tags" value={event.tags.join(" · ")} /> : null}
           </View>
 
@@ -107,6 +128,32 @@ export default function EventDetailScreen() {
       <AppFooter />
     </ScrollView>
   );
+}
+
+function openCampSelection(router: ReturnType<typeof useRouter>, label: string) {
+  const resolution = resolveCampHostSelection(label);
+  const canonicalNames = resolution.matches.map((match) => match.canonicalName);
+
+  router.push({
+    pathname: "/",
+    params:
+      canonicalNames.length > 1
+        ? { campOptions: canonicalNames.join("||"), view: "camps" }
+        : { camp: canonicalNames[0] ?? label, view: "camps" }
+  });
+}
+
+function openHostSelection(router: ReturnType<typeof useRouter>, label: string) {
+  const resolution = resolveHostSelection(label);
+  const canonicalNames = resolution.matches.map((match) => match.canonicalName);
+
+  router.push({
+    pathname: "/",
+    params:
+      canonicalNames.length > 1
+        ? { hostOptions: canonicalNames.join("||") }
+        : { host: canonicalNames[0] ?? label }
+  });
 }
 
 function EventDetailTabs({
@@ -155,6 +202,35 @@ function DescriptionBlock({ value }: { value: string }) {
   );
 }
 
+function LinkedMetaBlock({
+  items,
+  label,
+  onSelect
+}: {
+  items: string[];
+  label: string;
+  onSelect: (value: string) => void;
+}) {
+  return (
+    <View style={styles.metaBlock}>
+      <Text style={styles.metaLabel}>{label}</Text>
+      <View style={styles.metaChipRow}>
+        {items.map((item) => (
+          <Pressable
+            accessibilityLabel={`Open ${item}`}
+            accessibilityRole="button"
+            key={item}
+            onPress={() => onSelect(item)}
+            style={styles.metaChip}
+          >
+            <Text style={styles.metaChipText}>{item}</Text>
+          </Pressable>
+        ))}
+      </View>
+    </View>
+  );
+}
+
 const styles = StyleSheet.create({
   backButton: {
     alignItems: "center",
@@ -195,6 +271,24 @@ const styles = StyleSheet.create({
   },
   metaGrid: {
     gap: 10
+  },
+  metaChip: {
+    backgroundColor: theme.surfaces.chrome,
+    borderColor: theme.colors.border,
+    borderRadius: 999,
+    borderWidth: 1,
+    paddingHorizontal: 10,
+    paddingVertical: 7
+  },
+  metaChipRow: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    gap: 8
+  },
+  metaChipText: {
+    color: theme.colors.text,
+    fontSize: 13,
+    fontWeight: "800"
   },
   metaLabel: {
     color: theme.colors.brand,

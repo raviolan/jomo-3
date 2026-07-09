@@ -1,6 +1,6 @@
 import { Children, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { ReactNode } from "react";
-import { Link, useFocusEffect, useLocalSearchParams } from "expo-router";
+import { Link, useFocusEffect, useLocalSearchParams, useRouter } from "expo-router";
 import { Pressable, ScrollView, StyleSheet, Text, TextInput, View } from "react-native";
 
 import { AppFooter } from "@/components/AppFooter";
@@ -14,18 +14,22 @@ import { clearReturnContext, getReturnContext, setReturnContext } from "@/lib/re
 import { subscribeToScrollToTop } from "@/lib/scrollToTopEvents";
 import {
   campHostMatchesQuery,
+  getCampListingsForCampHost,
   getCampHosts,
   getCanonicalCampHost,
+  getCanonicalHost,
   getCategories,
   getDefaultHomeDayId,
   getEventEndTime,
+  getMatchedCampHostLabelForEvent,
+  getMatchedHostLabelForEvent,
   getEventSuggestions,
   getScheduleDays,
   getTags,
   searchEvents,
   tagMatchesQuery
 } from "@/lib/scheduleQueries";
-import type { FestivalCategory, FestivalEvent, FestivalTag } from "@/models/schedule";
+import type { FestivalCampListing, FestivalCategory, FestivalEvent, FestivalTag } from "@/models/schedule";
 import { theme } from "@/theme/theme";
 
 interface CampEventDayGroup {
@@ -35,7 +39,14 @@ interface CampEventDayGroup {
 }
 
 export default function ScheduleScreen() {
-  const params = useLocalSearchParams<{ camp?: string; view?: string }>();
+  const router = useRouter();
+  const params = useLocalSearchParams<{
+    camp?: string;
+    campOptions?: string;
+    host?: string;
+    hostOptions?: string;
+    view?: string;
+  }>();
   const isCampMode = params.view === "camps";
   const scrollViewRef = useRef<ScrollView>(null);
   const scrollYRef = useRef(0);
@@ -50,6 +61,7 @@ export default function ScheduleScreen() {
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState<FestivalCategory | "all">("all");
   const [selectedCampHosts, setSelectedCampHosts] = useState<string[]>([]);
+  const [selectedHosts, setSelectedHosts] = useState<string[]>([]);
   const [selectedTags, setSelectedTags] = useState<FestivalTag[]>([]);
   const [isFilterPanelExpanded, setIsFilterPanelExpanded] = useState(false);
   const [collapsedCampDayIds, setCollapsedCampDayIds] = useState<string[]>([]);
@@ -61,6 +73,7 @@ export default function ScheduleScreen() {
     : query.trim().length > 0 ||
       category !== "all" ||
       selectedDayId !== defaultHomeDayId ||
+      selectedHosts.length > 0 ||
       selectedTags.length > 0;
   const campSuggestions = useMemo(() => {
     const normalizedQuery = query.trim().toLocaleLowerCase();
@@ -101,17 +114,25 @@ export default function ScheduleScreen() {
           dayId: isCampMode ? undefined : selectedDayId,
           category: isCampMode ? "all" : category,
           query: isCampMode ? "" : query,
+          hosts: isCampMode ? undefined : selectedHosts,
           campHostsOnly: isCampMode,
           campHosts: isCampMode ? selectedCampHosts : undefined,
           tags: isCampMode ? undefined : selectedTags
         },
         scheduleNow
       ),
-    [category, isCampMode, query, scheduleNow, selectedCampHosts, selectedDayId, selectedTags]
+    [category, isCampMode, query, scheduleNow, selectedCampHosts, selectedDayId, selectedHosts, selectedTags]
   );
   const campEventSections = useMemo(
     () => (isCampMode ? buildCampEventSections(events, days, scheduleNow) : { upcomingGroups: [], pastGroups: [] }),
     [days, events, isCampMode, scheduleNow]
+  );
+  const selectedCampListings = useMemo(
+    () =>
+      selectedCampHosts
+        .flatMap((campHost) => getCampListingsForCampHost(campHost))
+        .filter((listing, index, listings) => listings.findIndex((item) => item.id === listing.id) === index),
+    [selectedCampHosts]
   );
   const homeEventGroups = useMemo(
     () => (!isCampMode && !selectedDayId ? groupEventsByDay(events, days) : []),
@@ -135,23 +156,49 @@ export default function ScheduleScreen() {
   );
 
   useEffect(() => {
-    if (!isCampMode || typeof params.camp !== "string") {
+    if (!isCampMode) {
       return;
     }
 
-    const campHost = getCanonicalCampHost(params.camp);
-    if (!campHosts.includes(campHost)) {
+    const requestedCampHosts = parseSelectionOptions(params.campOptions)
+      .concat(typeof params.camp === "string" ? [params.camp] : [])
+      .map(getCanonicalCampHost)
+      .filter((campHost, index, values) => campHosts.includes(campHost) && values.indexOf(campHost) === index);
+    if (requestedCampHosts.length === 0) {
       return;
     }
 
-    setSelectedCampHosts([campHost]);
+    setSelectedCampHosts(requestedCampHosts);
     setQuery("");
     setCollapsedCampDayIds([]);
     setIsPastEventsExpanded(false);
     campIndexScrollYRef.current = 0;
     scrollViewRef.current?.scrollTo({ y: 0, animated: false });
     scrollYRef.current = 0;
-  }, [campHosts, isCampMode, params.camp]);
+  }, [campHosts, isCampMode, params.camp, params.campOptions]);
+
+  useEffect(() => {
+    if (isCampMode) {
+      return;
+    }
+
+    const requestedHosts = parseSelectionOptions(params.hostOptions)
+      .concat(typeof params.host === "string" ? [params.host] : [])
+      .map(getCanonicalHost)
+      .filter((host, index, values) => values.indexOf(host) === index);
+    if (requestedHosts.length === 0) {
+      return;
+    }
+
+    setSelectedHosts(requestedHosts);
+    setQuery("");
+    setCategory("all");
+    setSelectedDayId(undefined);
+    setSelectedTags([]);
+    setIsFilterPanelExpanded(false);
+    scrollViewRef.current?.scrollTo({ y: 0, animated: false });
+    scrollYRef.current = 0;
+  }, [isCampMode, params.host, params.hostOptions]);
 
   useFocusEffect(
     useCallback(() => {
@@ -164,6 +211,7 @@ export default function ScheduleScreen() {
         setQuery(context.query);
         setCategory(context.category);
         setSelectedDayId(context.selectedDayId);
+        setSelectedHosts(context.selectedHosts);
         setSelectedTags(context.selectedTags);
         setIsFilterPanelExpanded(context.isFilterPanelExpanded);
         setPendingRestoreScrollY(context.scrollY);
@@ -202,6 +250,7 @@ export default function ScheduleScreen() {
     setQuery("");
     setCategory("all");
     setSelectedCampHosts([]);
+    setSelectedHosts([]);
     setSelectedTags([]);
     setCollapsedCampDayIds([]);
     setIsFilterPanelExpanded(false);
@@ -227,6 +276,16 @@ export default function ScheduleScreen() {
     scrollYRef.current = 0;
   }
 
+  function openCampSuggestion(campHost: string) {
+    router.push({
+      pathname: "/",
+      params: {
+        camp: campHost,
+        view: "camps"
+      }
+    });
+  }
+
   function removeCampHost(campHost: string) {
     const nextCampHosts = selectedCampHosts.filter((item) => item !== campHost);
     setSelectedCampHosts(nextCampHosts);
@@ -238,6 +297,10 @@ export default function ScheduleScreen() {
   function addTag(tag: FestivalTag) {
     setSelectedTags((current) => (current.includes(tag) ? current : [...current, tag]));
     setQuery("");
+  }
+
+  function removeHost(host: string) {
+    setSelectedHosts((current) => current.filter((item) => item !== host));
   }
 
   function removeTag(tag: FestivalTag) {
@@ -272,6 +335,7 @@ export default function ScheduleScreen() {
       route: "home",
       scrollY: scrollYRef.current,
       selectedDayId,
+      selectedHosts,
       selectedTags
     });
   }
@@ -348,7 +412,7 @@ export default function ScheduleScreen() {
                 campHost={campHost}
                 isSaved={saved.isCampSaved(campHost)}
                 key={campHost}
-                onSelect={() => setQuery(campHost)}
+                onSelect={() => openCampSuggestion(campHost)}
                 onToggleSaved={() => saved.toggleSavedCamp(campHost)}
               />
             ))}
@@ -394,8 +458,11 @@ export default function ScheduleScreen() {
             <Text style={styles.dayToggle}>{isFilterPanelExpanded ? "-" : "+"}</Text>
           </Pressable>
 
-          {selectedTags.length > 0 ? (
+          {selectedHosts.length > 0 || selectedTags.length > 0 ? (
             <View style={styles.selectedCamps}>
+              {selectedHosts.map((host) => (
+                <FilterPill key={host} label={host} onRemove={() => removeHost(host)} />
+              ))}
               {selectedTags.map((tag) => (
                 <FilterPill key={tag} label={tag} onRemove={() => removeTag(tag)} />
               ))}
@@ -499,17 +566,22 @@ export default function ScheduleScreen() {
           query={query}
         />
       ) : isCampMode ? (
-        <CampEventList
-          collapsedDayIds={collapsedCampDayIds}
-          isPastEventsExpanded={isPastEventsExpanded}
-          isSaved={saved.isSaved}
-          onBeforeEventNavigate={captureEventReturnContext}
-          onTogglePastEvents={() => setIsPastEventsExpanded((current) => !current)}
-          onToggleSaved={saved.toggleSaved}
-          onToggleDay={toggleCampDay}
-          pastGroups={campEventSections.pastGroups}
-          upcomingGroups={campEventSections.upcomingGroups}
-        />
+        <>
+          {selectedCampListings.length > 0 ? <CampListingSummary listings={selectedCampListings} /> : null}
+          <CampEventList
+            collapsedDayIds={collapsedCampDayIds}
+            hasListingContent={selectedCampListings.length > 0}
+            isPastEventsExpanded={isPastEventsExpanded}
+            isSaved={saved.isSaved}
+            onBeforeEventNavigate={captureEventReturnContext}
+            selectedCampHosts={selectedCampHosts}
+            onTogglePastEvents={() => setIsPastEventsExpanded((current) => !current)}
+            onToggleSaved={saved.toggleSaved}
+            onToggleDay={toggleCampDay}
+            pastGroups={campEventSections.pastGroups}
+            upcomingGroups={campEventSections.upcomingGroups}
+          />
+        </>
       ) : (
         <>
           <View style={styles.list}>
@@ -522,6 +594,7 @@ export default function ScheduleScreen() {
                   {group.events.map((event) => (
                     <EventCard
                       event={event}
+                      hostLabel={selectedHosts.length > 0 ? getMatchedHostLabelForEvent(event, selectedHosts) : undefined}
                       isSaved={saved.isSaved(event.id)}
                       key={event.id}
                       onBeforeNavigate={captureEventReturnContext}
@@ -534,6 +607,7 @@ export default function ScheduleScreen() {
               events.map((event) => (
                 <EventCard
                   event={event}
+                  hostLabel={selectedHosts.length > 0 ? getMatchedHostLabelForEvent(event, selectedHosts) : undefined}
                   isSaved={saved.isSaved(event.id)}
                   key={event.id}
                   onBeforeNavigate={captureEventReturnContext}
@@ -725,9 +799,11 @@ function CampIndex({
 
 function CampEventList({
   collapsedDayIds,
+  hasListingContent,
   isPastEventsExpanded,
   isSaved,
   onBeforeEventNavigate,
+  selectedCampHosts,
   onToggleDay,
   onTogglePastEvents,
   onToggleSaved,
@@ -735,9 +811,11 @@ function CampEventList({
   upcomingGroups
 }: {
   collapsedDayIds: string[];
+  hasListingContent: boolean;
   isPastEventsExpanded: boolean;
   isSaved: (eventId: string) => boolean;
   onBeforeEventNavigate: () => void;
+  selectedCampHosts: string[];
   onToggleDay: (dayId: string) => void;
   onTogglePastEvents: () => void;
   onToggleSaved: (eventId: string) => void;
@@ -747,6 +825,10 @@ function CampEventList({
   const pastEventCount = pastGroups.reduce((count, group) => count + group.events.length, 0);
 
   if (upcomingGroups.length === 0 && pastEventCount === 0) {
+    if (hasListingContent) {
+      return null;
+    }
+
     return (
       <View style={styles.list}>
         <EmptyState title="No events found" body="Try another selected camp." />
@@ -763,6 +845,7 @@ function CampEventList({
           isSaved={isSaved}
           key={group.dayId}
           onBeforeEventNavigate={onBeforeEventNavigate}
+          selectedCampHosts={selectedCampHosts}
           onToggleDay={onToggleDay}
           onToggleSaved={onToggleSaved}
         />
@@ -787,7 +870,7 @@ function CampEventList({
                     {group.events.map((event) => (
                       <EventCard
                         event={event}
-                        campHostLabel={event.campHost ? getCanonicalCampHost(event.campHost) : undefined}
+                        campHostLabel={getMatchedCampHostLabelForEvent(event, selectedCampHosts)}
                         isSaved={isSaved(event.id)}
                         key={event.id}
                         onBeforeNavigate={onBeforeEventNavigate}
@@ -805,11 +888,28 @@ function CampEventList({
   );
 }
 
+function CampListingSummary({ listings }: { listings: FestivalCampListing[] }) {
+  return (
+    <View style={styles.list}>
+      {listings.map((listing) => (
+        <View key={listing.id} style={styles.directoryCard}>
+          <Text style={styles.directoryType}>{listing.type}</Text>
+          <Text style={styles.directoryTitle}>{listing.name}</Text>
+          <Text style={styles.directoryLocation}>{listing.location.name}</Text>
+          {listing.description ? <Text style={styles.directoryDescription}>{listing.description}</Text> : null}
+          {listing.tags.length > 0 ? <Text style={styles.directoryMeta}>{listing.tags.join(" · ")}</Text> : null}
+        </View>
+      ))}
+    </View>
+  );
+}
+
 function CampDaySection({
   group,
   isCollapsed,
   isSaved,
   onBeforeEventNavigate,
+  selectedCampHosts,
   onToggleDay,
   onToggleSaved
 }: {
@@ -817,6 +917,7 @@ function CampDaySection({
   isCollapsed: boolean;
   isSaved: (eventId: string) => boolean;
   onBeforeEventNavigate: () => void;
+  selectedCampHosts: string[];
   onToggleDay: (dayId: string) => void;
   onToggleSaved: (eventId: string) => void;
 }) {
@@ -834,7 +935,7 @@ function CampDaySection({
         <View style={styles.list}>
           {group.events.map((event) => (
             <EventCard
-              campHostLabel={event.campHost ? getCanonicalCampHost(event.campHost) : undefined}
+              campHostLabel={getMatchedCampHostLabelForEvent(event, selectedCampHosts)}
               event={event}
               isSaved={isSaved(event.id)}
               key={event.id}
@@ -884,6 +985,13 @@ function groupEventsByDay(events: FestivalEvent[], days: ReturnType<typeof getSc
     label: daysById.get(dayId)?.label ?? groupEvents[0]?.date ?? dayId,
     events: groupEvents
   }));
+}
+
+function parseSelectionOptions(value: string | undefined): string[] {
+  return value
+    ?.split("||")
+    .map((item) => item.trim())
+    .filter(Boolean) ?? [];
 }
 
 function shortDayLabel(label: string): string {
@@ -973,6 +1081,42 @@ const styles = StyleSheet.create({
     flexWrap: "wrap",
     gap: 8,
     marginHorizontal: theme.spacing.screenX
+  },
+  directoryCard: {
+    backgroundColor: theme.surfaces.card,
+    borderColor: theme.colors.border,
+    borderRadius: 8,
+    borderWidth: 1,
+    gap: 8,
+    padding: 14
+  },
+  directoryDescription: {
+    color: theme.colors.text,
+    fontSize: 14,
+    lineHeight: 20
+  },
+  directoryLocation: {
+    color: theme.colors.text,
+    fontSize: 14,
+    fontWeight: "700",
+    lineHeight: 19
+  },
+  directoryMeta: {
+    color: theme.colors.textMuted,
+    fontSize: 12,
+    lineHeight: 17
+  },
+  directoryTitle: {
+    color: theme.colors.text,
+    fontSize: 18,
+    fontWeight: "900",
+    lineHeight: 22
+  },
+  directoryType: {
+    color: theme.colors.brand,
+    fontSize: 12,
+    fontWeight: "900",
+    textTransform: "uppercase"
   },
   campSuggestionHeartButton: {
     alignItems: "center",

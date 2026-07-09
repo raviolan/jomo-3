@@ -9,12 +9,13 @@ import { theme } from "@/theme/theme";
 interface EventCardProps {
   event: FestivalEvent;
   campHostLabel?: string;
+  hostLabel?: string;
   isSaved: boolean;
   onBeforeNavigate?: () => void;
   onToggleSaved: (eventId: string) => void;
 }
 
-export function EventCard({ event, campHostLabel, isSaved, onBeforeNavigate, onToggleSaved }: EventCardProps) {
+export function EventCard({ event, campHostLabel, hostLabel, isSaved, onBeforeNavigate, onToggleSaved }: EventCardProps) {
   return (
     <Link href={`/event/${event.id}`} asChild>
       <Pressable onPress={onBeforeNavigate} style={styles.card}>
@@ -43,9 +44,9 @@ export function EventCard({ event, campHostLabel, isSaved, onBeforeNavigate, onT
         <Text style={styles.location} numberOfLines={2}>
           {event.location.name}
         </Text>
-        {event.host ? (
+        {event.host || hostLabel ? (
           <Text style={styles.host} numberOfLines={1}>
-            {event.host}
+            {hostLabel ?? event.host}
           </Text>
         ) : null}
         {event.campHost ? (

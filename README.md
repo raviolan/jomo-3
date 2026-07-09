@@ -18,7 +18,7 @@ npm run import:schedule
 npm run audit:schedule
 ```
 
-The importer extracts PDF text with `pdf2json`, normalizes the best-known event rows, and writes `src/data/generatedSchedule.ts`.
+The importer extracts PDF text with `pdf2json`, normalizes the best-known event rows and camp/listing blocks, and writes `src/data/generatedSchedule.ts`.
 
 Recommended workflow after changing the PDF or importer:
 
@@ -30,16 +30,19 @@ npm run lint
 npm run build:web
 ```
 
-The audit reports:
+The audit reparses `JOMO26_A4.pdf` and compares raw PDF candidates against the generated schedule. It reports:
 
 - total events and days
+- raw PDF event/listing candidate coverage vs generated data
 - per-day event counts
 - `gridSquares` coverage
 - `campHost` coverage
 - unresolved, mystery, or not-decided locations
-- tag-only locations
+- swallowed/suspicious event descriptions
+- malformed listing names
+- listings without map-compatible grid/location
+- out-of-map grid references such as `T28`
 - duplicate-looking title/date/time entries
-- descriptions that still start with the full location text
 
 Saved-event IDs are derived from normalized date, time, location, and title content. If importer fixes change extracted title or location text, saved event IDs can churn and previously saved items in local storage may stop matching until the user re-saves them.
 

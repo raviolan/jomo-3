@@ -8,6 +8,7 @@ export type ReturnContext =
       route: "home";
       scrollY: number;
       selectedDayId?: string;
+      selectedHosts: string[];
       selectedTags: FestivalTag[];
     }
   | {

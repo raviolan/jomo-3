@@ -1,13 +1,14 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 
 import PDFParser from "pdf2json";
+import aliasDefinitions from "../src/data/campAliases.json" with { type: "json" };
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, "..");
-const sourcePdf = "JOMO26_A4.pdf";
-const pdfPath = path.join(rootDir, sourcePdf);
+export const sourcePdf = "JOMO26_A4.pdf";
+export const pdfPath = path.join(rootDir, sourcePdf);
 const outputPath = path.join(rootDir, "src/data/generatedSchedule.ts");
 
 const categories = [
@@ -17,6 +18,7 @@ const categories = [
   "Food/Drinks",
   "Games/Play",
   "Music/Performance/Show",
+  "Weird shit/Other",
   "Party/Gathering",
   "Ritual/Ceremony",
   "Workshop/Class",
@@ -88,6 +90,8 @@ const dayNameToDate = new Map([
 const categorySet = new Set(categories);
 const tagSet = new Set(tags);
 const timePattern = /^(\d{1,2}:\d{2})\s*[–-]\s*(\d{1,2}:\d{2})$/;
+const campListingSectionLabelPattern =
+  /^(?:ART\/INSTALLATION|CARE\/SUPPORT\/PAMPERING|CRAFTING(?:\/PIMPING)?\/ARTING|FOOD\/DRINKS|GAMES\/PLAY|MUSIC\/PERFORMANCE\/SHOW|PARTY\/GATHERING|RITUAL\/CEREMONY|WORKSHOP\/CLASS|YOGA\/MOVEMENT\/BODYWORK|WEIRD SHIT\/OTHER)$/i;
 const gridColumns = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 const gridColumnSet = new Set(gridColumns);
 const gridRowSet = new Set(Array.from({ length: 27 }, (_, index) => index + 1));
@@ -98,24 +102,35 @@ const bareGridPattern = /(?:^|[^A-Z0-9])([A-Z])\s*(0?\d{1,2})(?=$|[^A-Z0-9])/gi;
 const phonePattern = /\+\d(?:[\d\s()-]{6,}\d)/;
 const lucifersPitCanonicalLocation =
   "Downtown, grid square K19. Upstairs in the barn, around the silo, and inside the sheep barn";
-const campHostAliases = {
-  "The secret outpost": ["The secret outpost!", "the secret outpost"],
-  Heliotropes: ["Heliotropes Queer- inclusive"],
-  "The Divine Dough Sanctuary": ["The Divine Dough"],
-  "Free camp": ["Free camping"],
-  "Lucifer's Pit": ["Lucifer's Pit · content"]
-};
-const hostAliases = {
-  God: ["GOd"]
-};
+const campHostAliases = aliasDefinitions.campAliases;
+const hostAliases = aliasDefinitions.hostAliases;
+const metadataSuffixes = [
+  ...metadataFlagAliases,
+  "Queer",
+  "Queer-inclusive",
+  "Queer inclusive",
+  "Queer - inclusive"
+];
+const normalizedMetadataSuffixes = metadataSuffixes
+  .map((suffix) => normalizeComparableText(suffix))
+  .filter(Boolean)
+  .sort((a, b) => b.length - a.length);
 
-async function main() {
-  await fs.access(pdfPath);
-  const pages = await parsePdf(pdfPath);
+export async function buildScheduleFromPdf(filePath = pdfPath) {
+  await fs.access(filePath);
+  const pages = await parsePdf(filePath);
   const lines = flattenLines(pages);
   const dayRanges = buildDayRanges(lines);
   const eventStarts = findEventStarts(lines);
-  const extractedEvents = buildEvents(lines, eventStarts, dayRanges);
+  const eventTitleStartIndexes = new Set(eventStarts.map((start) => start.titleStart));
+  const maxScheduleEventPage = Math.max(...eventStarts.map((start) => lines[start.categoryIndex]?.page ?? 0));
+  const scheduleEndIndex = lines.findIndex((line) => line.page > maxScheduleEventPage);
+  const extractedEvents = buildEvents(lines, eventStarts, dayRanges, scheduleEndIndex === -1 ? lines.length : scheduleEndIndex);
+  const { campListings, ignoredCampListingCandidates, rawCampListingCandidates } = buildCampListings(
+    lines,
+    eventTitleStartIndexes,
+    maxScheduleEventPage
+  );
   const events = normalizeExtractedEvents(extractedEvents);
   const days = buildDays(events);
 
@@ -127,8 +142,24 @@ async function main() {
     generatedAt: new Date().toISOString(),
     sourcePdf,
     days,
-    events
+    events,
+    campListings
   };
+
+  return {
+    schedule,
+    lines,
+    dayRanges,
+    eventStarts,
+    maxScheduleEventPage,
+    rawEventCandidates: extractedEvents,
+    rawCampListingCandidates,
+    ignoredCampListingCandidates
+  };
+}
+
+async function main() {
+  const { schedule } = await buildScheduleFromPdf();
 
   await fs.writeFile(
     outputPath,
@@ -140,10 +171,10 @@ async function main() {
     "utf8"
   );
 
-  console.log(`Imported ${events.length} events across ${days.length} days from ${sourcePdf}.`);
+  console.log(`Imported ${schedule.events.length} events across ${schedule.days.length} days from ${sourcePdf}.`);
 }
 
-function parsePdf(filePath) {
+export function parsePdf(filePath) {
   return new Promise((resolve, reject) => {
     const parser = new PDFParser(null, 1);
 
@@ -153,18 +184,18 @@ function parsePdf(filePath) {
   });
 }
 
-function flattenLines(pages) {
+export function flattenLines(pages) {
   return pages.flatMap((page, pageIndex) =>
     page.Texts.map((text) => ({
       page: pageIndex + 1,
       value: decodeURIComponent(text.R.map((run) => run.T).join(""))
         .replace(/\s+/g, " ")
         .trim()
-    })).filter((line) => line.value.length > 0)
+    })).filter((line) => line.value.length > 0 && !isPageNumberLine(line.value))
   );
 }
 
-function buildDayRanges(lines) {
+export function buildDayRanges(lines) {
   const headers = lines
     .map((line, index) => ({ ...line, index }))
     .filter((line) => dayNameToDate.has(line.value.toUpperCase()));
@@ -182,7 +213,7 @@ function buildDayRanges(lines) {
   });
 }
 
-function findEventStarts(lines) {
+export function findEventStarts(lines) {
   return lines
     .map((line, index) => ({ line, index }))
     .filter(({ line }) => categorySet.has(line.value))
@@ -196,11 +227,29 @@ function findEventStarts(lines) {
 function findTitleStart(lines, categoryIndex) {
   let index = categoryIndex - 1;
 
-  while (index >= 0 && isTitleLine(lines[index].value)) {
+  while (index >= 0 && isTitleSeparatorLine(lines[index].value)) {
+    index -= 1;
+  }
+
+  while (index >= 0 && isTitleFragmentLine(lines[index].value)) {
     index -= 1;
   }
 
   return index + 1;
+}
+
+function isTitleSeparatorLine(value) {
+  return /^[-–—]+$/.test(value.trim());
+}
+
+function isTitleFragmentLine(value) {
+  return isTitleLine(value) || isShortTitleContinuationLine(value);
+}
+
+function isShortTitleContinuationLine(value) {
+  const trimmed = value.trim();
+  const letters = Array.from(trimmed).filter((character) => /\p{L}/u.test(character)).join("");
+  return letters.length > 0 && letters.length <= 3 && /^[\p{Lu}\d][\p{L}\d'’* -]*$/u.test(trimmed);
 }
 
 function isTitleLine(value) {
@@ -208,28 +257,30 @@ function isTitleLine(value) {
     return false;
   }
 
-  const letters = value.replace(/[^A-Za-zÀ-ÖØ-öø-ÿ]/g, "");
+  const letters = Array.from(value).filter((character) => /\p{L}/u.test(character)).join("");
   if (letters.length < 2) {
     return false;
   }
 
-  const upperLetters = letters.replace(/[a-zà-öø-ÿ]/g, "");
+  const upperLetters = Array.from(letters).filter((character) => /\p{Lu}/u.test(character)).join("");
   return upperLetters.length / letters.length > 0.8;
 }
 
-function buildEvents(lines, eventStarts, dayRanges) {
+export function buildEvents(lines, eventStarts, dayRanges, scheduleEndIndex) {
   const idCounts = new Map();
 
   return eventStarts
     .map((start, index) => {
-      const nextStart = eventStarts[index + 1]?.titleStart ?? lines.length;
+      const nextStart = eventStarts[index + 1]?.titleStart ?? scheduleEndIndex;
+      const bodyEndIndex = Math.min(nextStart, scheduleEndIndex);
       const title = lines
         .slice(start.titleStart, start.categoryIndex)
         .map((line) => line.value)
+        .filter((value) => !isTitleSeparatorLine(value))
         .join(" ")
         .replace(/\s+/g, " ")
         .trim();
-      const category = lines[start.categoryIndex].value;
+      const category = normalizeCategory(lines[start.categoryIndex].value);
       const timeLine = lines[start.categoryIndex + 1]?.value ?? "";
       const timeMatch = timeLine.match(timePattern);
 
@@ -243,7 +294,7 @@ function buildEvents(lines, eventStarts, dayRanges) {
       }
 
       const bodyLines = lines
-        .slice(start.categoryIndex + 2, nextStart)
+        .slice(start.categoryIndex + 2, bodyEndIndex)
         .filter((line) => !dayNameToDate.has(line.value.toUpperCase()))
         .map((line) => line.value);
       const parsedBody = parseBody(bodyLines);
@@ -264,7 +315,9 @@ function buildEvents(lines, eventStarts, dayRanges) {
           display: `${normalizeTime(timeMatch[1])} - ${normalizeTime(timeMatch[2])}`
         },
         category,
+        ...(parsedBody.hosts.length > 0 ? { hosts: parsedBody.hosts } : {}),
         host: parsedBody.host,
+        ...(parsedBody.campHosts.length > 0 ? { campHosts: parsedBody.campHosts } : {}),
         campHost: parsedBody.campHost,
         location: parsedBody.location,
         ...(gridSquares.length > 0 ? { gridSquares } : {}),
@@ -279,14 +332,70 @@ function buildEvents(lines, eventStarts, dayRanges) {
     .filter(Boolean);
 }
 
+export function buildCampListings(lines, eventTitleStartIndexes, minPage) {
+  const listings = [];
+  const rawCampListingCandidates = [];
+  const ignoredCampListingCandidates = [];
+
+  for (let index = 0; index < lines.length; index += 1) {
+    if (lines[index].page <= minPage) {
+      continue;
+    }
+
+    const rawBlockInfo = getPotentialCampListingBlockInfo(lines, index, eventTitleStartIndexes);
+    const blockInfo = getCampListingBlockInfo(lines, index, eventTitleStartIndexes, rawBlockInfo);
+    if (rawBlockInfo && !blockInfo) {
+      ignoredCampListingCandidates.push({
+        page: lines[index].page,
+        title: lines[rawBlockInfo.titleIndex]?.value ?? "",
+        location: lines[rawBlockInfo.locationIndex]?.value ?? "",
+        reason: getIgnoredCampListingReason(lines[rawBlockInfo.titleIndex]?.value ?? "")
+      });
+    }
+    if (!blockInfo) {
+      continue;
+    }
+
+    const nextIndex = findNextBlockBoundary(lines, blockInfo.locationIndex + 1, eventTitleStartIndexes);
+    const bodyLines = lines.slice(blockInfo.locationIndex + 1, nextIndex).map((line) => line.value);
+    const parsedListing = parseCampListing(lines[blockInfo.titleIndex].value, lines[blockInfo.locationIndex].value, bodyLines);
+    const listingName = cleanTitle(lines[blockInfo.titleIndex].value);
+    const listingLocation = parseLocation(parsedListing.location);
+    const listing = {
+      id: slugify([listingName, listingLocation.name, lines[blockInfo.titleIndex].page].join(" ")),
+      name: listingName,
+      type: blockInfo.type,
+      location: listingLocation,
+      ...(parsedListing.gridSquares.length > 0 ? { gridSquares: parsedListing.gridSquares } : {}),
+      tags: parsedListing.tags,
+      description: parsedListing.description,
+      source: {
+        pdf: sourcePdf,
+        page: lines[blockInfo.titleIndex].page
+      }
+    };
+
+    listings.push(listing);
+    rawCampListingCandidates.push(listing);
+
+    index = nextIndex - 1;
+  }
+
+  return {
+    campListings: listings,
+    rawCampListingCandidates,
+    ignoredCampListingCandidates
+  };
+}
+
 function normalizeExtractedEvents(events) {
   const campLocationIndex = buildLocationIndex(events, {
-    getKeys: (event) => getCampLocationKeys(event.campHost),
-    allowEvent: (event) => Boolean(event.campHost)
+    getKeys: (event) => getCampLocationKeys(event.campHosts ?? (event.campHost ? [event.campHost] : [])),
+    allowEvent: (event) => Boolean(event.campHosts?.length || event.campHost)
   });
   const hostLocationIndex = buildLocationIndex(events, {
-    getKeys: (event) => getHostLocationKeys(event.host),
-    allowEvent: (event) => Boolean(event.host)
+    getKeys: (event) => getHostLocationKeys(event.hosts ?? (event.host ? [event.host] : [])),
+    allowEvent: (event) => Boolean(event.hosts?.length || event.host)
   });
 
   return events.map((event) => normalizeEventLocation(event, campLocationIndex, hostLocationIndex));
@@ -315,9 +424,12 @@ function buildLocationIndex(events, options) {
 }
 
 function normalizeEventLocation(event, campLocationIndex, hostLocationIndex) {
-  const mappedCampLocation = resolveMappedLocation(campLocationIndex, getCampLocationKeys(event.campHost));
-  const mappedHostLocation = !mappedCampLocation && !event.campHost
-    ? resolveMappedLocation(hostLocationIndex, getHostLocationKeys(event.host))
+  const mappedCampLocation = resolveMappedLocation(
+    campLocationIndex,
+    getCampLocationKeys(event.campHosts ?? (event.campHost ? [event.campHost] : []))
+  );
+  const mappedHostLocation = !mappedCampLocation && !(event.campHosts?.length || event.campHost)
+    ? resolveMappedLocation(hostLocationIndex, getHostLocationKeys(event.hosts ?? (event.host ? [event.host] : [])))
     : undefined;
   const replacementLocation = mappedCampLocation ?? mappedHostLocation;
 
@@ -372,42 +484,39 @@ function resolveMappedLocation(index, keys) {
 }
 
 function getBestLocationLabelFallback(event) {
-  const campLabel = getPreferredCampLabel(event.campHost);
+  const campLabel = getPreferredCampLabel(event.campHosts ?? (event.campHost ? [event.campHost] : []));
   if (campLabel) {
     return campLabel;
   }
 
-  return getPreferredHostLabel(event.host);
+  return getPreferredHostLabel(event.hosts ?? (event.host ? [event.host] : []));
 }
 
-function getCampLocationKeys(value) {
-  if (!value) {
-    return [];
-  }
-
-  const canonical = getCanonicalCampLabel(value);
-  return canonical ? [normalizeComparableText(canonical)] : [];
+function getCampLocationKeys(values) {
+  return values.flatMap((value) => {
+    const canonical = getCanonicalCampLabel(value);
+    return canonical ? [normalizeComparableText(canonical)] : [];
+  });
 }
 
-function getHostLocationKeys(value) {
-  if (!value) {
-    return [];
-  }
-
-  const canonical = getCanonicalHostLabel(value);
-  return canonical ? [normalizeComparableText(canonical)] : [];
+function getHostLocationKeys(values) {
+  return values.flatMap((value) => {
+    const canonical = getCanonicalHostLabel(value);
+    return canonical ? [normalizeComparableText(canonical)] : [];
+  });
 }
 
-function getPreferredCampLabel(value) {
-  return value ? getCanonicalCampLabel(value) : undefined;
+function getPreferredCampLabel(values) {
+  return values.map(getCanonicalCampLabel).find(Boolean);
 }
 
-function getPreferredHostLabel(value) {
-  return value ? getCanonicalHostLabel(value) : undefined;
+function getPreferredHostLabel(values) {
+  return values.map(getCanonicalHostLabel).find(Boolean);
 }
 
-function getCanonicalCampLabel(value) {
-  const normalizedValue = normalizeComparableText(value);
+export function getCanonicalCampLabel(value) {
+  const trimmedValue = stripTrailingMetadataFlags(value.trim());
+  const normalizedValue = normalizeComparableText(trimmedValue);
   for (const [canonical, aliases] of Object.entries(campHostAliases)) {
     const normalizedCanonical = normalizeComparableText(canonical);
     if (normalizedValue === normalizedCanonical || aliases.some((alias) => normalizeComparableText(alias) === normalizedValue)) {
@@ -415,11 +524,12 @@ function getCanonicalCampLabel(value) {
     }
   }
 
-  return value.trim();
+  return trimmedValue;
 }
 
-function getCanonicalHostLabel(value) {
-  const normalizedValue = normalizeComparableText(value);
+export function getCanonicalHostLabel(value) {
+  const trimmedValue = stripTrailingMetadataFlags(value.trim());
+  const normalizedValue = normalizeComparableText(trimmedValue);
   for (const [canonical, aliases] of Object.entries(hostAliases)) {
     const normalizedCanonical = normalizeComparableText(canonical);
     if (normalizedValue === normalizedCanonical || aliases.some((alias) => normalizeComparableText(alias) === normalizedValue)) {
@@ -427,7 +537,36 @@ function getCanonicalHostLabel(value) {
     }
   }
 
-  return value.trim();
+  return trimmedValue;
+}
+
+function stripTrailingMetadataFlags(value) {
+  let current = value.trim();
+  let next = stripOneMetadataSuffix(current);
+
+  while (next && next !== current) {
+    current = next;
+    next = stripOneMetadataSuffix(current);
+  }
+
+  return current || value.trim();
+}
+
+function stripOneMetadataSuffix(value) {
+  const normalizedValue = normalizeComparableText(value);
+  const matchingSuffix = normalizedMetadataSuffixes.find(
+    (suffix) => normalizedValue === suffix || normalizedValue.endsWith(` ${suffix}`)
+  );
+
+  if (!matchingSuffix) {
+    return value.trim();
+  }
+
+  const suffixPattern = metadataSuffixes
+    .map((suffix) => escapeRegExp(suffix).replace(/\s+/g, "\\s*[-–—]?\\s*"))
+    .join("|");
+
+  return value.replace(new RegExp(`(?:\\s*[·,/|-]?\\s*)(?:${suffixPattern})\\s*$`, "i"), "").trim();
 }
 
 function createLocationSignature(locationName, gridSquares) {
@@ -477,10 +616,22 @@ function parseBody(lines) {
   }
 
   const parsedMetadata = parseEventMetadata(metadataValue);
+  const trailingLocation = parsedMetadata.trailingLocation
+    ? consumeLocationContinuation(parsedMetadata.trailingLocation, descriptionLines)
+    : undefined;
+  if (trailingLocation) {
+    descriptionLines = trailingLocation.remainingLines;
+  }
+
   const implicitLocation = deriveImplicitLocation({
     locationLines,
     descriptionLines,
-    parsedMetadata
+    parsedMetadata: trailingLocation
+      ? {
+          ...parsedMetadata,
+          trailingLocation: trailingLocation.location
+        }
+      : parsedMetadata
   });
   const correctedLocation = correctKnownLocation({
     explicitLocation: locationLines.join(" "),
@@ -491,11 +642,41 @@ function parseBody(lines) {
   const normalizedMetadata = normalizeParsedMetadata(parsedMetadata, correctedLocation);
 
   return {
+    hosts: normalizedMetadata.hosts,
     host: normalizedMetadata.host,
+    campHosts: normalizedMetadata.campHosts,
     campHost: normalizedMetadata.campHost,
     tags: foundTags,
     location: parseLocation(correctedLocation),
     description: description.join(" ").replace(/\s+/g, " ").trim()
+  };
+}
+
+function parseCampListing(title, baseLocation, lines) {
+  const normalizedLines = mergeBrokenMetadataLines(lines);
+  const { location, remainingLines } = consumeLocationContinuation(baseLocation, normalizedLines);
+  const foundTags = [];
+  const descriptionLines = [];
+
+  for (const line of remainingLines) {
+    const lineTags = extractTags(line);
+    for (const tag of lineTags) {
+      if (!foundTags.includes(tag)) {
+        foundTags.push(tag);
+      }
+    }
+
+    const cleaned = removeMetadataFlags(removeTags(line)).trim();
+    if (cleaned) {
+      descriptionLines.push(cleaned);
+    }
+  }
+
+  return {
+    location,
+    gridSquares: extractGridSquareRefsFromText(location, { allowBare: true }),
+    tags: foundTags,
+    description: descriptionLines.join(" ").replace(/\s+/g, " ").trim()
   };
 }
 
@@ -518,16 +699,24 @@ function deriveImplicitLocation({ locationLines, descriptionLines, parsedMetadat
 
 function normalizeParsedMetadata(parsedMetadata, locationValue) {
   const normalizedLocation = normalizeComparableText(locationValue);
+  const hosts = (parsedMetadata.hosts ?? [])
+    .filter((host) => !isLikelyMetadataLocation(host, normalizedLocation))
+    .map((host) => host.trim());
+  const campHosts = (parsedMetadata.campHosts ?? [])
+    .filter((campHost) => !isLikelyMetadataLocation(campHost, normalizedLocation))
+    .map((campHost) => campHost.trim());
 
   return {
+    hosts,
     host:
       parsedMetadata.host && isLikelyMetadataLocation(parsedMetadata.host, normalizedLocation)
         ? undefined
-        : parsedMetadata.host,
+        : hosts[0] ?? parsedMetadata.host,
+    campHosts,
     campHost:
       parsedMetadata.campHost && isLikelyMetadataLocation(parsedMetadata.campHost, normalizedLocation)
         ? undefined
-        : parsedMetadata.campHost
+        : campHosts[0] ?? parsedMetadata.campHost
   };
 }
 
@@ -605,6 +794,10 @@ function mergeBrokenMetadataLines(lines) {
 }
 
 function shouldMergeWrappedContinuation(current, next) {
+  if (current.includes("/") && isLocationLine(next)) {
+    return false;
+  }
+
   const nextStartsLikeContinuation = /^[a-z(]/.test(next);
   if (!nextStartsLikeContinuation) {
     return false;
@@ -641,22 +834,116 @@ function parseEventMetadata(value) {
     .split("/")
     .map((part) => cleanMetadata(part))
     .filter(Boolean);
-
-  if (parts.length < 2) {
-    return { host: cleaned };
+  const splitLastPart = splitMetadataLocationPart(parts[parts.length - 1]);
+  if (splitLastPart) {
+    parts[parts.length - 1] = splitLastPart.value;
   }
 
-  if (parts.length >= 3 && isLikelyImplicitLocationLine(parts[parts.length - 1])) {
+  if (parts.length < 2) {
+    const hosts = parseAssociatedNames(splitLastPart?.value ?? cleaned, "host");
     return {
-      host: parts.slice(0, -2).join(" / ") || undefined,
-      campHost: parts[parts.length - 2],
-      trailingLocation: parts[parts.length - 1]
+      ...(hosts.length > 0 ? { hosts, host: hosts[0] } : {}),
+      ...(splitLastPart?.trailingLocation ? { trailingLocation: splitLastPart.trailingLocation } : {})
     };
   }
 
+  if (
+    parts.length >= 3 &&
+    (isLikelyImplicitLocationLine(parts[parts.length - 1]) || Boolean(splitLastPart?.trailingLocation))
+  ) {
+    const hosts = parseAssociatedNames(parts.slice(0, -2), "host");
+    const campHosts = parseAssociatedNames(parts[parts.length - 2], "camp");
+    return {
+      ...(hosts.length > 0 ? { hosts, host: hosts[0] } : {}),
+      ...(campHosts.length > 0 ? { campHosts, campHost: campHosts[0] } : {}),
+      trailingLocation: splitLastPart?.trailingLocation ?? parts[parts.length - 1]
+    };
+  }
+
+  const hosts = parseAssociatedNames(parts.slice(0, -1), "host");
+  const campHosts = parseAssociatedNames(parts[parts.length - 1], "camp");
   return {
-    host: parts.slice(0, -1).join(" / "),
-    campHost: parts[parts.length - 1]
+    ...(hosts.length > 0 ? { hosts, host: hosts[0] } : {}),
+    ...(campHosts.length > 0 ? { campHosts, campHost: campHosts[0] } : {}),
+    ...(splitLastPart?.trailingLocation ? { trailingLocation: splitLastPart.trailingLocation } : {})
+  };
+}
+
+function parseAssociatedNames(value, type) {
+  const parts = Array.isArray(value) ? value : [value];
+  const names = parts.flatMap((part) => splitAssociatedNameValue(part, type)).map((part) => part.trim()).filter(Boolean);
+  const uniqueNames = [];
+  const seen = new Set();
+
+  for (const name of names) {
+    const key = normalizeComparableText(name);
+    if (!key || seen.has(key)) {
+      continue;
+    }
+
+    seen.add(key);
+    uniqueNames.push(name);
+  }
+
+  return uniqueNames;
+}
+
+function splitAssociatedNameValue(value, type) {
+  const cleaned = cleanMetadata(value);
+  if (!cleaned) {
+    return [];
+  }
+
+  const delimiters = type === "camp"
+    ? [/\s+in collab with\s+/i, /\s*&\s*/i, /\s+and\s+/i, /\s+with\s+/i]
+    : [/\s*&\s*/i, /\s+and\s+/i, /\s+with\s+/i];
+
+  for (const delimiter of delimiters) {
+    const parts = cleaned.split(delimiter).map((part) => part.trim()).filter(Boolean);
+    if (parts.length > 1 && parts.every((part) => isLikelyAssociatedNamePart(part, type))) {
+      return parts;
+    }
+  }
+
+  const commaParts = cleaned.split(/\s*,\s*/).map((part) => part.trim()).filter(Boolean);
+  if (commaParts.length > 1 && commaParts.every((part) => isLikelyAssociatedNamePart(part, type))) {
+    return commaParts;
+  }
+
+  return [cleaned];
+}
+
+function isLikelyAssociatedNamePart(value, type) {
+  if (!value) {
+    return false;
+  }
+
+  if (type === "camp") {
+    return !/\b(?:people|grid square|exact location|look for|follow|go to|next to|somewhere)\b/i.test(value);
+  }
+
+  return !/\b(?:grid square|look for|follow|go to|somewhere|location)\b/i.test(value);
+}
+
+function splitMetadataLocationPart(value) {
+  if (!value) {
+    return undefined;
+  }
+
+  const boundaryIndex = findLocationBoundaryIndex(value);
+  if (boundaryIndex <= 0) {
+    return undefined;
+  }
+
+  const metadataValue = value.slice(0, boundaryIndex).trim();
+  const trailingLocation = value.slice(boundaryIndex).trim();
+  if (!metadataValue || !trailingLocation) {
+    return undefined;
+  }
+
+  return {
+    value: metadataValue,
+    trailingLocation
   };
 }
 
@@ -715,6 +1002,14 @@ function isLocationLine(value) {
   );
 }
 
+function isPageNumberLine(value) {
+  return /^\d{1,3}$/.test(value.trim());
+}
+
+function normalizeCategory(value) {
+  return value === "Weird shit/Other" ? "Other" : value;
+}
+
 function isMetadataOnlyLine(value) {
   return removeMetadataFlags(value).length === 0;
 }
@@ -738,6 +1033,235 @@ function isLikelyImplicitLocationLine(value) {
   );
 }
 
+function findLocationBoundaryIndex(value) {
+  const areaMatchIndexes = areaNames
+    .map((area) => value.indexOf(area))
+    .filter((index) => index > 0);
+  const keywordMatches = [
+    value.search(/\bgrid square\b/i),
+    value.search(/\b(?:in|at|by|around|near|outside|inside|under|behind|next to|look for|find us|meet at)\b/i)
+  ].filter((index) => index > 0);
+  const indexes = [...areaMatchIndexes, ...keywordMatches].filter((index) => index > 0);
+
+  return indexes.length > 0 ? Math.min(...indexes) : -1;
+}
+
+function consumeLocationContinuation(baseLocation, lines) {
+  const locationParts = [baseLocation.trim()];
+  let index = 0;
+
+  while (index < lines.length && isLocationContinuationLine(lines[index], locationParts[locationParts.length - 1])) {
+    locationParts.push(lines[index].trim());
+    index += 1;
+  }
+
+  return {
+    location: locationParts.join(" ").replace(/\s+/g, " ").trim(),
+    remainingLines: lines.slice(index)
+  };
+}
+
+function isLocationContinuationLine(value, previousLocationPart = "") {
+  const trimmed = value.trim();
+  const lower = trimmed.toLowerCase();
+  const previousLower = previousLocationPart.toLowerCase().trim();
+
+  if (/^[a-z]/.test(trimmed) || /^to\b/.test(lower)) {
+    return true;
+  }
+
+  return (
+    /(?:next to|close to|behind|under|inside|outside|around|near|at|in)$/.test(previousLower) &&
+    /^[A-ZÀ-ÖØ-Þ0-9][A-Za-zÀ-ÖØ-öø-ÿ0-9'’* -]*$/u.test(trimmed) &&
+    !/[.!?]$/.test(trimmed)
+  );
+}
+
+function isCapacityLine(value) {
+  return /\bpeople\b/i.test(value);
+}
+
+function getPotentialCampListingBlockInfo(lines, index, eventTitleStartIndexes) {
+  const directListing = getCampListingLocationIndex(lines, index);
+  if (directListing !== -1) {
+    return {
+      startIndex: index,
+      titleIndex: index,
+      locationIndex: directListing,
+      type: "Camp"
+    };
+  }
+
+  if (
+    campListingSectionLabelPattern.test(lines[index]?.value ?? "") &&
+    !eventTitleStartIndexes.has(index + 1) &&
+    isTitleLine(lines[index + 1]?.value ?? "")
+  ) {
+    const categorizedListingLocation = getCampListingLocationIndex(lines, index + 1);
+    if (categorizedListingLocation !== -1) {
+      return {
+        startIndex: index,
+        titleIndex: index + 1,
+        locationIndex: categorizedListingLocation,
+        type: normalizeCampListingType(lines[index].value)
+      };
+    }
+  }
+
+  return undefined;
+}
+
+function getCampListingBlockInfo(lines, index, eventTitleStartIndexes, potentialBlockInfo = undefined) {
+  const blockInfo = potentialBlockInfo ?? getPotentialCampListingBlockInfo(lines, index, eventTitleStartIndexes);
+  if (!blockInfo) {
+    return undefined;
+  }
+
+  return isLikelyCampListingTitleLine(lines[blockInfo.titleIndex]?.value ?? "") ? blockInfo : undefined;
+}
+
+function isLikelyCampListingTitleLine(value) {
+  if (!value) {
+    return false;
+  }
+
+  const trimmed = value.trim();
+  if (
+    isMetadataOnlyLine(trimmed) ||
+    isCapacityLine(trimmed) ||
+    isPageNumberLine(trimmed) ||
+    timePattern.test(trimmed) ||
+    categorySet.has(trimmed) ||
+    dayNameToDate.has(trimmed.toUpperCase()) ||
+    /^[a-z]/.test(trimmed)
+  ) {
+    return false;
+  }
+
+  return isTitleLine(trimmed) || isHeadlineStyleTitleLine(trimmed);
+}
+
+function isHeadlineStyleTitleLine(value) {
+  if (/[.,:]$/.test(value) || /\b(?:find|between|inside|located|returns|serving|glow|brought|built|gather)\b/i.test(value)) {
+    return false;
+  }
+
+  const words = value.match(/[A-Za-zÀ-ÖØ-öø-ÿ0-9'’*]+/g) ?? [];
+  if (words.length === 0) {
+    return false;
+  }
+
+  const lowercaseContentWords = words.filter(
+    (word) =>
+      /^[a-zà-öø-ÿ]/.test(word) &&
+      word.length > 3 &&
+      !new Set(["and", "the", "with", "from", "into", "over", "under"]).has(word.toLowerCase())
+  );
+  const leadingUppercaseWords = words.filter((word) => /^[A-ZÀ-ÖØ-Þ0-9]/.test(word));
+
+  return lowercaseContentWords.length <= 1 && leadingUppercaseWords.length / words.length >= 0.6;
+}
+
+function getIgnoredCampListingReason(value) {
+  if (isMetadataOnlyLine(value)) {
+    return "metadata-only title line";
+  }
+
+  if (/^[a-z]/.test(value.trim())) {
+    return "description continuation treated as title";
+  }
+
+  return "invalid listing title";
+}
+
+function getCampListingLocationIndex(lines, titleIndex) {
+  const firstCandidate = titleIndex + 1;
+  const secondCandidate = titleIndex + 2;
+
+  if (lines[firstCandidate] && isCampListingLocationLine(lines[firstCandidate].value)) {
+    return firstCandidate;
+  }
+
+  if (
+    lines[firstCandidate] &&
+    isCapacityLine(lines[firstCandidate].value) &&
+    lines[secondCandidate] &&
+    isCampListingLocationLine(lines[secondCandidate].value)
+  ) {
+    return secondCandidate;
+  }
+
+  return -1;
+}
+
+function isCampListingLocationLine(value) {
+  const lower = value.toLowerCase();
+  return (
+    areaNames.some((area) => value.startsWith(area)) ||
+    containsKnownVenueReference(value) ||
+    extractRawGridLabelsFromText(value, { allowBare: true }).length > 0 ||
+    lower.includes("grid square") ||
+    /^(?:look for|follow|go to|go towards|go toward|right next to|close to|everywhere|orange van)\b/.test(lower)
+  );
+}
+
+function normalizeCampListingType(value) {
+  return value === "WEIRD SHIT/OTHER" ? "Other" : titleCaseCategory(value);
+}
+
+function titleCaseCategory(value) {
+  const normalizedValue = value.trim();
+  const exactCategory = categories.find((category) => category.toUpperCase() === normalizedValue.toUpperCase());
+  return exactCategory ? normalizeCategory(exactCategory) : "Camp";
+}
+
+function isCampListingStart(lines, index, eventTitleStartIndexes) {
+  const value = lines[index]?.value ?? "";
+  const previousValue = lines[index - 1]?.value ?? "";
+
+  if (
+    !value ||
+    eventTitleStartIndexes.has(index) ||
+    dayNameToDate.has(value.toUpperCase()) ||
+    categorySet.has(value) ||
+    timePattern.test(value) ||
+    isPageNumberLine(value)
+  ) {
+    return false;
+  }
+
+  if (categorySet.has(previousValue) || timePattern.test(previousValue) || dayNameToDate.has(previousValue.toUpperCase())) {
+    return false;
+  }
+
+  return Boolean(getCampListingBlockInfo(lines, index, eventTitleStartIndexes));
+}
+
+function findNextCampListingStart(lines, startIndex, endIndex, eventTitleStartIndexes) {
+  for (let index = startIndex; index < endIndex; index += 1) {
+    if (isCampListingStart(lines, index, eventTitleStartIndexes)) {
+      return index;
+    }
+  }
+
+  return undefined;
+}
+
+function findNextBlockBoundary(lines, startIndex, eventTitleStartIndexes) {
+  for (let index = startIndex; index < lines.length; index += 1) {
+    const value = lines[index].value;
+    if (
+      dayNameToDate.has(value.toUpperCase()) ||
+      eventTitleStartIndexes.has(index) ||
+      isCampListingStart(lines, index, eventTitleStartIndexes)
+    ) {
+      return index;
+    }
+  }
+
+  return lines.length;
+}
+
 function containsKnownVenueReference(value) {
   return /lucifer[’']?s pit/i.test(value);
 }
@@ -754,12 +1278,13 @@ function normalizeComparableText(value) {
 function parseLocation(value) {
   const cleanValue = value.replace(/\s+/g, " ").trim() || "Location to be confirmed";
   const gridSquares = extractGridSquareRefsFromText(cleanValue, { allowBare: true });
+  const rawGridLabels = extractRawGridLabelsFromText(cleanValue, { allowBare: true });
   const area = areaNames.find((name) => cleanValue.startsWith(name));
 
   return {
     name: cleanValue,
     area,
-    gridSquare: gridSquares[0]?.label,
+    gridSquare: gridSquares[0]?.label ?? rawGridLabels[0],
     notes: area ? cleanValue.replace(area, "").replace(/^,\s*/, "").trim() || undefined : undefined
   };
 }
@@ -780,9 +1305,12 @@ function computeEventGridSquares(event, resolvedGridSquares) {
 
 function extractEventGridSquares(parsedBody) {
   const locationSquares = extractGridSquareRefsFromText(parsedBody.location.name, { allowBare: true });
-  const metadataSquares = extractGridSquareRefsFromText([parsedBody.host, parsedBody.campHost].filter(Boolean).join(" "), {
-    allowBare: false
-  });
+  const metadataSquares = extractGridSquareRefsFromText(
+    [parsedBody.host, parsedBody.campHost, ...(parsedBody.hosts ?? []), ...(parsedBody.campHosts ?? [])]
+      .filter(Boolean)
+      .join(" "),
+    { allowBare: false }
+  );
   const descriptionSquares =
     locationSquares.length === 0
       ? extractGridSquareRefsFromText(parsedBody.description, { allowBare: false })
@@ -820,6 +1348,27 @@ function extractGridSquareRefsFromText(value, options = {}) {
   }
 
   return dedupeGridSquareRefs(refs);
+}
+
+export function extractRawGridLabelsFromText(value, options = {}) {
+  const allowBare = options.allowBare ?? false;
+  const labels = [];
+  const text = value.toUpperCase();
+
+  for (const match of text.matchAll(contextualGridPattern)) {
+    const gridList = match[1] ?? "";
+    for (const tokenMatch of gridList.matchAll(gridTokenPattern)) {
+      labels.push(`${tokenMatch[1]}${String(Number(tokenMatch[2])).padStart(2, "0")}`);
+    }
+  }
+
+  if (allowBare) {
+    for (const match of text.matchAll(bareGridPattern)) {
+      labels.push(`${match[1]}${String(Number(match[2])).padStart(2, "0")}`);
+    }
+  }
+
+  return Array.from(new Set(labels));
 }
 
 function createGridSquareRef(columnValue, rowValue) {
@@ -897,7 +1446,9 @@ function slugify(value) {
     .slice(0, 96);
 }
 
-main().catch((error) => {
-  console.error(error);
-  process.exit(1);
-});
+if (process.argv[1] && pathToFileURL(path.resolve(process.argv[1])).href === import.meta.url) {
+  main().catch((error) => {
+    console.error(error);
+    process.exit(1);
+  });
+}

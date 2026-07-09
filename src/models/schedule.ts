@@ -87,6 +87,8 @@ export type FestivalTag =
   | "Sober"
   | "Triggering themes";
 
+export type FestivalCampListingType = FestivalCategory | "Camp";
+
 export interface FestivalDay {
   id: string;
   label: string;
@@ -115,8 +117,24 @@ export interface FestivalEvent {
   date: string;
   time: EventTimeRange;
   category: FestivalCategory;
+  hosts?: string[];
   host?: string;
+  campHosts?: string[];
   campHost?: string;
+  location: FestivalLocation;
+  gridSquares?: GridSquareRef[];
+  tags: FestivalTag[];
+  description: string;
+  source: {
+    pdf: string;
+    page: number;
+  };
+}
+
+export interface FestivalCampListing {
+  id: string;
+  name: string;
+  type: FestivalCampListingType;
   location: FestivalLocation;
   gridSquares?: GridSquareRef[];
   tags: FestivalTag[];
@@ -132,6 +150,7 @@ export interface NormalizedSchedule {
   sourcePdf: string;
   days: FestivalDay[];
   events: FestivalEvent[];
+  campListings: FestivalCampListing[];
 }
 
 export interface SavedEventState {

@@ -1,7 +1,20 @@
 import generatedSchedule from "@/data/generatedSchedule";
+import {
+  getCampAliasesForCanonical,
+  getCampHostGroups,
+  getCanonicalCampHost,
+  getCanonicalHost,
+  getHostAliasesForCanonical,
+  getRawCampHostLabelsForEvent,
+  getRawHostLabelsForEvent,
+  normalizeAssociationKey,
+  resolveCampHostSelection,
+  resolveHostSelection
+} from "@/lib/campAliases";
 import { getAdjacentGridSquares } from "@/lib/mapGrid";
 import type {
   FestivalCategory,
+  FestivalCampListing,
   FestivalDay,
   FestivalEvent,
   FestivalEventId,
@@ -10,6 +23,16 @@ import type {
   NormalizedSchedule
 } from "@/models/schedule";
 
+export {
+  getCampHostGroups,
+  getCanonicalCampHost,
+  getCanonicalHost,
+  getRawCampHostLabelsForEvent,
+  getRawHostLabelsForEvent,
+  resolveCampHostSelection,
+  resolveHostSelection
+};
+
 export const schedule: NormalizedSchedule = generatedSchedule;
 
 export interface CampLocationGroup {
@@ -17,7 +40,33 @@ export interface CampLocationGroup {
   square: GridSquareRef;
 }
 
+interface SearchQuery {
+  exact: string;
+  terms: string[];
+}
+
+interface SearchFieldIndex {
+  text: string;
+  terms: string[];
+}
+
+interface SearchIndex {
+  primary: SearchFieldIndex;
+  secondary: SearchFieldIndex;
+  description: SearchFieldIndex;
+  full: SearchFieldIndex;
+}
+
 const byId = new Map(schedule.events.map((event) => [event.id, event]));
+const campListingsById = new Map(schedule.campListings.map((listing) => [listing.id, listing]));
+const campListingsByName = new Map(schedule.campListings.map((listing) => [normalizeCampHostKey(listing.name), listing]));
+const campListingsByCanonicalName = schedule.campListings.reduce((map, listing) => {
+  const canonicalName = getCanonicalCampHost(listing.name);
+  const existing = map.get(canonicalName) ?? [];
+  existing.push(listing);
+  map.set(canonicalName, existing);
+  return map;
+}, new Map<string, FestivalCampListing[]>());
 const tagAliases: Record<FestivalTag, string[]> = {
   "Adults only": ["Adult only", "Adults"],
   "Queer-inclusive": ["Queer inclusive", "Queer-focused", "Queer focused", "Queer"],
@@ -32,77 +81,6 @@ const tagAliasLookup = new Map(
     ...aliases.map((alias) => [normalizeTagKey(alias), canonical as FestivalTag] as const)
   ])
 );
-const campHostAliases = new Map(
-  Object.entries({
-    "All Senses, No Sense": [
-      "Camp All Senses, No Sense",
-      "All Senses, No Sense - East slope",
-      "All Senses, No Sense - East slope only"
-    ],
-    "B.L.U.E Bureau of Logical Universal Enquiries": ["B.L.U.E Bureau"],
-    "Cheeky Butt Chill Camp": ["Cheeky Butt", "Chillcamp"],
-    "Circus the Analog": ["CIRCUS the ANALOG", "Circus teh Analog", "Circus the analogue"],
-    "Club Sin": ["Club SIN", "Club SIN only"],
-    "Eld&Rötter Mystic Hammock Haven": ["Eld&Rötter (but start is next to Threshold)"],
-    "Elven Saunacave": ["Elven Saunacave-DOME"],
-    "End of the Rainbow": ["End Of The Rainbow", "End of the Rainbow (Venue)"],
-    "Free camp": ["Free camping"],
-    "Gate of Alvheim": ["Gate Of Alvheim"],
-    GlitterTind: ["Glittertind in Trolltunga mini tent"],
-    "House of glöd": ["House of Glöd"],
-    "Jam camp": ["Jam Camp", "JAM CAMP", "JAM CAMP !", "JamCamp"],
-    Kidsville: ["Kidsville dome", "Kidsville Workshop Dome"],
-    "Lucifer's Pit": ["Lucifer's Pit · content"],
-    "Lazy camp": ["LAZY camp", "LAZY Camp"],
-    "Löyhä liitto": ["Löyhä Liitto"],
-    MŸS: ["MYS Dome"],
-    "Njorunns (Space) Garden": ["Njorunn's Garden", "Njorunns Garden"],
-    "Passage to Lemuria": ["Passage To Lemuria"],
-    "Pink Parachute": ["Pink Parachute & secret location in forest"],
-    "Room of Requirements": ["Room of Requirement", "Room Of Requirement"],
-    "Secret sailors": ["Secret Sailors"],
-    "Secret Garden": ["Secret Garden · themes", "Secret Garden themes"],
-    "Silly sanctuary": ["Silly Sanctuary", "Silly sanctuary content"],
-    Somewhere: ["Somewhere in the hills", "somewhere near a fireplace"],
-    "Tantric Trolls": ["Tantric trolls", "Trantric Trolls", "The Tantric Trolls"],
-    "Tea by the Sea": ["Tea By The Sea", "Tea by the Sea dream"],
-    "The Bear's Den": ["The Bears Den"],
-    "The Bureau of Justice, Joy, Bubbles and Other Dangerous Ideas": [
-      "The Bureau of Justice, Joy, Bubbles, and Other Dangerous Ideas"
-    ],
-    "The church": ["The Church"],
-    "The Goslings": ["The goslings"],
-    "The Heartspace": ["THE HEARTSPACE", "The Heartspace · themes"],
-    "The Sealions Den": ["The SeaLions Den"],
-    "The secret outpost": ["the secret outpost", "The secret outpost!"],
-    "The Sun": ["The SUN"],
-    "The Tribe": [
-      "The Tribe (in Agrabah Village)",
-      "The Tribe, Agraba Village",
-      "The Tribe, Agraba village",
-      "The Tribe, Argaba Village",
-      "The Tribe, Argaba village"
-    ],
-    "Welcome Home Darling": ["Welcome Home, Darling", "Welcome Home Darling! (Meeting place)"],
-    "Sacred Kink": ["Sacret Kink"],
-    "The Observatory": ["The Obsetvatory", "The Obvervatory"],
-    "Foajé Villa Hutlös": ["Foyaé Villa Hutlös"],
-    "The Wrecked Yachtees Asylum": ["The Wracked Yachtees Asylum", "The Wrecked Yachtees"],
-    "Kishmastle Space Station": ["Kishmastle Spacestation"],
-    "Camp Spaceport": ["Spaceport", "By the fire in Camp Spaceport", "Spaceport Camp VIP Lounge"],
-    "Camp Socialen": ["Socialen", "Camp Socialen", "Socialen Public Offering"],
-    "Wild Sacred Fire": ["The Wild Sacred Fire", "Wild Sacred Fire · themes"],
-    "Grateful Grogg": ["The Grateful Grogg"],
-    "Jousting Jesters": ["The Jousting Jesters"],
-    "Women who support women": ["Women who supports women"]
-  }).flatMap(([canonical, aliases]) => [
-    [normalizeCampHostKey(canonical), canonical] as const,
-    ...aliases.map((alias) => [normalizeCampHostKey(alias), canonical] as const)
-  ])
-);
-const campHostGroupAliases = new Map<string, string[]>([
-  [normalizeCampHostKey("End of the Block Lounge in collab with Kidsville"), ["End of the Block Lounge", "Kidsville"]]
-]);
 
 export function getScheduleDays(): FestivalDay[] {
   return schedule.days;
@@ -114,6 +92,14 @@ export function getAllEvents(): FestivalEvent[] {
 
 export function getEventById(id: FestivalEventId): FestivalEvent | undefined {
   return byId.get(id);
+}
+
+export function getEventHosts(event: FestivalEvent): string[] {
+  return Array.from(new Set(getRawHostLabelsForEvent(event).map(getCanonicalHost).filter(Boolean)));
+}
+
+export function getEventCampHosts(event: FestivalEvent): string[] {
+  return Array.from(new Set(getRawCampHostLabelsForEvent(event).flatMap(getCampHostGroups)));
 }
 
 export function getEventsForGridSquare(square: GridSquareRef): FestivalEvent[] {
@@ -133,20 +119,54 @@ export function getEventsForAdjacentGridSquares(square: GridSquareRef): Festival
   return sortEvents(Array.from(eventsById.values()));
 }
 
+export function getCampListings(): FestivalCampListing[] {
+  return [...schedule.campListings].sort((a, b) => a.name.localeCompare(b.name));
+}
+
+export function getCampListingById(id: string): FestivalCampListing | undefined {
+  return campListingsById.get(id);
+}
+
+export function getCampListingByName(name: string): FestivalCampListing | undefined {
+  const normalizedName = normalizeCampHostKey(name);
+  const directMatch = campListingsByName.get(normalizedName);
+  if (directMatch) {
+    return directMatch;
+  }
+
+  return campListingsByCanonicalName.get(getCanonicalCampHost(name))?.[0];
+}
+
+export function getCampListingsForCampHost(name: string): FestivalCampListing[] {
+  return campListingsByCanonicalName.get(getCanonicalCampHost(name)) ?? [];
+}
+
 export function getCampLocationsByGridSquare(): CampLocationGroup[] {
   const campsBySquare = new Map<string, { camps: Set<string>; square: GridSquareRef }>();
 
   for (const event of schedule.events) {
-    if (!event.campHost || !event.gridSquares?.length) {
+    const campHosts = getEventCampHosts(event);
+    if (campHosts.length === 0 || !event.gridSquares?.length) {
       continue;
     }
 
-    const campHosts = getCampHostGroups(event.campHost);
     for (const square of event.gridSquares) {
       const existing = campsBySquare.get(square.key) ?? { camps: new Set<string>(), square };
       for (const campHost of campHosts) {
         existing.camps.add(campHost);
       }
+      campsBySquare.set(square.key, existing);
+    }
+  }
+
+  for (const listing of schedule.campListings) {
+    if (!listing.gridSquares?.length) {
+      continue;
+    }
+
+    for (const square of listing.gridSquares) {
+      const existing = campsBySquare.get(square.key) ?? { camps: new Set<string>(), square };
+      existing.camps.add(getCanonicalCampHost(listing.name));
       campsBySquare.set(square.key, existing);
     }
   }
@@ -174,6 +194,34 @@ export function getDayLabelForEvent(event: FestivalEvent): string {
 
 export function getEventsForDay(dayId: string): FestivalEvent[] {
   return sortEvents(schedule.events.filter((event) => event.dayId === dayId));
+}
+
+export function getEventsForCampHost(campHost: string): FestivalEvent[] {
+  const canonicalCampHost = getCanonicalCampHost(campHost);
+  return sortEvents(
+    schedule.events.filter((event) => getEventCampHosts(event).includes(canonicalCampHost))
+  );
+}
+
+export function getEventsForHost(host: string): FestivalEvent[] {
+  const canonicalHost = getCanonicalHost(host);
+  return sortEvents(schedule.events.filter((event) => getEventHosts(event).includes(canonicalHost)));
+}
+
+export function getMatchedCampHostLabelForEvent(event: FestivalEvent, canonicalCampHosts: string[]): string | undefined {
+  const selectedCampHosts = new Set(canonicalCampHosts.map(getCanonicalCampHost));
+  const matchingLabels = getRawCampHostLabelsForEvent(event).filter((label) =>
+    getCampHostGroups(label).some((campHost) => selectedCampHosts.has(campHost))
+  );
+
+  return matchingLabels.length > 0 ? matchingLabels.join(" · ") : event.campHost;
+}
+
+export function getMatchedHostLabelForEvent(event: FestivalEvent, canonicalHosts: string[]): string | undefined {
+  const selectedHosts = new Set(canonicalHosts.map(getCanonicalHost));
+  const matchingLabels = getRawHostLabelsForEvent(event).filter((label) => selectedHosts.has(getCanonicalHost(label)));
+
+  return matchingLabels.length > 0 ? matchingLabels.join(" · ") : event.host;
 }
 
 export function getCategories(): FestivalCategory[] {
@@ -205,12 +253,13 @@ export function getSearchableTagTerms(tag: FestivalTag): string[] {
 }
 
 export function tagMatchesQuery(tag: FestivalTag, query: string): boolean {
-  const normalizedQuery = normalizeTagKey(query);
-  if (!normalizedQuery) {
+  const searchQuery = createSearchQuery(query);
+  if (!searchQuery.exact) {
     return true;
   }
 
-  return getSearchableTagTerms(tag).some((term) => normalizeTagKey(term).includes(normalizedQuery));
+  const index = createSearchIndex(getSearchableTagTerms(tag));
+  return matchesSearchIndex(index, searchQuery);
 }
 
 export function getEventTitleSuggestions(query: string, limit = 6, dayId?: string): string[] {
@@ -218,15 +267,15 @@ export function getEventTitleSuggestions(query: string, limit = 6, dayId?: strin
 }
 
 export function getEventSuggestions(query: string, limit = 6, dayId?: string): FestivalEvent[] {
-  const normalizedQuery = normalizeSearch(query);
-  if (normalizedQuery.length < 2) {
+  const searchQuery = createSearchQuery(query);
+  if (searchQuery.exact.length < 2) {
     return [];
   }
 
   const eventsByTitle = new Map<string, FestivalEvent>();
   const matchingEvents = sortEvents(schedule.events)
     .filter((event) => !dayId || event.dayId === dayId)
-    .filter((event) => normalizeSearch(event.title).includes(normalizedQuery));
+    .filter((event) => matchesSearchIndex(getEventSearchIndex(event), searchQuery));
 
   for (const event of matchingEvents) {
     if (!eventsByTitle.has(event.title)) {
@@ -235,44 +284,55 @@ export function getEventSuggestions(query: string, limit = 6, dayId?: string): F
   }
 
   return Array.from(eventsByTitle.values())
-    .sort((a, b) => a.title.localeCompare(b.title))
+    .sort((a, b) => compareSuggestedEvents(a, b, searchQuery))
     .slice(0, limit);
 }
 
 export function getCampHosts(): string[] {
-  return Array.from(
-    new Set(schedule.events.map((event) => event.campHost).filter(isDefinedString).flatMap(getCampHostGroups))
-  ).sort((a, b) => getCampHostSortKey(a).localeCompare(getCampHostSortKey(b)));
-}
+  const byNormalizedName = new Map<string, string>();
 
-export function getCanonicalCampHost(campHost: string): string {
-  return campHostAliases.get(normalizeCampHostKey(campHost)) ?? campHost.trim();
-}
+  for (const campHost of schedule.events.flatMap(getEventCampHosts)) {
+    byNormalizedName.set(normalizeCampHostKey(campHost), campHost);
+  }
 
-export function getCampHostGroups(campHost: string): string[] {
-  return campHostGroupAliases.get(normalizeCampHostKey(campHost)) ?? [getCanonicalCampHost(campHost)];
+  for (const listing of schedule.campListings) {
+    const normalizedName = normalizeCampHostKey(getCanonicalCampHost(listing.name));
+    if (!byNormalizedName.has(normalizedName)) {
+      byNormalizedName.set(normalizedName, getCanonicalCampHost(listing.name));
+    }
+  }
+
+  return Array.from(byNormalizedName.values()).sort((a, b) => getCampHostSortKey(a).localeCompare(getCampHostSortKey(b)));
 }
 
 export function campHostMatchesQuery(campHost: string, query: string): boolean {
   const canonical = getCanonicalCampHost(campHost);
-  const normalizedQuery = normalizeCampHostKey(query);
-  if (!normalizedQuery) {
+  if (getCanonicalCampHost(query) === canonical) {
     return true;
   }
 
-  if (normalizeCampHostKey(canonical).includes(normalizedQuery)) {
+  const listings = getCampListingsForCampHost(campHost);
+  const searchQuery = createSearchQuery(query);
+  if (!searchQuery.exact) {
     return true;
   }
 
-  return Array.from(campHostAliases.entries()).some(
-    ([aliasKey, aliasCanonical]) => aliasCanonical === canonical && aliasKey.includes(normalizedQuery)
-  );
+  const aliases = getCampAliasesForCanonical(canonical);
+  const index = createSearchIndex([
+    campHost,
+    canonical,
+    ...aliases,
+    ...listings.flatMap(getSearchPartsFromCampListing)
+  ]);
+
+  return matchesSearchIndex(index, searchQuery);
 }
 
 export interface EventSearchFilters {
   dayId?: string;
   category?: FestivalCategory | "all";
   query?: string;
+  hosts?: string[];
   campHostsOnly?: boolean;
   campHosts?: string[];
   tags?: FestivalTag[];
@@ -293,8 +353,9 @@ export function getDefaultHomeDayId(now = new Date()): string | undefined {
 }
 
 export function searchEvents(filters: EventSearchFilters, now = new Date()): FestivalEvent[] {
-  const query = normalizeSearch(filters.query ?? "");
+  const searchQuery = createSearchQuery(filters.query ?? "");
   const selectedCampHosts = new Set((filters.campHosts ?? []).map(getCanonicalCampHost));
+  const selectedHosts = new Set((filters.hosts ?? []).map(getCanonicalHost));
   const selectedTags = (filters.tags ?? []).map(getCanonicalTag);
   const matchingEvents = schedule.events.filter((event) => {
     if (filters.dayId && event.dayId !== filters.dayId) {
@@ -305,14 +366,18 @@ export function searchEvents(filters: EventSearchFilters, now = new Date()): Fes
       return false;
     }
 
-    if (filters.campHostsOnly && !event.campHost) {
+    const eventCampHosts = getEventCampHosts(event);
+    const eventHosts = getEventHosts(event);
+
+    if (filters.campHostsOnly && eventCampHosts.length === 0) {
       return false;
     }
 
-    if (
-      selectedCampHosts.size > 0 &&
-      (!event.campHost || !getCampHostGroups(event.campHost).some((campHost) => selectedCampHosts.has(campHost)))
-    ) {
+    if (selectedCampHosts.size > 0 && !eventCampHosts.some((campHost) => selectedCampHosts.has(campHost))) {
+      return false;
+    }
+
+    if (selectedHosts.size > 0 && !eventHosts.some((host) => selectedHosts.has(host))) {
       return false;
     }
 
@@ -323,31 +388,11 @@ export function searchEvents(filters: EventSearchFilters, now = new Date()): Fes
       }
     }
 
-    if (!query) {
+    if (!searchQuery.exact) {
       return true;
     }
 
-    const haystack = normalizeSearch(
-      [
-        event.title,
-        event.category,
-        event.host,
-        event.campHost,
-        event.campHost ? getCanonicalCampHost(event.campHost) : undefined,
-        ...(event.campHost ? getCampHostGroups(event.campHost) : []),
-        event.location.name,
-        event.location.area,
-        event.location.gridSquare,
-        ...(event.gridSquares ?? []).flatMap((square) => [square.key, square.label]),
-        event.location.notes,
-        event.description,
-        ...event.tags.flatMap(getSearchableTagTerms)
-      ]
-        .filter(Boolean)
-        .join(" ")
-    );
-
-    return haystack.includes(query);
+    return matchesSearchIndex(getEventSearchIndex(event), searchQuery);
   });
 
   return sortEventsForSelectedDay(matchingEvents, filters.dayId, now);
@@ -410,33 +455,218 @@ export function getEventEndTime(event: FestivalEvent): number {
 }
 
 function normalizeSearch(value: string): string {
-  return value.trim().toLocaleLowerCase();
+  return normalizeAssociationKey(value).replace(/\band\b/g, " and ").replace(/\s+/g, " ").trim();
 }
 
 function normalizeTagKey(value: string): string {
-  return value
-    .trim()
-    .toLocaleLowerCase()
-    .replace(/[^a-z0-9]+/g, " ")
-    .trim();
+  return normalizeSearch(value);
 }
 
 function normalizeCampHostKey(value: string): string {
-  return value
-    .normalize("NFKD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .toLocaleLowerCase()
-    .replace(/&/g, "and")
-    .replace(/[^a-z0-9]+/g, " ")
-    .trim();
+  return normalizeAssociationKey(value);
 }
 
 function getCampHostSortKey(campHost: string): string {
   return campHost.replace(/^the\s+/i, "").toLocaleLowerCase();
 }
 
+function getSearchPartsFromCampListing(listing: FestivalCampListing): string[] {
+  const canonicalName = getCanonicalCampHost(listing.name);
+  const aliases = getCampAliasesForCanonical(canonicalName);
+
+  return compactDefinedStrings([
+    listing.name,
+    listing.type,
+    canonicalName,
+    ...aliases,
+    listing.location.name,
+    listing.location.area,
+    listing.location.gridSquare,
+    listing.location.notes,
+    ...(listing.gridSquares ?? []).flatMap((square) => [square.key, square.label]),
+    listing.description,
+    ...listing.tags.flatMap(getSearchableTagTerms)
+  ]);
+}
+
+function getEventSearchIndex(event: FestivalEvent): SearchIndex {
+  const eventHosts = getEventHosts(event);
+  const eventCampHosts = getEventCampHosts(event);
+  const rawHosts = getRawHostLabelsForEvent(event);
+  const rawCampHosts = getRawCampHostLabelsForEvent(event);
+  const campAliases = eventCampHosts.flatMap(getCampAliasesForCanonical);
+  const hostAliases = eventHosts.flatMap(getHostAliasesForCanonical);
+  const gridTerms = (event.gridSquares ?? []).flatMap((square) => [square.key, square.label]);
+
+  return createSearchIndex(
+    [event.title],
+    [
+      event.category,
+      ...rawHosts,
+      ...eventHosts,
+      ...rawCampHosts,
+      ...eventCampHosts,
+      ...campAliases,
+      ...hostAliases,
+      event.location.name,
+      event.location.area,
+      event.location.gridSquare,
+      ...gridTerms,
+      event.location.notes,
+      ...event.tags.flatMap(getSearchableTagTerms)
+    ],
+    [event.description]
+  );
+}
+
+function compareSuggestedEvents(a: FestivalEvent, b: FestivalEvent, searchQuery: SearchQuery): number {
+  const rankDifference = getSuggestionRank(getEventSearchIndex(a), searchQuery) - getSuggestionRank(getEventSearchIndex(b), searchQuery);
+  if (rankDifference !== 0) {
+    return rankDifference;
+  }
+
+  return compareEventsByDateTimeTitle(a, b);
+}
+
+function getSuggestionRank(index: SearchIndex, searchQuery: SearchQuery): number {
+  if (index.primary.text.startsWith(searchQuery.exact) || index.primary.text.includes(searchQuery.exact)) {
+    return 0;
+  }
+
+  if (matchesSearchField(index.primary, searchQuery)) {
+    return 1;
+  }
+
+  if (matchesSearchField(index.secondary, searchQuery)) {
+    return 2;
+  }
+
+  if (matchesSearchField(index.description, searchQuery)) {
+    return 3;
+  }
+
+  return 4;
+}
+
+function createSearchQuery(value: string): SearchQuery {
+  const exact = normalizeSearch(value);
+  return {
+    exact,
+    terms: getExpandedSearchTerms(value)
+  };
+}
+
+function createSearchIndex(
+  primaryParts: (string | undefined)[],
+  secondaryParts: (string | undefined)[] = [],
+  descriptionParts: (string | undefined)[] = []
+): SearchIndex {
+  const primary = createSearchFieldIndex(primaryParts);
+  const secondary = createSearchFieldIndex(secondaryParts);
+  const description = createSearchFieldIndex(descriptionParts);
+
+  return {
+    primary,
+    secondary,
+    description,
+    full: createSearchFieldIndex([...primaryParts, ...secondaryParts, ...descriptionParts])
+  };
+}
+
+function createSearchFieldIndex(parts: (string | undefined)[]): SearchFieldIndex {
+  const normalizedParts = compactDefinedStrings(parts);
+  const text = normalizeSearch(normalizedParts.join(" "));
+  return {
+    text,
+    terms: getExpandedSearchTerms(normalizedParts.join(" "))
+  };
+}
+
+function getExpandedSearchTerms(value: string): string[] {
+  const normalized = normalizeSearch(value);
+  if (!normalized) {
+    return [];
+  }
+
+  const baseTokens = normalized.split(" ").filter(Boolean);
+  const terms = new Set(baseTokens);
+
+  for (const run of getSingleLetterRuns(baseTokens)) {
+    for (let start = 0; start < run.length; start += 1) {
+      for (let end = start + 2; end <= run.length; end += 1) {
+        terms.add(run.slice(start, end).join(""));
+      }
+    }
+  }
+
+  return Array.from(terms);
+}
+
+function getSingleLetterRuns(tokens: string[]): string[][] {
+  const runs: string[][] = [];
+  let currentRun: string[] = [];
+
+  for (const token of tokens) {
+    if (/^[a-z]$/.test(token)) {
+      currentRun.push(token);
+      continue;
+    }
+
+    if (currentRun.length > 1) {
+      runs.push(currentRun);
+    }
+    currentRun = [];
+  }
+
+  if (currentRun.length > 1) {
+    runs.push(currentRun);
+  }
+
+  return runs;
+}
+
+function matchesSearchIndex(index: SearchIndex, searchQuery: SearchQuery): boolean {
+  if (!searchQuery.exact) {
+    return true;
+  }
+
+  if (index.full.text.includes(searchQuery.exact)) {
+    return true;
+  }
+
+  return searchQuery.terms.every((term) => index.full.terms.includes(term));
+}
+
+function matchesSearchField(field: SearchFieldIndex, searchQuery: SearchQuery): boolean {
+  if (!searchQuery.exact) {
+    return true;
+  }
+
+  if (field.text.includes(searchQuery.exact)) {
+    return true;
+  }
+
+  return searchQuery.terms.every((term) => field.terms.includes(term));
+}
+
+function compareEventsByDateTimeTitle(a: FestivalEvent, b: FestivalEvent): number {
+  if (a.date !== b.date) {
+    return a.date.localeCompare(b.date);
+  }
+
+  if (a.time.start !== b.time.start) {
+    return a.time.start.localeCompare(b.time.start);
+  }
+
+  return a.title.localeCompare(b.title);
+}
+
 function isDefinedString(value: string | undefined): value is string {
   return Boolean(value);
+}
+
+function compactDefinedStrings(values: (string | undefined)[]): string[] {
+  return values.filter(isDefinedString);
 }
 
 function getEventTiming(event: FestivalEvent, now: Date): { group: number; sortTime: number } {

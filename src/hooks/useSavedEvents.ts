@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 
 import type { FestivalEvent, FestivalEventId, SavedEventState } from "@/models/schedule";
-import { getCampHostGroups, getCanonicalCampHost, getEventById } from "@/lib/scheduleQueries";
+import { getCanonicalCampHost, getEventById, getEventCampHosts } from "@/lib/scheduleQueries";
 import {
   createSavedEventState,
   loadSavedEventState,
@@ -91,7 +91,7 @@ export function useSavedEvents() {
 
   const isEventSavedByCamp = useCallback(
     (event: FestivalEvent) =>
-      Boolean(event.campHost && getCampHostGroups(event.campHost).some((campHost) => savedCampHostSet.has(campHost))),
+      getEventCampHosts(event).some((campHost) => savedCampHostSet.has(campHost)),
     [savedCampHostSet]
   );
 
@@ -187,9 +187,7 @@ export function useSavedEvents() {
     (campHost: string, events: FestivalEvent[]) => {
       const canonicalCampHost = getCanonicalCampHost(campHost);
 
-      return events.filter((event) =>
-        event.campHost ? getCampHostGroups(event.campHost).includes(canonicalCampHost) : false
-      );
+      return events.filter((event) => getEventCampHosts(event).includes(canonicalCampHost));
     },
     []
   );

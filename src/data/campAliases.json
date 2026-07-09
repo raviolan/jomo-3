@@ -1,0 +1,219 @@
+{
+  "campAliases": {
+    "All Senses, No Sense": [
+      "Camp All Senses, No Sense",
+      "All Senses, No Sense - East slope",
+      "All Senses, No Sense - East slope only"
+    ],
+    "Alice the Malice in Wonderland": [
+      "Alice the Malice",
+      "Alice The Malice",
+      "Alice"
+    ],
+    "B.L.U.E Bureau of Logical Universal Enquiries": [
+      "B.L.U.E Bureau"
+    ],
+    "Camp Socialen": [
+      "Socialen",
+      "Camp Socialen",
+      "Socialen Public Offering"
+    ],
+    "Camp Spaceport": [
+      "Spaceport",
+      "By the fire in Camp Spaceport",
+      "Spaceport Camp VIP Lounge"
+    ],
+    "Cheeky Butt Chill Camp": [
+      "Cheeky Butt",
+      "Chillcamp"
+    ],
+    "Circus the Analog": [
+      "CIRCUS the ANALOG",
+      "Circus teh Analog",
+      "Circus the analogue"
+    ],
+    "Club Sin": [
+      "Club SIN",
+      "Club SIN only"
+    ],
+    "Eld&Rötter Mystic Hammock Haven": [
+      "Eld&Rötter (but start is next to Threshold)"
+    ],
+    "Elven Saunacave": [
+      "Elven Saunacave-DOME"
+    ],
+    "End of the Rainbow": [
+      "End Of The Rainbow",
+      "End of the Rainbow (Venue)"
+    ],
+    "Foajé Villa Hutlös": [
+      "Foyaé Villa Hutlös"
+    ],
+    "Free camp": [
+      "Free camping"
+    ],
+    "Gate of Alvheim": [
+      "Gate Of Alvheim"
+    ],
+    "GlitterTind": [
+      "Glittertind in Trolltunga mini tent"
+    ],
+    "Grateful Grogg": [
+      "The Grateful Grogg"
+    ],
+    "Heliotropes": [
+      "Heliotropes Queer- inclusive"
+    ],
+    "House of glöd": [
+      "House of Glöd"
+    ],
+    "Jam camp": [
+      "Jam Camp",
+      "JAM CAMP",
+      "JAM CAMP !",
+      "JamCamp"
+    ],
+    "Jousting Jesters": [
+      "The Jousting Jesters"
+    ],
+    "Kidsville": [
+      "Kidsville dome",
+      "Kidsville Workshop Dome"
+    ],
+    "Kishmastle Space Station": [
+      "Kishmastle Spacestation"
+    ],
+    "Lazy camp": [
+      "LAZY camp",
+      "LAZY Camp"
+    ],
+    "Lucifer's Pit": [
+      "Lucifer's Pit · content"
+    ],
+    "Löyhä liitto": [
+      "Löyhä Liitto"
+    ],
+    "MŸS": [
+      "MŸS DOME",
+      "MYS Dome",
+      "MŸS Queer",
+      "MŸS Queer-inclusive",
+      "MŸS Queer - inclusive",
+      "MYS Queer",
+      "MYS Queer-inclusive",
+      "MYS Queer - inclusive"
+    ],
+    "Njorunns (Space) Garden": [
+      "Njorunn's Garden",
+      "Njorunns Garden"
+    ],
+    "Passage to Lemuria": [
+      "Passage To Lemuria"
+    ],
+    "Pink Parachute": [
+      "Pink Parachute & secret location in forest"
+    ],
+    "Room of Requirements": [
+      "Room of Requirement",
+      "Room Of Requirement"
+    ],
+    "Sacred Kink": [
+      "Sacret Kink"
+    ],
+    "Secret Garden": [
+      "Secret Garden · themes",
+      "Secret Garden themes"
+    ],
+    "Secret sailors": [
+      "Secret Sailors"
+    ],
+    "Silly sanctuary": [
+      "Silly Sanctuary",
+      "Silly sanctuary content"
+    ],
+    "Somewhere": [
+      "Somewhere in the hills",
+      "somewhere near a fireplace"
+    ],
+    "Tantric Trolls": [
+      "Tantric trolls",
+      "Trantric Trolls",
+      "The Tantric Trolls"
+    ],
+    "Tea by the Sea": [
+      "Tea By The Sea",
+      "Tea by the Sea dream"
+    ],
+    "The Bear's Den": [
+      "The Bears Den"
+    ],
+    "The Bureau of Justice, Joy, Bubbles and Other Dangerous Ideas": [
+      "The Bureau of Justice, Joy, Bubbles, and Other Dangerous Ideas"
+    ],
+    "The church": [
+      "The Church"
+    ],
+    "The Divine Dough Sanctuary": [
+      "The Divine Dough"
+    ],
+    "The Goslings": [
+      "The goslings"
+    ],
+    "The Heartspace": [
+      "THE HEARTSPACE",
+      "The Heartspace · themes"
+    ],
+    "The Observatory": [
+      "The Obsetvatory",
+      "The Obvervatory"
+    ],
+    "The Sealions Den": [
+      "The SeaLions Den"
+    ],
+    "The secret outpost": [
+      "the secret outpost",
+      "The secret outpost!"
+    ],
+    "The Sun": [
+      "The SUN"
+    ],
+    "The Tribe": [
+      "The Tribe (in Agrabah Village)",
+      "The Tribe, Agraba Village",
+      "The Tribe, Agraba village",
+      "The Tribe, Argaba Village",
+      "The Tribe, Argaba village"
+    ],
+    "The Wrecked Yachtees Asylum": [
+      "The Wracked Yachtees Asylum",
+      "The Wrecked Yachtees"
+    ],
+    "Welcome Home Darling": [
+      "Welcome Home, Darling",
+      "Welcome Home Darling! (Meeting place)"
+    ],
+    "Wild Sacred Fire": [
+      "The Wild Sacred Fire",
+      "Wild Sacred Fire · themes"
+    ],
+    "Women who support women": [
+      "Women who supports women"
+    ]
+  },
+  "hostAliases": {
+    "Alice the Malice in Wonderland": [
+      "Alice the Malice",
+      "Alice The Malice",
+      "Alice"
+    ],
+    "God": [
+      "GOd"
+    ]
+  },
+  "campGroupAliases": {
+    "End of the Block Lounge in collab with Kidsville": [
+      "End of the Block Lounge",
+      "Kidsville"
+    ]
+  }
+}
