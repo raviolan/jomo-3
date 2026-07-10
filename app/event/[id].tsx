@@ -86,7 +86,12 @@ export default function EventDetailScreen() {
       {activeTab === "map" && event.gridSquares?.length ? (
         <View style={styles.metaGrid}>
           <MetaBlock label="Location" value={<LinkifiedText style={styles.metaValue} text={event.location.name} />} />
-          <CampMap highlightedSquares={event.gridSquares} onGridSquarePress={() => setActiveTab("info")} showGridLabels />
+          <CampMap
+            highlightedSquares={event.gridSquares}
+            onGridSquarePress={() => setActiveTab("info")}
+            showGridLabels
+            showHighlightedSquareLabel={false}
+          />
         </View>
       ) : (
         <>

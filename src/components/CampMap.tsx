@@ -30,7 +30,8 @@ import {
 import type { GridSquareRef } from "@/models/schedule";
 import { theme } from "@/theme/theme";
 
-const campgroundMapImage = require("../../assets/maps/campground-map-grid-2026.png") as ImageSourcePropType;
+// Keep the interactive overlay on the cropped rasterized map only; labels stay app-rendered.
+const campgroundMapImage = require("../../assets/maps/campground-map-cropped-2026.png") as ImageSourcePropType;
 const GRID_LABEL_GUTTER_X = 34;
 const GRID_LABEL_GUTTER_Y = 28;
 const MIN_MAP_ZOOM = 1;
@@ -67,6 +68,7 @@ interface CampMapProps {
   interactiveSquares?: "highlighted" | "all";
   mode?: "static" | "scrollable";
   onGridSquarePress?: (gridSquare: GridSquareRef) => void;
+  showHighlightedSquareLabel?: boolean;
   showGridLabels?: boolean;
 }
 
@@ -77,6 +79,7 @@ export function CampMap({
   interactiveSquares = "highlighted",
   mode = "static",
   onGridSquarePress,
+  showHighlightedSquareLabel = true,
   showGridLabels = mode === "scrollable"
 }: CampMapProps) {
   const { height: windowHeight } = useWindowDimensions();
@@ -129,11 +132,11 @@ export function CampMap({
                   onPress={() => onGridSquarePress(square)}
                   style={[styles.eventCellHighlight, cellStyle]}
                 >
-                  <Text style={styles.eventCellLabel}>{square.label}</Text>
+                  {showHighlightedSquareLabel ? <Text style={styles.eventCellLabel}>{square.label}</Text> : null}
                 </Pressable>
               ) : (
                 <View pointerEvents="none" style={[styles.eventCellHighlight, cellStyle]}>
-                  <Text style={styles.eventCellLabel}>{square.label}</Text>
+                  {showHighlightedSquareLabel ? <Text style={styles.eventCellLabel}>{square.label}</Text> : null}
                 </View>
               )}
             </View>
