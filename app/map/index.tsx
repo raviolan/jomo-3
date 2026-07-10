@@ -88,7 +88,9 @@ export default function MapScreen() {
         campHighlightSquares={isCampFilterActive ? campHighlightSquares : []}
         highlightedSquares={[]}
         interactiveSquares="all"
+        mode="scrollable"
         onGridSquarePress={openGridSquare}
+        showGridLabels
       />
 
       <AppFooter />

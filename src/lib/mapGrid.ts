@@ -60,16 +60,16 @@ export const GRID_ROWS = [
 ] as const satisfies readonly GridRow[];
 
 export const CAMP_MAP_IMAGE = {
-  width: 842,
-  height: 1191,
+  width: 767,
+  height: 795,
   rotationDegrees: -11
 } as const;
 
 export const CAMP_MAP_GRID_BOUNDS = {
-  x: 42,
-  y: 122,
-  width: 767,
-  height: 795
+  x: 0,
+  y: 0,
+  width: CAMP_MAP_IMAGE.width,
+  height: CAMP_MAP_IMAGE.height
 } as const;
 
 export const CAMP_MAP_CELL = {
