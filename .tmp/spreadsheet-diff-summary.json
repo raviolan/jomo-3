@@ -1,0 +1,2109 @@
+{
+  "app": {
+    "events": 1209,
+    "campListings": 302,
+    "source": "JOMO26_A4.pdf",
+    "tagCounts": {
+      "Adults only": 381,
+      "Kids friendly": 276,
+      "Queer-focused": 28,
+      "Queer-inclusive": 221,
+      "Sensory content": 146,
+      "Sex positive": 134,
+      "Sober": 276,
+      "Triggering themes": 61
+    }
+  },
+  "spreadsheet": {
+    "eventRows": 1215,
+    "destinationRows": 314,
+    "placementRows": 953,
+    "placementWorthOrJomo": 280
+  },
+  "matches": {
+    "events": 1209,
+    "destinations": 297
+  },
+  "missing": {
+    "events": 5,
+    "destinations": 12,
+    "placementWorthOrJomo": 44
+  },
+  "mismatches": {
+    "events": 39,
+    "destinations": 296
+  },
+  "samples": {
+    "missingEvents": [
+      {
+        "title": "The Wandering Tree",
+        "n": "wandering tree",
+        "c": "wanderingtree",
+        "date": "2026-07-21",
+        "day": "Tue. 21 July",
+        "start": "0:00",
+        "end": "",
+        "grid": "O20",
+        "location": "Bison - North, grid square O20. Shameless plaza next to sinnergirl",
+        "category": "Crafting/Pimping/Arting"
+      },
+      {
+        "title": "The Wandering Tree",
+        "n": "wandering tree",
+        "c": "wanderingtree",
+        "date": "2026-07-22",
+        "day": "Wed. 22 July",
+        "start": "0:00",
+        "end": "",
+        "grid": "O20",
+        "location": "Bison - North, grid square O20. Shameless plaza next to sinnergirl",
+        "category": "Crafting/Pimping/Arting"
+      },
+      {
+        "title": "The Wandering Tree",
+        "n": "wandering tree",
+        "c": "wanderingtree",
+        "date": "2026-07-23",
+        "day": "Thu. 23 July",
+        "start": "0:00",
+        "end": "",
+        "grid": "O20",
+        "location": "Bison - North, grid square O20. Shameless plaza next to sinnergirl",
+        "category": "Crafting/Pimping/Arting"
+      },
+      {
+        "title": "The Wandering Tree",
+        "n": "wandering tree",
+        "c": "wanderingtree",
+        "date": "2026-07-24",
+        "day": "Fri. 24 July",
+        "start": "0:00",
+        "end": "",
+        "grid": "O20",
+        "location": "Bison - North, grid square O20. Shameless plaza next to sinnergirl",
+        "category": "Crafting/Pimping/Arting"
+      },
+      {
+        "title": "The Wandering Tree",
+        "n": "wandering tree",
+        "c": "wanderingtree",
+        "date": "2026-07-25",
+        "day": "Sat. 25 July",
+        "start": "0:00",
+        "end": "",
+        "grid": "O20",
+        "location": "Bison - North, grid square O20. Shameless plaza next to sinnergirl",
+        "category": "Crafting/Pimping/Arting"
+      }
+    ],
+    "eventMismatches": [
+      {
+        "title": "The Jewellery Market",
+        "n": "jewellery market",
+        "c": "jewellerymarket",
+        "date": "2026-07-20",
+        "day": "Mon. 20 July",
+        "start": "11:00",
+        "end": "21:00",
+        "grid": "",
+        "location": "This magical jewellery market will pop up at random times and at random places around the playa. If you’re supposed to, you’ll find it.",
+        "category": "Weird shit/Other",
+        "appTitle": "THE JEWELLERY MARKET",
+        "appDate": "2026-07-20",
+        "appStart": "11:00",
+        "appGrid": "",
+        "diffs": [
+          "category sheet Weird shit/Other app Other"
+        ]
+      },
+      {
+        "title": "The Bellybutton Fluff Donation Jar returns",
+        "n": "bellybutton fluff donation jar returns",
+        "c": "bellybuttonfluffdonationjarreturns",
+        "date": "2026-07-20",
+        "day": "Mon. 20 July",
+        "start": "12:01",
+        "end": "11:59",
+        "grid": "R20",
+        "location": "Wedge, grid square R20.",
+        "category": "Weird shit/Other",
+        "appTitle": "THE BELLYBUTTON FLUFF DONATION JAR RETURNS",
+        "appDate": "2026-07-20",
+        "appStart": "12:01",
+        "appGrid": "R20",
+        "diffs": [
+          "category sheet Weird shit/Other app Other"
+        ]
+      },
+      {
+        "title": "Boot(y) Camp",
+        "n": "boot y camp",
+        "c": "bootycamp",
+        "date": "2026-07-20",
+        "day": "Mon. 20 July",
+        "start": "12:30",
+        "end": "13:30",
+        "grid": "N20",
+        "location": "Bison - North, grid square N20.",
+        "category": "Weird shit/Other",
+        "appTitle": "BOOT(Y) CAMP",
+        "appDate": "2026-07-20",
+        "appStart": "12:30",
+        "appGrid": "N20",
+        "diffs": [
+          "category sheet Weird shit/Other app Other"
+        ]
+      },
+      {
+        "title": "confess!",
+        "n": "confess",
+        "c": "confess",
+        "date": "2026-07-20",
+        "day": "Mon. 20 July",
+        "start": "13:00",
+        "end": "17:00",
+        "grid": "K21",
+        "location": "Downtown, grid square K21. in the dark dungeons of the church",
+        "category": "Ritual/Ceremony",
+        "appTitle": "CONFESS!",
+        "appDate": "2026-07-20",
+        "appStart": "13:00",
+        "appGrid": "K09",
+        "diffs": [
+          "grid sheet K21 app K09"
+        ]
+      },
+      {
+        "title": "Book Readings at Njorunn's Garden",
+        "n": "book readings at njorunn s garden",
+        "c": "bookreadingsatnjorunnsgarden",
+        "date": "2026-07-20",
+        "day": "Mon. 20 July",
+        "start": "16:00",
+        "end": "5:00",
+        "grid": "M20",
+        "location": "Downtown, grid square M20.",
+        "category": "Weird shit/Other",
+        "appTitle": "BOOK READINGS AT NJORUNN'S GARDEN",
+        "appDate": "2026-07-20",
+        "appStart": "16:00",
+        "appGrid": "M20",
+        "diffs": [
+          "category sheet Weird shit/Other app Other"
+        ]
+      },
+      {
+        "title": "The Jewellery Market",
+        "n": "jewellery market",
+        "c": "jewellerymarket",
+        "date": "2026-07-21",
+        "day": "Tue. 21 July",
+        "start": "11:00",
+        "end": "21:00",
+        "grid": "",
+        "location": "This magical jewellery market will pop up at random times and at random places around the playa. If you’re supposed to, you’ll find it.",
+        "category": "Weird shit/Other",
+        "appTitle": "THE JEWELLERY MARKET",
+        "appDate": "2026-07-21",
+        "appStart": "11:00",
+        "appGrid": "",
+        "diffs": [
+          "category sheet Weird shit/Other app Other"
+        ]
+      },
+      {
+        "title": "The Bellybutton Fluff Donation Jar returns",
+        "n": "bellybutton fluff donation jar returns",
+        "c": "bellybuttonfluffdonationjarreturns",
+        "date": "2026-07-21",
+        "day": "Tue. 21 July",
+        "start": "12:01",
+        "end": "11:59",
+        "grid": "R20",
+        "location": "Wedge, grid square R20.",
+        "category": "Weird shit/Other",
+        "appTitle": "THE BELLYBUTTON FLUFF DONATION JAR RETURNS",
+        "appDate": "2026-07-21",
+        "appStart": "12:01",
+        "appGrid": "R20",
+        "diffs": [
+          "category sheet Weird shit/Other app Other"
+        ]
+      },
+      {
+        "title": "confess!",
+        "n": "confess",
+        "c": "confess",
+        "date": "2026-07-21",
+        "day": "Tue. 21 July",
+        "start": "13:00",
+        "end": "17:00",
+        "grid": "K21",
+        "location": "Downtown, grid square K21. in the dark dungeons of the church",
+        "category": "Ritual/Ceremony",
+        "appTitle": "CONFESS!",
+        "appDate": "2026-07-21",
+        "appStart": "13:00",
+        "appGrid": "K09",
+        "diffs": [
+          "grid sheet K21 app K09"
+        ]
+      },
+      {
+        "title": "Transformation Office",
+        "n": "transformation office",
+        "c": "transformationoffice",
+        "date": "2026-07-21",
+        "day": "Tue. 21 July",
+        "start": "13:00",
+        "end": "17:00",
+        "grid": "R22",
+        "location": "Wedge, grid square R22. Teepee in piazza",
+        "category": "Weird shit/Other",
+        "appTitle": "TRANSFORMATION OFFICE",
+        "appDate": "2026-07-21",
+        "appStart": "13:00",
+        "appGrid": "R22",
+        "diffs": [
+          "category sheet Weird shit/Other app Other"
+        ]
+      },
+      {
+        "title": "LOOKING FOR MY FUTURE BABY DADDY",
+        "n": "looking for my future baby daddy",
+        "c": "lookingformyfuturebabydaddy",
+        "date": "2026-07-21",
+        "day": "Tue. 21 July",
+        "start": "15:00",
+        "end": "18:00",
+        "grid": "L10",
+        "location": "Highlands, grid square L10. The camp is in the far west of the Highlands. I will wear a T-shirt saying \"LOOKING FOR MY FUTURE BABY DADDY\"",
+        "category": "Weird shit/Other",
+        "appTitle": "LOOKING FOR MY FUTURE BABY DADDY",
+        "appDate": "2026-07-21",
+        "appStart": "15:00",
+        "appGrid": "L10",
+        "diffs": [
+          "category sheet Weird shit/Other app Other"
+        ]
+      },
+      {
+        "title": "K the right way",
+        "n": "k right way",
+        "c": "krightway",
+        "date": "2026-07-21",
+        "day": "Tue. 21 July",
+        "start": "16:00",
+        "end": "17:00",
+        "grid": "",
+        "location": "If you need to be there you will find it",
+        "category": "Weird shit/Other",
+        "appTitle": "K THE RIGHT WAY",
+        "appDate": "2026-07-21",
+        "appStart": "16:00",
+        "appGrid": "K21",
+        "diffs": [
+          "category sheet Weird shit/Other app Other"
+        ]
+      },
+      {
+        "title": "Book Readings at Njorunn's Garden",
+        "n": "book readings at njorunn s garden",
+        "c": "bookreadingsatnjorunnsgarden",
+        "date": "2026-07-21",
+        "day": "Tue. 21 July",
+        "start": "16:00",
+        "end": "5:00",
+        "grid": "M20",
+        "location": "Downtown, grid square M20.",
+        "category": "Weird shit/Other",
+        "appTitle": "BOOK READINGS AT NJORUNN'S GARDEN",
+        "appDate": "2026-07-21",
+        "appStart": "16:00",
+        "appGrid": "M20",
+        "diffs": [
+          "category sheet Weird shit/Other app Other"
+        ]
+      },
+      {
+        "title": "Gay speed dating",
+        "n": "gay speed dating",
+        "c": "gayspeeddating",
+        "date": "2026-07-21",
+        "day": "Tue. 21 July",
+        "start": "16:00",
+        "end": "17:30",
+        "grid": "O06",
+        "location": "Arctic chill, grid square O06. In the Arctic Chill, close to Pamper Plaza, behind the camp \"Women who supports women\"",
+        "category": "Dating",
+        "appTitle": "SPEED DATING",
+        "appDate": "2026-07-21",
+        "appStart": "15:00",
+        "appGrid": "O20",
+        "diffs": [
+          "grid sheet O06 app O20",
+          "category sheet Dating app Games/Play"
+        ]
+      },
+      {
+        "title": "Fireside talk",
+        "n": "fireside talk",
+        "c": "firesidetalk",
+        "date": "2026-07-21",
+        "day": "Tue. 21 July",
+        "start": "20:00",
+        "end": "22:00",
+        "grid": "M21",
+        "location": "Downtown, grid square M21. Come to the Växthus in Secret Garden",
+        "category": "Weird shit/Other",
+        "appTitle": "FIRESIDE TALK",
+        "appDate": "2026-07-21",
+        "appStart": "20:00",
+        "appGrid": "M21",
+        "diffs": [
+          "category sheet Weird shit/Other app Other"
+        ]
+      },
+      {
+        "title": "Human Carwash",
+        "n": "human carwash",
+        "c": "humancarwash",
+        "date": "2026-07-22",
+        "day": "Wed. 22 July",
+        "start": "0:00",
+        "end": "0:00",
+        "grid": "G22",
+        "location": "G22. At the lakeside",
+        "category": "Weird shit/Other",
+        "appTitle": "HUMAN CARWASH",
+        "appDate": "2026-07-22",
+        "appStart": "0:00",
+        "appGrid": "G22",
+        "diffs": [
+          "category sheet Weird shit/Other app Other"
+        ]
+      },
+      {
+        "title": "The Pit - The Dark Descent",
+        "n": "pit dark descent",
+        "c": "pitdarkdescent",
+        "date": "2026-07-22",
+        "day": "Wed. 22 July",
+        "start": "0:00",
+        "end": "2:00",
+        "grid": "H17",
+        "location": "grid square H17. From the powerstation follow the road up unto the forest. Look for the red lights...",
+        "category": "Weird shit/Other",
+        "appTitle": "THE PIT - THE DARK DESCENT",
+        "appDate": "2026-07-22",
+        "appStart": "0:00",
+        "appGrid": "H17",
+        "diffs": [
+          "category sheet Weird shit/Other app Other"
+        ]
+      },
+      {
+        "title": "The Jewellery Market",
+        "n": "jewellery market",
+        "c": "jewellerymarket",
+        "date": "2026-07-22",
+        "day": "Wed. 22 July",
+        "start": "11:00",
+        "end": "21:00",
+        "grid": "",
+        "location": "This magical jewellery market will pop up at random times and at random places around the playa. If you’re supposed to, you’ll find it.",
+        "category": "Weird shit/Other",
+        "appTitle": "THE JEWELLERY MARKET",
+        "appDate": "2026-07-22",
+        "appStart": "11:00",
+        "appGrid": "",
+        "diffs": [
+          "category sheet Weird shit/Other app Other"
+        ]
+      },
+      {
+        "title": "The Bellybutton Fluff Donation Jar returns",
+        "n": "bellybutton fluff donation jar returns",
+        "c": "bellybuttonfluffdonationjarreturns",
+        "date": "2026-07-22",
+        "day": "Wed. 22 July",
+        "start": "12:01",
+        "end": "11:59",
+        "grid": "R20",
+        "location": "Wedge, grid square R20.",
+        "category": "Weird shit/Other",
+        "appTitle": "THE BELLYBUTTON FLUFF DONATION JAR RETURNS",
+        "appDate": "2026-07-22",
+        "appStart": "12:01",
+        "appGrid": "R20",
+        "diffs": [
+          "category sheet Weird shit/Other app Other"
+        ]
+      },
+      {
+        "title": "Transformation Office",
+        "n": "transformation office",
+        "c": "transformationoffice",
+        "date": "2026-07-22",
+        "day": "Wed. 22 July",
+        "start": "13:00",
+        "end": "17:00",
+        "grid": "R22",
+        "location": "Wedge, grid square R22. Teepee in piazza",
+        "category": "Weird shit/Other",
+        "appTitle": "TRANSFORMATION OFFICE",
+        "appDate": "2026-07-22",
+        "appStart": "13:00",
+        "appGrid": "R22",
+        "diffs": [
+          "category sheet Weird shit/Other app Other"
+        ]
+      },
+      {
+        "title": "Sherlock is your guide",
+        "n": "sherlock is your guide",
+        "c": "sherlockisyourguide",
+        "date": "2026-07-22",
+        "day": "Wed. 22 July",
+        "start": "16:00",
+        "end": "17:00",
+        "grid": "N09",
+        "location": "Highlands, grid square N09.",
+        "category": "Weird shit/Other",
+        "appTitle": "SHERLOCK IS YOUR GUIDE",
+        "appDate": "2026-07-22",
+        "appStart": "16:00",
+        "appGrid": "N09",
+        "diffs": [
+          "category sheet Weird shit/Other app Other"
+        ]
+      },
+      {
+        "title": "<3 Special shower <3",
+        "n": "3 special shower 3",
+        "c": "3specialshower3",
+        "date": "2026-07-22",
+        "day": "Wed. 22 July",
+        "start": "16:00",
+        "end": "17:00",
+        "grid": "H19",
+        "location": "Sunny Hills, grid square H19",
+        "category": "Weird shit/Other",
+        "appTitle": "<3 SPECIAL SHOWER <3",
+        "appDate": "2026-07-22",
+        "appStart": "16:00",
+        "appGrid": "H19",
+        "diffs": [
+          "category sheet Weird shit/Other app Other"
+        ]
+      },
+      {
+        "title": "🍑 Laser Buttplug Games - Borderland Cup 🍑",
+        "n": "laser buttplug games borderland cup",
+        "c": "laserbuttpluggamesborderlandcup",
+        "date": "2026-07-22",
+        "day": "Wed. 22 July",
+        "start": "17:00",
+        "end": "19:00",
+        "grid": "M19",
+        "location": "Downtown, grid square M19. Hall of Plutonia",
+        "category": "Weird shit/Other",
+        "appTitle": "LASER BUTTPLUG GAMES - BORDERLAND CUP",
+        "appDate": "2026-07-22",
+        "appStart": "17:00",
+        "appGrid": "M19",
+        "diffs": [
+          "category sheet Weird shit/Other app Other"
+        ]
+      },
+      {
+        "title": "Fireside talk",
+        "n": "fireside talk",
+        "c": "firesidetalk",
+        "date": "2026-07-22",
+        "day": "Wed. 22 July",
+        "start": "20:00",
+        "end": "22:00",
+        "grid": "M21",
+        "location": "Downtown, grid square M21. Come to the Växthus in Secret Garden",
+        "category": "Weird shit/Other",
+        "appTitle": "FIRESIDE TALK",
+        "appDate": "2026-07-22",
+        "appStart": "20:00",
+        "appGrid": "M21",
+        "diffs": [
+          "category sheet Weird shit/Other app Other"
+        ]
+      },
+      {
+        "title": "The Jewellery Market",
+        "n": "jewellery market",
+        "c": "jewellerymarket",
+        "date": "2026-07-23",
+        "day": "Thu. 23 July",
+        "start": "11:00",
+        "end": "21:00",
+        "grid": "",
+        "location": "This magical jewellery market will pop up at random times and at random places around the playa. If you’re supposed to, you’ll find it.",
+        "category": "Weird shit/Other",
+        "appTitle": "THE JEWELLERY MARKET",
+        "appDate": "2026-07-23",
+        "appStart": "11:00",
+        "appGrid": "",
+        "diffs": [
+          "category sheet Weird shit/Other app Other"
+        ]
+      },
+      {
+        "title": "The Bellybutton Fluff Donation Jar returns",
+        "n": "bellybutton fluff donation jar returns",
+        "c": "bellybuttonfluffdonationjarreturns",
+        "date": "2026-07-23",
+        "day": "Thu. 23 July",
+        "start": "12:01",
+        "end": "11:59",
+        "grid": "R20",
+        "location": "Wedge, grid square R20.",
+        "category": "Weird shit/Other",
+        "appTitle": "THE BELLYBUTTON FLUFF DONATION JAR RETURNS",
+        "appDate": "2026-07-23",
+        "appStart": "12:01",
+        "appGrid": "R20",
+        "diffs": [
+          "category sheet Weird shit/Other app Other"
+        ]
+      },
+      {
+        "title": "Transformation Office",
+        "n": "transformation office",
+        "c": "transformationoffice",
+        "date": "2026-07-23",
+        "day": "Thu. 23 July",
+        "start": "13:00",
+        "end": "17:00",
+        "grid": "R22",
+        "location": "Wedge, grid square R22. Teepee in piazza",
+        "category": "Weird shit/Other",
+        "appTitle": "TRANSFORMATION OFFICE",
+        "appDate": "2026-07-23",
+        "appStart": "13:00",
+        "appGrid": "R22",
+        "diffs": [
+          "category sheet Weird shit/Other app Other"
+        ]
+      },
+      {
+        "title": "Down the Rabbit Hole",
+        "n": "down rabbit hole",
+        "c": "downrabbithole",
+        "date": "2026-07-23",
+        "day": "Thu. 23 July",
+        "start": "15:00",
+        "end": "18:00",
+        "grid": "R20",
+        "location": "Wedge, grid square R20. Every 5 minutes one by one person can enter . Follow the White Rabbit or ask the Mad Hatter. Only one by one person can enter. It takes about 4-6 minutes",
+        "category": "Weird shit/Other",
+        "appTitle": "DOWN THE RABBIT HOLE",
+        "appDate": "2026-07-23",
+        "appStart": "15:00",
+        "appGrid": "R20",
+        "diffs": [
+          "category sheet Weird shit/Other app Other"
+        ]
+      },
+      {
+        "title": "Book Readings at Njorunn's Garden",
+        "n": "book readings at njorunn s garden",
+        "c": "bookreadingsatnjorunnsgarden",
+        "date": "2026-07-23",
+        "day": "Thu. 23 July",
+        "start": "16:00",
+        "end": "5:00",
+        "grid": "M20",
+        "location": "Downtown, grid square M20.",
+        "category": "Weird shit/Other",
+        "appTitle": "BOOK READINGS AT NJORUNN'S GARDEN",
+        "appDate": "2026-07-23",
+        "appStart": "16:00",
+        "appGrid": "M20",
+        "diffs": [
+          "category sheet Weird shit/Other app Other"
+        ]
+      },
+      {
+        "title": "Riktigt Blackwater-Party",
+        "n": "riktigt blackwater party",
+        "c": "riktigtblackwaterparty",
+        "date": "2026-07-23",
+        "day": "Thu. 23 July",
+        "start": "20:00",
+        "end": "21:30",
+        "grid": "Q18",
+        "location": "Swamp, grid square Q18. Look for the American flag",
+        "category": "Weird shit/Other",
+        "appTitle": "RIKTIGT BLACKWATER-PARTY",
+        "appDate": "2026-07-23",
+        "appStart": "20:00",
+        "appGrid": "Q18",
+        "diffs": [
+          "category sheet Weird shit/Other app Other"
+        ]
+      },
+      {
+        "title": "Fireside talk",
+        "n": "fireside talk",
+        "c": "firesidetalk",
+        "date": "2026-07-23",
+        "day": "Thu. 23 July",
+        "start": "20:00",
+        "end": "22:00",
+        "grid": "M21",
+        "location": "Downtown, grid square M21. Come to the Växthus in Secret Garden",
+        "category": "Weird shit/Other",
+        "appTitle": "FIRESIDE TALK",
+        "appDate": "2026-07-23",
+        "appStart": "20:00",
+        "appGrid": "M21",
+        "diffs": [
+          "category sheet Weird shit/Other app Other"
+        ]
+      },
+      {
+        "title": "The Jewellery Market",
+        "n": "jewellery market",
+        "c": "jewellerymarket",
+        "date": "2026-07-24",
+        "day": "Fri. 24 July",
+        "start": "11:00",
+        "end": "21:00",
+        "grid": "",
+        "location": "This magical jewellery market will pop up at random times and at random places around the playa. If you’re supposed to, you’ll find it.",
+        "category": "Weird shit/Other",
+        "appTitle": "THE JEWELLERY MARKET",
+        "appDate": "2026-07-24",
+        "appStart": "11:00",
+        "appGrid": "",
+        "diffs": [
+          "category sheet Weird shit/Other app Other"
+        ]
+      },
+      {
+        "title": "The Bellybutton Fluff Donation Jar returns",
+        "n": "bellybutton fluff donation jar returns",
+        "c": "bellybuttonfluffdonationjarreturns",
+        "date": "2026-07-24",
+        "day": "Fri. 24 July",
+        "start": "12:01",
+        "end": "11:59",
+        "grid": "R20",
+        "location": "Wedge, grid square R20.",
+        "category": "Weird shit/Other",
+        "appTitle": "THE BELLYBUTTON FLUFF DONATION JAR RETURNS",
+        "appDate": "2026-07-24",
+        "appStart": "12:01",
+        "appGrid": "R20",
+        "diffs": [
+          "category sheet Weird shit/Other app Other"
+        ]
+      },
+      {
+        "title": "Tysk minut (German minute)",
+        "n": "tysk minut german minute",
+        "c": "tyskminutgermanminute",
+        "date": "2026-07-24",
+        "day": "Fri. 24 July",
+        "start": "15:00",
+        "end": "15:01",
+        "grid": "L13",
+        "location": "Highlands, grid square L13. The German minute takes place everywhere at the festival",
+        "category": "Weird shit/Other",
+        "appTitle": "TYSK MINUT (GERMAN MINUTE)",
+        "appDate": "2026-07-24",
+        "appStart": "15:00",
+        "appGrid": "L13",
+        "diffs": [
+          "category sheet Weird shit/Other app Other"
+        ]
+      },
+      {
+        "title": "Fireside talk",
+        "n": "fireside talk",
+        "c": "firesidetalk",
+        "date": "2026-07-24",
+        "day": "Fri. 24 July",
+        "start": "20:00",
+        "end": "22:00",
+        "grid": "M21",
+        "location": "Downtown, grid square M21. Come to the Växthus in Secret Garden",
+        "category": "Weird shit/Other",
+        "appTitle": "FIRESIDE TALK",
+        "appDate": "2026-07-24",
+        "appStart": "20:00",
+        "appGrid": "M21",
+        "diffs": [
+          "category sheet Weird shit/Other app Other"
+        ]
+      },
+      {
+        "title": "Lucifer's sock wrestling tournament extravaganza",
+        "n": "lucifer s sock wrestling tournament extravaganza",
+        "c": "luciferssockwrestlingtournamentextravaganza",
+        "date": "2026-07-24",
+        "day": "Fri. 24 July",
+        "start": "22:01",
+        "end": "22:22",
+        "grid": "K18",
+        "location": "Downtown, grid square K18. in the giant satanic pit in the barn",
+        "category": "Weird shit/Other",
+        "appTitle": "LUCIFER'S SOCK WRESTLING TOURNAMENT EXTRAVAGANZA",
+        "appDate": "2026-07-24",
+        "appStart": "22:01",
+        "appGrid": "K19",
+        "diffs": [
+          "grid sheet K18 app K19",
+          "category sheet Weird shit/Other app Other"
+        ]
+      },
+      {
+        "title": "The Jewellery Market",
+        "n": "jewellery market",
+        "c": "jewellerymarket",
+        "date": "2026-07-25",
+        "day": "Sat. 25 July",
+        "start": "11:00",
+        "end": "21:00",
+        "grid": "",
+        "location": "This magical jewellery market will pop up at random times and at random places around the playa. If you’re supposed to, you’ll find it.",
+        "category": "Weird shit/Other",
+        "appTitle": "THE JEWELLERY MARKET",
+        "appDate": "2026-07-25",
+        "appStart": "11:00",
+        "appGrid": "",
+        "diffs": [
+          "category sheet Weird shit/Other app Other"
+        ]
+      },
+      {
+        "title": "The Bellybutton Fluff Donation Jar returns",
+        "n": "bellybutton fluff donation jar returns",
+        "c": "bellybuttonfluffdonationjarreturns",
+        "date": "2026-07-25",
+        "day": "Sat. 25 July",
+        "start": "12:01",
+        "end": "11:59",
+        "grid": "R20",
+        "location": "Wedge, grid square R20.",
+        "category": "Weird shit/Other",
+        "appTitle": "THE BELLYBUTTON FLUFF DONATION JAR RETURNS",
+        "appDate": "2026-07-25",
+        "appStart": "12:01",
+        "appGrid": "R20",
+        "diffs": [
+          "category sheet Weird shit/Other app Other"
+        ]
+      },
+      {
+        "title": "Effigy Burn - Civic Responsibility",
+        "n": "effigy burn civic responsibility",
+        "c": "effigyburncivicresponsibility",
+        "date": "2026-07-25",
+        "day": "Sat. 25 July",
+        "start": "20:00",
+        "end": "23:00",
+        "grid": "I21",
+        "location": "Sunny Hills, grid square I21.",
+        "category": "Weird shit/Other",
+        "appTitle": "EFFIGY BURN - CIVIC RESPONSIBILITY",
+        "appDate": "2026-07-25",
+        "appStart": "20:00",
+        "appGrid": "I21",
+        "diffs": [
+          "category sheet Weird shit/Other app Other"
+        ]
+      },
+      {
+        "title": "⚠️🔨 STRIKE 🔨⚠️",
+        "n": "strike",
+        "c": "strike",
+        "date": "2026-07-26",
+        "day": "Sun. 26 July",
+        "start": "10:00",
+        "end": "0:00",
+        "grid": "",
+        "location": "The Barn",
+        "category": "Weird shit/Other",
+        "appTitle": "STRIKE",
+        "appDate": "2026-07-26",
+        "appStart": "10:00",
+        "appGrid": "",
+        "diffs": [
+          "category sheet Weird shit/Other app Other"
+        ]
+      }
+    ],
+    "missingDest": [
+      {
+        "name": "Leave No Trace Shower for Dirty Hippies",
+        "n": "leave no trace shower for dirty hippies",
+        "c": "leavenotraceshowerfordirtyhippies",
+        "grid": "",
+        "location": "Better just call/text +45 51 90 31 49",
+        "category": "Pampering/Care"
+      },
+      {
+        "name": "Ask your father anything (or tell him to fuck off)",
+        "n": "ask your father anything or tell him to fuck off",
+        "c": "askyourfatheranythingortellhimtofuckoff",
+        "grid": "",
+        "location": "N/A",
+        "category": "Pampering/Care"
+      },
+      {
+        "name": "The Storyteller",
+        "n": "storyteller",
+        "c": "storyteller",
+        "grid": "",
+        "location": "Find them in the woods.... Some say the Thieves or those who walk the moon know the way. So asking there is a good place to start...",
+        "category": "Ritual/Ceremony"
+      },
+      {
+        "name": "\"Everything is Political\" Chai Stand",
+        "n": "everything is political chai stand",
+        "c": "everythingispoliticalchaistand",
+        "grid": "",
+        "location": "We will be on the playa.. somewhere. From time to time.  You may smell the brew of our spicy delights... you may hear powerful mantras vibrating through the playa.. that would be your sign.. to come find us.",
+        "category": "Art/Installation"
+      },
+      {
+        "name": "Phony booths",
+        "n": "phony booths",
+        "c": "phonybooths",
+        "grid": "",
+        "location": "Most likely the central phone booth in nort-western part of lowlands. Then we will expan southward as far as we can. Atleast three booths in total.",
+        "category": "Art/Installation"
+      },
+      {
+        "name": "Dreamer´s Maze",
+        "n": "dreamer s maze",
+        "c": "dreamersmaze",
+        "grid": "",
+        "location": "The Villa, old building",
+        "category": "Art/Installation"
+      },
+      {
+        "name": "Echoes of Alversjö",
+        "n": "echoes of alversjo",
+        "c": "echoesofalversjo",
+        "grid": "",
+        "location": "First floor of the Barn",
+        "category": "Art/Installation"
+      },
+      {
+        "name": "Vegan Waffle Wagon",
+        "n": "vegan waffle wagon",
+        "c": "veganwafflewagon",
+        "grid": "",
+        "location": "It's portable! Usually quite central.... A four wheeled wagon with striped red & white roof, striped black & white sides. Usually a queue of hungry hippies and good (often weird) music!",
+        "category": "Food/Drinks"
+      },
+      {
+        "name": "Halloumi-Nati",
+        "n": "halloumi nati",
+        "c": "hallouminati",
+        "grid": "",
+        "location": "We will be moving around and not be located at our camp site . You will see out black tent moving around on the playa!",
+        "category": "Food/Drinks"
+      },
+      {
+        "name": "Kimchii Treassure Hunt",
+        "n": "kimchii treassure hunt",
+        "c": "kimchiitreassurehunt",
+        "grid": "",
+        "location": "The Vegan Waffle Wagon, which will be moving around. A wagon with red/white striped ceiling, steaming waffle irons, and a red flag.",
+        "category": "Food/Drinks"
+      },
+      {
+        "name": "Atlantis - the lost deep sea city",
+        "n": "atlantis lost deep sea city",
+        "c": "atlantislostdeepseacity",
+        "grid": "",
+        "location": "It will move around so kepp your eyes open ;)",
+        "category": "Games/Play"
+      },
+      {
+        "name": "The Wing Women Services",
+        "n": "wing women services",
+        "c": "wingwomenservices",
+        "grid": "",
+        "location": "We'll be all over the place!. We will be wearing green, brown and purple outfits. And wings of course!",
+        "category": "Weird shit/Other"
+      }
+    ],
+    "destMismatches": [
+      {
+        "name": "Scrub & sauna 🔥🌿🍑",
+        "n": "scrub and sauna",
+        "c": "scrubandsauna",
+        "grid": "G21",
+        "location": "Sunny Hills, grid square G21.",
+        "category": "Movement/Bodywork",
+        "appName": "SCRUB & SAUNA",
+        "appGrid": "G21",
+        "diffs": [
+          "category sheet Movement/Bodywork app Camp"
+        ]
+      },
+      {
+        "name": "Women who supports women",
+        "n": "women who supports women",
+        "c": "womenwhosupportswomen",
+        "grid": "O06",
+        "location": "Arctic chill, grid square O06.",
+        "category": "Movement/Bodywork",
+        "appName": "WOMEN WHO SUPPORTS WOMEN",
+        "appGrid": "O06",
+        "diffs": [
+          "category sheet Movement/Bodywork app Camp"
+        ]
+      },
+      {
+        "name": "Njorunns Garden",
+        "n": "njorunns garden",
+        "c": "njorunnsgarden",
+        "grid": "M20",
+        "location": "Downtown, grid square M20. Follow the signs <3",
+        "category": "Movement/Bodywork",
+        "appName": "NJORUNNS GARDEN",
+        "appGrid": "M20",
+        "diffs": [
+          "category sheet Movement/Bodywork app Camp"
+        ]
+      },
+      {
+        "name": "🌿🔥 Magic Banya ✨🌫️",
+        "n": "magic banya",
+        "c": "magicbanya",
+        "grid": "G21",
+        "location": "Sunny Hills, grid square G21. We are the sauna tent right at the Sunny Hills lake shore, our entrance is close to the pier!",
+        "category": "Movement/Bodywork",
+        "appName": "MAGIC BANYA",
+        "appGrid": "G21",
+        "diffs": [
+          "category sheet Movement/Bodywork app Camp"
+        ]
+      },
+      {
+        "name": "The Heart",
+        "n": "heart",
+        "c": "heart",
+        "grid": "M11",
+        "location": "Highlands, grid square M11. We are directly at the Penta plaza in the Highlands.",
+        "category": "Movement/Bodywork",
+        "appName": "THE HEART",
+        "appGrid": "M11",
+        "diffs": [
+          "category sheet Movement/Bodywork app Camp"
+        ]
+      },
+      {
+        "name": "Touch Divine Rituals 🌈🐲✨",
+        "n": "touch divine rituals",
+        "c": "touchdivinerituals",
+        "grid": "R22",
+        "location": "Wedge, grid square R22. South-east of BL",
+        "category": "Movement/Bodywork",
+        "appName": "TOUCH DIVINE RITUALS",
+        "appGrid": "R22",
+        "diffs": [
+          "category sheet Movement/Bodywork app Camp"
+        ]
+      },
+      {
+        "name": "Mingle & Play on the Dancefloor",
+        "n": "mingle and play on dancefloor",
+        "c": "mingleandplayondancefloor",
+        "grid": "N20",
+        "location": "Bison - North, grid square N20.",
+        "category": "Movement/Bodywork",
+        "appName": "MINGLE & PLAY ON THE DANCEFLOOR",
+        "appGrid": "N20",
+        "diffs": [
+          "category sheet Movement/Bodywork app Camp"
+        ]
+      },
+      {
+        "name": "Flowzone",
+        "n": "flowzone",
+        "c": "flowzone",
+        "grid": "M11",
+        "location": "Highlands, grid square M11. Highlands, Penta plaza (the big flag) next to Chilldome.",
+        "category": "Movement/Bodywork",
+        "appName": "FLOWZONE",
+        "appGrid": "M11",
+        "diffs": [
+          "category sheet Movement/Bodywork app Camp"
+        ]
+      },
+      {
+        "name": "The 🐸 Sapphic Pond",
+        "n": "sapphic pond",
+        "c": "sapphicpond",
+        "grid": "J21",
+        "location": "Sunny Hills, grid square J21. Big lesbian flags! If you see them! That is us! 🙌",
+        "category": "Movement/Bodywork",
+        "appName": "SAPPHIC POND",
+        "appGrid": "J21",
+        "diffs": [
+          "category sheet Movement/Bodywork app Camp"
+        ]
+      },
+      {
+        "name": "The Fire Brigade",
+        "n": "fire brigade",
+        "c": "firebrigade",
+        "grid": "S16",
+        "location": "Swamp, grid square S16. In The Swamp at Fire Plaza, a gallery and red carpet area opposite the large tent of CIRCUS the ANALOG.",
+        "category": "Movement/Bodywork",
+        "appName": "THE FIRE BRIGADE",
+        "appGrid": "S16",
+        "diffs": [
+          "category sheet Movement/Bodywork app Camp"
+        ]
+      },
+      {
+        "name": "Passage to Lemuria",
+        "n": "passage to lemuria",
+        "c": "passagetolemuria",
+        "grid": "P25",
+        "location": "grid square P25. The southest part of bison, look for a portal like entrance",
+        "category": "Movement/Bodywork",
+        "appName": "PASSAGE TO LEMURIA",
+        "appGrid": "P25",
+        "diffs": [
+          "category sheet Movement/Bodywork app Camp"
+        ]
+      },
+      {
+        "name": "The Room of Requirements",
+        "n": "room of requirements",
+        "c": "roomofrequirements",
+        "grid": "V19",
+        "location": "Eastern Slope, grid square V19. Entry from the road",
+        "category": "Movement/Bodywork",
+        "appName": "THE ROOM OF REQUIREMENTS",
+        "appGrid": "V19",
+        "diffs": [
+          "category sheet Movement/Bodywork app Camp"
+        ]
+      },
+      {
+        "name": "DanSING",
+        "n": "dansing",
+        "c": "dansing",
+        "grid": "N19",
+        "location": "Bison - North, grid square N19. By the Shameless Plaza",
+        "category": "Movement/Bodywork",
+        "appName": "DANSING",
+        "appGrid": "N19",
+        "diffs": [
+          "category sheet Movement/Bodywork app Camp"
+        ]
+      },
+      {
+        "name": "The SeaLions Den",
+        "n": "sealions den",
+        "c": "sealionsden",
+        "grid": "M09",
+        "location": "Highlands, grid square M09",
+        "category": "Movement/Bodywork",
+        "appName": "THE SEALIONS DEN",
+        "appGrid": "M09",
+        "diffs": [
+          "category sheet Movement/Bodywork app Camp"
+        ]
+      },
+      {
+        "name": "Krusty's Playground",
+        "n": "krusty s playground",
+        "c": "krustysplayground",
+        "grid": "P06",
+        "location": "Arctic chill, grid square P06",
+        "category": "Movement/Bodywork",
+        "appName": "KRUSTY'S PLAYGROUND",
+        "appGrid": "P06",
+        "diffs": [
+          "category sheet Movement/Bodywork app Camp"
+        ]
+      },
+      {
+        "name": "Alien Embassy 🖖👽✨",
+        "n": "alien embassy",
+        "c": "alienembassy",
+        "grid": "V18",
+        "location": "Eastern Slope, grid square V18",
+        "category": "Movement/Bodywork",
+        "appName": "ALIEN EMBASSY",
+        "appGrid": "V18",
+        "diffs": [
+          "category sheet Movement/Bodywork app Camp"
+        ]
+      },
+      {
+        "name": "Dubble the trubbel",
+        "n": "dubble trubbel",
+        "c": "dubbletrubbel",
+        "grid": "U18",
+        "location": "Swamp, grid square U18",
+        "category": "Movement/Bodywork",
+        "appName": "DUBBLE THE TRUBBEL",
+        "appGrid": "U18",
+        "diffs": [
+          "category sheet Movement/Bodywork app Camp"
+        ]
+      },
+      {
+        "name": "The Source",
+        "n": "source",
+        "c": "source",
+        "grid": "S12",
+        "location": "Lowlands, grid square S12",
+        "category": "Movement/Bodywork",
+        "appName": "THE SOURCE",
+        "appGrid": "S12",
+        "diffs": [
+          "category sheet Movement/Bodywork app Camp"
+        ]
+      },
+      {
+        "name": "Art of lust",
+        "n": "art of lust",
+        "c": "artoflust",
+        "grid": "R18",
+        "location": "Swamp, grid square R18",
+        "category": "Movement/Bodywork",
+        "appName": "ART OF LUST",
+        "appGrid": "R18",
+        "diffs": [
+          "category sheet Movement/Bodywork app Camp"
+        ]
+      },
+      {
+        "name": "Alibaba and the holy trouble nun",
+        "n": "alibaba and holy trouble nun",
+        "c": "alibabaandholytroublenun",
+        "grid": "M04",
+        "location": "Arctic chill, grid square M04",
+        "category": "Movement/Bodywork",
+        "appName": "ALIBABA AND THE HOLY TROUBLE NUN",
+        "appGrid": "M04",
+        "diffs": [
+          "category sheet Movement/Bodywork app Camp"
+        ]
+      },
+      {
+        "name": "Make Your Borderland Dream Happen… Before It Actually Happens!!",
+        "n": "make your borderland dream happen before it actually happens",
+        "c": "makeyourborderlanddreamhappenbeforeitactuallyhappens",
+        "grid": "P07",
+        "location": "Arctic chill, grid square P07. Red hearttent - ofc",
+        "category": "Pampering/Care",
+        "appName": "BEFORE IT ACTUALLY HAPPENS!!",
+        "appGrid": "P07",
+        "diffs": [
+          "category sheet Pampering/Care app Camp"
+        ]
+      },
+      {
+        "name": "Mermaid cave",
+        "n": "mermaid cave",
+        "c": "mermaidcave",
+        "grid": "O19",
+        "location": "Bison - North, grid square O19. Mermaid cave is at the corner of Shameless plaza, by Glittertind and Club SIN. It also hosts the Wellness of Figging and the Sea Witches Den.",
+        "category": "Pampering/Care",
+        "appName": "MERMAID CAVE",
+        "appGrid": "O19",
+        "diffs": [
+          "category sheet Pampering/Care app Camp"
+        ]
+      },
+      {
+        "name": "Forest is for rest",
+        "n": "forest is for rest",
+        "c": "forestisforrest",
+        "grid": "S06",
+        "location": "grid square S06. In nature reserve, beside the road leading to Far Flung Field from Missing Piece Cottage",
+        "category": "Pampering/Care",
+        "appName": "FOREST IS FOR REST",
+        "appGrid": "S06",
+        "diffs": [
+          "category sheet Pampering/Care app Camp"
+        ]
+      },
+      {
+        "name": "Period Palace",
+        "n": "period palace",
+        "c": "periodpalace",
+        "grid": "N11",
+        "location": "Highlands, grid square N11. Find the palace along the road connecting the Bait Al Noor plaza to the Penta Plaza, in Highlands.",
+        "category": "Pampering/Care",
+        "appName": "PERIOD PALACE",
+        "appGrid": "N11",
+        "diffs": [
+          "category sheet Pampering/Care app Camp"
+        ]
+      },
+      {
+        "name": "Camp Body Art",
+        "n": "camp body art",
+        "c": "campbodyart",
+        "grid": "G20",
+        "location": "Sunny Hills, grid square G20. Go to the big lake to swim. There will be a platform below camp bunny horse bar. The board will be there",
+        "category": "Pampering/Care",
+        "appName": "CAMP BODY ART",
+        "appGrid": "G20",
+        "diffs": [
+          "category sheet Pampering/Care app Camp"
+        ]
+      },
+      {
+        "name": "Buzzcuts & Coffee @ Blackwater Operations",
+        "n": "buzzcuts and coffee blackwater operations",
+        "c": "buzzcutsandcoffeeblackwateroperations",
+        "grid": "Q18",
+        "location": "Swamp, grid square Q18. Look for the glorious American flag flying above The Green Zone. That's Blackwater Operations. Find Dr. Bill-Bull and sit down.",
+        "category": "Pampering/Care",
+        "appName": "OPERATIONS",
+        "appGrid": "Q18",
+        "diffs": [
+          "category sheet Pampering/Care app Camp"
+        ]
+      },
+      {
+        "name": "The Outdoor spa",
+        "n": "outdoor spa",
+        "c": "outdoorspa",
+        "grid": "G22",
+        "location": "Sunny Hills, grid square G22. The Sunny Hills, just next to the dock by the lake.",
+        "category": "Pampering/Care",
+        "appName": "THE OUTDOOR SPA",
+        "appGrid": "G22",
+        "diffs": [
+          "category sheet Pampering/Care app Camp"
+        ]
+      },
+      {
+        "name": "Kidsville",
+        "n": "kidsville",
+        "c": "kidsville",
+        "grid": "P09",
+        "location": "Lowlands, grid square P09. Find us in the tent",
+        "category": "Pampering/Care",
+        "appName": "KIDSVILLE",
+        "appGrid": "P09",
+        "diffs": [
+          "category sheet Pampering/Care app Camp"
+        ]
+      },
+      {
+        "name": "⛩️ Ångström [Å]",
+        "n": "angstrom",
+        "c": "angstrom",
+        "grid": "L22",
+        "location": "Forest Cave, grid square L22",
+        "category": "Pampering/Care",
+        "appName": "ÅNGSTRÖM [Å]",
+        "appGrid": "L22",
+        "diffs": [
+          "category sheet Pampering/Care app Camp"
+        ]
+      },
+      {
+        "name": "Sauna Caravan Dream + lounge",
+        "n": "sauna caravan dream lounge",
+        "c": "saunacaravandreamlounge",
+        "grid": "P06",
+        "location": "Arctic chill, grid square P06",
+        "category": "Pampering/Care",
+        "appName": "SAUNA CARAVAN DREAM + LOUNGE",
+        "appGrid": "P06",
+        "diffs": [
+          "category sheet Pampering/Care app Camp"
+        ]
+      },
+      {
+        "name": "🤡 Clown Police HQ 🤡",
+        "n": "clown police hq",
+        "c": "clownpolicehq",
+        "grid": "J20",
+        "location": "Sunny Hills, grid square J20",
+        "category": "Pampering/Care",
+        "appName": "CLOWN POLICE HQ",
+        "appGrid": "J20",
+        "diffs": [
+          "category sheet Pampering/Care app Camp"
+        ]
+      },
+      {
+        "name": "MortyCave",
+        "n": "mortycave",
+        "c": "mortycave",
+        "grid": "N09",
+        "location": "Highlands, grid square N09",
+        "category": "Pampering/Care",
+        "appName": "MORTYCAVE",
+        "appGrid": "N09",
+        "diffs": [
+          "category sheet Pampering/Care app Camp"
+        ]
+      },
+      {
+        "name": "Sky is the Roof",
+        "n": "sky is roof",
+        "c": "skyisroof",
+        "grid": "V15",
+        "location": "Eastern Slope, grid square V15",
+        "category": "Pampering/Care",
+        "appName": "SKY IS THE ROOF",
+        "appGrid": "V15",
+        "diffs": [
+          "category sheet Pampering/Care app Camp"
+        ]
+      },
+      {
+        "name": "Sacred Reset",
+        "n": "sacred reset",
+        "c": "sacredreset",
+        "grid": "N10",
+        "location": "Highlands, grid square N10",
+        "category": "Pampering/Care",
+        "appName": "SACRED RESET",
+        "appGrid": "N10",
+        "diffs": [
+          "category sheet Pampering/Care app Camp"
+        ]
+      },
+      {
+        "name": "Camp Holy Mess",
+        "n": "camp holy mess",
+        "c": "campholymess",
+        "grid": "O07",
+        "location": "Arctic chill, grid square O07",
+        "category": "Pampering/Care",
+        "appName": "CAMP HOLY MESS",
+        "appGrid": "O07",
+        "diffs": [
+          "category sheet Pampering/Care app Camp"
+        ]
+      },
+      {
+        "name": "Ponycornland",
+        "n": "ponycornland",
+        "c": "ponycornland",
+        "grid": "U18",
+        "location": "Swamp, grid square U18",
+        "category": "Pampering/Care",
+        "appName": "PONYCORNLAND",
+        "appGrid": "U18",
+        "diffs": [
+          "category sheet Pampering/Care app Camp"
+        ]
+      },
+      {
+        "name": "Foyaé Villa Hutlös",
+        "n": "foyae villa hutlos",
+        "c": "foyaevillahutlos",
+        "grid": "V17",
+        "location": "Eastern Slope, grid square V17",
+        "category": "Pampering/Care",
+        "appName": "FOYAÉ VILLA HUTLÖS",
+        "appGrid": "V17",
+        "diffs": [
+          "category sheet Pampering/Care app Camp"
+        ]
+      },
+      {
+        "name": "Aporia",
+        "n": "aporia",
+        "c": "aporia",
+        "grid": "O23",
+        "location": "Bison - South, grid square O23",
+        "category": "Pampering/Care",
+        "appName": "APORIA",
+        "appGrid": "O23",
+        "diffs": [
+          "category sheet Pampering/Care app Camp"
+        ]
+      },
+      {
+        "name": "Mission-Impossible firepit",
+        "n": "mission impossible firepit",
+        "c": "missionimpossiblefirepit",
+        "grid": "M11",
+        "location": "Highlands, grid square M11",
+        "category": "Pampering/Care",
+        "appName": "MISSION-IMPOSSIBLE FIREPIT",
+        "appGrid": "M11",
+        "diffs": [
+          "category sheet Pampering/Care app Camp"
+        ]
+      },
+      {
+        "name": "South Bison's Sexy Pythons 🐍",
+        "n": "south bison s sexy pythons",
+        "c": "southbisonssexypythons",
+        "grid": "P25",
+        "location": "Bison - South, grid square P25",
+        "category": "Pampering/Care",
+        "appName": "SOUTH BISON'S SEXY PYTHONS",
+        "appGrid": "P25",
+        "diffs": [
+          "category sheet Pampering/Care app Camp"
+        ]
+      },
+      {
+        "name": "Camp YES",
+        "n": "camp yes",
+        "c": "campyes",
+        "grid": "W16",
+        "location": "Eastern Slope, grid square W16",
+        "category": "Pampering/Care",
+        "appName": "CAMP YES",
+        "appGrid": "W16",
+        "diffs": [
+          "category sheet Pampering/Care app Camp"
+        ]
+      },
+      {
+        "name": "Tipi for Workshop for Camp All Senses No Sense",
+        "n": "tipi for workshop for camp all senses no sense",
+        "c": "tipiforworkshopforcampallsensesnosense",
+        "grid": "W16",
+        "location": "Eastern Slope, grid square W16",
+        "category": "Pampering/Care",
+        "appName": "TIPI FOR WORKSHOP FOR CAMP ALL SENSES NO SENSE",
+        "appGrid": "W16",
+        "diffs": [
+          "category sheet Pampering/Care app Camp"
+        ]
+      },
+      {
+        "name": "Antra.world",
+        "n": "antra world",
+        "c": "antraworld",
+        "grid": "T18",
+        "location": "Swamp, grid square T18",
+        "category": "Pampering/Care",
+        "appName": "ANTRA.WORLD",
+        "appGrid": "T18",
+        "diffs": [
+          "category sheet Pampering/Care app Camp"
+        ]
+      },
+      {
+        "name": "Casa Amor",
+        "n": "casa amor",
+        "c": "casaamor",
+        "grid": "W17",
+        "location": "Eastern Slope, grid square W17",
+        "category": "Pampering/Care",
+        "appName": "CASA AMOR",
+        "appGrid": "W17",
+        "diffs": [
+          "category sheet Pampering/Care app Camp"
+        ]
+      },
+      {
+        "name": "Portal of reconnection",
+        "n": "portal of reconnection",
+        "c": "portalofreconnection",
+        "grid": "J23",
+        "location": "Forest Cave, grid square J23",
+        "category": "Pampering/Care",
+        "appName": "PORTAL OF RECONNECTION",
+        "appGrid": "J23",
+        "diffs": [
+          "category sheet Pampering/Care app Camp"
+        ]
+      },
+      {
+        "name": "Piece of love",
+        "n": "piece of love",
+        "c": "pieceoflove",
+        "grid": "U21",
+        "location": "Eastern Slope, grid square U21",
+        "category": "Pampering/Care",
+        "appName": "PIECE OF LOVE",
+        "appGrid": "U21",
+        "diffs": [
+          "category sheet Pampering/Care app Camp"
+        ]
+      },
+      {
+        "name": "The Oasis",
+        "n": "oasis",
+        "c": "oasis",
+        "grid": "M07",
+        "location": "Arctic chill, grid square M07",
+        "category": "Pampering/Care",
+        "appName": "THE OASIS",
+        "appGrid": "M07",
+        "diffs": [
+          "category sheet Pampering/Care app Camp"
+        ]
+      },
+      {
+        "name": "Secret Spot",
+        "n": "secret spot",
+        "c": "secretspot",
+        "grid": "L10",
+        "location": "Highlands, grid square L10",
+        "category": "Pampering/Care",
+        "appName": "SECRET SPOT",
+        "appGrid": "L10",
+        "diffs": [
+          "category sheet Pampering/Care app Camp"
+        ]
+      },
+      {
+        "name": "The Martian",
+        "n": "martian",
+        "c": "martian",
+        "grid": "M05",
+        "location": "Arctic chill, grid square M05. northwestern arctic circle, look out for the techy looking lightpole and the silver van",
+        "category": "Crafting/Arting",
+        "appName": "THE MARTIAN",
+        "appGrid": "M05",
+        "diffs": [
+          "category sheet Crafting/Arting app Camp"
+        ]
+      },
+      {
+        "name": "Socialen",
+        "n": "socialen",
+        "c": "socialen",
+        "grid": "O22",
+        "location": "Bison - South, grid square O22. Sunset Plaza",
+        "category": "Crafting/Arting",
+        "appName": "SOCIALEN",
+        "appGrid": "O22",
+        "diffs": [
+          "category sheet Crafting/Arting app Camp"
+        ]
+      }
+    ],
+    "missingPlacementWorth": [
+      {
+        "id": "35",
+        "name": "House of Glöd camp main tent",
+        "n": "house of glod camp main tent",
+        "c": "houseofglodcampmaintent",
+        "grid": "P06",
+        "areaType": "normal-camp",
+        "category": "",
+        "partOfJomo": "35",
+        "worthAdding": ""
+      },
+      {
+        "id": "43",
+        "name": "Pamper Temple Dream",
+        "n": "pamper temple dream",
+        "c": "pampertempledream",
+        "grid": "P06",
+        "areaType": "public-offering",
+        "category": "",
+        "partOfJomo": "43",
+        "worthAdding": "1"
+      },
+      {
+        "id": "84",
+        "name": "Koslig Slutty Cafe",
+        "n": "koslig slutty cafe",
+        "c": "kosligsluttycafe",
+        "grid": "Q11",
+        "areaType": "public-offering",
+        "category": "",
+        "partOfJomo": "84",
+        "worthAdding": "1"
+      },
+      {
+        "id": "92",
+        "name": "End of the Rainbow (Venue)",
+        "n": "end of rainbow venue",
+        "c": "endofrainbowvenue",
+        "grid": "N20",
+        "areaType": "sound-camp",
+        "category": "",
+        "partOfJomo": "92",
+        "worthAdding": ""
+      },
+      {
+        "id": "95",
+        "name": "The Warm Slug Fires of anarchy",
+        "n": "warm slug fires of anarchy",
+        "c": "warmslugfiresofanarchy",
+        "grid": "H20",
+        "areaType": "sound-camp",
+        "category": "",
+        "partOfJomo": "95",
+        "worthAdding": ""
+      },
+      {
+        "id": "207",
+        "name": "Cheeky Butt Chill Camp",
+        "n": "cheeky butt chill camp",
+        "c": "cheekybuttchillcamp",
+        "grid": "N11",
+        "areaType": "public-offering",
+        "category": "",
+        "partOfJomo": "207",
+        "worthAdding": "1"
+      },
+      {
+        "id": "252",
+        "name": "RA dancefloor",
+        "n": "ra dancefloor",
+        "c": "radancefloor",
+        "grid": "O20",
+        "areaType": "sound-camp",
+        "category": "",
+        "partOfJomo": "252",
+        "worthAdding": "1"
+      },
+      {
+        "id": "253",
+        "name": "Nest & Twigs",
+        "n": "nest and twigs",
+        "c": "nestandtwigs",
+        "grid": "P24",
+        "areaType": "normal-camp",
+        "category": "",
+        "partOfJomo": "253",
+        "worthAdding": ""
+      },
+      {
+        "id": "285",
+        "name": "Hammockstart by Slothenhive",
+        "n": "hammockstart by slothenhive",
+        "c": "hammockstartbyslothenhive",
+        "grid": "Q13",
+        "areaType": "art",
+        "category": "",
+        "partOfJomo": "285",
+        "worthAdding": "1"
+      },
+      {
+        "id": "287",
+        "name": "IT*S A SIGN!! making workshop (DOWNSTAIRS)",
+        "n": "it s sign making workshop downstairs",
+        "c": "itssignmakingworkshopdownstairs",
+        "grid": "K18",
+        "areaType": "public-offering",
+        "category": "",
+        "partOfJomo": "287",
+        "worthAdding": "1"
+      },
+      {
+        "id": "302",
+        "name": "SaunaCave and temple of reconection ",
+        "n": "saunacave and temple of reconection",
+        "c": "saunacaveandtempleofreconection",
+        "grid": "H22",
+        "areaType": "public-offering",
+        "category": "",
+        "partOfJomo": "302",
+        "worthAdding": "1"
+      },
+      {
+        "id": "329",
+        "name": "WHD Dining Hall, Kitchen, Container ",
+        "n": "whd dining hall kitchen container",
+        "c": "whddininghallkitchencontainer",
+        "grid": "O10",
+        "areaType": "public-offering",
+        "category": "",
+        "partOfJomo": "329",
+        "worthAdding": ""
+      },
+      {
+        "id": "331",
+        "name": "Eagle Bar (Downstairs)",
+        "n": "eagle bar downstairs",
+        "c": "eaglebardownstairs",
+        "grid": "L18",
+        "areaType": "sound-camp",
+        "category": "",
+        "partOfJomo": "331",
+        "worthAdding": "1"
+      },
+      {
+        "id": "358",
+        "name": "40 Thieves - Agrabah village",
+        "n": "40 thieves agrabah village",
+        "c": "40thievesagrabahvillage",
+        "grid": "N13",
+        "areaType": "public-offering",
+        "category": "",
+        "partOfJomo": "358",
+        "worthAdding": "1"
+      },
+      {
+        "id": "387",
+        "name": "Silly Sancuary",
+        "n": "silly sancuary",
+        "c": "sillysancuary",
+        "grid": "S20",
+        "areaType": "other",
+        "category": "",
+        "partOfJomo": "387",
+        "worthAdding": "1"
+      },
+      {
+        "id": "390",
+        "name": "Consciousness Playground ♾️ 🌀 🪬",
+        "n": "consciousness playground",
+        "c": "consciousnessplayground",
+        "grid": "T19",
+        "areaType": "public-offering",
+        "category": "",
+        "partOfJomo": "390",
+        "worthAdding": "1"
+      },
+      {
+        "id": "397",
+        "name": "Habesha",
+        "n": "habesha",
+        "c": "habesha",
+        "grid": "T18",
+        "areaType": "normal-camp",
+        "category": "🍯 Food/Drinks",
+        "partOfJomo": "397",
+        "worthAdding": "1"
+      },
+      {
+        "id": "404",
+        "name": "North of Noor",
+        "n": "north of noor",
+        "c": "northofnoor",
+        "grid": "O10",
+        "areaType": "public-offering",
+        "category": "",
+        "partOfJomo": "404",
+        "worthAdding": ""
+      },
+      {
+        "id": "408",
+        "name": "The Golden Caravan Camp",
+        "n": "golden caravan camp",
+        "c": "goldencaravancamp",
+        "grid": "P23",
+        "areaType": "public-offering",
+        "category": "",
+        "partOfJomo": "",
+        "worthAdding": "1"
+      },
+      {
+        "id": "425",
+        "name": "Rest & Revelry",
+        "n": "rest and revelry",
+        "c": "restandrevelry",
+        "grid": "W15",
+        "areaType": "normal-camp",
+        "category": "",
+        "partOfJomo": "425",
+        "worthAdding": ""
+      },
+      {
+        "id": "437",
+        "name": "Löyhä Liitto",
+        "n": "loyha liitto",
+        "c": "loyhaliitto",
+        "grid": "U20",
+        "areaType": "public-offering",
+        "category": "",
+        "partOfJomo": "437",
+        "worthAdding": "1"
+      },
+      {
+        "id": "496",
+        "name": "Heliotropes",
+        "n": "heliotropes",
+        "c": "heliotropes",
+        "grid": "W16",
+        "areaType": "normal-camp",
+        "category": "",
+        "partOfJomo": "496",
+        "worthAdding": "1"
+      },
+      {
+        "id": "636",
+        "name": "Boothcamp",
+        "n": "boothcamp",
+        "c": "boothcamp",
+        "grid": "Q10",
+        "areaType": "normal-camp",
+        "category": "",
+        "partOfJomo": "636",
+        "worthAdding": ""
+      },
+      {
+        "id": "669",
+        "name": "Mystic Groove",
+        "n": "mystic groove",
+        "c": "mysticgroove",
+        "grid": "T13",
+        "areaType": "normal-camp",
+        "category": "",
+        "partOfJomo": "669",
+        "worthAdding": ""
+      },
+      {
+        "id": "895",
+        "name": "FURF",
+        "n": "furf",
+        "c": "furf",
+        "grid": "S11",
+        "areaType": "normal-camp",
+        "category": "",
+        "partOfJomo": "",
+        "worthAdding": "1"
+      },
+      {
+        "id": "899",
+        "name": "Elsewhere - Agrabah",
+        "n": "elsewhere agrabah",
+        "c": "elsewhereagrabah",
+        "grid": "M12",
+        "areaType": "public-offering",
+        "category": "",
+        "partOfJomo": "899",
+        "worthAdding": "1"
+      },
+      {
+        "id": "1052",
+        "name": "Plutonia",
+        "n": "plutonia",
+        "c": "plutonia",
+        "grid": "M19",
+        "areaType": "sound-camp",
+        "category": "",
+        "partOfJomo": "1052",
+        "worthAdding": "1"
+      },
+      {
+        "id": "1076",
+        "name": "Electric dissagreement area",
+        "n": "electric dissagreement area",
+        "c": "electricdissagreementarea",
+        "grid": "L22",
+        "areaType": "public-offering",
+        "category": "",
+        "partOfJomo": "1076",
+        "worthAdding": "1"
+      },
+      {
+        "id": "1085",
+        "name": "Rocky",
+        "n": "rocky",
+        "c": "rocky",
+        "grid": "I22",
+        "areaType": "art",
+        "category": "",
+        "partOfJomo": "",
+        "worthAdding": "1"
+      },
+      {
+        "id": "1181",
+        "name": "Secret Radio",
+        "n": "secret radio",
+        "c": "secretradio",
+        "grid": "M05",
+        "areaType": "public-offering",
+        "category": "",
+        "partOfJomo": "",
+        "worthAdding": "1"
+      },
+      {
+        "id": "1278",
+        "name": "Dreamer’s Maze",
+        "n": "dreamer s maze",
+        "c": "dreamersmaze",
+        "grid": "K14",
+        "areaType": "art",
+        "category": "",
+        "partOfJomo": "1278",
+        "worthAdding": "1"
+      },
+      {
+        "id": "1388",
+        "name": "Open for Suggestions (Twinklehoof Dynasty)",
+        "n": "open for suggestions twinklehoof dynasty",
+        "c": "openforsuggestionstwinklehoofdynasty",
+        "grid": "P07",
+        "areaType": "normal-camp",
+        "category": "",
+        "partOfJomo": "",
+        "worthAdding": "1"
+      },
+      {
+        "id": "1449",
+        "name": "Space Girls and Cosmic Cowboys",
+        "n": "space girls and cosmic cowboys",
+        "c": "spacegirlsandcosmiccowboys",
+        "grid": "V17",
+        "areaType": "normal-camp",
+        "category": "",
+        "partOfJomo": "",
+        "worthAdding": "1"
+      },
+      {
+        "id": "1448",
+        "name": "KittyKatCamp",
+        "n": "kittykatcamp",
+        "c": "kittykatcamp",
+        "grid": "S11",
+        "areaType": "normal-camp",
+        "category": "",
+        "partOfJomo": "",
+        "worthAdding": "1"
+      },
+      {
+        "id": "1391",
+        "name": "The Rabbit hole - Agrabah",
+        "n": "rabbit hole agrabah",
+        "c": "rabbitholeagrabah",
+        "grid": "N12",
+        "areaType": "public-offering",
+        "category": "",
+        "partOfJomo": "1391",
+        "worthAdding": ""
+      },
+      {
+        "id": "1467",
+        "name": "Art Car Valet Parking",
+        "n": "art car valet parking",
+        "c": "artcarvaletparking",
+        "grid": "K20",
+        "areaType": "public-offering",
+        "category": "",
+        "partOfJomo": "1467",
+        "worthAdding": "1"
+      },
+      {
+        "id": "1897",
+        "name": "Cozy camp bar area",
+        "n": "cozy camp bar area",
+        "c": "cozycampbararea",
+        "grid": "U16",
+        "areaType": "public-offering",
+        "category": "",
+        "partOfJomo": "",
+        "worthAdding": "1"
+      },
+      {
+        "id": "1810",
+        "name": "the kids out post",
+        "n": "kids out post",
+        "c": "kidsoutpost",
+        "grid": "R09",
+        "areaType": "public-offering",
+        "category": "",
+        "partOfJomo": "",
+        "worthAdding": "1"
+      },
+      {
+        "id": "1659",
+        "name": "PJ Camp",
+        "n": "pj camp",
+        "c": "pjcamp",
+        "grid": "L07",
+        "areaType": "public-offering",
+        "category": "",
+        "partOfJomo": "",
+        "worthAdding": "1"
+      },
+      {
+        "id": "1630",
+        "name": "B.L.U.E Bureau",
+        "n": "b l u e bureau",
+        "c": "bluebureau",
+        "grid": "N09",
+        "areaType": "public-offering",
+        "category": "",
+        "partOfJomo": "1630",
+        "worthAdding": "1"
+      },
+      {
+        "id": "1633",
+        "name": "SIGN Post 2",
+        "n": "sign post 2",
+        "c": "signpost2",
+        "grid": "K13",
+        "areaType": "art",
+        "category": "",
+        "partOfJomo": "1633",
+        "worthAdding": ""
+      },
+      {
+        "id": "1843",
+        "name": "Spikeball borderland battle 26! (SBB26)",
+        "n": "spikeball borderland battle 26 sbb26",
+        "c": "spikeballborderlandbattle26sbb26",
+        "grid": "H20",
+        "areaType": "other",
+        "category": "",
+        "partOfJomo": "1843",
+        "worthAdding": "1"
+      },
+      {
+        "id": "1884",
+        "name": "The ourdoor spa",
+        "n": "ourdoor spa",
+        "c": "ourdoorspa",
+        "grid": "G22",
+        "areaType": "public-offering",
+        "category": "",
+        "partOfJomo": "1884",
+        "worthAdding": "1"
+      },
+      {
+        "id": "1921",
+        "name": "Downtown BBQ",
+        "n": "downtown bbq",
+        "c": "downtownbbq",
+        "grid": "K20",
+        "areaType": "public-offering",
+        "category": "",
+        "partOfJomo": "1921",
+        "worthAdding": "1"
+      }
+    ],
+    "pdfOnlyEvents": [],
+    "pdfOnlyListings": [
+      {
+        "name": "OPERATIONS",
+        "grid": "Q18",
+        "category": "Camp"
+      },
+      {
+        "name": "BLACKWATER OPERATIONS",
+        "grid": "Q18",
+        "category": "Camp"
+      },
+      {
+        "name": "BLACKWATER OPERATIONS",
+        "grid": "Q18",
+        "category": "Camp"
+      },
+      {
+        "name": "FOXES",
+        "grid": "U20",
+        "category": "Camp"
+      },
+      {
+        "name": "THE FUCKERY",
+        "grid": "R17",
+        "category": "Camp"
+      }
+    ]
+  }
+}

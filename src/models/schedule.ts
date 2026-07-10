@@ -73,11 +73,11 @@ export type FestivalCategory =
   | "Food/Drinks"
   | "Games/Play"
   | "Music/Performance/Show"
+  | "Weird shit/Other"
   | "Party/Gathering"
   | "Ritual/Ceremony"
   | "Workshop/Class"
-  | "Yoga/Movement/Bodywork"
-  | "Other";
+  | "Yoga/Movement/Bodywork";
 
 export type FestivalTag =
   | "Kids friendly"

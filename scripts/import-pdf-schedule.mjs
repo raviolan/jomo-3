@@ -1044,8 +1044,8 @@ function isPageNumberLine(value) {
   return /^\d{1,3}$/.test(value.trim());
 }
 
-function normalizeCategory(value) {
-  return value === "Weird shit/Other" ? "Other" : value;
+export function normalizeCategory(value) {
+  return value;
 }
 
 function isMetadataOnlyLine(value) {
@@ -1244,10 +1244,10 @@ function isCampListingLocationLine(value) {
 }
 
 function normalizeCampListingType(value) {
-  return value === "WEIRD SHIT/OTHER" ? "Other" : titleCaseCategory(value);
+  return titleCaseCategory(value);
 }
 
-function titleCaseCategory(value) {
+export function titleCaseCategory(value) {
   const normalizedValue = value.trim();
   const exactCategory = categories.find((category) => category.toUpperCase() === normalizedValue.toUpperCase());
   return exactCategory ? normalizeCategory(exactCategory) : "Camp";
@@ -1313,7 +1313,7 @@ function normalizeComparableText(value) {
     .trim();
 }
 
-function parseLocation(value) {
+export function parseLocation(value) {
   const cleanValue = value.replace(/\s+/g, " ").trim() || "Location to be confirmed";
   const gridSquares = extractGridSquareRefsFromText(cleanValue, { allowBare: true });
   const rawGridLabels = extractRawGridLabelsFromText(cleanValue, { allowBare: true });
@@ -1327,7 +1327,7 @@ function parseLocation(value) {
   };
 }
 
-function computeEventGridSquares(event, resolvedGridSquares) {
+export function computeEventGridSquares(event, resolvedGridSquares) {
   const extractedGridSquares =
     resolvedGridSquares && resolvedGridSquares.length > 0
       ? dedupeGridSquareRefs(resolvedGridSquares)
@@ -1361,7 +1361,7 @@ function isUnresolvedLocationName(value) {
   return value === "Location to be confirmed" || /mystery location/i.test(value) || /not decided/i.test(value);
 }
 
-function extractGridSquareRefsFromText(value, options = {}) {
+export function extractGridSquareRefsFromText(value, options = {}) {
   const allowBare = options.allowBare ?? false;
   const refs = [];
   const text = value.toUpperCase();
@@ -1437,7 +1437,7 @@ function dedupeGridSquareRefs(refs) {
   return Array.from(byKey.values());
 }
 
-function buildDays(events) {
+export function buildDays(events) {
   const daysById = new Map();
 
   for (const event of events) {
@@ -1461,20 +1461,20 @@ function formatDayLabel(date) {
     : date;
 }
 
-function createDayId(date) {
+export function createDayId(date) {
   return `day-${date}`;
 }
 
-function normalizeTime(value) {
+export function normalizeTime(value) {
   const [hour, minute] = value.split(":");
   return `${hour.padStart(2, "0")}:${minute}`;
 }
 
-function cleanTitle(value) {
+export function cleanTitle(value) {
   return value.replace(/\s+/g, " ").trim();
 }
 
-function slugify(value) {
+export function slugify(value) {
   return value
     .normalize("NFKD")
     .replace(/[\u0300-\u036f]/g, "")
