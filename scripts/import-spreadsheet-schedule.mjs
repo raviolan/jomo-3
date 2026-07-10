@@ -4,6 +4,7 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 
 import generatedSchedule from "../src/data/generatedSchedule.ts";
 import {
+  applyKnownVenueLocation,
   buildDays,
   buildScheduleFromPdf,
   cleanTitle,
@@ -330,7 +331,7 @@ function normalizeSpreadsheetEvent(row, context) {
     extractGridSquareRefsFromText(locationLabel, { allowBare: true })
   );
 
-  return {
+  return applyKnownVenueLocation({
     id: "",
     title,
     dayId: createDayId(date),
@@ -354,7 +355,7 @@ function normalizeSpreadsheetEvent(row, context) {
       pdf: spreadsheetSource,
       page: 0
     }
-  };
+  });
 }
 
 function normalizeSpreadsheetDestination(row, context) {
@@ -368,7 +369,7 @@ function normalizeSpreadsheetDestination(row, context) {
   const location = parseLocation(locationLabel);
   const gridSquares = extractGridSquareRefsFromText(location.name, { allowBare: true });
 
-  return {
+  return applyKnownVenueLocation({
     id: "",
     name,
     type,
@@ -380,7 +381,7 @@ function normalizeSpreadsheetDestination(row, context) {
       pdf: spreadsheetSource,
       page: 0
     }
-  };
+  });
 }
 
 function preserveEventIds(nextEvents, baselineEvents) {

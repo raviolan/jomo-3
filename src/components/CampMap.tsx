@@ -1,5 +1,6 @@
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState, type MutableRefObject } from "react";
 import {
+  type GestureResponderEvent,
   Image,
   Pressable,
   ScrollView,
@@ -7,7 +8,12 @@ import {
   Text,
   View,
   useWindowDimensions,
+  type NativeTouchEvent,
+  type LayoutChangeEvent,
   type ImageSourcePropType,
+  type NativeScrollEvent,
+  type NativeSyntheticEvent,
+  type ScrollView as ScrollViewType,
   type ViewStyle
 } from "react-native";
 
@@ -27,6 +33,27 @@ import { theme } from "@/theme/theme";
 const campgroundMapImage = require("../../assets/maps/campground-map-grid-2026.png") as ImageSourcePropType;
 const GRID_LABEL_GUTTER_X = 34;
 const GRID_LABEL_GUTTER_Y = 28;
+const MIN_MAP_ZOOM = 1;
+const MAX_MAP_ZOOM = 4;
+const PINCH_DISTANCE_THRESHOLD = 8;
+
+type TouchLike = {
+  clientX: number;
+  clientY: number;
+};
+
+type PinchGestureState = {
+  initialDistance: number;
+  initialScale: number;
+  initialScrollX: number;
+  initialScrollY: number;
+  viewportFocalX: number;
+  viewportFocalY: number;
+};
+
+type TouchEventPayload = NativeTouchEvent & {
+  touches?: TouchLike[];
+};
 
 interface CampMapProps {
   campHighlightSquares?: GridSquareRef[];
@@ -55,6 +82,8 @@ export function CampMap({
   const { height: windowHeight } = useWindowDimensions();
   const [scrollX, setScrollX] = useState(0);
   const [scrollY, setScrollY] = useState(0);
+  const [zoomScale, setZoomScale] = useState(MIN_MAP_ZOOM);
+  const [scrollViewportWidth, setScrollViewportWidth] = useState<number>(CAMP_MAP_IMAGE.width);
   const labels = highlightedSquares.map((square) => square.label).join(", ");
   const isEventDetailHighlightMode = interactiveSquares === "highlighted";
   const pressableSquares =
@@ -63,6 +92,15 @@ export function CampMap({
     () => Math.min(Math.max(windowHeight * 0.64, 360), 720),
     [windowHeight]
   );
+  const horizontalScrollRef = useRef<ScrollViewType | null>(null);
+  const verticalScrollRef = useRef<ScrollViewType | null>(null);
+  const pinchStateRef = useRef<PinchGestureState | null>(null);
+  const pinchHasMovedRef = useRef(false);
+  const suppressNextPressRef = useRef(false);
+  const scrollableMapWidth = CAMP_MAP_IMAGE.width * zoomScale;
+  const scrollableMapHeight = CAMP_MAP_IMAGE.height * zoomScale;
+  const horizontalViewportWidth = Math.max(scrollViewportWidth - (showGridLabels ? GRID_LABEL_GUTTER_X : 0), 0);
+  const verticalViewportHeight = Math.max(scrollViewportHeight - (showGridLabels ? GRID_LABEL_GUTTER_Y : 0), 0);
 
   const mapOverlay = (
     <>
@@ -70,13 +108,13 @@ export function CampMap({
         <View
           key={`camp-${square.key}`}
           pointerEvents="none"
-          style={[styles.campMarker, getMapRectStyle(getGridSquareBounds(square), mode)]}
+          style={[styles.campMarker, getMapRectStyle(getGridSquareBounds(square), mode, zoomScale)]}
         />
       ))}
       {highlightedSquares.map((square) => {
-        const cellStyle = getMapRectStyle(getGridSquareBounds(square), mode);
-        const rowStyle = getMapRectStyle(getGridRowBounds(square), mode);
-        const columnStyle = getMapRectStyle(getGridColumnBounds(square), mode);
+        const cellStyle = getMapRectStyle(getGridSquareBounds(square), mode, zoomScale);
+        const rowStyle = getMapRectStyle(getGridRowBounds(square), mode, zoomScale);
+        const columnStyle = getMapRectStyle(getGridColumnBounds(square), mode, zoomScale);
 
         if (isEventDetailHighlightMode) {
           return (
@@ -134,16 +172,23 @@ export function CampMap({
               accessibilityRole="button"
               hitSlop={interactiveSquares === "all" ? 0 : 18}
               key={`${square.key}-target`}
-              onPress={() => onGridSquarePress(square)}
+              onPress={() => {
+                if (suppressNextPressRef.current) {
+                  suppressNextPressRef.current = false;
+                  return;
+                }
+
+                onGridSquarePress(square);
+              }}
               style={[
                 styles.pressTarget,
                 interactiveSquares === "highlighted" && styles.highlightPressTarget,
-                getMapRectStyle(getGridSquareBounds(square), mode)
+                getMapRectStyle(getGridSquareBounds(square), mode, zoomScale)
               ]}
             />
           ))
         : null}
-      {campInfo ? <CampInfoOverlay info={campInfo} mode={mode} /> : null}
+      {campInfo ? <CampInfoOverlay info={campInfo} mode={mode} scale={zoomScale} /> : null}
     </>
   );
 
@@ -156,17 +201,47 @@ export function CampMap({
         </View>
       ) : null}
       {mode === "scrollable" ? (
-        <View style={[styles.frameBase, styles.scrollMapFrame, { height: scrollViewportHeight }]}>
+        <View
+          onLayout={(event) => handleScrollFrameLayout(event, showGridLabels, setScrollViewportWidth)}
+          onTouchCancel={() => endPinchGesture({ pinchHasMovedRef, pinchStateRef, suppressNextPressRef })}
+          onTouchEnd={() => endPinchGesture({ pinchHasMovedRef, pinchStateRef, suppressNextPressRef })}
+          onTouchMove={(event) =>
+            handlePinchTouchMove(event, {
+              horizontalScrollRef,
+              horizontalViewportWidth,
+              pinchHasMovedRef,
+              pinchStateRef,
+              setScrollX,
+              setScrollY,
+              setZoomScale,
+              verticalScrollRef,
+              verticalViewportHeight
+            })
+          }
+          onTouchStart={(event) =>
+            handlePinchTouchStart(event, {
+              horizontalViewportWidth,
+              pinchHasMovedRef,
+              pinchStateRef,
+              scrollX,
+              scrollY,
+              showGridLabels,
+              verticalViewportHeight,
+              zoomScale
+            })
+          }
+          style={[styles.frameBase, styles.scrollMapFrame, { height: scrollViewportHeight }]}
+        >
           {showGridLabels ? (
             <>
               <View pointerEvents="none" style={styles.gridCorner} />
               <View pointerEvents="none" style={styles.columnViewport}>
-                <View style={[styles.columnTrack, { transform: [{ translateX: -scrollX }] }]}>
+                <View style={[styles.columnTrack, { transform: [{ translateX: -scrollX }], width: scrollableMapWidth }]}>
                   {GRID_COLUMNS.map((column) => {
                     const square = createGridSquareRef(column, 1);
                     const bounds = getGridColumnBounds(square);
                     return (
-                      <View key={column} style={[styles.columnLabelBox, getAxisLabelStyle(bounds, "column")]}>
+                      <View key={column} style={[styles.columnLabelBox, getAxisLabelStyle(bounds, "column", zoomScale)]}>
                         <Text style={styles.axisLabelText}>{column}</Text>
                       </View>
                     );
@@ -174,12 +249,12 @@ export function CampMap({
                 </View>
               </View>
               <View pointerEvents="none" style={styles.rowViewport}>
-                <View style={[styles.rowTrack, { transform: [{ translateY: -scrollY }] }]}>
+                <View style={[styles.rowTrack, { height: scrollableMapHeight, transform: [{ translateY: -scrollY }] }]}>
                   {GRID_ROWS.map((row) => {
                     const square = createGridSquareRef("A", row);
                     const bounds = getGridRowBounds(square);
                     return (
-                      <View key={row} style={[styles.rowLabelBox, getAxisLabelStyle(bounds, "row")]}>
+                      <View key={row} style={[styles.rowLabelBox, getAxisLabelStyle(bounds, "row", zoomScale)]}>
                         <Text style={styles.axisLabelText}>{row}</Text>
                       </View>
                     );
@@ -189,25 +264,27 @@ export function CampMap({
             </>
           ) : null}
           <ScrollView
+            ref={horizontalScrollRef}
             horizontal
             contentContainerStyle={styles.horizontalScrollContent}
             nestedScrollEnabled
-            onScroll={(event) => setScrollX(event.nativeEvent.contentOffset.x)}
+            onScroll={(event) => handleHorizontalScroll(event, setScrollX)}
             scrollEventThrottle={16}
             showsHorizontalScrollIndicator
             style={[styles.horizontalScroll, showGridLabels && styles.horizontalScrollWithLabels]}
           >
-            <View style={{ width: CAMP_MAP_IMAGE.width }}>
+            <View style={{ width: scrollableMapWidth }}>
               <ScrollView
-                contentContainerStyle={{ height: CAMP_MAP_IMAGE.height }}
+                ref={verticalScrollRef}
+                contentContainerStyle={{ height: scrollableMapHeight }}
                 nestedScrollEnabled
-                onScroll={(event) => setScrollY(event.nativeEvent.contentOffset.y)}
+                onScroll={(event) => handleVerticalScroll(event, setScrollY)}
                 scrollEventThrottle={16}
                 showsVerticalScrollIndicator
                 style={styles.verticalScroll}
               >
-                <View style={styles.pixelMapCanvas}>
-                  <Image source={campgroundMapImage} style={styles.pixelMapImage} />
+                <View style={[styles.pixelMapCanvas, { height: scrollableMapHeight, width: scrollableMapWidth }]}>
+                  <Image source={campgroundMapImage} style={[styles.pixelMapImage, { height: scrollableMapHeight, width: scrollableMapWidth }]} />
                   <View pointerEvents="box-none" style={styles.markerLayer}>
                     {mapOverlay}
                   </View>
@@ -230,7 +307,8 @@ export function CampMap({
 
 function CampInfoOverlay({
   info,
-  mode
+  mode,
+  scale = 1
 }: {
   info: {
     camps: string[];
@@ -239,16 +317,17 @@ function CampInfoOverlay({
     square: GridSquareRef;
   };
   mode: "static" | "scrollable";
+  scale?: number;
 }) {
   const squareBounds = getGridSquareBounds(info.square);
-  const anchor = getGridSquareCenter(info.square, mode);
+  const anchor = getGridSquareCenter(info.square, mode, scale);
   const isBelowAnchor = anchor.yPercent < 50;
-  const squareTopValue = mode === "scrollable" ? squareBounds.y : (squareBounds.y / CAMP_MAP_IMAGE.height) * 100;
+  const squareTopValue = mode === "scrollable" ? squareBounds.y * scale : (squareBounds.y / CAMP_MAP_IMAGE.height) * 100;
   const squareBottomValue =
     mode === "scrollable"
-      ? squareBounds.y + squareBounds.height
+      ? (squareBounds.y + squareBounds.height) * scale
       : ((squareBounds.y + squareBounds.height) / CAMP_MAP_IMAGE.height) * 100;
-  const horizontalPlacement = getBubbleHorizontalPlacement(anchor.xPercent, mode);
+  const horizontalPlacement = getBubbleHorizontalPlacement(anchor.xPercent, mode, scale);
 
   return (
     <>
@@ -272,7 +351,7 @@ function CampInfoOverlay({
               ? { top: squareBottomValue }
               : { top: toPercent(squareBottomValue, 100) }
             : mode === "scrollable"
-              ? { bottom: CAMP_MAP_IMAGE.height - squareTopValue }
+              ? { bottom: CAMP_MAP_IMAGE.height * scale - squareTopValue }
               : { bottom: toPercent(100 - squareTopValue, 100) },
           horizontalPlacement.style
         ]}
@@ -310,13 +389,33 @@ function GridSquareMarker({ label }: { label: string }) {
   );
 }
 
-function getMapRectStyle(bounds: { x: number; y: number; width: number; height: number }, mode: "static" | "scrollable"): ViewStyle {
+function getAxisLabelStyle(
+  bounds: { x: number; y: number; width: number; height: number },
+  axis: "column" | "row",
+  scale = 1
+): ViewStyle {
+  return axis === "column"
+    ? {
+        left: bounds.x * scale,
+        width: bounds.width * scale
+      }
+    : {
+        height: bounds.height * scale,
+        top: bounds.y * scale
+      };
+}
+
+function getMapRectStyle(
+  bounds: { x: number; y: number; width: number; height: number },
+  mode: "static" | "scrollable",
+  scale = 1
+): ViewStyle {
   if (mode === "scrollable") {
     return {
-      height: bounds.height,
-      left: bounds.x,
-      top: bounds.y,
-      width: bounds.width
+      height: bounds.height * scale,
+      left: bounds.x * scale,
+      top: bounds.y * scale,
+      width: bounds.width * scale
     };
   }
 
@@ -328,31 +427,163 @@ function getMapRectStyle(bounds: { x: number; y: number; width: number; height: 
   };
 }
 
-function getAxisLabelStyle(bounds: { x: number; y: number; width: number; height: number }, axis: "column" | "row"): ViewStyle {
-  return axis === "column"
-    ? {
-        left: bounds.x,
-        width: bounds.width
-      }
-    : {
-        height: bounds.height,
-        top: bounds.y
-      };
+function handleScrollFrameLayout(
+  event: LayoutChangeEvent,
+  showGridLabels: boolean,
+  setScrollViewportWidth: (width: number) => void
+) {
+  const gutterWidth = showGridLabels ? GRID_LABEL_GUTTER_X : 0;
+  setScrollViewportWidth(Math.max(event.nativeEvent.layout.width, gutterWidth));
+}
+
+function handleHorizontalScroll(
+  event: NativeSyntheticEvent<NativeScrollEvent>,
+  setScrollX: (value: number) => void
+) {
+  setScrollX(event.nativeEvent.contentOffset.x);
+}
+
+function handleVerticalScroll(
+  event: NativeSyntheticEvent<NativeScrollEvent>,
+  setScrollY: (value: number) => void
+) {
+  setScrollY(event.nativeEvent.contentOffset.y);
+}
+
+function handlePinchTouchStart(
+  event: GestureResponderEvent,
+  context: {
+    horizontalViewportWidth: number;
+    pinchHasMovedRef: MutableRefObject<boolean>;
+    pinchStateRef: MutableRefObject<PinchGestureState | null>;
+    scrollX: number;
+    scrollY: number;
+    showGridLabels: boolean;
+    verticalViewportHeight: number;
+    zoomScale: number;
+  }
+) {
+  const touches = getTouchPoints(event);
+  if (touches.length !== 2) {
+    return;
+  }
+
+  const focalPoint = getTouchMidpoint(touches);
+  const viewportFocalX = clamp(
+    focalPoint.x - (context.showGridLabels ? GRID_LABEL_GUTTER_X : 0),
+    0,
+    context.horizontalViewportWidth
+  );
+  const viewportFocalY = clamp(
+    focalPoint.y - (context.showGridLabels ? GRID_LABEL_GUTTER_Y : 0),
+    0,
+    context.verticalViewportHeight
+  );
+
+  context.pinchStateRef.current = {
+    initialDistance: getTouchDistance(touches[0], touches[1]),
+    initialScale: context.zoomScale,
+    initialScrollX: context.scrollX,
+    initialScrollY: context.scrollY,
+    viewportFocalX,
+    viewportFocalY
+  };
+  context.pinchHasMovedRef.current = false;
+}
+
+function handlePinchTouchMove(
+  event: GestureResponderEvent,
+  context: {
+    horizontalScrollRef: MutableRefObject<ScrollViewType | null>;
+    horizontalViewportWidth: number;
+    pinchHasMovedRef: MutableRefObject<boolean>;
+    pinchStateRef: MutableRefObject<PinchGestureState | null>;
+    setScrollX: (value: number) => void;
+    setScrollY: (value: number) => void;
+    setZoomScale: (value: number) => void;
+    verticalScrollRef: MutableRefObject<ScrollViewType | null>;
+    verticalViewportHeight: number;
+  }
+) {
+  const touches = getTouchPoints(event);
+  const pinchState = context.pinchStateRef.current;
+
+  if (touches.length !== 2 || !pinchState) {
+    return;
+  }
+
+  event.preventDefault?.();
+
+  const distance = getTouchDistance(touches[0], touches[1]);
+  if (distance <= 0) {
+    return;
+  }
+
+  if (Math.abs(distance - pinchState.initialDistance) >= PINCH_DISTANCE_THRESHOLD) {
+    context.pinchHasMovedRef.current = true;
+  }
+
+  const nextScale = clamp((distance / pinchState.initialDistance) * pinchState.initialScale, MIN_MAP_ZOOM, MAX_MAP_ZOOM);
+  const contentFocalX = (pinchState.initialScrollX + pinchState.viewportFocalX) / pinchState.initialScale;
+  const contentFocalY = (pinchState.initialScrollY + pinchState.viewportFocalY) / pinchState.initialScale;
+  const maxScrollX = Math.max(CAMP_MAP_IMAGE.width * nextScale - context.horizontalViewportWidth, 0);
+  const maxScrollY = Math.max(CAMP_MAP_IMAGE.height * nextScale - context.verticalViewportHeight, 0);
+  const nextScrollX = clamp(contentFocalX * nextScale - pinchState.viewportFocalX, 0, maxScrollX);
+  const nextScrollY = clamp(contentFocalY * nextScale - pinchState.viewportFocalY, 0, maxScrollY);
+
+  context.setZoomScale(nextScale);
+  context.horizontalScrollRef.current?.scrollTo({ animated: false, x: nextScrollX });
+  context.verticalScrollRef.current?.scrollTo({ animated: false, y: nextScrollY });
+  context.setScrollX(nextScrollX);
+  context.setScrollY(nextScrollY);
+}
+
+function endPinchGesture(context: {
+  pinchHasMovedRef: MutableRefObject<boolean>;
+  pinchStateRef: MutableRefObject<PinchGestureState | null>;
+  suppressNextPressRef: MutableRefObject<boolean>;
+}) {
+  if (context.pinchHasMovedRef.current) {
+    context.suppressNextPressRef.current = true;
+  }
+
+  context.pinchStateRef.current = null;
+  context.pinchHasMovedRef.current = false;
+}
+
+function getTouchPoints(event: GestureResponderEvent): TouchLike[] {
+  const nativeTouches = (event.nativeEvent as TouchEventPayload).touches;
+  return Array.isArray(nativeTouches) ? nativeTouches : [];
+}
+
+function getTouchDistance(first: TouchLike, second: TouchLike) {
+  const deltaX = first.clientX - second.clientX;
+  const deltaY = first.clientY - second.clientY;
+  return Math.hypot(deltaX, deltaY);
+}
+
+function getTouchMidpoint(touches: TouchLike[]) {
+  return {
+    x: (touches[0].clientX + touches[1].clientX) / 2,
+    y: (touches[0].clientY + touches[1].clientY) / 2
+  };
 }
 
 function toPercent(value: number, total: number): `${number}%` {
   return `${(value / total) * 100}%`;
 }
 
-function getGridSquareCenter(square: GridSquareRef, mode: "static" | "scrollable") {
+function getGridSquareCenter(square: GridSquareRef, mode: "static" | "scrollable", scale = 1) {
   const bounds = getGridSquareBounds(square);
-  const xValue = bounds.x + bounds.width / 2;
-  const yValue = bounds.y + bounds.height / 2;
+  const xValue = (bounds.x + bounds.width / 2) * scale;
+  const yValue = (bounds.y + bounds.height / 2) * scale;
+  const xPercent = ((bounds.x + bounds.width / 2) / CAMP_MAP_IMAGE.width) * 100;
+  const yPercent = ((bounds.y + bounds.height / 2) / CAMP_MAP_IMAGE.height) * 100;
 
   return {
-    xPercent: (xValue / CAMP_MAP_IMAGE.width) * 100,
+    xPercent,
     xValue,
-    yPercent: (yValue / CAMP_MAP_IMAGE.height) * 100,
+    yPercent,
     yValue
   };
 }
@@ -361,7 +592,7 @@ function clamp(value: number, min: number, max: number) {
   return Math.min(Math.max(value, min), max);
 }
 
-function getBubbleHorizontalPlacement(anchorXPercent: number, mode: "static" | "scrollable") {
+function getBubbleHorizontalPlacement(anchorXPercent: number, mode: "static" | "scrollable", scale = 1) {
   const estimatedWidthPercent = mode === "scrollable" ? (190 / CAMP_MAP_IMAGE.width) * 100 : 24;
 
   if (anchorXPercent < 22) {
@@ -378,7 +609,10 @@ function getBubbleHorizontalPlacement(anchorXPercent: number, mode: "static" | "
 
   const leftPercent = clamp(anchorXPercent - estimatedWidthPercent / 2, 2, 100 - estimatedWidthPercent - 2);
   return {
-    style: mode === "scrollable" ? { left: (leftPercent / 100) * CAMP_MAP_IMAGE.width } : { left: toPercent(leftPercent, 100) }
+    style:
+      mode === "scrollable"
+        ? { left: ((leftPercent / 100) * CAMP_MAP_IMAGE.width) * scale }
+        : { left: toPercent(leftPercent, 100) }
   };
 }
 

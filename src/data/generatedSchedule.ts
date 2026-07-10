@@ -1,7 +1,7 @@
 import type { NormalizedSchedule } from "@/models/schedule";
 
 const generatedSchedule: NormalizedSchedule = {
-  "generatedAt": "2026-07-10T11:10:01.419Z",
+  "generatedAt": "2026-07-10T11:32:32.739Z",
   "sourcePdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0+JOMO26_A4.pdf",
   "days": [
     {
@@ -79,8 +79,19 @@ const generatedSchedule: NormalizedSchedule = {
       },
       "category": "Workshop/Class",
       "location": {
-        "name": "Lucifer's Pit (barn, 1st floor)"
+        "name": "Downtown, grid square K19. Upstairs in the barn, around the silo, and inside the sheep barn",
+        "area": "Downtown",
+        "gridSquare": "K19",
+        "notes": "grid square K19. Upstairs in the barn, around the silo, and inside the sheep barn"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 19,
+          "key": "K19",
+          "label": "K19"
+        }
+      ],
       "tags": [
         "Kids friendly",
         "Queer-inclusive"
@@ -151,8 +162,19 @@ const generatedSchedule: NormalizedSchedule = {
       ],
       "campHost": "back alley",
       "location": {
-        "name": "in the barn by Lucifer's pit"
+        "name": "Downtown, grid square K19. Upstairs in the barn, around the silo, and inside the sheep barn",
+        "area": "Downtown",
+        "gridSquare": "K19",
+        "notes": "grid square K19. Upstairs in the barn, around the silo, and inside the sheep barn"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 19,
+          "key": "K19",
+          "label": "K19"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -2028,8 +2050,19 @@ const generatedSchedule: NormalizedSchedule = {
       ],
       "campHost": "back alley",
       "location": {
-        "name": "in the barn by Lucifer's pit"
+        "name": "Downtown, grid square K19. Upstairs in the barn, around the silo, and inside the sheep barn",
+        "area": "Downtown",
+        "gridSquare": "K19",
+        "notes": "grid square K19. Upstairs in the barn, around the silo, and inside the sheep barn"
       },
+      "gridSquares": [
+        {
+          "column": "K",
+          "row": 19,
+          "key": "K19",
+          "label": "K19"
+        }
+      ],
       "tags": [
         "Sensory content"
       ],
@@ -8947,10 +8980,10 @@ const generatedSchedule: NormalizedSchedule = {
       ],
       "campHost": "Lucifer's Pit",
       "location": {
-        "name": "Downtown, grid square K19. Go in, dive deep!",
+        "name": "Downtown, grid square K19. Upstairs in the barn, around the silo, and inside the sheep barn",
         "area": "Downtown",
         "gridSquare": "K19",
-        "notes": "grid square K19. Go in, dive deep!"
+        "notes": "grid square K19. Upstairs in the barn, around the silo, and inside the sheep barn"
       },
       "gridSquares": [
         {
@@ -11547,10 +11580,10 @@ const generatedSchedule: NormalizedSchedule = {
       ],
       "campHost": "Lucifer's Pit",
       "location": {
-        "name": "Downtown, grid square K19. Entrance to the silo is inside the sheep barn",
+        "name": "Downtown, grid square K19. Upstairs in the barn, around the silo, and inside the sheep barn",
         "area": "Downtown",
         "gridSquare": "K19",
-        "notes": "grid square K19. Entrance to the silo is inside the sheep barn"
+        "notes": "grid square K19. Upstairs in the barn, around the silo, and inside the sheep barn"
       },
       "gridSquares": [
         {
@@ -28916,10 +28949,10 @@ const generatedSchedule: NormalizedSchedule = {
       ],
       "campHost": "Lucifer's Pit",
       "location": {
-        "name": "Downtown, grid square K19. Go in and follow the Darkness!",
+        "name": "Downtown, grid square K19. Upstairs in the barn, around the silo, and inside the sheep barn",
         "area": "Downtown",
         "gridSquare": "K19",
-        "notes": "grid square K19. Go in and follow the Darkness!"
+        "notes": "grid square K19. Upstairs in the barn, around the silo, and inside the sheep barn"
       },
       "gridSquares": [
         {
@@ -45732,17 +45765,17 @@ const generatedSchedule: NormalizedSchedule = {
       ],
       "campHost": "Lucifer's Pit",
       "location": {
-        "name": "Downtown, grid square K18. in the giant satanic pit in the barn",
+        "name": "Downtown, grid square K19. Upstairs in the barn, around the silo, and inside the sheep barn",
         "area": "Downtown",
-        "gridSquare": "K18",
-        "notes": "grid square K18. in the giant satanic pit in the barn"
+        "gridSquare": "K19",
+        "notes": "grid square K19. Upstairs in the barn, around the silo, and inside the sheep barn"
       },
       "gridSquares": [
         {
           "column": "K",
-          "row": 18,
-          "key": "K18",
-          "label": "K18"
+          "row": 19,
+          "key": "K19",
+          "label": "K19"
         }
       ],
       "tags": [
@@ -55252,10 +55285,10 @@ const generatedSchedule: NormalizedSchedule = {
       "name": "The Vanilla Knot Club",
       "type": "Workshop/Class",
       "location": {
-        "name": "Downtown, grid square K19. Big barn, 1st floor, next to Lucifer's Pit (the silo).",
+        "name": "Downtown, grid square K19. Upstairs in the barn, around the silo, and inside the sheep barn",
         "area": "Downtown",
         "gridSquare": "K19",
-        "notes": "grid square K19. Big barn, 1st floor, next to Lucifer's Pit (the silo)."
+        "notes": "grid square K19. Upstairs in the barn, around the silo, and inside the sheep barn"
       },
       "gridSquares": [
         {

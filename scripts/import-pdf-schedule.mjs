@@ -128,7 +128,7 @@ const contextualGridPattern =
 const gridTokenPattern = /([A-Z])\s*(0?\d{1,2})/gi;
 const bareGridPattern = /(?:^|[^A-Z0-9])([A-Z])\s*(0?\d{1,2})(?=$|[^A-Z0-9])/gi;
 const phonePattern = /\+\d(?:[\d\s()-]{6,}\d)/;
-const lucifersPitCanonicalLocation =
+export const lucifersPitCanonicalLocation =
   "Downtown, grid square K19. Upstairs in the barn, around the silo, and inside the sheep barn";
 const campHostAliases = aliasDefinitions.campAliases;
 const hostAliases = aliasDefinitions.hostAliases;
@@ -403,8 +403,10 @@ export function buildCampListings(lines, eventTitleStartIndexes, minPage) {
       }
     };
 
-    listings.push(listing);
-    rawCampListingCandidates.push(listing);
+    const normalizedListing = applyKnownVenueLocation(listing);
+
+    listings.push(normalizedListing);
+    rawCampListingCandidates.push(normalizedListing);
 
     index = nextIndex - 1;
   }
@@ -468,10 +470,10 @@ function normalizeEventLocation(event, campLocationIndex, hostLocationIndex) {
       location: updatedLocation
     };
 
-    return {
+    return applyKnownVenueLocation({
       ...updatedEvent,
       gridSquares: computeEventGridSquares(updatedEvent, replacementLocation.gridSquares)
-    };
+    });
   }
 
   if (event.location.name === "Location to be confirmed") {
@@ -483,17 +485,17 @@ function normalizeEventLocation(event, campLocationIndex, hostLocationIndex) {
         location: updatedLocation
       };
 
-      return {
+      return applyKnownVenueLocation({
         ...updatedEvent,
         gridSquares: computeEventGridSquares(updatedEvent)
-      };
+      });
     }
   }
 
-  return {
+  return applyKnownVenueLocation({
     ...event,
     gridSquares: computeEventGridSquares(event)
-  };
+  });
 }
 
 function hasConcreteMappedLocation(event) {
@@ -1301,7 +1303,7 @@ function findNextBlockBoundary(lines, startIndex, eventTitleStartIndexes) {
 }
 
 function containsKnownVenueReference(value) {
-  return /lucifer[’']?s pit/i.test(value);
+  return isLucifersPitReference([value]);
 }
 
 function normalizeComparableText(value) {
@@ -1315,6 +1317,11 @@ function normalizeComparableText(value) {
 
 export function parseLocation(value) {
   const cleanValue = value.replace(/\s+/g, " ").trim() || "Location to be confirmed";
+  const knownVenueLocation = getKnownVenueCanonicalLocation([cleanValue]);
+  if (knownVenueLocation) {
+    return knownVenueLocation;
+  }
+
   const gridSquares = extractGridSquareRefsFromText(cleanValue, { allowBare: true });
   const rawGridLabels = extractRawGridLabelsFromText(cleanValue, { allowBare: true });
   const area = areaNames.find((name) => cleanValue.startsWith(name));
@@ -1328,6 +1335,19 @@ export function parseLocation(value) {
 }
 
 export function computeEventGridSquares(event, resolvedGridSquares) {
+  if (
+    isLucifersPitReference([
+      event.location?.name,
+      event.host,
+      ...(event.hosts ?? []),
+      event.campHost,
+      ...(event.campHosts ?? []),
+      event.description
+    ])
+  ) {
+    return [createGridSquareRef("K", 19)];
+  }
+
   const extractedGridSquares =
     resolvedGridSquares && resolvedGridSquares.length > 0
       ? dedupeGridSquareRefs(resolvedGridSquares)
@@ -1409,7 +1429,7 @@ export function extractRawGridLabelsFromText(value, options = {}) {
   return Array.from(new Set(labels));
 }
 
-function createGridSquareRef(columnValue, rowValue) {
+export function createGridSquareRef(columnValue, rowValue) {
   const column = columnValue.toUpperCase();
   const row = Number(rowValue);
 
@@ -1422,6 +1442,46 @@ function createGridSquareRef(columnValue, rowValue) {
     row,
     key: `${column}${row}`,
     label: `${column}${String(row).padStart(2, "0")}`
+  };
+}
+
+export function isLucifersPitReference(values) {
+  return values.some((value) => typeof value === "string" && /lucifer[’']?s pit/i.test(value));
+}
+
+export function applyKnownVenueLocation(entry) {
+  const knownVenueLocation = getKnownVenueCanonicalLocation([
+    entry.location?.name,
+    entry.host,
+    ...(entry.hosts ?? []),
+    entry.campHost,
+    ...(entry.campHosts ?? []),
+    entry.description,
+    entry.name,
+    entry.title
+  ]);
+
+  if (!knownVenueLocation) {
+    return entry;
+  }
+
+  return {
+    ...entry,
+    location: knownVenueLocation,
+    gridSquares: [createGridSquareRef("K", 19)]
+  };
+}
+
+function getKnownVenueCanonicalLocation(values) {
+  if (!isLucifersPitReference(values)) {
+    return undefined;
+  }
+
+  return {
+    name: lucifersPitCanonicalLocation,
+    area: "Downtown",
+    gridSquare: "K19",
+    notes: lucifersPitCanonicalLocation.replace(/^Downtown,\s*/, "")
   };
 }
 
