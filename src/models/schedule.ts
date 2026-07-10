@@ -80,7 +80,9 @@ export type FestivalCategory =
   | "Other";
 
 export type FestivalTag =
+  | "Kids friendly"
   | "Adults only"
+  | "Queer-focused"
   | "Queer-inclusive"
   | "Sensory content"
   | "Sex positive"

@@ -1,7 +1,7 @@
 import type { NormalizedSchedule } from "@/models/schedule";
 
 const generatedSchedule: NormalizedSchedule = {
-  "generatedAt": "2026-07-09T22:16:20.215Z",
+  "generatedAt": "2026-07-10T10:49:52.078Z",
   "sourcePdf": "JOMO26_A4.pdf",
   "days": [
     {
@@ -93,6 +93,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "We will go through some basic rope and knots skills that will help you and your camp through the next days. Beginner to advanced. No skills needed. BYOR (bring your own rope - if you have one) Disclaimer: We will only tie on non-living things. If you want to tie humans/lovers together, this is not the workshop you are looking for.",
@@ -376,6 +377,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "Chill by the big Spaceport fire while enjoying a concert that will soothe your soul and raise your consciousness to “Borderland Levels”... Maybe you have had a long day of building and want to wind down... or maybe you have just arrived and are looking for the perfect way to start your burn.",
@@ -448,7 +450,9 @@ const generatedSchedule: NormalizedSchedule = {
       "location": {
         "name": "Anywhere"
       },
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "When you've packed up all of your mojo, your tent feels impossibly far away, and truthfully.. you've got a tiny existential wobble brewing, come find us. Lazy Treats Hour will serve you hot toasties, silliness and giggles, plus a generous serving of camp love. Survival, but make it fabulous.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -486,6 +490,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "We will be serving icy stuff at random times. It’s up to the universe whether you get lucky or not.",
@@ -554,6 +559,7 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square S17."
       },
       "tags": [
+        "Kids friendly",
         "Sober",
         "Queer-inclusive",
         "Sex positive",
@@ -609,6 +615,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "Join us for a loose, relaxed jam in the garden. Bring an instrument or your voice and let’s make some music! We have a few handpans to loan to participants, so if you’ve ever wanted to try one out, this is your chance. We’ve built most of them ourselves, and are very excited to see them in other people’s hands! We also have some shakers and other fun stuff for anyone who wants to jump in.",
@@ -647,7 +654,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "P22"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Find a good spot anywhere and just sit back and people-watch while relaxing. It looks like a Borderland movie, doesn’t it?",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -728,6 +737,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Adults only",
         "Sober",
         "Queer-inclusive"
@@ -1024,6 +1034,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "Stuck in a conflict? Meet the CRT any day. We don’t take sides or decide for you. We’re here to listen, offer mediation tools, and help find ways to coexist. Stop by to chat, learn, or get support! Conflicts should be solved between those involved, but if that isn’t possible, you can turn to us!",
@@ -1281,6 +1292,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober"
       ],
       "description": "Experience an Ethiopian coffee ceremony! You don’t need to be there from the start, come when you can during the ceremony and enjoy a cup!",
@@ -1323,7 +1335,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "R13"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Get your sweat on with Jutlandias best Zumba instructor, Fun and good exercise - LETS GOOO !!!",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -1360,7 +1374,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "P22"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Master the magical art of doing nothing! No goals, no to-dos just you, a comfy spot, and sweet, glorious idleness. Hug a tree, wiggle your toes, daydream wildly. It’s fun, it’s freeing, it’s fabulously unproductive. Permission to laze: granted!",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -1398,6 +1414,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober",
         "Queer-inclusive"
       ],
@@ -1437,7 +1454,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "U21"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Make brushing your teeth a fun and absurd way of getting to know new people and new toothpastes! We take you to a trip around the world's most exquisite toothpastes. BYOT (Bring your own toothbrush -and pimp it at our craft booth!-) No toothbrush ? Pass by for a shot of mouthwash you stinky hippie ! Fun toothpastes ? Bring them all !",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -1480,7 +1499,7 @@ const generatedSchedule: NormalizedSchedule = {
       ],
       "tags": [
         "Sober",
-        "Queer-inclusive"
+        "Queer-focused"
       ],
       "description": "Melt into the soft hours with a slow, juicy yin yoga practice for femmes loving femmes (butches & nb folks included). Long-held poses, deep breath, gentle touch, come home to your body by the water. All levels, all bodies. Daily at 11, bring yourself, leave puddly",
       "source": {
@@ -1503,7 +1522,9 @@ const generatedSchedule: NormalizedSchedule = {
       "location": {
         "name": "Location to be confirmed"
       },
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "This magical jewellery market will pop up at random times and at random places around the playa. If you’re supposed to, you’ll find it. All jewellery: $Free.99 I bring jewellery from all over the world to this magical little pop-up! Come pick the piece(s) that speak to you and leave a kind word for the next person. Walk off with your new jewellery and a mystery note from the person before you.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -1956,6 +1977,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober"
       ],
       "description": "Welcome to enjoy Ethiopias national dish, injera! Vegan options are available",
@@ -2248,7 +2270,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "L05"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Tired of losing your cup? In this drop-in workshop you can craft a band to hang your cup from your bag, belt, or neck, so it stays with you anywhere you go. You can personalize it so everyone can see it's yours.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -2417,7 +2441,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "R11"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Vans Follow the scent to the Low Lands, just south of Snack Plaza, where crispy delights, surprise twists, and loungey vibes await. We flip with flair, serve with love, and welcome all dusty dreamers. We're just a smell away.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -2842,7 +2868,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "J21"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Police HQ) Sing everything you want to say and improvise new lyrics to well- known melodies :) Take part, or just listen!",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -2885,6 +2913,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober"
       ],
       "description": "South-Eastern Lowlands. Depending on the amount of participants, we will find a nice cozy spot. Feel free to bring a blanket (or anything you need to sit comfortably). A cozy circle for pregnant burners, new parents and anyone exploring burns and parenthood. Come share about pregnancy at the burn, burn- FOMO, sobriety, energy, changing bodies, relationships, and a question many of us carry: can we keep burning with children? Partners, babies and all feelings welcome.",
@@ -3016,6 +3045,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "Experience Argentine tango – an intimate dialogue through movement, connection, and music. Together we explore the fundamentals of this beautiful dance, guided by the timeless sounds of traditional tango. As this recurring event unfolds, each session will build naturally on the last, allowing us to gradually deepen our understanding and expression.",
@@ -3268,6 +3298,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober",
         "Sensory content",
         "Adults only"
@@ -3312,7 +3343,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "J21"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Police HQ) Welcome friend! We will do a lot of carefully selected short fun games of various kinds. It’s ok to come and go as you like, no game lasts more than a few minutes, so we will always soon do something else :)",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -3391,7 +3424,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "P22"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Lay back, relax, and let your imagination fly, it’s cloud watching time! Spot dragons, donuts, dancing llamas. Who knows what floats by? Bring your wildest daydreams, and some chill vibes. No rules, no rush, just sky-gazing joy and fluffy fun above.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -3474,7 +3509,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "L04"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Come sing Disney songs together! Bring a snack to share of you like and we will have tea.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -3510,7 +3547,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "M11"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Kid-friendly Highlands, grid square M11. Look out for the flag with the big heart on it! Move, sing, let go",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -3682,7 +3721,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "U16"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Piece and The Lowlands meet! Get your flow energy feeling right from the start!! Easing into the party as F.L.J moves through smooth digital stylings as he paints a chill and rejuvenating soundscape for peeps before you venture forth to explore the town and all the adventures it holds for you. Tania will also serve up some delicious Chai for any who want to partake while they soak in the sound.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -3852,6 +3893,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "Relax in our lovely shade and listen to some of Njorunn's Garden's inhabitants read aloud from their favorite books. Monday: Lars reads from the Tao Te Ching, Tuesday: Teresa reads Who Will Comfort Toffle by Tove Jansson, first in English and after that (if there's interest) in the original Swedish. Thursday: Fellan reads from Braiding Sweetgrass by Robin Wall Kimmerer.",
@@ -3890,7 +3932,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "Q12"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "A corner of Paris in the woods — wine, peanuts, and the art of l’Apéro.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -4310,6 +4354,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Triggering themes"
       ],
       "description": "A series of presentations on how humans wound up with Patriarchy. Lesson 1 - The First 96% of Human History Lesson 2 - Earth Goddess vs Sky Father Lesson 3 - Conquest and Control Lesson 4 - God Hates Women Lesson 5 - A Path Forward",
@@ -4810,7 +4855,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "Q12"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Happy Hour à la Française! — Sparkling wine, peanuts, and the art of l’Apéro.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -5008,7 +5055,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "M11"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Kid-friendly Highlands, grid square M11. Look out for the flag with the big heart on it! Before the gym, before the chair you moved like an animal. This workshop takes you back there. Crawl like an ape, leap like a frog, stalk like a cat. Get on the floor, stretch, crawl & play with fellow creatures. Connect to the intelligence living within you & remember the fun of being on all fours!",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -5422,7 +5471,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
-        "Queer-inclusive"
+        "Queer-focused"
       ],
       "description": "Opening-night magic: pin your heart to the Soul Matchmaking Board and let the Pond play cupid. We'll show you how it works, then set you loose to find your person (or your Tuesday-night U-Haul partner). Bring your crush energy",
       "source": {
@@ -5624,7 +5673,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "G22"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Rumor has it that Mermaid Mélisande will appear once again and let her hauntingly beautiful voice sound over the lake in the rays of the evening sun. Can likely be heard in the distance on all of Sunny Hill, but if you want a glimpse of the mermaid herself, come closer...",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -5745,7 +5796,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "I21"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "It's the community who creates meaning inside the structures built. To open our shared space of The Sun, The Temple, we'll create a joint singing experience — sharing a sound of togetherness and filling The Temple with the aliveness of the Borderland community. NO SINGING SKILLS REQUIRED! Improvisations, humming, and sun songs for everyone to join. Bring yourself, your voice, and any instrument you feel called to. Suggestion: wear something yellow, gold or white (absolutely optional)",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -5828,6 +5881,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sensory content"
       ],
       "description": "Dreamy analogue synths and psychedelic guitar riffs blend with electronic beats and noises from another dimension. The live set begins with ambient textures opening space for drum machines conjuring the Brazilian spirit. Enjoy the ride!",
@@ -5955,7 +6009,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
-        "Queer-inclusive",
+        "Queer-focused",
         "Sex positive"
       ],
       "description": "A warm communal cuddle-nest in the Summerge tent, held by Regina through the small hours. Crawl in, get cozy, be held against the cold and the loneliness.",
@@ -6028,7 +6082,9 @@ const generatedSchedule: NormalizedSchedule = {
       "location": {
         "name": "Anywhere"
       },
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "When you've packed up all of your mojo, your tent feels impossibly far away, and truthfully.. you've got a tiny existential wobble brewing, come find us. Lazy Treats Hour will serve you hot toasties, silliness and giggles, plus a generous serving of camp love. Survival, but make it fabulous.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -6066,6 +6122,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "We will be serving icy stuff at random times. It’s up to the universe whether you get lucky or not.",
@@ -6134,6 +6191,7 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square S17."
       },
       "tags": [
+        "Kids friendly",
         "Sober",
         "Queer-inclusive",
         "Sex positive",
@@ -6177,6 +6235,7 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Text or WhatsApp +45 51 90 31 49 for location"
       },
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "Dust, sweat, glitter and forest. Bring water and enjoy a moment of warmth, care and renewal before returning to the adventure. Built with Leave No Trace principles, deep love., and a steadfast faith in my close to nonexistent technical skills.",
@@ -6309,6 +6368,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober",
         "Queer-inclusive"
       ],
@@ -6348,7 +6408,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "P22"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Find a good spot anywhere and just sit back and people-watch while relaxing. It looks like a Borderland movie, doesn’t it?",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -6471,7 +6533,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "M09"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Heart' and 'Cheeky Butt Chill Camp'. The second last camp to your left ist 'The SeaLions Den' <3 A deep breath is the first thing we do after birth and the last thing we do before dying. It is our steady companion and we dive into her world, to see what was unseen. How does it work and waht is happening to you and your body?",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -6598,6 +6662,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Adults only",
         "Sober",
         "Queer-inclusive"
@@ -6686,6 +6751,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober"
       ],
       "description": "Got an outfit that needs a little more sparkle? Bring your old clothes and transform them into something new, weird, wonderful or wildly unnecessary. Come pimp, bedazzle, patch, decorate and play — no skills needed, just curiosity and a desire to shine.",
@@ -6771,6 +6837,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober"
       ],
       "description": "Baby Rave! Dance, jump around, crawl, have fun!",
@@ -6941,7 +7008,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "O07"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "2 hours to connect with your true capacity and find what feels most true for you for this day and the festival. Max 20 people.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -7020,6 +7089,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober",
         "Queer-inclusive"
       ],
@@ -7227,6 +7297,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "Stuck in a conflict? Meet the CRT any day. We don’t take sides or decide for you. We’re here to listen, offer mediation tools, and help find ways to coexist. Stop by to chat, learn, or get support! Conflicts should be solved between those involved, but if that isn’t possible, you can turn to us!",
@@ -7525,6 +7596,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober"
       ],
       "description": "Lets create jewellery out of old vinyl records so you can wear your chosen track on your body the whole week!",
@@ -7680,6 +7752,7 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "We're not placed yet, call WhatsApp +45 51 90 31 49"
       },
       "tags": [
+        "Kids friendly",
         "Queer-inclusive",
         "Triggering themes"
       ],
@@ -7762,7 +7835,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "P22"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Master the magical art of doing nothing! No goals, no to-dos just you, a comfy spot, and sweet, glorious idleness. Hug a tree, wiggle your toes, daydream wildly. It’s fun, it’s freeing, it’s fabulously unproductive. Permission to laze: granted!",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -7930,6 +8005,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober",
         "Queer-inclusive"
       ],
@@ -8012,7 +8088,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "U21"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Make brushing your teeth a fun and absurd way of getting to know new people and new toothpastes! We take you to a trip around the world's most exquisite toothpastes. BYOT (Bring your own toothbrush -and pimp it at our craft booth!-) No toothbrush ? Pass by for a shot of mouthwash you stinky hippie ! Fun toothpastes ? Bring them all !",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -8055,7 +8133,7 @@ const generatedSchedule: NormalizedSchedule = {
       ],
       "tags": [
         "Sober",
-        "Queer-inclusive"
+        "Queer-focused"
       ],
       "description": "Melt into the soft hours with a slow, juicy yin yoga practice for femmes loving femmes (butches & nb folks included). Long-held poses, deep breath, gentle touch, come home to your body by the water. All levels, all bodies. Daily at 11, bring yourself, leave puddly",
       "source": {
@@ -8208,7 +8286,9 @@ const generatedSchedule: NormalizedSchedule = {
       "location": {
         "name": "Location to be confirmed"
       },
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "This magical jewellery market will pop up at random times and at random places around the playa. If you’re supposed to, you’ll find it. All jewellery: $Free.99 I bring jewellery from all over the world to this magical little pop-up! Come pick the piece(s) that speak to you and leave a kind word for the next person. Walk off with your new jewellery and a mystery note from the person before you.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -8288,6 +8368,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sensory content"
       ],
       "description": "Is your kid dreaming of being the star of the show? Now's their chance! They'll step into the spotlight, push buttons, and drop beats live - while you cheer and dance like their biggest and proudest fan. No experience needed, just curiosity and courage! Tolerant non-parents are welcome too.",
@@ -8462,6 +8543,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober"
       ],
       "description": "Brandenburners and The Coral Collective Have you ever wanted SWOLE muscles? Of course you have. But have you ever wanted a JACKED BRAIN?! This event is mostly for those who have limited experience with meditation, especially those who feel that meditation is not for them, because their mind wanders too much. Although everyone is welcome, even those who have an absolutely SHREDDED mind.",
@@ -8799,6 +8881,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober"
       ],
       "description": "Join Bogsy the Magnificent as he shares his most favourite playlist of all the classic Raffi kids songs!! Who's Raffi? Come find out and maybe even sing along. Specifically great for Toddlers but everyone is welcome! :)",
@@ -8836,6 +8919,7 @@ const generatedSchedule: NormalizedSchedule = {
       "tags": [
         "Adults only",
         "Queer-inclusive",
+        "Queer-focused",
         "Sensory content"
       ],
       "description": "Adults only · Queer-inclusive · Queer-focused · Sensory content Downtown, grid square K19. Go in, dive deep! Throat singing has had a renaissance in recent years through different spiritual, shamanistic and metal bands. Come and join us at Lucifer’s Pit and learn some of the techniques where two passionate vocalizers will do their best to help you reach your first resonance point. Don’t be (too) scared!",
@@ -8922,6 +9006,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sensory content"
       ],
       "description": "Welcome to Bass Yoga — a yoga class where deep bass frequencies are just as important as the poses. We move through simple, accessible asanas immersed in powerful bass-driven music you won't just hear — you'll feel it throughout your body. Let the vibrations guide your breath and connect you to the present. Seasoned yogi or complete beginner, come tune into the rhythm and discover a new way to flow.",
@@ -9158,6 +9243,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sensory content"
       ],
       "description": "- the fire which burns days and nights Come for a grounding journey in space and time - with the aid of a steady drumbeat from one or several sami inspired shamanic drums. This event is suitable for experienced and non-experienced travellers. Bring only yourself and your intention!",
@@ -9413,6 +9499,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober"
       ],
       "description": "Create and design your own silver jewelry in a cosmic workshop. No experience needed, just curiosity and a touch of magic",
@@ -9456,6 +9543,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober"
       ],
       "description": "Come by any time in the designated time slot and make yourself or a friend a string of feathers to put in your hair. Feathers and tools provided. Good event for creativity and for meeting fellow borderlings.",
@@ -9578,7 +9666,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "N12"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "It’s always tea o’clock in Morocco, and it’s always tea-time in wonderland. And so, if you subtract the two, it’s tea time at exactly 13:00-15:00 on Tuesday and Thursday at Alice in Morocco. Come sit at the table for some strange stories, tricky riddles AND traditional Moroccan mint tea - there’s plenty of room, said Alice. And remember, while you can never have less tea, you can always have more;)",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -9707,6 +9797,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober"
       ],
       "description": "Some words are more powerful than others, some have a different frequency. Sometimes we say sorry where sorry is not actually needed. Come to share and talk about meanings behind words and how we experience them in our conversations.",
@@ -9747,7 +9838,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "R21"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Embark on a feline-inspired adventure across the playa, where every player embodies a good, a bad or a cudly cat through 15 different quirky, interactive, kitty missions. Explore hidden corners, charm strangers in playful mischief, cuddle on warm laps and get kitty treats when you succeed in completing your quest. Love cats? You will love these quests!",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -9788,7 +9881,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "T19"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Discover the foundations of house dance in a fun, welcoming session open to everyone - no experience needed. We’ll explore the core grooves, rhythms, footwork, and freestyle elements that make house dance so expressive and joyful. Come move, connect with the music, and experience the energy and culture behind one of the world’s most vibrant street dance styles.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -10036,6 +10131,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Adults only"
       ],
       "description": "Play wonderland croquet. Hit a ball through small gates where the rules may change when least expected. Flamingos may not be included. If you bring a stick, we have balls.",
@@ -10117,7 +10213,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "L05"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "In this drop-in workshop you can decorate a cute little box for yourself to store small things like jewellery, candy, or little toys.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -10283,7 +10381,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "R11"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Vans Follow the scent to the Low Lands, just south of Snack Plaza, where crispy delights, surprise twists, and loungey vibes await. We flip with flair, serve with love, and welcome all dusty dreamers. We're just a smell away.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -10757,6 +10857,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "Slip into the role of an undercover gifter! In this hands-on group workshop you'll learn to discreetly place small gifts on people — without them noticing — through three stages of reverse pick- pocketing, distraction techniques and body movement. Expect pair practice, lots of laughter, and sharpened awareness. Wear something with wide or accessible pockets (jacket, hoodie, cargo pants). No experience needed — just curiosity, playfulness and respect.",
@@ -10842,6 +10943,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober"
       ],
       "description": "Welcome to a wild & fun vocal workshop that will make you laugh, play and relax. It will be all impro, exploring the connection between body & sound, bodylanguage & movement. Held by Kenia (Drama & artteacher, singer/songwriter)",
@@ -11010,6 +11112,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober"
       ],
       "description": "The End of the Block Lounge This event goes out to all our Borderlings of every age, particularly the next gen, offering them a party event catered to them at the burn. There will be G rated treats and refreshments, and DJ Captain Elsa and M.O.M. will be providing a playlist that hopefully the whole family can get behind. A collab with Kidsville, this event will be held at the Kidsville Dome.",
@@ -11132,6 +11235,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sensory content"
       ],
       "description": "Welcome to our garden for a day filled with music, performances, games, chill, meet ups and lots of silly sausages! We fire up the BBQ and invite you all into our magical world.",
@@ -11220,6 +11324,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sensory content"
       ],
       "description": "ELECTRONIC JAM Bring your machines and Jam with us. Synths, wierd boxes, phones/computers ? MIDI connection prvided, Curated by a very funny guy! (Stephan the sweet swede)",
@@ -11350,7 +11455,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "P22"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Come relax while our crepe wizard whips up Breton delights with homemade salted butter caramel & apple jam. Veggie-friendly, not vegan nor gluten-free. Bring a plate and forks, just roll, bite, smile, repeat!",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -11604,6 +11711,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "Experience Argentine tango – an intimate dialogue through movement, connection, and music. Together we explore the fundamentals of this beautiful dance, guided by the timeless sounds of traditional tango. As this recurring event unfolds, each session will build naturally on the last, allowing us to gradually deepen our understanding and expression.",
@@ -12225,7 +12333,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "Q12"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "The Tahini goddess herself invites you to this spectacular ceremony where we will open the BIG bucket. There will be Tahini songs, Tahini blessings, Tahini fika and so much Tahini. Please come and join the one true faith that is Tahini!",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -12626,7 +12736,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "P09"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Parents: your kid deserves better than a boring hula-hoop workshop. The Baby Badgers Youth Corps offers one afternoon of real military training: tactical face paint, spy craft, reconnaissance and obstacle course. They'll come home braver, stronger and ready to win in life. Limited spots. Go Badgers, go! #freedomdontcomefree",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -12837,7 +12949,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "P22"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Lay back, relax, and let your imagination fly, it’s cloud watching time! Spot dragons, donuts, dancing llamas. Who knows what floats by? Bring your wildest daydreams, and some chill vibes. No rules, no rush, just sky-gazing joy and fluffy fun above.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -12874,7 +12988,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "T16"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Every piece of MOOP is looking for its destiny — bring yours! The lonely bottle cap, the mysterious plastic thing nobody can identify. Bring a piece of MOOP, ideally not bigger than your hand nor heavier than your soul. Together we'll transform forgotten leftovers into curious creatures and cosmic artifacts for a floating mobile. Weird, beautiful, silly, impossible — no skills required. Help bring the universe back into balance. Or at least make it wobble more interestingly.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -12917,7 +13033,8 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
-        "Queer-inclusive"
+        "Queer-focused",
+        "Kids friendly"
       ],
       "description": "Queers of the Borderland unite. Let's meet each other over a delicious (vegan) soft serve ice-cream and connet. Because its nice to know who your rainbow siblings are! An easy mostly informal hangout with a name round, an opportunity to be joyously gay and to plot the Queer Take Over ;)",
       "source": {
@@ -13033,7 +13150,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "R19"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Kid-friendly Swamp, grid square R19. We are orange Come squeeze yourself a glass of orange juice - you never know where it might take you.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -13117,7 +13236,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "O10"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Come to the tipi to create your own Tree of Life dreakcatcher necklace and share thoughts along it !",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -13406,7 +13527,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "O10"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Do you have something with leopard print, tiger stripes, lion vibes, cheetah energy—or any other outfit that channels your inner magnificent feline? Then join! We'll gather, stretch our paws and then wander across the playa together as one majestic pride – it’s a moving party. Expect dramatic catwalks, playful roars and plenty of purring. Meow!",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -13816,6 +13939,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "Relax in our lovely shade and listen to some of Njorunn's Garden's inhabitants read aloud from their favorite books. Monday: Lars reads from the Tao Te Ching, Tuesday: Teresa reads Who Will Comfort Toffle by Tove Jansson, first in English and after that (if there's interest) in the original Swedish. Thursday: Fellan reads from Braiding Sweetgrass by Robin Wall Kimmerer.",
@@ -13858,7 +13982,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "P09"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Join us for a crafting workshop where you get to create your very own animal tail and become a real animal just in time for the great Kidsville Animal Parade",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -13895,7 +14021,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "Q12"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "A corner of Paris in the woods — wine, peanuts, and the art of l’Apéro.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -13982,7 +14110,7 @@ const generatedSchedule: NormalizedSchedule = {
         "Adults only",
         "Sober",
         "Sex positive",
-        "Queer-inclusive"
+        "Queer-focused"
       ],
       "description": "Do you also love kissing? Get lost in juicy kissing with many different mouths and lips. We will guide you in different exercises and then finish with a juicy & playful kissing orgy. Can it get better than this? Ps. You don’t have to kiss everyone, you can choose your level in each exercise. Please come fresh & without cold and cold sore. We will aim for balance between genders. GAY SPEED DATING Dating 16:00 – 17:30 Tim / Klara / Shimmering by the forest edge Queer-focused Arctic chill, grid square O06. In the Arctic Chill, close to Pamper Plaza, behind the camp \"Women who supports women\" Welcome all gay, bi, curious, flexible etc. men to an exclusive, men only, speed dating session. We will provide some fruit, and other snacks, maybe even some tea and coffee. We will also provide some questions to kick off the convos. Bring your most gay, curious self.",
       "source": {
@@ -14401,7 +14529,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "S11"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "The bivalvetarian's loophole: technically animal, debatably sentient, definitely tasty. No brain, no pain, all gain — protein-packed tacos for the consciously unconscious. Come flex.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -14521,7 +14651,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "T16"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "MŸS invites you to experience rare, fluffylicious downtempo sounds. We love to pitch down. Tickle your curiosity, listen or dance to twisted dust cracking vinyl gems. Lovers and dancers welcome inside our cozy MŸS Dome",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -14683,6 +14815,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Triggering themes"
       ],
       "description": "A series of presentations on how humans wound up with Patriarchy. Lesson 1 - The First 96% of Human History Lesson 2 - Earth Goddess vs Sky Father Lesson 3 - Conquest and Control Lesson 4 - God Hates Women Lesson 5 - A Path Forward",
@@ -14766,7 +14899,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "R22"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Nip in and get to know the good, the bad and the cuddly cats that likes to stretch out in the Cuddle Cove. Let's see yo pawty paws pickin up on that feline beat - cuz everythin else is obsolete!",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -14930,7 +15065,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "M20"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Teresa teaches a few traditional songs from Sweden, and shares some basic tips about rhythm and singing style/ornamentation in Swedish folk music.. Swedish language skills not required, as long as you're willing to learn phonetically. Expect lyrics about alcohol, misery and death. Also expect to not be able to get the songs out of your head afterwards, because they are absolute bangers.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -15219,7 +15356,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "Q12"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Happy Hour à la Française! — Sparkling wine, peanuts, and the art of l’Apéro.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -15283,6 +15422,7 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Find a campfire and hope that we're there"
       },
       "tags": [
+        "Kids friendly",
         "Sober",
         "Queer-inclusive"
       ],
@@ -15364,7 +15504,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "N13"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Search for drumming sounds and weird chants Free acoustic jamming with an oriental touch. Bring along any instruments you have. Or just bring yourself, if you can find it. Open to all, no music experience required.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -15597,7 +15739,9 @@ const generatedSchedule: NormalizedSchedule = {
       "location": {
         "name": "At the DMV. Behind the barn"
       },
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "All art cars gather at the DMV to strut their hot wheels, weow-weows, and whizzybangypoofythings. Probably not in an orderly row. Maybe racing. Maybe raving. All the way to the opening ceremony.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -15753,7 +15897,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "T16"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "MŸS invites you to a slow but also very danceable arrangement of our loved downtempo sound. Lay around, swing your body or stump to a rhythmic four on the floor that is nourished with driving baselines, percussion, acoustic elements and grooves influenced by places all around the globe. Come by and let the music move you, comfort you and bring us all together in our cozy MŸS Dome.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -16048,7 +16194,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
-        "Queer-inclusive"
+        "Queer-focused"
       ],
       "description": "Opening-night magic: pin your heart to the Soul Matchmaking Board and let the Pond play cupid. We'll show you how it works, then set you loose to find your person (or your Tuesday-night U-Haul partner). Bring your crush energy",
       "source": {
@@ -16294,6 +16440,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sensory content"
       ],
       "description": "If you have the courage to come find our coven at night we will reward you with a special treat! Only a few will experience our special magic ritual and learn how to cast spells. Will it be you? (We serve groups of 2-8 people for 15 to 30 minutes. Kid Friendly!).",
@@ -16332,7 +16479,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "L10"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Come and see the reveal of Le Observable Universe! For the occasion, for a fleeting moment, the Keepers of Le Observable Universe manifest a celestial anomaly: the Supernova Sandwich Station. Every bite is a cosmic revelation. Interact with celestial beings, meet fellow travelers, and play games that bend spacetime. Who knows - you might uncover the universe’s deepest secrets…",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -16954,7 +17103,9 @@ const generatedSchedule: NormalizedSchedule = {
       "location": {
         "name": "To find the storyteller, simply keep your eyes peeled while walking through wooded areas. Some say the Thieves and those who walk the moon know the"
       },
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "way, so one could always ask for help Throughout their travels, the Storyteller has gathered innumerable stories about all manner of wondrous things. The only guarantee is that the story you will hear has never been told before and will never be told again. So look out for the Storyteller to hear a unique tale told just for you.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -17076,7 +17227,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
-        "Queer-inclusive",
+        "Queer-focused",
         "Sex positive"
       ],
       "description": "A warm communal cuddle-nest in the Summerge tent, held by Regina through the small hours. Crawl in, get cozy, be held against the cold and the loneliness.",
@@ -17267,7 +17418,9 @@ const generatedSchedule: NormalizedSchedule = {
       "location": {
         "name": "Anywhere"
       },
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "When you've packed up all of your mojo, your tent feels impossibly far away, and truthfully.. you've got a tiny existential wobble brewing, come find us. Lazy Treats Hour will serve you hot toasties, silliness and giggles, plus a generous serving of camp love. Survival, but make it fabulous.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -17347,6 +17500,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "We will be serving icy stuff at random times. It’s up to the universe whether you get lucky or not.",
@@ -17458,6 +17612,7 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square S17."
       },
       "tags": [
+        "Kids friendly",
         "Sober",
         "Queer-inclusive",
         "Sex positive",
@@ -17501,6 +17656,7 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Text or WhatsApp +45 51 90 31 49 for location"
       },
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "Dust, sweat, glitter and forest. Bring water and enjoy a moment of warmth, care and renewal before returning to the adventure. Built with Leave No Trace principles, deep love., and a steadfast faith in my close to nonexistent technical skills.",
@@ -17525,7 +17681,9 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Everywhere",
         "area": "Everywhere"
       },
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "We sing everything we want to say, all day, everywhere :)",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -17738,6 +17896,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober",
         "Queer-inclusive"
       ],
@@ -17777,7 +17936,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "P22"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Find a good spot anywhere and just sit back and people-watch while relaxing. It looks like a Borderland movie, doesn’t it?",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -17945,7 +18106,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "M20"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Welcome Boderlings to En Goare Morgon Refill your strength & enjoy breakfeast with some nice Goa Trance & other chill tunes. We will serve you Odens Overnight Oats (with yummy toppings), coffee, tea & some Swedish fika. Let’s start the day together with sunny & uplifting psytrance for a Goare morning.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -18031,6 +18194,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Adults only",
         "Sober",
         "Queer-inclusive"
@@ -18205,6 +18369,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober"
       ],
       "description": "Grab your favorite adult and come explore yoga together! A playful yoga class for kids and their grown-ups to move, stretch, and connect together.",
@@ -18369,7 +18534,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "N13"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "The legend lives — and this year it walks among you! The curse of the Cave of Wonders has broken its seal: thieves, sorcerers and desert wanderers have escaped into the Borderland, and they're looking for you. For two days, live characters roam the camp weaving riddles, mischief and theatrical magic — a mysterious guide by the Bedouin Tent, a hidden clue, a quest you didn't know you'd joined. All welcome: every gender, every magic-maker. Queer stars of the Borderland, this adventure is yours too. Follow the whispers. Trust no one. Note: the Cave of Wonders escape room is open 24/7 for those who wish to go deeper.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -18451,6 +18618,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober",
         "Queer-inclusive"
       ],
@@ -18665,7 +18833,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "N09"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Welcome to Explorer's Living Room. Come by, squeeze in and get cozy. Enjoy a delicious cup of coffee and have a banana pancake right from the Muurikka. Let's ease into the day together. Soft 60s tunes and good vibes guaranteed. Bisou Sara & Axel",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -18703,6 +18873,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "Stuck in a conflict? Meet the CRT any day. We don’t take sides or decide for you. We’re here to listen, offer mediation tools, and help find ways to coexist. Stop by to chat, learn, or get support! Conflicts should be solved between those involved, but if that isn’t possible, you can turn to us!",
@@ -19046,7 +19217,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "R21"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Slink in and learn how to yowl and meow parts in the \"Sad Cat Song\" led by a professional choir conductor. Kitt, stray or feral - all is welcome to nuzzle in for some grrroovy mewsic.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -19129,7 +19302,8 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
-        "Sober"
+        "Sober",
+        "Kids friendly"
       ],
       "description": "Chilldome Movement session including both play around and try some challenges on the monkeybar, and maybe finish with a short team workout (in cruise mode or beast mode).",
       "source": {
@@ -19161,6 +19335,7 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "We're not placed yet, call WhatsApp +45 51 90 31 49"
       },
       "tags": [
+        "Kids friendly",
         "Queer-inclusive",
         "Triggering themes"
       ],
@@ -19201,6 +19376,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober"
       ],
       "description": "Experience an Ethiopian coffee ceremony! You don’t need to be there from the start, come when you can during the ceremony and enjoy a cup!",
@@ -19243,7 +19419,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "W16"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Only happening if the sun is shining! Make a souvenir with paper, sunlight, and findings from the playa. Bring a small object you found, something meaningful to you, or use our bits to create a blue sun- printed postcard.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -19284,7 +19462,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "R13"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "CIRKUS RED WHITE TENT, 2 mast. fuck around the playa, ask som playas Zumba is good for you, if you missed the first, you now have the chance to prove YOU CAN DO it, do not be scared!",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -19362,7 +19542,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "P22"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Master the magical art of doing nothing! No goals, no to-dos just you, a comfy spot, and sweet, glorious idleness. Hug a tree, wiggle your toes, daydream wildly. It’s fun, it’s freeing, it’s fabulously unproductive. Permission to laze: granted!",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -19614,7 +19796,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "U21"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Make brushing your teeth a fun and absurd way of getting to know new people and new toothpastes! We take you to a trip around the world's most exquisite toothpastes. BYOT (Bring your own toothbrush -and pimp it at our craft booth!-) No toothbrush ? Pass by for a shot of mouthwash you stinky hippie ! Fun toothpastes ? Bring them all !",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -19701,7 +19885,7 @@ const generatedSchedule: NormalizedSchedule = {
       ],
       "tags": [
         "Sober",
-        "Queer-inclusive"
+        "Queer-focused"
       ],
       "description": "Melt into the soft hours with a slow, juicy yin yoga practice for femmes loving femmes (butches & nb folks included). Long-held poses, deep breath, gentle touch, come home to your body by the water. All levels, all bodies. Daily at 11, bring yourself, leave puddly",
       "source": {
@@ -19789,7 +19973,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "M21"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Bring your favorite cloth that has a hole or more. We have string, needles, and patches for you to use. We can teach you how to repair your clothes with sashiko, weave darning, embroidery or patching. You can also bring your own project. Let's repair, create, learn and hang out together.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -19811,7 +19997,9 @@ const generatedSchedule: NormalizedSchedule = {
       "location": {
         "name": "Location to be confirmed"
       },
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "This magical jewellery market will pop up at random times and at random places around the playa. If you’re supposed to, you’ll find it. All jewellery: $Free.99 I bring jewellery from all over the world to this magical little pop-up! Come pick the piece(s) that speak to you and leave a kind word for the next person. Walk off with your new jewellery and a mystery note from the person before you.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -19888,6 +20076,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober"
       ],
       "description": "Come make beaded friendship bracelets to keep or gift to someone special.",
@@ -20182,6 +20371,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober"
       ],
       "description": "Brandenburners and The Coral Collective Have you ever wanted SWOLE muscles? Of course you have. But have you ever wanted a JACKED BRAIN?! This event is mostly for those who have limited experience with meditation, especially those who feel that meditation is not for them, because their mind wanders too much. Although everyone is welcome, even those who have an absolutely SHREDDED mind.",
@@ -20310,6 +20500,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober"
       ],
       "description": "Defy gravity and discover fluid movement trough dynamic sequences and surprinsing wraps. Come to fly in the air and transform the silks into your own canvas",
@@ -20595,7 +20786,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "R13"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "GONG BATH - SO NICE, SO RELAX, think jam camp makes lot of noice normally, this is your time to come and get your vibrational shine <3",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -20636,7 +20829,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "P22"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Stop by for quesadillas & guacamole, enjoy a taste of Mexico, and fuel your- self with delicious snacks before exploring the burn.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -21049,7 +21244,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "O20"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "An invitation to do absolutely nothing useful. Through gentle yin yoga, calming scents, head scratches, and deep rest, we'll create a space free from expectations, performance, productivity, or self- improvement. Nothing to fix, nothing to build, nowhere to be. Bring an eye pillow or a piece of fabric to cover your eyes, and come practice the radical art of simply being.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -21133,7 +21330,8 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
-        "Queer-inclusive"
+        "Queer-inclusive",
+        "Kids friendly"
       ],
       "description": "Energizing & grounding mid-day movement & DJ set. Feel the spirit rising as we enter the Ring of Cyclical Vitality. A psychosomatic release of dynamic meditation & daytime microparty. Queer-forward, no aerobics diploma required, all bodies welcome. Guided by Simo, soundtracked by One/Several Wolves",
       "source": {
@@ -21515,7 +21713,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "O20"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Plant a dream in a flower. Create your own paper flower in the enchanted garden while reflecting on future adventures, personal aspirations, and the things that make life feel magical. Share your vision, or simply let it bloom.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -21558,6 +21758,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober"
       ],
       "description": "Lowlands Hey kiddo, come learn circus tricks and acrobatics with your adult! We will be doing circus fun, playing with circus props, singing/music and partner acrobatics. Acro tricks will be tailored to age/abilities and spotters will be used for safety.",
@@ -22096,7 +22297,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "Q19"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Swamp, close to Blackwater Twist wire and crystal beads into a Tree of Life as a dreamcatcher, earrings, or a gift. A calm, hands-on crafting session to ground yourself in the BL madness while making something beautiful. No experience needed. Come by, get creative, and leave with a little magic.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -22138,6 +22341,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Triggering themes"
       ],
       "description": "Born to jest and afraid of being forced to joust? At the grand tournament there will be room for all! We're hosting several workshops for creative souls. Come make your own shield, chainmail jewelry, a medieval camp banner or leather harnesses, or indulge yourself in our array of less competitive activities.",
@@ -22478,6 +22682,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober"
       ],
       "description": "The Lowlands meet! An invite to all the younger Borderlings to come and strut while showcasing their best wardrobe fashion from this year's burn. There will be some kid friendly snacks as well. All kids are guaranteed two walks on the catwalk. Maybe more depending on turnout. Sorry mom and dad…",
@@ -22651,6 +22856,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Adults only",
         "Sober",
         "Sex positive"
@@ -22870,6 +23076,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "Experience Argentine tango – an intimate dialogue through movement, connection, and music. Together we explore the fundamentals of this beautiful dance, guided by the timeless sounds of traditional tango. As this recurring event unfolds, each session will build naturally on the last, allowing us to gradually deepen our understanding and expression.",
@@ -23199,7 +23406,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
-        "Queer-inclusive"
+        "Queer-focused"
       ],
       "description": "A wisdom circle on the menstrual cycle with Luna, honour your blood, your rhythms and your inner seasons. For everyone who bleeds or has ever felt ruled by the moon. Soft, sacred, one afternoon",
       "source": {
@@ -23393,7 +23600,7 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "In case of bad weather this event will be pushed to Thursday."
       },
       "tags": [
-        "Queer-inclusive"
+        "Queer-focused"
       ],
       "description": "",
       "source": {
@@ -23846,6 +24053,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober"
       ],
       "description": "A place for parents to come together with their babies/toddlers for a little sess of tummy time!",
@@ -23882,7 +24090,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "R20"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Tumble down the rabbit hole for an afternoon of Alice in Wonderland tales and other curious surprises. Curl up, get cozy, and lose yourself in the wonderfully strange world of Wonderland. Kida and inner kids are warmly welcome.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -23963,7 +24173,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "Q18"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Blackwater Operations. Look for the big Gringo flag. ¡Amigos! Are you ready for a fiesta, full of passion, amor and tequila? Then join us for some sweet latin rhythms and the smooth taste of El Famoso Tequila Sánchez! Feel free to show up in culturally appropriate attire like sombreros, ponchos and ballroom Latin dresses. All ages welcome.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -24215,6 +24427,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober"
       ],
       "description": "Listen to the jungle music, look after the most smallest, must adorable animals in the playa, find us, join us for a part or the whole parade With face paint, costumes, and a bit of imagination, we'll transform our cute little ones—and any grown-ups who feel called to join—into creatures from around the world. Together, we’ll wander around the playa, spreading smiles, joy, and a little bit of wild magic. Come celebrate your playful side and reconnect with your inner animal!",
@@ -24253,7 +24466,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "P22"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Delay like a pro! In this workshop, we’ll not start anything meaningful on purpose. We’ll bond over distractions and reasons not to act. Bring your unfinished to-do list, then ignore it with flair. Let’s waste time, brilliantly! Come late, leave later, achieve nothing.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -24290,7 +24505,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "P22"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Lay back, relax, and let your imagination fly, it’s cloud watching time! Spot dragons, donuts, dancing llamas. Who knows what floats by? Bring your wildest daydreams, and some chill vibes. No rules, no rush, just sky-gazing joy and fluffy fun above.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -24331,7 +24548,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "P13"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Clown games are easy, silly and absurdly fun. No winners, no losers, no audience. No any experience, talent or equipment needed. Just a willingness to play games and have fun! No physical contact required. Clothing & Sobriety optional. *Not that kind of play, you pervert.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -24368,7 +24587,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "R11"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Some follow the music. Others follow the smoke. Wander into the Low Lands, just south of Snack Plaza, where glowing coals, happy bellies, and friendly faces await. We grill with heart, season with joy, and serve questionable grill-master jokes free of charge.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -24493,6 +24714,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober"
       ],
       "description": "Make your own wooly sauna hat! Rose guides you through the wet art of felting where, after hard work and patience, you walk out with a hat truly made with love. No experience needed. Level up your sauna game! 8 spots, and bringing a friend to co-create a hat with is always magic! Bring a towel!",
@@ -24934,7 +25156,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "P09"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Let's create a hobby horse together. Create your mare of dare or your stallion of batallion! Material and tools are on premises. You can use your creation for Thursday's hobbyhorse contest.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -25183,6 +25407,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "Chinchilla Yurt D — Hype/Chaos-Energie (242 Zeichen) ERIC IS 31! Time to relive the golden age of birthday parties: potato races, chocolate-unwrapping with gloves, freeze dance showdowns. Chai Chill Chinchilla yurt, all ages of chaos welcome. Bring snacks, bring energy and gifts for Eric if you want.",
@@ -25431,7 +25656,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "Q12"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "A corner of Paris in the woods — wine, peanuts, and the art of l’Apéro.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -26180,7 +26407,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "P13"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Come and play, with nothing and everything, imagine worlds and of course some silliness, lots of it! Shhhhh what is there when you can listen?",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -26217,7 +26446,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "G21"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Let's have a flash mob for a friendly pillow fight! Let's play by Burnberry Rules, aka no strike on person on the ground, no strike on innocent bystanders (person w/o pillow), if someone raise both hands they should be granted safe passage out of the fight. No excessive force. Also LNT, if your pillow rupture, help clean up afterwards. You can play with any soft pillowish object, inside out bag for sleeping bag, stuff sack.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -26389,6 +26620,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sensory content"
       ],
       "description": "Salmiakki, this wonderful nordic elixir of gods. Lets taste different kinds! Feel free to bring your own selection as well.",
@@ -26554,7 +26786,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "N13"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Together we dive into a colorful flow on canvas, connect to ourselves and our intuition- no particular art skills needed!",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -26592,6 +26826,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Triggering themes"
       ],
       "description": "A series of presentations on how humans wound up with Patriarchy. Lesson 1 - The First 96% of Human History Lesson 2 - Earth Goddess vs Sky Father Lesson 3 - Conquest and Control Lesson 4 - God Hates Women Lesson 5 - A Path Forward",
@@ -26762,7 +26997,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "T16"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Dreamy analogue synths and psychedelic guitar riffs blend with downtempo beats and noises from another dimension. The live set begins with ambient textures opening space for drum machines conjuring the Brazilian spirit. Enjoy your trip while sipping on Sencha or grooving to the sound.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -26844,6 +27081,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "As Jenny Benny I’ll sing as both a man and a woman, performing duets with myself. It will be a short musical performance where I invite people into Jenny Benny’s world for a little while. It’s playful, emotional, sometimes funny and sometimes touching. My hope is simply that you leave with a smile and a song in your heart.",
@@ -27172,7 +27410,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "Q12"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Happy Hour à la Française! — Sparkling wine, peanuts, and the art of l’Apéro.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -27209,7 +27449,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "T16"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Blending bass-driven grooves, harmonic textures, and hypnotic rhythms; sounds that move between organic warmth and powerful club energy. Expect a carefully curated 3-hour voyage full of global influences, emotional moments, and dancefloor-driven intensity — music that connects cultures, emotions, and movement into one shared experience.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -27487,6 +27729,7 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Find a campfire and hope that we're there"
       },
       "tags": [
+        "Kids friendly",
         "Sober",
         "Queer-inclusive"
       ],
@@ -28188,7 +28431,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
-        "Queer-inclusive"
+        "Queer-focused"
       ],
       "description": "Opening-night magic: pin your heart to the Soul Matchmaking Board and let the Pond play cupid. We'll show you how it works, then set you loose to find your person (or your Tuesday-night U-Haul partner). Bring your crush energy",
       "source": {
@@ -28438,6 +28681,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sensory content"
       ],
       "description": "If you have the courage to come find our coven at night we will reward you with a special treat! Only a few will experience our special magic ritual and learn how to cast spells. Will it be you? (We serve groups of 2-8 people for 15 to 30 minutes. Kid Friendly!).",
@@ -29269,7 +29513,9 @@ const generatedSchedule: NormalizedSchedule = {
       "location": {
         "name": "Chronos"
       },
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Explore, and find the meat! Like always, the spot will not be announced. A meat bar containing dry-aged beef will pop up and serve you one of your best meat experiences at Borderland. So good songs have been written about it! Come and join in a big meat-focused BBQ experience! This is meat tasting and not a full meal. It's never too late to try meat again :D",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -29295,7 +29541,9 @@ const generatedSchedule: NormalizedSchedule = {
       "location": {
         "name": "To find the storyteller, simply keep your eyes peeled while walking through wooded areas. Some say the Thieves and those who walk the moon know the"
       },
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "way, so one could always ask for help Throughout their travels, the Storyteller has gathered innumerable stories about all manner of wondrous things. The only guarantee is that the story you will hear has never been told before and will never be told again. So look out for the Storyteller to hear a unique tale told just for you.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -29379,7 +29627,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "P13"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "As the sun goes to sleep, we its lovers gather to praise the Moon in sweet & poetic ways. In between the trees we find a melancholic clown, the stars, a rabbit and a goddess & we meet the many faces & phases of Grandmother Moon. Come howl, sing, listen and whisper to this celestial being with us.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -29544,7 +29794,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
-        "Queer-inclusive",
+        "Queer-focused",
         "Sex positive"
       ],
       "description": "A warm communal cuddle-nest in the Summerge tent, held by Regina through the small hours. Crawl in, get cozy, be held against the cold and the loneliness.",
@@ -29700,7 +29950,9 @@ const generatedSchedule: NormalizedSchedule = {
       "location": {
         "name": "Anywhere"
       },
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "When you've packed up all of your mojo, your tent feels impossibly far away, and truthfully.. you've got a tiny existential wobble brewing, come find us. Lazy Treats Hour will serve you hot toasties, silliness and giggles, plus a generous serving of camp love. Survival, but make it fabulous.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -29738,6 +29990,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "We will be serving icy stuff at random times. It’s up to the universe whether you get lucky or not.",
@@ -29776,7 +30029,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "L10"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Yet another anomaly is manifested by the Keepers of Le Observable Universe: a pop-up version of the Supernova Sandwich Station. Every bite is a cosmic revelation. Interact with celestial beings, meet fellow travelers, and play games that bend spacetime. Who knows - you might uncover the universe’s deepest secrets…",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -29926,6 +30181,7 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square S17."
       },
       "tags": [
+        "Kids friendly",
         "Sober",
         "Queer-inclusive",
         "Sex positive",
@@ -29969,6 +30225,7 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Text or WhatsApp +45 51 90 31 49 for location"
       },
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "Dust, sweat, glitter and forest. Bring water and enjoy a moment of warmth, care and renewal before returning to the adventure. Built with Leave No Trace principles, deep love., and a steadfast faith in my close to nonexistent technical skills. ✺ ✺",
@@ -30013,6 +30270,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sensory content"
       ],
       "description": "Cleanse your tarnished palette with irresistible flavors, and join us in a dark tasting ritual; a rite of passage for anyone calling themselves a zealot of the true black gold. It will be sweet, it will be salty, it will be gluttonous, and it will be sacrilegious. Welcome, to the cult of liquorice!",
@@ -30142,7 +30400,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "P09"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Enter the small hobbyhorse contest. Open for everyone from horse whisperers to harness pulling whipping artists. BYOHH. If you haven't your horse with you, create one at Wednesday's hobbyhorse creation workshop. Disciplines: showjumping and dressage.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -30226,7 +30486,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "S18"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "A journey into the lower realms to meet your power animal or guide that will give you a vision of what you need to see and hear. Meet a guide for life and unlock tools for growth and change.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -30269,6 +30531,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober",
         "Queer-inclusive"
       ],
@@ -30308,7 +30571,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "P22"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Find a good spot anywhere and just sit back and people-watch while relaxing. It looks like a Borderland movie, doesn’t it?",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -30471,6 +30736,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Adults only",
         "Sober",
         "Queer-inclusive"
@@ -30559,6 +30825,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober"
       ],
       "description": "What animal feels most like you? This is an invitation into playful self- expression. We'll try discover the creature that lives within, giving it shape, movement, and a voice of its own. You can be as wild or as quiet as your inner creature wants to be. There are many ways to play - all of them belong here. Primarily for children, but open to anyone!",
@@ -30643,7 +30910,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "O07"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "2 hours to connect with your true capacity and find what feels most true for you for this day and the festival. Max 20 people. ✺ ✺",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -30767,7 +31036,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "N13"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "The legend lives — and this year it walks among you! The curse of the Cave of Wonders has broken its seal: thieves, sorcerers and desert wanderers have escaped into the Borderland, and they're looking for you. For two days, live characters roam the camp weaving riddles, mischief and theatrical magic — a mysterious guide by the Bedouin Tent, a hidden clue, a quest you didn't know you'd joined. All welcome: every gender, every magic-maker. Queer stars of the Borderland, this adventure is yours too. Follow the whispers. Trust no one. Note: the Cave of Wonders escape room is open 24/7 for those who wish to go deeper.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -30890,7 +31161,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "S18"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Defy gravity and discover fluid movement trough dynamic sequences and surprinsing wraps. Come to fly in the air and transform the silks into your own canvas.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -30928,6 +31201,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "Stuck in a conflict? Meet the CRT any day. We don’t take sides or decide for you. We’re here to listen, offer mediation tools, and help find ways to coexist. Stop by to chat, learn, or get support! Conflicts should be solved between those involved, but if that isn’t possible, you can turn to us!",
@@ -31102,6 +31376,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sensory content"
       ],
       "description": "Come enjoy a sound healing session followed by a workshop in weighted tuning forks.",
@@ -31227,7 +31502,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "R21"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Feeling stif after yesterdays shananigans? Come join a soothing cat yoga session inspired by mindful movements from our flexible, feline friends. We will stretch, de-stress and share a puurfect moment to get you ready for another day of playfulness in the playa. (There will be no live cats. You are welcome to bring your best cat pose). See you on the mat! Miav!",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -31300,6 +31577,7 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "We're not placed yet, call WhatsApp +45 51 90 31 49"
       },
       "tags": [
+        "Kids friendly",
         "Queer-inclusive",
         "Triggering themes"
       ],
@@ -31344,7 +31622,8 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
-        "Queer-inclusive"
+        "Queer-inclusive",
+        "Queer-focused"
       ],
       "description": "Queers & FLINTA* (women, lesbians, intersex, non-binary, trans & agender people), ready for a safer space full of care, creativity & community? Enjoy sauna, massages, make-up magic, fresh fruit, workshops and beautiful connections. Come by and let’s shine together!",
       "source": {
@@ -31423,7 +31702,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "P22"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Master the magical art of doing nothing! No goals, no to-dos just you, a comfy spot, and sweet, glorious idleness. Hug a tree, wiggle your toes, daydream wildly. It’s fun, it’s freeing, it’s fabulously unproductive. Permission to laze: granted!",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -31590,7 +31871,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "U21"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Make brushing your teeth a fun and absurd way of getting to know new people and new toothpastes! We take you to a trip around the world's most exquisite toothpastes. BYOT (Bring your own toothbrush -and pimp it at our craft booth!-) No toothbrush ? Pass by for a shot of mouthwash you stinky hippie ! Fun toothpastes ? Bring them all !",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -31633,7 +31916,7 @@ const generatedSchedule: NormalizedSchedule = {
       ],
       "tags": [
         "Sober",
-        "Queer-inclusive"
+        "Queer-focused"
       ],
       "description": "Melt into the soft hours with a slow, juicy yin yoga practice for femmes loving femmes (butches & nb folks included). Long-held poses, deep breath, gentle touch, come home to your body by the water. All levels, all bodies. Daily at 11, bring yourself, leave puddly",
       "source": {
@@ -31721,7 +32004,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "M21"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Bring your favorite cloth that has a hole or more. We have string, needles, and patches for you to use. We can teach you how to repair your clothes with sashiko, weave darning, embroidery or patching. You can also bring your own project. Let's repair, create, learn and hang out together.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -31804,6 +32089,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Adults only"
       ],
       "description": "Hey Kids, let's dance! I invite you to join me for an hour dance moment. Put on your most colorful and shiny outfit. Let's put some great music, learn a few steps, and shake together! Feel the energy we share! (Adults/Parents are invited to sit down and whitness the magic happen if they want :) )",
@@ -31827,7 +32113,9 @@ const generatedSchedule: NormalizedSchedule = {
       "location": {
         "name": "Location to be confirmed"
       },
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "This magical jewellery market will pop up at random times and at random places around the playa. If you’re supposed to, you’ll find it. All jewellery: $Free.99 I bring jewellery from all over the world to this magical little pop-up! Come pick the piece(s) that speak to you and leave a kind word for the next person. Walk off with your new jewellery and a mystery note from the person before you.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -32038,7 +32326,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "N09"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Solve cases together on stage! Explore the dynamics of dominance and submission, and observe how your brain panics or triumphs in real- time. This safe space offers play, experimentation, and unpredictable insights. Bring your cases, curiosity, and a watertight alibi — you will need it.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -32498,6 +32788,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sensory content"
       ],
       "description": "A guided body scan like no other, accompanied by deep bass vibrations you won't just hear — you'll feel it. Join solo or with a partner; if practicing together, the meditation includes gentle, mindful touch for deeper presence and connection. We may finish with a short blindfolded free-flow movement session, letting the bass guide your body. Bring your own yoga mat, blanket or towel — and an eye mask or blindfold if you have one.",
@@ -32869,7 +33160,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "F10"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Jenny Benny is a character I've created and I'm so happy to bring to Borderland — an elf-inspired figure, singing as both a man and a woman, performing duets with myself. Most songs are my own, written for Jenny Benny, plus a few fitting covers. A short musical performance, playful, emotional, sometimes funny, sometimes touching. My hope: you leave with a smile and a song in your heart. ☉ ☉ ☉ ☉",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -32947,7 +33240,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "N12"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "It’s always tea o’clock in Morocco, and it’s always tea-time in wonderland. And so, if you subtract the two, it’s tea time at exactly 13:00-15:00 on Tuesday and Thursday at Alice in Morocco. Come sit at the table for some strange stories, tricky riddles AND traditional Moroccan mint tea - there’s plenty of room, said Alice. And remember, while you can never have less tea, you can always have more;)",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -33072,6 +33367,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober",
         "Queer-inclusive"
       ],
@@ -33198,7 +33494,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "L05"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "In this drop-in workshop you can take a photo of yourself or your friend with a Polaroid camera. We will bring colored cardboard, glue guns and accessories to decorate your photo, so you get to make a unique memento of this burn. No waiting, no e-mails, just immediacy and self-expression.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -33832,7 +34130,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "M11"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Kid-friendly Highlands, grid square M11. Look out for the flag with the big heart on it! The runes is more than an alphabet for the Nordic folk. They carried spiritual meaning, magical significance, and were often used for divination, protection, and guidance. In this workshop will be learning the elder and younger Futhark and how to bind runes together into our own sigils. Bring an knife and a stick if you want to carve the runes into wood. Paper and pens will be provided.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -33871,6 +34171,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sensory content"
       ],
       "description": "We are in the worst possible timeline! COME RESET THE TIMELINE AT THIS EPIC DANCE PARTY! We will only be playing music from 1995-2012! Dress in your best millennial outfit (statement necklace, galaxy leggings, clueless, manbun, UGGs, capris, layered shirts, playsuits) & get low-low-low. NO BEIGE!",
@@ -34461,6 +34762,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "Experience Argentine tango – an intimate dialogue through movement, connection, and music. Together we explore the fundamentals of this beautiful dance, guided by the timeless sounds of traditional tango. As this recurring event unfolds, each session will build naturally on the last, allowing us to gradually deepen our understanding and expression.",
@@ -34698,7 +35000,9 @@ const generatedSchedule: NormalizedSchedule = {
       "location": {
         "name": "Exact location will be written on an action VHS, located infront of the church, from the day before."
       },
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Real violence is lame — let's pimp your everyday opponent. In this stunt/acting workshop you'll transform your inner action hero into something needlessly elegant: ridiculous cinematic slow motion, dramatic poses, live sound effects, and exquisitely overdesigned fight sequences. No martial arts or acting experience needed — only curiosity about the strange creature hiding beneath your reflexes. Leave with our most advanced imaginary certification and a fight scene that cannot be used in any war.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -34892,6 +35196,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober"
       ],
       "description": "A place for parents to come together with their babies/toddlers for a little sess of tummy time!",
@@ -34933,6 +35238,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "Light is the force that awakens, transforms, and connects all living things. The Kishmastle Spaceship has landed on the sacred grounds of Alvheim — join us to open the Gates and celebrate the light within us all. A psychedelic journey through the Elven Realms, bathing in psy trance until sunrise. At dusk, the Ceremony of the Light begins a greater journey, continued by the Ritual of the Dark. Come as an elf, star traveler, forest spirit, or simply yourself — all beings welcome!",
@@ -35088,7 +35394,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "R20"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Somewhere between logic and nonsense lies the Mad Hatter's Tea Party. Tea, cakes, mad games, and our legendary Biscuit Dunking Competition await! Dress as wildly as you wish, embrace the absurd, and join the table—because we're all mad here... and we serve snacks.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -35340,7 +35648,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "R21"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Come sing the nordic folks' songs to acquiant yourself with \"visa & vemod\". Parts will be taught out by our seasoned singing maester. Tongues from afar mayst find their inner whispers of northen chants, and that they had been there all along.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -35377,7 +35687,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "P22"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Lay back, relax, and let your imagination fly, it’s cloud watching time! Spot dragons, donuts, dancing llamas. Who knows what floats by? Bring your wildest daydreams, and some chill vibes. No rules, no rush, just sky-gazing joy and fluffy fun above.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -35581,7 +35893,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "R11"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Some follow the music. Others follow the smoke. Wander into the Low Lands, just south of Snack Plaza, where glowing coals, happy bellies, and friendly faces await. We grill with heart, season with joy, and serve questionable grill-master jokes free of charge.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -35623,6 +35937,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sensory content"
       ],
       "description": "Metal music played under the eaves of the Church. No burning churches allowed. Special guest DJ at 23:00",
@@ -35787,6 +36102,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober"
       ],
       "description": "Every year, we have a guided walk around Borderland that showcase the art, the camps and the creativity of our burn to the outside world. The principles of Communal Effort and Civic Responsibility inspires us to reach out to our neighbours and people who have an interest in what goes on in Alversjö and Borderland. You as a member of Borderland are welcome to join and guide the visitors, and to show your art.",
@@ -35818,7 +36134,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "R19"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Kid-friendly Swamp, grid square R19. We are orange Come squeeze yourself a glass of orange juice - you never know where it might take you.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -36289,6 +36607,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "Relax in our lovely shade and listen to some of Njorunn's Garden's inhabitants read aloud from their favorite books. Monday: Lars reads from the Tao Te Ching, Tuesday: Teresa reads Who Will Comfort Toffle by Tove Jansson, first in English and after that (if there's interest) in the original Swedish. Thursday: Fellan reads from Braiding Sweetgrass by Robin Wall Kimmerer.",
@@ -36327,7 +36646,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "Q12"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "A corner of Paris in the woods — wine, peanuts, and the art of l’Apéro.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -36363,7 +36684,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "Q21"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "himalayan dumplings (mo:mo) pop-up on thursday afternoon, and have caffè corretto morning from 10:30",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -37076,6 +37399,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Triggering themes"
       ],
       "description": "A series of presentations on how humans wound up with Patriarchy. Lesson 1 - The First 96% of Human History Lesson 2 - Earth Goddess vs Sky Father Lesson 3 - Conquest and Control Lesson 4 - God Hates Women Lesson 5 - A Path Forward",
@@ -37292,7 +37616,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "F10"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Drop by and create your own handmade UV sticker with colorful markers and sticker paper — a forest spirit, mushroom, funny creature, or anything that sparks your imagination. A relaxed drop-in session at your own pace; I'll share ideas if you want guidance. The listed time is when I'll definitely be at Kishmastle, but the station returns at various times all week — and if you spot me wandering the playa with the kit, stop and make a sticker! No experience needed.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -37453,7 +37779,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "Q12"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Happy Hour à la Française! — Sparkling wine, peanuts, and the art of l’Apéro.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -37672,6 +38000,7 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Find a campfire and hope that we're there"
       },
       "tags": [
+        "Kids friendly",
         "Sober",
         "Queer-inclusive"
       ],
@@ -38244,6 +38573,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Queer-inclusive",
         "Triggering themes"
       ],
@@ -38496,7 +38826,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
-        "Queer-inclusive"
+        "Queer-focused"
       ],
       "description": "Opening-night magic: pin your heart to the Soul Matchmaking Board and let the Pond play cupid. We'll show you how it works, then set you loose to find your person (or your Tuesday-night U-Haul partner). Bring your crush energy",
       "source": {
@@ -38786,6 +39116,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sensory content"
       ],
       "description": "If you have the courage to come find our coven at night we will reward you with a special treat! Only a few will experience our special magic ritual and learn how to cast spells. Will it be you? (We serve groups of 2-8 people for 15 to 30 minutes. Kid Friendly!).",
@@ -39205,6 +39536,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Adults only"
       ],
       "description": "Station The Dark is more than what we fear — it transforms, reveals, and reminds us that without darkness there can be no Light. As night falls, we gather at the Gate of Alvheim to embrace our shadows. Through fire, movement, music and ritual, we return to something ancient. The darker realms of psytrance may awaken forgotten instincts — meet them with curiosity, surrender, and discover what the Dark has been trying to show you. Come as an elf, star traveler, forest spirit, or simply yourself. Some journeys can only begin in the Dark.",
@@ -39394,7 +39726,9 @@ const generatedSchedule: NormalizedSchedule = {
       "location": {
         "name": "To find the storyteller, simply keep your eyes peeled while walking through wooded areas. Some say the Thieves and those who walk the moon know the"
       },
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "way, so one could always ask for help Throughout their travels, the Storyteller has gathered innumerable stories about all manner of wondrous things. The only guarantee is that the story you will hear has never been told before and will never be told again. So look out for the Storyteller to hear a unique tale told just for you.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -39525,7 +39859,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
-        "Queer-inclusive",
+        "Queer-focused",
         "Sex positive"
       ],
       "description": "A warm communal cuddle-nest in the Summerge tent, held by Regina through the small hours. Crawl in, get cozy, be held against the cold and the loneliness.",
@@ -39635,7 +39969,9 @@ const generatedSchedule: NormalizedSchedule = {
       "location": {
         "name": "Anywhere"
       },
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "When you've packed up all of your mojo, your tent feels impossibly far away, and truthfully.. you've got a tiny existential wobble brewing, come find us. Lazy Treats Hour will serve you hot toasties, silliness and giggles, plus a generous serving of camp love. Survival, but make it fabulous.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -39714,6 +40050,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "We will be serving icy stuff at random times. It’s up to the universe whether you get lucky or not.",
@@ -39782,6 +40119,7 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square S17."
       },
       "tags": [
+        "Kids friendly",
         "Sober",
         "Queer-inclusive",
         "Sex positive",
@@ -39825,6 +40163,7 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Text or WhatsApp +45 51 90 31 49 for location"
       },
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "Dust, sweat, glitter and forest. Bring water and enjoy a moment of warmth, care and renewal before returning to the adventure. Built with Leave No Trace principles, deep love., and a steadfast faith in my close to nonexistent technical skills.",
@@ -39997,6 +40336,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober",
         "Queer-inclusive"
       ],
@@ -40036,7 +40376,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "P22"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Find a good spot anywhere and just sit back and people-watch while relaxing. It looks like a Borderland movie, doesn’t it?",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -40160,6 +40502,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Adults only",
         "Sober",
         "Queer-inclusive"
@@ -40243,7 +40586,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "T16"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Start your Friday trip inside our cozy MŸS dome. Warm tea and slow, energetic vinyl sounds gently guide you into your orbit. Lovers and dreamers welcome!",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -40493,6 +40838,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "Stuck in a conflict? Meet the CRT any day. We don’t take sides or decide for you. We’re here to listen, offer mediation tools, and help find ways to coexist. Stop by to chat, learn, or get support! Conflicts should be solved between those involved, but if that isn’t possible, you can turn to us!",
@@ -40771,6 +41117,7 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "We're not placed yet, call WhatsApp +45 51 90 31 49"
       },
       "tags": [
+        "Kids friendly",
         "Queer-inclusive",
         "Triggering themes"
       ],
@@ -40811,6 +41158,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober"
       ],
       "description": "A mix of contact improv and physical theatre — exploring physical storytelling, especially portraying relationship dynamics. Led by a drama teacher passionate about expressive arts, with a focus on exploration, playfulness and expression. No fitness or theatre experience needed, just an open mind! Please come sober, without major injuries, in comfortable clothes.",
@@ -40849,7 +41197,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "P22"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Master the magical art of doing nothing! No goals, no to-dos just you, a comfy spot, and sweet, glorious idleness. Hug a tree, wiggle your toes, daydream wildly. It’s fun, it’s freeing, it’s fabulously unproductive. Permission to laze: granted!",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -40972,7 +41322,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "U21"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Make brushing your teeth a fun and absurd way of getting to know new people and new toothpastes! We take you to a trip around the world's most exquisite toothpastes. BYOT (Bring your own toothbrush -and pimp it at our craft booth!-) No toothbrush ? Pass by for a shot of mouthwash you stinky hippie ! Fun toothpastes ? Bring them all !",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -41015,7 +41367,7 @@ const generatedSchedule: NormalizedSchedule = {
       ],
       "tags": [
         "Sober",
-        "Queer-inclusive"
+        "Queer-focused"
       ],
       "description": "Melt into the soft hours with a slow, juicy yin yoga practice for femmes loving femmes (butches & nb folks included). Long-held poses, deep breath, gentle touch, come home to your body by the water. All levels, all bodies. Daily at 11, bring yourself, leave puddly",
       "source": {
@@ -41083,7 +41435,9 @@ const generatedSchedule: NormalizedSchedule = {
       "location": {
         "name": "Location to be confirmed"
       },
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "This magical jewellery market will pop up at random times and at random places around the playa. If you’re supposed to, you’ll find it. All jewellery: $Free.99 I bring jewellery from all over the world to this magical little pop-up! Come pick the piece(s) that speak to you and leave a kind word for the next person. Walk off with your new jewellery and a mystery note from the person before you.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -41667,7 +42021,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "N13"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "This is an invitation to create your own flow and shake things off. Through guided improvisation and playful movement practice we'll reconnect with ourselves, express what words can't, and celebrate the freedom of moving without rules.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -41876,7 +42232,8 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
-        "Sober"
+        "Sober",
+        "Kids friendly"
       ],
       "description": "Chilldome Movement session including both play around and try some challenges on the monkeybar, and finish with a short workout (in cruise mode or beast mode). Host will both be hosting and participating, hence kids are welcome if they bring adult for supervision.",
       "source": {
@@ -41919,7 +42276,8 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
-        "Queer-inclusive"
+        "Queer-inclusive",
+        "Kids friendly"
       ],
       "description": "In this guided Alexander Technique & Movement Session we go from laying down to dancing. The technique suports you through words & touch to release your muscles & tissues, so you feel extra well in yourself to go out and enjoy your Friday. Bring a yogamat & a 3-5cm book or sth to lay your head on",
       "source": {
@@ -42003,6 +42361,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober"
       ],
       "description": "Curious about flying, balancing, and laughing with new people? Join this playful beginner-friendly AcroYoga workshop! We’ll explore basic poses, partner exercises. No experience needed, just bring yourself and a sense of fun!",
@@ -42123,7 +42482,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "R11"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Vans Follow the scent to the Low Lands, just south of Snack Plaza, where crispy delights, surprise twists, and loungey vibes await. We flip with flair, serve with love, and welcome all dusty dreamers. We're just a smell away.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -42612,6 +42973,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "Experience Argentine tango – an intimate dialogue through movement, connection, and music. Together we explore the fundamentals of this beautiful dance, guided by the timeless sounds of traditional tango. As this recurring event unfolds, each session will build naturally on the last, allowing us to gradually deepen our understanding and expression.",
@@ -42902,6 +43264,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "A tyst minut? Nein nein! A tysk minute! A glorious German-ish minute of questionable accuracy. Put on your lederhosen, raise that bier and shout Prost! Speak fake German, real German, or just act German. No rules, only commitment, confusion and Wunderbar chaos wherever you are!",
@@ -43080,7 +43443,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "P22"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Lay back, relax, and let your imagination fly, it’s cloud watching time! Spot dragons, donuts, dancing llamas. Who knows what floats by? Bring your wildest daydreams, and some chill vibes. No rules, no rush, just sky-gazing joy and fluffy fun above.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -43366,7 +43731,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "P22"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Bingo! Burners Edition is not your grandma’s game night. It’s wild, weird, and full of sparkle. Expect Burner-style chaos. Costumes encouraged, laughter guaranteed. Eyes on your card, bingo glory awaits!",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -43403,7 +43770,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "Q12"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "A corner of Paris in the woods — wine, peanuts, and the art of l’Apéro.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -43444,7 +43813,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "M20"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Wanna look fancy for your Friday festivities? Not sure how to get those braids just right? I'll help you gather those locks into fabulous braids — the classic 3-strand, French and Dutch braid, twists and 4-strand variations. Bring: yourself, at least 10 cm of well-brushed, reasonably clean hair, a hairbrush, hair ties, and as much patience as you can muster! Braiders and braidees alike welcome — luxury hairspa seekers, this is your day!",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -43816,6 +44187,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Triggering themes"
       ],
       "description": "A series of presentations on how humans wound up with Patriarchy. Lesson 1 - The First 96% of Human History Lesson 2 - Earth Goddess vs Sky Father Lesson 3 - Conquest and Control Lesson 4 - God Hates Women Lesson 5 - A Path Forward",
@@ -44154,7 +44526,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "Q12"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Happy Hour à la Française! — Sparkling wine, peanuts, and the art of l’Apéro.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -44607,7 +44981,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
-        "Queer-inclusive"
+        "Queer-focused"
       ],
       "description": "Opening-night magic: pin your heart to the Soul Matchmaking Board and let the Pond play cupid. We'll show you how it works, then set you loose to find your person (or your Tuesday-night U-Haul partner). Bring your crush energy",
       "source": {
@@ -44730,6 +45104,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sensory content"
       ],
       "description": "If you have the courage to come find our coven at night we will reward you with a special treat! Only a few will experience our special magic ritual and learn how to cast spells. Will it be you? (We serve groups of 2-8 people for 15 to 30 minutes. Kid Friendly!).",
@@ -45265,7 +45640,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
-        "Queer-inclusive",
+        "Queer-focused",
         "Sex positive"
       ],
       "description": "A warm communal cuddle-nest in the Summerge tent, held by Regina through the small hours. Crawl in, get cozy, be held against the cold and the loneliness.",
@@ -45419,7 +45794,9 @@ const generatedSchedule: NormalizedSchedule = {
       "location": {
         "name": "Anywhere"
       },
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "When you've packed up all of your mojo, your tent feels impossibly far away, and truthfully.. you've got a tiny existential wobble brewing, come find us. Lazy Treats Hour will serve you hot toasties, silliness and giggles, plus a generous serving of camp love. Survival, but make it fabulous.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -45486,6 +45863,7 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square S17."
       },
       "tags": [
+        "Kids friendly",
         "Sober",
         "Queer-inclusive",
         "Sex positive",
@@ -45529,6 +45907,7 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Text or WhatsApp +45 51 90 31 49 for location"
       },
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "Dust, sweat, glitter and forest. Bring water and enjoy a moment of warmth, care and renewal before returning to the adventure. Built with Leave No Trace principles, deep love., and a steadfast faith in my close to nonexistent technical skills.",
@@ -45732,7 +46111,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "I21"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Sun (or Discotech Engineering next door if it rains) or The Sun if it feels right for the atmosphere and sound levels Come experience the sun rising with full aliveness of your body. This movement meditation & conscious dance will be dedicated to the sun above and to our light within. Once the sun rises and after the dance meditation, you will be invited to join in the small ritual of closing The Sun, The Temple, so it can burn that day.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -45769,7 +46150,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "P22"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Find a good spot anywhere and just sit back and people-watch while relaxing. It looks like a Borderland movie, doesn’t it?",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -45850,6 +46233,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Adults only",
         "Sober",
         "Queer-inclusive"
@@ -46019,6 +46403,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "Stuck in a conflict? Meet the CRT any day. We don’t take sides or decide for you. We’re here to listen, offer mediation tools, and help find ways to coexist. Stop by to chat, learn, or get support! Conflicts should be solved between those involved, but if that isn’t possible, you can turn to us!",
@@ -46096,6 +46481,7 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "We're not placed yet, call WhatsApp +45 51 90 31 49"
       },
       "tags": [
+        "Kids friendly",
         "Queer-inclusive",
         "Triggering themes"
       ],
@@ -46135,7 +46521,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "P22"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Master the magical art of doing nothing! No goals, no to-dos just you, a comfy spot, and sweet, glorious idleness. Hug a tree, wiggle your toes, daydream wildly. It’s fun, it’s freeing, it’s fabulously unproductive. Permission to laze: granted!",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -46172,7 +46560,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "P22"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Pillows, blankets and a lazy power nap... What can be better than lying down in a cozy spot and taking a nap. It’s the ultimate lazy activity and great for recharging!",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -46252,7 +46642,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "U21"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Make brushing your teeth a fun and absurd way of getting to know new people and new toothpastes! We take you to a trip around the world's most exquisite toothpastes. BYOT (Bring your own toothbrush -and pimp it at our craft booth!-) No toothbrush ? Pass by for a shot of mouthwash you stinky hippie ! Fun toothpastes ? Bring them all !",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -46295,7 +46687,7 @@ const generatedSchedule: NormalizedSchedule = {
       ],
       "tags": [
         "Sober",
-        "Queer-inclusive"
+        "Queer-focused"
       ],
       "description": "Melt into the soft hours with a slow, juicy yin yoga practice for femmes loving femmes (butches & nb folks included). Long-held poses, deep breath, gentle touch, come home to your body by the water. All levels, all bodies. Daily at 11, bring yourself, leave puddly",
       "source": {
@@ -46318,7 +46710,9 @@ const generatedSchedule: NormalizedSchedule = {
       "location": {
         "name": "Location to be confirmed"
       },
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "This magical jewellery market will pop up at random times and at random places around the playa. If you’re supposed to, you’ll find it. All jewellery: $Free.99 I bring jewellery from all over the world to this magical little pop-up! Come pick the piece(s) that speak to you and leave a kind word for the next person. Walk off with your new jewellery and a mystery note from the person before you.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -46653,7 +47047,8 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
-        "Sober"
+        "Sober",
+        "Kids friendly"
       ],
       "description": "Chilldome Welcome to a workshop where we practice our locomotion movements, we stay close to the ground and dismantel the moves to make them easy to learn. Then we put the parts together and do full body movements that look awesome and feel flowy. No previous experience needed!",
       "source": {
@@ -46695,7 +47090,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "W16"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Only happening if the sun is shining! Make a souvenir with paper, sunlight, and findings from the playa. Bring a small object you found, something meaningful to you, or use our bits to create a blue sun- printed postcard.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -46819,6 +47216,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Adults only",
         "Sober"
       ],
@@ -47193,6 +47591,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "Experience Argentine tango – an intimate dialogue through movement, connection, and music. Together we explore the fundamentals of this beautiful dance, guided by the timeless sounds of traditional tango. As this recurring event unfolds, each session will build naturally on the last, allowing us to gradually deepen our understanding and expression.",
@@ -47309,7 +47708,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "Q12"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Our BIG bucket of Tahini has supplied you all the with the holy powers of the Tahini goddess for this borderland and now it is time to close the lid on another chapter. There will be Tahini songs, Tahini blessings, Tahini fika and so much more. All are welcome to have one last taste of the divine.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -47634,7 +48035,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "P22"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Lay back, relax, and let your imagination fly, it’s cloud watching time! Spot dragons, donuts, dancing llamas. Who knows what floats by? Bring your wildest daydreams, and some chill vibes. No rules, no rush, just sky-gazing joy and fluffy fun above.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -47764,7 +48167,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "R21"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Kate Bush's Wuthering Heights choreography taught and experienced. Discard all your prior dance experience - the only prerequisite you will need is passion. Dress code: eery red optional",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -48060,7 +48465,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "Q12"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "A corner of Paris in the woods — wine, peanuts, and the art of l’Apéro.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -48308,7 +48715,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "T16"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "The MŸS crew invites you for a downtempo live set in preparation for the effigy. Get your joints loose and sink in a sea of reverberating analogue synths and squelching live guitars. Let the fire rise!",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -48346,6 +48755,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Triggering themes"
       ],
       "description": "A series of presentations on how humans wound up with Patriarchy. Lesson 1 - The First 96% of Human History Lesson 2 - Earth Goddess vs Sky Father Lesson 3 - Conquest and Control Lesson 4 - God Hates Women Lesson 5 - A Path Forward",
@@ -48498,7 +48908,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "Q12"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Happy Hour à la Française! — Sparkling wine, peanuts, and the art of l’Apéro.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -48575,7 +48987,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
-        "Queer-inclusive"
+        "Queer-focused"
       ],
       "description": "Opening-night magic: pin your heart to the Soul Matchmaking Board and let the Pond play cupid. We'll show you how it works, then set you loose to find your person (or your Tuesday-night U-Haul partner). Bring your crush energy",
       "source": {
@@ -48863,7 +49275,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
-        "Queer-inclusive",
+        "Queer-focused",
         "Sex positive"
       ],
       "description": "A warm communal cuddle-nest in the Summerge tent, held by Regina through the small hours. Crawl in, get cozy, be held against the cold and the loneliness.",
@@ -48902,7 +49314,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "I21"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "The Sun, The Temple burns to mark the ending and the beginning.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -48978,6 +49392,7 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square S17."
       },
       "tags": [
+        "Kids friendly",
         "Sober",
         "Queer-inclusive",
         "Sex positive",
@@ -49021,6 +49436,7 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "Text or WhatsApp +45 51 90 31 49 for location"
       },
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "Dust, sweat, glitter and forest. Bring water and enjoy a moment of warmth, care and renewal before returning to the adventure. Built with Leave No Trace principles, deep love., and a steadfast faith in my close to nonexistent technical skills.",
@@ -49244,6 +49660,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "Stuck in a conflict? Meet the CRT any day. We don’t take sides or decide for you. We’re here to listen, offer mediation tools, and help find ways to coexist. Stop by to chat, learn, or get support! Conflicts should be solved between those involved, but if that isn’t possible, you can turn to us!",
@@ -49276,6 +49693,7 @@ const generatedSchedule: NormalizedSchedule = {
         "name": "We're not placed yet, call WhatsApp +45 51 90 31 49"
       },
       "tags": [
+        "Kids friendly",
         "Queer-inclusive",
         "Triggering themes"
       ],
@@ -49315,7 +49733,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "U21"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Make brushing your teeth a fun and absurd way of getting to know new people and new toothpastes! We take you to a trip around the world's most exquisite toothpastes. BYOT (Bring your own toothbrush -and pimp it at our craft booth!-) No toothbrush ? Pass by for a shot of mouthwash you stinky hippie ! Fun toothpastes ? Bring them all !",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -49358,7 +49778,7 @@ const generatedSchedule: NormalizedSchedule = {
       ],
       "tags": [
         "Sober",
-        "Queer-inclusive"
+        "Queer-focused"
       ],
       "description": "Melt into the soft hours with a slow, juicy yin yoga practice for femmes loving femmes (butches & nb folks included). Long-held poses, deep breath, gentle touch, come home to your body by the water. All levels, all bodies. Daily at 11, bring yourself, leave puddly",
       "source": {
@@ -49488,7 +49908,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
-        "Queer-inclusive"
+        "Queer-focused"
       ],
       "description": "Opening-night magic: pin your heart to the Soul Matchmaking Board and let the Pond play cupid. We'll show you how it works, then set you loose to find your person (or your Tuesday-night U-Haul partner). Bring your crush energy",
       "source": {
@@ -49528,6 +49948,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "Chill by the big Spaceport fire and let the songs soothe your soul after a long day of strike. Gather one last time before we leave the magical world of Borderland. The concert will be a moment to reflect on what you want to carry with you as the journey continues beyond the burn.",
@@ -49571,7 +49992,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
-        "Queer-inclusive",
+        "Queer-focused",
         "Sex positive"
       ],
       "description": "A warm communal cuddle-nest in the Summerge tent, held by Regina through the small hours. Crawl in, get cozy, be held against the cold and the loneliness.",
@@ -49603,6 +50024,7 @@ const generatedSchedule: NormalizedSchedule = {
         "notes": "grid square S17."
       },
       "tags": [
+        "Kids friendly",
         "Sober",
         "Queer-inclusive",
         "Sex positive",
@@ -49658,7 +50080,7 @@ const generatedSchedule: NormalizedSchedule = {
       ],
       "tags": [
         "Sober",
-        "Queer-inclusive"
+        "Queer-focused"
       ],
       "description": "Melt into the soft hours with a slow, juicy yin yoga practice for femmes loving femmes (butches & nb folks included). Long-held poses, deep breath, gentle touch, come home to your body by the water. All levels, all bodies. Daily at 11, bring yourself, leave puddly",
       "source": {
@@ -49820,7 +50242,8 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
-        "Sober"
+        "Sober",
+        "Kids friendly"
       ],
       "description": "A creative sanctuary for painting, drawing, experimenting and making. A place to create, add to something, or follow your own inspiration. Basic materials are available whenever creativity strikes, with extra magic added when I’m around. Open for visitors anytime.",
       "source": {
@@ -49950,7 +50373,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "T16"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "The MŸS Dome is a wooden structure that invites you to relax, dream, or dance, protected from the elements. A sphere like its own universe. Stretch your limbs and prick up your ears when the MŸS Crew has enchanted you with quirky vinyl sessions, downtempo DJ sets, or experimental live music featuring synths and guitars.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -49975,7 +50400,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "Q13"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Come and embrace your inner child. We have a cozy tipi tent where you can play with bricks like back in your childhood room. Several different sized sets with instructions and mixed brick boxes are waiting for you. Perfect place to take a little break from all the BL madness. Accessible every day 9am - 19pm THE ORGONE ACCUMULATION RESEARCH",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -50053,6 +50480,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Queer-inclusive",
         "Triggering themes"
       ],
@@ -50108,7 +50536,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "G20"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Drop by our camp and see if you're lucky — a croquis drawing kit might be free to borrow. Grab one, wander to the lake, and sketch the sunbathers in the afternoon light. No skill needed, just curious eyes and a willing hand. Return it when you're done so the next artist can feel lucky too. Also find here: “We will have a few croqouis drawing kits to borrow. Not too many.”",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -50370,7 +50800,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
-        "Queer-inclusive"
+        "Queer-focused"
       ],
       "description": "and inclusive events Pink Parachute: Day Parties, workshops, weird happenings. Velvet Lounge: a cozy place for uncanny relaxation",
       "source": {
@@ -50703,6 +51133,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "Walk into the barn any time, day or night, and make a sign for yourself or others. or order one for a random hippie to make for you. or just sit on a pillow, drink tea, and watch the art happen. cosy creative chaos, self-organising, open 24/7 from buildweek onwards ˖ °",
@@ -50755,7 +51186,8 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
-        "Sober"
+        "Sober",
+        "Kids friendly"
       ],
       "description": "Are you having too much fun? Make a visit to the permits office to ensure full compliance with 137.6-c F.U.N standards on emotionally pragmatic burning. Consider signing up for our workshop, \"Leave no trace (in hearts and minds)\". Experience may vary, we apologize for any convenience or conviviality this may cause. For complaints, please howl into the void or reach out to noreply@fun.com",
       "source": {
@@ -50782,6 +51214,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sensory content"
       ],
       "description": "An immersive satanic dreamscape in the silo featuring aerial sock wrestling battles, crowd spectacle, and chaotic, participatory combat, among other weird shit.",
@@ -50831,7 +51264,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "O06"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "The Post Office is the official delivery service for all goods and letters across the playa. A love letter to your playa crush? A hug for a friend or an urgent request for candies? Come visit one of our three locations , slot your item through the post box (or speak to one of our representatives on site) and watch the magic of postal work in action. We have postcards! We have pens! Open for drop offs 24/7! The Post Office - We Deliver!",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -50908,6 +51343,7 @@ const generatedSchedule: NormalizedSchedule = {
       ],
       "tags": [
         "Sober",
+        "Kids friendly",
         "Sensory content"
       ],
       "description": "The hot sauna aka Sompasauna will be operational 24/7 right on the water in Sunny hill. Self service, add firewood, carry water, make it hot!",
@@ -50934,7 +51370,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "O11"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Borderland is a spectacle! Witness The Great Borderling Migration Enjoy a curated expedition into this strange world of burners and hippies. Our expert field guide, D[ai]vid Attenborough, will help you learn about some of the countless creatures you might see on the Playa, all from the comfort and safety of our observation window. So grab a seat, hold onto your binoculars, and take it all in - today you're a naturalist on safari",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -50984,6 +51422,7 @@ const generatedSchedule: NormalizedSchedule = {
       ],
       "tags": [
         "Sensory content",
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "Welcome to Gate Of Alvheim! The elves sacred ritual space. When Alvheims Gate opens on Thursday; Expect elves dancing, mystical art co-created with nature and profound psychedelic dance music imbued with ceremonies and rituals. Workshops during daytime and refreshments in the bar. Collaborating with Kishmastle Spacestation and fungal refugee to create a full week complete and mystical dance resort. Hope we see you in the misty forest! \"EVERYTHING IS POLITICAL\" CHAI STAND 15 people We will be on the playa.. somewhere. From time to time. You may smell the brew of our spicy delights... you may hear powerful mantras vibrating through the playa.. that would be your sign.. to come find us. Step into our chai cave where the air hums with sacred vibrations and the aroma of cardamom hangs thick enough make you question that Borderland is 'apolitical'. When you emerge from your mantra induced coma, join us for chai-fueled conversations about how the 11 principles are radical and political - and how great that is! Also find here: “We're a chai stand that is guided by the reality that power and politics are present everywhere, if this may evoke dis-comfort - excellent. Come take a seat on The Carpet of Dangerous Ideas to find comfort in these discomforts, soothed by \"the best Chai at Borderland, maybe ever\"”",
@@ -51113,7 +51552,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "Q13"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "The Hammockstar is a chill art installation where you can hang out. The sun is shining, you wander around, maybe just got a fresh cup of coffee an suddenly there comes a place that is inviting you to relax and let your soul dangle. While the hammock is hugging you and you gaze into the sky and over the playa, you may dream away, you may meet the eyes of a strager in the hammock next to you and this might be a start of a beautiful connection. Also find here: “Sweet spot next to us - the hammocks and pancakes go very well together ”",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -51193,6 +51634,7 @@ const generatedSchedule: NormalizedSchedule = {
       ],
       "tags": [
         "Sober",
+        "Kids friendly",
         "Sensory content"
       ],
       "description": "A private magical ritual and interactive art game for small groups of 2-8 that we run all night.",
@@ -51219,7 +51661,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "K18"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Lie beneath a 6m ring of 8,000 living LED lights as they breathe with you. The Cosmic Portal blurs dreams and the waking life. A hammock between dimensions, woven in color. Live artists and DJs will guide you to the far reaches of the cosmos. Always open, alive at night. In the Barn, top floor.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -51245,7 +51689,8 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
-        "Sober"
+        "Sober",
+        "Kids friendly"
       ],
       "description": "Where the mannequin points, you must follow! When the mannequin points you in, come join us in our imaginarium for a brew, a soothing warm beverage, cup of tea. Our home made tea blends and small bites will help you to gather your strength ready for your next side quest. Also find here: “Come around for soothing beverages whenever you need” FUCKIE TALKIE - DISPATCHES FROM",
       "source": {
@@ -52518,6 +52963,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sober",
         "Queer-inclusive"
       ],
@@ -52648,7 +53094,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "G22"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Hot tubs by the lake! Operating hours monday - thursday 21-00 (ish!) till 00.00 (ish!) Also find here: “The tubs are there, the water cauldron is there, so is someone wants a hot tub during the night or any time of the day, feel free to make yourself one!”",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -52674,7 +53122,8 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
-        "Sober"
+        "Sober",
+        "Kids friendly"
       ],
       "description": "Only at the times announced",
       "source": {
@@ -53187,7 +53636,9 @@ const generatedSchedule: NormalizedSchedule = {
       "location": {
         "name": "Follow the cheesy toasts smell"
       },
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "When you've packed up all of your mojo, your tent feels impossibly far away, and truthfully.. you've got a tiny existential wobble brewing, come find us. Lazy Treats Hour will serve you hot toasties, silliness and giggles, plus a generous serving of camp love. Survival, but make it fabulous.",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -53212,7 +53663,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "R18"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Feel the bubbles and the ocean at our underwater-themed bar filled with non-alcoholic Schorle and playful bartenders. Don't know what Schorle is? Come find out! VEGAN WAFFLE WAGON It's portable! Usually quite central.... A four wheeled wagon with striped red & white roof, striped black & white sides. Usually a queue of hungry hippies and good (often weird) music! Vegan. Life-altering. Sourdough. Waffles. With homemade toppings! The Vegan Waffle Wagon will be here and there. Also appearing at some parties, happenings and workshops. Come find us if you want to eat (or maybe serve) waffles! We will have a printed schedule where you can sign up for a waffle serving shift!",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -53518,7 +53971,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "Q21"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "We're a wee camp w a dream to boost the people of the playa w cozy himalayan dumplings (mo:mo) pop-up, and have caffè corretto mornings <3 ° live, laugh, love, mo:mo, & margherita °",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -53543,7 +53998,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "O11"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Looking for coffee? Come find our always open self service café! Push a button to brew a cup. Add vegan milk and sugar. Sit down and enjoy. The space offers soft music, cosy light and a few games.The rest is up to you. KIMCHII TREASSURE HUNT The Vegan Waffle Wagon, which will be moving around. A wagon with red/white striped ceiling, steaming waffle irons, and a red flag. There are hidden jars of vegan kimchii here at Borderland, will you find one and save your camp from kimchii-deficiency? First step is finding The Vegan Waffle Wagon, if the red flag is up it means you can get a map or clue and continue your quest!",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -53595,7 +54052,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "T17"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Follow the scent of fresh-baked vegan cookies and spiced chai to a softly glowing yurt in the trees. Sink into vintage rugs and cushions, play games, enjoy live readings, or drift to mellow tunes. Your cozy sanctuary—always vegan, always warm. Also find here: “Need a hand, a chat, or just a break? We're always happy to help. And you are always welcome for as many chai and cookies as you can have!” COZY SLUTTY WAFFLE CAFÉ- HAPPENING",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -53670,7 +54129,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "Q12"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "The Tahinians welcome you to indulge in the wonderful godly amazing deliciousness of Tahini at our beautiful Tahini temple. Tahini fika will be there always for you to enjoy in a nice relaxing atmosphere and if you are willing please join our religion and be blessed! Also find here: “Please come say hi and eat some Tahini!”",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -54403,6 +54864,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Adults only"
       ],
       "description": "Spike battle of Borderland 2026 (SBB26) is here for it's first edition! Bring your best energy and get ready for a great competition! Either come by yourself and make a team on the spot or come as a team. Playing 2 vs 2 - Clothes on private parts are mandatory - Limited spots avaliable - Age limit 15 and above (younger can watch) It's a spikeball tournament. Playing in groups. Then those best handling the ball will play semi finals and then finals! THE FIGGING STAND: THE FINAL FIG @",
@@ -54585,7 +55047,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "N13"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Step into a world of treasure hunters, magical beings, cursed bandits, lost riches, hidden secrets, and unforgettable adventures. Uncover clues, hear mysterious tales, and perhaps even find the Magical Compass. Only those with sharp minds, curious hearts, and a touch of daring will reveal the secrets hidden from ordinary travelers. Will you heed the call? CAMP CONSCIOUSNESS PLAYGROUND: HOSTING",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -55261,6 +55725,7 @@ const generatedSchedule: NormalizedSchedule = {
       ],
       "tags": [
         "Sober",
+        "Kids friendly",
         "Adults only"
       ],
       "description": "Chilldome. An always open, physical playground with bars, parallells, rings and other training equipment to have fun with movement. Made for hanging out, working out, climbing and playing outside. There’s challenges & workouts to do on your own, or at our workshops. (Bring an adult if under 15). THE",
@@ -55317,6 +55782,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sensory content"
       ],
       "description": "Come during the day to practice poi, staff and other flow arts. We offer various workshops, but drop by anytime and if you're lucky, someone is around to teach you. Come at night and be awed by mesmerizing fire dancers, or take your own props out for a burn (nightly safety training required!). Also find here: “Knife Sharpening Bring you blunt knives and blades and we’ll sharpen them with a high quality DMT Diafold sharpener. Ask for Soof at the Fire Brigade (in the Swamp, opposite the tent of CIRCUS the ANALOG).”",
@@ -55370,6 +55836,7 @@ const generatedSchedule: NormalizedSchedule = {
       ],
       "tags": [
         "Sober",
+        "Kids friendly",
         "Adults only",
         "Triggering themes"
       ],
@@ -55767,6 +56234,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Sensory content"
       ],
       "description": "WE LOVE TO JAM - AND YOU ARE WELCOME ! Come join us ! Play with us, dance, listen, relax! <3 Please Stop by for a workshop/ spontanious jams etc.! \"Organized\" OPEN jams from 20-22 quiet jam from 22-24. Also find here: “We love you, come talk to us if you do/ dont like the sound, we can maybe teach you how to play <3”",
@@ -55844,6 +56312,7 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
+        "Kids friendly",
         "Queer-inclusive",
         "Sensory content"
       ],
@@ -56006,7 +56475,8 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
-        "Sober"
+        "Sober",
+        "Kids friendly"
       ],
       "description": "THE RECEPTION is here to grant your deepest desires - provided you can pick out the correct form for that desire. Get your official bubble license. File a noise complaint. Apply for a cleansing ritual. Opening Hours are between now and sometimes during off-world business days. Your number is next. Also find here: “We will have bubble soap to keep the bubbles alive.”",
       "source": {
@@ -56060,7 +56530,8 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
-        "Sober"
+        "Sober",
+        "Kids friendly"
       ],
       "description": "HEARTSPACE Disconnected and lost in the magic? We welcome you to THE HEARTSPACE – a red portal for souls longing to soften and return Open heart meditation between 9-11 am",
       "source": {
@@ -56394,7 +56865,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "R20"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Somewhere between logic and nonsense, lays the wonderland of Alice the malice. Shenanigans will happen everyday at 15:00 from Monday to Friday: Hat pimping workshop, fuzzy story reading time, our nutritious mad hatter tea party and other elusive surprises We're all mad here, so shall we?",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -56419,7 +56892,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "N11"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Cheeky Butt Chill Camp Slip into the role of an undercover gifter! Learn to discreetly place small gifts on people — without them noticing — through three stages of reverse pick-pocketing, distraction and body movement. Hands-on pair practice, lots of laughter. Wear something with accessible pockets (hoodie, cargo pants). No experience needed — just curiosity and respect. You said: Looking for that perfect accessory to take your Borderling Ensemble for the evening to the next level? Also find here: “The Reverse Pick-Pocketing Workshop will take place at a fixed location in an open tent in our camp and is designed to integrate harmoniously with its surroundings. The experience is interactive. The sound level is rather low. Laughter will be the loudest.”",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -56549,7 +57024,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "Q23"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "The legendary sanctuary for your senses returns, serving weird and wonderful teas in a weird and wonderful way! We, a talented gang of misfits, invite you for tea and ceremonial happy hours. Step into our famous red tent, where time slows down — world-class teas, creative workshops, live music, DJ sets and a cozy fireplace. A welcoming space for deep conversations, unexpected art, and magical moments. Also find here: “Sunsets, world class tea, cozy vibes, and a fireplace to gather around.”",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -56649,7 +57126,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "S17"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Why do we not burn treated wood? Why is eco-friendly soap and sunscreen important? Why can I not wear my pretty glitter? Peeing in the bush is fine, right? Take a short quiz about how the products and chemicals we use at Borderland affect organisms in the environment and get a cute prize!",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -56751,7 +57230,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "O07"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "A place to return to when your inner child longs to be comforted and norished. Let us read you bed time stories, sing you lullabies & serve you blueberry tea. Look for our stuff in the guide, but more than that: look for our pop up schedule and signs in the arctic chill <3",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -56805,6 +57286,7 @@ const generatedSchedule: NormalizedSchedule = {
       ],
       "tags": [
         "Sober",
+        "Kids friendly",
         "Queer-inclusive"
       ],
       "description": "We will go through some basic rope and knots skills that will help you and your camp through the next days. Beginner to advanced. No skills needed. BYOR (bring your own rope - if you have one) Disclaimer: We will only tie on non-living things. If you want to tie humans/lovers together, this is not the workshop you are looking for.",
@@ -56954,7 +57436,9 @@ const generatedSchedule: NormalizedSchedule = {
           "label": "U16"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Kids friendly"
+      ],
       "description": "Lowlands meet. Looking for the perfect accessory to take your Borderling Ensemble to the next level? Head to the End of the Block Boutique — open Monday–Saturday, 10–12. An assortment of curated jewelry and accessories, possibly one made just for you. Plus Tania's world famous penis cardigans (now in various sizes…). Self-serve, 1 item per person per day to spread the love. New baubles daily until we run out!",
       "source": {
         "pdf": "JOMO26_A4.pdf",
@@ -56980,7 +57464,8 @@ const generatedSchedule: NormalizedSchedule = {
         }
       ],
       "tags": [
-        "Sober"
+        "Sober",
+        "Kids friendly"
       ],
       "description": "We're bringing back the analog thrill of the phone call! Hidden on the Playa are two phone booths decked like your wildest 90s fever dream. The only rule: pick up when it rings. High-stakes social roulette — a spontaneous blind date, a grilling from a Smålandstidningen \"reporter\", or a debate about why horses aren't real. No DMs, no ghosting. Your boothy call is waiting! B.L.U.E BUREAU OF LOGICAL UNIVERSAL",
       "source": {

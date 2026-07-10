@@ -26,31 +26,59 @@ const categories = [
 ];
 
 const tags = [
+  "Kids friendly",
   "Adults only",
-  "Queer-inclusive",
-  "Sensory content",
   "Sex positive",
   "Sober",
-  "Triggering themes"
+  "Sensory content",
+  "Triggering themes",
+  "Queer-inclusive",
+  "Queer-focused"
 ];
 
-const tagAliases = {
-  "Adults only": ["Adult only", "Adults"],
-  "Queer-inclusive": ["Queer inclusive", "Queer-focused", "Queer focused"],
-  "Sensory content": ["Sensory", "Sensory warning", "Sensory warnings"],
-  "Sex positive": ["Sex-positive", "Sexpositive"],
-  Sober: [],
-  "Triggering themes": ["Triggering", "Trigger warning", "Trigger warnings"]
-};
+const tagDefinitions = [
+  {
+    tag: "Kids friendly",
+    aliases: ["Kids friendly", "Kid-friendly", "Kid friendly", "Little monkey", "🐒"]
+  },
+  {
+    tag: "Adults only",
+    aliases: ["Adults only", "Adult only", "Adults", "Big monkey", "🦍"]
+  },
+  {
+    tag: "Sex positive",
+    aliases: ["Sex positive", "Sex-positive", "Sexpositive", "🖤"]
+  },
+  {
+    tag: "Sober",
+    aliases: ["Sober", "😇"]
+  },
+  {
+    tag: "Sensory content",
+    aliases: ["Sensory content", "Sensory", "Sensory warning", "Sensory warnings", "💥"]
+  },
+  {
+    tag: "Triggering themes",
+    aliases: ["Triggering themes", "Triggering", "Trigger warning", "Trigger warnings", "🚨"]
+  },
+  {
+    tag: "Queer-focused",
+    aliases: ["Queer-focused", "Queer focused", "🌈🌈"]
+  },
+  {
+    tag: "Queer-inclusive",
+    aliases: ["Queer-inclusive", "Queer inclusive", "🌈"]
+  }
+];
 
-const tagAliasEntries = Object.entries(tagAliases).flatMap(([tag, aliases]) => [
-  [tag, tag],
-  ...aliases.map((alias) => [alias, tag])
-]);
+const tagAliases = Object.fromEntries(tagDefinitions.map(({ tag, aliases }) => [tag, aliases]));
+const tagAliasEntries = tagDefinitions
+  .flatMap(({ tag, aliases }) => aliases.map((alias) => [alias, tag]))
+  .sort((a, b) => String(b[0]).length - String(a[0]).length);
 
 const metadataFlagAliases = [
   ...tags,
-  ...Object.values(tagAliases).flat(),
+  ...tagDefinitions.flatMap(({ aliases }) => aliases),
   "Kid-friendly",
   "Body-positive",
   "Body positive",
@@ -956,15 +984,21 @@ function cleanMetadata(value) {
 }
 
 function extractTags(value) {
-  return tagAliasEntries
-    .filter(([alias]) => hasTagAlias(value, alias))
-    .map(([, tag]) => tag);
+  let remainingValue = value;
+  const foundTags = [];
+
+  for (const [alias, tag] of tagAliasEntries) {
+    if (hasTagAlias(remainingValue, alias) && !foundTags.includes(tag)) {
+      foundTags.push(tag);
+      remainingValue = removeTagAlias(remainingValue, alias);
+    }
+  }
+
+  return foundTags;
 }
 
 function removeTags(value) {
-  return tagAliasEntries
-    .reduce((next, [alias]) => removeTagAlias(next, alias), value)
-    .replace(/[·-]\s*$/g, "");
+  return tagAliasEntries.reduce((next, [alias]) => removeTagAlias(next, alias), value).replace(/[·-]\s*$/g, "");
 }
 
 function removeMetadataFlags(value) {
@@ -983,7 +1017,11 @@ function removeTagAlias(value, alias) {
 }
 
 function createTagAliasPattern(alias) {
-  return new RegExp(`(^|\\b)${escapeRegExp(alias)}(?=$|\\b)`, "gi");
+  if (/^[\p{Extended_Pictographic}\u2600-\u27BF]+$/u.test(alias)) {
+    return new RegExp(escapeRegExp(alias), "gu");
+  }
+
+  return new RegExp(`(^|\\b)${escapeRegExp(alias)}(?=$|\\b)`, "giu");
 }
 
 function escapeRegExp(value) {

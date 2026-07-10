@@ -17,7 +17,9 @@ const requiredCampListings = [
   "KISHMASTLE SPACESTATION"
 ];
 const metadataOnlyNames = new Set([
+  "Kids friendly",
   "Adults only",
+  "Queer-focused",
   "Queer-inclusive",
   "Sensory content",
   "Sex positive",
@@ -29,6 +31,16 @@ const metadataOnlyNames = new Set([
 ]);
 const embeddedCategoryHeaderPattern =
   /\b(?:ART\/INSTALLATION|CARE\/SUPPORT\/PAMPERING|CRAFTING(?:\/PIMPING)?\/ARTING|FOOD\/DRINKS|GAMES\/PLAY|MUSIC\/PERFORMANCE\/SHOW|PARTY\/GATHERING|RITUAL\/CEREMONY|WORKSHOP\/CLASS|YOGA\/MOVEMENT\/BODYWORK|WEIRD SHIT\/OTHER)\b/i;
+const canonicalTags = [
+  "Kids friendly",
+  "Adults only",
+  "Sex positive",
+  "Sober",
+  "Sensory content",
+  "Triggering themes",
+  "Queer-inclusive",
+  "Queer-focused"
+];
 
 const coverage = await buildScheduleFromPdf(pdfPath);
 const currentSchedule = generatedSchedule;
@@ -108,6 +120,20 @@ const canonicalCampNames = new Set([
   ...currentSchedule.events.flatMap((event) => [...(event.campHosts ?? []), ...(event.campHost ? [event.campHost] : [])].map(getCanonicalCampLabel)),
   ...currentSchedule.campListings.map((listing) => getCanonicalCampLabel(listing.name))
 ]);
+const tagCounts = Object.fromEntries(
+  canonicalTags.map((tag) => [tag, 0])
+);
+const unknownTags = new Set();
+
+for (const entry of [...currentSchedule.events, ...currentSchedule.campListings]) {
+  for (const tag of entry.tags) {
+    if (tag in tagCounts) {
+      tagCounts[tag] += 1;
+    } else {
+      unknownTags.add(tag);
+    }
+  }
+}
 
 const summary = {
   sourcePdf,
@@ -145,6 +171,10 @@ const summary = {
   outOfMapGridRefs,
   missingRequiredCampListings,
   duplicateTitleDateTimeEntries: duplicateEventGroups,
+  tags: {
+    counts: tagCounts,
+    unknown: Array.from(unknownTags).sort()
+  },
   canonicalizationSamples: {
     mys: {
       canonicalName: "MŸS",

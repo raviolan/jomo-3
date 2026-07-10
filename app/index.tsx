@@ -20,6 +20,7 @@ import {
   getCanonicalHost,
   getCategories,
   getDefaultHomeDayId,
+  getDisplayTagLabel,
   getEventEndTime,
   getMatchedCampHostLabelForEvent,
   getMatchedHostLabelForEvent,
@@ -419,7 +420,7 @@ export default function ScheduleScreen() {
           </SuggestionGroup>
           <SuggestionGroup title="Tags">
             {homeSuggestions.tags.map((tag) => (
-              <SuggestionButton key={tag} label={tag} onPress={() => addTag(tag)} />
+              <SuggestionButton key={tag} label={getDisplayTagLabel(tag)} onPress={() => addTag(tag)} />
             ))}
           </SuggestionGroup>
           <SuggestionGroup title="Events">
@@ -464,7 +465,7 @@ export default function ScheduleScreen() {
                 <FilterPill key={host} label={host} onRemove={() => removeHost(host)} />
               ))}
               {selectedTags.map((tag) => (
-                <FilterPill key={tag} label={tag} onRemove={() => removeTag(tag)} />
+                <FilterPill key={tag} label={getDisplayTagLabel(tag)} onRemove={() => removeTag(tag)} />
               ))}
             </View>
           ) : null}
@@ -482,7 +483,9 @@ export default function ScheduleScreen() {
                       onPress={() => (isSelected ? removeTag(tag) : addTag(tag))}
                       style={[styles.filterChip, isSelected && styles.filterChipActive]}
                     >
-                      <Text style={[styles.filterText, isSelected && styles.filterTextActive]}>{tag}</Text>
+                      <Text style={[styles.filterText, isSelected && styles.filterTextActive]}>
+                        {getDisplayTagLabel(tag)}
+                      </Text>
                     </Pressable>
                   );
                 })}

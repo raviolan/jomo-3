@@ -12,6 +12,7 @@ import { useSavedEvents } from "@/hooks/useSavedEvents";
 import { getReturnContext, getReturnHref } from "@/lib/returnNavigation";
 import {
   getDayLabelForEvent,
+  getDisplayTagLabel,
   getEventById,
   getRawCampHostLabelsForEvent,
   getRawHostLabelsForEvent,
@@ -107,7 +108,9 @@ export default function EventDetailScreen() {
                 onSelect={(camp) => openCampSelection(router, camp)}
               />
             ) : null}
-            {event.tags.length > 0 ? <MetaBlock label="Tags" value={event.tags.join(" · ")} /> : null}
+            {event.tags.length > 0 ? (
+              <MetaBlock label="Tags" value={event.tags.map(getDisplayTagLabel).join(" · ")} />
+            ) : null}
           </View>
 
           <Pressable

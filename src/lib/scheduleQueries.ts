@@ -68,12 +68,14 @@ const campListingsByCanonicalName = schedule.campListings.reduce((map, listing) 
   return map;
 }, new Map<string, FestivalCampListing[]>());
 const tagAliases: Record<FestivalTag, string[]> = {
-  "Adults only": ["Adult only", "Adults"],
-  "Queer-inclusive": ["Queer inclusive", "Queer-focused", "Queer focused", "Queer"],
-  "Sensory content": ["Sensory", "Sensory warning", "Sensory warnings"],
-  "Sex positive": ["Sex-positive", "Sexpositive"],
+  "Kids friendly": ["Kid-friendly", "Kid friendly", "Little monkey", "🐒"],
+  "Adults only": ["Adult only", "Adults", "Big monkey", "🦍"],
+  "Sex positive": ["Sex-positive", "Sexpositive", "🖤"],
   Sober: [],
-  "Triggering themes": ["Triggering", "Trigger warning", "Trigger warnings"]
+  "Sensory content": ["Sensory", "Sensory warning", "Sensory warnings", "💥"],
+  "Triggering themes": ["Triggering", "Trigger warning", "Trigger warnings", "🚨"],
+  "Queer-inclusive": ["Queer inclusive", "🌈"],
+  "Queer-focused": ["Queer focused", "🌈🌈"]
 };
 const tagAliasLookup = new Map(
   Object.entries(tagAliases).flatMap(([canonical, aliases]) => [
@@ -81,6 +83,16 @@ const tagAliasLookup = new Map(
     ...aliases.map((alias) => [normalizeTagKey(alias), canonical as FestivalTag] as const)
   ])
 );
+const tagIcons: Record<FestivalTag, string> = {
+  "Kids friendly": "🐒",
+  "Adults only": "🦍",
+  "Sex positive": "🖤",
+  Sober: "😇",
+  "Sensory content": "💥",
+  "Triggering themes": "🚨",
+  "Queer-inclusive": "🌈",
+  "Queer-focused": "🌈🌈"
+};
 
 export function getScheduleDays(): FestivalDay[] {
   return schedule.days;
@@ -231,12 +243,14 @@ export function getCategories(): FestivalCategory[] {
 export function getTags(): FestivalTag[] {
   const presentTags = new Set(schedule.events.flatMap((event) => event.tags).map(getCanonicalTag));
   const stableTagOrder: FestivalTag[] = [
+    "Kids friendly",
     "Adults only",
-    "Queer-inclusive",
-    "Sensory content",
     "Sex positive",
     "Sober",
-    "Triggering themes"
+    "Sensory content",
+    "Triggering themes",
+    "Queer-inclusive",
+    "Queer-focused"
   ];
 
   return stableTagOrder.filter((tag) => presentTags.has(tag));
@@ -244,6 +258,11 @@ export function getTags(): FestivalTag[] {
 
 export function getCanonicalTag(tag: string): FestivalTag {
   return tagAliasLookup.get(normalizeTagKey(tag)) ?? (tag as FestivalTag);
+}
+
+export function getDisplayTagLabel(tag: FestivalTag): string {
+  const canonical = getCanonicalTag(tag);
+  return `${tagIcons[canonical]} ${canonical}`;
 }
 
 export function getSearchableTagTerms(tag: FestivalTag): string[] {
