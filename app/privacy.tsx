@@ -25,8 +25,12 @@ export default function PrivacyScreen() {
           Your saved events stay on the same device and browser unless you clear your site data, switch browser/device,
           or use a browser mode that blocks storage.
         </Text>
+                <Text style={styles.subheading}>Please note:</Text>
+        <Text style={styles.body}>
+          The site does however use a small amount of google analytics, but I only track page views. This is to have an extra safety check for myself, to ensure that we are at a level of site visits that my hosting allows for free. I do not send custom analytics events for saved festival events, searches, filters, map interactions or anything else.  
+        </Text>
       </View>
-
+        <Text style={styles.subheading}>And finally</Text>
       <Text style={styles.body}>This page is made by Raviolan for Allie cat, queen of the timeline 🫶🏽💫</Text>
 
       <Text style={styles.body}>
