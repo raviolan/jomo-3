@@ -1,7 +1,7 @@
 import type { NormalizedSchedule } from "@/models/schedule";
 
 const generatedSchedule: NormalizedSchedule = {
-  "generatedAt": "2026-07-10T11:32:32.739Z",
+  "generatedAt": "2026-07-10T21:38:52.327Z",
   "sourcePdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0+JOMO26_A4.pdf",
   "days": [
     {
@@ -99,7 +99,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We will go through some basic rope and knots skills that will help you and your camp through the next days. Beginner to advanced. No skills needed. BYOR (bring your own rope - if you have one) Disclaimer: We will only tie on non-living things. If you want to tie humans/lovers together, this is not the workshop you are looking for.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B2"
+        }
       }
     },
     {
@@ -138,7 +142,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A tradition unlike any other. Kick off your Borderland adventure by joining us after a hard day of build, quenching your thrist and dusting of that hat. Roof not guaranteed.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B3"
+        }
       }
     },
     {
@@ -181,7 +189,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Tiny bag check is open for you to claim what you checked last year. remember your claim check ticket!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B4"
+        }
       }
     },
     {
@@ -222,7 +234,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Virgin Borderling or seasoned burner to the playa? Wondering what the principles are? Then come to this light-guided workshop about the 11 principles of The Borderland. Come one, come all and frolick.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B5"
+        }
       }
     },
     {
@@ -263,7 +279,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Your body is a wonderful music instrument with a lot of untapped musical potential. We'll hear and learn notes, melodies, beats and sounds made by human bodies. Pretty sure at least some of them will be completely new to you. Depending on the group, we'll hopefully end up jamming and co-composing something unforgettable.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B6"
+        }
       }
     },
     {
@@ -304,7 +324,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "As per tradition, Blackwater Operations & The Green Zone will be hosting the worst shitshow money can't buy to celebrate the end of build. Think cruiseship entertainment... if it had been abandoned behind an opossum nest at a salvage yard. Drinks may be cold.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B7"
+        }
       }
     },
     {
@@ -341,7 +365,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Together we deliver the rebirth of the WILD SACRED FIRE. Join us in devotion, consecrate the ground, steward the tradition. Here we find ground, that we may lean into intimacy with the unknown. Let Her joy fan the flames of your savage nobility. Bring your heart as kindling.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B8"
+        }
       }
     },
     {
@@ -386,7 +414,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Chill by the big Spaceport fire while enjoying a concert that will soothe your soul and raise your consciousness to “Borderland Levels”... Maybe you have had a long day of building and want to wind down... or maybe you have just arrived and are looking for the perfect way to start your burn.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B9"
+        }
       }
     },
     {
@@ -432,7 +464,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Hexemutters Galehus Warning: experimental medicine cabinet. 41 remedies — yours to judge, yours to draw. Side effects include self-knowledge, mild existential crisis and uncontrollable honesty. We are not responsible for what the cards unlock. Always open. We never sleep. Unless we sleep. Wake us and die",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B10"
+        }
       }
     },
     {
@@ -461,7 +497,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "When you've packed up all of your mojo, your tent feels impossibly far away, and truthfully.. you've got a tiny existential wobble brewing, come find us. Lazy Treats Hour will serve you hot toasties, silliness and giggles, plus a generous serving of camp love. Survival, but make it fabulous.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B11"
+        }
       }
     },
     {
@@ -501,7 +541,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We will be serving icy stuff at random times. It’s up to the universe whether you get lucky or not.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B12"
+        }
       }
     },
     {
@@ -538,7 +582,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Send your(other)self a message in form of postcard from Borderland. Capture the fleeting moment and extract it out before it vanishes. Come hangout at Socialen, we offer a relaxed space to settle in a reflect for a moment and write yourself or others about your current state of mind.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B13"
+        }
       }
     },
     {
@@ -570,7 +618,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Time capsules: portals to the past, filled with memories for future generations. Seal photographs, letters or trinkets — 4 capsules, one per cardinal direction, co-created and sealed by different neighborhoods at the end of this year's Borderland. In 2027 they'll be buried under permanent art, for future archaeologists or extraterrestrials to wonder what strange not-a-cult walked this land.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B14"
+        }
       }
     },
     {
@@ -615,7 +667,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Join us for a loose, relaxed jam in the garden. Bring an instrument or your voice and let’s make some music! We have a few handpans to loan to participants, so if you’ve ever wanted to try one out, this is your chance. We’ve built most of them ourselves, and are very excited to see them in other people’s hands! We also have some shakers and other fun stuff for anyone who wants to jump in.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B15"
+        }
       }
     },
     {
@@ -654,7 +710,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Find a good spot anywhere and just sit back and people-watch while relaxing. It looks like a Borderland movie, doesn’t it?",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B16"
+        }
       }
     },
     {
@@ -693,7 +753,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Start the day on the mat with others through primal play, contact improvisation, Brazilian jiu-jitsu or a combination of the three. There is no facilitator and no fixed structure, just a shared space to explore, connect and move together. Whoever arrives first kicks things off with a five-minute Tabata.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B17"
+        }
       }
     },
     {
@@ -739,7 +803,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "If you want to leave your pooch for a few hours in a quiet campground to be watched by two volunteers, consider coming here. It's hoped that people who leave their dogs also take a shift.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B18"
+        }
       }
     },
     {
@@ -782,7 +850,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A place to meditate together in silence, and keep up your home practice, but in silent community. Do come along, first timers also welcome!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B19"
+        }
       }
     },
     {
@@ -825,7 +897,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Curious on Jungian philosophy and your unconscious? A dream matrix is a space where we share nightly dreams, in order to open up your unconscious and rediscover nightly dreams you'd forgotten. After the matrix there'll be a short teaching and sharing. See insta @BLdreammatrix",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B20"
+        }
       }
     },
     {
@@ -867,7 +943,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Where one playa’s cast-offs become your festival glow-up. Curated rags, questionable choices, and impulsive entertainment included. Come dig through the treasures, leave looking fabulous.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B21"
+        }
       }
     },
     {
@@ -910,7 +990,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come and build in our workshop area where we will construct orgone accumulators. We will provide the drawings, tools, material and guidance needed. The accumulators will be built in a proper Reichian way in order to accumulate orgone the most effective way possible. Once the accumulators are built, we will gather Orgone at Borderland and invite participants to be soaked in it, showered with it, and possibly transformed by it.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B22"
+        }
       }
     },
     {
@@ -953,7 +1037,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Tools down, and gear change with a vinyasa sprinkled with an eclectic mix of Tai Chi, Qi Gong, somatics and post-build week stand up comedy; we don’t take anything too seriously.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B23"
+        }
       }
     },
     {
@@ -994,7 +1082,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come and paint stuff with ultra-black paint! You won’t see any internal shadows on anything you paint. Absorbs ca 99% of all light. There will be some stuff you can paint if you don’t have any yourself.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B24"
+        }
       }
     },
     {
@@ -1034,7 +1126,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Stuck in a conflict? Meet the CRT any day. We don’t take sides or decide for you. We’re here to listen, offer mediation tools, and help find ways to coexist. Stop by to chat, learn, or get support! Conflicts should be solved between those involved, but if that isn’t possible, you can turn to us!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B25"
+        }
       }
     },
     {
@@ -1079,7 +1175,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "One never has anything to do with another person without holding something of that person's life in ones hands. If meditation is an art of being Circling is an art of being-with Come explore who you are in the meeting with others and the incredible richness of human connection in all its flavours.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B26"
+        }
       }
     },
     {
@@ -1120,7 +1220,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Wake up your body and shake off the dust with a playful vinyasa flow. Together we'll move, breathe, stretch, and energise ourselves for the day ahead. Grounding, uplifting, and open to all levels. Bring a yoga mat or towel and a water bottle.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B27"
+        }
       }
     },
     {
@@ -1163,7 +1267,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "First day of a magical week full of experiences. I invite you to slow down, tune into yourself, and softly land in your body and the sweet present moment. Feel what's present, what you're longing for, and meet the magic of Borderland from a centered, curious, and grateful space.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B28"
+        }
       }
     },
     {
@@ -1206,7 +1314,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A special meditation event using 4 types of meditation, in sequential order, to facilitate an experience of awakening. First anapana — calm abiding on the breath. Second vipassana — insight meditation, scanning the body for awareness. Third tantric meditation — moving through the chakras, circulating vital energy. Lastly a pointing-out instruction from the Mahamudra tradition, inviting you to recognize your innermost being: pure consciousness. Welcome!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B29"
+        }
       }
     },
     {
@@ -1252,7 +1364,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Want to try something new but old? Then come and have fun with spinning yarn on a drop spindle, exactly as our ancestors did it! Starts 11 am **Warnings** Sensory: raw smell of sheep Addictive: chance of adopting a new hobby",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B30"
+        }
       }
     },
     {
@@ -1292,7 +1408,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Experience an Ethiopian coffee ceremony! You don’t need to be there from the start, come when you can during the ceremony and enjoy a cup!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B31"
+        }
       }
     },
     {
@@ -1335,7 +1455,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Get your sweat on with Jutlandias best Zumba instructor, Fun and good exercise - LETS GOOO !!!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B32"
+        }
       }
     },
     {
@@ -1374,7 +1498,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Master the magical art of doing nothing! No goals, no to-dos just you, a comfy spot, and sweet, glorious idleness. Hug a tree, wiggle your toes, daydream wildly. It’s fun, it’s freeing, it’s fabulously unproductive. Permission to laze: granted!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B33"
+        }
       }
     },
     {
@@ -1415,7 +1543,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Tell me who, in your eyes, deserves a toast. Is it your mom? The ants by the third tree on the left? Paris Hilton? Because you're thinking gratefully about other beings, you get a fresh, delicious piece of toast from me. :)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B34"
+        }
       }
     },
     {
@@ -1455,7 +1587,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Make brushing your teeth a fun and absurd way of getting to know new people and new toothpastes! We take you to a trip around the world's most exquisite toothpastes. BYOT (Bring your own toothbrush -and pimp it at our craft booth!-) No toothbrush ? Pass by for a shot of mouthwash you stinky hippie ! Fun toothpastes ? Bring them all !",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B35"
+        }
       }
     },
     {
@@ -1500,7 +1636,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Melt into the soft hours with a slow, juicy yin yoga practice for femmes loving femmes (butches & nb folks included). Long-held poses, deep breath, gentle touch, come home to your body by the water. All levels, all bodies. Daily at 11, bring yourself, leave puddly 🐸",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B36"
+        }
       }
     },
     {
@@ -1524,7 +1664,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "All jewellery: $Free.99 I bring jewellery from all over the world to this magical little pop-up! Come pick the piece(s) that speak to you and leave a kind word for the next person. Walk off with your new jewellery and a mystery note from the person before you.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B37"
+        }
       }
     },
     {
@@ -1567,7 +1711,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Break out of the circle of battling for the ears of others. Brief introduction to sharing and supportive listening, then diving in. One circle or several, depending on numbers.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B38"
+        }
       }
     },
     {
@@ -1608,7 +1756,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A quiet moment to arrive. Through traditional breathwork and meditation practices, we'll slow down, become present, and gently settle into ourselves before stepping into the day. Open to all. Bring something comfortable to sit or lie on, and let your breath do the rest.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B39"
+        }
       }
     },
     {
@@ -1649,7 +1801,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Remember that time someone hurt you but the way they acknowledged and talked to you afterwards made you feel warm and understood? In this workshop we dive deep into our human psychological needs to find the structure of reparing hurt feelings. Join this workshop to get better at saying \"I'm sorry\"",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B40"
+        }
       }
     },
     {
@@ -1694,7 +1850,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Consent to Sin is a fun, welcoming Consent 101 workshop covering the foundations of consent in sex-positive spaces. Through theory and practical exercises, you'll build confidence in communication, boundaries, negotiation and saying both \"yes\" and \"no\" with clarity and respect.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B41"
+        }
       }
     },
     {
@@ -1731,7 +1891,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Enjoy chai, coffee, and cookies that taste like care, baked with love, served with presence and compassion. (There is a good chance that we will also serve coffee, etc outside our listed hours <3)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B42"
+        }
       }
     },
     {
@@ -1774,7 +1938,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "How much is enough? Philosophical conversation for everyone!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B43"
+        }
       }
     },
     {
@@ -1817,7 +1985,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Black Lotus is a vibrant and fluid vinyasa practice built to balance the two phases of the breath to encourage the vital force, pranam to circulate more openöly through the body.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B44"
+        }
       }
     },
     {
@@ -1857,7 +2029,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Got lint? Put your hairy bellybutton to work and donate that gloriously useless fluff to something even more useless. Stuff it in our Collection Jar and receive a Certificate of Donorship. Enough fluff = possible hamster sweater. Do your part for recycling. Multiple donations accepted.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B45"
+        }
       }
     },
     {
@@ -1900,7 +2076,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A safe and playful space to ask for what you want and receive it, over and over again. An abundance of interactions and dreams coming true. Playful, interactive, juicy, fun, exciting!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B46"
+        }
       }
     },
     {
@@ -1941,7 +2121,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Open sparring for the hippie martial artist. Come set the week of with a little punch and a little kick. Let's do some boxing, muay thai or maybe some mma. Hoping that the space is fitting, or we might move to a green spot by the big lake. Bring your own equipment. Onlookers are welcome",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B47"
+        }
       }
     },
     {
@@ -1981,7 +2165,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to enjoy Ethiopias national dish, injera! Vegan options are available 🇪🇹",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B48"
+        }
       }
     },
     {
@@ -2026,7 +2214,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Bouncebunny b2b Pleasure! A bootylicious workout/dance boot camp with special effects. Join us to get hot and sweaty! All body types welcome: big butts, small butts, no butts, goofy people, shy people, lazy people. Every kind of expression welcome! But be open to good vibes only and getting swifty 💖\"",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B49"
+        }
       }
     },
     {
@@ -2069,7 +2261,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Tiny bag check is open for you to claim what you checked last year. remember your claim check ticket!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B50"
+        }
       }
     },
     {
@@ -2113,7 +2309,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "12 step meeting (recovery)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B51"
+        }
       }
     },
     {
@@ -2154,7 +2354,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Learn and laugh :)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B52"
+        }
       }
     },
     {
@@ -2197,7 +2401,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Do you know the feeling of wanting to give up? Learn how to repress your feelings and keep on going in this highly paced workout where the social stigma of giving up is the main driver for continuing. (All levels are welcome. It’ll be fun.)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B53"
+        }
       }
     },
     {
@@ -2240,7 +2448,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "You have sinned. It's ok. Unburden yourself from this weight and dump it all on an anonymous stranger that will host you. The one place where you, in full confidentiality, can admit your worst, release its grip over you and learn to live free. Offer your sins and a white rabbit might appear.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B54"
+        }
       }
     },
     {
@@ -2283,7 +2495,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Tired of losing your cup? In this drop-in workshop you can craft a band to hang your cup from your bag, belt, or neck, so it stays with you anywhere you go. You can personalize it so everyone can see it's yours.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B55"
+        }
       }
     },
     {
@@ -2325,7 +2541,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Step through a portal to a reimagined past. We’re clashing the swing of the 1930s with the electricity of the future. Think Gramophone-glitch, brassy melodies, and syncopated beats that make the pool feel like a champagne bath. Dust off your vintage swimwear, find your most eccentric goggles, and prepare for a high-society splash.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B56"
+        }
       }
     },
     {
@@ -2370,7 +2590,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Experience during this workshop the freedom of dancing sensually on the floor. The movements are based on moves out of strip clubs, but you do not dance to seduce, but rather for yourself, to sensitively experience what it is like to dance this way in a safe environment.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B57"
+        }
       }
     },
     {
@@ -2415,7 +2639,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "One never has anything to do with another person without holding something of that person's life in ones hands. If meditation is an art of being Circling is an art of being-with Come explore who you are in the meeting with others and the incredible richness of human connection in all its flavours.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B58"
+        }
       }
     },
     {
@@ -2454,7 +2682,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Follow the scent to the Low Lands, just south of Snack Plaza, where crispy delights, surprise twists, and loungey vibes await. We flip with flair, serve with love, and welcome all dusty dreamers. We're just a smell away.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B59"
+        }
       }
     },
     {
@@ -2498,7 +2730,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "VOICEWORK Playful vocal workshop exploring the connection between bodylanguage, movement & sound. Deep, seriously fun and a great way to meet me people",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B60"
+        }
       }
     },
     {
@@ -2544,7 +2780,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Want to make a small ring or an artsy creation? This workshop will be a collaboration of your own imagination and the metal. I will give a small introduction of blacksmithing, then guide you in the process. Iron, copper and brass will be available for you to turn into the art you fancy.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B61"
+        }
       }
     },
     {
@@ -2583,7 +2823,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Unleash the mind-bending, nerve-wracking and gut wrenching power of breath, sound and sriracha. Let your ego dissolve into a whirlpool of snot, beats, burps and tears during this guided 45 minute journey. Somatic, traumatic, fantastic. Taster discretion may be advised.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B62"
+        }
       }
     },
     {
@@ -2626,7 +2870,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Need a cozy upgrade for your nighttime vibes? Join Amy’s workshop to weave your very own handmade sleep insurance, no prior skills required! You will be provided with eco-friendly ring materials—hand-picked but feel free to bring your own ring or deco",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B63"
+        }
       }
     },
     {
@@ -2673,7 +2921,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We explore the wonderful world of kissing while practising saying yes and no! We start easy and simple, and progressively discover more tenderness, closeness and spicyness... but you only go as far as you want. This is a queer-inclusive event 💋💋",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B64"
+        }
       }
     },
     {
@@ -2717,7 +2969,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "What are you? And what are you ALSO? A light-hearted group excercise to express various facets of your identity, positive and also negative. The workshop involves sharing, movement, and also hugs.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B65"
+        }
       }
     },
     {
@@ -2760,7 +3016,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Cuddlepuddles are serious business and should be treated as such. This is a condensed theoretical and practical course in advanced cuddlepuddle building. 7.5 university points, fitting virgins and old-timers. Final exam? Build one of the finest cuddlepuddles ever to have visited this puny earth.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B66"
+        }
       }
     },
     {
@@ -2806,7 +3066,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "SINema Studio invites you to create short erotic films from our scripts, or your own deliciously questionable ideas. Come solo or with partners, wear masks if you like, or let fate introduce you to fellow sinners. We film. With your consent, your masterpiece might light up SINema on Thursday!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B67"
+        }
       }
     },
     {
@@ -2847,7 +3111,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Tune into your inner poet and learn how to write a love poem for old and new crushes.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B68"
+        }
       }
     },
     {
@@ -2890,7 +3158,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Sing everything you want to say and improvise new lyrics to well-known melodies :) Take part, or just listen!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B69"
+        }
       }
     },
     {
@@ -2935,7 +3207,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A cozy circle for pregnant burners, new parents and anyone exploring burns and parenthood. Come share about pregnancy at the burn, burn-FOMO, sobriety, energy, changing bodies, relationships, and a question many of us carry: can we keep burning with children? Partners, babies and all feelings welcome.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B70"
+        }
       }
     },
     {
@@ -2980,7 +3256,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Polegasm returns in a new form: an open pole jam where you can climb, flow, play, and connect throughout the night. Whether you're a seasoned pole dancer or simply curious, come spin, experiment, and share the energy in a welcoming, low-pressure space at Plutonia. Want updates or to connect with other pole dancers before the burn? Join our WhatsApp group: https://chat.whatsapp.com/HpT6ByvXTf0FiBPjGi5p3o?mode=gi_t",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B71"
+        }
       }
     },
     {
@@ -3023,7 +3303,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come with me and have a new sensory experience what it’s like living with a visual impairment. A chance to enhance your other senses in a playful way. All participants will get a pair of glasses blurring your vision. You won’t be completely blind. Together we’ll get comfortable and then do activities that challenge the way you use your senses. Let’s play together!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B72"
+        }
       }
     },
     {
@@ -3067,7 +3351,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Experience Argentine tango – an intimate dialogue through movement, connection, and music. Together we explore the fundamentals of this beautiful dance, guided by the timeless sounds of traditional tango. As this recurring event unfolds, each session will build naturally on the last, allowing us to gradually deepen our understanding and expression.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B73"
+        }
       }
     },
     {
@@ -3108,7 +3396,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come and dance tango together! Learn the basics, grab a partner and feel the heat!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B74"
+        }
       }
     },
     {
@@ -3149,7 +3441,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "If you've seen \"the wave\" or the \"moonwalk,\" you've seen Popping – funky grooves, dancing robots and mind-bending visual illusions. In this workshop, you'll learn the basics (pops and waves) and how to build your own unique style. Discover the secrets behind the coolest moves and get ready to impress on the dance floor!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B75"
+        }
       }
     },
     {
@@ -3192,7 +3488,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "What happens when yin yoga meets doom metal? Long holds, heavy riffs, deep stretches and full permission to groan, sigh, growl and sound like an ancient beast awakening from hibernation. No previous yoga experience needed.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B76"
+        }
       }
     },
     {
@@ -3235,7 +3535,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Through quantum physics, somatic practice, and meditation, we bridge science and the sacred. Using the CORES-model, we master our nervous system to heal the past. We transmute our \"golden fractures\" into an epic origin story, becoming the architects of our own reality.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B77"
+        }
       }
     },
     {
@@ -3276,7 +3580,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "I tap into energy and speak, sing, share. I guide meditation, breathwork, and draw on experiences from both shamanic as well as scientific working experience.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B78"
+        }
       }
     },
     {
@@ -3321,7 +3629,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Is your child ready for the hero’s journey? We welcome the young ones to challenge mighty warriors and emerge victorious! (It’s playwrestling, aiming to teach confidence and resilience to the kids, winning guaranteed). Drop-in. Ages 5 and up. Volunteering adults welcome (prepare a warrior persona)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B79"
+        }
       }
     },
     {
@@ -3364,7 +3676,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome friend! We will do a lot of carefully selected short fun games of various kinds. It’s ok to come and go as you like, no game lasts more than a few minutes, so we will always soon do something else :)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B80"
+        }
       }
     },
     {
@@ -3407,7 +3723,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Want to improve your singing? I will teach the basics of warm-up, some improvisations exercises and then ending with som free chanting.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B81"
+        }
       }
     },
     {
@@ -3446,7 +3766,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Lay back, relax, and let your imagination fly, it’s cloud watching time! Spot dragons, donuts, dancing llamas. Who knows what floats by? Bring your wildest daydreams, and some chill vibes. No rules, no rush, just sky-gazing joy and fluffy fun above.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B82"
+        }
       }
     },
     {
@@ -3488,7 +3812,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Have you heard it? The quiet whimper of a tote bag lost in the forest, the nameless cup wandering without hope — too proud to ask for directions, too lost to find its way home. We prevent heartbreak. A sacred labelling service: print a custom vinyl label with your name shimmering golden and steadfast, and stick it on everything you love. You'll lose it anyway — but it will come home to the Temple of the Holy Lostus Foundatus, and you'll find it again. Swing by anytime and get creative!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B83"
+        }
       }
     },
     {
@@ -3531,7 +3859,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come sing Disney songs together! Bring a snack to share of you like and we will have tea.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B84"
+        }
       }
     },
     {
@@ -3575,7 +3907,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Move, sing, let go",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B85"
+        }
       }
     },
     {
@@ -3616,7 +3952,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Start your BL experience grounded - come plant a tree (probably a fruit tree) and put an intention into the storage of carbon. We provide the tree, compost and tools. We meet at Yggdrasil camp and plan, together we find a good spot to plant it, and then we venture out to the playa to find a good place for the planting.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B86"
+        }
       }
     },
     {
@@ -3659,7 +3999,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Explore how (why & when) smth as ordinary as a hug can be the most extraordinary thing you can give/receive. Mix of science (pseudo incl.) and squishy experiments. Non-huggers welcome. Facilitated by Dr. Squishybear: Gut-brain tinkerer & researcher of wonderments that increase human capacity for love.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B87"
+        }
       }
     },
     {
@@ -3706,7 +4050,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Spanking is not punishment, it's FUN-ISHMENT! In this beginners Play-Lab, we will explore with the basic techniques of this delicious and versatile kink skill. You will be encouraged to strip your underwear or swimwear for better skin contact and sensations.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B88"
+        }
       }
     },
     {
@@ -3749,7 +4097,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Get your flow energy feeling right from the start!! Easing into the party as F.L.J moves through smooth digital stylings as he paints a chill and rejuvenating soundscape for peeps before you venture forth to explore the town and all the adventures it holds for you. Tania will also serve up some delicious Chai for any who want to partake while they soak in the sound.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B89"
+        }
       }
     },
     {
@@ -3790,7 +4142,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Who can cry first?",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B90"
+        }
       }
     },
     {
@@ -3836,7 +4192,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Get ready to get floppy because Borderlands Dildo Olympics is back! Feel free to bring your own favorite dildo",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B91"
+        }
       }
     },
     {
@@ -3881,7 +4241,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come, whoever or whatever you are, and share with us a cup of delicious Turkish coffee and a sweet baklava.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B92"
+        }
       }
     },
     {
@@ -3921,7 +4285,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Relax in our lovely shade and listen to some of Njorunn's Garden's inhabitants read aloud from their favorite books. Monday: Lars reads from the Tao Te Ching, Tuesday: Teresa reads Who Will Comfort Toffle by Tove Jansson, first in English and after that (if there's interest) in the original Swedish. Thursday: Fellan reads from Braiding Sweetgrass by Robin Wall Kimmerer.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B93"
+        }
       }
     },
     {
@@ -3960,7 +4328,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A corner of Paris in the woods — wine, peanuts, and the art of l’Apéro.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B94"
+        }
       }
     },
     {
@@ -4006,7 +4378,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "You're invited to pause, breathe, and return to the simple joy of being in your body. This is a pace to explore touch in a safe, gentle, and playful way. With the “Touch Menu” (a selection of creative, surprising options for you to explore) you’ll be invited to a sensual exploration.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B95"
+        }
       }
     },
     {
@@ -4047,7 +4423,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Start your burn right with a non-alcoholic Schorle made just for you. Each of our bartenders has their own special way of serving, so you never know what you'll get. Don't know what Schorle is? Soon you will!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B96"
+        }
       }
     },
     {
@@ -4091,7 +4471,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "This will be as much of a performance for an audience as it will be a personal experience to everyone who participates. Its called liquid love and will be nude, oily, glissy, glossy, artsy, slow and sensual. But weirdly enough not sexual in spite of what one might think.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B97"
+        }
       }
     },
     {
@@ -4136,7 +4520,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Arrive safely in this beautiful space, our beloved land, find grounding in your own body and meet your inner child, before meeting new people, exploring first gentle touches, make new connections for the Borderland and beyond. No nudity. Physical touch (active/passive). No sexual activities.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B98"
+        }
       }
     },
     {
@@ -4177,7 +4565,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Basic Electronic textile workshop : make your blinking badge or hair clip !",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B99"
+        }
       }
     },
     {
@@ -4222,7 +4614,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Every day at 16:00 we rise from the Pond and parade to the lake, lesbian flag flying, for 2 hours of swimming, floating, splashing and sun. Beavers, nymphs & neighbours all welcome to join the procession. Come get wet with us 💦🏳️‍🌈 Meet at the Pond, follow the flag.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B100"
+        }
       }
     },
     {
@@ -4261,7 +4657,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Starting from simple presence, ending with engaged conversation, we travel the path of deep, supportive and curious listening, in several carefully crafted steps.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B101"
+        }
       }
     },
     {
@@ -4304,7 +4704,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Ass Darbuka turns bodies into percussion. We explore dums, teks, rhythm, touch, and playful sound first on our own bodies, then each other's, then as a group. No experience needed, just curiosity, consent, and a willingness to become both drummer and drum. We end with songs and sweaty laughter to...",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B102"
+        }
       }
     },
     {
@@ -4347,7 +4751,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Borderlands MOST talented musicians gather to play some of their original material, maybe supported by som jammers. Each artist can play 3 songs / 10-15 minutes. Dr.Duus will not scout you, you will scout yourself come by monday at 12, if you really wanna play and didnt sign up before hand <3",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B103"
+        }
       }
     },
     {
@@ -4387,7 +4795,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A series of presentations on how humans wound up with Patriarchy. Lesson 1 - The First 96% of Human History Lesson 2 - Earth Goddess vs Sky Father Lesson 3 - Conquest and Control Lesson 4 - God Hates Women Lesson 5 - A Path Forward",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B104"
+        }
       }
     },
     {
@@ -4430,7 +4842,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A quick upper body session before entering the night. Legs and hips will work the dancefloors, so hit the discopump to activate some circulation & mood, and maybe pump your muscles/veins with some extra confidence/selflove💪🪩 there will be music, mirrors & a workout ready to be worked.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B105"
+        }
       }
     },
     {
@@ -4474,7 +4890,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Tired of endless small talk and the same type of first dates? Softer Dating is the antidote. Meet other cuties looking for connection. Together we slow down, way down, and go into the body. We explore different ways of connecting with each other without too many words. Bring an open heart <3 Pyt",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B106"
+        }
       }
     },
     {
@@ -4515,7 +4935,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "You keep seeing these mythical creatures playing with fire and lights? Anyone can learn it! This is an opportunity to try out different toys and learn some tricks. No matter if you’re completely new to flow arts, want to try a prop you haven’t before, or practice one you know well.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B107"
+        }
       }
     },
     {
@@ -4556,7 +4980,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Starship initialized! On our voyage, we anchored in Orvantis—a dense wilderness of neon cacti where beings speak in vibrations. Deep in the undergrowth, our drones recorded squelchy frequencies like mischievous aliens making love in bushes, mixed with rolling grooves of psytech and forest witches summoning trippy entities.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B108"
+        }
       }
     },
     {
@@ -4597,7 +5025,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Ceremonial Opening of a ceremonially open opening ceremony 🦊 Kettu",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B109"
+        }
       }
     },
     {
@@ -4640,7 +5072,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Do you need some rest before the marvelous adventures of the night? Let the Borderland fairy read you some stories while you nap in a big cozy tent with big cozy pillows. Both Children's books will be read while we serve you blueberry tea and homemade sweets. Let us take care of your inner child for a while, love.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B110"
+        }
       }
     },
     {
@@ -4681,7 +5117,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Bear witness as our oiled-up man digs a hole like a hole has never been dug before. Objectification encouraged. Bring snacks, bring eyes, bring nothing else. He digs. You watch. That's the piece.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B111"
+        }
       }
     },
     {
@@ -4724,7 +5164,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The hole is dug. Now we fill it with sound, sweat, and questionable decisions. Join us for the unofficial official opening of Borderland and closing of build week. The DJs are warm, the drinks are cold, the dust is exactly where it should be. Come as you are. Stay until you aren't.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B112"
+        }
       }
     },
     {
@@ -4767,7 +5211,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Enter as a travelling merchant, proud of their wares! What do you want, and what do you have to trade for it? 🤔 Something pretty? Something sweet? Something kinky? Welcome to browse, haggle, and strike a bargain at the Bazaar!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B113"
+        }
       }
     },
     {
@@ -4814,7 +5262,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Get a first impression of giving and receiving a Tantra Massage! We start with tantric greeting rituals and finding a partner for the main part of the workshop - a sensual, non-intimate-zone, oil massage. This workshop is a space for connection and intimacy for all genders and orientations. You will be asked to communicate your boundaries. Come alone or with a partner. WARNING: This workshop includes nudity! Please bring a large towel to lay on! Be a clean hippie and come showered.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B114"
+        }
       }
     },
     {
@@ -4857,7 +5309,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Get earnest. Get honest. Get vulnerable. Lighten your load with the help of others. A space to openly share things you might not otherwise chat about, and deepen your connection will your fellow human.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B115"
+        }
       }
     },
     {
@@ -4896,7 +5352,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Happy Hour à la Française! — Sparkling wine, peanuts, and the art of l’Apéro.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B116"
+        }
       }
     },
     {
@@ -4939,7 +5399,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "…I was somewhere around The Sweet Spot when the syrup took hold. One day into the dust, bearings gone. Plate in hand, can’t say how. Sexy otherworldly creatures flipping sweet stacks of colours. I came hungry. Left full. Stayed weird…",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B117"
+        }
       }
     },
     {
@@ -4977,7 +5441,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Energy + touch connection, easy tools for presence into contact improvisation. Afterwards (from 20.00) there will be an open contact jam with live music!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B118"
+        }
       }
     },
     {
@@ -5018,7 +5486,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Everyone is welcome to light the Yggdrasil fire! Find a natural object that is reflecting your intention for Borderland. We'll give this as a gift to the fire & to the magical cauldron we co-create!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B119"
+        }
       }
     },
     {
@@ -5059,7 +5531,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "You love to sing but hate to sing in front of others 🎤🚷?! Join us at Half Ass Karaoke where our magical machine does the heavy lifting for you.. at a porta potty of our liking.. gay classics, german chansons and 90s pop bangers (or whatever the fuck you want burners are perseverant)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B120"
+        }
       }
     },
     {
@@ -5102,7 +5578,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Before the gym, before the chair you moved like an animal. This workshop takes you back there. Crawl like an ape, leap like a frog, stalk like a cat. Get on the floor, stretch, crawl & play with fellow creatures. Connect to the intelligence living within you & remember the fun of being on all fours!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B121"
+        }
       }
     },
     {
@@ -5143,7 +5623,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The anti-senility drugs have kicked in, and Senator Snowflake is back! Kick off your shoes and start your evening with an epic blend of classic rock and country, mixed with pumping tech-house beats.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B122"
+        }
       }
     },
     {
@@ -5187,7 +5671,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Most of what we believe about all this comes from friends and stories. Some true, some not. We sort fact from folklore: combinations, amounts, common mistakes, all backed by science 🤓. Looking out for ourselves and each other out here ❤️",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B123"
+        }
       }
     },
     {
@@ -5228,7 +5716,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Psssstt… it’s here! Join us for Grand opening of our grandiose tent. Let your imagination run wild and discover our space, where the best you can do is to be present in the moment. The night when anything can happen while all the magic comes together under our Big top.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B124"
+        }
       }
     },
     {
@@ -5269,7 +5761,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Want to sing silly songs about going to burns and doing silly things? Caught yourself singing \"You're a dick! You're an asshole!\" Then come to the Captain Silly Songs sing-a-long!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B125"
+        }
       }
     },
     {
@@ -5310,7 +5806,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "20:00 LIVE: Lukas Lilja Silly Songs that will put a smile on your face and set the mood for a wild night 21:00 DJ William Florelle Soulful Vibey House 22:15 Dj Bagt Ubagt Silly Jazzy House 23:30 DJ Ohan Funky Bouncy House 00:45 Dj DAAS Deep/Jazz House",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B126"
+        }
       }
     },
     {
@@ -5349,7 +5849,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "CaSINo is Club SIN’s twisted casino, where sincoins, shame, dignity, luck, and temptation are all on the table. Play sinful casino games; blackjack, poker, and roulette, win juicy treats, accept delicious punishments, and gamble your comfort zone away. Come place your bet, commit your sins, and lose yourself with us tonight at caSINo...",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B127"
+        }
       }
     },
     {
@@ -5389,7 +5893,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Commit wicked sins or accept deserved punishments from our curated menus at SIN Bar, Club SIN's handcrafted wooden haven beside the dancefloor. Earn sincoins, ask nicely, and our SINtenders may reward you with cocktails, non-alcoholic delights, special snacks, and redeeming treats. Sinful tonight?",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B128"
+        }
       }
     },
     {
@@ -5430,7 +5938,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "JAM CAMP MUSICIANS GIVES YOU A OF A GOOD JAM CONCERT !",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B129"
+        }
       }
     },
     {
@@ -5473,7 +5985,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Set intentions for the week, order a drink in the bar of mixed emotions, dans to cheezy and homely tunes at this preparty kickoff at the Sectet Sailors camp ar Lowlands plaza!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B130"
+        }
       }
     },
     {
@@ -5517,7 +6033,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Opening-night magic: pin your heart to the Soul Matchmaking Board and let the Pond play cupid. We'll show you how it works, then set you loose to find your person (or your Tuesday-night U-Haul partner). Bring your crush energy 🐸💘",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B131"
+        }
       }
     },
     {
@@ -5558,7 +6078,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come and flow into the night with moving bodies in presence and playfulness. We have a tent with great soft floor perfect for rolling around on. Do you want to jam using an instrument rather than your body, you are welcome too!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B132"
+        }
       }
     },
     {
@@ -5599,7 +6123,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Workshop, singing, druming, dancing, to celebrate life on Mother Earth. Together with Rolf we will have a magic time singing, druming and dancing. Bring your own drum if you have. Most welcome.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B133"
+        }
       }
     },
     {
@@ -5643,7 +6171,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Begin Borderland by arriving fully — into yourself, the present moment, and connection with others. We weave together authentic relating and embodiment practices for a gentle landing into the circus of Borderland. Through movement, stillness and conversation, we explore pathways into presence, connection and aliveness. Whether you arrive with excitement, uncertainty, or simply a desire to be present, this is a welcoming space to ground, connect, and begin your BL-journey with intention.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B134"
+        }
       }
     },
     {
@@ -5683,7 +6215,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Rumor has it Groggen is counting down its final days… Join us for the LAST GALA! Dress to impress, enjoy glamour, performances, and crown some winners. Got a sexy, weird, brilliant, or completely unexplainable GALA performance? We want it! Sign up at Groggen around 14 on monday.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B135"
+        }
       }
     },
     {
@@ -5720,7 +6256,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Rumor has it that Mermaid Mélisande will appear once again and let her hauntingly beautiful voice sound over the lake in the rays of the evening sun. Can likely be heard in the distance on all of Sunny Hill, but if you want a glimpse of the mermaid herself, come closer...",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B136"
+        }
       }
     },
     {
@@ -5763,7 +6303,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "🧙 A temple to curiosity. A space where ritual, poetics and mystery unfold. If something is drawing you in, you are probably meant to be here.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B137"
+        }
       }
     },
     {
@@ -5804,7 +6348,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come, friend, and sit with us. Beneath the roots of the earth tree, we welcome you. Share your stories, warm yourself at our crackling fire and breathe for a while. You are welcome here. Just the way you are.🔥✨",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B138"
+        }
       }
     },
     {
@@ -5843,7 +6391,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "It's the community who creates meaning inside the structures built. To open our shared space of The Sun, The Temple, we'll create a joint singing experience — sharing a sound of togetherness and filling The Temple with the aliveness of the Borderland community. NO SINGING SKILLS REQUIRED! Improvisations, humming, and sun songs for everyone to join. Bring yourself, your voice, and any instrument you feel called to. Suggestion: wear something yellow, gold or white (absolutely optional) ☀️",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B139"
+        }
       }
     },
     {
@@ -5884,7 +6436,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Expect: a life-size Snakes and Ladders game show of spiritual shortcuts and ego traps, a mass deprogramming sermon, epic 1-minute speeches by EVERYONE who does not identify as a cult leader about the sacred art of not being followed... and spectacular performances of holy profanity.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B140"
+        }
       }
     },
     {
@@ -5928,7 +6484,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Dreamy analogue synths and psychedelic guitar riffs blend with electronic beats and noises from another dimension. The live set begins with ambient textures opening space for drum machines conjuring the Brazilian spirit. Enjoy the ride!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B141"
+        }
       }
     },
     {
@@ -5969,7 +6529,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Bear awakens. Start the week with heavyweight jungle, rolling drum & bass and deep low-end pressure on our hand-crafted sound system.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B142"
+        }
       }
     },
     {
@@ -6012,7 +6576,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come shake the ground with rhythm and dance! Fire and music will merge through drumming and the Playa will know.. WE.ARE.HERE! Bring your drum and favorite grooves. We will transition into ambient multi-instrumental jam as we progress.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B143"
+        }
       }
     },
     {
@@ -6057,7 +6625,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A warm communal cuddle-nest in the Summerge tent, held by Regina through the small hours. Crawl in, get cozy, be held against the cold and the loneliness. 🐸🌙",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B144"
+        }
       }
     },
     {
@@ -6103,7 +6675,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Hexemutters Galehus Warning: experimental medicine cabinet. 41 remedies — yours to judge, yours to draw. Side effects include self-knowledge, mild existential crisis and uncontrollable honesty. We are not responsible for what the cards unlock. Always open. We never sleep. Unless we sleep. Wake us and die",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B145"
+        }
       }
     },
     {
@@ -6132,7 +6708,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "When you've packed up all of your mojo, your tent feels impossibly far away, and truthfully.. you've got a tiny existential wobble brewing, come find us. Lazy Treats Hour will serve you hot toasties, silliness and giggles, plus a generous serving of camp love. Survival, but make it fabulous.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B146"
+        }
       }
     },
     {
@@ -6169,7 +6749,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Some say it moves when no one´s looking. Others say it only reveals itself to those who truly need a wish granted. In any case, if you find it: Hang a wish, tie a secret, weave a promise into its bark. Maybe it grants them, maybe it eats them. Either way, your business is no longer your own.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B147"
+        }
       }
     },
     {
@@ -6209,7 +6793,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We will be serving icy stuff at random times. It’s up to the universe whether you get lucky or not.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B148"
+        }
       }
     },
     {
@@ -6246,7 +6834,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Send your(other)self a message in form of postcard from Borderland. Capture the fleeting moment and extract it out before it vanishes. Come hangout at Socialen, we offer a relaxed space to settle in a reflect for a moment and write yourself or others about your current state of mind.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B149"
+        }
       }
     },
     {
@@ -6278,7 +6870,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Time capsules: portals to the past, filled with memories for future generations. Seal photographs, letters or trinkets — 4 capsules, one per cardinal direction, co-created and sealed by different neighborhoods at the end of this year's Borderland. In 2027 they'll be buried under permanent art, for future archaeologists or extraterrestrials to wonder what strange not-a-cult walked this land.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B150"
+        }
       }
     },
     {
@@ -6311,7 +6907,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Dust, sweat, glitter and forest. Bring water and enjoy a moment of warmth, care and renewal before returning to the adventure. Built with Leave No Trace principles, deep love., and a steadfast faith in my close to nonexistent technical skills.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B151"
+        }
       }
     },
     {
@@ -6354,7 +6954,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come dance your feet off to some Jungle & DnB with BLs best soundsystem!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B152"
+        }
       }
     },
     {
@@ -6399,7 +7003,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Enter the Seven Sins Ceremony - a playful and immersive journey into lust, curiosity, and connection. Through movement, gaze, touch, sound, ritual, and collective mischief, awaken your senses, embrace desire, and celebrate pleasure. Come and confess to transform and sin together.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B153"
+        }
       }
     },
     {
@@ -6445,7 +7053,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Kidsville serves breakfast: waffles, pancakes, Kaiserschmarrn and other delights. Bring your plate, spoon and smile",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B154"
+        }
       }
     },
     {
@@ -6484,7 +7096,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Find a good spot anywhere and just sit back and people-watch while relaxing. It looks like a Borderland movie, doesn’t it?",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B155"
+        }
       }
     },
     {
@@ -6527,7 +7143,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Coffee is ready. The gossip fresh. Bring your cup, take a seat, and tune in to our live radio show with music, juicy stories, last night’s questionable decisions, surprise guests, and whatever else unfolds. Sip. Sit. Listen. Say something.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B156"
+        }
       }
     },
     {
@@ -6566,7 +7186,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Start the day on the mat with others through primal play, contact improvisation, Brazilian jiu-jitsu or a combination of the three. There is no facilitator and no fixed structure, just a shared space to explore, connect and move together. Whoever arrives first kicks things off with a five-minute Tabata.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B157"
+        }
       }
     },
     {
@@ -6609,7 +7233,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A deep breath is the first thing we do after birth and the last thing we do before dying. It is our steady companion and we dive into her world, to see what was unseen. How does it work and waht is happening to you and your body?",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B158"
+        }
       }
     },
     {
@@ -6650,7 +7278,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Ecstatic Breathwork / Rebirthing: A guided breathing journey to release stress, tension, and suppressed emotions. Regulate your nervous system, deepen self-awareness, and open to more presence, pleasure, and transformation. No experience needed—just come as you are.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B159"
+        }
       }
     },
     {
@@ -6694,7 +7326,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Improv theatre?! In the morning?! You are here now, come be here, now, wow! No experience needed. Outgoing or shy, sleepy or wide awake; just bring yourself, grab a cup of coffee and play with us! Come for the coffee, stay for the drama.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B160"
+        }
       }
     },
     {
@@ -6740,7 +7376,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "If you want to leave your pooch for a few hours in a quiet campground to be watched by two volunteers, consider coming here. It's hoped that people who leave their dogs also take a shift.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B161"
+        }
       }
     },
     {
@@ -6783,7 +7423,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A place to meditate together in silence, and keep up your home practice, but in silent community. Do come along, first timers also welcome!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B162"
+        }
       }
     },
     {
@@ -6827,7 +7471,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Got an outfit that needs a little more sparkle? Bring your old clothes and transform them into something new, weird, wonderful or wildly unnecessary. Come pimp, bedazzle, patch, decorate and play — no skills needed, just curiosity and a desire to shine.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B163"
+        }
       }
     },
     {
@@ -6869,7 +7517,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Solve your first case in our academy. Then bring your own suspicious case – or really any – turn it into clues and puzzles, and file it away for future detectives to crack. You might be rewarded, if one chooses to see it that way.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B164"
+        }
       }
     },
     {
@@ -6913,7 +7565,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Baby Rave! Dance, jump around, crawl, have fun!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B165"
+        }
       }
     },
     {
@@ -6956,7 +7612,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Curious on Jungian philosophy and your unconscious? A dream matrix is a space where we share nightly dreams, in order to open up your unconscious and rediscover nightly dreams you'd forgotten. After the matrix there'll be a short teaching and sharing. See insta @BLdreammatrix",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B166"
+        }
       }
     },
     {
@@ -6998,7 +7658,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Where one playa’s cast-offs become your festival glow-up. Curated rags, questionable choices, and impulsive entertainment included. Come dig through the treasures, leave looking fabulous.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B167"
+        }
       }
     },
     {
@@ -7041,7 +7705,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come and build in our workshop area where we will construct orgone accumulators. We will provide the drawings, tools, material and guidance needed. The accumulators will be built in a proper Reichian way in order to accumulate orgone the most effective way possible. Once the accumulators are built, we will gather Orgone at Borderland and invite participants to be soaked in it, showered with it, and possibly transformed by it.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B168"
+        }
       }
     },
     {
@@ -7084,7 +7752,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "2 hours to connect with your true capacity and find what feels most true for you for this day and the festival. Max 20 people.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B169"
+        }
       }
     },
     {
@@ -7127,7 +7799,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Start your burn day with an energizing vinyasa flow designed to wake the body, charge the breath, and get your systems online. We’ll stretch, move, sweat a little, and reconnect — body to breath, feet to dust, heart to stars. Come as you are. Bring a mat, water, and your favorite intergalactic leggings.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B170"
+        }
       }
     },
     {
@@ -7172,7 +7848,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A guided exploration of non-verbal communication through movement, presence and emotional awareness. Less about technique, more about listening, relational intelligence and the subtle dance emerging between bodies.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B171"
+        }
       }
     },
     {
@@ -7214,7 +7894,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A contact improvisation/movement/somatic workshop led by Lone Hav and with live instrumentation by Joshua (William Florelle) where participants are invited to explore the theme of the ocean and evolution. From a singled celled organism to a many limbed being, how do we make sense of our bodies and the bodies around us at these varied stages of development. Vivid, poetic.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B172"
+        }
       }
     },
     {
@@ -7255,7 +7939,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Join this art run around the whole Borderland area and become the friend who says 'dude, you need to see this.' Bonus: you'll get the lay of the land, and the nature? Pretty banging too. Social-pace jog (~6.30-7.00/km), ~4km on trail, grass and gravel. Swim after optional.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B173"
+        }
       }
     },
     {
@@ -7296,7 +7984,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to Lunar Yoga - a yoga session using the ancient Kundalini yoga technology applied for WOMEN! Bring your yoga mat and reconnect with yourself. Satnam, Aline",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B174"
+        }
       }
     },
     {
@@ -7339,7 +8031,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "An introduction to what is actually tantra and how do you actually practice it.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B175"
+        }
       }
     },
     {
@@ -7379,7 +8075,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Stuck in a conflict? Meet the CRT any day. We don’t take sides or decide for you. We’re here to listen, offer mediation tools, and help find ways to coexist. Stop by to chat, learn, or get support! Conflicts should be solved between those involved, but if that isn’t possible, you can turn to us!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B176"
+        }
       }
     },
     {
@@ -7424,7 +8124,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "One never has anything to do with another person without holding something of that person's life in ones hands. If meditation is an art of being Circling is an art of being-with Come explore who you are in the meeting with others and the incredible richness of human connection in all its flavours.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B177"
+        }
       }
     },
     {
@@ -7467,7 +8171,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Join us for a session connecting to our inherently ecological nature. Taking time to slow down, connect to the living beings that we share this space with, and ground in practices to open up to a reciprocity and gratitude for this wonderfully interconnected, embodied and magical world.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B178"
+        }
       }
     },
     {
@@ -7511,7 +8219,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come and take some breaths together with other women. Relax, just be and drink a calming cup of cacao with us. Remember to bring your own cup. See you.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B179"
+        }
       }
     },
     {
@@ -7552,7 +8264,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "You may have physically arrived at Borderland, but maybe lost some presence along the way? The Blue Detectives are looking for it. Come discover it together through grounding practices, breath, somatic movement and dance. Watch out for hidden presence along the way.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B180"
+        }
       }
     },
     {
@@ -7593,7 +8309,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Decorate yourself, your friends and maybe the person next to you with temporary, metallic tattoos! Get the face tattoo you always wanted! If tattoos are left-over at the end, we will make a small DIY station in our Beduin tent.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B181"
+        }
       }
     },
     {
@@ -7634,7 +8354,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Explore touch, embodied presence, & body awareness through guided partner bodywork exercises. Using relaxation, pressure, & movement. The workshop emphasises embodiment, active listening, and intuitive movement, in a consent aware container. Bring towel, sarong & oil if interested in using oil.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B182"
+        }
       }
     },
     {
@@ -7678,7 +8402,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Lets create jewellery out of old vinyl records so you can wear your chosen track on your body the whole week!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B183"
+        }
       }
     },
     {
@@ -7723,7 +8451,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Cleanse your tarnished palette with irresistible flavors, and join us in a dark tasting ritual; a rite of passage for anyone calling themselves a zealot of the true black gold. It will be sweet, it will be salty, it will be gluttonous, and it will be sacrilegious. Welcome, to the cult of liquorice!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B184"
+        }
       }
     },
     {
@@ -7760,7 +8492,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come get your own little tempeh \"egg\" that you will incubate using your own body! We'll fit you with your own little pet that you need to keep close in order for it to mature into beautiful (and edible) tempeh. Come back Thursday at 19:00 and get it cooked (or cook it yourself).",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B185"
+        }
       }
     },
     {
@@ -7801,7 +8537,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "An exploration of breath and presence through gentle touch. In this workshop, we use simple breathing exercises and light touch to guide you toward a calmer, more grounded state of being. You can bring a partner or find one on the spot.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B186"
+        }
       }
     },
     {
@@ -7835,7 +8575,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Ask Your Father Anything. Pull up a chair and have the conversation you never had. Ask for advice, comfort, approval, understanding, or answers. Rage, laugh, cry, or sit in silence. For a moment, You will be met, listened to and if you want, answered.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B187"
+        }
       }
     },
     {
@@ -7878,7 +8622,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A Contact Improv jam gets a live soundtrack… and the soundtrack starts flirting back? Dancers: come move, connect, counterbalance, and tune your body into the room and each other. Musicians: come improvise, follow the dancers, tease the dancers, be led by the dancers, and occasionally narrate someone’s most tender floor duet with a suspiciously emotional tuba. Beginners, experienced movers, musicians and curious witnesses all welcome!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B188"
+        }
       }
     },
     {
@@ -7917,7 +8665,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Master the magical art of doing nothing! No goals, no to-dos just you, a comfy spot, and sweet, glorious idleness. Hug a tree, wiggle your toes, daydream wildly. It’s fun, it’s freeing, it’s fabulously unproductive. Permission to laze: granted!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B189"
+        }
       }
     },
     {
@@ -7960,7 +8712,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Nothing is off limits. Love, death, aliens, your ex, the meaning of life - grab a mic, ask a question, or just listen as strangers and new friends dive into the questions that matters the most.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B190"
+        }
       }
     },
     {
@@ -8003,7 +8759,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Introduction to the 5 principles of authentic relating. The moving on with some circling and practicing connection",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B191"
+        }
       }
     },
     {
@@ -8046,7 +8806,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Join a breakfast for champions: breakfast food will be served together with a side of sparks: new friends, maybe even a future partner and top shelf questions to ask each other.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B192"
+        }
       }
     },
     {
@@ -8087,7 +8851,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Tell me who, in your eyes, deserves a toast. Is it your mom? The ants by the third tree on the left? Paris Hilton? Because you're thinking gratefully about other beings, you get a fresh, delicious piece of toast from me. :)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B193"
+        }
       }
     },
     {
@@ -8130,7 +8898,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A quiet moment to arrive. Through traditional breathwork and meditation practices, we'll slow down, become present, and gently settle into ourselves before stepping into the day. Open to all. Bring something comfortable to sit on, and let your breath do the rest.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B194"
+        }
       }
     },
     {
@@ -8170,7 +8942,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Make brushing your teeth a fun and absurd way of getting to know new people and new toothpastes! We take you to a trip around the world's most exquisite toothpastes. BYOT (Bring your own toothbrush -and pimp it at our craft booth!-) No toothbrush ? Pass by for a shot of mouthwash you stinky hippie ! Fun toothpastes ? Bring them all !",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B195"
+        }
       }
     },
     {
@@ -8215,7 +8991,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Melt into the soft hours with a slow, juicy yin yoga practice for femmes loving femmes (butches & nb folks included). Long-held poses, deep breath, gentle touch, come home to your body by the water. All levels, all bodies. Daily at 11, bring yourself, leave puddly 🐸",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B196"
+        }
       }
     },
     {
@@ -8259,7 +9039,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "This will be a workshop where we speak about depression, our experiences with it and I personally share my story of how i got better, which included running outdoors as a big factor. Therefore, after sharing and talking about it, everyone that wants can join for a short run together to maybe help in your healing jounrey as well. This is obviously optional but encouraged and the running will be done at a comfortable pace for everyone wanting to join!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B197"
+        }
       }
     },
     {
@@ -8304,7 +9088,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Before there were stages, there were circles. Join us in an ancient practice of listening, sharing and witnessing. Together we cultivate presence, trust and the quiet wisdom that only a circle can reveal.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B198"
+        }
       }
     },
     {
@@ -8345,7 +9133,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Lecture based on book \"Sex at Dawn\". 45min talk, then time for discussion. Topics include: (non)monogamy in perspective to human desires for touch and connection. Why are penises mushroom shaped? Why do we moan during sex? Why is our \"sex to fertilisation\" ratio so high? Come and find out :)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B199"
+        }
       }
     },
     {
@@ -8369,7 +9161,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "All jewellery: $Free.99 I bring jewellery from all over the world to this magical little pop-up! Come pick the piece(s) that speak to you and leave a kind word for the next person. Walk off with your new jewellery and a mystery note from the person before you.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B200"
+        }
       }
     },
     {
@@ -8407,7 +9203,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "In this hands-on workshop we'll deal with the question \"What to do if I encounter someone who's having a hard time due to drugs?\". Especially if there's no sanctuary nearby. We'll cover some topics like \"common drugs and their effect\", \"finding an unconscious person\", \"dealing with spiking\", and \"when to call 911\". The goal ist to get you to take appropriate actions when your fellow hippy has overdosed.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B201"
+        }
       }
     },
     {
@@ -8451,7 +9251,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Is your kid dreaming of being the star of the show? Now's their chance! They'll step into the spotlight, push buttons, and drop beats live - while you cheer and dance like their biggest and proudest fan. No experience needed, just curiosity and courage! Tolerant non-parents are welcome too.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B202"
+        }
       }
     },
     {
@@ -8495,7 +9299,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Gentle Bodywork Session open for booking - see the cardboard sign. It involves touch or energetic touch, deep listening to the body, regulating the nervous system to homoestasis",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B203"
+        }
       }
     },
     {
@@ -8538,7 +9346,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Close your eyes, lay down, hug a stuffed animal and listen to fary tales told in swedish and english. It´s ok to fall asleep.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B204"
+        }
       }
     },
     {
@@ -8572,7 +9384,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Secret porn star? Camera-phobic? Somewhere in between? Come explore what alters when a camera quietly witnesses you. Bring yourself, a partner, a throuple, a fantasy, a costume, an aesthetic, a secret spot—or just curiosity. Together we'll play with presence, performance, and the strange magic that happens when someone presses record. All footage © will be yours, it can be deleted right after or become a sexy cinematic 4k edit to enjoy later.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B205"
+        }
       }
     },
     {
@@ -8616,7 +9432,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Have you ever wanted SWOLE muscles? Of course you have. But have you ever wanted a JACKED BRAIN?! This event is mostly for those who have limited experience with meditation, especially those who feel that meditation is not for them, because their mind wanders too much. Although everyone is welcome, even those who have an absolutely SHREDDED mind.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B206"
+        }
       }
     },
     {
@@ -8660,7 +9480,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Light and sound become your portal to altered states. Close your eyes and let the lamp guide you into colorful visions, deep relaxation, and expanded awareness — no substances, just your own mind. Come open and curious. Note: Not suitable if pregnant, under 18, with epilepsy, psychiatric/neurological conditions, photosensitive medication, or psychoactive substances in the last 24h.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B207"
+        }
       }
     },
     {
@@ -8703,7 +9527,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Playful and sensual rope workshop. Both for curious beginners and more experienced practitioners. We will help the person who is tied to let go of control. We do this by having solid good knots that don’t slip around and by having a playful and present vibe.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B208"
+        }
       }
     },
     {
@@ -8740,7 +9568,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Enjoy chai, coffee, and cookies that taste like care, baked with love, served with presence and compassion. (There is a good chance that we will also serve coffee, etc outside our listed hours <3)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B209"
+        }
       }
     },
     {
@@ -8781,7 +9613,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Before the gym, before the chair you moved like an animal. This workshop takes you back there. Crawl like an ape, leap like a frog, stalk like a cat. Get on the floor, stretch, crawl and play with fellow creatures. Connect to the intelligence living within you. Remember the fun to be on all fours.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B210"
+        }
       }
     },
     {
@@ -8822,7 +9658,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come by and record your stories, secrets, poems, dreams, jokes or anything else you'd like to share. The only rule is that you have to whisper. Your recording will be played later in the week at the Whispering Forest, a sound installation placed deep in the woods.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B211"
+        }
       }
     },
     {
@@ -8866,7 +9706,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The borderland barber returns for the third year in a row to pimp up some hippy hair. Come to me and I’ll get you feeling beautiful and refreshed! As I am a barber I will be mainly focussing on shorter haircuts but feel free to pop by and have a chat if you do have longer hair in need of a trim and I’ll see what I can do! All genders, hair types and people welcome! Come see me and have your burner haircut sorted !",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B212"
+        }
       }
     },
     {
@@ -8911,7 +9755,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "From deep-sea spirits to shimmering forest fairies, we’re dreaming of a Borderland filled with the most fabulous headpieces imaginable! Join our workshop and craft your very own magical creation.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B213"
+        }
       }
     },
     {
@@ -8955,7 +9803,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Join Bogsy the Magnificent as he shares his most favourite playlist of all the classic Raffi kids songs!! Who's Raffi? Come find out and maybe even sing along. Specifically great for Toddlers but everyone is welcome! :)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B214"
+        }
       }
     },
     {
@@ -9002,7 +9854,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Throat singing has had a renaissance in recent years through different spiritual, shamanistic and metal bands. Come and join us at Lucifer’s Pit and learn some of the techniques where two passionate vocalizers will do their best to help you reach your first resonance point. Don’t be (too) scared!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B215"
+        }
       }
     },
     {
@@ -9045,7 +9901,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Hatha and yin in one. Come back to your heart.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B216"
+        }
       }
     },
     {
@@ -9089,7 +9949,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to Bass Yoga — a yoga class where deep bass frequencies are just as important as the poses. We move through simple, accessible asanas immersed in powerful bass-driven music you won't just hear — you'll feel it throughout your body. Let the vibrations guide your breath and connect you to the present. Seasoned yogi or complete beginner, come tune into the rhythm and discover a new way to flow.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B217"
+        }
       }
     },
     {
@@ -9129,7 +9993,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to the best art class you will ever attend! In this class we will start by (un)covering \"Nude Drawing 101\". Class will then move on to the advanced course \"Nude Drawing of people having sex 102\". No skills needed, just show up and get your artistic juices flowing!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B218"
+        }
       }
     },
     {
@@ -9172,7 +10040,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Do you have a life question, a dilemma, or a utterly ridiculous problem, that you wish to bring before the Sultan & their court? Bring your quaere - and your reverence - before the Sultan!👑",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B219"
+        }
       }
     },
     {
@@ -9213,7 +10085,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Reclaim your true essence of love, light, and wholeness. Through intense circular breathing, we release what no longer serves us to remember a profound truth: everything you seek is already within you. Come breathe, let go, and return home to yourself.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B220"
+        }
       }
     },
     {
@@ -9256,7 +10132,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We talk and share about Leadership experience, how to step into these roles (inside & outside the burner community) and how it's rooted in being present - everyone welcome with or without experience",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B221"
+        }
       }
     },
     {
@@ -9288,7 +10168,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Join a circle for fathers to explore parenting, masculinity, family, and life in an open and supportive space. Through honest sharing and deep listening, we create connection, reflection, and community.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B222"
+        }
       }
     },
     {
@@ -9332,7 +10216,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come for a grounding journey in space and time - with the aid of a steady drumbeat from one or several sami inspired shamanic drums. This event is suitable for experienced and non-experienced travellers. Bring only yourself and your intention!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B223"
+        }
       }
     },
     {
@@ -9376,7 +10264,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A guided heart-expansion journey through breath, subtle energy and embodied presence. A space for release, softness and inner awakening. All levels welcome.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B224"
+        }
       }
     },
     {
@@ -9415,7 +10307,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Roaming and ready to help with your drug-harm reduction questions, cigarette rolling assistance if you're too cooked, and equipped with bits and bobs which help people who choose to use drugs do so in a safer and more considered manner. He may be wearing a black T with \"Professor Paraphernalia\" printed on it, or not. Approach and be helped! Or be referred to DanceSafe who are probably going to do a better job x",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B225"
+        }
       }
     },
     {
@@ -9455,7 +10351,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Got lint? Put your hairy bellybutton to work and donate that gloriously useless fluff to something even more useless. Stuff it in our Collection Jar and receive a Certificate of Donorship. Enough fluff = possible hamster sweater. Do your part for recycling. Multiple donations accepted.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B226"
+        }
       }
     },
     {
@@ -9498,7 +10398,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Feeling ashamed about our bodies, being filled disgust, self- judgement and comparisons... These are very common experiences. And being on the playa with gorgeous people everywhere, it's easy to feel ugly and alone. This workshop aims to provide space to profoundly challenge this shame and confront your fears. In a safe, respectful and consent-aware space, take of your clothes in front of a crowd and talk honestly about how you feel about your body. Emotional support afterwards is available and confidentiality will be emphasised",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B227"
+        }
       }
     },
     {
@@ -9544,7 +10448,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "HERB MOUNTAIN EXCLUSIVE! Step into di riddim vortex as Raggamuffin and Bomboclaat blaze di decks! From dubby basslines to skanking madness, dem selectors make bundas whine, spirits fly, and time gets tipsy. Irie vibes only.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B228"
+        }
       }
     },
     {
@@ -9588,7 +10496,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Create and design your own silver jewelry in a cosmic workshop. No experience needed, just curiosity and a touch of magic ✨",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B229"
+        }
       }
     },
     {
@@ -9632,7 +10544,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come by any time in the designated time slot and make yourself or a friend a string of feathers to put in your hair. Feathers and tools provided. Good event for creativity and for meeting fellow borderlings.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B230"
+        }
       }
     },
     {
@@ -9673,7 +10589,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "What's your wildest BL longing? Meet the love of your life? Eye-gaze with a cat? Float on pink clouds? Come cheat Miss Reality: we circle up, you share a BL-wish, and we conjure it through roleplay & collective imagination. No acting skills — just curiosity. Not a nudity/sex-positive space; all desires welcome, fully clothed.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B231"
+        }
       }
     },
     {
@@ -9710,7 +10630,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Sigil & Tattoo workshop Join us in creating a personal sigil from a word, intention, or desire. Through a simple ritual of letters and shapes, language dissolves into symbol—a mark that belongs only to you. Take your sigil home on paper, or choose to have it tattooed as a permanent reminder of this moment, this place, and whatever called you here. Every mark tells a story. Perhaps it’s time to write yours.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B232"
+        }
       }
     },
     {
@@ -9754,7 +10678,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "It’s always tea o’clock in Morocco, and it’s always tea-time in wonderland. And so, if you subtract the two, it’s tea time at exactly 13:00-15:00 on Tuesday and Thursday at Alice in Morocco. Come sit at the table for some strange stories, tricky riddles AND traditional Moroccan mint tea - there’s plenty of room, said Alice. And remember, while you can never have less tea, you can always have more;)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B233"
+        }
       }
     },
     {
@@ -9800,7 +10728,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Life Force Activation. Activate your kundalini/orgasmic life force energy in this practice. A safe space for you to explore your true self and expand your consciousness.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B234"
+        }
       }
     },
     {
@@ -9841,7 +10773,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Pretzel is here! Learn the legendary cuddle/hangout technique that lets two humans lean back comfortably while still facing each other — no chairs or props needed. We’ll even attempt the first-ever Infinite Pretzel. Bring a partner or meet one there. Fully clothed. Get ready to Pretzel!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B235"
+        }
       }
     },
     {
@@ -9885,7 +10821,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Some words are more powerful than others, some have a different frequency. Sometimes we say sorry where sorry is not actually needed. Come to share and talk about meanings behind words and how we experience them in our conversations.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B236"
+        }
       }
     },
     {
@@ -9926,7 +10866,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Embark on a feline-inspired adventure across the playa, where every player embodies a good, a bad or a cudly cat through 15 different quirky, interactive, kitty missions. Explore hidden corners, charm strangers in playful mischief, cuddle on warm laps and get kitty treats when you succeed in completing your quest. Love cats? You will love these quests!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B237"
+        }
       }
     },
     {
@@ -9969,7 +10913,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Discover the foundations of house dance in a fun, welcoming session open to everyone - no experience needed. We’ll explore the core grooves, rhythms, footwork, and freestyle elements that make house dance so expressive and joyful. Come move, connect with the music, and experience the energy and culture behind one of the world’s most vibrant street dance styles.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B238"
+        }
       }
     },
     {
@@ -10013,7 +10961,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Who is it for, and what do you really want? A playful approach to the Wheel of Consent (Betty Martin), exploring Giving, Receiving, Taking and Allowing through animal archetypes. We move beyond basic consent exercises to embody how to ask for what you want and play with integrity. A fun introduction — come stretch those consent muscles as a warmup for steamy nights at Borderland!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B239"
+        }
       }
     },
     {
@@ -10056,7 +11008,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Do you know the feeling of wanting to give up? Learn how to repress your feelings and keep on going in this highly paced workout where the social stigma of giving up is the main driver for continuing. (All levels are welcome. It’ll be fun.)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B240"
+        }
       }
     },
     {
@@ -10100,7 +11056,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come and draw quick life model drawings in the spirit of love Send gentle thoughts to the model while you draw. Admire different ways to be beautiful. Or come to pose as a model: nude, dressed or something in between, alone or as a couple. No need to know how to draw. Materials will be given on spot.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B241"
+        }
       }
     },
     {
@@ -10142,7 +11102,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A workshop about learning to touch another human being. We build deep safety first, then explore: listening with the whole body, sensing whether a body is open or closed, meeting it where it is. Softness, pressure, strength, stillness — whole body, not just hands. Inspired by contact improv, jujitsu, tantric touch & craniosacral therapy. 3 hours. Come as a couple, or be paired on the day.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B242"
+        }
       }
     },
     {
@@ -10185,7 +11149,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "You have sinned. It's ok. Unburden yourself from this weight and dump it all on an anonymous stranger that will host you. The one place where you, in full confidentiality, can admit your worst, release its grip over you and learn to live free. Offer your sins and a white rabbit might appear.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B243"
+        }
       }
     },
     {
@@ -10230,7 +11198,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Play wonderland croquet. Hit a ball through small gates where the rules may change when least expected. Flamingos may not be included. If you bring a stick, we have balls.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B244"
+        }
       }
     },
     {
@@ -10269,7 +11241,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Ready for an appointment with your transformation? Transformation Office meets you with questions, not answers. Through conversation you receive a personal task — small, strange, a doorway to try something different. Hosted by Finnish wisdom curators. Coffee provided. Walk-ins welcome.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B245"
+        }
       }
     },
     {
@@ -10312,7 +11288,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "In this drop-in workshop you can decorate a cute little box for yourself to store small things like jewellery, candy, or little toys.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B246"
+        }
       }
     },
     {
@@ -10353,7 +11333,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come shake it to Brazilian samba, strong coffee & caipirinhas made with love! Dr. Phil (Cafe Caminhos Abertos) brings classic percussion-heavy carnival vibes + live musicians. Bring instruments, colourful clothes & all the Portuguese you've got!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B247"
+        }
       }
     },
     {
@@ -10396,7 +11380,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Fasten your seatbelts for Pinky’s Tuesday Take-Off 🛫. Festa Brasileira and Dr. Phil open with Brazilian samba, caipirinhas & coffee. Stick around for cocktails and our high-flying lineup to find your cruising altitude 💕🪂 Ken Kuusk, DAAS-WEDER, and Reelo serve: Italo, House, Breaks, and more.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B248"
+        }
       }
     },
     {
@@ -10441,7 +11429,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "One never has anything to do with another person without holding something of that person's life in ones hands. If meditation is an art of being Circling is an art of being-with Come explore who you are in the meeting with others and the incredible richness of human connection in all its flavours.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B249"
+        }
       }
     },
     {
@@ -10480,7 +11472,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Follow the scent to the Low Lands, just south of Snack Plaza, where crispy delights, surprise twists, and loungey vibes await. We flip with flair, serve with love, and welcome all dusty dreamers. We're just a smell away.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B250"
+        }
       }
     },
     {
@@ -10522,7 +11518,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Gather round, ye curious souls, for the noble art of chainmail awaits. We’ll weave ring through ring into something you can actually wear out on the Playa. Part craft, part witchcraft, and as equally addictive as it is fiddly. No skill required, just bring thy fingers and a sense of adventure. I’ll teach thee the basic weave, and thou shalt wander off with a wee shiny treasure of thine own making, ready to catch the dust and the light.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B251"
+        }
       }
     },
     {
@@ -10563,7 +11563,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come learn and practice NVC with us! NVC is a life-affirming way to connect with others and with yourself, useful in relationships of all kinds and even in the trickiest conflicts. We'll try to start on time, right at 11. Come as you are; no experience necessary.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B252"
+        }
       }
     },
     {
@@ -10604,7 +11608,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "This lecture/conversation explores the potential and pitfalls of psychedelics as medicines, and the limitations of the medical model of mental health. I contrast the effects of psychedelics with traditional psychiatry and psychopharmacology, and argue that psychedelics both require and suggest a dramatically different orientation in what psychological healing is and how it comes to be.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B253"
+        }
       }
     },
     {
@@ -10649,7 +11657,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The lodge purifies what you're ready to release, teaches what you carry, and opens the door to the spirits. Four rounds of prayer in the hot, dark womb of the earth, thick with the smoke of sacred herbs. By fire and stone, by wind and steam.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B254"
+        }
       }
     },
     {
@@ -10695,7 +11707,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Want to make a small ring or an artsy creation? This workshop will be a collaboration of your own imagination and the metal. I will give a small introduction of blacksmithing, then guide you in the process. Iron, copper and brass will be available for you to turn into the art you fancy.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B255"
+        }
       }
     },
     {
@@ -10736,7 +11752,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Move out of your head and into your imagination. Using actor/director Michael Chekhov's techniques of psychological gesture, imaginary body, atmosphere, radiating, we'll unlock creativity through the body, together. Radical self-expression, no experience needed. Bring water and a willingness to move.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B256"
+        }
       }
     },
     {
@@ -10781,7 +11801,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Somewhere under your skin live characters with specific demands. Time to introduce yourselves, and see how they want to play with others. Meet the ones who whisper, the ones who roar, and the one who's mostly just dramatic, and find out what they actually want.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B257"
+        }
       }
     },
     {
@@ -10824,7 +11848,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Lay down, relax, and follow a sound journey of beauty and calm. Singing, guitar, flute and nature sounds will reflect on healing, love and your inner child. We meet up at the jomo tent of camp „Shimmmering by the forest edge“, get a yoga mat and walk deep into the forest. Bring a yoga mat if possible.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B258"
+        }
       }
     },
     {
@@ -10869,7 +11897,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Want an easy, low-pressure way to invite someone for a kiss, fully up to the other person? Get a small consent tool, a playful burner practice from Germany, in 10 minutes. The Bureau provides. Grab a stack for your camp. What is it? Come find out. No kissing onsite involved!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B259"
+        }
       }
     },
     {
@@ -10912,7 +11944,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Bring an old T-shirt, tote bag, or any piece of fabric you'd like to give a new life to! Using borderland stencils, you'll be able to print your own design onto your clothing and create a unique keepsake from the event! No garment to customize? No problem! Fabric will also be available on site so you can create your own patch to sew onto your favorite clothes later.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B260"
+        }
       }
     },
     {
@@ -10956,7 +11992,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Slip into the role of an undercover gifter! In this hands-on group workshop you'll learn to discreetly place small gifts on people — without them noticing — through three stages of reverse pick-pocketing, distraction techniques and body movement. Expect pair practice, lots of laughter, and sharpened awareness. Wear something with wide or accessible pockets (jacket, hoodie, cargo pants). No experience needed — just curiosity, playfulness and respect.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B261"
+        }
       }
     },
     {
@@ -10998,7 +12038,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A clownish experiment in non-hierarchical politics. Everyone submits a statement, we debate them one by one, then attempt to turn the chaos into a manifesto. Afterwards, we email it to politicians. Serious experiment, very silly mood.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B262"
+        }
       }
     },
     {
@@ -11042,7 +12086,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to a wild & fun vocal workshop that will make you laugh, play and relax. It will be all impro, exploring the connection between body & sound, bodylanguage & movement. Held by Kenia (Drama & artteacher, singer/songwriter)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B263"
+        }
       }
     },
     {
@@ -11086,7 +12134,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Together we embark on a 2-4 hour guided sound journey beyond maps and reason. This is an inner journey, lie down, eyes closed, allow yourself to wander inwards. Our MC has curated a musical experience that will spark imagination and inner visuals. We aim to start with an intro at 14.00 and wont be able to welcome you if you arrive after we have embarked.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B264"
+        }
       }
     },
     {
@@ -11127,7 +12179,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "This is an event where guys who aren't comfortable with dancing get to practise some basic moves to use for the rest of Borderland. To make this a SAFE SPACE, it's a MEN-ONLY EVENT. Come here, let yourself look uncool, and then conquer the dancefloor later this evening.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B265"
+        }
       }
     },
     {
@@ -11166,7 +12222,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A daytime, lakeside, golden hour sound camp where we engineer atmosphere in real time and cater for some refreshing electrolyte drinks. Carefully tuned for a warm, physical, high-fidelity dancefloor. Music matched to the moment, as the Swedish summer sunset slowly approaches over the beautiful waters.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B266"
+        }
       }
     },
     {
@@ -11212,7 +12272,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "This event goes out to all our Borderlings of every age, particularly the next gen, offering them a party event catered to them at the burn. There will be G rated treats and refreshments, and DJ Captain Elsa and M.O.M. will be providing a playlist that hopefully the whole family can get behind. A collab with Kidsville, this event will be held at the Kidsville Dome.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B267"
+        }
       }
     },
     {
@@ -11254,7 +12318,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A cozy workshop for making your own shiny LED accessories. Inspired by the amazing light creations people wear on the playa? Come to Shiny Workshop! We bring lights, tools, and inspiration, to help you make your brightest and shiniest outfit. Bring your own accessory or garment to decorate.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B268"
+        }
       }
     },
     {
@@ -11295,7 +12363,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "An introductory workshop for spinning Poi. We'll practice the fundamentals of playing with your balls. There will be a few practice poi on the workshop area, but please bring your own if you have some.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B269"
+        }
       }
     },
     {
@@ -11336,7 +12408,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to our garden for a day filled with music, performances, games, chill, meet ups and lots of silly sausages! We fire up the BBQ and invite you all into our magical world.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B270"
+        }
       }
     },
     {
@@ -11381,7 +12457,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Embodiment workshop where we explore with our bodies through touch and movement.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B271"
+        }
       }
     },
     {
@@ -11425,7 +12505,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "ELECTRONIC JAM Bring your machines and Jam with us. Synths, wierd boxes, phones/computers ? MIDI connection prvided, Curated by a very funny guy! (Stephan the sweet swede)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B272"
+        }
       }
     },
     {
@@ -11470,7 +12554,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "No faces. No filters. No idea what you’re walking into. Some connections you see coming. This isn’t one of them.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B273"
+        }
       }
     },
     {
@@ -11513,7 +12601,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Join to make your very own harness.Draw the perfect lines over your sultry body with leather. Pre-cut pieces of leather, no experience needed.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B274"
+        }
       }
     },
     {
@@ -11556,7 +12648,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come relax while our crepe wizard whips up Breton delights with homemade salted butter caramel & apple jam. Veggie-friendly, not vegan nor gluten-free. Bring a plate and forks, just roll, bite, smile, repeat!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B275"
+        }
       }
     },
     {
@@ -11601,7 +12697,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Pimped armpits at Lucifer's Pit! Bleach, dye, trim, shave, or wax and get a henna tattoo of pentagrams. Possibility for suspension! Explore how satanism can be fun while giving your armpits a new look!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B276"
+        }
       }
     },
     {
@@ -11647,7 +12747,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "> Explore biting as a love language of the body. Sexual or not, kinky or not, but always intimate. > Experiment with techniques around the surprising variety of bites. Learn what kinds of bites you like to give and to receive. > Come with a clean body, with a partner or find one there. Clothes stay on.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B277"
+        }
       }
     },
     {
@@ -11688,7 +12792,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Ready to get slutty? Borderland's favorite pole, strip tease, and erotic dance competition is back. Whether you're competing for the crown of Slut Supreme or cheering from the sidelines, expect outrageous performances, roaring applause, and plenty of glitter, glamour, and glorious chaos. Interested in competing? We'd love to have you! Reach out to @ruby.xo, @dominika0198, or @erindepew on Discord to sign up if space allows.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B278"
+        }
       }
     },
     {
@@ -11729,7 +12837,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Do you have a certain dark, physical desire? Does it spell LATEX? Heck yes - we've got an event for you! Dress up or down in your finest black, and join us at Rest & Revelry for a swaggering tour around the playa. Let's strut our stuff, let's show others how to be spankalicious and sparkling in black. What, where, and how it ends? Come find out....",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B279"
+        }
       }
     },
     {
@@ -11774,7 +12886,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Feeling curious about letting others consensually and actively watch you be intimate? We’ll set the stage! In this workshop (after some warmup and boundry talk) we’ll take turns being in the middle while being watched by the rest of the group. Come with a partner or a group to touch/make out/be sensual with. No full nudity, to keep it more inclusive for beginners, no experience needed.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B280"
+        }
       }
     },
     {
@@ -11818,7 +12934,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Experience Argentine tango – an intimate dialogue through movement, connection, and music. Together we explore the fundamentals of this beautiful dance, guided by the timeless sounds of traditional tango. As this recurring event unfolds, each session will build naturally on the last, allowing us to gradually deepen our understanding and expression.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B281"
+        }
       }
     },
     {
@@ -11859,7 +12979,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come and dance tango together! Learn the basics, grab a partner and feel the heat!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B282"
+        }
       }
     },
     {
@@ -11902,7 +13026,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A spontaneous, low-pressure creative space where everyone is invited to paint together while Latin music fills the air. There are no instructors, no themes, and no expectations! Just brushes, colors, rhythms, and people creating side by side.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B283"
+        }
       }
     },
     {
@@ -11945,7 +13073,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Toki Pona is a minimalist language that explores simplicity, communication, and new ways of thinking. Whether you're fluent, learning, or curious, come chat, ask questions, share knowledge, or simply listen and hang out. I'd love to meet new people and share this pona language with! o kama musi toki!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B284"
+        }
       }
     },
     {
@@ -11990,7 +13122,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Your body has been waiting for this workshop. Tantric Primal Play is about contact, play, and presence. A place for your inner animal to take the scene. On all fours we meet, in real freedom, real vulnerability, embodied safety and consensual fun.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B285"
+        }
       }
     },
     {
@@ -12027,7 +13163,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Sunny popping mango boba tea, served with mellow groovy music. bring your own cup. We provide the straws.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B286"
+        }
       }
     },
     {
@@ -12071,7 +13211,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A workshop and performance space exploring erotic storytelling, playful roleplay and spontaneous physical comedy through the liberating lens of improv theatre. No rehearsals, no shame, no bad ideas (only offers). Classic improv exercises — with a raunchy twist. You don't need to be sexy, just show up, say yes, and make a fool of yourself magnificently. Dress (or undress!) in a way that brings out your sexiest you.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B287"
+        }
       }
     },
     {
@@ -12110,7 +13254,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "SALT ROCK CITY is here to provide for all your salty needs! Today we invite you to find whatever voodoo your salty soul requires. Non-salty demons are also welcome. Expect a journey through our unique salt tasting experience, experimental snacking, refreshing electro-mock/cocktails and much more!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B288"
+        }
       }
     },
     {
@@ -12154,7 +13302,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Where touch meets curiosity. What if a foot massage could become a conversation without words? Working in pairs, you'll be guided through playful invitations that transform a simple foot massage into an unexpected journey of connection — conscious touch, playful philosophical prompts, and a nine-step reflection journey that may inspire new perspectives on your path. Not about technique or sensuality — about attention. No experience needed; every exercise is optional and based on enthusiastic consent. Bring a small towel and your own massage oil if you like. Come with clean feet, an open mind and a willingness to be surprised.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B289"
+        }
       }
     },
     {
@@ -12198,7 +13350,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Connection begins before the first step. In this workshop, we explore partner dance through body awareness and shared breath. You’ll learn how intention shapes motion—where leading invites and following responds. You’ll cover Bachata Sensual and a simple flowing figure to apply them. Open to beginners and experienced dancers alike, it’s a playful, grounded space to deepen connection and enjoy movement that feels as good as it looks.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B290"
+        }
       }
     },
     {
@@ -12243,7 +13399,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "How intimately do you know your body? Do you even know what your butthole looks like? Do you yearn for a way to parade it around the festival and all social settings? YES! We will help you create a mold of your butthole and then turn it into a necklace pendant. Get familiar with your other opening!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B291"
+        }
       }
     },
     {
@@ -12283,7 +13443,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A HYROX-inspired workout will create new heated rivalries on the Playa. Come join us for exercise, fun, and cum-petition. Please arrive on time.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B292"
+        }
       }
     },
     {
@@ -12328,7 +13492,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Some women in our community see up to 80% of men as potential threats. That should stop you in your tracks. We are opening up a space for men to discuss and exchange the gap between “I’m a good guy” and how we actually show up — and leave with real tools, not guilt.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B293"
+        }
       }
     },
     {
@@ -12369,7 +13537,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Craft paper fortune tellers and dream catchers with the Sweet Spot! Coming to Borderland for the first time ever: ✨ Sweet Spot Crafting!✨ We are expanding our cozy vibes this year by offering a crafting space connected to our beloved pancake café. Come and craft paper fortune tellers (loppa!) and dream catchers with us!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B294"
+        }
       }
     },
     {
@@ -12413,7 +13585,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Find your love over pancakes. You'll be blindfolded and share one of BL's best meals with a to-be life-partner: no faces, no assumptions, just two people and pancakes. When the meal ends, you'll each be asked the same question: do you want to see them? If both say yes, the blindfolds come off and a new story begins. If not, you part as strangers. Clothed event.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B295"
+        }
       }
     },
     {
@@ -12452,7 +13628,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Tahini goddess herself invites you to this spectacular ceremony where we will open the BIG bucket. There will be Tahini songs, Tahini blessings, Tahini fika and so much Tahini. Please come and join the one true faith that is Tahini!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B296"
+        }
       }
     },
     {
@@ -12494,7 +13674,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "This is a creative session in which we practice surrendering control and allowing ourselves to drop into group consciousness. We start by grounding into our bodies and co-regulating our nervous systems to come into a state of flow. Through a playful and open dialogue, visualizations and embodied practices we then embark on a journey into the future.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B297"
+        }
       }
     },
     {
@@ -12537,7 +13721,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Ever wanted to battle Beige Becky who just does everything perfectly? Or Lars in his Lululemons? In groups we explore which yoga poses we can do, and then we battle each other on speed, finesse and style. NO EXPERIENCE WITH YOGA NEEDED. Come as you are. This is not serious yoga, and all are welcome!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B298"
+        }
       }
     },
     {
@@ -12574,7 +13762,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come and talk about the all year round community in Alversjö, the history and ideas for the future. What do we do here outside of Borderland and how does things work? Come ask your questions and find out how you can engage.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B299"
+        }
       }
     },
     {
@@ -12617,7 +13809,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A collaborative movement lab where we explore, invent, and prototype games for the climbing rig. Through playful warm-ups, creative prompts, and experimentation, we’ll discover what emerges—then finish with an open flow jam. Curiosity over perfection.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B300"
+        }
       }
     },
     {
@@ -12649,7 +13845,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Those that know the secrets of rolling, and those that seeks the knowledge of the Role. Those that are curious about the rituals aorund the Herbs and those that know the meaing of the hand gestures. Those that have sat in the circle and those that are seeking the circle. Those whom have been both passanger and conductors of the train.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B301"
+        }
       }
     },
     {
@@ -12690,7 +13890,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to The Herd! We dance in the afternoon calm (Tue-Thu, 14:30–17:30). Join the pack for daylight grooves, great company, and a refreshing cup of our home-brewed mango-lemon sour beer from The Pink Parasol Potion Bar! 🥭⛱️🔮",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B302"
+        }
       }
     },
     {
@@ -12731,7 +13935,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Bring your fabulous hat, tiny treasures you'd like to attach to it, fabric scraps, and all your sparkly bits, and come pimp your hat at Alice the Malice! Get ready for your burn and the Mad Hatter Tea Party on Thursday. ✨",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B303"
+        }
       }
     },
     {
@@ -12770,7 +13978,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Open meeting for adult children of alcoholic and dysfunctional families. (ACA). We do some reading and share about your own experience, strength, and hope. Everyone is welcome!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B304"
+        }
       }
     },
     {
@@ -12814,7 +14026,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Alchemising shame with the lightness of inhaled helium. No need to prepare in advance in any way, you and your shame are welcome as you are! Facilitated and space held by Tiia & Helena.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B305"
+        }
       }
     },
     {
@@ -12858,7 +14074,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Parents: your kid deserves better than a boring hula-hoop workshop. The Baby Badgers Youth Corps offers one afternoon of real military training: tactical face paint, spy craft, reconnaissance and obstacle course. They'll come home braver, stronger and ready to win in life. Limited spots. Go Badgers, go! #freedomdontcomefree",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B306"
+        }
       }
     },
     {
@@ -12902,7 +14122,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Undressing can be more than simply taking clothes off—it can become a playful, sensual, and connecting experience. In this workshop, you'll explore presence, anticipation, and curiosity through guided exercises that build confidence, deepen connection, and inspire new ways to begin intimacy.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B307"
+        }
       }
     },
     {
@@ -12943,7 +14167,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "For 20 minutes, we dance through 5 kinds of dance: ring dance, moving to couples', then solo, mosh pit, basic choreographed, and finally ring dance again. The tempo will be high and participants are not expected to have previous experience in any of the dances.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B308"
+        }
       }
     },
     {
@@ -12987,7 +14215,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Speed dating/speed connection: exciting and interesting questions to ask and answer, and food served! Part of our Sausage Social Party. 🌭",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B309"
+        }
       }
     },
     {
@@ -13032,7 +14264,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come for a speed interview for the highly competitive position as my future baby daddy. Dream candidate: Wants 1-2 kids in 3-4 years, vegan/veg, caring, present, emotionally mature, a lil weird, cat person. I'm 36, cute, bi/pan, non-monogamous, vegan, sober, creative, in CPH and I published a novel!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B310"
+        }
       }
     },
     {
@@ -13071,7 +14307,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Lay back, relax, and let your imagination fly, it’s cloud watching time! Spot dragons, donuts, dancing llamas. Who knows what floats by? Bring your wildest daydreams, and some chill vibes. No rules, no rush, just sky-gazing joy and fluffy fun above.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B311"
+        }
       }
     },
     {
@@ -13110,7 +14350,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Every piece of MOOP is looking for its destiny — bring yours! The lonely bottle cap, the mysterious plastic thing nobody can identify. Bring a piece of MOOP, ideally not bigger than your hand nor heavier than your soul. Together we'll transform forgotten leftovers into curious creatures and cosmic artifacts for a floating mobile. Weird, beautiful, silly, impossible — no skills required. Help bring the universe back into balance. Or at least make it wobble more interestingly.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B312"
+        }
       }
     },
     {
@@ -13156,7 +14400,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Queers of the Borderland unite. Let's meet each other over a delicious (vegan) soft serve ice-cream and connet. Because its nice to know who your rainbow siblings are! An easy mostly informal hangout with a name round, an opportunity to be joyously gay and to plot the Queer Take Over ;)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B313"
+        }
       }
     },
     {
@@ -13200,7 +14448,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A workshop focused on Hospice in the Anthropocene - how can we help each other cope with Solastalgia, the grief or emotional loss from living in a degraded or dying ecosystems and societies? The focus is a facilitaded self-help group to share thoughts and feelings from living through difficult times, and climate angst for the future and coping mechanism.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B314"
+        }
       }
     },
     {
@@ -13241,7 +14493,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Let's stick our neurons together to draft a bold and peaceful vision of an utopia we all would like to live in. We will split into groups to develop our AI cyberpunk utopia in different domains of life, from democracy, housing, community, security and (maybe) more. This is where creative thinkers are supposed to meet AI tech nerds 🤖✌️",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B315"
+        }
       }
     },
     {
@@ -13280,7 +14536,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come squeeze yourself a glass of orange juice - you never know where it might take you. 🍊",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B316"
+        }
       }
     },
     {
@@ -13323,7 +14583,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come as you are and leave as a woman more conscious of the stories you have been told around your body and your sensuality. Get a taste of what somatic therapy can do for you to be more in the body and to feel more of all the fullness life has to offer.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B317"
+        }
       }
     },
     {
@@ -13366,7 +14630,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come to the tipi to create your own Tree of Life dreakcatcher necklace and share thoughts along it !",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B318"
+        }
       }
     },
     {
@@ -13407,7 +14675,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Your body is a wonderful music instrument with a lot of untapped musical potential. We'll hear and learn notes, melodies, beats and sounds made by human bodies. Pretty sure at least some of them will be completely new to you. Depending on the group, we'll hopefully end up jamming and co-composing something unforgettable.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B319"
+        }
       }
     },
     {
@@ -13448,7 +14720,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Bring your stuck, unfinished, abandoned artistic and creative ideas - or come manifest new ones from scratch. A creativity lab with short prompts and simple experiments to loosen the brain and bypass the inner critic. sort of a writing workshop but not exactly!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B320"
+        }
       }
     },
     {
@@ -13489,7 +14765,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Have you got your dragonstaff spinning yet and want to explore further? Then this is the workshop for you! We will be exploring different pathways and tricks to enable greater flowplay with your dragonstaff. Prereqs: Chi-roll and Cheating death. Limited amount of staffs, please bring your own",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B321"
+        }
       }
     },
     {
@@ -13533,7 +14813,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "This workshop is for you who are joining Borderland with a partner, and could use some inspiration and skills on how to navigate a place like BL as a couple. You’ll be guided through some important questions to ask yourself and your partner – and hopefully become more clear on your needs and boundaries, so you can enjoy BL even more. All couples are welcome!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B322"
+        }
       }
     },
     {
@@ -13574,7 +14858,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Cowboy Joe and Bobbie Sue are back to play rock'n'roll classics live at everybody's favourite dive bar.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B323"
+        }
       }
     },
     {
@@ -13617,7 +14905,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "What if conflict could become connection, and mistakes innovation? Join a circle to share real stories, surface the tools that work, and name the challenges we're all facing. Includes an intro to Nonviolent Communication and a live practice round. Bring your experience — we're building this together.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B324"
+        }
       }
     },
     {
@@ -13661,7 +14953,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Do you have something with leopard print, tiger stripes, lion vibes, cheetah energy—or any other outfit that channels your inner magnificent feline? Then join! We'll gather, stretch our paws and then wander across the playa together as one majestic pride – it’s a moving party. Expect dramatic catwalks, playful roars and plenty of purring. Meow!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B325"
+        }
       }
     },
     {
@@ -13689,7 +14985,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Your personality has been working hard, and your first impression has expired. Before the mingling begins, soundwaves guide you through playful improv, music and absurd rituals until a stranger introduces you to someone you've never been before — a new profession, a questionable talent, an improbable past. Then meet beautiful beings who know only the version standing before them. No pressure or acting experience needed. Leave with a new story, or meet yourself by accident.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B326"
+        }
       }
     },
     {
@@ -13724,7 +15024,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "It's o k to make mistakes, but we are here to make it the right way",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B327"
+        }
       }
     },
     {
@@ -13765,7 +15069,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "People that have left a religious lifestyle can meet each other and share their experiences.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B328"
+        }
       }
     },
     {
@@ -13810,7 +15118,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to SIN Games! The daring competition where sinners face off in a gauntlet of seductive challenges, form alliances and gamble boldly to win rewards or suffer delicious punishments. Think Squid Game, but juicy, playful, and full of temptation. Show off your courage, strategy, and sinful skill.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B329"
+        }
       }
     },
     {
@@ -13851,7 +15163,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Workshop on the basics of Bugg. Bugg is a Swedish swing partner dance that is mostly danced to \"Dansband\" music, but can be danced to almost any 4/4 music",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B330"
+        }
       }
     },
     {
@@ -13892,7 +15208,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to the Saunacave! We're opening the doors and can't wait to sweat, reset, and share this space close to Mother Earth. Experience the heat and beautiful Aufguss sessions. Bring a towel (mandatory to sit on!), water bottle, and an open, peaceful mind. Afterwards, dip in the lake to cool down, then drift to the DOME and melt into the music. Check the daily schedule at camp for Aufguss and set times!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B331"
+        }
       }
     },
     {
@@ -13936,7 +15256,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Bury your sorrow (a quiet art installation) Give your chosen sorrow a visible form with a tiny amount of clay. How does it feel, how does it look? How long have you gone together? Then dig a nice little grave and bury your sorrow knowing that burying it is ok. Something new will grow from it.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B332"
+        }
       }
     },
     {
@@ -13981,7 +15305,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come, whoever or whatever you are, and share with us a cup of delicious Turkish coffee and a sweet baklava.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B333"
+        }
       }
     },
     {
@@ -14022,7 +15350,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Tired of disorganized jams? Do you want discipline? Do you want order? Then play when I tell you to play! (warning, may include straight men in leather outfits using riding-crops as conductor-stick)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B334"
+        }
       }
     },
     {
@@ -14062,7 +15394,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Relax in our lovely shade and listen to some of Njorunn's Garden's inhabitants read aloud from their favorite books. Monday: Lars reads from the Tao Te Ching, Tuesday: Teresa reads Who Will Comfort Toffle by Tove Jansson, first in English and after that (if there's interest) in the original Swedish. Thursday: Fellan reads from Braiding Sweetgrass by Robin Wall Kimmerer.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B335"
+        }
       }
     },
     {
@@ -14105,7 +15441,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Join us for a crafting workshop where you get to create your very own animal tail and become a real animal just in time for the great Kidsville Animal Parade 🦁🦊🐯",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B336"
+        }
       }
     },
     {
@@ -14144,7 +15484,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A corner of Paris in the woods — wine, peanuts, and the art of l’Apéro.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B337"
+        }
       }
     },
     {
@@ -14185,7 +15529,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Pair up, spin the cosmic wheel, and meet yourself in the gap between awe and deflation. One balloon gives you thirty seconds of what it is to be a Mystic — the other contains helium. You don't know which you'll get. The helium-getter takes the microphone and confesses: what disappointment are they processing now? Come solo or with a friend — leave transformed, or at least mystically bewildered.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B338"
+        }
       }
     },
     {
@@ -14231,7 +15579,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Do you also love kissing? Get lost in juicy kissing with many different mouths and lips. We will guide you in different exercises and then finish with a juicy & playful kissing orgy. Can it get better than this? Ps. You don’t have to kiss everyone, you can choose your level in each exercise. Please come fresh & without cold and cold sore. We will aim for balance between genders.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B339"
+        }
       }
     },
     {
@@ -14275,7 +15627,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome all gay, bi, curious, flexible etc. men to an exclusive, men only, speed dating session. We will provide some fruit, and other snacks, maybe even some tea and coffee. We will also provide some questions to kick off the convos. Bring your most gay, curious self.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B340"
+        }
       }
     },
     {
@@ -14314,7 +15670,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Care for a slice of Neapolitan-style margherita pizza while you are hanging out Socialen? This is the dream for filling your stomach and satisfying your taste buds while enjoying the vibes and activities of the Socialen.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B341"
+        }
       }
     },
     {
@@ -14353,7 +15713,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Turn up the dial! The ultimate tournament of simulated uterine suffering has arrived. We are hooking uterus-free contenders up to period cramp simulators to see who can handle the heat⚡🥊. Watch the chaos unfold as volunteers go head-to-head in a bracket of hilariously painful showdowns, whittling the field down until only one legendary survivor is crowned the Ultimate Crampion. Step up to the challenge, or just pull up a front-row seat for the spectacle🍿👀",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B342"
+        }
       }
     },
     {
@@ -14399,7 +15763,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A no-nonsense, practical and to-the-(g)point workshop teaching how to induce fountains - perhaps even orgasms. Bring a partner to stay the full workshop. At least one vagina.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B343"
+        }
       }
     },
     {
@@ -14440,7 +15808,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Sound as transmission. Lineage-based Buddhist Tantra scholar-practitioner Naina Eira and composer Robot Koch fuse non-dual tantric View with soundscapes. View, sound, integration- 90 minutes where self and sound dissolve into one field. Come and luxuriate in nondual awareness.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B344"
+        }
       }
     },
     {
@@ -14485,7 +15857,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Every day at 16:00 we rise from the Pond and parade to the lake, lesbian flag flying, for 2 hours of swimming, floating, splashing and sun. Beavers, nymphs & neighbours all welcome to join the procession. Come get wet with us 💦🏳️‍🌈 Meet at the Pond, follow the flag.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B345"
+        }
       }
     },
     {
@@ -14527,7 +15903,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "What happens when philosophy leaves the armchair? Two participants at a time will debate a philosophical question while receiving a relaxing massage. Is consciousness trapped inside the brain, or does thinking emerge from the whole body? We don't promise enlightenment, only an unusual experiment… and the most relaxed disagreement you'll ever have.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B346"
+        }
       }
     },
     {
@@ -14570,7 +15950,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The feeling of taking off sock a after a long day. oh boy, its amazing. Taking a woolen christmas sock off - even better. But, what if you were not in control of taking off the sock, and it went soooooooo slow. Lets play with the seemingly trivial action of edging off a sock. Come alone or bring a partner or a horse - and bring your favourite woolen socks.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B347"
+        }
       }
     },
     {
@@ -14613,7 +15997,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "What happens when fighting becomes a conversation rather than a competition? In this embodied partner workshop, we explore the meeting between power and surrender. Through guided exercises inspired by Brazilian jiu-jitsu, primal play and authentic relating.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B348"
+        }
       }
     },
     {
@@ -14654,7 +16042,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Why do we not burn treated wood? Why is eco-friendly soap and sunscreen important? Why can I not wear my pretty glitter? Peeing in the bush is fine, right? Learn from an ecotoxicologist how the products and chemicals we use at Borderland affect organisms in the environment.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B349"
+        }
       }
     },
     {
@@ -14697,7 +16089,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The bivalvetarian's loophole: technically animal, debatably sentient, definitely tasty. No brain, no pain, all gain — protein-packed tacos for the consciously unconscious. Come flex.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B350"
+        }
       }
     },
     {
@@ -14739,7 +16135,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Workshop on the fundamentals of the Swedish partner dance Mys-fox. A Swedish and more intimate version of the foxtrot, typically danced to slower music.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B351"
+        }
       }
     },
     {
@@ -14780,7 +16180,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The tenderness, the longing, the triumph, the transcendence - we too seldom let symphonies become dance. From melancholic to energetic to ecstatic, we will follow their unfolding, and let centuries of music find their way into our bodies.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B352"
+        }
       }
     },
     {
@@ -14819,7 +16223,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "MŸS invites you to experience rare, fluffylicious downtempo sounds. We love to pitch down. Tickle your curiosity, listen or dance to twisted dust cracking vinyl gems. Lovers and dancers welcome inside our cozy MŸS Dome",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B353"
+        }
       }
     },
     {
@@ -14863,7 +16271,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Who can hold the best speech while having their partner doing their best to sabotage their speech? Compete in Classical style, Music Style, Double / Debate, Amateur style (motionsklass) or Free-style.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B354"
+        }
       }
     },
     {
@@ -14906,7 +16318,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Discover what happens when you stop trying and simply allow. Life Force Activation is a unique energy experience that can bring greater aliveness, freedom, connection, and inspiration. Limited to 15-20 participants. To support a safe container, please attend substance-free.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B355"
+        }
       }
     },
     {
@@ -14949,7 +16365,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Myth Constellation is a small-group ritual where dreams, stories, questions and inner images are given bodies. A gate, creature, child, forest, longing or hidden gift may step into the room through a participant. Through movement, sensation, speech and witnessing, we listen for the myth already moving beneath ordinary life.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B356"
+        }
       }
     },
     {
@@ -14989,7 +16409,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A series of presentations on how humans wound up with Patriarchy. Lesson 1 - The First 96% of Human History Lesson 2 - Earth Goddess vs Sky Father Lesson 3 - Conquest and Control Lesson 4 - God Hates Women Lesson 5 - A Path Forward",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B357"
+        }
       }
     },
     {
@@ -15032,7 +16456,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "In the West we often are sceptical of prayer, associate it with dogma. But what if it could offer us a deeper connection to life? With the help of tobacco in the tradition of the Camino Rojo we share our hearts, our wishes for the week and offer gratitude to the land.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B358"
+        }
       }
     },
     {
@@ -15073,7 +16501,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Nip in and get to know the good, the bad and the cuddly cats that likes to stretch out in the Cuddle Cove. Let's see yo pawty paws pickin up on that feline beat - cuz everythin else is obsolete!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B359"
+        }
       }
     },
     {
@@ -15114,7 +16546,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Elven saunacave Opening and Dome Afterglow Welcome to the Saunacave and Dome! After the heat, drift over to the Sauna cave DOME to enjoy the beautiful atmosphere and melt into the music program.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B360"
+        }
       }
     },
     {
@@ -15155,7 +16591,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "You keep seeing these mythical creatures playing with fire and lights? Anyone can learn it! This is an opportunity to try out different toys and learn some tricks. No matter if you’re completely new to flow arts, want to try a prop you haven’t before, or practice one you know well.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B361"
+        }
       }
     },
     {
@@ -15196,7 +16636,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Starship transmission incoming! We navigated the neon depths of Xythwera-4Q2, a world of autonomous robots mining rare cyber-crystals to slot into motherboards for high-voltage fiestas. Our drones captured the raw, heavy metallic resonance of mines blending with erratic modular synths of underground raves. Unleashing files tonight: prepare for driving techno, raw electro, and industrial beats that rewire your systems!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B362"
+        }
       }
     },
     {
@@ -15240,7 +16684,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Teresa teaches a few traditional songs from Sweden, and shares some basic tips about rhythm and singing style/ornamentation in Swedish folk music.. Swedish language skills not required, as long as you're willing to learn phonetically. Expect lyrics about alcohol, misery and death. Also expect to not be able to get the songs out of your head afterwards, because they are absolute bangers.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B363"
+        }
       }
     },
     {
@@ -15277,7 +16725,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Playa is transforming from daytime playground to nighttime adventure. Rest your legs & butts, meet new friends over shared shisha and tea, and prepare for the adventures of the night!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B364"
+        }
       }
     },
     {
@@ -15320,7 +16772,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Djinns of the Lamp urge you to spoil each other's senses, with rich tea, lush smells, tasty treats, and sensuous massages. This is an open space to relax and interact, with Djinns and other mortals alike: an atmosphere of indulgence.❤️‍🔥",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B365"
+        }
       }
     },
     {
@@ -15363,7 +16819,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Narcissism lives in the gap between shame and self-love. In this workshop, we look at the ways we defend, perform, and protect ourselves — and what it costs us.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B366"
+        }
       }
     },
     {
@@ -15405,7 +16865,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Rebecca Bergcrantz and Sven-Erik Lundeqvist are teaming up on a piano vocal duo to bring the city a solid set of both classic standards and new compositions for all the Jazz aficionados of the city. Bring your own blanket or borrow one from us.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B367"
+        }
       }
     },
     {
@@ -15450,7 +16914,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Surr3al Circus is a 6-hour immersive journey of sensual workshops, performances, DJs & curated play spaces. Doors open once only, 19:00–19:30. Bring one large towel. Gender balance is a priority, so come with someone—whether you play or leave with the same person is entirely your choice.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B368"
+        }
       }
     },
     {
@@ -15492,7 +16960,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The BorderLAN returns and the year is 2002. During the day you are welcome for unsolicited play, and in the evening a party of four can book a 45-min slot and enjoy an authentic 2002 LAN experience. Learn more and book at www.borderlan.land.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B369"
+        }
       }
     },
     {
@@ -15531,7 +17003,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Happy Hour à la Française! — Sparkling wine, peanuts, and the art of l’Apéro.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B370"
+        }
       }
     },
     {
@@ -15572,7 +17048,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Still breath. Deep rhythm. Ancient pulse. A journey into what holds you back — old patterns, buried emotions, inherited stories. Move through them. Release them. Return clean, open and alive.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B371"
+        }
       }
     },
     {
@@ -15598,7 +17078,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We’ll make dough, collect+sharpen sticks and bring everything to bonfires around Borderland and feed the hungry masses.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B372"
+        }
       }
     },
     {
@@ -15642,7 +17126,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Join a safe, loving space to appreciate diverse, unique bodies in the nude. Pair up multiple times, observe, and be observed, ending each interaction with sharing and appreciation. Explore nakedness non-sexually. Come open, curious, and welcoming! 🥰",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B373"
+        }
       }
     },
     {
@@ -15685,7 +17173,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Free acoustic jamming with an oriental touch. Bring along any instruments you have. Or just bring yourself, if you can find it. Open to all, no music experience required.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B374"
+        }
       }
     },
     {
@@ -15727,7 +17219,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A mirthful and eclectic blend of poetry, literature, comedy and spoken performance to inspire, entice and orientate the perspective’s palate before venturing out into the evening. There will be a sharing portion too on the tail end if anyone feels inspired.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B375"
+        }
       }
     },
     {
@@ -15767,7 +17263,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "20:00 LIVE: Abe Raham Rich vocals and upbeat retro soul 21:00 Pony Princess Classic disco/soul for the old-school sexy 22:00 Dr Phil Funky, soulful house bliss 23:00 Los Apostoles Uplifting and groovy, this duo is a whole vibe 00:30 Alexander Paulski High-energy disco to rock your pants",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B376"
+        }
       }
     },
     {
@@ -15806,7 +17306,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "CaSINo is Club SIN’s twisted casino, where sincoins, shame, dignity, luck, and temptation are all on the table. Play sinful casino games; blackjack, poker, and roulette, win juicy treats, accept delicious punishments, and gamble your comfort zone away. Come place your bet, commit your sins, and lose yourself with us tonight at caSINo...",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B377"
+        }
       }
     },
     {
@@ -15846,7 +17350,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Commit wicked sins or accept deserved punishments from our curated menus at SIN Bar, Club SIN's handcrafted wooden haven beside the dancefloor. Earn sincoins, ask nicely, and our SINtenders may reward you with cocktails, non-alcoholic delights, special snacks, and redeeming treats. Sinful tonight?",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B378"
+        }
       }
     },
     {
@@ -15888,7 +17396,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A couple dance party where you can use what we taught you earlier in the day, in the super cool Swedish partner dances bugg and fox. You will have the chance to try it with different music styles such as rock, pop, disco, etc., and of course, the fantastic Swedish music style “dansband”!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B379"
+        }
       }
     },
     {
@@ -15920,7 +17432,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "All art cars gather at the DMV to strut their hot wheels, weow-weows, and whizzybangypoofythings. Probably not in an orderly row. Maybe racing. Maybe raving. All the way to the opening ceremony.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B380"
+        }
       }
     },
     {
@@ -15967,7 +17483,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The End of the Rainbow invites you to join it's rank of its magnificent pony riders! This will be a workshop in how to train and ride your pony, to be ready to ride into a night of sexy magic and party playfulness(One rider and one will be pony). The last 30 min will be an opening ceremony for our party.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B381"
+        }
       }
     },
     {
@@ -15995,7 +17515,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Interactive pop‑up Performance by The Cheese Doctors @ The Institute of Insanity: reality‑bending experiments, cheese‑based treatments, and strictly confidential participation. Are you ready to be examined by cheese?",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B382"
+        }
       }
     },
     {
@@ -16038,7 +17562,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Hear opera the way it is intended to be enjoyed. With K-massage and balloons! (bring your own…)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B383"
+        }
       }
     },
     {
@@ -16077,7 +17605,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "MŸS invites you to a slow but also very danceable arrangement of our loved downtempo sound. Lay around, swing your body or stump to a rhythmic four on the floor that is nourished with driving baselines, percussion, acoustic elements and grooves influenced by places all around the globe. Come by and let the music move you, comfort you and bring us all together in our cozy MŸS Dome.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B384"
+        }
       }
     },
     {
@@ -16121,7 +17653,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Let's have a deep and authentic dialogue about important and controversial topics. Maybe it's something Borderland related, or something from the default world that impacts us all. Let's listen to each other's perspective with an open heart and mind and maybe we can integrate all those polarities a bit more.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B385"
+        }
       }
     },
     {
@@ -16164,7 +17700,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come shimmer with us! As night chill creeps in, we're brewing warmth: Vegan spiced Chai with oat milk, plus nibbles on the side. Sing, cuddle, talk under the stars. All kinds of souls welcome! Bring your cup, your voice, just yourself. Let's get cozy by the fire!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B386"
+        }
       }
     },
     {
@@ -16205,7 +17745,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Struggling with FOMO and a short attention span? Worry not! Join the Seagulls' Party Parade, where we will hit every party spot on the Playa for 5 minutes glorious minutes each! We meet by the Spaceport dome at 20.00, and start marching at 20.30! Experience the Borderland like a true Seagull: Land, squawk, party and take off again!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B387"
+        }
       }
     },
     {
@@ -16249,7 +17793,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to the Temple of Sound 🪐 Enter a sacred space of breath, healing sounds and powerful vibrations. Through gongs, didgeridoo, throat singing, drums, flutes and handpan, we will guide you through an immersive journey into altered states of consciousness. 🌌",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B388"
+        }
       }
     },
     {
@@ -16289,7 +17837,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to The Wheel of Pleasure, where your yes is the only rule. Set your boundaries, choose your toys, don the blindfold, and let fate decide how many hands will deliver playful, teasing sensations across your body. You won’t know who. You won’t see them. You’ll only feel. Spin the wheel. 😈",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B389"
+        }
       }
     },
     {
@@ -16330,7 +17882,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "SWIG THREE SHOTS, OR YER OUT! In exchange, ye shall receive: lyrics, crewmates, and the sacred right to bellow sea shanties into the night. Tunelessness is a feature. Enter, ye brave fool.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B390"
+        }
       }
     },
     {
@@ -16374,7 +17930,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Opening-night magic: pin your heart to the Soul Matchmaking Board and let the Pond play cupid. We'll show you how it works, then set you loose to find your person (or your Tuesday-night U-Haul partner). Bring your crush energy 🐸💘",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B391"
+        }
       }
     },
     {
@@ -16414,7 +17974,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Sexhibitionists and aspiring sex athletes! Tonight is your moment: Alversjö’s first ever Sex Olympics. The Fuckery has created five unique challenges for your spicy talents to shine. Come by the playspace before the cheering crowds gather to learn about the games, meet your fellow competitors, and sign-up for your specialties.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B392"
+        }
       }
     },
     {
@@ -16455,7 +18019,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Memory Play (DJ Set) - Techno / Organic / Percussive - percussive, psychedelic with driving beats and guttural vocals.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B393"
+        }
       }
     },
     {
@@ -16498,7 +18066,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We invite you to get out of your head and into your body. We drop the story and listen to the felt sense — solo and in relation. Discover deeper layers of yourself and dare to connect in emotional truth. This can get intense — come ready to meet yourself. Leave whenever you need.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B394"
+        }
       }
     },
     {
@@ -16539,7 +18111,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Set sail for golden hour with warm Balearic grooves, downtempo rhythms, and sun-soaked sounds. BYOC, find a cushion, and let the music be your compass.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B395"
+        }
       }
     },
     {
@@ -16580,7 +18156,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Just a jam session for air-band enthusiasts!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B396"
+        }
       }
     },
     {
@@ -16620,7 +18200,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "If you have the courage to come find our coven at night we will reward you with a special treat! Only a few will experience our special magic ritual and learn how to cast spells. Will it be you? (We serve groups of 2-8 people for 15 to 30 minutes. Kid Friendly!).",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B397"
+        }
       }
     },
     {
@@ -16659,7 +18243,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come and see the reveal of Le Observable Universe! For the occasion, for a fleeting moment, the Keepers of Le Observable Universe manifest a celestial anomaly: the Supernova Sandwich Station. Every bite is a cosmic revelation. Interact with celestial beings, meet fellow travelers, and play games that bend spacetime. Who knows - you might uncover the universe’s deepest secrets…",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B398"
+        }
       }
     },
     {
@@ -16699,7 +18287,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Presented by The Fuckery, prepare for silly spicy spectacle at Borderland’s first ever Sex Olympics. Five hand-crafted events inspire athletes and audience from every camp on the playa to come together in steamy celebration. Borderland’s sexpert abilities are about to reach gold-medal heights.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B399"
+        }
       }
     },
     {
@@ -16740,7 +18332,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come, friend, and sit with us. Beneath the roots of the earth tree, we welcome you. Share your stories, warm yourself at our crackling fire and feel for a while. You are welcome here. Just the way you are.🔥✨",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B400"
+        }
       }
     },
     {
@@ -16784,7 +18380,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Have you ever wanted to explore your inner witch? Come and learn how to feel and manage your energy. Come and discover your inner Witch & learn about the basics in herbalism.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B401"
+        }
       }
     },
     {
@@ -16826,7 +18426,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "At \"The Pony Party,\" you are invited to courageously step into your power and freedom of expression, as the spirit of the pony calls you to bounce through the night! A magical musical journey awaits, with a rainbow world to explore: bumpin' dancefloor, steamy playspace, lush garden, and cuddly lounge.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B402"
+        }
       }
     },
     {
@@ -16867,7 +18471,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A safety briefing for fire spinners who want to play at The Fire Brigade's fire jams or spin before the effigy. We will walk you through our safety protocol and give you a token of trust. Wear natural fabrics to play with fire (cotton, wool, linnen, leather).",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B403"
+        }
       }
     },
     {
@@ -16913,7 +18521,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Church opening ceremony. Expect the unexpected.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B404"
+        }
       }
     },
     {
@@ -16954,7 +18566,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "SIN Salabim is Club SIN's exclusive members' lounge, where indulgence meets luxury. Entry has its price, but once inside, every pleasure is free. Relax, indulge, connect and explore—because the richest rewards aren't always made of gold.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B405"
+        }
       }
     },
     {
@@ -16995,7 +18611,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Witness the power of fire bending! Fire spinning and performances, chillspace and hot tea. We have fuel and safety equipment. Wear natural fabrics to spin or help with fire safety. Attend a safety briefing at 21:45 if you want to spin. Bring your fire props or borrow from us.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B406"
+        }
       }
     },
     {
@@ -17037,7 +18657,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Join us for the grand opening of the fire space! Come and watch this mesmerising performance before the space opens for the free jam for all firespinners.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B407"
+        }
       }
     },
     {
@@ -17080,7 +18704,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Velvet Lounge appears on its own schedule: look for the open sign 🕯️. Gender-ambiguous bartenders pour your drink and read your tarot. Slow dance barefoot. Fall backwards into deep conversation. Shy kisses only. A sensual, surreal, softly clown-haunted place for warmth and connection 🔮🥀",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B408"
+        }
       }
     },
     {
@@ -17122,7 +18750,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Looking to share your talent, art, or your creative voice? Spaceport’s Open Mic Night is the perfect venue for you to shine your light or try out new things in a supportive, fun environment. Bring your instruments for a possible Jam! Signup opens at 2145! hosted by Tali and friends",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B409"
+        }
       }
     },
     {
@@ -17165,7 +18797,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Eros Dancefloor invites you all for the slow, intimate and erotic dripping tunes which leads you all for the nightly activities. Come and bathe in honey dripping sounds and energy.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B410"
+        }
       }
     },
     {
@@ -17211,7 +18847,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Church Clubnight. Expect pounding Techno music, and an extremely sexy and arrousing vibe. Open playspace during this event until 4!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B411"
+        }
       }
     },
     {
@@ -17254,7 +18894,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Experience trippy visuals while sober! Sit around a spinning cylinder of pulsating light, eyes closed, and \"see\" increasingly complex animated patterns. Ends the moment you open your eyes. Plan to stay for at least 15 minutes for best effect.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B412"
+        }
       }
     },
     {
@@ -17282,7 +18926,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Throughout their travels, the Storyteller has gathered innumerable stories about all manner of wondrous things. The only guarantee is that the story you will hear has never been told before and will never be told again. So look out for the Storyteller to hear a unique tale told just for you.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B413"
+        }
       }
     },
     {
@@ -17321,7 +18969,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Cuddle City: the cuddle camps combine this year in one district at Cuddle Cove Piazza and offer you tonight a horizontal block party. Forget the bar crawl, come on a cuddle hop and get squishy with a whole city or snuggly with a buddy.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B414"
+        }
       }
     },
     {
@@ -17362,7 +19014,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Music: ambient, downtempo, space dub.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B415"
+        }
       }
     },
     {
@@ -17407,7 +19063,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A warm communal cuddle-nest in the Summerge tent, held by Regina through the small hours. Crawl in, get cozy, be held against the cold and the loneliness. 🐸🌙",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B416"
+        }
       }
     },
     {
@@ -17447,7 +19107,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Silly sexy fun! Building on the naughty games and kinky challenges of our earlier Olympic competition, tonight is your chance to jump on the wave and enjoy your playful side. We’ll bring the community and contests, you bring your curiosity. ‘Cuz play is our body’s favorite way of learning.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B417"
+        }
       }
     },
     {
@@ -17488,7 +19152,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Soulful songs, wild tales while we serve you cheese & port wine. Burners from the Netherlands, Denmark & Scotland weave original music, heartfelt stories and magical vibes. A deliciously cheesy concert full of warmth, wonder and connection.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B418"
+        }
       }
     },
     {
@@ -17525,7 +19193,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come and get your tummies filled.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B419"
+        }
       }
     },
     {
@@ -17571,7 +19243,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Hexemutters Galehus Warning: experimental medicine cabinet. 41 remedies — yours to judge, yours to draw. Side effects include self-knowledge, mild existential crisis and uncontrollable honesty. We are not responsible for what the cards unlock. Always open. We never sleep. Unless we sleep. Wake us and die",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B420"
+        }
       }
     },
     {
@@ -17600,7 +19276,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "When you've packed up all of your mojo, your tent feels impossibly far away, and truthfully.. you've got a tiny existential wobble brewing, come find us. Lazy Treats Hour will serve you hot toasties, silliness and giggles, plus a generous serving of camp love. Survival, but make it fabulous.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B421"
+        }
       }
     },
     {
@@ -17642,7 +19322,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "[Date unsure - hosted on a sunny day at the lakeside] Feel like a muddy car getting a fresh scrub by our team! Experience being a dirty offroad 4x4 getting deepcleaned by our team of carwashers. Come find us, whenever we feel like it, at the lake (oil replacement included).",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B422"
+        }
       }
     },
     {
@@ -17679,7 +19363,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Some say it moves when no one´s looking. Others say it only reveals itself to those who truly need a wish granted. In any case, if you find it: Hang a wish, tie a secret, weave a promise into its bark. Maybe it grants them, maybe it eats them. Either way, your business is no longer your own.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B423"
+        }
       }
     },
     {
@@ -17719,7 +19407,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We will be serving icy stuff at random times. It’s up to the universe whether you get lucky or not.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B424"
+        }
       }
     },
     {
@@ -17756,7 +19448,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Send your(other)self a message in form of postcard from Borderland. Capture the fleeting moment and extract it out before it vanishes. Come hangout at Socialen, we offer a relaxed space to settle in a reflect for a moment and write yourself or others about your current state of mind.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B425"
+        }
       }
     },
     {
@@ -17799,7 +19495,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A progressively hard, weird, dark experience where we delv into the uncomfortable sides within us and release them. Screaming, crying and insane laughter might occur.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B426"
+        }
       }
     },
     {
@@ -17831,7 +19531,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Time capsules: portals to the past, filled with memories for future generations. Seal photographs, letters or trinkets — 4 capsules, one per cardinal direction, co-created and sealed by different neighborhoods at the end of this year's Borderland. In 2027 they'll be buried under permanent art, for future archaeologists or extraterrestrials to wonder what strange not-a-cult walked this land.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B427"
+        }
       }
     },
     {
@@ -17864,7 +19568,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Dust, sweat, glitter and forest. Bring water and enjoy a moment of warmth, care and renewal before returning to the adventure. Built with Leave No Trace principles, deep love., and a steadfast faith in my close to nonexistent technical skills.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B428"
+        }
       }
     },
     {
@@ -17889,7 +19597,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We sing everything we want to say, all day, everywhere :)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B429"
+        }
       }
     },
     {
@@ -17934,7 +19646,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Planet of Primal Sins is a sexual, animalistic ceremony of movement, sound, consent, prey, predators, desire, and play. Fly, swim, crawl, hunt, tease, refuse, offer, and transform through primal exercises, kinky animal language, and forbidden collective mischief. Come awaken your inner beast...!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B430"
+        }
       }
     },
     {
@@ -17977,7 +19693,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Knights of the realm, we summon ye! At The Grand Tournament all your whimsical and medieval skills will be tested and rewarded. Compete in great feats of knightly skill such as lancing atop horseback, wrestling with butts, archery and much more, all whilst enjoying the medieval vibes of camp Jousting Jesters.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B431"
+        }
       }
     },
     {
@@ -18020,7 +19740,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "After celebrating the winners of The Grand Tournament with revelry, the Jousting Jesters cordially invite all of you denizens of Borderland to the Grand Tourney’s After-Joust! Get shakey with our medieval rave of bardcore, broken beats, and baroque stylings!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B432"
+        }
       }
     },
     {
@@ -18059,7 +19783,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "This day, Foxhole is unfortunately closed. The queue, however, remains fully operational. Join the legendary Foxhole tail for no particular reason. Stand. Admire excellent outfits. Exchange conspiratorial glances. Fall into conversation. Accidentally make a new best friend. Wonder if there ever was a destination. Maybe even start a second queue next to the first. Sometimes the destination is overrated. The queue is the experience.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B433"
+        }
       }
     },
     {
@@ -18105,7 +19833,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Kidsville serves breakfast: waffles, pancakes, Kaiserschmarrn and other delights. Bring your plate, spoon and smile",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B434"
+        }
       }
     },
     {
@@ -18144,7 +19876,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Find a good spot anywhere and just sit back and people-watch while relaxing. It looks like a Borderland movie, doesn’t it?",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B435"
+        }
       }
     },
     {
@@ -18187,7 +19923,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Coffee is ready. The gossip fresh. Bring your cup, take a seat, and tune in to our live radio show with music, juicy stories, last night’s questionable decisions, surprise guests, and whatever else unfolds. Sip. Sit. Listen. Say something.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B436"
+        }
       }
     },
     {
@@ -18226,7 +19966,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Start the day on the mat with others through primal play, contact improvisation, Brazilian jiu-jitsu or a combination of the three. There is no facilitator and no fixed structure, just a shared space to explore, connect and move together. Whoever arrives first kicks things off with a five-minute Tabata.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B437"
+        }
       }
     },
     {
@@ -18271,7 +20015,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Sama Yoga is a gentle, heart-led practice for all bodies. Flow through soft sequences with breath and mantras. Stay, stretch, and deepen awareness. A supportive space for growth and presence—beginners and experienced welcome. A few mats available.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B438"
+        }
       }
     },
     {
@@ -18314,7 +20062,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome Boderlings to En Goare Morgon Refill your strength & enjoy breakfeast with some nice Goa Trance & other chill tunes. We will serve you Odens Overnight Oats (with yummy toppings), coffee, tea & some Swedish fika. Let’s start the day together with sunny & uplifting psytrance for a Goare morning.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B439"
+        }
       }
     },
     {
@@ -18358,7 +20110,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Improv theatre?! In the morning?! You are here now, come be here, now, wow! No experience needed. Outgoing or shy, sleepy or wide awake; just bring yourself, grab a cup of coffee and play with us! Come for the coffee, stay for the drama.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B440"
+        }
       }
     },
     {
@@ -18404,7 +20160,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "If you want to leave your pooch for a few hours in a quiet campground to be watched by two volunteers, consider coming here. It's hoped that people who leave their dogs also take a shift.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B441"
+        }
       }
     },
     {
@@ -18447,7 +20207,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A place to meditate together in silence, and keep up your home practice, but in silent community. Do come along, first timers also welcome!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B442"
+        }
       }
     },
     {
@@ -18490,7 +20254,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Curious on Jungian philosophy and your unconscious? A dream matrix is a space where we share nightly dreams, in order to open up your unconscious and rediscover nightly dreams you'd forgotten. After the matrix there'll be a short teaching and sharing. See insta @BLdreammatrix",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B443"
+        }
       }
     },
     {
@@ -18532,7 +20300,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Where one playa’s cast-offs become your festival glow-up. Curated rags, questionable choices, and impulsive entertainment included. Come dig through the treasures, leave looking fabulous.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B444"
+        }
       }
     },
     {
@@ -18577,7 +20349,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Grab your favorite adult and come explore yoga together! A playful yoga class for kids and their grown-ups to move, stretch, and connect together.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B445"
+        }
       }
     },
     {
@@ -18619,7 +20395,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Participants will be soaked in orgone, showered with it, and possibly transformed by it. This is likely a once-in-a-lifetime opportunity to expose a large population to orgone. Available 24/7 for restorative use. Guided Sessions and experiments will be announced on white board at camp.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B446"
+        }
       }
     },
     {
@@ -18660,7 +20440,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The \"P\" in Psyllium is silent, The \"Poo\" with Psyllium is immaculate. Bring a mug, get ready to get some goopy Psyllium, then make your guts happy and thank us later!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B447"
+        }
       }
     },
     {
@@ -18703,7 +20487,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Guided Ashtanga Vinyasa in The Spaceport Dome",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B448"
+        }
       }
     },
     {
@@ -18742,7 +20530,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The legend lives — and this year it walks among you! The curse of the Cave of Wonders has broken its seal: thieves, sorcerers and desert wanderers have escaped into the Borderland, and they're looking for you. For two days, live characters roam the camp weaving riddles, mischief and theatrical magic — a mysterious guide by the Bedouin Tent, a hidden clue, a quest you didn't know you'd joined. All welcome: every gender, every magic-maker. Queer stars of the Borderland, this adventure is yours too. Follow the whispers. Trust no one. Note: the Cave of Wonders escape room is open 24/7 for those who wish to go deeper.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B449"
+        }
       }
     },
     {
@@ -18788,7 +20580,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A playful exploration of the inner critic, shame, desire and other beautifully fucked up parts of ourselves. Inspired by existential kink, shadow work and embodied interaction. Weird, deep, funny and maybe sexy.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B450"
+        }
       }
     },
     {
@@ -18833,7 +20629,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Our goal is simple: to prepare the best cup of coffee you’ve ever tasted. To increase your pleasure tolerance. To make you feel, in a thousand various ways, the miracle of having taste buds. (We can’t promise we’ll actually succeed.) Join us for our morning ritual on the 22nd , as we brew specialty single-origin V60 coffee — a journey that has taken us to heaven, to hell, and back to heaven again. All coffee freaks welcome. Feel free to bring some beans you’re excited to try.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B451"
+        }
       }
     },
     {
@@ -18873,7 +20673,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Informal tea ceremony. We will make and taste some fine teas fitting the time of the day, ambience and weather. Limited space.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B452"
+        }
       }
     },
     {
@@ -18916,7 +20720,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "This is a little space where we simply have fun with pens!! (LOVE LOVE LÖÖÖVE PENS!!) Come as you are, do your own thing, or ask for some guidance if you feel like it. It’s more of a maker space than a structured workshop — no pressure, no rules. I’ll bring the PENS and paper. And You just bring Yourself- just as You are! 🤍",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B453"
+        }
       }
     },
     {
@@ -18962,7 +20770,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come and meet new friends - or who knows, maybe the love of your life ✨️ - through different playful games and practices inspired by autentic relating, contact improvisation & primal play. Bring water and comfortable clothes to move in!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B454"
+        }
       }
     },
     {
@@ -19003,7 +20815,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Step into the circus tent for a playful vinyasa flow to wake up your body and shake off the dust. Together we'll move, breathe, stretch, and energise ourselves for the day ahead. Grounding, uplifting, and open to all levels. Bring a yoga mat or towel, a YOGA BLOCK OR BOOK to balance in your hand and a water bottle.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B455"
+        }
       }
     },
     {
@@ -19047,7 +20863,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to Explorer's Living Room. Come by, squeeze in and get cozy. Enjoy a delicious cup of coffee and have a banana pancake right from the Muurikka. Let's ease into the day together. Soft 60s tunes and good vibes guaranteed. Bisou Sara & Axel",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B456"
+        }
       }
     },
     {
@@ -19087,7 +20907,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Stuck in a conflict? Meet the CRT any day. We don’t take sides or decide for you. We’re here to listen, offer mediation tools, and help find ways to coexist. Stop by to chat, learn, or get support! Conflicts should be solved between those involved, but if that isn’t possible, you can turn to us!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B457"
+        }
       }
     },
     {
@@ -19132,7 +20956,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Yay another burn! But do we recognise that the world is also burning? Is this week a well deserved break, or do we look away from our civic responsibilities? Do we practice radical inclusion towards those who exclude others? Let's have an open conversation about the place of politics at Borderland.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B458"
+        }
       }
     },
     {
@@ -19177,7 +21005,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "One never has anything to do with another person without holding something of that person's life in ones hands. If meditation is an art of being Circling is an art of being-with Come explore who you are in the meeting with others and the incredible richness of human connection in all its flavours.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B459"
+        }
       }
     },
     {
@@ -19220,7 +21052,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Lets all come together and chant our hearts out in this intuitive chanting workshop. No singing experience required. Come with an open mind, chant for an open heart ❤️",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B460"
+        }
       }
     },
     {
@@ -19263,7 +21099,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A special meditation event using 4 types of meditation, in sequential order, to facilitate an experience of awakening. First anapana — calm abiding on the breath. Second vipassana — insight meditation, scanning the body for awareness. Third tantric meditation — moving through the chakras, circulating vital energy. Lastly a pointing-out instruction from the Mahamudra tradition, inviting you to recognize your innermost being: pure consciousness. Welcome!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B461"
+        }
       }
     },
     {
@@ -19306,7 +21146,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A TIME MACHINE! Quantum physics have come a long way and we’re bringing our machine out of it’s controlled environment and on to the land of Borderland. Experience time travel to the future and go on a sensory ride. Your future you said it was great. Max 20 ppl.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B462"
+        }
       }
     },
     {
@@ -19347,7 +21191,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Dying to release your inner child/thespian/kaiju? We will create a safe space to explore drama skills, with a variety of games and exercises. Hilarious, provocative & challenging! No previous experience necessary. Hosted by Nocturne.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B463"
+        }
       }
     },
     {
@@ -19391,7 +21239,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The ancient masters forgot one thing: mischief. Wake your body with joyful combat. Push, pull, grapple, tumble, and laugh through playful partner exercises. Expect 75% movement, 25% delicious trouble, and 100% embodied fun. Ready? Fight!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B464"
+        }
       }
     },
     {
@@ -19432,7 +21284,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Slink in and learn how to yowl and meow parts in the \"Sad Cat Song\" led by a professional choir conductor. Kitt, stray or feral - all is welcome to nuzzle in for some grrroovy mewsic.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B465"
+        }
       }
     },
     {
@@ -19473,7 +21329,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Join this workshop to learn some mobility exercises, wake up your body and get rid of the stiffness from sleeping on too thin camping matresses. Mobility is a combination of strength and flexibility, extending our active range of motion. Any level welcome.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B466"
+        }
       }
     },
     {
@@ -19517,7 +21377,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Movement session including both play around and try some challenges on the monkeybar, and maybe finish with a short team workout (in cruise mode or beast mode).",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B467"
+        }
       }
     },
     {
@@ -19551,7 +21415,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Ask Your Father Anything. Pull up a chair and have the conversation you never had. Ask for advice, comfort, approval, understanding, or answers. Rage, laugh, cry, or sit in silence. For a moment, You will be met, listened to and if you want, answered.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B468"
+        }
       }
     },
     {
@@ -19591,7 +21459,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Experience an Ethiopian coffee ceremony! You don’t need to be there from the start, come when you can during the ceremony and enjoy a cup!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B469"
+        }
       }
     },
     {
@@ -19634,7 +21506,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Only happening if the sun is shining! Make a souvenir with paper, sunlight, and findings from the playa. Bring a small object you found, something meaningful to you, or use our bits to create a blue sun-printed postcard.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B470"
+        }
       }
     },
     {
@@ -19677,7 +21553,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Zumba is good for you, if you missed the first, you now have the chance to prove YOU CAN DO it, do not be scared!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B471"
+        }
       }
     },
     {
@@ -19718,7 +21598,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Want to do some yoga with some silly “goats”? You will be led by our yoga instructor, then our goat herder will release the goats! Treats will be provided if you would like to feed the goats, you are also free to pet and play with them (goat consent is important)! The goats may get a little rowdy, but they are just having fun!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B472"
+        }
       }
     },
     {
@@ -19757,7 +21641,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Master the magical art of doing nothing! No goals, no to-dos just you, a comfy spot, and sweet, glorious idleness. Hug a tree, wiggle your toes, daydream wildly. It’s fun, it’s freeing, it’s fabulously unproductive. Permission to laze: granted!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B473"
+        }
       }
     },
     {
@@ -19801,7 +21689,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Bring us your biggest dilemma. Our two all-knowing oracles will reveal your destiny with 100% confidence and absolutely no qualifications. Wise? Sometimes. Terrible? Probably. Useful? Meeh yeah actually yes in a way or two.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B474"
+        }
       }
     },
     {
@@ -19844,7 +21736,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A good old traditional men´s circle. Sit around the imaginary fireplace and share into the fire what ever is on your heart or mind. Find support for whatever you are going through in life in the comfort of other men.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B475"
+        }
       }
     },
     {
@@ -19887,7 +21783,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Join a breakfast for champions: breakfast food will be served together with a side of sparks: new friends, maybe even a future partner and top shelf questions to ask each other.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B476"
+        }
       }
     },
     {
@@ -19928,7 +21828,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Interactive talk immersing into a biohacking world of cacao exploring somatic health benefits, psychoactive nutrients, synergistic interaction with other bioactive substances, physiological/psychological impact, purpose, conscious usage, intentional dosing, scientific approach to serotonin syndrome. Inviting YOU to ceremonial drinking.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B477"
+        }
       }
     },
     {
@@ -19970,7 +21874,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "This is not a regular breathwork session and definitely not a cult! Come shake off the seriousness with us. Through breath, movement, music, and playful exploration, we'll create space to drop the masks and reconnect with ourselves. No pressure to be happy, spiritual, or healed - all emotions welcome, even messy ones. Come to play, express, connect, or simply be.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B478"
+        }
       }
     },
     {
@@ -20010,7 +21918,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Make brushing your teeth a fun and absurd way of getting to know new people and new toothpastes! We take you to a trip around the world's most exquisite toothpastes. BYOT (Bring your own toothbrush -and pimp it at our craft booth!-) No toothbrush ? Pass by for a shot of mouthwash you stinky hippie ! Fun toothpastes ? Bring them all !",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B479"
+        }
       }
     },
     {
@@ -20054,7 +21966,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Is it possible? What would it actually look like? We're examining power dynamics, the guru problem, and the tension between community as social cure vs. social curse. Interactive workshop on designing intentional psychedelic spaces.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B480"
+        }
       }
     },
     {
@@ -20099,7 +22015,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Melt into the soft hours with a slow, juicy yin yoga practice for femmes loving femmes (butches & nb folks included). Long-held poses, deep breath, gentle touch, come home to your body by the water. All levels, all bodies. Daily at 11, bring yourself, leave puddly 🐸",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B481"
+        }
       }
     },
     {
@@ -20144,7 +22064,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Before there were stages, there were circles. Join us in an ancient practice of listening, sharing and witnessing. Together we cultivate presence, trust and the quiet wisdom that only a circle can reveal.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B482"
+        }
       }
     },
     {
@@ -20188,7 +22112,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Bring your favorite cloth that has a hole or more. We have string, needles, and patches for you to use. We can teach you how to repair your clothes with sashiko, weave darning, embroidery or patching. You can also bring your own project. Let's repair, create, learn and hang out together.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B483"
+        }
       }
     },
     {
@@ -20212,7 +22140,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "All jewellery: $Free.99 I bring jewellery from all over the world to this magical little pop-up! Come pick the piece(s) that speak to you and leave a kind word for the next person. Walk off with your new jewellery and a mystery note from the person before you.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B484"
+        }
       }
     },
     {
@@ -20246,7 +22178,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Partner Acrobatics beginner level maximum 20 people",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B485"
+        }
       }
     },
     {
@@ -20291,7 +22227,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come make beaded friendship bracelets to keep or gift to someone special.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B486"
+        }
       }
     },
     {
@@ -20332,7 +22272,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Was it 2023 or 2024? Bob had a great JOMO, with writing, eyesgazing and other elements. Let´s try some real live co-creation and recreate what we remember. We might not remember much so freestyling is encouraged! We take turns facilitating. Maybe Bob himself will attend if at BL. Bring pen and paper.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B487"
+        }
       }
     },
     {
@@ -20373,7 +22317,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "You may just listen to what others wanna share or you talk about your own experience. It doesn't matter if you bear under such conditions or you need some new inspiration for your loved ones. Here we will discuss chronice diseases and if the are our fate or if they can be a chance.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B488"
+        }
       }
     },
     {
@@ -20414,7 +22362,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Together we will dream about utopian futures and express our utopias with art. Inspired by utopias described in the book \"Driv utopierna\" we will dream about peace, sustainability, justice, equality, inclusion, and more.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B489"
+        }
       }
     },
     {
@@ -20448,7 +22400,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Secret porn star? Camera-phobic? Somewhere in between? Come explore what alters when a camera quietly witnesses you. Bring yourself, a partner, a throuple, a fantasy, a costume, an aesthetic, a secret spot—or just curiosity. Together we'll play with presence, performance, and the strange magic that happens when someone presses record. All footage © will be yours, it can be deleted right after or become a sexy cinematic 4k edit to enjoy later.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B490"
+        }
       }
     },
     {
@@ -20492,7 +22448,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Interrogate a witness, create a composite sketch, follow the clues, and hunt down mysterious puppets hidden across Borderland. Collect evidence, solve the cases, and earn your detective credentials.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B491"
+        }
       }
     },
     {
@@ -20534,7 +22494,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Do you love disco, house classics, groove in body and soul, ice-cold slushies, effortless community with openness, joy and warmth in focus? Then, my friend, you are welcome to our little social space and mini dancefloor under the disco ball's inviting glow next to our cozy tipi. Wednesday through Friday between approx. 12–15, DJ Divanté & DJ Simpqlicious with friends invite you all to celebrate life – because disco is life and disco lives in all of us!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B492"
+        }
       }
     },
     {
@@ -20578,7 +22542,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Have you ever wanted SWOLE muscles? Of course you have. But have you ever wanted a JACKED BRAIN?! This event is mostly for those who have limited experience with meditation, especially those who feel that meditation is not for them, because their mind wanders too much. Although everyone is welcome, even those who have an absolutely SHREDDED mind.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B493"
+        }
       }
     },
     {
@@ -20622,7 +22590,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Light and sound become your portal to altered states. Close your eyes and let the lamp guide you into colorful visions, deep relaxation, and expanded awareness — no substances, just your own mind. Come open and curious. Note: Not suitable if pregnant, under 18, with epilepsy, psychiatric/neurological conditions, photosensitive medication, or psychoactive substances in the last 24h.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B494"
+        }
       }
     },
     {
@@ -20663,7 +22635,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Satya will host a mask making workshop. Materials will be provided.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B495"
+        }
       }
     },
     {
@@ -20707,7 +22683,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Defy gravity and discover fluid movement trough dynamic sequences and surprinsing wraps. Come to fly in the air and transform the silks into your own canvas",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B496"
+        }
       }
     },
     {
@@ -20748,7 +22728,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Some people effortlessly draw people in and sense tension in a conversation without hearing a word. You’ll learn how to project competence and warmth, while also decoding emotions to communicate more effectively, build stronger connections, and navigate any interaction with more ease.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B497"
+        }
       }
     },
     {
@@ -20785,7 +22769,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Enjoy chai, coffee, and cookies that taste like care, baked with love, served with presence and compassion. (There is a good chance that we will also serve coffee, etc outside our listed hours <3)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B498"
+        }
       }
     },
     {
@@ -20826,7 +22814,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come drift to the reggae world post neo psychedelic vibes of Driftwood. I will play a set of original music for chilling, thinking and a little bit of booty shaking",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B499"
+        }
       }
     },
     {
@@ -20870,7 +22862,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Desire gets a bad rep. We shrink it, hide it, dress it up in excuses. This workshop invites you to stop apologizing for what you want & start listening to it. Via sharing, play & honest conversation, experience what it means to truly own your desires. Name it. Claim it. Own it. No shame. No filter.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B500"
+        }
       }
     },
     {
@@ -20911,7 +22907,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come by and record your stories, secrets, poems, dreams, jokes or anything else you'd like to share. The only rule is that you have to whisper. Your recording will be played later in the week at the Whispering Forest, a sound installation placed deep in the woods.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B501"
+        }
       }
     },
     {
@@ -20952,7 +22952,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Jenny Benny is a character I've created and I'm so happy to bring to Borderland — an elf-inspired figure, singing as both a man and a woman, performing duets with myself. Most songs are my own, written for Jenny Benny, plus a few fitting covers. A short musical performance, playful, emotional, sometimes funny, sometimes touching. My hope: you leave with a smile and a song in your heart.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B502"
+        }
       }
     },
     {
@@ -20995,7 +22999,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "GONG BATH - SO NICE, SO RELAX, think jam camp makes lot of noice normally, this is your time to come and get your vibrational shine <3",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B503"
+        }
       }
     },
     {
@@ -21038,7 +23046,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Stop by for quesadillas & guacamole, enjoy a taste of Mexico, and fuel your- self with delicious snacks before exploring the burn.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B504"
+        }
       }
     },
     {
@@ -21081,7 +23093,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Power Pilates in the Dome with JJ- Power Pilates strengthens your muscles and creates a stronger connection between body and mind, by becoming aware of how you consciously 'carry' yourself.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B505"
+        }
       }
     },
     {
@@ -21126,7 +23142,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Do you have forbidden fantasies or dark desires? Losing control, being adored like art, taking orders from a stern superior, erotic encounters in unlikely settings? Our facilitators — experienced in theatre and real-world sexual roleplay — gently guide you to explore them through fun fantasy roleplay. The level of juiciness is your decision. We create the safe container; you bring a dirty mind and a sparkle in your eyes.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B506"
+        }
       }
     },
     {
@@ -21164,7 +23184,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "This year we will have more Fire Art than ever 🔥 NO Fire Art Safety Team = NO BURNS. Join the training, become F.A.S.T. and stand the perimeter for one of the burns. When standing perimeter you watch people’s faces while they watch the fire - you experience the burn through others in front of you.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B507"
+        }
       }
     },
     {
@@ -21203,7 +23227,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Roaming and ready to help with your drug-harm reduction questions, cigarette rolling assistance if you're too cooked, and equipped with bits and bobs which help people who choose to use drugs do so in a safer and more considered manner. He may be wearing a black T with \"Professor Paraphernalia\" printed on it, or not. Approach and be helped! Or be referred to DanceSafe who are probably going to do a better job x",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B508"
+        }
       }
     },
     {
@@ -21244,7 +23272,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A Casting Call Step into the spotlight and let your front goodies audition for the role they were born to play. If you're selected (spoiler: you probably will be), you'll become the star of your very own sculptural masterpiece. An unforgettable experience where you'll be gently pampered, admired, asked to hold perfectly still, and immortalized. A memory you'll keep forever... or at least until you decide otherwise.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B509"
+        }
       }
     },
     {
@@ -21284,7 +23316,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Got lint? Put your hairy bellybutton to work and donate that gloriously useless fluff to something even more useless. Stuff it in our Collection Jar and receive a Certificate of Donorship. Enough fluff = possible hamster sweater. Do your part for recycling. Multiple donations accepted.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B510"
+        }
       }
     },
     {
@@ -21327,7 +23363,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The curious moony state of the larval mask. We walk in silence to a spot in the woods and spend a gentle time exploring the sensitive, unformed, not-quite-a-person, parts of ourselves. Through the masks‘ innocent eyes and ears, the woods will be new. Optional performance at the Wednesday evening Moon Cabaret.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B511"
+        }
       }
     },
     {
@@ -21368,7 +23408,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Enlightenment Intensive dyads is an interpersonal meditative reflectice technique created to quickly penetrate into fundamental experience and can bring about insight into the nature of reality. Come see how all narratives fall short. Come and look into what's actually going on!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B512"
+        }
       }
     },
     {
@@ -21410,7 +23454,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Bored with playing poi by yourself? Connect with a partner and dance together! We will show you the basics in partner poi and some more advanced stuff that's fun to play with. Prereqs: 3-Beat-Weave without partner. Poi and partners available.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B513"
+        }
       }
     },
     {
@@ -21453,7 +23501,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "An invitation to do absolutely nothing useful. Through gentle yin yoga, calming scents, head scratches, and deep rest, we'll create a space free from expectations, performance, productivity, or self-improvement. Nothing to fix, nothing to build, nowhere to be. Bring an eye pillow or a piece of fabric to cover your eyes, and come practice the radical art of simply being.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B514"
+        }
       }
     },
     {
@@ -21494,7 +23546,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Starship transmission incoming! We crashed into the vibrant orbit of RubbR-DUX, a world where the sun is a massive disco ball. We discovered goofy cosmic ducks waddling to the groove alongside funky forest creatures. To keep their sun spinning, dancing is a vital ecosystemic need! We brought back a trunk of sun-drenched frequencies. Today, we release this blend of uplifting disco, house, reggae, and funk. What the duck—help us keep the sun spinning!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B515"
+        }
       }
     },
     {
@@ -21539,7 +23595,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Energizing & grounding mid-day movement & DJ set. Feel the spirit rising as we enter the Ring of Cyclical Vitality. A psychosomatic release of dynamic meditation & daytime microparty. Queer-forward, no aerobics diploma required, all bodies welcome. Guided by Simo, soundtracked by One/Several Wolves",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B516"
+        }
       }
     },
     {
@@ -21582,7 +23642,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Explore touch, embodied presence, & body awareness through guided partner bodywork exercises. Using relaxation, pressure, & movement. The workshop emphasizes embodiment, active listening, and intuitive movement, in a consent aware container. bring towel, sarong & oil if interested in using oil.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B517"
+        }
       }
     },
     {
@@ -21626,7 +23690,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "12 step meeting (recovery)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B518"
+        }
       }
     },
     {
@@ -21672,7 +23740,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We will show and demonstrate how to give a tantric head and face massage. Please come whenever within the time frame, get a massage, watch how it is done and massage each other.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B519"
+        }
       }
     },
     {
@@ -21719,7 +23791,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Kink Lab is a space for learning the basic structures of BDSM play, the safety protocols and the practical know-hows for beginners. We will explore how to set up a kink scene safely and practice sensation play, basic spanking techniques and different styles of impact play. Impact toys will be provided for practice, but you can also being your own.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B520"
+        }
       }
     },
     {
@@ -21758,7 +23834,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "I'm a tale collector and I want your tales! Come tell your best tale and listen to others and I will give you a gogo. One tale, one gogo. Or two if it's just that good. Or maybe three, but just if I get gogoosebumps.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B521"
+        }
       }
     },
     {
@@ -21799,7 +23879,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Learn how to juggle at this beginner-focused workshop! Max will guide you through step-by-step instructions, teaching you the fundamentals of juggling three balls. Discover the art of coordination and timing as you learn the basic throws, catches, and patterns. This workshop is designed for complete beginners and those who have just started juggling, but everyone is welcome to join!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B522"
+        }
       }
     },
     {
@@ -21842,7 +23926,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Spike Battle of Borderland 2026 (SBB26) — the first edition! A spikeball tournament: group play, then semifinals and finals for those best handling the ball. Come solo and team up on the spot, or bring your own team. Playing 2 vs 2. Clothes on private parts mandatory. Limited spots. Age 15+ to play (younger can watch). Come play and/or watch — it will be fun!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B523"
+        }
       }
     },
     {
@@ -21883,7 +23971,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Forget about paintbrushes and use your whole body for art! Explore colors with all your senses and let yourself free on a big canvas: Your body might want to shake, slide, turn, stamp, shiver or dance as it expresses itself. All the colors are edible, and thus ecological and washable from skin.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B524"
+        }
       }
     },
     {
@@ -21927,7 +24019,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Plant a dream in a flower. Create your own paper flower in the enchanted garden while reflecting on future adventures, personal aspirations, and the things that make life feel magical. Share your vision, or simply let it bloom.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B525"
+        }
       }
     },
     {
@@ -21972,7 +24068,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Hey kiddo, come learn circus tricks and acrobatics with your adult! We will be doing circus fun, playing with circus props, singing/music and partner acrobatics. Acro tricks will be tailored to age/abilities and spotters will be used for safety.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B526"
+        }
       }
     },
     {
@@ -22011,7 +24111,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Ready for an appointment with your transformation? Transformation Office meets you with questions, not answers. Through conversation you receive a personal task — small, strange, a doorway to try something different. Hosted by Finnish wisdom curators. Coffee provided. Walk-ins welcome.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B527"
+        }
       }
     },
     {
@@ -22053,7 +24157,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "As the sun hits its zenith, the Oasis transforms into a humid, sonic sanctuary. We’re bringing the pulse of the rainforest to the poolside with Deep Jungle Dub. Imagine heavy basslines echoing through the forest, intertwining with the splashing water like ancient vines. The air is thick with rhythm and BASS.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B528"
+        }
       }
     },
     {
@@ -22098,7 +24206,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "One never has anything to do with another person without holding something of that person's life in ones hands. If meditation is an art of being Circling is an art of being-with Come explore who you are in the meeting with others and the incredible richness of human connection in all its flavours.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B529"
+        }
       }
     },
     {
@@ -22139,7 +24251,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come land for an hour. We'll use Yoga Therapy, Breath and somatic movement to reset your nervous system, release tension from hips and neck, and recharge body and mind. No experience needed—just come as you are and leave ready for whatever the playa brings next.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B530"
+        }
       }
     },
     {
@@ -22176,7 +24292,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come have a chat at the Spaceport Dome if you'd like to offer something for the Big Thursday Nite Cabaret. (Seen a performance that wowed or moved you at Borderland? Please encourage them to come along and offer their gift!) (with Tali and Giles).",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B531"
+        }
       }
     },
     {
@@ -22217,7 +24337,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "How do we welcome newcomers across The Threshold into Borderland? And carry the best of Borderland back out into the default world? To what extent should we? A workshop on stewarding a growing culture — and whether the two worlds can pull in the same direction.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B532"
+        }
       }
     },
     {
@@ -22258,7 +24382,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "South Korean-inspired complaining circle. The aim is to build connection, feel heard and get in touch with your human side. No fixing, no judgement, no deep trauma.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B533"
+        }
       }
     },
     {
@@ -22299,7 +24427,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome, thou holy food critic, to a fine dining experience at the finest, tiniest, sweetest spot of them all, recognized with three highly unofficial stars for its exceptional cuisine. We promise thee the tiniest gastronomic experience of thy life, please don't come hungry.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B534"
+        }
       }
     },
     {
@@ -22342,7 +24474,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Our cycle is many things — sometimes a wonder, sometimes shameful, sometimes annoying. So how do we become stronger in every phase? In this workshop/lecture we explore how your cycle influences your brain, emotions and energy — and how to work with it, not against it. I'll share some of the newest research on how body and mind are affected, plus concrete tools for the luteal phase, when our body demands special attention and care.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B535"
+        }
       }
     },
     {
@@ -22388,7 +24524,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Want to make a small ring or an artsy creation? This workshop will be a collaboration of your own imagination and the metal. I will give a small introduction of blacksmithing, then guide you in the process. Iron, copper and brass will be available for you to turn into the art you fancy.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B536"
+        }
       }
     },
     {
@@ -22429,7 +24569,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Explore your nightdreams' potential through dance- & drama therapy",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B537"
+        }
       }
     },
     {
@@ -22468,7 +24612,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Unleash the mind-bending, nerve-wracking and gut wrenching power of breath, sound and sriracha. Let your ego dissolve into a whirlpool of snot, beats, burps and tears during this guided 45 minute journey. Somatic, traumatic, fantastic. Taster discretion may be advised.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B538"
+        }
       }
     },
     {
@@ -22511,7 +24659,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Twist wire and crystal beads into a Tree of Life as a dreamcatcher, earrings, or a gift. A calm, hands-on crafting session to ground yourself in the BL madness while making something beautiful. No experience needed. Come by, get creative, and leave with a little magic.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B539"
+        }
       }
     },
     {
@@ -22555,7 +24707,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Born to jest and afraid of being forced to joust? At the grand tournament there will be room for all! We're hosting several workshops for creative souls. Come make your own shield, chainmail jewelry, a medieval camp banner or leather harnesses, or indulge yourself in our array of less competitive activities.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B540"
+        }
       }
     },
     {
@@ -22596,7 +24752,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Ever wonder why optical illusions work? Our brains are wired to survive, not show reality. We're hallucinating our experience! We’ll use cognitive science to expose our mind’s glitches, and spiritual practices to break our programming. Skeptics and mystics share one goal: understanding reality.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B541"
+        }
       }
     },
     {
@@ -22639,7 +24799,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Nails. Fingertips. Metal claws, for the brave. That slow, delicious drag across skin - the shivers, the goosebumps, the don’t stop. Practice asking for just so: exactly where, exactly how. Scratching, clawing and tickling in pairs, triads and groups. Cosy, playful, relaxing.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B542"
+        }
       }
     },
     {
@@ -22684,7 +24848,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Want an easy, low-pressure way to invite someone for a kiss, fully up to the other person? Get a small consent tool, a playful burner practice from Germany, in 10 minutes. The Bureau provides. Grab a stack for your camp. What is it? Come find out. No kissing onsite involved!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B543"
+        }
       }
     },
     {
@@ -22728,7 +24896,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Have you been traumatized by a cold spoon enforced between your legs as part of a \"health\"\"care\" program? Or do you feel like you're missing out since you haven't experienced it? This is your lucky chance to have your Healing Cold Spooning™ experience. Come with a (pair of) testicle(s) and get ready to become whole again!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B544"
+        }
       }
     },
     {
@@ -22773,7 +24945,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come sin at the Sinagogue - step into our surreal temple of ancient Jewish rituals, sexy confessions, and holy missions. Come discover god's true religion, when it has no son and no spirit to hold it back.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B545"
+        }
       }
     },
     {
@@ -22810,7 +24986,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Crispy fried tacos & ice-cold craft beer! Fried corn tortillas, melted cheese, flavorful vegetarian filling, topped with fresh pico de gallo — juicy, salty, spicy, sweet & tangy. Paired with good vibes and daytime techno. Come for the tacos, stay for the music and community!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B546"
+        }
       }
     },
     {
@@ -22853,7 +25033,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Talk for dreamers, makers, builders, artists. Come together to this open space to share your experience with bringing your dreams and your art alive. What are your motivations? Your highs and lows? Lets talk...",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B547"
+        }
       }
     },
     {
@@ -22898,7 +25082,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "An invite to all the younger Borderlings to come and strut while showcasing their best wardrobe fashion from this year's burn. There will be some kid friendly snacks as well. All kids are guaranteed two walks on the catwalk. Maybe more depending on turnout. Sorry mom and dad…",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B548"
+        }
       }
     },
     {
@@ -22941,7 +25129,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Myth Constellation is a small-group ritual where dreams, stories, questions and inner images are given bodies. A gate, creature, child, forest, longing or hidden gift may step into the room through a participant. Through movement, sensation, speech and witnessing, we listen for the myth already moving beneath ordinary life.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B549"
+        }
       }
     },
     {
@@ -22982,7 +25174,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "You’ve learned a few tricks with the contact staff but don’t really know how to combine them yet? In this workshop we’ll look into some cool transitions, combos and recoveries that will allow you to have more fun and give you more confidence in your flow.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B550"
+        }
       }
     },
     {
@@ -23027,7 +25223,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "There is a safe, comfy, cheap, effective and temporary contraception method for peo- ple with testicles: thermal contraception. A (silicone) ring keeps your marbles close to the body for 15 hours daily, altering sperm production to achieve reversible infertillity. Come for a personal report plus Q&A. Location TBC, will be posted at the Imaginarium. Open to people with and without testicles!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B551"
+        }
       }
     },
     {
@@ -23073,7 +25273,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Sinking Gold Souer Stars is a 6 member figure swimming group. We do a stunning 2 minutes figure swimming show!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B552"
+        }
       }
     },
     {
@@ -23117,7 +25321,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Ready to connect on a deeper level? Through silence and sustained eye contact, eye gazing invites you into intimacy, vulnerability and genuine human connection. As mental chatter settles, profound closeness may emerge — and your body may release oxytocin, the bonding hormone. Open to everyone, first-timers and practiced gazers alike. Powerful emotions may arise; we'll hold a safe, supportive space together. Bring a friend, partner, stranger or mirror — or come alone, we'll pair you up! Welcome lovelies <3",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B553"
+        }
       }
     },
     {
@@ -23160,7 +25368,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come with me and have a new sensory experience what it’s like living with a visual impairment. A chance to enhance your other senses in a playful way. All participants will get a pair of glasses blurring your vision. You won’t be completely blind. Together we’ll get comfortable and then do activities that challenge the way you use your senses. Let’s play together!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B554"
+        }
       }
     },
     {
@@ -23205,7 +25417,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Explore the polarity of leading and surrendering through rope in the format of a tantric ritual. Going slow, deep and juicy. Come with a partner.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B555"
+        }
       }
     },
     {
@@ -23246,7 +25462,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Be ye thirstin' for a cold refreshment? Climb on up to the Seagull's nest and splurge on the frozen droppings of our feathery shepherd Steven Seagull. His creamy blessings taste remarkably like soft ice cream (mjukglass!), whether eaten from yer cup or favourite body part. Weather dependent.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B556"
+        }
       }
     },
     {
@@ -23290,7 +25510,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Experience Argentine tango – an intimate dialogue through movement, connection, and music. Together we explore the fundamentals of this beautiful dance, guided by the timeless sounds of traditional tango. As this recurring event unfolds, each session will build naturally on the last, allowing us to gradually deepen our understanding and expression.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B557"
+        }
       }
     },
     {
@@ -23331,7 +25555,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come and dance tango together! Learn the basics, grab a partner and feel the heat!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B558"
+        }
       }
     },
     {
@@ -23376,7 +25604,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Muay Thai is a martial art with a long tradition. Let´s have a session together! We´ll guide you to some basics and to have fun with it. If you want to spar please bring your own mouthgard. We have a couple of gloves to borrow, but bring your own if you by chance brought them to BL. (A sign at the camp gives directions to a nearby grassarea, since we need space.)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B559"
+        }
       }
     },
     {
@@ -23420,7 +25652,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "What do you truly want, right now, at this moment? Step into the center. Speak your wish aloud. Others may step forward, offering to fulfill it. Give and receive a respectful no. Give and receive an invigorating yes. Both are beautiful. Come experience the magic that happens when desire is spoken clearly, boundaries are honored, and connection becomes real.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B560"
+        }
       }
     },
     {
@@ -23451,7 +25687,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Seeking Mr. Daniel W, who entered into marriage with Miss Roxy K in the year 2024. Please report to The Hills when the sun is at its highest (2:00 PM, Wednesday, July 22nd) to finalize the termination of the marriage.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B561"
+        }
       }
     },
     {
@@ -23496,7 +25736,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "An educational workshop on the art and practice of fisting — all bodies, all genders, all levels of curiosity. We cover anatomy, warm-up, hand positioning, breathing, aftercare, and how to communicate without killing the mood. Detailed demonstration using ourselves as examples. Gloves and lube provided; bring towels and a friend. Couples or groups of three only, at least one fistee.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B562"
+        }
       }
     },
     {
@@ -23540,7 +25784,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "What if oracle cards and pendulums could be appreciated without believing in anything mystical? Explore these ancient tools as catalysts for creativity, intuition and fresh perspectives. The question isn't \"Are they true?\" but \"Can they help us ask better questions?\" Playful exercises show how random prompts reveal hidden assumptions and enrich brainstorming, decisions and self-discovery. Bring curiosity, skepticism or intuition — no beliefs expected. Changing your mind is optional; expanding it is the experiment.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B563"
+        }
       }
     },
     {
@@ -23582,7 +25830,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Three taboo doorways, one question: can ecstasy be technology for waking up, not escape? No New Age fluff, no puritan fear tantra as practice, psychedelics as method, sex as transmission. We’ll dissolve the self epistemically, and put scientism itself on trial, whose epistemology gets to count as knowledge? Come ready to be provoked.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B564"
+        }
       }
     },
     {
@@ -23626,7 +25878,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A wisdom circle on the menstrual cycle with Luna, honour your blood, your rhythms and your inner seasons. For everyone who bleeds or has ever felt ruled by the moon. Soft, sacred, one afternoon 🌙🩸",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B565"
+        }
       }
     },
     {
@@ -23667,7 +25923,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "In this workshop we will do some fun and casual improv theater games. Beginners are welcome as well as advanced, no pressure - lets be playfull and have fun together!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B566"
+        }
       }
     },
     {
@@ -23708,7 +25968,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We approach shibari through a slow and playful dance between the masculine and feminine residing in all bodies – using the ropes as a medium for giving and receiving, leading and surrendering. We will move through connection and tension, creating a container where every wrap of rope becomes a meditation in embodied trust and connection. Bring a partner.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B567"
+        }
       }
     },
     {
@@ -23745,7 +26009,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Do you have a conflict with a friend here at Borderland that you'd like to take to court? Do you need to cleanse the air about a matter? Do you have an urge to finally delare yourself the winner of this conflict? Come to us and let us guide you, mislead you, analyse and transform you! Solve your conflicts in a playful, non-deadly duel to the death.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B568"
+        }
       }
     },
     {
@@ -23791,7 +26059,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Unleash your primal force! Cast off your garments and paint your face with sacred ash, as we wrestle with vigour to the beat of the drums under the loving watchful eyes of the Fire. All bodies and skill levels are welcome. Safety measures in place, though we all share this responsibility.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B569"
+        }
       }
     },
     {
@@ -23820,7 +26092,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Transgender folks of the Borderland, let's swim together! Come with me and make a safe space for us to practice body positivity, and take a step towards feeling more comfortable in your body among peers. On wednesday afternoon we'll gather at the Fire Plaza, then walk together to the nearby eastern lake where we will undress and have a dip. Nudity and swimming completely optional but very much encouraged! In case of bad weather this event will be pushed to Thursday.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B570"
+        }
       }
     },
     {
@@ -23861,7 +26137,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "How do you apply the Burning Man principles in your real life? How can we improve? Discussion workshop.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B571"
+        }
       }
     },
     {
@@ -23902,7 +26182,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Want to feel more Awe? Join on this wimshical walk and try to feel as much wonder, admiration, and magic together. Come as you are and frolick.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B572"
+        }
       }
     },
     {
@@ -23943,7 +26227,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come and experience music as a powerful way to connect, express your self, and be part of something shared. In a guided, playful and supportive space, you’ll free your voice, open your awareness and explore the joy of creating music together. No experience is needed. All voices are welcome!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B573"
+        }
       }
     },
     {
@@ -23975,7 +26263,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Those that know the secrets of rolling, and those that seeks the knowledge of the Role. Those that are curious about the rituals aorund the Herbs and those that know the meaing of the hand gestures. Those that have sat in the circle and those that are seeking the circle. Those whom have been both passanger and conductors of the train.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B574"
+        }
       }
     },
     {
@@ -24016,7 +26308,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come sing in a once-in-a-lifetime fake orgasm choir! You will become a member of a collective fake sex noise choir with a serious conductor. The workshop does not include touching or sexual contact of any kind. Interested only in our concert? Join us 10 minutes before the end of the workshop!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B575"
+        }
       }
     },
     {
@@ -24057,7 +26353,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "This meditation class explores our relationship with our inner critic, offering practical tools and gentle approaches to help soften that negative inner voice.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B576"
+        }
       }
     },
     {
@@ -24102,7 +26402,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We've all been there, the nerves, the bad dates, the \"why didn't they text back\". Or maybe you're just getting started and don't quite know where to begin. This is your chance to ask the questions you've always had, share your stories, and learn what actually works in dating, with self-proclaimed experts and fellow daters trying to navigate the dating jungle. Fun, honest and just what you needed. Your Don Juan era starts here. Come ready to share. Leave ready to date.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B577"
+        }
       }
     },
     {
@@ -24145,7 +26449,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Singer-songwriter Jeroen Marcelis shares his songs about Life, Love and Loss (and more…). Vocal cords and guitar strings that stroke your ears and might even touch your heart. Come and enjoy these analogue sounds to counterbalance the electronic abundance.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B578"
+        }
       }
     },
     {
@@ -24189,7 +26497,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A non-verbal feast where you can only feed others. Borrow a venetian mask and step into the Secret Garden as a creature attending a magical feast. However, the Garden magic means you cannot talk, and you cannot put food in your own mouth, only others. Drop in or out at any time during the event.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B579"
+        }
       }
     },
     {
@@ -24230,7 +26542,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to The Herd! We dance in the afternoon calm (Tue-Thu, 14:30–17:30). Join the pack for daylight grooves, great company, and a refreshing cup of our home-brewed mango-lemon sour beer from The Pink Parasol Potion Bar! 🥭⛱️🔮",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B580"
+        }
       }
     },
     {
@@ -24274,7 +26590,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A place for parents to come together with their babies/toddlers for a little sess of tummy time!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B581"
+        }
       }
     },
     {
@@ -24311,7 +26631,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Tumble down the rabbit hole for an afternoon of Alice in Wonderland tales and other curious surprises. Curl up, get cozy, and lose yourself in the wonderfully strange world of Wonderland. Kida and inner kids are warmly welcome. 💖",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B582"
+        }
       }
     },
     {
@@ -24350,7 +26674,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Improv for detectives in training! Caught red handed mid-investigation? Throw a red herring at them with some quick thinking. Assume a completely different identity on the spot. This workshop will teach the basics of improv but is suited for all levels.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B583"
+        }
       }
     },
     {
@@ -24394,7 +26722,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "¡Amigos! Are you ready for a fiesta, full of passion, amor and tequila? Then join us for some sweet latin rhythms and the smooth taste of El Famoso Tequila Sánchez! Feel free to show up in culturally appropriate attire like sombreros, ponchos and ballroom Latin dresses. All ages welcome.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B584"
+        }
       }
     },
     {
@@ -24441,7 +26773,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Does guilt weigh heavy on your soul? Have you tasted the sweet nectar of sin? Redemption is but a confession away. Present your guilty conscience to our saints, horned demons & mystical beasts. The turning wheel decrees your fate: tender discipline or absolute pleasure. Survive our verdict and claim an official decree of Absolution — innocent of all misdeeds for the next hundred days.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B585"
+        }
       }
     },
     {
@@ -24482,7 +26818,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Who would you become if you stopped telling the tales that have defined you uptill now? Questioning the tales that we like to tell ourselves can lead to self-transformation. It's introspective, intense self-work and a great start to all the shenanigans of a burn. Dont be late, bring water.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B586"
+        }
       }
     },
     {
@@ -24525,7 +26865,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "No bullshit-ink… we're getting real… you will be seen… you will practice… right there! Connecting through questions with yourself and far more — we practice repair on the spot. Min. 3 techniques. No hiding… and I might trigger you — by coming over, you give me permission. If possible, come with somebody, whatever your relationship. It all ends well — and if not… it's not the end!!! Muhahahaha",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B587"
+        }
       }
     },
     {
@@ -24567,7 +26911,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Workshop on the basics of Bachata. Bachata is a latino partner dance originally from Dominican Republic.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B588"
+        }
       }
     },
     {
@@ -24604,7 +26952,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Aren't all miniature things cute? Imagine finding them at a festival - or even building them yourself. At MINIKEA, you'll build your own miniature furniture using tiny materials, questionable instructions, and just enough chaos to keep things interesting. Craft a microscopic chair, a uselessly small table, or something that definitely was not in the manual. Take your tiny masterpiece home to your kinky doll house, no questions asked. Come unwind, get crafty, and meet other mini-freaks.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B589"
+        }
       }
     },
     {
@@ -24648,7 +27000,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "With face paint, costumes, and a bit of imagination, we'll transform our cute little ones—and any grown-ups who feel called to join—into creatures from around the world. Together, we’ll wander around the playa, spreading smiles, joy, and a little bit of wild magic. Come celebrate your playful side and reconnect with your inner animal!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B590"
+        }
       }
     },
     {
@@ -24687,7 +27043,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Delay like a pro! In this workshop, we’ll not start anything meaningful on purpose. We’ll bond over distractions and reasons not to act. Bring your unfinished to-do list, then ignore it with flair. Let’s waste time, brilliantly! Come late, leave later, achieve nothing.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B591"
+        }
       }
     },
     {
@@ -24726,7 +27086,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Lay back, relax, and let your imagination fly, it’s cloud watching time! Spot dragons, donuts, dancing llamas. Who knows what floats by? Bring your wildest daydreams, and some chill vibes. No rules, no rush, just sky-gazing joy and fluffy fun above.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B592"
+        }
       }
     },
     {
@@ -24769,7 +27133,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Clown games are easy, silly and absurdly fun. No winners, no losers, no audience. No any experience, talent or equipment needed. Just a willingness to play games and have fun! No physical contact required. Clothing & Sobriety optional. *Not that kind of play, you pervert.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B593"
+        }
       }
     },
     {
@@ -24808,7 +27176,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Some follow the music. Others follow the smoke. Wander into the Low Lands, just south of Snack Plaza, where glowing coals, happy bellies, and friendly faces await. We grill with heart, season with joy, and serve questionable grill-master jokes free of charge.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B594"
+        }
       }
     },
     {
@@ -24851,7 +27223,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Wanna show off your noisy party tricks? Can you whistle through your front teeth? Make really loud farts with your knees? Are you the Queen of queefs? Valborg of Silly Sanctuary will be the judge!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B595"
+        }
       }
     },
     {
@@ -24890,7 +27266,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We have all been there: the best part of the night was the pre-game. The anticipation through the roof, sparkling wine flowing, skirts on and off hunting for the perfect outfit, crowding the mirrors smudging rainbows on each other's faces, glitter everywhere (bio, of course). That perfect tipsy trance you only reach with the bestest of friends. We, the Tahinians, welcome you to an event where the WHOLE party is the pre-game. The party never stops because it never begins — so it's... forever? We bring the glam, mirrors, sparkling wine and vibes ❤",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B596"
+        }
       }
     },
     {
@@ -24934,7 +27314,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Make your own wooly sauna hat! Rose guides you through the wet art of felting where, after hard work and patience, you walk out with a hat truly made with love. No experience needed. Level up your sauna game! 8 spots, and bringing a friend to co-create a hat with is always magic! Bring a towel!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B597"
+        }
       }
     },
     {
@@ -24975,7 +27359,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Bear takes it slow. Join us for an afternoon of dub reggae in the sun. Warm bass, cold drinks and deep sounds on our hand-crafted sound system. Mellow out and sip on drinks from the bears and friends.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B598"
+        }
       }
     },
     {
@@ -25019,7 +27407,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A soft, playful invitation to connect with your inner creature and meet fellow creatures through the art of body painting. We’ll use color, creativity, and consensual touch to celebrate the beauty of diverse bodies, and rediscover the freedom of creating and connecting through play. You will either be the canvas or the artist. You can have just a part of your body or face painted, or your entire body. The amount of clothing you choose to wear is entirely up to you.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B599"
+        }
       }
     },
     {
@@ -25062,7 +27454,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Spy Bar is a top secret operation disguised as a bar, or maybe the other way around. Either way, you’re already being watched. If you make it through security, you might make it to the bar. Drinks are classified. If someone calls you Agent, just go with it. If someone calls you infiltrator, run.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B600"
+        }
       }
     },
     {
@@ -25106,7 +27502,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Join The Heart for a moment of slowness and reflection. This will be a facilitated circle, where everyone gets the opportunity to become still, to witness self and others, and to share whatever is moving inside. No WooWoo, just genuine humanness. Please be sober.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B601"
+        }
       }
     },
     {
@@ -25151,7 +27551,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A guided journey from personality > soul > spirit, meeting our soul current and rewiring whence service flows: from sacrifice to overflowing cup. By cracking our heart open to what truly matters, real purpose emerges. Advanced: requires holding your emotions and meeting another as a pure mirror.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B602"
+        }
       }
     },
     {
@@ -25188,7 +27592,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to The Mothership Takeoff. This is our one and only departure. The Containerpark Launchpad will be used only on this day. Travellers access midday, under the warming sun. Bring your curious playful self, we want you onboard. Celebrate the wonders of life on earth, dance and connect. As the sun sets, we gather close to launch our energy into space. Expect a journey far far away, until reunited with the rising sun.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B603"
+        }
       }
     },
     {
@@ -25233,7 +27641,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Do you want to explore more about how to enter dominant/submissive space on both an internal and relational level? Perfect for both newbies and old-timers wanting to get a deeper understanding of how to get to, remain in, and enjoy power play, or just to have fun in a safe space. No partner needed.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B604"
+        }
       }
     },
     {
@@ -25260,7 +27672,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Confess sins, spill gossip and spread scandal in exchange for Bloody Marys at this hangover haven hosted by unholy sisters in honour of the saint of questionable decisions and unbelievable excuses. Better start sinning; the masses are thirsty.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B605"
+        }
       }
     },
     {
@@ -25291,7 +27707,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A facilitated purification ceremony in the lodge, in darkness, heated by stones from the fire. Four rounds cover body, emotions, thoughts, and the basic conditions of our existence. Join to let go, to transform, to shift perspective, to be born again.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B606"
+        }
       }
     },
     {
@@ -25337,7 +27757,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Hands, paddles, canes and whips. Learn how to use them to create sensations that mix pleasure and pain on your skin. We will cover basic techniques, communication and use different tools to leave your skin tingling and bodies craving more. Impact tools will be provided, but you can also bring your own.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B607"
+        }
       }
     },
     {
@@ -25380,7 +27804,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Let's create a hobby horse together. Create your mare of dare or your stallion of batallion! Material and tools are on premises. You can use your creation for Thursday's hobbyhorse contest.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B608"
+        }
       }
     },
     {
@@ -25424,7 +27852,54 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Workshop with the Wheel of consent. Experience consent through play and foster sensibility for the different modes of desire.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B609"
+        }
+      }
+    },
+    {
+      "id": "2026-07-22-15-30-lowlands-grid-square-p13-mapping-the-river-of-your-sex-life",
+      "title": "Mapping the River of Your Sex Life",
+      "dayId": "day-2026-07-22",
+      "date": "2026-07-22",
+      "time": {
+        "start": "15:30",
+        "end": "17:30",
+        "crossesMidnight": false,
+        "display": "15:30 - 17:30"
+      },
+      "category": "Workshop/Class",
+      "campHosts": [
+        "Pink Parachute"
+      ],
+      "campHost": "Pink Parachute",
+      "location": {
+        "name": "Lowlands, grid square P13.",
+        "area": "Lowlands",
+        "gridSquare": "P13",
+        "notes": "grid square P13."
+      },
+      "gridSquares": [
+        {
+          "column": "P",
+          "row": 13,
+          "key": "P13",
+          "label": "P13"
+        }
+      ],
+      "tags": [
+        "Adults only"
+      ],
+      "description": "A gentle, cute and creative space to colorfully draw the flow of your erotic story. No art skills needed. We’ll sketch rocky bumps, droughts, calm waters, waterfalls and floods of pleasure – making sense of your erotic history with curiosity, care and fun.",
+      "source": {
+        "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B610"
+        }
       }
     },
     {
@@ -25461,7 +27936,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Min chéri! Too much techno minimale is melting your hjärna, no? Mi amor, being cool all the time is deprimente. Basta! Kom dansa och be dumbom with os. Meine Liebe we vill stjäla your dans moves and hear you zingen out lout in the language of amore (danish?).",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B611"
+        }
       }
     },
     {
@@ -25503,7 +27982,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "BOOKINGS > Primarily for women, but all are welcome. A safe, consent-led journey into trust, sensation & release through sensual massage, breath, music & energy work. Held by grounded masculine presence, with care & without ulterior motives. Intimate, but NEVER sexual. More INFO & BOOKING @ CAMP.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B612"
+        }
       }
     },
     {
@@ -25546,7 +28029,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "An interactive tour around the playa while learning detective skills. Following suspects, interrogating witnesses, examining crime scenes, we'll do it all. We'll leave 16:10, try to be on time or your first detective case will be to find the group.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B613"
+        }
       }
     },
     {
@@ -25590,7 +28077,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Instead of strange dick you'll be getting a snack. It's sushi being fed through a hole in the wall. So drop to your knees, open wide and get ready for some rice with fish on it.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B614"
+        }
       }
     },
     {
@@ -25630,7 +28121,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "D — Hype/Chaos-Energie (242 Zeichen) ERIC IS 31! Time to relive the golden age of birthday parties: potato races, chocolate-unwrapping with gloves, freeze dance showdowns. Chai Chill Chinchilla yurt, all ages of chaos welcome. Bring snacks, bring energy and gifts for Eric if you want.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B615"
+        }
       }
     },
     {
@@ -25672,7 +28167,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Workshop on the basics of LA Salsa. Salsa is a latino partner dance originally from Cuba, LA Salsa is a style developed in Los Angeles.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B616"
+        }
       }
     },
     {
@@ -25713,7 +28212,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Have you always wanted to explore Borderland? But also want to party? And you refuse to choose because choosing is for people with self-control? The High(est) Priestesses of the Rosewater Cult x Disciples of Alba invite you to a sacred party procession across Borderland. Wear pink.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B617"
+        }
       }
     },
     {
@@ -25754,7 +28257,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Have you run out of limbs to spin your stick on? Fear not. In this workshop we will explore rolling about on the floor, manipulating contact and dragon staffs with our legs and feet. Some sticks available, bring your own if you have :)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B618"
+        }
       }
     },
     {
@@ -25799,7 +28306,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come, whoever or whatever you are, and share with us a cup of delicious Turkish coffee and a sweet baklava.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B619"
+        }
       }
     },
     {
@@ -25840,7 +28351,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Want a memory recorded from this burn in a form of audio recording of you singing / rapping / playing an instrument on house beats? Come sing or play an instrument over our house beats",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B620"
+        }
       }
     },
     {
@@ -25879,7 +28394,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A corner of Paris in the woods — wine, peanuts, and the art of l’Apéro.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B621"
+        }
       }
     },
     {
@@ -25920,7 +28439,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Ever wonder what’s hiding behind all those masks you wear? Come strip away the fake stuff, explore who you actually are underneath, and maybe discover something weird, mystical and wonderful in the process. We’ll peel back the layers a few times, get uncomfortable, get real, and possibly meet the deep unknown. No judgment, just honest chaos and self-discovery. All the real magic happens when you stop pretending. Will you dare to?",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B622"
+        }
       }
     },
     {
@@ -25957,7 +28480,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We are honored to finally welcome you to the opening vernissage at the world’s first museum solely dedicated to Bad Arts, and the aesthetic, artistic and academic center for the Bad Arts movement. Expect red wine, difficult words, pretentious debates, a human chocolate fountain and lots of Bad Arts.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B623"
+        }
       }
     },
     {
@@ -26001,7 +28528,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "BubblesDowntempoStrawberryMeringue- party Do you love the slower vibes? Do you love to dress up in your sluttiest outfit and indulge? So you like bubbles and strawberries? Then this BDSM party is for you! We are celebrating our 1 year anniversary with our favorite things, Bubbles, Downtempo, Strawberries, Meringue and getting dirty! Put on you sluttiest you, bring out your dirtiest moves pop those bubbles and celebrate with us!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B624"
+        }
       }
     },
     {
@@ -26044,7 +28575,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Learn how to fold origami cranes and, if you wish, hang them in our tipi to create a collective artwork. Folding one doesn't take long, you can show up at any time in the slot.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B625"
+        }
       }
     },
     {
@@ -26085,7 +28620,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to this dynamic & playful vocal workshop! Beyond words and set melodies, we'll improvise & explore the correllation between body and sound, movement and bodylanguage. Seriously fun and madly liberating",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B626"
+        }
       }
     },
     {
@@ -26125,7 +28664,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "For one hour only! Special shower will be offering the most unique of experiences. We will gather and store the graywater from the Hot sauna and you get to use it as shower water. Never before has it been possible to take a shower with the ass sweat of thousands of hippies. First come first served!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B627"
+        }
       }
     },
     {
@@ -26166,7 +28709,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "In this musical group meditation we celebrate being alive on this Earth and pledge our gratitude and devotion to our Sacred Earth. Our process involves vivid dancing, quiet reflection, and shared hugs.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B628"
+        }
       }
     },
     {
@@ -26210,7 +28757,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Merge with others through interactive audiovisual heart and brain biofeedback stimulation.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B629"
+        }
       }
     },
     {
@@ -26249,7 +28800,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Bring your life question. The Oracle will reveal the answer. Leave with clarity , confusion, or both",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B630"
+        }
       }
     },
     {
@@ -26293,7 +28848,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Sweet plebs and underlings of the Borderland - this is your chance to up your status. Come play the game and be ready to take on a whole new character and place in society. Work on your royal wave, your Marie Antoinette impressions, don your poor paper boy hats and prepare to Tufthunt like you never have before. Off with their heads! Or off their heads? Who knows, but it will be a party and it will suitably be after the jousting tournee with the Jolly Jousters. All in favour? Ay!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B631"
+        }
       }
     },
     {
@@ -26338,7 +28897,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Every day at 16:00 we rise from the Pond and parade to the lake, lesbian flag flying, for 2 hours of swimming, floating, splashing and sun. Beavers, nymphs & neighbours all welcome to join the procession. Come get wet with us 💦🏳️‍🌈 Meet at the Pond, follow the flag.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B632"
+        }
       }
     },
     {
@@ -26382,7 +28945,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "In this ritual / workshop, we work collectively with the archetype of the nursing mother and the layers of energy which flow magically between nurturing & pleasure. Regardless of gender, we go into states of receiving and giving through exploration of touch (especially chest and nipples) on ourselves and others, guided by respect, gentleness and curiosity.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B633"
+        }
       }
     },
     {
@@ -26423,7 +28990,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "This is a 2x40min guided session of thai massage which is fully clothed and uses bodyweight to soften dense muscles, calm the nervous system and relax our bodies. You will work in pairs, come with a friend or make new friends.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B634"
+        }
       }
     },
     {
@@ -26459,7 +29030,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Bring a partner and make love on the moss forest floor in closeness of others.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B635"
+        }
       }
     },
     {
@@ -26500,7 +29075,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Get the feeling of a threesome without the icky fluids! Sensual, mildly sexual, experimental massage in your underwear between 3 warm souls. Bring a blanket/towel + triangle friends or find them here. Touch, body folding and 3D massage techniques. No penetration –for plausible deniability 😉🙈❤️‍🔥18+",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B636"
+        }
       }
     },
     {
@@ -26543,7 +29122,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Do you have what it takes to reach fungal equilibrium? Whether as a team of contestants or merely as a spectator, come join Brent Chister and Skip Halloway as they test Borderlings, such as yourselves, on their knowledge of psychoactive, mycelium and burner-cultural knowledge while getting to also showcase some of their inner talents for cocktails, edible prizes, recipes, fun and of course, Borderland street cred.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B637"
+        }
       }
     },
     {
@@ -26589,7 +29172,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "This workshop is a facilitated group play where the only allowed form of interaction is biting. We will invite you to interact with each other in many different constellations, biting and being bitten. The focus: playing as a larger group, and fluidly getting in and out of different constellations. We will start slow and sensual and build up to a true biting orgy. Bring a towel or a blanket to lie on.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B638"
+        }
       }
     },
     {
@@ -26632,7 +29219,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come and play, with nothing and everything, imagine worlds and of course some silliness, lots of it! Shhhhh what is there when you can listen?",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B639"
+        }
       }
     },
     {
@@ -26671,7 +29262,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Let's have a flash mob for a friendly pillow fight! Let's play by Burnberry Rules, aka no strike on person on the ground, no strike on innocent bystanders (person w/o pillow), if someone raise both hands they should be granted safe passage out of the fight. No excessive force. Also LNT, if your pillow rupture, help clean up afterwards. You can play with any soft pillowish object, inside out bag for sleeping bag, stuff sack.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B640"
+        }
       }
     },
     {
@@ -26716,7 +29311,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "An album listening lounge with pop up burlesque performances. Wanna do a striptease to a high fidelity classic album on vinyl? Get in touch with Kitty and BYO-burlesque costume",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B641"
+        }
       }
     },
     {
@@ -26760,7 +29359,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Imagine a room where people flow between each other like a living organism: Playful, present, and deeply attuned. That kind of magic doesn't happen by accident. Join us to explore consent, communication, boundaries, and practical tools for navigating sex-positive spaces with care. Because the best orgies are an art of trust, awareness, and practice.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B642"
+        }
       }
     },
     {
@@ -26801,7 +29404,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Workshop on the basics of Salsa Cubana. Salsa is a latino partner dance originally from Cuba.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B643"
+        }
       }
     },
     {
@@ -26845,7 +29452,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Salmiakki, this wonderful nordic elixir of gods. Lets taste different kinds! Feel free to bring your own selection as well.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B644"
+        }
       }
     },
     {
@@ -26888,7 +29499,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Missed your best friend's birthday? Went traveling on yours? Just here for the cakes? Here is your chance to make up for it! Come join the first annual time traveling birthday party! We'll jump around dates, sing \"Happy Birthday\" and yes, there will be cakes (bring to share!)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B645"
+        }
       }
     },
     {
@@ -26934,7 +29549,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Simple rules. Complex strategy. Infinite chaos. And one very personal piece of equipment. Welcome to the sport you never knew you needed.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B646"
+        }
       }
     },
     {
@@ -26975,7 +29594,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "You are invited for a restful inner journey through soft movement to loosen the body, yogic breath exercise to soothen the mind, and deep guided relaxation to recharge the soul. Come and recharge between adventures on the playa 🪷Bring a Yoga mat",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B647"
+        }
       }
     },
     {
@@ -27018,7 +29641,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Together we dive into a colorful flow on canvas, connect to ourselves and our intuition- no particular art skills needed!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B648"
+        }
       }
     },
     {
@@ -27058,7 +29685,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A series of presentations on how humans wound up with Patriarchy. Lesson 1 - The First 96% of Human History Lesson 2 - Earth Goddess vs Sky Father Lesson 3 - Conquest and Control Lesson 4 - God Hates Women Lesson 5 - A Path Forward",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B649"
+        }
       }
     },
     {
@@ -27102,7 +29733,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Brother— When was the last time you felt truly seen without judgment, held without expectation, and deeply desired simply for the man you are? You are invited into a sacred space. We are your devoted circle of women, waiting with open hearts and open arms to witness you, challenge you, and lovingly mirror you back to the truth of who you are. Your sisters are waiting. Will you answer the call? Only 20 - 25 spaces available",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B650"
+        }
       }
     },
     {
@@ -27147,7 +29782,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Ready to turn up the heat and have a fiery adventure? Learn how to play with flammable bubbles that produce dazzling fire flashes, smother them with your hands or spank them off (willing) partners. Then paint and light up fuel trails along your body (fleshing), eat fire, and breathe burning vapors.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B651"
+        }
       }
     },
     {
@@ -27190,7 +29829,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A quick upper body session before entering the night. Legs and hips will work the dancefloors, so hit the discopump to activate some circulation & mood, and maybe pump your muscles/veins with some extra confidence/selflove💪🪩 there will be music, mirrors & a workout ready to be worked.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B652"
+        }
       }
     },
     {
@@ -27229,7 +29872,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Dreamy analogue synths and psychedelic guitar riffs blend with downtempo beats and noises from another dimension. The live set begins with ambient textures opening space for drum machines conjuring the Brazilian spirit. Enjoy your trip while sipping on Sencha or grooving to the sound.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B653"
+        }
       }
     },
     {
@@ -27269,7 +29916,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A soft, playful invitation to connect with your inner creature and meet fellow creatures through the art of body painting. We’ll use color, creativity, and consensual touch to celebrate the beauty of diverse bodies, and rediscover the freedom of creating and connecting through play. You will either be the canvas or the artist. You can have just a part of your body or face painted, or your entire body. The amount of clothing you choose to wear is entirely up to you.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B654"
+        }
       }
     },
     {
@@ -27313,7 +29964,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "As Jenny Benny I’ll sing as both a man and a woman, performing duets with myself. It will be a short musical performance where I invite people into Jenny Benny’s world for a little while. It’s playful, emotional, sometimes funny and sometimes touching. My hope is simply that you leave with a smile and a song in your heart.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B655"
+        }
       }
     },
     {
@@ -27356,7 +30011,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Kettuilua/foKsing around",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B656"
+        }
       }
     },
     {
@@ -27399,7 +30058,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Do you need some rest before the marvelous adventures of the night? Let the Borderland fairy read you some stories while you nap in a big cozy tent with big cozy pillows. Both Children's books will be read while we serve you blueberry tea and homemade sweets. Let us take care of your inner child for a while, love.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B657"
+        }
       }
     },
     {
@@ -27436,7 +30099,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Workshop on the basics of Zouk. Zouk is a partner dance originally from Brazil.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B658"
+        }
       }
     },
     {
@@ -27479,7 +30146,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Learn how to tease, dance and express yourself in new ways in this fun, spicy and beginner-friendly burlesque workshop! Optional: Bring a jacket or kimono, and we will learn some creative ways to take it off! All genders welcome.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B659"
+        }
       }
     },
     {
@@ -27524,7 +30195,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "You thought pancakes are innocent ? Well let us introduce BuPankakke What? Bukakke and Pancake - are you serious?! Yes we are! Come to our lustern grown-up take on how to consume pankakes while getting the creamy topping loaded or your pancake and face. Self expression like moaning is explicitly welcome *Note the jizz consists of vegan whipped cream ;)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B660"
+        }
       }
     },
     {
@@ -27561,7 +30236,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Bar's Open Tonight The bar's open with some good music drifting through the camp. Come hang out, for the evening, and let your night start here. Sink into our soft hay bales, look up at the lanterns swaying in the wind, and grab a drink with us. Ps. there might be crispy fries. See you at the bar.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B661"
+        }
       }
     },
     {
@@ -27606,7 +30285,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come and compliment rap battle a Dane, play metal with a Finnish Swedish, wanna be this, Norwegian, We welcome foreigners that have mastered our languages. Or people who just wanna learn/ observe the beauty of Scandinavia! Be hot or be Iceland",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B662"
+        }
       }
     },
     {
@@ -27645,7 +30328,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Happy Hour à la Française! — Sparkling wine, peanuts, and the art of l’Apéro.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B663"
+        }
       }
     },
     {
@@ -27684,7 +30371,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Blending bass-driven grooves, harmonic textures, and hypnotic rhythms; sounds that move between organic warmth and powerful club energy. Expect a carefully curated 3-hour voyage full of global influences, emotional moments, and dancefloor-driven intensity — music that connects cultures, emotions, and movement into one shared experience.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B664"
+        }
       }
     },
     {
@@ -27725,7 +30416,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come on by and one of our playful bartenders will serve you a special non-alcoholic Schorle made just for you. Each of us has their own unique way of serving, so you never know what you'll get. Don't know what Schorle is? Soon you will!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B665"
+        }
       }
     },
     {
@@ -27769,7 +30464,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Let your body speak the language of the feminine. Sensuality, power, confidence, self-touch, self-love ❤️ A choreography class where you are guided to feel it all. A portal to get ready for the night. Limited to 30 people, first come first danced 💃 On barefoot. Open to women and queer beings 🏳️‍🌈",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B666"
+        }
       }
     },
     {
@@ -27815,7 +30514,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Paint your naked canvas and let yourself go at our naked rave thats starts around 19h30 behind closed doors inside the Church.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B667"
+        }
       }
     },
     {
@@ -27858,7 +30561,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Open to all curious bodies to explore creative and playful dancing through bodyweight-sharing, balance, and creative expression. Via guided exercises and open dance jam, participants discover new ways of moving, listening, and responding through the body in a respectful and consent-aware space.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B668"
+        }
       }
     },
     {
@@ -27902,7 +30609,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "What's better than eating pussy? Eating pancake of a pussy! Bring your own human plate (doesn't have to be a pussy) or come and hook up with a plate on-site. Plates will of course also be served a pancake (on their human). No fucking at this event. The pancake police will be watching! Ps. For the purpose of this event all genitals are pussies.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B669"
+        }
       }
     },
     {
@@ -27945,7 +30656,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Discover what happens when you stop trying and simply allow. Life Force Activation is a unique energy experience that can bring greater aliveness, freedom, connection, and inspiration. Limited to 15 participants. To support a safe container, please attend substance-free.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B670"
+        }
       }
     },
     {
@@ -27971,7 +30686,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We’ll make dough, collect+sharpen sticks and bring everything to bonfires around Borderland and feed the hungry masses.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B671"
+        }
       }
     },
     {
@@ -28008,7 +30727,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Our one and only - Varieté show! Diverse mix of playful circus performances, art, music, laugh and everything you can only imagine. Stop for the moment and allow yourself to dive into Analogue presence and evening full of magic.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B672"
+        }
       }
     },
     {
@@ -28054,7 +30777,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Naked rave! We start with some slow techno and flow over to techno with a housy vibe. We only allow naked or mostly naked people so they can feel free and equal. At 22h the doors open for all and our normal party night starts.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B673"
+        }
       }
     },
     {
@@ -28096,7 +30823,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Money is an energy that has a deep influence on our personal lives, and it shapes our collective unfolding as a species. Therefore, it is about time that we start healing our relationship to money. You will be guided on a healing-journey with meditation and music. The element of spanking will also be present for those who wish to use this as a tool to purge out the old.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B674"
+        }
       }
     },
     {
@@ -28137,7 +30868,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "What happens when skin meets fishnet? Something softens. Step into a space of flowing fabric, gentle music, and consent-based touch where we slow down, explore texture, and melt a little into shared presence. A sensual, non-sexual cuddle workshop. Some fishnets will be provided, or wear your own.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B675"
+        }
       }
     },
     {
@@ -28177,7 +30912,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "20.00 Live: Anna Jois Disco classics from a fantastic live singer 21.00 CORNEA Flirty, funky, groovy tech and deep house 22.30 Madura Hi-energy minimal tech house 00.00 Literally Gabriel Driving tech house with endless energy 01.00 Zo fus B2B Frika Nöx Dirty, sexy vocal tech house, and dark techno",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B676"
+        }
       }
     },
     {
@@ -28216,7 +30955,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "CaSINo is Club SIN’s twisted casino, where sincoins, shame, dignity, luck, and temptation are all on the table. Play sinful casino games; blackjack, poker, and roulette, win juicy treats, accept delicious punishments, and gamble your comfort zone away. Come place your bet, commit your sins, and lose yourself with us tonight at caSINo...",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B677"
+        }
       }
     },
     {
@@ -28256,7 +30999,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Commit wicked sins or accept deserved punishments from our curated menus at SIN Bar, Club SIN's handcrafted wooden haven beside the dancefloor. Earn sincoins, ask nicely, and our SINtenders may reward you with cocktails, non-alcoholic delights, special snacks, and redeeming treats. Sinful tonight?",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B678"
+        }
       }
     },
     {
@@ -28297,7 +31044,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Latin Dance party! An evening of Salsa and Bachata social dancing. Bring your partner and get steamy, or ask a cute stranger to dance. Perfect opportunity to practice what you learned in our previous workshops!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B679"
+        }
       }
     },
     {
@@ -28334,7 +31085,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Bubbles come in all sizes, from the tiniest sparkles in a glass to the shiniest of spheres on the grass. But this pre party is more than just cava, music and big shinny balls: hidden delights are scattered like raisins in a cake. Small surprises and unexpected moments await. A great lift-off point before the night takes off!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B680"
+        }
       }
     },
     {
@@ -28378,7 +31133,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "You never know what life will give you. So why don't leave it to chance? Come and spin the furry wheel of fortune and he will tell you exactly what you need. See you at the Explorers pre-party on Wednesday. Look for the shiny balls.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B681"
+        }
       }
     },
     {
@@ -28415,7 +31174,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to join the opening ritual of the Passage to Lemuria! Together we'll open a temporary world beyond time, where connection, care and collective imagination take root. Step through the portal and enter a night filled with DJ's, performances, dance and music.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B682"
+        }
       }
     },
     {
@@ -28458,7 +31221,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Bring your own medicine and journey inward through music, stillness and movement. A held ceremonial space with DJing, live keys, drums and percussion, moving from soft introspection into embodied dance. Intimate gathering for 20–50 people.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B683"
+        }
       }
     },
     {
@@ -28502,7 +31269,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Let's have a deep and authentic dialogue about important and controversial topics. Maybe it's something Borderland related, or something from the default world that impacts us all. Let's listen to each other's perspective with an open heart and mind and maybe we can integrate all those polarities a bit more.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B684"
+        }
       }
     },
     {
@@ -28545,7 +31316,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A silent, movement-based workshop in presence, consent, and human connection. No words, no partner needed. Move alone, orbit others, meet someone — really meet them. Rooted in somatic consent and tantric awareness.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B685"
+        }
       }
     },
     {
@@ -28589,7 +31364,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to the Temple of Sound 🪐 Enter a sacred space of breath, healing sounds and powerful vibrations. Through gongs, didgeridoo, throat singing, drums, flutes and handpan, we will guide you through an immersive journey into altered states of consciousness. 🌌",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B686"
+        }
       }
     },
     {
@@ -28629,7 +31408,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to The Wheel of Pleasure, where your yes is the only rule. Set your boundaries, choose your toys, don the blindfold, and let fate decide how many hands will deliver playful, teasing sensations across your body. You won’t know who. You won’t see them. You’ll only feel. Spin the wheel. 😈",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B687"
+        }
       }
     },
     {
@@ -28673,7 +31456,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Opening-night magic: pin your heart to the Soul Matchmaking Board and let the Pond play cupid. We'll show you how it works, then set you loose to find your person (or your Tuesday-night U-Haul partner). Bring your crush energy 🐸💘",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B688"
+        }
       }
     },
     {
@@ -28714,7 +31501,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Anchor down at The Wrecked Yachtees Asylum for a night of kernels and chaos! We’re turning our deck into the finest snack-port in the festival. Whether you’re craving salty sea-spray or sweet sunshine, we’ve got the goods to transform your plain corn into a culinary treasure. -> B.Y.O.C. (Bring Your Own Cup): Bring your favorite vessel, fill it to the brim with our fresh-popped gold, and customize it with a sea of magical drizzles and enchanted toppings.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B689"
+        }
       }
     },
     {
@@ -28757,7 +31548,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Experienced practitioners: let's co-experiment blending relational immediacy (SL) & tantra/temple space! Time/place TBD—reach out. Find a sign at Secret Garden or look for me at morning Circling. Ask for Schoepa (naked/fur-dressed). I'm queer & a trauma-informed facilitator.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B690"
+        }
       }
     },
     {
@@ -28798,7 +31593,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A participatory photo experience for fire spinners celebrating Gifting & Immediacy. Step into a professional photo setup during your fire flow. Receive a printed photo or sticker, then watch your digital image be ceremoniously sacrificed to the Delete Button.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B691"
+        }
       }
     },
     {
@@ -28841,7 +31640,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "THE CLASSIC NAKED JAM! Ur invited, this always goes super lit ! So just watch join on ur way to your trip! Spectators are important participants in a jam (no nudity required)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B692"
+        }
       }
     },
     {
@@ -28884,7 +31687,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Feeling cuddly, full of love and in the mood for live and laid back jazz? Come relax with like minded humans all in need for some rest and romance 💕",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B693"
+        }
       }
     },
     {
@@ -28924,7 +31731,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "If you have the courage to come find our coven at night we will reward you with a special treat! Only a few will experience our special magic ritual and learn how to cast spells. Will it be you? (We serve groups of 2-8 people for 15 to 30 minutes. Kid Friendly!).",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B694"
+        }
       }
     },
     {
@@ -28969,7 +31780,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come to Lucifer's Pit and offer your most dark, slippery and nasty thoughts. What is stuck inside you and wants to come out? What do you wish to abandon to the void? You are invited to enter the realm of Darkness. Share your soul with the Darkness, but beware - it might respond…",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B695"
+        }
       }
     },
     {
@@ -29007,7 +31822,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to the opening night of the Passage to Lemuria! Together we'll open a temporary world beyond time, where connection, care and collective imagination take root. Step through the portal and enter a night filled with DJ's, performances, dance and music. Come at 20:00 to join the ritual performance and landing ceremony!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B696"
+        }
       }
     },
     {
@@ -29048,7 +31867,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Organica, tribal, hypnotic grooves and driving rhythms to guide you deeper into the Lemurian frequency. 120-130BPM",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B697"
+        }
       }
     },
     {
@@ -29091,7 +31914,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A wildly subjective investigation into the psychoactive properties of ABBA. Join a slightly unhinged host for a musical journey through longing, ecstasy, heartbreak, tribal belonging, and joy. Through stories, singing, dancing, and audience participation, we’ll explore why ABBA remains one of humanity’s most effective mood-altering technologies. An official pre-party for the dance floor...",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B698"
+        }
       }
     },
     {
@@ -29135,7 +31962,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Erotic Theatre: Borderland's adult stage, by The Fuckery — exhibitionists perform, voyeurs get front-row seats. Amateur strippers, dirty stand-ups, fire breathers, burlesque artists — and maybe you? Got a spicy act? Propose it and perform for open-minded peers. Or come laugh, gasp and be entertained. Plus \"Fever Night\": a dreamy live drama ritual flowing into our PlayNight…",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B699"
+        }
       }
     },
     {
@@ -29176,7 +32007,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Flow through Borderland at night and get into optic flow with the colors and lights. I’ve always wanted to try this, and it would be a lot cooler if you came along. Let’s check out some of the light art! Social-pace jog (~6.30-7.00/km), ~4km on easy paths. I have headlight and hi-vis vest.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B700"
+        }
       }
     },
     {
@@ -29219,7 +32054,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Enjoy the journey of electronic beats. Dream, dance and vibe!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B701"
+        }
       }
     },
     {
@@ -29260,7 +32099,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A safety briefing for fire spinners who want to play at The Fire Brigade's fire jams or spin before the effigy. We will walk you through our safety protocol and give you a token of trust. Wear natural fabrics to play with fire (cotton, wool, linnen, leather).",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B702"
+        }
       }
     },
     {
@@ -29297,7 +32140,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A classic Divine Dough artisan pizza evening with live music and a place to sit by the fire. Gluten free pizza available also.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B703"
+        }
       }
     },
     {
@@ -29338,7 +32185,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A downtempo chill set — dance, sway, or just melt into the beauty of the Chilldome!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B704"
+        }
       }
     },
     {
@@ -29379,7 +32230,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "SIN Salabim is Club SIN's exclusive members' lounge, where indulgence meets luxury. Entry has its price, but once inside, every pleasure is free. Relax, indulge, connect and explore—because the richest rewards aren't always made of gold.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B705"
+        }
       }
     },
     {
@@ -29420,7 +32275,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Witness the power of fire bending! Fire spinning and performances, chillspace and hot tea. We have fuel and safety equipment. Wear natural fabrics to spin or help with fire safety. Attend a safety briefing at 21:45 if you want to spin. Bring your fire props or borrow from us.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B706"
+        }
       }
     },
     {
@@ -29463,7 +32322,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Velvet Lounge appears on its own schedule: look for the open sign 🕯️. Gender-ambiguous bartenders pour your drink and read your tarot. Slow dance barefoot. Fall backwards into deep conversation. Shy kisses only. A sensual, surreal, softly clown-haunted place for warmth and connection 🔮🥀",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B707"
+        }
       }
     },
     {
@@ -29508,7 +32371,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "As the sun sets over Alversjö, The Nocturnal Oddities awaken! Let yourself be seduced into our velvety world of glamour and delicious mischief. Where circus magic, variety and performance art unfold in a celebration of the strange and unusual.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B708"
+        }
       }
     },
     {
@@ -29549,7 +32416,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Bear rumbles. Lose yourself in heavy dubstep, UK bass and other low-end sounds. Expect chest-rattling bass on our hand-crafted sound system until the early hours.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B709"
+        }
       }
     },
     {
@@ -29595,7 +32466,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Church Clubnight. Expect pounding Techno music, and an extremely sexy and arrousing vibe. Open playspace during this event until 4!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B710"
+        }
       }
     },
     {
@@ -29635,7 +32510,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "An unknown object have been spotted in the sky and it's trajectory points to The Grateful Grogg, Alversjö. Origin and intention of the visitors are at the moment unknown and hence security protocol GROGG-CON X have been activated: An alien themed welcome party to ensure peace in our galaxy. All earth diplomats encuraged to partake.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B711"
+        }
       }
     },
     {
@@ -29668,7 +32547,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "An open gathering in a shared space, without facilitation, inviting connection, encounter, and free expression in a sex-positive. Participation is based on personal responsibility, mutual respect, clear communication, and care for boundaries.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B712"
+        }
       }
     },
     {
@@ -29705,7 +32588,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Freshly squeezed. Unexpectedly seductive. You never know what an orange juice might lead to 🍊✨",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B713"
+        }
       }
     },
     {
@@ -29744,7 +32631,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Informal tea ceremony. We will make and enjoy some fine teas fitting the mood. Limited capacity.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B714"
+        }
       }
     },
     {
@@ -29772,7 +32663,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A meat bar containing dry-aged beef will pop up and serve you one of your best meat experiences at Borderland. So good songs have been written about it! Come and join in a big meat-focused BBQ experience! This is meat tasting and not a full meal. It's never too late to try meat again :D",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B715"
+        }
       }
     },
     {
@@ -29800,7 +32695,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Throughout their travels, the Storyteller has gathered innumerable stories about all manner of wondrous things. The only guarantee is that the story you will hear has never been told before and will never be told again. So look out for the Storyteller to hear a unique tale told just for you.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B716"
+        }
       }
     },
     {
@@ -29841,7 +32740,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A playful journey guiding you through space with live vocals and mesmerizing frequencies. A mix of psychedelic trance, sassy deep cuts and high-energy DnB. Expect 140–170 BPM and plenty of surprises. Come join the opening night for the Passage to Lemuria.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B717"
+        }
       }
     },
     {
@@ -29886,7 +32789,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "As the sun goes to sleep, we its lovers gather to praise the Moon in sweet & poetic ways. In between the trees we find a melancholic clown, the stars, a rabbit and a goddess & we meet the many faces & phases of Grandmother Moon. Come howl, sing, listen and whisper to this celestial being with us.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B718"
+        }
       }
     },
     {
@@ -29926,7 +32833,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Are you a player or a pryer? Exhibitionist or voyeur? Whichever — you are the star and deserve to be treated like one. Unexpected sexy popups play with your senses; live music, international DJs and the intimate sounds of daring lovers immerse you in the night. The Wall of Shame, the Exhibitionist Booth, the Voyeur Glory Keyhole — or will you dare take center stage, watched by all, performing your most decadent deeds? Welcome to The World Is a Stage, at The Fuckery!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B719"
+        }
       }
     },
     {
@@ -29971,7 +32882,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We are Late Night! - A talk show pretending to be on air, complete with commercial breaks, celebrities, skits, and technical difficulties. We give Borderlings their 15 minutes of fame, highlighting their colorful characters, stories, and talents, all the while trolling them lightly 😈 Hosted at the wonderful 🎪 CIRCUS the ANALOG 🎪",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B720"
+        }
       }
     },
     {
@@ -30002,7 +32917,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "You shuffle hungrily through the cold night, freezing and slightly disoriented across the vast borderlands. Then — a delicious scent pulls you in. You hear cheerful, murmuring voices. Salvation is near: a pot of rich, soul-reviving fondue awaits you. Dip your bread into the melted cheese, and feel love and contentment spread through your grateful stomach.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B721"
+        }
       }
     },
     {
@@ -30047,7 +32966,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A warm communal cuddle-nest in the Summerge tent, held by Regina through the small hours. Crawl in, get cozy, be held against the cold and the loneliness. 🐸🌙",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B722"
+        }
       }
     },
     {
@@ -30093,7 +33016,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Ain’t ready for performing at the Cabaret just yet? This is the place to show your tricks that are too silly, short, bad, naked or disgusting for a normal stage. Challenge people in raspberry blowing or take your pants off while unicycling. Applause decides if you deserve a treat or a drink!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B723"
+        }
       }
     },
     {
@@ -30130,7 +33057,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come and get your tummies filled.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B724"
+        }
       }
     },
     {
@@ -30176,7 +33107,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Hexemutters Galehus Warning: experimental medicine cabinet. 41 remedies — yours to judge, yours to draw. Side effects include self-knowledge, mild existential crisis and uncontrollable honesty. We are not responsible for what the cards unlock. Always open. We never sleep. Unless we sleep. Wake us and die",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B725"
+        }
       }
     },
     {
@@ -30205,7 +33140,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "When you've packed up all of your mojo, your tent feels impossibly far away, and truthfully.. you've got a tiny existential wobble brewing, come find us. Lazy Treats Hour will serve you hot toasties, silliness and giggles, plus a generous serving of camp love. Survival, but make it fabulous.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B726"
+        }
       }
     },
     {
@@ -30242,7 +33181,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Some say it moves when no one´s looking. Others say it only reveals itself to those who truly need a wish granted. In any case, if you find it: Hang a wish, tie a secret, weave a promise into its bark. Maybe it grants them, maybe it eats them. Either way, your business is no longer your own.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B727"
+        }
       }
     },
     {
@@ -30282,7 +33225,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We will be serving icy stuff at random times. It’s up to the universe whether you get lucky or not.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B728"
+        }
       }
     },
     {
@@ -30321,7 +33268,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Yet another anomaly is manifested by the Keepers of Le Observable Universe: a pop-up version of the Supernova Sandwich Station. Every bite is a cosmic revelation. Interact with celestial beings, meet fellow travelers, and play games that bend spacetime. Who knows - you might uncover the universe’s deepest secrets…",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B729"
+        }
       }
     },
     {
@@ -30363,7 +33314,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Fast, hard and unapologetically queer. Hyperpop, glitch and reggaeton collide in a sweaty, high-energy dancefloor journey. Come join the opening night for the Passage to Lemuria.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B730"
+        }
       }
     },
     {
@@ -30400,7 +33355,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Send your(other)self a message in form of postcard from Borderland. Capture the fleeting moment and extract it out before it vanishes. Come hangout at Socialen, we offer a relaxed space to settle in a reflect for a moment and write yourself or others about your current state of mind.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B731"
+        }
       }
     },
     {
@@ -30441,7 +33400,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Brave enough to grab the mic? No singing skills needed! The Sweet Spot will never give you up, nor let you down. Instead we will serve all brave kareoke singers a warm pancake, fresh off the griddle. Top it however you dare: sprinkles, dried fruits, syrup, peanut butter or chaos. Glory awaits the bold!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B732"
+        }
       }
     },
     {
@@ -30473,7 +33436,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Time capsules: portals to the past, filled with memories for future generations. Seal photographs, letters or trinkets — 4 capsules, one per cardinal direction, co-created and sealed by different neighborhoods at the end of this year's Borderland. In 2027 they'll be buried under permanent art, for future archaeologists or extraterrestrials to wonder what strange not-a-cult walked this land.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B733"
+        }
       }
     },
     {
@@ -30506,7 +33473,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Dust, sweat, glitter and forest. Bring water and enjoy a moment of warmth, care and renewal before returning to the adventure. Built with Leave No Trace principles, deep love., and a steadfast faith in my close to nonexistent technical skills.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B734"
+        }
       }
     },
     {
@@ -30551,7 +33522,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Cleanse your tarnished palette with irresistible flavors, and join us in a dark tasting ritual; a rite of passage for anyone calling themselves a zealot of the true black gold. It will be sweet, it will be salty, it will be gluttonous, and it will be sacrilegious. Welcome, to the cult of liquorice!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B735"
+        }
       }
     },
     {
@@ -30592,7 +33567,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Dark, deep and immersive electronic sounds for a hypnotic journey into the depths of Lemuria. Come join the opening night for the Passage to Lemuria.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B736"
+        }
       }
     },
     {
@@ -30638,7 +33617,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Pleasure & Pain Night is an interactive experience with four guided stations: Magic Massage, Cuddle Corner, Sensation Surrender and Impact Zone. Explore, learn and connect at your own pace, with facilitators to guide you and a central dance floor for movement and connection.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B737"
+        }
       }
     },
     {
@@ -30681,7 +33664,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Enter the small hobbyhorse contest. Open for everyone from horse whisperers to harness pulling whipping artists. BYOHH. If you haven't your horse with you, create one at Wednesday's hobbyhorse creation workshop. Disciplines: showjumping and dressage.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B738"
+        }
       }
     },
     {
@@ -30724,7 +33711,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Open circling. Unfacilitated, and co-created. My definition is that circling is a practise of connecting with ourselves and with others. A practise to feel our feelings and sensations. If something pushes to be voiced, it’s expressed without filtering.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B739"
+        }
       }
     },
     {
@@ -30767,7 +33758,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A journey into the lower realms to meet your power animal or guide that will give you a vision of what you need to see and hear. Meet a guide for life and unlock tools for growth and change.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B740"
+        }
       }
     },
     {
@@ -30813,7 +33808,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Kidsville serves breakfast: waffles, pancakes, Kaiserschmarrn and other delights. Bring your plate, spoon and smile",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B741"
+        }
       }
     },
     {
@@ -30852,7 +33851,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Find a good spot anywhere and just sit back and people-watch while relaxing. It looks like a Borderland movie, doesn’t it?",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B742"
+        }
       }
     },
     {
@@ -30895,7 +33898,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Coffee is ready. The gossip fresh. Bring your cup, take a seat, and tune in to our live radio show with music, juicy stories, last night’s questionable decisions, surprise guests, and whatever else unfolds. Sip. Sit. Listen. Say something.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B743"
+        }
       }
     },
     {
@@ -30934,7 +33941,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Start the day on the mat with others through primal play, contact improvisation, Brazilian jiu-jitsu or a combination of the three. There is no facilitator and no fixed structure, just a shared space to explore, connect and move together. Whoever arrives first kicks things off with a five-minute Tabata.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B744"
+        }
       }
     },
     {
@@ -30973,7 +33984,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A cozy spot to gently come back to life after a long night of dancing. Pull up a seat for coffee, tea, and cookies, and ease into the morning at your own pace. No rush, no noise, just a warm place to wake up.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B745"
+        }
       }
     },
     {
@@ -31019,7 +34034,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "If you want to leave your pooch for a few hours in a quiet campground to be watched by two volunteers, consider coming here. It's hoped that people who leave their dogs also take a shift.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B746"
+        }
       }
     },
     {
@@ -31062,7 +34081,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Curious on Jungian philosophy and your unconscious? A dream matrix is a space where we share nightly dreams, in order to open up your unconscious and rediscover nightly dreams you'd forgotten. After the matrix there'll be a short teaching and sharing. See insta @BLdreammatrix",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B747"
+        }
       }
     },
     {
@@ -31106,7 +34129,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "What animal feels most like you? This is an invitation into playful self-expression. We'll try discover the creature that lives within, giving it shape, movement, and a voice of its own. You can be as wild or as quiet as your inner creature wants to be. There are many ways to play - all of them belong here. Primarily for children, but open to anyone!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B748"
+        }
       }
     },
     {
@@ -31148,7 +34175,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Participants will be soaked in orgone, showered with it, and possibly transformed by it. This is likely a once-in-a-lifetime opportunity to expose a large population to orgone. Available 24/7 for restorative use. Guided Sessions and experiments will be announced on white board at camp.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B749"
+        }
       }
     },
     {
@@ -31191,7 +34222,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "2 hours to connect with your true capacity and find what feels most true for you for this day and the festival. Max 20 people.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B750"
+        }
       }
     },
     {
@@ -31235,7 +34270,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We'll explore our voices through singing (mostly vocals) and a set of voice games. A workshop to activate you voice. An opportunity o dare to express yourself vulnerably through your voice. Perhaps your voice have been slumbering for years and is longing to be heard?",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B751"
+        }
       }
     },
     {
@@ -31278,7 +34317,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A place to meditate together in silence, and keep up your home practice, but in silent community. Do come along, first timers also welcome!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B752"
+        }
       }
     },
     {
@@ -31317,7 +34360,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The legend lives — and this year it walks among you! The curse of the Cave of Wonders has broken its seal: thieves, sorcerers and desert wanderers have escaped into the Borderland, and they're looking for you. For two days, live characters roam the camp weaving riddles, mischief and theatrical magic — a mysterious guide by the Bedouin Tent, a hidden clue, a quest you didn't know you'd joined. All welcome: every gender, every magic-maker. Queer stars of the Borderland, this adventure is yours too. Follow the whispers. Trust no one. Note: the Cave of Wonders escape room is open 24/7 for those who wish to go deeper.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B753"
+        }
       }
     },
     {
@@ -31358,7 +34405,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to Lunar Yoga - a yoga session using the ancient Kundalini yoga technology applied for WOMEN! Bring your yoga mat and reconnect with yourself. Satnam, Aline",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B754"
+        }
       }
     },
     {
@@ -31399,7 +34450,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come wrestle like puppies, move like ninjas and flow like water. Playfight & Flow is a movement workshop with games, soft sparring, balance battles and creative chaos - while exploring flow and the triggers that help us drop into it.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B755"
+        }
       }
     },
     {
@@ -31442,7 +34497,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Defy gravity and discover fluid movement trough dynamic sequences and surprinsing wraps. Come to fly in the air and transform the silks into your own canvas.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B756"
+        }
       }
     },
     {
@@ -31482,7 +34541,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Stuck in a conflict? Meet the CRT any day. We don’t take sides or decide for you. We’re here to listen, offer mediation tools, and help find ways to coexist. Stop by to chat, learn, or get support! Conflicts should be solved between those involved, but if that isn’t possible, you can turn to us!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B757"
+        }
       }
     },
     {
@@ -31525,7 +34588,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Energizing morning wellness routine as a mix of age-old body technologies and modern-day diva sounds. Breathe in and out with Mariah Carey and raise some kundalini energy for your day. Take a dip in the lake after!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B758"
+        }
       }
     },
     {
@@ -31570,7 +34637,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "One never has anything to do with another person without holding something of that person's life in ones hands. If meditation is an art of being Circling is an art of being-with Come explore who you are in the meeting with others and the incredible richness of human connection in all its flavours.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B759"
+        }
       }
     },
     {
@@ -31613,7 +34684,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A playful tantric journey through the six senses—touch, sight, sound, smell, taste, and intuition. Together we’ll explore presence, consent, curiosity, and connection in a safe, lighthearted, and heart-opening space.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B760"
+        }
       }
     },
     {
@@ -31657,7 +34732,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come enjoy a sound healing session followed by a workshop in weighted tuning forks.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B761"
+        }
       }
     },
     {
@@ -31698,7 +34777,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come enjoy the healing sounds of crystal singing bowls and vibrations of weighted tuning forks. We will enjoy 35-45 minutes of singing bowls and after that we pair up to enjoy tuning forks with different frequencies for the rest of the time.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B762"
+        }
       }
     },
     {
@@ -31743,7 +34826,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Greed | the art of wanting! Are you curious about the enticing world of BDSM? Learn to feel, own and share your desires. Explore how to establish a power dynamic, play with giving/receiving commands, practice navigating consent, boundaries and needs. Let’s play together! Please come paired | No experience needed | Fuck gender roles",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B763"
+        }
       }
     },
     {
@@ -31784,7 +34871,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Feeling stif after yesterdays shananigans? Come join a soothing cat yoga session inspired by mindful movements from our flexible, feline friends. We will stretch, de-stress and share a puurfect moment to get you ready for another day of playfulness in the playa. (There will be no live cats. You are welcome to bring your best cat pose). See you on the mat! Miav!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B764"
+        }
       }
     },
     {
@@ -31826,7 +34917,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Trust, balance, laughter and occasional graceful collapse. Learn to fly, catch, and connect through movement. No experience needed, just curiosity and a willing partner.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B765"
+        }
       }
     },
     {
@@ -31860,7 +34955,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Ask Your Father Anything. Pull up a chair and have the conversation you never had. Ask for advice, comfort, approval, understanding, or answers. Rage, laugh, cry, or sit in silence. For a moment, You will be met, listened to and if you want, answered.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B766"
+        }
       }
     },
     {
@@ -31904,7 +35003,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Queers & FLINTA* (women, lesbians, intersex, non-binary, trans & agender people), ready for a safer space full of care, creativity & community? Enjoy sauna, massages, make-up magic, fresh fruit, workshops and beautiful connections. Come by and let’s shine together!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B767"
+        }
       }
     },
     {
@@ -31945,7 +35048,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "No drums Electro acoustic and vocals Chilled out Electronic beats synths vocals and spacey sounds. Analog visual projection by Hanna Want to bring your synth? come half an hour before we start.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B768"
+        }
       }
     },
     {
@@ -31984,7 +35091,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Master the magical art of doing nothing! No goals, no to-dos just you, a comfy spot, and sweet, glorious idleness. Hug a tree, wiggle your toes, daydream wildly. It’s fun, it’s freeing, it’s fabulously unproductive. Permission to laze: granted!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B769"
+        }
       }
     },
     {
@@ -32027,7 +35138,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The civilized way to greet a Thursday. 🥂 The mimosas start flowing from 1100. Stay all day, then stumble over to SpacePort’s Cabaret a little sparkly. 💕🪂 cosima, Scottjeg, Alexander Paulski, One or Several Wolves, and Technymph lubricate the floor w/ saucy House, Disco & other top-shelf sleaze",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B770"
+        }
       }
     },
     {
@@ -32070,7 +35185,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Join a breakfast for champions: breakfast food will be served together with a side of sparks: new friends, maybe even a future partner and top shelf questions to ask each other.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B771"
+        }
       }
     },
     {
@@ -32113,7 +35232,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A morning vinyasa with an eclectic mix of Tai Chi, Qi Gong, somatics and a sprinkle of stand up comedy; we don’t take anything too seriously.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B772"
+        }
       }
     },
     {
@@ -32153,7 +35276,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Make brushing your teeth a fun and absurd way of getting to know new people and new toothpastes! We take you to a trip around the world's most exquisite toothpastes. BYOT (Bring your own toothbrush -and pimp it at our craft booth!-) No toothbrush ? Pass by for a shot of mouthwash you stinky hippie ! Fun toothpastes ? Bring them all !",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B773"
+        }
       }
     },
     {
@@ -32198,7 +35325,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Melt into the soft hours with a slow, juicy yin yoga practice for femmes loving femmes (butches & nb folks included). Long-held poses, deep breath, gentle touch, come home to your body by the water. All levels, all bodies. Daily at 11, bring yourself, leave puddly 🐸",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B774"
+        }
       }
     },
     {
@@ -32243,7 +35374,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Before there were stages, there were circles. Join us in an ancient practice of listening, sharing and witnessing. Together we cultivate presence, trust and the quiet wisdom that only a circle can reveal.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B775"
+        }
       }
     },
     {
@@ -32287,7 +35422,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Bring your favorite cloth that has a hole or more. We have string, needles, and patches for you to use. We can teach you how to repair your clothes with sashiko, weave darning, embroidery or patching. You can also bring your own project. Let's repair, create, learn and hang out together.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B776"
+        }
       }
     },
     {
@@ -32328,7 +35467,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A llight and easy Kundalini Yoga set with stretching, breathing exercises and relaxation at the end. Bring a towel or yoga mat.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B777"
+        }
       }
     },
     {
@@ -32371,7 +35514,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Hey Kids, let's dance! I invite you to join me for an hour dance moment. Put on your most colorful and shiny outfit. Let's put some great music, learn a few steps, and shake together! Feel the energy we share! (Adults/Parents are invited to sit down and whitness the magic happen if they want :) )",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B778"
+        }
       }
     },
     {
@@ -32395,7 +35542,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "All jewellery: $Free.99 I bring jewellery from all over the world to this magical little pop-up! Come pick the piece(s) that speak to you and leave a kind word for the next person. Walk off with your new jewellery and a mystery note from the person before you.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B779"
+        }
       }
     },
     {
@@ -32440,7 +35591,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "This circle is an opportunity for men to come together, practice vulnerability, listening without judgment, and creating a space where men can support one another with honesty, and mutual support.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B780"
+        }
       }
     },
     {
@@ -32483,7 +35638,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Cozy, low effort meetup for people that want a dedicated and chill place to craft. Find yourself in a cozy space to make your future flower headband or mend your burner coat. Some material/tools will be provided alongside of water and tea. But of course you are very welcome to bring your own craft stuff!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B781"
+        }
       }
     },
     {
@@ -32526,7 +35685,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Myth Constellation is a small-group ritual where dreams, stories, questions and inner images are given bodies. A gate, creature, child, forest, longing or hidden gift may step into the room. Through movement, sensation and witnessing, we listen for the myth beneath ordinary life.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B782"
+        }
       }
     },
     {
@@ -32560,7 +35723,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Secret porn star? Camera-phobic? Somewhere in between? Come explore what alters when a camera quietly witnesses you. Bring yourself, a partner, a throuple, a fantasy, a costume, an aesthetic, a secret spot—or just curiosity. Together we'll play with presence, performance, and the strange magic that happens when someone presses record. All footage © will be yours, it can be deleted right after or become a sexy cinematic 4k edit to enjoy later.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B783"
+        }
       }
     },
     {
@@ -32604,7 +35771,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Solve cases together on stage! Explore the dynamics of dominance and submission, and observe how your brain panics or triumphs in real-time. This safe space offers play, experimentation, and unpredictable insights. Bring your cases, curiosity, and a watertight alibi — you will need it.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B784"
+        }
       }
     },
     {
@@ -32646,7 +35817,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Do you love disco, house classics, groove in body and soul, ice-cold slushies, effortless community with openness, joy and warmth in focus? Then, my friend, you are welcome to our little social space and mini dancefloor under the disco ball's inviting glow next to our cozy tipi. Wednesday through Friday between approx. 12–15, DJ Divanté & DJ Simpqlicious with friends invite you all to celebrate life – because disco is life and disco lives in all of us!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B785"
+        }
       }
     },
     {
@@ -32687,7 +35862,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A gentle space to reconnect with your body. Join us for yoga, mindful movement, breathwork, and deep stretches to recover from dancing, release tension, and start or end your day feeling grounded. Everyone is welcome, no experience needed.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B786"
+        }
       }
     },
     {
@@ -32731,7 +35910,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Light and sound become your portal to altered states. Close your eyes and let the lamp guide you into colorful visions, deep relaxation, and expanded awareness — no substances, just your own mind. Come open and curious. Note: Not suitable if pregnant, under 18, with epilepsy, psychiatric/neurological conditions, photosensitive medication, or psychoactive substances in the last 24h.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B787"
+        }
       }
     },
     {
@@ -32768,7 +35951,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Enjoy chai, coffee, and cookies that taste like care, baked with love, served with presence and compassion. (There is a good chance that we will also serve coffee, etc outside our listed hours <3)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B788"
+        }
       }
     },
     {
@@ -32813,7 +36000,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Inside the Church, candlelight and crimson dress a feast of dark delicacies. Indulge. Let yourself be seduced, and see just how far that takes you. Before it's over, you may leave as someone, or something, else entirely.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B789"
+        }
       }
     },
     {
@@ -32856,7 +36047,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Step into the heated womb of Mother Earth. Guided by continuous circular breathing, we connect with the dark soil and feel the wild fire and energy rising from deep within our root chakra, pelvic floor and sex. Melt into the womb of creation, release your armor, and return to your powerful origin",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B790"
+        }
       }
     },
     {
@@ -32897,7 +36092,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "In this workshop we explore mingling and play on the dance floor. How do we create a dance floor that's a little more interactive, respectful and playful? Easy party steps will be handed out! No prior experience of dancing, mingling or sense of humor is required. Come as you are with curiosity in you back pocket!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B791"
+        }
       }
     },
     {
@@ -32941,7 +36140,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The borderland barber returns for the third year in a row to pimp up some hippy hair. Come to me and I’ll get you feeling beautiful and refreshed! As I am a barber I will be mainly focussing on shorter haircuts but feel free to pop by and have a chat if you do have longer hair in need of a trim and I’ll see what I can do! All genders, hair types and people welcome! Come see me and have your burner haircut sorted !",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B792"
+        }
       }
     },
     {
@@ -32981,7 +36184,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A guided Life Force Activation session with facilitator Julia Persson, with live vocals by Shamama. LFA is a gentle yet powerful energy practice: lie on a yoga mat, relax, and let music and touch on energy points guide your journey — physical movement, emotional release, expanded awareness or inner visions may arise. Reconnect with your authentic self beyond conditioning and fear-based patterns. ☉ Light breakfast 2–3h before ☉ Soft, comfortable clothes ☉ Avoid intoxicating substances 1–2 days prior ☉ Not recommended with epilepsy, third-trimester pregnancy, or history of schizophrenia/psychosis. Limited to 10 people.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B793"
+        }
       }
     },
     {
@@ -33022,7 +36229,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Drift. Dissolve. Improvised music played with strange instruments you've never heard and can't name. Horizontal participation strongly encouraged. Bring a blanket, leave your sense of time.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B794"
+        }
       }
     },
     {
@@ -33066,7 +36277,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A guided body scan like no other, accompanied by deep bass vibrations you won't just hear — you'll feel it. Join solo or with a partner; if practicing together, the meditation includes gentle, mindful touch for deeper presence and connection. We may finish with a short blindfolded free-flow movement session, letting the bass guide your body. Bring your own yoga mat, blanket or towel — and an eye mask or blindfold if you have one.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B795"
+        }
       }
     },
     {
@@ -33109,7 +36324,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A slow, static nude movement workshop exploring the dance of collective body sculptures through contact improvisation, acroyoga, &partner acrobatics. Will create living human landscapes playing with balance, support, texture, & form. Pencils&papers gonna be there to sketch the evolving compositions.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B796"
+        }
       }
     },
     {
@@ -33152,7 +36371,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Have you ever thought: \"Wait… what did she actually mean by that?\" Ask a Woman is a gathering where a panel of women answers (almost) any question men were too confused, shy, terrified, or Danish to ask. Not a debate, not therapy, definitely not a trap. Bring questions about dating, emotions, attraction, consent, mixed signals… Expect laughter, challenged assumptions, and at least one \"Well, it depends…\" No question is stupid. (Some answers may be.) ❤️🦄",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B797"
+        }
       }
     },
     {
@@ -33194,7 +36417,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We notice things about people all the time, but how often do we actually say them? This workshop is about closing the gap between what you silently appreciate and what you actually offer. We practice turning observation into gift. No performance. No pressure. Just the quiet radical act of telling someone what you genuinely see in them. Come with your eyes open. Leave with a lighter mouth.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B798"
+        }
       }
     },
     {
@@ -33233,7 +36460,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Roaming and ready to help with your drug-harm reduction questions, cigarette rolling assistance if you're too cooked, and equipped with bits and bobs which help people who choose to use drugs do so in a safer and more considered manner. He may be wearing a black T with \"Professor Paraphernalia\" printed on it, or not. Approach and be helped! Or be referred to DanceSafe who are probably going to do a better job x",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B799"
+        }
       }
     },
     {
@@ -33273,7 +36504,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Got lint? Put your hairy bellybutton to work and donate that gloriously useless fluff to something even more useless. Stuff it in our Collection Jar and receive a Certificate of Donorship. Enough fluff = possible hamster sweater. Do your part for recycling. Multiple donations accepted.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B800"
+        }
       }
     },
     {
@@ -33315,7 +36550,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Feeling stuck, heavy or too serious? Are you trying to micromanage your experience or feel it should be different? Thursdays at Borderland can often carry with it all of the above, or not?! Either way… come explore these themes and your relationship to them. Practice moving from heaviness to lightheartedness through improvisation, somatic exploration, expression and witnessing.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B801"
+        }
       }
     },
     {
@@ -33356,7 +36595,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Gratitude is a gateway to freedom. It is also a muscle that needs to be trained regularly. Josef will guide a gratitude-based meditation, while ambient musician Slow Moon takes us on an immersive live sound journey.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B802"
+        }
       }
     },
     {
@@ -33397,7 +36640,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A low-pressure guided movement playground inspired by bellydance, flamenco, Indian dance, hip hop and general weirdness. Explore hips, spine, hands, circles, waves, accents, softness and presence. No experience required. Just come move without needing it to become anything.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B803"
+        }
       }
     },
     {
@@ -33438,7 +36685,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Jenny Benny is a character I've created and I'm so happy to bring to Borderland — an elf-inspired figure, singing as both a man and a woman, performing duets with myself. Most songs are my own, written for Jenny Benny, plus a few fitting covers. A short musical performance, playful, emotional, sometimes funny, sometimes touching. My hope: you leave with a smile and a song in your heart.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B804"
+        }
       }
     },
     {
@@ -33475,7 +36726,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Sigil & Tattoo workshop Join us in creating a personal sigil from a word, intention, or desire. Through a simple ritual of letters and shapes, language dissolves into symbol—a mark that belongs only to you. Take your sigil home on paper, or choose to have it tattooed as a permanent reminder of this moment, this place, and whatever called you here. Every mark tells a story. Perhaps it’s time to write yours.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B805"
+        }
       }
     },
     {
@@ -33519,7 +36774,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "It’s always tea o’clock in Morocco, and it’s always tea-time in wonderland. And so, if you subtract the two, it’s tea time at exactly 13:00-15:00 on Tuesday and Thursday at Alice in Morocco. Come sit at the table for some strange stories, tricky riddles AND traditional Moroccan mint tea - there’s plenty of room, said Alice. And remember, while you can never have less tea, you can always have more;)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B806"
+        }
       }
     },
     {
@@ -33565,7 +36824,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Life Force Activation. Activate your kundalini/orgasmic life force energy in this practice. A safe space for you to explore your true self and expand your consciousness.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B807"
+        }
       }
     },
     {
@@ -33606,7 +36869,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come as you are or bring something to embroider on! There will be materials and tools to use and whatever you create is yours to bring with you home. A chill hangout open for quietness or conversations as we create with our hands <3",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B808"
+        }
       }
     },
     {
@@ -33647,7 +36914,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Curious about flying? Join our beginner-friendly Aerial Hoop Silks & Rope workshop and discover the joy of moving in the air! Learn basic poses, climbs, and transitions in a playful way. No experience needed, just curiosity. Gravity will still be there afterwards 😄",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B809"
+        }
       }
     },
     {
@@ -33691,7 +36962,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "This workshop moves beyond technique into relational impact. Choose lust, envy, anger, sloth, pride, care, teasing, or devotion, then use touch, rhythm, pauses, eye contact, breath, and impact to communicate it. Can your partner feel what your hand, paddle, or flogger is trying to say?",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B810"
+        }
       }
     },
     {
@@ -33730,7 +37005,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Ready for an appointment with your transformation? Transformation Office meets you with questions, not answers. Through conversation you receive a personal task — small, strange, a doorway to try something different. Hosted by Finnish wisdom curators. Coffee provided. Walk-ins welcome.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B811"
+        }
       }
     },
     {
@@ -33774,7 +37053,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "In this drop-in workshop you can take a photo of yourself or your friend with a Polaroid camera. We will bring colored cardboard, glue guns and accessories to decorate your photo, so you get to make a unique memento of this burn. No waiting, no e-mails, just immediacy and self-expression.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B812"
+        }
       }
     },
     {
@@ -33811,7 +37094,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Museum of Bad Art (MoBA) and MoBAxDEBATE presents one of the most urgent art debates of the year. Join the urgent debacle between the sheltered meaning of the Snail and the naked truth of the Slug. Expect nothing, learn less.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B813"
+        }
       }
     },
     {
@@ -33857,7 +37144,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come on over to Plutonia to take a spin and defy gravity! Learn a few beginner-friendly spins and tricks in a relaxed, welcoming class before diving into the Polegasm jam. Whether you're brand new or dusting off old skills, come learn, laugh, and stay to play.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B814"
+        }
       }
     },
     {
@@ -33902,7 +37193,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "One never has anything to do with another person without holding something of that person's life in ones hands. If meditation is an art of being Circling is an art of being-with Come explore who you are in the meeting with others and the incredible richness of human connection in all its flavours.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B815"
+        }
       }
     },
     {
@@ -33944,7 +37239,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Borderland celebrates creativity, freedom, and participation, but every culture also has its shadow. What happens when expression becomes performative rather than authentic? When novelty replaces meaning? When participation feels superficial, empty, or disconnected? This session begins with a short talk, followed by an open community discussion exploring these questions together. The aim is to reflect on the culture we are creating and the values we want to cultivate.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B816"
+        }
       }
     },
     {
@@ -33988,7 +37287,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "🙏 Reconnect with your body in a sacred, and supportive space for people with vulvas. Through guided practices, self-touch, and reflection, you'll explore your body's innate wisdom, pleasure, and power. A closed space for the first 20 participants to foster intimacy, trust, and connection.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B817"
+        }
       }
     },
     {
@@ -34028,7 +37331,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Play With Your Food - an opportunity to explore flavors and textures, your senses and your perceptions",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B818"
+        }
       }
     },
     {
@@ -34071,7 +37378,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We meet at The Observatory, find a quiet area near by. Discuss the technique and practice in a small patch of land. Participants will only need between 10-20 metres walking distance (walking back and fore in a very slow methodical motion). Will last around 45 minutes ending with a Tibetan bowl.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B819"
+        }
       }
     },
     {
@@ -34115,7 +37426,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Get ready for church service! Cover your sinful nipples with a pair of handcrafted nipple pasties! All nipples welcome!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B820"
+        }
       }
     },
     {
@@ -34161,7 +37476,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Want to make a small ring or an artsy creation? This workshop will be a collaboration of your own imagination and the metal. I will give a small introduction of blacksmithing, then guide you in the process. Iron, copper and brass will be available for you to turn into the art you fancy.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B821"
+        }
       }
     },
     {
@@ -34208,7 +37527,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Join us for a playful figure-drawing session with nude model(s) posing in a variety of positions. The session is open for every experience level, body and gender identities.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B822"
+        }
       }
     },
     {
@@ -34252,7 +37575,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "For couples, constellations and flirts wanting to connect deeper: 90 minutes to explore desires and boundaries and share them clearly and wholesomely, finding new avenues for how you click. Through connection games and authentic discussions, you'll leave feeling closer, with ideas to try later.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B823"
+        }
       }
     },
     {
@@ -34289,7 +37616,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Timetable of Alvheims psytrance journey through the Light and Dark🖤💛 Come join us for a deep and playful psychedelic dance ritual! Full lineup with artists will be found at Alvheim's Gate aswell as close to the sanctuary. Thursday 13:30 - 14:30 Find your Elven voice workshop 🧝 14:44 - 15:15 ☀️ Ceremony of The Light ☀️ 15:15 - 16:30 Deep psychedelic groove 16:30 - 18:00 Psychedelic bush prog 18:00 - 19:15 Groovy oldschool progressive psytrance 19:15 - 20:30 Full-on/Twilight 20:30 - 22:00 Minimal deep progresive psy 22:00 - 22:30 🌘 Ritual of The Dark 🌘 22:30 - 00:00 Scando-forest 00:00 - 00:15 Dance solo performance — The elf creature of the night 🧝 00:15 - 01:45 Darkprog-forest-twilight 01:45 - 02:00 15 minute Lazer harp performance 02:00 - 03:30 Darkpsy journey into faster bpms 03:30 - 05:00 Forest psytrance 05:00 - 06:00 Hi-tech 06:00 - 07:30 Deep psytech 07:30 - 09:00 Zenon/psychill The Gate is closing...🌀",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B824"
+        }
       }
     },
     {
@@ -34328,7 +37659,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come join the Elves of Alvheim to find your inner Elvish voice and let loose before the Ceremony of The Light will set the space for our full day and night journey through psychedelic soundscapes. Explorative voice activation, expect singing and jibberish, elf ears and creative expression to find the essence of your elvish creature.🌲🧝‍♀️🌬️",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B825"
+        }
       }
     },
     {
@@ -34373,7 +37708,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Want an easy, low-pressure way to invite someone for a kiss, fully up to the other person? Get a small consent tool, a playful burner practice from Germany, in 10 minutes. The Bureau provides. Grab a stack for your camp. What is it? Come find out. No kissing onsite involved!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B826"
+        }
       }
     },
     {
@@ -34416,7 +37755,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The runes is more than an alphabet for the Nordic folk. They carried spiritual meaning, magical significance, and were often used for divination, protection, and guidance. In this workshop will be learning the elder and younger Futhark and how to bind runes together into our own sigils. Bring an knife and a stick if you want to carve the runes into wood. Paper and pens will be provided.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B827"
+        }
       }
     },
     {
@@ -34457,7 +37800,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We are in the worst possible timeline! COME RESET THE TIMELINE AT THIS EPIC DANCE PARTY! We will only be playing music from 1995-2012! Dress in your best millennial outfit (statement necklace, galaxy leggings, clueless, manbun, UGGs, capris, layered shirts, playsuits) & get low-low-low. NO BEIGE!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B828"
+        }
       }
     },
     {
@@ -34498,7 +37845,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Tapping into our senses, of touch, smell, taste. Do you dare to close your eyes and rely fully on your chosen partner?",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B829"
+        }
       }
     },
     {
@@ -34541,7 +37892,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Bring an old T-shirt, tote bag, or any piece of fabric you'd like to give a new life to! Using borderland stencils, you'll be able to print your own design onto your clothing and create a unique keepsake from the event! No garment to customize? No problem! Fabric will also be available on site so you can create your own patch to sew onto your favorite clothes later.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B830"
+        }
       }
     },
     {
@@ -34586,7 +37941,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come sin at the Sinagogue - step into our surreal temple of ancient Jewish rituals, sexy confessions, and holy missions. Come discover god's true religion, when it has no son and no spirit to hold it back.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B831"
+        }
       }
     },
     {
@@ -34630,7 +37989,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Sensory Cocktail Party – Mix experiences, not beverages. Craft irresistible sensory cocktails from touch, scent, sound, taste, movement, temperature, and imagination. Name them, serve them, and surprise your fellow guests with a menu no other bar could offer.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B832"
+        }
       }
     },
     {
@@ -34669,7 +38032,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A daytime, lakeside, golden hour sound camp where we engineer atmosphere in real time and cater for some refreshing electrolyte drinks. Carefully tuned for a warm, physical, high-fidelity dancefloor. Music matched to the moment, as the Swedish summer sunset slowly approaches over the beautiful waters.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B833"
+        }
       }
     },
     {
@@ -34707,7 +38074,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Eld & Rötter invites you to a daytime dance party with DJs serving good tunes and grilled cheese sandwiches served hot. Come hungry, come wiggly, and let the beats, cheese, and forest magic melt together.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B834"
+        }
       }
     },
     {
@@ -34749,7 +38120,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A daytime set for people who want to relax in a hammock cocoon and tune into delicious hand-picked music. Mixing modal jazz, neo soul, instrumental hip hop, and whatever else fits the afternoon. Grab some shade and let the music take over your soul, body, and mind.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B835"
+        }
       }
     },
     {
@@ -34793,7 +38168,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We're here to make you work it - or rather, twerk it! Join us for a beginner-friendly booty bootcamp to make that badonkadonk clap - all genders & all booties welcome! Zero judgment - maximum jiggle! 🍑",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B836"
+        }
       }
     },
     {
@@ -34834,7 +38213,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to the wild west of gunslinging, an introduction to the world of double-headed poi!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B837"
+        }
       }
     },
     {
@@ -34875,7 +38258,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Do you remember life before the internet? Can you read a paper map? Have you ever made a mixtape from the radio? Congratulations—you may qualify! Join an informal gathering of Borderland's rarest creatures: participants aged 55+. Come meet fellow elders for stories, laughter, questions and connection.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B838"
+        }
       }
     },
     {
@@ -34918,7 +38305,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Why pay for a professional when you can get unqualified advice for free? I have no credentials, no expertise, nothing to lose, and have to admit results may vary. But I’m an excellent listener, and I will give you an answer. Looking forward to meeting your Borderland or default world dilemmas!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B839"
+        }
       }
     },
     {
@@ -34963,7 +38354,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Polegasm returns in a new form: an open pole jam where you can climb, flow, play, and connect throughout the night. Whether you're a seasoned pole dancer or simply curious, come spin, experiment, and share the energy in a welcoming, low-pressure space at Plutonia. Want updates or to connect with other pole dancers before the burn? Join our WhatsApp group: https://chat.whatsapp.com/HpT6ByvXTf0FiBPjGi5p3o?mode=gi_t",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B840"
+        }
       }
     },
     {
@@ -35004,7 +38399,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome all dominas. Bring one or two subs - or come alone or with a fellow domina. You will get to tie or secure your subject in the maner you like, then carefully write down the instructions on how others can interact with your art piece. And finally you can calmly stroll around the museum and play with the poor art installations. Preferably in small gangs 🧜🧞‍♀️🧛‍♀️🧝‍♀️",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B841"
+        }
       }
     },
     {
@@ -35048,7 +38447,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Experience Argentine tango – an intimate dialogue through movement, connection, and music. Together we explore the fundamentals of this beautiful dance, guided by the timeless sounds of traditional tango. As this recurring event unfolds, each session will build naturally on the last, allowing us to gradually deepen our understanding and expression.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B842"
+        }
       }
     },
     {
@@ -35089,7 +38492,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come and dance tango together! Learn the basics, grab a partner and feel the heat!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B843"
+        }
       }
     },
     {
@@ -35134,7 +38541,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Your body has been waiting for this workshop. Tantric Primal Play is about contact, play, and presence. A place for your inner animal to take the scene. On all fours we meet, in real freedom, real vulnerability, embodied safety and consensual fun.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B844"
+        }
       }
     },
     {
@@ -35173,7 +38584,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Wine tasting with a focus on wines with minerals. Come and replenish all the salts and minerals you just danced off, or just join us and enjoy some good wine!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B845"
+        }
       }
     },
     {
@@ -35215,7 +38630,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Step out of the noise into a harbor of quiet. Join an intimate, non-verbal midday ritual of radical presence, safe witnessing, and soft somatic connection. No expectations, no words required—just collective stillness.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B846"
+        }
       }
     },
     {
@@ -35258,7 +38677,55 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Sensuality isn't about sexuality; it's about feeling fully alive in your body. Through somatic exercises, we will release self-judgment while reconnecting with your body’s wisdom and awakening the sacred energy within. No experience needed; come as you are. For women only",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B847"
+        }
+      }
+    },
+    {
+      "id": "2026-07-23-14-00-swamp-grid-square-r17-from-the-big-empty-field-walk-towards-the-fuckoff-neon-si",
+      "title": "S+ Introduction workshop and panel Q&A",
+      "dayId": "day-2026-07-23",
+      "date": "2026-07-23",
+      "time": {
+        "start": "14:00",
+        "end": "16:00",
+        "crossesMidnight": false,
+        "display": "14:00 - 16:00"
+      },
+      "category": "Workshop/Class",
+      "campHosts": [
+        "The Fuckery"
+      ],
+      "campHost": "The Fuckery",
+      "location": {
+        "name": "Swamp, grid square R17. From the big empty field walk towards the fuckoff neon sign \"The Fuckery\" - just across the ditch in the swamp",
+        "area": "Swamp",
+        "gridSquare": "R17",
+        "notes": "grid square R17. From the big empty field walk towards the fuckoff neon sign \"The Fuckery\" - just across the ditch in the swamp"
+      },
+      "gridSquares": [
+        {
+          "column": "R",
+          "row": 17,
+          "key": "R17",
+          "label": "R17"
+        }
+      ],
+      "tags": [
+        "Adults only",
+        "Sex positive"
+      ],
+      "description": "A practical intro for curious beginners to sex-positive spaces and events, kink/BDSM, tantra, swinging, consent, etiquette and communication. After a short seminar the audience gets a Q&A with weird Borderland S+ camp representatives.",
+      "source": {
+        "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B848"
+        }
       }
     },
     {
@@ -35286,7 +38753,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Real violence is lame — let's pimp your everyday opponent. In this stunt/acting workshop you'll transform your inner action hero into something needlessly elegant: ridiculous cinematic slow motion, dramatic poses, live sound effects, and exquisitely overdesigned fight sequences. No martial arts or acting experience needed — only curiosity about the strange creature hiding beneath your reflexes. Leave with our most advanced imaginary certification and a fight scene that cannot be used in any war.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B849"
+        }
       }
     },
     {
@@ -35318,7 +38789,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Those that know the secrets of rolling, and those that seeks the knowledge of the Role. Those that are curious about the rituals aorund the Herbs and those that know the meaing of the hand gestures. Those that have sat in the circle and those that are seeking the circle. Those whom have been both passanger and conductors of the train.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B850"
+        }
       }
     },
     {
@@ -35362,7 +38837,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Stemless is a post-circling practice which expands the meaning of “owning one’s experience”, with a more dynamic and psychedelic vibe. Some prior experience with circling or surrendered leadership required.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B851"
+        }
       }
     },
     {
@@ -35403,7 +38882,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Two worlds collide! The creative contemporary movement meets the freedom, rhythm, & pure joy of club culture. We'll explore movement from different centres of the body, playing with tension & release, relating to one another & discovering what lives between stillness & motion. No experience needed.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B852"
+        }
       }
     },
     {
@@ -35444,7 +38927,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to The Herd! We dance in the afternoon calm (Tue-Thu, 14:30–17:30). Join the pack for daylight grooves, great company, and a refreshing cup of our home-brewed mango-lemon sour beer from The Pink Parasol Potion Bar! 🥭⛱️🔮",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B853"
+        }
       }
     },
     {
@@ -35488,7 +38975,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A place for parents to come together with their babies/toddlers for a little sess of tummy time!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B854"
+        }
       }
     },
     {
@@ -35530,7 +39021,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Light is the force that awakens, transforms, and connects all living things. 🌱 The Kishmastle Spaceship has landed on the sacred grounds of Alvheim — join us to open the Gates and celebrate the light within us all. A psychedelic journey through the Elven Realms, bathing in psy trance until sunrise. At dusk, the Ceremony of the Light begins a greater journey, continued by the Ritual of the Dark. Come as an elf, star traveler, forest spirit, or simply yourself — all beings welcome!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B855"
+        }
       }
     },
     {
@@ -35567,7 +39062,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Gate of Alvheim opens once again! ⛩️🧝🌲 Deep, powerful, playful psychedelic trance invites you on a 16+ hour dance ritual. 13:30 — find your Elvish voice. 14:44 — Ceremony of Light opens the Gates. 22:00 — Ritual of the Dark marks our descent into the unseen, dancing until sunrise. Expect live performances between night-sets, fire-spinning, a bar, fungal refugee chill area, daytime workshops, and a psytrance journey from bush prog to darkpsy, forest, hi-tech & zenon.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B856"
+        }
       }
     },
     {
@@ -35608,7 +39107,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Starship coordinates home! We landed our spaceship back on Earth, right in the mystical realm of the Alvheim Elves. Today, they completely take over our space station, transforming the machinery into a sacred sanctuary to host ancient cosmic ceremonies. Expect our audio systems to channel their deep, driving forest frequencies, hypnotic twilight grooves, dark psytech, and soaring psytrance. Step through the airlock, honor the local spirits, and merge alien tech with earthly magic under the canopy!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B857"
+        }
       }
     },
     {
@@ -35649,7 +39152,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Down the Rabbit Hole Difficulty in which path to choose? Follow the directions and directly you will be directed in the right direction. If all seems to be confusing, don’t worry, most everyone is mad here.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B858"
+        }
       }
     },
     {
@@ -35686,7 +39193,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Somewhere between logic and nonsense lies the Mad Hatter's Tea Party. Tea, cakes, mad games, and our legendary Biscuit Dunking Competition await! Dress as wildly as you wish, embrace the absurd, and join the table—because we're all mad here... and we serve snacks. 🫖🍪✨",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B859"
+        }
       }
     },
     {
@@ -35725,7 +39236,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Open meeting for adult children of alcoholic and dysfunctional families. (ACA). We do some reading and share about your own experience, strength, and hope. Everyone is welcome!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B860"
+        }
       }
     },
     {
@@ -35767,7 +39282,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A long day of detective work leaves traces. Step into our Evidence Removal Unit (Human Carcass Wash), get gently scrubbed clean by fellow detectives, then join the line and help wash away the evidence for the next investigator. Consent and care come first.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B861"
+        }
       }
     },
     {
@@ -35814,7 +39333,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Does guilt weigh heavy on your soul? Have you tasted the sweet nectar of sin? Redemption is but a confession away. Present your guilty conscience to our saints, horned demons & mystical beasts. The turning wheel decrees your fate: tender discipline or absolute pleasure. Survive our verdict and claim an official decree of Absolution — innocent of all misdeeds for the next hundred days.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B862"
+        }
       }
     },
     {
@@ -35859,7 +39382,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Participants are guided into expressing emotions and moods together, from anger to forgiveness and from sadness to gratitude. This may involve screaming, dancing, and hugging. If you feel stuck with certain emotions or want to practice building connection, this is the workshop for you!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B863"
+        }
       }
     },
     {
@@ -35898,7 +39425,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Want to feel silly, magical or full of joy? All at once. Everything but serious. Step into our Cosmic Day Party. We’ll lift off together, drifting through progressive house, moving out of sync, in perfect harmony under the bright midday sun. Come as you are and let the music carry you.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B864"
+        }
       }
     },
     {
@@ -35940,7 +39471,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come sing the nordic folks' songs to acquiant yourself with \"visa & vemod\". Parts will be taught out by our seasoned singing maester. Tongues from afar mayst find their inner whispers of northen chants, and that they had been there all along.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B865"
+        }
       }
     },
     {
@@ -35979,7 +39514,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Lay back, relax, and let your imagination fly, it’s cloud watching time! Spot dragons, donuts, dancing llamas. Who knows what floats by? Bring your wildest daydreams, and some chill vibes. No rules, no rush, just sky-gazing joy and fluffy fun above.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B866"
+        }
       }
     },
     {
@@ -36020,7 +39559,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Where attention goes, energy flows! Get filled up by the audience's energy, channel your boldest inner mystic and shine your light. Use the stage to overcome your fear of being seen, discover parts of yourself that love to take space, and step into the confidence of being fully witnessed. We want all of you — your magic, your madness, your mystic! Cross the edge of fear and experience the alchemy of supporting each other to shine.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B867"
+        }
       }
     },
     {
@@ -36063,7 +39606,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Everyone has one unforgettable story. The one your friends always ask you to tell. Step up to the mic or grab a seat and enjoy true (or \"true\") stories from burners.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B868"
+        }
       }
     },
     {
@@ -36105,7 +39652,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Are you tired of getting all that macro plastic in your body? Dont get that homey fealing sticking post order plugs up your but? Dont wory we got you covered. Join in on carving your own but plug out of apple wood ! I have sourced beautiful apple and made bite sized bits of different sizes to fit your specific crevice. Come finish the job. BYOK - Bring your own knife Use finished product at your own risk.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B869"
+        }
       }
     },
     {
@@ -36146,7 +39697,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to the Rainbows and Joys DAYYPARTYY! Ease into the day with playful DJ sets by nissan, Christopher, admzoo and many more. Expect a dancefloor full of joyful tunes like disco, house and happy vibes.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B870"
+        }
       }
     },
     {
@@ -36185,7 +39740,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Some follow the music. Others follow the smoke. Wander into the Low Lands, just south of Snack Plaza, where glowing coals, happy bellies, and friendly faces await. We grill with heart, season with joy, and serve questionable grill-master jokes free of charge.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B871"
+        }
       }
     },
     {
@@ -36229,7 +39788,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Metal music played under the eaves of the Church. No burning churches allowed. Special guest DJ at 23:00",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B872"
+        }
       }
     },
     {
@@ -36270,7 +39833,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Intro to understanding psychedelic trips as diversifying experiences and group sharing on learning from psychedelic challenges in community",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B873"
+        }
       }
     },
     {
@@ -36315,7 +39882,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Beneath the roles, expectations and striving lives the woman who already knows. This embodied workshop invites you to reconnect with your feminine core, awaken your inner power and lead from your deepest truth.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B874"
+        }
       }
     },
     {
@@ -36356,7 +39927,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "For all who want to play a round of hacky sack or to learn how to do it ❤️ Individuals, partners or groups are welcomed 🫰 But if you expect this to be a kinky Playspace, you will be PROBABLY at the wrong place 😄",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B875"
+        }
       }
     },
     {
@@ -36394,7 +39969,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Every year, we have a guided walk around Borderland that showcase the art, the camps and the creativity of our burn to the outside world. The principles of Communal Effort and Civic Responsibility inspires us to reach out to our neighbours and people who have an interest in what goes on in Alversjö and Borderland. You as a member of Borderland are welcome to join and guide the visitors, and to show your art.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B876"
+        }
       }
     },
     {
@@ -36433,7 +40012,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come squeeze yourself a glass of orange juice - you never know where it might take you. 🍊",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B877"
+        }
       }
     },
     {
@@ -36474,7 +40057,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Five Tibetan Rites are a series of five simple exercises that combine movement, balance, strength, and controlled breathing. They support vitality, slow the effect of aging, and promote longevity when practiced regularly. Rites are easy to learn and can be integrated into daily life easily.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B878"
+        }
       }
     },
     {
@@ -36520,7 +40107,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Celebrate gluttony and lust through a guided exploration of sensual, embodied eating. Discover fruit, flavours and textures, feed and be fed, and explore trust, playfulness and connection in a consensual, facilitated space where every bite becomes an experience.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B879"
+        }
       }
     },
     {
@@ -36561,7 +40152,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Looking for a place to play or dance to Swedish folk music? Come to DansBanderLand at 16:00! Basic Swedish folk dance workshop at 15:30.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B880"
+        }
       }
     },
     {
@@ -36605,7 +40200,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Learn, gift or get some cool braids. We'll teach regular-, in baked, out baked, fishbone, rope and 3D -braids. Then the DJ will play and hairstyles made with good vibes all around. There's music, tools and accessories. Optional: bring something to sit on, snacks/sip on, and/or weather protection.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B881"
+        }
       }
     },
     {
@@ -36650,7 +40249,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Join us for this fun, mad and lively vocal workshop that will make you laugh, play and relax. It's all about improvisations, exploring the connection between body & sound, bodylanguage, the whole shebang. Let it all out! Welcome!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B882"
+        }
       }
     },
     {
@@ -36691,7 +40294,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "House isn't just about the music — there's a dance to it! I'll teach you some steps, share a bit of community history, and we'll groove together. Pack a few moves in your backpack to unpack whenever it's time to house it down!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B883"
+        }
       }
     },
     {
@@ -36735,7 +40342,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Let the music be your guide and the breath be your doorway. A moment for \"just what you need\".",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B884"
+        }
       }
     },
     {
@@ -36776,7 +40387,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Connection, trust, Play between two people and group",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B885"
+        }
       }
     },
     {
@@ -36821,7 +40436,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come, whoever or whatever you are, and share with us a cup of delicious Turkish coffee and a sweet baklava.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B886"
+        }
       }
     },
     {
@@ -36867,7 +40486,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Calling all poets, storytellers and lyricists to get on stage and perform! Speak your words over improvised sound. As you take the mic, musicians will improvise music around your words. Seasoned wordsmith? First timer? It’s your chance to connect and express.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B887"
+        }
       }
     },
     {
@@ -36907,7 +40530,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Relax in our lovely shade and listen to some of Njorunn's Garden's inhabitants read aloud from their favorite books. Monday: Lars reads from the Tao Te Ching, Tuesday: Teresa reads Who Will Comfort Toffle by Tove Jansson, first in English and after that (if there's interest) in the original Swedish. Thursday: Fellan reads from Braiding Sweetgrass by Robin Wall Kimmerer.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B888"
+        }
       }
     },
     {
@@ -36946,7 +40573,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A corner of Paris in the woods — wine, peanuts, and the art of l’Apéro.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B889"
+        }
       }
     },
     {
@@ -36984,7 +40615,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "himalayan dumplings (mo:mo) pop-up on thursday afternoon, and have caffè corretto morning from 10:30",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B890"
+        }
       }
     },
     {
@@ -37025,7 +40660,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to ACPI. Present your delightfully useless invention to our judges, who will evaluate each creation for pointlessness.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B891"
+        }
       }
     },
     {
@@ -37069,7 +40708,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A Circling session with an explicit invitation to be aware of Eros as an energy or impulse and how we relate to it.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B892"
+        }
       }
     },
     {
@@ -37112,7 +40755,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come make wholesome, collaged cards you can gift to yourself or other borderlings. Semi guided, no skills needed. Expect ripped colorful paper, shiny stickers and bring your best catchphrases if you have.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B893"
+        }
       }
     },
     {
@@ -37155,7 +40802,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Can positive expectations help your heart health? Can happiness boost your immune system? In this talk, we will dive into the fascinating new science linking your mind to your gut, your heart, and your defense systems.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B894"
+        }
       }
     },
     {
@@ -37195,7 +40846,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Where the Hell Is My Soulmate? Seriously… where the hell are they? Maybe they’re waiting in that magical little borderland between strangers and soulmates. Join us for an afternoon of genuine conversations, a little dancing, and a lot of fun. No awkward speed dating, just a relaxed, playful atmosphere. Open to all genders and sexual orientations. Whether you leave with a new friend, a crush, or something more… you’ll be glad you came.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B895"
+        }
       }
     },
     {
@@ -37236,7 +40891,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A support group and sharing circle exploring the conscious and unconscious motivations we bring into spiritual practice, and the psychological conflicts that arise: how much to \"buy into\" a tradition, ambivalence about lifestyle, spirituality as escape fantasy, shame, self-judgement, pride, and swapping a worldly ego-identity for a shiny new spiritual one. A non-hierarchical space of empathic listening and mutual respect.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B896"
+        }
       }
     },
     {
@@ -37281,7 +40940,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A facilitated orgy that starts in underwear. Working with the skills of participating in an orgy - taking initiative, negotiating and not staying in one connection. We will start in underwear to bild up energy, flirting and lust. We might end up losing the underwear, but if that happens - there will be an option out beforehand. Bring someone you potentially want to have sex with - not for singles.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B897"
+        }
       }
     },
     {
@@ -37322,7 +40985,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Collaborative creature-doodling, summoning surrealist spirits. Draw. Fold. Pass. Reveal. Bring your own hand, we'll provide the pen and paper.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B898"
+        }
       }
     },
     {
@@ -37367,7 +41034,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Every day at 16:00 we rise from the Pond and parade to the lake, lesbian flag flying, for 2 hours of swimming, floating, splashing and sun. Beavers, nymphs & neighbours all welcome to join the procession. Come get wet with us 💦🏳️‍🌈 Meet at the Pond, follow the flag.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B899"
+        }
       }
     },
     {
@@ -37411,7 +41082,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "You are invited to a sex-positive ritual where we will explore intimacy by sinking deeper into ourselves. We put on a red nose so that we can take off our social masks. We let go into the moment so that we become free to express whatever is alive in us. You are welcome to bring a painted face and some flowers. But most importantly, just bring you.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B900"
+        }
       }
     },
     {
@@ -37455,7 +41130,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Cuddlist-certified cuddle therapy: safe, platonic touch rooted in consent. Let your nervous system settle through co-regulation with a calm, present body beside yours. A soft place to land amidst the Borderland intensity. First come first served.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B901"
+        }
       }
     },
     {
@@ -37498,7 +41177,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Your body is an ancient oracle, communicating through touch, breath, goosebumps, tears, laughter, desire, and sudden no’s. In this workshop, we practice the ancient art of communicating with and co-regulating this oracle — finding our way back to safety and calm together, and remembering that we are mammals under the stars",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B902"
+        }
       }
     },
     {
@@ -37539,7 +41222,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Borderland needs more reggae! Flowzone DJ will take you on a journey from classic reggae into unrestringingly good dancing tunes. Bring your best vibe, maybe something to sit on, snacks/drink -or all of it, and enjoy some sweet wonderful music by the monkeybar.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B903"
+        }
       }
     },
     {
@@ -37583,7 +41270,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Are you curious about Orgasm control? How to elevate your pleasure? By letting go of control over your most intimate & blissful states. You may be allowed to reach it. Or not. If you do, get ready to experience something you may have never felt before. This is a S+ experience. Come paired up.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B904"
+        }
       }
     },
     {
@@ -37626,7 +41317,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A slow, static nude movement workshop exploring the dance of collective body sculptures through contact improvisation, acroyoga, &partner acrobatics. Will create living human landscapes playing with balance, support, texture, & form. Pencils&papers gonna be there to sketch the evolving compositions.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B905"
+        }
       }
     },
     {
@@ -37667,7 +41362,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "💩 Ever wondered if your POOP is trying to tell you something? LAUGH, learn, and flush away the poop TABOO in this wildly interactive comedy-meets-science experience. Expect surprising facts, hilarious moments, and toilet truths that will help you understand what your gut's been trying to tell you. Come curious and leave ready to spread the good shit.💩",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B906"
+        }
       }
     },
     {
@@ -37707,7 +41406,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A series of presentations on how humans wound up with Patriarchy. Lesson 1 - The First 96% of Human History Lesson 2 - Earth Goddess vs Sky Father Lesson 3 - Conquest and Control Lesson 4 - God Hates Women Lesson 5 - A Path Forward",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B907"
+        }
       }
     },
     {
@@ -37753,7 +41456,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "For Women & Non-binary. Healing the sister wound, support each other. Come and help your sister, connecting with the wound & start healing in a safe space. Leave feeling empowered & strong.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B908"
+        }
       }
     },
     {
@@ -37796,7 +41503,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Bring your weirdest, most funny or crazy records and show us how bad you're transitions are. We need to find the worst dj!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B909"
+        }
       }
     },
     {
@@ -37837,7 +41548,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "You keep seeing these mythical creatures playing with fire and lights? Anyone can learn it! This is an opportunity to try out different toys and learn some tricks. No matter if you’re completely new to flow arts, want to try a prop you haven’t before, or practice one you know well.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B910"
+        }
       }
     },
     {
@@ -37882,7 +41597,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Temple is a deep dive into sensual erotic play. In a space of presence, “foxyness” and fun, you will learn how to enjoy yourself and connect with others in a sensual manner. Please be familiar with consent. Sensual outfits are welcome, but not a must <3",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B911"
+        }
       }
     },
     {
@@ -37924,7 +41643,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Drop by and create your own handmade UV sticker with colorful markers and sticker paper — a forest spirit, mushroom, funny creature, or anything that sparks your imagination. A relaxed drop-in session at your own pace; I'll share ideas if you want guidance. The listed time is when I'll definitely be at Kishmastle, but the station returns at various times all week — and if you spot me wandering the playa with the kit, stop and make a sticker! No experience needed.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B912"
+        }
       }
     },
     {
@@ -37961,7 +41684,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Playa is transforming from daytime playground to nighttime adventure. Rest your legs & butts, meet new friends over shared shisha and tea, and prepare for the adventures of the night!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B913"
+        }
       }
     },
     {
@@ -38006,7 +41733,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A gentle space for women to gather, land, and reconnect with themselves and each other amidst the intensity of Borderland. Through reflection, sharing, and simple exercises with optional light physical contact, we create room to notice what the festival has stirred, awakened, or revealed so far. Come as you are and join us for a calm moment of presence, connection, and rest.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B914"
+        }
       }
     },
     {
@@ -38048,7 +41779,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The BorderLAN returns and the year is 2002. During the day you are welcome for unsolicited play, and in the evening a party of four can book a 45-min slot and enjoy an authentic 2002 LAN experience. Learn more and book at www.borderlan.land.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B915"
+        }
       }
     },
     {
@@ -38087,7 +41822,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Happy Hour à la Française! — Sparkling wine, peanuts, and the art of l’Apéro.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B916"
+        }
       }
     },
     {
@@ -38124,7 +41863,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Need a moment to land? Come rest in the space, soak in ambient sounds, explore the light installations and simply enjoy the space.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B917"
+        }
       }
     },
     {
@@ -38170,7 +41913,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Sensual rituals, guided meetings, and playful experiences. Arrive to this clothes-on play space with a partner, friend, or lover you already know and trust. During the session you can be invited to explore encounters with many different participants. Dress code: a royal visit to the Genie’s Lamp!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B918"
+        }
       }
     },
     {
@@ -38213,7 +41960,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Open to all curious bodies to explore creative and playful dancing through bodyweight-sharing, balance, and creative expression. Via guided exercises and open dance jam, participants discover new ways of moving, listening, and responding through the body in a respectful and consent-aware space.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B919"
+        }
       }
     },
     {
@@ -38254,7 +42005,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Do you still do \"skipping\"? Do you remember how we all used to skip as kids? Skipping is the art of effortles movement. It's the closest thing to flying. Feels like bouncing the Earth away from us, not the other way around. Skipping!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B920"
+        }
       }
     },
     {
@@ -38295,7 +42050,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "See your breath in light. Feel calm and connected. Expand the diaphragm, explore pranayama breathwork and connect using Sym - an interactive art object that visualises breathing real-time in a soothing light, using custom sensors. As we sync our breath, Sym radiates with rainbows! Limited capacity.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B921"
+        }
       }
     },
     {
@@ -38321,7 +42080,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We’ll make dough, collect+sharpen sticks and bring everything to bonfires around Borderland and feed the hungry masses.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B922"
+        }
       }
     },
     {
@@ -38364,7 +42127,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Experience the calming power of feather-light touch in this partnered workshop. Learn simple, mindful massage techniques, take turns giving and receiving, and explore relaxation, presence, and connection in a safe, guided environment. Bring a yoga mat.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B923"
+        }
       }
     },
     {
@@ -38407,7 +42174,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We share and play folk music together. Bring an instrument or just your voice. No music knowledge needed.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B924"
+        }
       }
     },
     {
@@ -38451,7 +42222,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The ultimate celebration of the resilient Blackwater Operations, the diligent BOWELS and our beloved Freedom. Known to put the art in the party, Maj. Ander invites You to a Riktigt Party, with me: Alexander Näslund.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B925"
+        }
       }
     },
     {
@@ -38492,7 +42267,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to our executive presentation simulator. Roll for a slideshow from our curated library and present it like you wrote it yourself. No preparation. No context. Just confidence, business buzzwords, and impeccable delivery.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B926"
+        }
       }
     },
     {
@@ -38536,7 +42315,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Step into the portal to a new world — AYA's world, her music & her art. \"Do you know this feeling when your whole life is falling apart? But actually it is rearranging itself, so you can live true to your heart.\" A musical playformance by AYA — a journey from past to present. AN INFINITE MOMENT OF PRESENCE. Let go of the old, play & come alive. Huggies from your everlasting wife, Aya 😘",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B927"
+        }
       }
     },
     {
@@ -38576,7 +42359,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "20.00 Mia Lafontaine Edgy and playful, energy and elegance on a groovy, soulful journey 21.30 Technymph Euphoric, driving tech house and techno 23.00 Axel (Shoulder B) Tech house ramping up to techno 00.30 Memory Play Immersive, hypnotic, psychedelic and driving techno with guttural vocals",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B928"
+        }
       }
     },
     {
@@ -38615,7 +42402,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "CaSINo is Club SIN’s twisted casino, where sincoins, shame, dignity, luck, and temptation are all on the table. Play sinful casino games; blackjack, poker, and roulette, win juicy treats, accept delicious punishments, and gamble your comfort zone away. Come place your bet, commit your sins, and lose yourself with us tonight at caSINo...",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B929"
+        }
       }
     },
     {
@@ -38655,7 +42446,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Commit wicked sins or accept deserved punishments from our curated menus at SIN Bar, Club SIN's handcrafted wooden haven beside the dancefloor. Earn sincoins, ask nicely, and our SINtenders may reward you with cocktails, non-alcoholic delights, special snacks, and redeeming treats. Sinful tonight?",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B930"
+        }
       }
     },
     {
@@ -38697,7 +42492,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to a night of blending dances together. First we warm up with contact impro and establish limits. After that we will host 15 min workshops in bug, bachata and kizomba/folkdans? , encouraging you to blend all styles.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B931"
+        }
       }
     },
     {
@@ -38745,7 +42544,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Declare your love to your favorite Kitty and get Meowrried on Borderland at the fantastical Kitty wedding! Each will get the chance to have a personalised ceremony and you can even get officially married by a certified wedding officiant. It will be \"first come first served\"",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B932"
+        }
       }
     },
     {
@@ -38787,7 +42590,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Mountain King has awakened and invites you into his throne hall to discover new connections. Whether you arrive solo, with a partner, or with a friend, join us in celebrating human connection through music, movement, performances, and playful games. Arrive at 20:00 for the Igniting Opening, and as the sun rises, we'll land together with a sound bath.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B933"
+        }
       }
     },
     {
@@ -38815,7 +42622,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Interactive pop‑up Performance by The Cheese Doctors @ The Institute of Insanity: reality‑bending experiments, cheese‑based treatments, and strictly confidential participation. Are you ready to be examined by cheese?",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B934"
+        }
       }
     },
     {
@@ -38856,7 +42667,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The world is changing. The world will never be the same. Whether you think this epochal transformation will be for good or ill, we are here to say goodbye to the old world We gather while the present is still ordinary enough to recognize - the only world any of us have known. At the precipice of great change, we meet in uncertainty, to feel what matters, to share what we fear losing, and to carry it forward together.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B935"
+        }
       }
     },
     {
@@ -38902,7 +42717,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "As the dusk settles on the playa on this fateful nigh, the legend of the thrashy sandworm with innards of pure hot Chai-gold will begin. Keep your eyes peeled for the 10m long creation rolling around and living its best life. Hot beverage will be served to those who dare interact, and perhaps something special for those daring the mysteries of the pain-box...",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B936"
+        }
       }
     },
     {
@@ -38946,7 +42765,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Let's have a deep and authentic dialogue about important and controversial topics. Maybe it's something Borderland related, or something from the default world that impacts us all. Let's listen to each other's perspective with an open heart and mind and maybe we can integrate all those polarities a bit more.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B937"
+        }
       }
     },
     {
@@ -38989,7 +42812,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come shimmer with us! As night chill creeps in, we're brewing warmth: Vegan spiced Chai with oat milk, plus nibbles on the side. Sing, cuddle, talk under the stars. All kinds of souls welcome! Bring your cup, your voice, just yourself. Let's get cozy by the fire!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B938"
+        }
       }
     },
     {
@@ -39026,7 +42853,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Brew, breathe, and drift into the night. Let the fireplace, gentle melodies, and our homemade chai be your safe harbor until the stars take over.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B939"
+        }
       }
     },
     {
@@ -39070,7 +42901,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to the Temple of Sound 🪐 Enter a sacred space of breath, healing sounds and powerful vibrations. Through gongs, didgeridoo, throat singing, drums, flutes and handpan, we will guide you through an immersive journey into altered states of consciousness. 🌌",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B940"
+        }
       }
     },
     {
@@ -39110,7 +42945,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to The Wheel of Pleasure, where your yes is the only rule. Set your boundaries, choose your toys, don the blindfold, and let fate decide how many hands will deliver playful, teasing sensations across your body. You won’t know who. You won’t see them. You’ll only feel. Spin the wheel. 😈",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B941"
+        }
       }
     },
     {
@@ -39154,7 +42993,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Opening-night magic: pin your heart to the Soul Matchmaking Board and let the Pond play cupid. We'll show you how it works, then set you loose to find your person (or your Tuesday-night U-Haul partner). Bring your crush energy 🐸💘",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B942"
+        }
       }
     },
     {
@@ -39198,7 +43041,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Enter blindfolded, meet in the dark. A self-organized space for slow, non-verbal, consensual connection, no eyes, no words, no idea if she's flirting (she or they is). The cure for the lesbian sheep problem 🐑🐸",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B943"
+        }
       }
     },
     {
@@ -39239,7 +43086,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come travellers, witches and wizards: gather by the Wild Sacred Fire to enter myth through twilight. Together we become a threefold creature: story, teller and listener. Bring a story, a poem, or simply your listening — by the heat of the fire and a warm cup of cacao.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B944"
+        }
       }
     },
     {
@@ -39283,7 +43134,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "When we face death, life becomes clearer. A reflective workshop for exploring mortality, uncovering core values, and asking what it truly means to live well.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B945"
+        }
       }
     },
     {
@@ -39322,7 +43177,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Michalada is a beer-based cocktail with tomato juice. It's awesome. There might also be crisps",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B946"
+        }
       }
     },
     {
@@ -39365,7 +43224,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Feeling cuddly, full of love and in the mood for live and laid back jazz? Come relax with like minded humans all in need for some rest and romance 💕",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B947"
+        }
       }
     },
     {
@@ -39408,7 +43271,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Have you heard? The best Disco dance floor is back! Put on your sparkles and lets boogie!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B948"
+        }
       }
     },
     {
@@ -39448,7 +43315,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "If you have the courage to come find our coven at night we will reward you with a special treat! Only a few will experience our special magic ritual and learn how to cast spells. Will it be you? (We serve groups of 2-8 people for 15 to 30 minutes. Kid Friendly!).",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B949"
+        }
       }
     },
     {
@@ -39491,7 +43362,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Non-ecstatic dance in the Shibari Chill Web. Not hanging models in ropes. Nothing naughty. Never cucumbers out. Especially no ones trousers stuck in seaweed. Never stare into someone's abyss. Not let jellyfish-bass tingle clitoris. Perky pearls get vip access. Octopussies welcome too.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B950"
+        }
       }
     },
     {
@@ -39534,7 +43409,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "🧞‍♂️👯‍♀️ Borderlings- gather together and seek no more! For on this very night we shall find the answers! •⁠ ⁠9pm 🛸 Bring your art cars and mobile bars! •⁠ ⁠945pm 🚀 Liftoff.. •⁠ ⁠1130pm 🔥 Universal Block Party - Gods, fire and lights performers check in Weds 1pm and/or https://tinyurl.com/87utmrrz",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B951"
+        }
       }
     },
     {
@@ -39579,7 +43458,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "It is the launchpad for the Fuckery's Fantasy Fulfilment PlayNight. In this 1–1.5h workshop we take you through the basics and rules of the coming PlayNight — weirdos and weird rookies alike guided through information, games, exercises and action in Fuckery style, bringing out the best and worst in everyone. Come one, come all — share your dirty mind and join the exciting worlds of other seemingly normal human beings! If you come wearing socks, we'll blow them right off. Fucking Namaste.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B952"
+        }
       }
     },
     {
@@ -39620,7 +43503,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come, friend, and sit with us. Beneath the roots of the earth tree, we welcome you. Share your stories, warm yourself at our crackling fire and slow down for a while. You are welcome here. Just the way you are.🔥✨",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B953"
+        }
       }
     },
     {
@@ -39661,7 +43548,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A safety briefing for fire spinners who want to play at The Fire Brigade's fire jams or spin before the effigy. We will walk you through our safety protocol and give you a token of trust. Wear natural fabrics to play with fire (cotton, wool, linnen, leather).",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B954"
+        }
       }
     },
     {
@@ -39702,7 +43593,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Can you noot like Pingu? Serious jury for a serious noot-off. Noot alone or in groups. Performances encouraged. Expect questionable judging, unnecessary penguin noises, and eternal glory. Come compete, or just noot in the crowd.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B955"
+        }
       }
     },
     {
@@ -39743,7 +43638,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "SIN Salabim is Club SIN's exclusive members' lounge, where indulgence meets luxury. Entry has its price, but once inside, every pleasure is free. Relax, indulge, connect and explore—because the richest rewards aren't always made of gold.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B956"
+        }
       }
     },
     {
@@ -39785,7 +43684,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Tonight the kitties rule the Rainbow! Come celebrate the love that flows between us as we take you on a musical journey through the night. Explore the rainbow realm with a bumpin' dancefloor, steamy playspace, lush garden, and cuddly lounge.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B957"
+        }
       }
     },
     {
@@ -39826,7 +43729,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Witness the power of fire bending! Fire spinning and performances, chillspace and hot tea. We have fuel and safety equipment. Wear natural fabrics to spin or help with fire safety. Attend a safety briefing at 21:45 if you want to spin. Bring your fire props or borrow from us.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B958"
+        }
       }
     },
     {
@@ -39868,7 +43775,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Dark is more than what we fear — it transforms, reveals, and reminds us that without darkness there can be no Light. As night falls, we gather at the Gate of Alvheim to embrace our shadows. Through fire, movement, music and ritual, we return to something ancient. The darker realms of psytrance may awaken forgotten instincts — meet them with curiosity, surrender, and discover what the Dark has been trying to show you. Come as an elf, star traveler, forest spirit, or simply yourself. Some journeys can only begin in the Dark.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B959"
+        }
       }
     },
     {
@@ -39911,7 +43822,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Velvet Lounge appears on its own schedule: look for the open sign 🕯️. Gender-ambiguous bartenders pour your drink and read your tarot. Slow dance barefoot. Fall backwards into deep conversation. Shy kisses only. A sensual, surreal, softly clown-haunted place for warmth and connection 🔮🥀",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B960"
+        }
       }
     },
     {
@@ -39944,7 +43859,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Let our most serious scientific professionals poke your brain for some highly audiovisual derangements. The StroboTech Laundromat offers third eye activation and strobodelic hallucinations for the masses.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B961"
+        }
       }
     },
     {
@@ -39985,7 +43904,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Born from explorations on how violin sounds when drowned in deep reverb, these live improvisations use a looper and electronics to create a drifted atmospheric journey. Expect a raw, unpredictable path through moments of stillness, ethereal beauty, and bliss.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B962"
+        }
       }
     },
     {
@@ -40030,7 +43953,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to Fantasy Fulfillment at The Fuckery — our Thursday PlayNight where curiosity leads, fantasies take shape, and nothing happens without your enthusiastic \"Fuck Yeah!\". We begin with the Theater of Desire workshop, then open the space where imagination meets reality. No pressure, no script — arrive with a secret fantasy, a playful idea, or no clue at all. Exceptional hosts, skilled facilitators, world-class DJs and a wonderfully weird community surround you, but the most important ingredient is you. This isn't a show you watch. You are the show. If not on Borderland Thursday — then when? Fucking Namaste.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B963"
+        }
       }
     },
     {
@@ -40058,7 +43985,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Throughout their travels, the Storyteller has gathered innumerable stories about all manner of wondrous things. The only guarantee is that the story you will hear has never been told before and will never be told again. So look out for the Storyteller to hear a unique tale told just for you.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B964"
+        }
       }
     },
     {
@@ -40103,7 +44034,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We are Late Night! - A talk show pretending to be on air, complete with commercial breaks, celebrities, skits, and technical difficulties. We give Borderlings their 15 minutes of fame, highlighting their colorful characters, stories, and talents, all the while trolling them lightly 😈 Hosted at the wonderful 🎪 CIRCUS the ANALOG 🎪",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B965"
+        }
       }
     },
     {
@@ -40147,7 +44082,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Be guided through fire ritual. The ritual of two fires.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B966"
+        }
       }
     },
     {
@@ -40192,7 +44131,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A warm communal cuddle-nest in the Summerge tent, held by Regina through the small hours. Crawl in, get cozy, be held against the cold and the loneliness. 🐸🌙",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B967"
+        }
       }
     },
     {
@@ -40229,7 +44172,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come and get your tummies filled.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B968"
+        }
       }
     },
     {
@@ -40275,7 +44222,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Hexemutters Galehus Warning: experimental medicine cabinet. 41 remedies — yours to judge, yours to draw. Side effects include self-knowledge, mild existential crisis and uncontrollable honesty. We are not responsible for what the cards unlock. Always open. We never sleep. Unless we sleep. Wake us and die",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B969"
+        }
       }
     },
     {
@@ -40304,7 +44255,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "When you've packed up all of your mojo, your tent feels impossibly far away, and truthfully.. you've got a tiny existential wobble brewing, come find us. Lazy Treats Hour will serve you hot toasties, silliness and giggles, plus a generous serving of camp love. Survival, but make it fabulous.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B970"
+        }
       }
     },
     {
@@ -40345,7 +44300,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A chill set that drifts wherever the moment takes it!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B971"
+        }
       }
     },
     {
@@ -40382,7 +44341,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Some say it moves when no one´s looking. Others say it only reveals itself to those who truly need a wish granted. In any case, if you find it: Hang a wish, tie a secret, weave a promise into its bark. Maybe it grants them, maybe it eats them. Either way, your business is no longer your own.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B972"
+        }
       }
     },
     {
@@ -40422,7 +44385,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We will be serving icy stuff at random times. It’s up to the universe whether you get lucky or not.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B973"
+        }
       }
     },
     {
@@ -40459,7 +44426,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Send your(other)self a message in form of postcard from Borderland. Capture the fleeting moment and extract it out before it vanishes. Come hangout at Socialen, we offer a relaxed space to settle in a reflect for a moment and write yourself or others about your current state of mind.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B974"
+        }
       }
     },
     {
@@ -40491,7 +44462,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Time capsules: portals to the past, filled with memories for future generations. Seal photographs, letters or trinkets — 4 capsules, one per cardinal direction, co-created and sealed by different neighborhoods at the end of this year's Borderland. In 2027 they'll be buried under permanent art, for future archaeologists or extraterrestrials to wonder what strange not-a-cult walked this land.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B975"
+        }
       }
     },
     {
@@ -40524,7 +44499,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Dust, sweat, glitter and forest. Bring water and enjoy a moment of warmth, care and renewal before returning to the adventure. Built with Leave No Trace principles, deep love., and a steadfast faith in my close to nonexistent technical skills.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B976"
+        }
       }
     },
     {
@@ -40566,7 +44545,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Church Clubnight. Expect pounding Techno music, and an extremely sexy and arrousing vibe. Open playspace during this event until 7!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B977"
+        }
       }
     },
     {
@@ -40607,7 +44590,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Gate of Alvheim's psytrance journey will eventually be guided by me, Trinfinity. During the darkest hours we will dive deep into the darker landscapes of psychedelic trance. Welcome on board a flight deep into the shadows where we will, through dance, alchemize darkness into light and take flight into higher dimensions of very powerful frequencies. Darkpsy - Hi-tech 160-195 bpm",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B978"
+        }
       }
     },
     {
@@ -40652,7 +44639,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "SINema is Club SIN’s erotic community cinema, screening homemade sensual, sexual, strange, funny, artistic, and intimate videos by Borderlings. Watch desire, kink, humour, bodies, stories, and fantasies unfold, then let them inspire roleplay, connection, and deliciously sinful free flow... together!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B979"
+        }
       }
     },
     {
@@ -40698,7 +44689,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Kidsville serves breakfast: waffles, pancakes, Kaiserschmarrn and other delights. Bring your plate, spoon and smile",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B980"
+        }
       }
     },
     {
@@ -40737,7 +44732,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Find a good spot anywhere and just sit back and people-watch while relaxing. It looks like a Borderland movie, doesn’t it?",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B981"
+        }
       }
     },
     {
@@ -40780,7 +44779,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Coffee is ready. The gossip fresh. Bring your cup, take a seat, and tune in to our live radio show with music, juicy stories, last night’s questionable decisions, surprise guests, and whatever else unfolds. Sip. Sit. Listen. Say something.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B982"
+        }
       }
     },
     {
@@ -40819,7 +44822,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Start the day on the mat with others through primal play, contact improvisation, Brazilian jiu-jitsu or a combination of the three. There is no facilitator and no fixed structure, just a shared space to explore, connect and move together. Whoever arrives first kicks things off with a five-minute Tabata.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B983"
+        }
       }
     },
     {
@@ -40865,7 +44872,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "If you want to leave your pooch for a few hours in a quiet campground to be watched by two volunteers, consider coming here. It's hoped that people who leave their dogs also take a shift.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B984"
+        }
       }
     },
     {
@@ -40908,7 +44919,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Curious on Jungian philosophy and your unconscious? A dream matrix is a space where we share nightly dreams, in order to open up your unconscious and rediscover nightly dreams you'd forgotten. After the matrix there'll be a short teaching and sharing. See insta @BLdreammatrix",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B985"
+        }
       }
     },
     {
@@ -40947,7 +44962,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Start your Friday trip inside our cozy MŸS dome. Warm tea and slow, energetic vinyl sounds gently guide you into your orbit. Lovers and dreamers welcome!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B986"
+        }
       }
     },
     {
@@ -40989,7 +45008,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Participants will be soaked in orgone, showered with it, and possibly transformed by it. This is likely a once-in-a-lifetime opportunity to expose a large population to orgone. Available 24/7 for restorative use. Guided Sessions and experiments will be announced on white board at camp.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B987"
+        }
       }
     },
     {
@@ -41030,7 +45053,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The \"P\" in Psyllium is silent, The \"Poo\" with Psyllium is immaculate. Bring a mug, get ready to get some goopy Psyllium, then make your guts happy and thank us later!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B988"
+        }
       }
     },
     {
@@ -41073,7 +45100,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A place to meditate together in silence, and keep up your home practice, but in silent community. Do come along, first timers also welcome!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B989"
+        }
       }
     },
     {
@@ -41118,7 +45149,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Beginners workshop for peole who want to try out Shibari. Limited spaces!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B990"
+        }
       }
     },
     {
@@ -41159,7 +45194,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A fluent combination of movement, stretching, breathing and mindfulness. Your joints, lymph, fascia, muscles, mind and heart will thank you. Physical, but more energizing than tiring. A perfect way to connect with your whole body.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B991"
+        }
       }
     },
     {
@@ -41199,7 +45238,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Stuck in a conflict? Meet the CRT any day. We don’t take sides or decide for you. We’re here to listen, offer mediation tools, and help find ways to coexist. Stop by to chat, learn, or get support! Conflicts should be solved between those involved, but if that isn’t possible, you can turn to us!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B992"
+        }
       }
     },
     {
@@ -41244,7 +45287,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "One never has anything to do with another person without holding something of that person's life in ones hands. If meditation is an art of being Circling is an art of being-with Come explore who you are in the meeting with others and the incredible richness of human connection in all its flavours.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B993"
+        }
       }
     },
     {
@@ -41285,7 +45332,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Ancient techniques for ancient like longevity. 5 simple full body excercises that wake your whole system up. It's quick, easy, fun and 100% effective!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B994"
+        }
       }
     },
     {
@@ -41328,7 +45379,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Lets all come together and chant our hearts out in this intuitive chanting workshop. No singing experience required. Come with an open mind, chant for an open heart ❤️",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B995"
+        }
       }
     },
     {
@@ -41369,7 +45424,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Relax, recharge and maybe even transform your life towards more freedom. The international solo artist Liberty a.k.a Anna Jois reads the room and fills it with intuitive music, words, and her angelic singing voice that pierces straight to the soul.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B996"
+        }
       }
     },
     {
@@ -41411,7 +45470,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Let's study acting with improv-techniques! Monologues, duo work and character creation. Main focus on drama. Previous experience recommended, but not required. We'll be moving around and doing physical work. It is not possible to join mid-workshop - please be on time. Minimum people: 2",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B997"
+        }
       }
     },
     {
@@ -41452,7 +45515,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "For the first time ever!!! Become delirious on Friday without having to consume anyting but water (and salt). A full 42k marathon: 7 laps around Borderland. Run, jog or walk your way through and around Alversjö. We promise you will see Borderland in a way you've never seen pr experienced before!!!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B998"
+        }
       }
     },
     {
@@ -41486,7 +45553,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Ask Your Father Anything. Pull up a chair and have the conversation you never had. Ask for advice, comfort, approval, understanding, or answers. Rage, laugh, cry, or sit in silence. For a moment, You will be met, listened to and if you want, answered.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B999"
+        }
       }
     },
     {
@@ -41527,7 +45598,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A mix of contact improv and physical theatre — exploring physical storytelling, especially portraying relationship dynamics. Led by a drama teacher passionate about expressive arts, with a focus on exploration, playfulness and expression. No fitness or theatre experience needed, just an open mind! Please come sober, without major injuries, in comfortable clothes.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1000"
+        }
       }
     },
     {
@@ -41566,7 +45641,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Master the magical art of doing nothing! No goals, no to-dos just you, a comfy spot, and sweet, glorious idleness. Hug a tree, wiggle your toes, daydream wildly. It’s fun, it’s freeing, it’s fabulously unproductive. Permission to laze: granted!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1001"
+        }
       }
     },
     {
@@ -41609,7 +45688,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "This is not a casual Friday. Come and share your wild expectations, secret goals, or bold predictions. Or just listen to others. Later tonight, we’ll find out how its going.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1002"
+        }
       }
     },
     {
@@ -41652,7 +45735,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A morning vinyasa with an eclectic mix of Tai Chi, Qi Gong, somatics and a sprinkle of stand up comedy; we don’t take anything too seriously.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1003"
+        }
       }
     },
     {
@@ -41692,7 +45779,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Make brushing your teeth a fun and absurd way of getting to know new people and new toothpastes! We take you to a trip around the world's most exquisite toothpastes. BYOT (Bring your own toothbrush -and pimp it at our craft booth!-) No toothbrush ? Pass by for a shot of mouthwash you stinky hippie ! Fun toothpastes ? Bring them all !",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1004"
+        }
       }
     },
     {
@@ -41737,7 +45828,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Melt into the soft hours with a slow, juicy yin yoga practice for femmes loving femmes (butches & nb folks included). Long-held poses, deep breath, gentle touch, come home to your body by the water. All levels, all bodies. Daily at 11, bring yourself, leave puddly 🐸",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1005"
+        }
       }
     },
     {
@@ -41782,7 +45877,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Before there were stages, there were circles. Join us in an ancient practice of listening, sharing and witnessing. Together we cultivate presence, trust and the quiet wisdom that only a circle can reveal.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1006"
+        }
       }
     },
     {
@@ -41806,7 +45905,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "All jewellery: $Free.99 I bring jewellery from all over the world to this magical little pop-up! Come pick the piece(s) that speak to you and leave a kind word for the next person. Walk off with your new jewellery and a mystery note from the person before you.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1007"
+        }
       }
     },
     {
@@ -41849,7 +45952,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "For you who are turned on by the emotional ecstatic. Bring a core shame/ core fear, experience yourself as the erotic alchemist and break yourself open to deeper liberation, magic and power. It will be alive and messy. Nudity welcome, there will be no shared eros. If you have noise sensitivity or feel triggered by intense emotions, this ritual is not for you.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1008"
+        }
       }
     },
     {
@@ -41893,7 +46000,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Gentle Bodywork Session open for booking - see the cardboard sign. It involves touch or energetic touch, deep listening to the body, regulating the nervous system to homoestasis",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1009"
+        }
       }
     },
     {
@@ -41934,7 +46045,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Relax on the tipi floor and allow yourself to go on an inner journey. Return with a gift and share the experience with your fellow travelers.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1010"
+        }
       }
     },
     {
@@ -41968,7 +46083,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Secret porn star? Camera-phobic? Somewhere in between? Come explore what alters when a camera quietly witnesses you. Bring yourself, a partner, a throuple, a fantasy, a costume, an aesthetic, a secret spot—or just curiosity. Together we'll play with presence, performance, and the strange magic that happens when someone presses record. All footage © will be yours, it can be deleted right after or become a sexy cinematic 4k edit to enjoy later.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1011"
+        }
       }
     },
     {
@@ -42010,7 +46129,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Do you love disco, house classics, groove in body and soul, ice-cold slushies, effortless community with openness, joy and warmth in focus? Then, my friend, you are welcome to our little social space and mini dancefloor under the disco ball's inviting glow next to our cozy tipi. Wednesday through Friday between approx. 12–15, DJ Divanté & DJ Simpqlicious with friends invite you all to celebrate life – because disco is life and disco lives in all of us!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1012"
+        }
       }
     },
     {
@@ -42054,7 +46177,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Light and sound become your portal to altered states. Close your eyes and let the lamp guide you into colorful visions, deep relaxation, and expanded awareness — no substances, just your own mind. Come open and curious. Note: Not suitable if pregnant, under 18, with epilepsy, psychiatric/neurological conditions, photosensitive medication, or psychoactive substances in the last 24h.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1013"
+        }
       }
     },
     {
@@ -42095,7 +46222,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Satya will host a bracelet making workshop. Materials will be provided.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1014"
+        }
       }
     },
     {
@@ -42136,7 +46267,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We will host a throat singing workshop for beginners in the Sauna Cave.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1015"
+        }
       }
     },
     {
@@ -42177,7 +46312,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Begin your trip together with others in a ceremonial estatic dance. Leave your expectations at the door, bring your curiosity to the dance floor. A journey of movement, music, and connection - where every step is an invitation to explore, laugh, and let go. No choreography. No judgment. Just rhythm, presence, and a little bit of magic.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1016"
+        }
       }
     },
     {
@@ -42217,7 +46356,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Set your intention for the day ahead with a gentle sound journey. Live vocals, ambient soundscapes and instruments that invites you to land, rest and open yourself to the magic. Bring a notebook and pen to write/paint in during the sound journey<3",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1017"
+        }
       }
     },
     {
@@ -42258,7 +46401,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "EXCLUSIVO!!! DJ Fez Tropical spins original vinyl gems from around the world- cumbia, african, music you may never have heard before, music to make your heart sing and your body follow.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1018"
+        }
       }
     },
     {
@@ -42299,7 +46446,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "You've seen them. The TED speaker. The guru. The one who holds a room. You've wondered what it feels like to be that person. Now try it. Step into the seat, speak with presence, own the room! even just for a moment. What you discover about yourself will stay long after the dust settles.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1019"
+        }
       }
     },
     {
@@ -42344,7 +46495,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Throat singing has had a renaissance in recent years through different spiritual, shamanistic and metal bands. Come and join us at the Sauna Cave and learn some of the techniques where two passionate throat singers will do their best to help you reach your first resonance point.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1020"
+        }
       }
     },
     {
@@ -42387,7 +46542,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "This is an invitation to create your own flow and shake things off. Through guided improvisation and playful movement practice we'll reconnect with ourselves, express what words can't, and celebrate the freedom of moving without rules.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1021"
+        }
       }
     },
     {
@@ -42428,7 +46587,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Drop the script and play. This workshop is a no-pressure, all-fun dive into improv acting and theater games, the kind that get you laughing, quick on your feet, and gloriously unafraid to look ridiculous.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1022"
+        }
       }
     },
     {
@@ -42467,7 +46630,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Roaming and ready to help with your drug-harm reduction questions, cigarette rolling assistance if you're too cooked, and equipped with bits and bobs which help people who choose to use drugs do so in a safer and more considered manner. He may be wearing a black T with \"Professor Paraphernalia\" printed on it, or not. Approach and be helped! Or be referred to DanceSafe who are probably going to do a better job x",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1023"
+        }
       }
     },
     {
@@ -42507,7 +46674,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Got lint? Put your hairy bellybutton to work and donate that gloriously useless fluff to something even more useless. Stuff it in our Collection Jar and receive a Certificate of Donorship. Enough fluff = possible hamster sweater. Do your part for recycling. Multiple donations accepted.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1024"
+        }
       }
     },
     {
@@ -42554,7 +46725,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Switching between top & bottom using elements from brazilian jiu-jitsu & dancing <3 Bring friends and rehearse for the evening temples. Fully clothes workshop for all genders.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1025"
+        }
       }
     },
     {
@@ -42598,7 +46773,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Movement session including both play around and try some challenges on the monkeybar, and finish with a short workout (in cruise mode or beast mode). Host will both be hosting and participating, hence kids are welcome if they bring adult for supervision.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1026"
+        }
       }
     },
     {
@@ -42642,7 +46821,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "In this guided Alexander Technique & Movement Session we go from laying down to dancing. The technique suports you through words & touch to release your muscles & tissues, so you feel extra well in yourself to go out and enjoy your Friday. Bring a yogamat & a 3-5cm book or sth to lay your head on",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1027"
+        }
       }
     },
     {
@@ -42686,7 +46869,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "12 step meeting (recovery)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1028"
+        }
       }
     },
     {
@@ -42727,7 +46914,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Curious about flying, balancing, and laughing with new people? Join this playful beginner-friendly AcroYoga workshop! We’ll explore basic poses, partner exercises. No experience needed, just bring yourself and a sense of fun!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1029"
+        }
       }
     },
     {
@@ -42764,7 +46955,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come and see, feel and taste the marvel that is hairy tofu! Bring your own (or someone else's hairy body) to eat it from. A hairy, fuzzy and moldy (in the good way) delicacy!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1030"
+        }
       }
     },
     {
@@ -42809,7 +47004,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "One never has anything to do with another person without holding something of that person's life in ones hands. If meditation is an art of being Circling is an art of being-with Come explore who you are in the meeting with others and the incredible richness of human connection in all its flavours.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1031"
+        }
       }
     },
     {
@@ -42848,7 +47047,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Follow the scent to the Low Lands, just south of Snack Plaza, where crispy delights, surprise twists, and loungey vibes await. We flip with flair, serve with love, and welcome all dusty dreamers. We're just a smell away.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1032"
+        }
       }
     },
     {
@@ -42891,7 +47094,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Hatha Yoga in the Dome",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1033"
+        }
       }
     },
     {
@@ -42935,7 +47142,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come as a spectactor or as an istrument. Creating songs through spanking on the butt. A fun and naughty experience and show. We need spectators and people willing to be spanked by whip while humming tunes.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1034"
+        }
       }
     },
     {
@@ -42976,7 +47187,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "With our breath, we will travel far beyond our consciousness",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1035"
+        }
       }
     },
     {
@@ -43020,7 +47235,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Are you also tired of sharing circles? Skip the polished \"authentic\" sharing and come overshare instead! Bring an unsolicited insight, a confession, or an observation with questionable social value.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1036"
+        }
       }
     },
     {
@@ -43059,7 +47278,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Unleash the mind-bending, nerve-wracking and gut wrenching power of breath, sound and sriracha. Let your ego dissolve into a whirlpool of snot, beats, burps and tears during this guided 45 minute journey. Somatic, traumatic, fantastic. Taster discretion may be advised.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1037"
+        }
       }
     },
     {
@@ -43096,7 +47319,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Timetable of Alvheims psytrance journey through the Light and Dark🖤💛 Come join us for a deep and playful psychedelic dance ritual! Full lineup with artists will be found at Alvheim's Gate aswell as close to the sanctuary. Thursday 13:30 - 14:30 Find your Elven voice workshop 🧝 14:44 - 15:15 ☀️ Ceremony of The Light ☀️ 15:15 - 16:30 Deep psychedelic groove 16:30 - 18:00 Psychedelic bush prog 18:00 - 19:15 Groovy oldschool progressive psytrance 19:15 - 20:30 Full-on/Twilight 20:30 - 22:00 Minimal deep progresive psy 22:00 - 22:30 🌘 Ritual of The Dark 🌘 22:30 - 00:00 Scando-forest 00:00 - 00:15 Dance solo performance — The elf creature of the night 🧝 00:15 - 01:45 Darkprog-forest-twilight 01:45 - 02:00 15 minute Lazer harp performance 02:00 - 03:30 Darkpsy journey into faster bpms 03:30 - 05:00 Forest psytrance 05:00 - 06:00 Hi-tech 06:00 - 07:30 Deep psytech 07:30 - 09:00 Zenon/psychill The Gate is closing...🌀",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1038"
+        }
       }
     },
     {
@@ -43137,7 +47364,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Slow, muddy, burpy and wonderfully wobbly. Sink into an absurd ambient journey of bass, bubbles and beautifully questionable frequencies.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1039"
+        }
       }
     },
     {
@@ -43176,7 +47407,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A daytime, lakeside, golden hour sound camp where we engineer atmosphere in real time and cater for some refreshing electrolyte drinks. Carefully tuned for a warm, physical, high-fidelity dancefloor. Music matched to the moment, as the Swedish summer sunset slowly approaches over the beautiful waters.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1040"
+        }
       }
     },
     {
@@ -43217,7 +47452,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Learn how to truly let your poi follow the geodesics they so long to do! I will show you the principles of tossing and would love to go very advanced! Approachable from all levels.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1041"
+        }
       }
     },
     {
@@ -43261,7 +47500,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Leave your adult brain behind, unlock your inner child and prep for Friday’s Mad Hatter party! We are shaking off stress with contagious giggles and laughter, silly moves and connecting to the ground. The ultimate kickoff for a wild friday. Bring a sarong or blanket to lounge on!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1042"
+        }
       }
     },
     {
@@ -43302,7 +47545,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The movie reinvented. Every flyby scored in real time, every volleyball scene echoing into the cosmos. Maverick has never been more shamanic. Goose has never been more dead.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1043"
+        }
       }
     },
     {
@@ -43346,7 +47593,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Experience Argentine tango – an intimate dialogue through movement, connection, and music. Together we explore the fundamentals of this beautiful dance, guided by the timeless sounds of traditional tango. As this recurring event unfolds, each session will build naturally on the last, allowing us to gradually deepen our understanding and expression.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1044"
+        }
       }
     },
     {
@@ -43387,7 +47638,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come and dance tango together! Learn the basics, grab a partner and feel the heat!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1045"
+        }
       }
     },
     {
@@ -43431,7 +47686,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Can we hold someone without tying a knot? Here we will focus on sensation, presence, and the kind of slow, deliberate touch we often skip past in more traditional shibari. No experience needed; perfect for beginners. Got experience in shibari? great, you are welcome to! Ropes provided. Limited spots.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1046"
+        }
       }
     },
     {
@@ -43475,7 +47734,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Do you have what it takes to reach fungal equilibrium? Whether as a team of contestants or merely as a spectator, come join Brent Chister and Skip Halloway as they test Borderlings, such as yourselves, on their knowledge of psychoactive, mycelium and burner-cultural knowledge while getting to also showcase some of their inner talents for cocktails, edible prizes, recipes, fun and of course, Borderland street cred.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1047"
+        }
       }
     },
     {
@@ -43513,7 +47776,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Silent dance walks touching nature. We meet at Touch Divine and then go together to the forest. This is for those of you who would like a sober and sweet event on this intense day.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1048"
+        }
       }
     },
     {
@@ -43556,7 +47823,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A quick upper body session before entering the night. Legs and hips will work the dancefloors, so hit the discopump to activate some circulation & mood, and maybe pump your muscles/veins with some extra confidence/selflove💪🪩 there will be music, mirrors & a workout ready to be worked.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1049"
+        }
       }
     },
     {
@@ -43593,7 +47864,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Gate of Alvheim opens once again! ⛩️🧝🌲 Deep, powerful, playful psychedelic trance invites you on a 16+ hour dance ritual. 13:30 — find your Elvish voice. 14:44 — Ceremony of Light opens the Gates. 22:00 — Ritual of the Dark marks our descent into the unseen, dancing until sunrise. Expect live performances between night-sets, fire-spinning, a bar, fungal refugee chill area, daytime workshops, and a psytrance journey from bush prog to darkpsy, forest, hi-tech & zenon.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1050"
+        }
       }
     },
     {
@@ -43637,7 +47912,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A tyst minut? Nein nein! A tysk minute! A glorious German-ish minute of questionable accuracy. Put on your lederhosen, raise that bier and shout Prost! Speak fake German, real German, or just act German. No rules, only commitment, confusion and Wunderbar chaos wherever you are!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1051"
+        }
       }
     },
     {
@@ -43684,7 +47963,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Does guilt weigh heavy on your soul? Have you tasted the sweet nectar of sin? Redemption is but a confession away. Present your guilty conscience to our saints, horned demons & mystical beasts. The turning wheel decrees your fate: tender discipline or absolute pleasure. Survive our verdict and claim an official decree of Absolution — innocent of all misdeeds for the next hundred days.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1052"
+        }
       }
     },
     {
@@ -43727,7 +48010,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Lay back, slow down, imagine you're in a beautiful swamp and let the sound bath take you out of the night as the sun rises.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1053"
+        }
       }
     },
     {
@@ -43776,7 +48063,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Want to go on a Friday adventured? But you end up being stuck in a cuddle puddle all day? Do you wish there was a man with a flag who could lead you through adventures of sound, smell and taste. Someone who can lead your through journeys through silliness, calmness exploding joy and everything in between? (then join us)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1054"
+        }
       }
     },
     {
@@ -43815,7 +48106,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Lay back, relax, and let your imagination fly, it’s cloud watching time! Spot dragons, donuts, dancing llamas. Who knows what floats by? Bring your wildest daydreams, and some chill vibes. No rules, no rush, just sky-gazing joy and fluffy fun above.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1055"
+        }
       }
     },
     {
@@ -43852,7 +48147,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Need a moment to land? Come rest in the space, soak in ambient sounds, explore the light installations and simply enjoy the space.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1056"
+        }
       }
     },
     {
@@ -43895,7 +48194,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Relax, recharge and maybe even transform your life towards more freedom. The international solo artist Liberty a.k.a Anna Jois takes you through a journey with her intuition. She feels the space and then she fills the space with powerful music, words and her angelic singing voice that might pierce through your soul and open you up to freedom.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1057"
+        }
       }
     },
     {
@@ -43940,7 +48243,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Tender. Primal. Sensual. The comfort of being held and nurtured - skin to skin, close, real. Explore actual nursing - milk optional. Flat, hairy, big, small, scars - every breast, every gender belongs. Nurse, be nursed, feed, be fed, or both. Come with a partner or find one or more in the workshop.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1058"
+        }
       }
     },
     {
@@ -43981,7 +48288,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Let your Friday evening take off to the vibrations of singing bowls. Perhaps there will be a flute. There will definitely be singing, parts of Swedish folk songs which I write, and then tweak, because it’s all about the energy of the room, of the moment.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1059"
+        }
       }
     },
     {
@@ -44026,7 +48337,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Four Agreements of Touch is a playful workshop for couples or two consenting adults exploring conscious touch through four games: Receiving, Giving, Taking, and Allowing. With clear agreements, curiosity, and communication, you choose the level of intimacy, clothed or deeper, by shared consent..",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1060"
+        }
       }
     },
     {
@@ -44071,7 +48386,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come, whoever or whatever you are, and share with us a cup of delicious Turkish coffee and a sweet baklava.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1061"
+        }
       }
     },
     {
@@ -44110,7 +48429,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Bingo! Burners Edition is not your grandma’s game night. It’s wild, weird, and full of sparkle. Expect Burner-style chaos. Costumes encouraged, laughter guaranteed. Eyes on your card, bingo glory awaits!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1062"
+        }
       }
     },
     {
@@ -44149,7 +48472,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A corner of Paris in the woods — wine, peanuts, and the art of l’Apéro.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1063"
+        }
       }
     },
     {
@@ -44192,7 +48519,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Wanna look fancy for your Friday festivities? Not sure how to get those braids just right? I'll help you gather those locks into fabulous braids — the classic 3-strand, French and Dutch braid, twists and 4-strand variations. Bring: yourself, at least 10 cm of well-brushed, reasonably clean hair, a hairbrush, hair ties, and as much patience as you can muster! Braiders and braidees alike welcome — luxury hairspa seekers, this is your day!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1064"
+        }
       }
     },
     {
@@ -44237,7 +48568,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A Circling session with a focus on the question \"What would you do in this moment if you felt completely free\"",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1065"
+        }
       }
     },
     {
@@ -44278,7 +48613,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Maybe your favorite acid musical experience - Maybe you are the musical experience? Contact Stefan for more information.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1066"
+        }
       }
     },
     {
@@ -44319,7 +48658,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come and enjoy Pink Floyd music combined with live psycadelic visuals. The tracks and light show will be on the calmer side so you can enjoy it in whatever state of mind you're in. Welcome old Pink Floyd fans, new ones who want to fall in love with their music and any other lost Borderling. Also to clarify: this will take place upstairs in The Church but it is NOT an orgy.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1067"
+        }
       }
     },
     {
@@ -44364,7 +48707,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Every day at 16:00 we rise from the Pond and parade to the lake, lesbian flag flying, for 2 hours of swimming, floating, splashing and sun. Beavers, nymphs & neighbours all welcome to join the procession. Come get wet with us 💦🏳️‍🌈 Meet at the Pond, follow the flag.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1068"
+        }
       }
     },
     {
@@ -44405,7 +48752,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Remember Cupid’s Garden Acid Fridays? 🌞 Cupid’s is taking a break, but the Trippy Minimal Party returns as a Beach Day Party! Join us på bryggan vid sjön for groovy minimal, a refreshing swim and a fresh start before the last days of beautiful chaos. 💙 DJ line-up: Alonso Lozano + TBA",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1069"
+        }
       }
     },
     {
@@ -44446,7 +48797,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Smooth Honey for the Nervous System is a gentle workshop designed to help you release the tension of an intense week at BL, calm your nervous system, and reconnect with a sense of ease. Leave feeling lighter, more grounded, and ready to fully enjoy the final days of the festival.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1070"
+        }
       }
     },
     {
@@ -44487,7 +48842,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Workshop, singing, druming, dancing, to celebrate life on Mother Earth. Together with Rolf we will have a magic time singing, druming and dancing. Bring your own drum if you have. Most welcome.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1071"
+        }
       }
     },
     {
@@ -44528,7 +48887,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Dancing Tango together is a game of leading and following, a connection with yourself, and from yourself with the other. During this workshop we focus on the playfulness of connection, as we hope to melt together like four-legged animals to the music. Absolute beginners are welcome.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1072"
+        }
       }
     },
     {
@@ -44568,7 +48931,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A series of presentations on how humans wound up with Patriarchy. Lesson 1 - The First 96% of Human History Lesson 2 - Earth Goddess vs Sky Father Lesson 3 - Conquest and Control Lesson 4 - God Hates Women Lesson 5 - A Path Forward",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1073"
+        }
       }
     },
     {
@@ -44609,7 +48976,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "You keep seeing these mythical creatures playing with fire and lights? Anyone can learn it! This is an opportunity to try out different toys and learn some tricks. No matter if you’re completely new to flow arts, want to try a prop you haven’t before, or practice one you know well.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1074"
+        }
       }
     },
     {
@@ -44650,7 +49021,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Alert: Extreme gravitational anomaly! Our starship is pulled into the event horizon of Urannuss-X—a tropical, magnetic Black Hole where physics bend to attraction. There is no escaping this cosmic sweatbox. The gravity perfectly mimics deep, heavy basslines echoing from its core, drawing bodies closer together. Tonight, we release a heavy stream of house, bounce, and infectious rave music designed to make you lose your inhibitions. Surrender and let the groove drag you straight to the center!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1075"
+        }
       }
     },
     {
@@ -44691,7 +49066,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Jazz in the Afternoon",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1076"
+        }
       }
     },
     {
@@ -44735,7 +49114,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "📖🌌 Sharing our stories acts as a powerful bridge that fosters empathy. Bring a short story, a poem, or a memory, that you carry close to your heart! Listen, speak, and feel what connects us.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1077"
+        }
       }
     },
     {
@@ -44780,7 +49163,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Calling all Kundalinis and curious beings for an Energizing Breath Ritual. With the heightened energy, openness, and playful spirit of Friday, you may awaken your Kundalini energy. If you're lucky, you might even experience an energetic orgasm... 😉 A guided solo practice, held and amplified by the collective energy field. Let's play. Clothes on — just bring a blankie.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1078"
+        }
       }
     },
     {
@@ -44825,7 +49212,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Venerate Her! Only the most faithful disciples will journey to the Temple of the Divine Goddess. At the heart of this sacred space we will explore the intricate dynamics of D/s via rituals of foot worship. The disciples will awaken The Goddess and then we will bear witness to Her glorious ascension!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1079"
+        }
       }
     },
     {
@@ -44868,7 +49259,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Time to share. Are you finding love, lost your friends, discovering the meaning of life. Return to confess.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1080"
+        }
       }
     },
     {
@@ -44907,7 +49302,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Happy Hour à la Française! — Sparkling wine, peanuts, and the art of l’Apéro.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1081"
+        }
       }
     },
     {
@@ -44948,7 +49347,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come enjoy the healing sounds of crystal singing bowls and vibrations of weighted tuning forks. We will enjoy 30-40 minutes of sound healing and after that we pair up to enjoy tuning forks with different frequencies.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1082"
+        }
       }
     },
     {
@@ -44989,7 +49392,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A synth-heavy set mixing ethereal tracks from the Silent Hill soundtrack with trip hop and downtempo classics (Portishead, Massive Attack, DJ Shadow, etc.). Industrial lullabies with slow-burning beats and strings dripping with aura.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1083"
+        }
       }
     },
     {
@@ -45017,7 +49424,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Interactive pop‑up Performance by The Cheese Doctors @ The Institute of Insanity: reality‑bending experiments, cheese‑based treatments, and strictly confidential participation. Are you ready to be examined by cheese?",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1084"
+        }
       }
     },
     {
@@ -45058,7 +49469,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Explore hidden desires from the unconscious, lifting up the repressed, the taboo... A sacred space to discover new ways of lust and naughtiness, where your kinks are welcomed as a divine part of yourself. The tent of our dreams: soft pillows, mattresses, cozy decoration, lots of beautiful bodies <3 Maybe a surprise! Maybe a secret theme! Maybe it's all connected! Adults only. Sex positive space. Heavily grounded in consent. Completely sober.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1085"
+        }
       }
     },
     {
@@ -45102,7 +49517,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Let's have a deep and authentic dialogue about important and controversial topics. Maybe it's something Borderland related, or something from the default world that impacts us all. Let's listen to each other's perspective with an open heart and mind and maybe we can integrate all those polarities a bit more.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1086"
+        }
       }
     },
     {
@@ -45145,7 +49564,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come shimmer with us! As night chill creeps in, we're brewing warmth: Vegan spiced Chai with oat milk, plus nibbles on the side. Sing, cuddle, talk under the stars. All kinds of souls welcome! Bring your cup, your voice, just yourself. Let's get cozy by the fire!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1087"
+        }
       }
     },
     {
@@ -45188,7 +49611,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A gathering for those who trip differently. If you'd rather have philosophical discussions than party and laugh, if you're the emotional type, if you're sensorially overwhelmed or simply need a chill space, then come to our warm tipi. There will be warm chai, crafts, and like-minded people.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1088"
+        }
       }
     },
     {
@@ -45232,7 +49659,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to the Temple of Sound 🪐 Enter a sacred space of breath, healing sounds and powerful vibrations. Through gongs, didgeridoo, throat singing, drums, flutes and handpan, we will guide you through an immersive journey into altered states of consciousness. 🌌",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1089"
+        }
       }
     },
     {
@@ -45275,7 +49706,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Church changes gear for an evening of live music, ambient sets and chilled vibes. Playspace closed.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1090"
+        }
       }
     },
     {
@@ -45318,7 +49753,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "🪩🐍 Welcome to a desert inspired music session, where you can dance, sway, or slither around on our magical carpets. Fill The Genie's Lamp with energy that can ebb and flow against the rhythm. Dancing, whilst laying down, is much encouraged by the Djinns!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1091"
+        }
       }
     },
     {
@@ -45362,7 +49801,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Opening-night magic: pin your heart to the Soul Matchmaking Board and let the Pond play cupid. We'll show you how it works, then set you loose to find your person (or your Tuesday-night U-Haul partner). Bring your crush energy 🐸💘",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1092"
+        }
       }
     },
     {
@@ -45406,7 +49849,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Enter blindfolded, meet in the dark. A self-organized space for slow, non-verbal, consensual connection, no eyes, no words, no idea if she's flirting (she or they is). The cure for the lesbian sheep problem 🐑🐸",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1093"
+        }
       }
     },
     {
@@ -45449,7 +49896,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "WEDER fuses funked up house and dreamy techno built around his array of modular synthesizers. Yes, all this noise is happening live! His productions build upon distorted 303 riffs, violin hooks and organic percussion - Music for the head in the cloud and both feet on the dancefloor.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1094"
+        }
       }
     },
     {
@@ -45489,7 +49940,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "If you have the courage to come find our coven at night we will reward you with a special treat! Only a few will experience our special magic ritual and learn how to cast spells. Will it be you? (We serve groups of 2-8 people for 15 to 30 minutes. Kid Friendly!).",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1095"
+        }
       }
     },
     {
@@ -45530,7 +49985,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come, friend, and sit with us. Beneath the roots of the earth tree, we welcome you. Share your stories, warm yourself at our crackling fire and just be, for a while. You are welcome here. Just the way you are.🔥✨",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1096"
+        }
       }
     },
     {
@@ -45576,7 +50035,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Ever thought of a threesome? It seems like the whole world is in pairs, lets break this mold and explore how we can connect and explore beyond. A Spicy, playful and erotic exploration how to navigate in triads. You are welcome alone or with your (play)partner(s) within all genders and orientation.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1097"
+        }
       }
     },
     {
@@ -45618,7 +50081,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "1 hour of Prince's 'Purple Rain' on vinyl repeat, subject to neighbourly tolerance. A sparkly friday night Borderland tradition, but this time even purplier as we use the whole plaza for one final final encore.. (Please note the DJ takes requests, but only for one song). Bring an umbrella in case of rain..",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1098"
+        }
       }
     },
     {
@@ -45661,7 +50128,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Velvet Lounge appears on its own schedule: look for the open sign 🕯️. Gender-ambiguous bartenders pour your drink and read your tarot. Slow dance barefoot. Fall backwards into deep conversation. Shy kisses only. A sensual, surreal, softly clown-haunted place for warmth and connection 🔮🥀",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1099"
+        }
       }
     },
     {
@@ -45702,7 +50173,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Bear loses its mind. Journey through high-energy bass music on our hand-crafted sound system. Live improvisation and strange turns may occur.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1100"
+        }
       }
     },
     {
@@ -45741,7 +50216,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Join us on Friday for the burn of Sinnergirl. Throughout the week, Borderlings are invited to leave testimonies of pain, grief, hope, and joy on her walls. Together, we will honour what was, let go of what we carry, and transform it all into memory, ash, and light.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1101"
+        }
       }
     },
     {
@@ -45785,7 +50264,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Do you think you have what it takes to give yourself to lucifer and to take other people's socks off their feet while dangling deep in lucifer's pit? Then come to lucifer's pit for the most spectactuar sock wrestling tournament spectacular! Bringer of Light! Eater of socks! hijinks will ensue",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1102"
+        }
       }
     },
     {
@@ -45826,7 +50309,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Foxhole opens its velvet curtains. Slip into a candlelit salon where burlesque, pole, cabaret, masks, mischief, and a touch of the unexpected unfold throughout the night. Sip delicious drinks, linger a little longer, flirt with curiosity, enjoy our playroom, applaud generously, dance and let yourself be surprised. A place where glamour meets play, and every fox has a front-row seat.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1103"
+        }
       }
     },
     {
@@ -45867,7 +50354,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Something Suitable for a Friday Evening..",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1104"
+        }
       }
     },
     {
@@ -45910,7 +50401,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We finally survived the resurrection of trance music. But the next trend is waiting around the corner! Come to the circus and enjoy a handpicked collection of timeless acid house music on vinyl.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1105"
+        }
       }
     },
     {
@@ -45951,7 +50446,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "No, you're not just imaging the sparkling lights. Welcome to a place where the flowartists of Borderland gather and show off, not with fire, but with the entire palette of the rainbow.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1106"
+        }
       }
     },
     {
@@ -45993,7 +50492,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Join Max & Dawe on a communal dance trip into the bear’s den. Bass music with live improv vocals and experimental electronics weave into a story shaped by the audience. Will we rave again? Maybe heal some pain? You choose the way, we all will play!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1107"
+        }
       }
     },
     {
@@ -46038,7 +50541,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A warm communal cuddle-nest in the Summerge tent, held by Regina through the small hours. Crawl in, get cozy, be held against the cold and the loneliness. 🐸🌙",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1108"
+        }
       }
     },
     {
@@ -46079,7 +50586,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Spaceport Closing Party, we never know what will happen- it could be the silence of windswept weeds, it could be madness.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1109"
+        }
       }
     },
     {
@@ -46114,7 +50625,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "After all the journeying and intensity of Friday, step into a deeply ceremonial, candlelit space where we serve wonderful baked delights for your belly, accompanied by a live ambient violin set. This is a place to experience something sacred. We kindly ask that you keep conversation to a minimum.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1110"
+        }
       }
     },
     {
@@ -46160,7 +50675,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Hexemutters Galehus Warning: experimental medicine cabinet. 41 remedies — yours to judge, yours to draw. Side effects include self-knowledge, mild existential crisis and uncontrollable honesty. We are not responsible for what the cards unlock. Always open. We never sleep. Unless we sleep. Wake us and die",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1111"
+        }
       }
     },
     {
@@ -46189,7 +50708,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "When you've packed up all of your mojo, your tent feels impossibly far away, and truthfully.. you've got a tiny existential wobble brewing, come find us. Lazy Treats Hour will serve you hot toasties, silliness and giggles, plus a generous serving of camp love. Survival, but make it fabulous.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1112"
+        }
       }
     },
     {
@@ -46226,7 +50749,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Some say it moves when no one´s looking. Others say it only reveals itself to those who truly need a wish granted. In any case, if you find it: Hang a wish, tie a secret, weave a promise into its bark. Maybe it grants them, maybe it eats them. Either way, your business is no longer your own.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1113"
+        }
       }
     },
     {
@@ -46263,7 +50790,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Send your(other)self a message in form of postcard from Borderland. Capture the fleeting moment and extract it out before it vanishes. Come hangout at Socialen, we offer a relaxed space to settle in a reflect for a moment and write yourself or others about your current state of mind.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1114"
+        }
       }
     },
     {
@@ -46295,7 +50826,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Time capsules: portals to the past, filled with memories for future generations. Seal photographs, letters or trinkets — 4 capsules, one per cardinal direction, co-created and sealed by different neighborhoods at the end of this year's Borderland. In 2027 they'll be buried under permanent art, for future archaeologists or extraterrestrials to wonder what strange not-a-cult walked this land.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1115"
+        }
       }
     },
     {
@@ -46328,7 +50863,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Dust, sweat, glitter and forest. Bring water and enjoy a moment of warmth, care and renewal before returning to the adventure. Built with Leave No Trace principles, deep love., and a steadfast faith in my close to nonexistent technical skills.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1116"
+        }
       }
     },
     {
@@ -46368,7 +50907,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "01:00 Heidrich. Slow-burning, hypnotic, meditative space between dance and ritual. 02:30 K.Dissent Dark, introspective and hypnotic techno. 04:00 GodRay High-tempo hypnosis. A slow descent inwards. 05:30 Matiago Mystical, enchanting sound with infectious rhythms and deep, driving bass.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1117"
+        }
       }
     },
     {
@@ -46408,7 +50951,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Commit wicked sins or accept deserved punishments from our curated menus at SIN Bar, Club SIN's handcrafted wooden haven beside the dancefloor. Earn sincoins, ask nicely, and our SINtenders may reward you with cocktails, non-alcoholic delights, special snacks, and redeeming treats. Sinful tonight?",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1118"
+        }
       }
     },
     {
@@ -46448,7 +50995,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Gates of House of SIN open to a wicked playspace where you may receive erotic massage, spanking, spooning services, or engage in sinful plays with your partners. Enter only if you can charm the gatekeeper with sincoins and respect the rules. Pleasure, pain, and temptation will wait in the chambers...",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1119"
+        }
       }
     },
     {
@@ -46493,7 +51044,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Feeling confident or really not confident about your dick? Whip it out, lets talk about in group and compare. 3 rounds: 1 talking, 2 feeling, 3 playing. Leaving is possible after every round or staying without touching is also possible. Transgender men are also verry welcome.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1120"
+        }
       }
     },
     {
@@ -46532,7 +51087,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come experience the sun rising with full aliveness of your body. This movement meditation & conscious dance will be dedicated to the sun above and to our light within. Once the sun rises and after the dance meditation, you will be invited to join in the small ritual of closing The Sun, The Temple, so it can burn that day.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1121"
+        }
       }
     },
     {
@@ -46571,7 +51130,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Find a good spot anywhere and just sit back and people-watch while relaxing. It looks like a Borderland movie, doesn’t it?",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1122"
+        }
       }
     },
     {
@@ -46610,7 +51173,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Start the day on the mat with others through primal play, contact improvisation, Brazilian jiu-jitsu or a combination of the three. There is no facilitator and no fixed structure, just a shared space to explore, connect and move together. Whoever arrives first kicks things off with a five-minute Tabata.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1123"
+        }
       }
     },
     {
@@ -46656,7 +51223,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "If you want to leave your pooch for a few hours in a quiet campground to be watched by two volunteers, consider coming here. It's hoped that people who leave their dogs also take a shift.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1124"
+        }
       }
     },
     {
@@ -46699,7 +51270,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Curious on Jungian philosophy and your unconscious? A dream matrix is a space where we share nightly dreams, in order to open up your unconscious and rediscover nightly dreams you'd forgotten. After the matrix there'll be a short teaching and sharing. See insta @BLdreammatrix",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1125"
+        }
       }
     },
     {
@@ -46741,7 +51316,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Participants will be soaked in orgone, showered with it, and possibly transformed by it. This is likely a once-in-a-lifetime opportunity to expose a large population to orgone. Available 24/7 for restorative use. Guided Sessions and experiments will be announced on white board at camp.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1126"
+        }
       }
     },
     {
@@ -46784,7 +51363,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A place to meditate together in silence, and keep up your home practice, but in silent community. Do come along, first timers also welcome!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1127"
+        }
       }
     },
     {
@@ -46824,7 +51407,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Stuck in a conflict? Meet the CRT any day. We don’t take sides or decide for you. We’re here to listen, offer mediation tools, and help find ways to coexist. Stop by to chat, learn, or get support! Conflicts should be solved between those involved, but if that isn’t possible, you can turn to us!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1128"
+        }
       }
     },
     {
@@ -46869,7 +51456,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "One never has anything to do with another person without holding something of that person's life in ones hands. If meditation is an art of being Circling is an art of being-with Come explore who you are in the meeting with others and the incredible richness of human connection in all its flavours.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1129"
+        }
       }
     },
     {
@@ -46903,7 +51494,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Ask Your Father Anything. Pull up a chair and have the conversation you never had. Ask for advice, comfort, approval, understanding, or answers. Rage, laugh, cry, or sit in silence. For a moment, You will be met, listened to and if you want, answered.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1130"
+        }
       }
     },
     {
@@ -46942,7 +51537,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Master the magical art of doing nothing! No goals, no to-dos just you, a comfy spot, and sweet, glorious idleness. Hug a tree, wiggle your toes, daydream wildly. It’s fun, it’s freeing, it’s fabulously unproductive. Permission to laze: granted!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1131"
+        }
       }
     },
     {
@@ -46981,7 +51580,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Pillows, blankets and a lazy power nap... What can be better than lying down in a cozy spot and taking a nap. It’s the ultimate lazy activity and great for recharging!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1132"
+        }
       }
     },
     {
@@ -47024,7 +51627,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Mystery Yoga session (still looking for a teacher to gift this session as JOMO guide goes to print- )",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1133"
+        }
       }
     },
     {
@@ -47064,7 +51671,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Make brushing your teeth a fun and absurd way of getting to know new people and new toothpastes! We take you to a trip around the world's most exquisite toothpastes. BYOT (Bring your own toothbrush -and pimp it at our craft booth!-) No toothbrush ? Pass by for a shot of mouthwash you stinky hippie ! Fun toothpastes ? Bring them all !",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1134"
+        }
       }
     },
     {
@@ -47109,7 +51720,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Melt into the soft hours with a slow, juicy yin yoga practice for femmes loving femmes (butches & nb folks included). Long-held poses, deep breath, gentle touch, come home to your body by the water. All levels, all bodies. Daily at 11, bring yourself, leave puddly 🐸",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1135"
+        }
       }
     },
     {
@@ -47133,7 +51748,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "All jewellery: $Free.99 I bring jewellery from all over the world to this magical little pop-up! Come pick the piece(s) that speak to you and leave a kind word for the next person. Walk off with your new jewellery and a mystery note from the person before you.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1136"
+        }
       }
     },
     {
@@ -47177,7 +51796,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Light and sound become your portal to altered states. Close your eyes and let the lamp guide you into colorful visions, deep relaxation, and expanded awareness — no substances, just your own mind. Come open and curious. Note: Not suitable if pregnant, under 18, with epilepsy, psychiatric/neurological conditions, photosensitive medication, or psychoactive substances in the last 24h.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1137"
+        }
       }
     },
     {
@@ -47218,7 +51841,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Deep house/chill/ambient soundscapes. 100 bpm.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1138"
+        }
       }
     },
     {
@@ -47259,7 +51886,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Everything happens a last time. Let yourself join a guided solitary experience through life and death. What can you bring out of the positive experience of death?",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1139"
+        }
       }
     },
     {
@@ -47303,7 +51934,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The borderland barber returns for the third year in a row to pimp up some hippy hair. Come to me and I’ll get you feeling beautiful and refreshed! As I am a barber I will be mainly focussing on shorter haircuts but feel free to pop by and have a chat if you do have longer hair in need of a trim and I’ll see what I can do! All genders, hair types and people welcome! Come see me and have your burner haircut sorted !",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1140"
+        }
       }
     },
     {
@@ -47342,7 +51977,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Roaming and ready to help with your drug-harm reduction questions, cigarette rolling assistance if you're too cooked, and equipped with bits and bobs which help people who choose to use drugs do so in a safer and more considered manner. He may be wearing a black T with \"Professor Paraphernalia\" printed on it, or not. Approach and be helped! Or be referred to DanceSafe who are probably going to do a better job x",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1141"
+        }
       }
     },
     {
@@ -47382,7 +52021,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Got lint? Put your hairy bellybutton to work and donate that gloriously useless fluff to something even more useless. Stuff it in our Collection Jar and receive a Certificate of Donorship. Enough fluff = possible hamster sweater. Do your part for recycling. Multiple donations accepted.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1142"
+        }
       }
     },
     {
@@ -47426,7 +52069,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "In this tantric workshop you will explore your body through movement, breath and (self)massage so that you may tap into your divine feminine sensuality. The divine feminine will bloom in a safe space of deep relaxation. (Women only) Come as you are and bring a little Sari/ towel.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1143"
+        }
       }
     },
     {
@@ -47470,7 +52117,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to a workshop where we practice our locomotion movements, we stay close to the ground and dismantel the moves to make them easy to learn. Then we put the parts together and do full body movements that look awesome and feel flowy. No previous experience needed!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1144"
+        }
       }
     },
     {
@@ -47513,7 +52164,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Only happening if the sun is shining! Make a souvenir with paper, sunlight, and findings from the playa. Bring a small object you found, something meaningful to you, or use our bits to create a blue sun-printed postcard.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1145"
+        }
       }
     },
     {
@@ -47554,7 +52209,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Museum of Bad Arts welcome you to the first iteration of our ongoing initiative to premiere Bad Poetry. Come by and read your bad poems, or listen to some of the worst poets at the burn. There might be wine.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1146"
+        }
       }
     },
     {
@@ -47597,7 +52256,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Shy “hellos” at the water pump? Lingering glances at the Bunnyhorse? Pink Parachute is where the “almost” moments come in for landing. Your missed connection will be here. Will you? There are more important things than strike on Saturday 💅💕🪂. Minitel, Rinman, and Silky Tunes bring you home",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1147"
+        }
       }
     },
     {
@@ -47640,7 +52303,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come get your salt on 😎 We will serve electrolytes punch that will help you recover from Friday night. Alcoholic and non-alcoholic options and more surprises to enjoy ✨",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1148"
+        }
       }
     },
     {
@@ -47685,7 +52352,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "One never has anything to do with another person without holding something of that person's life in ones hands. If meditation is an art of being Circling is an art of being-with Come explore who you are in the meeting with others and the incredible richness of human connection in all its flavours.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1149"
+        }
       }
     },
     {
@@ -47726,7 +52397,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Bring your USB and spin some tunes! A chilled, daytime session. Playspace closed",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1150"
+        }
       }
     },
     {
@@ -47769,7 +52444,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come enjoy a sound healing session followed by a workshop in weighted tuning forks.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1151"
+        }
       }
     },
     {
@@ -47812,7 +52491,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Having personal (life) goals and achieving them can be highly rewarding. But how to find out what ones goals are? And what can one do to actually achieve them`? This workshop will teach strategies for both, including a brainstorming session if you dont know yet what you want. Bring pen and paper to take notes",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1152"
+        }
       }
     },
     {
@@ -47849,7 +52532,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A guided tea experience that aims to soothe and ground mind and body after a long night. Bring your favourite cup.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1153"
+        }
       }
     },
     {
@@ -47890,7 +52577,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Dying to release your inner child/thespian/kaiju? We will create a safe space to explore drama skills, with a variety of games and exercises. Hilarious, provocative & challenging! No previous experience necessary. Hosted by Nocturne.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1154"
+        }
       }
     },
     {
@@ -47934,7 +52625,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come indulge your laziness with Club SIN's self-appointed queen of cuddles, as we revel in the sin of Sloth. Come snuggle up, relax and maybe even doze off while we read you fairy tales to transport your minds away from reality and responsibility.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1155"
+        }
       }
     },
     {
@@ -47971,7 +52666,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Join us as we close the portal to Lemuria. A collective farewell to our temporary world, celebrating everything we created together before returning to this reality.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1156"
+        }
       }
     },
     {
@@ -48015,7 +52714,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Experience Argentine tango – an intimate dialogue through movement, connection, and music. Together we explore the fundamentals of this beautiful dance, guided by the timeless sounds of traditional tango. As this recurring event unfolds, each session will build naturally on the last, allowing us to gradually deepen our understanding and expression.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1157"
+        }
       }
     },
     {
@@ -48052,7 +52755,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Care for a slice of Neapolitan-style margherita pizza while you are hanging out Socialen? This is the dream for filling your stomach and satisfying your taste buds while enjoying the vibes and activities of the Socialen.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1158"
+        }
       }
     },
     {
@@ -48093,7 +52800,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "During this two hour workshop we will learn the ancient art of the divinatory tool I Ching and integrate the hexagram we draw through a gentle art practice. There will also be a small group/pair sharing about your hexagram and how it relates to your life, and a closing circle.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1159"
+        }
       }
     },
     {
@@ -48132,7 +52843,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Our BIG bucket of Tahini has supplied you all the with the holy powers of the Tahini goddess for this borderland and now it is time to close the lid on another chapter. There will be Tahini songs, Tahini blessings, Tahini fika and so much more. All are welcome to have one last taste of the divine.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1160"
+        }
       }
     },
     {
@@ -48173,7 +52888,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Dreams are gifts directly from Source, speaking in a language of pure imagination and potential, not bound by the perceived limits of our physical realm. To understand how dreams communicate, an open mind & heart to listen to the messages they bring is important. Can we remember our dreams, seeing patterns take shape that tell the stories of our existence?",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1161"
+        }
       }
     },
     {
@@ -48217,7 +52936,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Cuddlist-certified cuddle therapy: safe, platonic touch rooted in consent. Let your nervous system settle through co-regulation with a calm, present body beside yours. A soft place to land amidst the Borderland intensity. First come first served.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1162"
+        }
       }
     },
     {
@@ -48254,7 +52977,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come and talk about the all year round community in Alversjö, the history and ideas for the future. What do we do here outside of Borderland and how does things work? Come ask your questions and find out how you can engage.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1163"
+        }
       }
     },
     {
@@ -48286,7 +53013,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Those that know the secrets of rolling, and those that seeks the knowledge of the Role. Those that are curious about the rituals aorund the Herbs and those that know the meaing of the hand gestures. Those that have sat in the circle and those that are seeking the circle. Those whom have been both passanger and conductors of the train.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1164"
+        }
       }
     },
     {
@@ -48328,7 +53059,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We will gather at the Alice the Malice in Wonderland camp and walk together to a spot by the water, to host a ceremony to thank the land that hosted us. The ceremony drives from south American traditions. As an offering, you are welcome to bring tobacco, a lock of hair, your collected menstrual blood, something you have made from natural materials, or anything else that is natural and can be returned to the land.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1165"
+        }
       }
     },
     {
@@ -48375,7 +53110,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Does guilt weigh heavy on your soul? Have you tasted the sweet nectar of sin? Redemption is but a confession away. Present your guilty conscience to our saints, horned demons & mystical beasts. The turning wheel decrees your fate: tender discipline or absolute pleasure. Survive our verdict and claim an official decree of Absolution — innocent of all misdeeds for the next hundred days.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1166"
+        }
       }
     },
     {
@@ -48421,7 +53160,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "This space is non-sexual and non-performative – it’s about human connection, relaxation, and care. The event begins with a short workshop on consent and boundaries, so everyone feels safe and clear before we open up for a cuddle puddle. Come comfy and clean✨",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1167"
+        }
       }
     },
     {
@@ -48460,7 +53203,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Lay back, relax, and let your imagination fly, it’s cloud watching time! Spot dragons, donuts, dancing llamas. Who knows what floats by? Bring your wildest daydreams, and some chill vibes. No rules, no rush, just sky-gazing joy and fluffy fun above.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1168"
+        }
       }
     },
     {
@@ -48504,7 +53251,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "So you showed up to our Missed Connections Party, but you don’t know how to make your move? We’ve got you covered. Pink Parachute’s rigorously lab-tested matchmaking service will tell you if it’s true Borderland love (it may involve blindfolds & armpit sniffing). Just follow your nose 💕👃",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1169"
+        }
       }
     },
     {
@@ -48550,7 +53301,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Find out how subtle awareness unlocks aliveness, sensitivity and depth in erotic and sensual encounters. Clothes on, circling-inspired paired practice; come with or without a partner.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1170"
+        }
       }
     },
     {
@@ -48592,7 +53347,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Kate Bush's Wuthering Heights choreography taught and experienced. Discard all your prior dance experience - the only prerequisite you will need is passion. Dress code: eery red optional",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1171"
+        }
       }
     },
     {
@@ -48639,7 +53398,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Have you ever experienced true submission? Well if not, this is your ritual to explore the depth of giving onself to another. If you dare, all the way to total devotion. You will be allowed to follow your impulse to submit. And it`s YOU that can choose who is worthy enough to dominate you. There will be time to slow down and listen before you decide to plunge in. But once you dive the submission will be real, in the sense that the dominant is genuinely free to do “whatever” they want.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1172"
+        }
       }
     },
     {
@@ -48680,7 +53443,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A lazy afternoon with very little intention of staying lazy. DJs weave slow-burning rhythms while the bar keeps spirits high and the dancefloor gently calls your name. Wander between music, mischief, conversation, and connection. Whether you're here to dance, play, flirt, or simply bask in the strange beauty of it all, the Foxhole is yours to explore. We might have a playful suprise closing act prepared... 🤡",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1173"
+        }
       }
     },
     {
@@ -48721,7 +53488,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come and witness music being made in the moment. Maybe you have some words that you want to hear as a song? Or a message for someone you want to surprise with a song made for them. What happens in the moment stays in our memory!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1174"
+        }
       }
     },
     {
@@ -48765,7 +53536,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "An invitation to slow down and rediscover touch beyond autopilot and performance. This beginner friendly workshop explores hands only erotic touch with focus on presence, pace, consent and communication. When we step away from chasing climax, we open the door to micro sensetions, deeper attunement and touch that feels connected, clear and alive - moment by moment, exacly as it is!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1175"
+        }
       }
     },
     {
@@ -48806,7 +53581,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Have you seen someone play and dance with a weight on a long rope (glowing or even on fire) and wondered how to get into this? Or are you already an experienced dartist wanting to learn something new? Either way, join this all-levels workshop. Rope darts available.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1176"
+        }
       }
     },
     {
@@ -48851,7 +53630,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come, whoever or whatever you are, and share with us a cup of delicious Turkish coffee and a sweet baklava.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1177"
+        }
       }
     },
     {
@@ -48890,7 +53673,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A corner of Paris in the woods — wine, peanuts, and the art of l’Apéro.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1178"
+        }
       }
     },
     {
@@ -48933,7 +53720,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1179"
+        }
       }
     },
     {
@@ -48978,7 +53769,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Our most stigmatised body parts — groin, chest, buttocks, face — also hold our deepest aliveness, creativity and self-trust. Attuned present touch can nourish our matter & retrieve our innocence—inner sense. Body-centric, gender-irrelevant, NOT erotic. Talk to us beforehand if you carry known trauma.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1180"
+        }
       }
     },
     {
@@ -49023,7 +53818,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Every day at 16:00 we rise from the Pond and parade to the lake, lesbian flag flying, for 2 hours of swimming, floating, splashing and sun. Beavers, nymphs & neighbours all welcome to join the procession. Come get wet with us 💦🏳️‍🌈 Meet at the Pond, follow the flag.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1181"
+        }
       }
     },
     {
@@ -49061,7 +53860,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Guided bodywork session with live music",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1182"
+        }
       }
     },
     {
@@ -49102,7 +53905,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "After a week of Borderland our bodies dusted and our minds our blown. How to get yourself back into normal life? In this workshop we're sharing experiences, tips about moving back into the real world. Pre-sharing rule #1: do not make any life changing decisions in the first three weeks after Borderlands. Come one, come all and frolick.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1183"
+        }
       }
     },
     {
@@ -49141,7 +53948,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The MŸS crew invites you for a downtempo live set in preparation for the effigy. Get your joints loose and sink in a sea of reverberating analogue synths and squelching live guitars. Let the fire rise!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1184"
+        }
       }
     },
     {
@@ -49181,7 +53992,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A series of presentations on how humans wound up with Patriarchy. Lesson 1 - The First 96% of Human History Lesson 2 - Earth Goddess vs Sky Father Lesson 3 - Conquest and Control Lesson 4 - God Hates Women Lesson 5 - A Path Forward",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1185"
+        }
       }
     },
     {
@@ -49224,7 +54039,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A quick upper body session before entering the night. Legs and hips will work the dancefloors, so hit the discopump to activate some circulation & mood, and maybe pump your muscles/veins with some extra confidence/selflove💪🪩 there will be music, mirrors & a workout ready to be worked.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1186"
+        }
       }
     },
     {
@@ -49265,7 +54084,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Final coordinates locked! We explored Krangelax—a world of extreme dualities. We basked under twin suns, recording a smooth flow of daytime disco, deep house, and melodic rhythms. But as dusk fell and cosmic fire erupted, the heat awoke high-voltage storm entities slumbering in the core. The atmosphere electrified, transforming paradise into a lightning-fast whirlwind of full-on psytrance and dark Hi-tech. Recreating this elemental clash tonight: gather for the pre-burn and prepare for the storm!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1187"
+        }
       }
     },
     {
@@ -49295,7 +54118,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "I play a burning piano, while it is burning. Exact time and place will be announced (on the piano)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1188"
+        }
       }
     },
     {
@@ -49334,7 +54161,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Happy Hour à la Française! — Sparkling wine, peanuts, and the art of l’Apéro.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1189"
+        }
       }
     },
     {
@@ -49375,7 +54206,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Feeling tired and need some Love after whole week of BL? Come and relax. Give and receive. Tap into the source...",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1190"
+        }
       }
     },
     {
@@ -49419,7 +54254,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Opening-night magic: pin your heart to the Soul Matchmaking Board and let the Pond play cupid. We'll show you how it works, then set you loose to find your person (or your Tuesday-night U-Haul partner). Bring your crush energy 🐸💘",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1191"
+        }
       }
     },
     {
@@ -49460,7 +54299,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Let your Tribal self out before the big Burn. A ritual offering including music, movement and spirit.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1192"
+        }
       }
     },
     {
@@ -49493,7 +54336,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "When the effigy falls and the perimeter breaks, the energy is electric—but please remember the safety of our community. If you want to stand, admire, or stay still, please stay further back and leave a wide, clear path for the runners. If you are close to the heat, keep moving. Let’s make sure those who want to run have the space to do so safely. Look out for each other out there.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1193"
+        }
       }
     },
     {
@@ -49539,7 +54386,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Church closing ceremony. Expect the unexpected. Warning! Acts might be explicit! Playspace closed.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1194"
+        }
       }
     },
     {
@@ -49580,7 +54431,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Bear isn’t done yet. One final night of jungle, drum & bass, garage, dubstep and other low-end sounds on our hand-crafted sound system. Let’s send the week off properly.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1195"
+        }
       }
     },
     {
@@ -49622,7 +54477,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Church Clubnight. Expect pounding Techno music, and an extremely sexy and arrousing vibe. Playspace Closed!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1196"
+        }
       }
     },
     {
@@ -49663,7 +54522,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Foxhole opens its velvet curtains. Slip into a candlelit salon where burlesque, pole, cabaret, masks, mischief, and a touch of the unexpected unfold throughout the night. Sip delicious drinks, linger a little longer, flirt with curiosity, enjoy our playroom, applaud generously, dance and let yourself be surprised. A place where glamour meets play, and every fox has a front-row seat.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1197"
+        }
       }
     },
     {
@@ -49708,7 +54571,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A warm communal cuddle-nest in the Summerge tent, held by Regina through the small hours. Crawl in, get cozy, be held against the cold and the loneliness. 🐸🌙",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1198"
+        }
       }
     },
     {
@@ -49747,7 +54614,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Sun, The Temple burns to mark the ending and the beginning.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1199"
+        }
       }
     },
     {
@@ -49793,7 +54664,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Hexemutters Galehus Warning: experimental medicine cabinet. 41 remedies — yours to judge, yours to draw. Side effects include self-knowledge, mild existential crisis and uncontrollable honesty. We are not responsible for what the cards unlock. Always open. We never sleep. Unless we sleep. Wake us and die",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1200"
+        }
       }
     },
     {
@@ -49825,7 +54700,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Time capsules: portals to the past, filled with memories for future generations. Seal photographs, letters or trinkets — 4 capsules, one per cardinal direction, co-created and sealed by different neighborhoods at the end of this year's Borderland. In 2027 they'll be buried under permanent art, for future archaeologists or extraterrestrials to wonder what strange not-a-cult walked this land.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1201"
+        }
       }
     },
     {
@@ -49858,7 +54737,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Dust, sweat, glitter and forest. Bring water and enjoy a moment of warmth, care and renewal before returning to the adventure. Built with Leave No Trace principles, deep love., and a steadfast faith in my close to nonexistent technical skills.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1202"
+        }
       }
     },
     {
@@ -49898,7 +54781,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "01:00 Ken Kuusk Deeper house where every dance style belongs 02:30 Alonso Lozano Sexy, story driven melodic and minimal, keeping bodies smiling 04:00 Anazar Deep dub textures, rolling low end, wide dawn flow 05:30 Dr. Catman Hypnotic deep house, oriental melodies, dark sensual grooves!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1203"
+        }
       }
     },
     {
@@ -49938,7 +54825,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Commit wicked sins or accept deserved punishments from our curated menus at SIN Bar, Club SIN's handcrafted wooden haven beside the dancefloor. Earn sincoins, ask nicely, and our SINtenders may reward you with cocktails, non-alcoholic delights, special snacks, and redeeming treats. Sinful tonight?",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1204"
+        }
       }
     },
     {
@@ -49978,7 +54869,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Gates of House of SIN open to a wicked playspace where you may receive erotic massage, spanking, spooning services, or engage in sinful plays with your partners. Enter only if you can charm the gatekeeper with sincoins and respect the rules. Pleasure, pain, and temptation will wait in the chambers...",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1205"
+        }
       }
     },
     {
@@ -50020,7 +54915,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Participants will be soaked in orgone, showered with it, and possibly transformed by it. This is likely a once-in-a-lifetime opportunity to expose a large population to orgone. Available 24/7 for restorative use. Guided Sessions and experiments will be announced on white board at camp.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1206"
+        }
       }
     },
     {
@@ -50042,7 +54941,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Is there life after The Borderland? I don't know, but there is Strike! Thank you in advance for being the absolute legend who stays that last extra day(s) to coil electrical cables, chop onions for the kitchen crew, and hand-pick the tiny pieces of trash. We hope you have a beautiful time slowing down, making lasting memories, and leaving Alversjö even better than we found it. Every morning at 10:00, we meet at the barn, review what needs to be done, and assign tasks. At the end, there’s the deep satisfaction of being the last ones standing, working together with a lovely crew to close the chapter properly. No special skills needed! Just plan your departure a little later than you normally would: shifts run daily from Sunday, July 26, through Wednesday, July 29. Sunday 26th By 12:00 Power grid will be disconnected By 14:00 Fully packed down and removed your camp, and done your own moop sweep It's NOT OK to stay on site without contributing to the strike efforts. Leftover food is warmly received at the barn for feeding strike legends.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1207"
+        }
       }
     },
     {
@@ -50082,7 +54985,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Stuck in a conflict? Meet the CRT any day. We don’t take sides or decide for you. We’re here to listen, offer mediation tools, and help find ways to coexist. Stop by to chat, learn, or get support! Conflicts should be solved between those involved, but if that isn’t possible, you can turn to us!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1208"
+        }
       }
     },
     {
@@ -50116,7 +55023,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Ask Your Father Anything. Pull up a chair and have the conversation you never had. Ask for advice, comfort, approval, understanding, or answers. Rage, laugh, cry, or sit in silence. For a moment, You will be met, listened to and if you want, answered.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1209"
+        }
       }
     },
     {
@@ -50156,7 +55067,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Make brushing your teeth a fun and absurd way of getting to know new people and new toothpastes! We take you to a trip around the world's most exquisite toothpastes. BYOT (Bring your own toothbrush -and pimp it at our craft booth!-) No toothbrush ? Pass by for a shot of mouthwash you stinky hippie ! Fun toothpastes ? Bring them all !",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1210"
+        }
       }
     },
     {
@@ -50201,7 +55116,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Melt into the soft hours with a slow, juicy yin yoga practice for femmes loving femmes (butches & nb folks included). Long-held poses, deep breath, gentle touch, come home to your body by the water. All levels, all bodies. Daily at 11, bring yourself, leave puddly 🐸",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1211"
+        }
       }
     },
     {
@@ -50245,7 +55164,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Homeless and happy around the planet? Want tips, inspiration or just to satisfy your curiosity? A full nomad for over a decade will share knowledge in a guided group talk about being a nomad: mentally, spiritually and practically. Painting a clear picture of the pros/cons of this dream lifestyle",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1212"
+        }
       }
     },
     {
@@ -50290,7 +55213,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Every day at 16:00 we rise from the Pond and parade to the lake, lesbian flag flying, for 2 hours of swimming, floating, splashing and sun. Beavers, nymphs & neighbours all welcome to join the procession. Come get wet with us 💦🏳️‍🌈 Meet at the Pond, follow the flag.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1213"
+        }
       }
     },
     {
@@ -50334,7 +55261,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Opening-night magic: pin your heart to the Soul Matchmaking Board and let the Pond play cupid. We'll show you how it works, then set you loose to find your person (or your Tuesday-night U-Haul partner). Bring your crush energy 🐸💘",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1214"
+        }
       }
     },
     {
@@ -50379,7 +55310,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Chill by the big Spaceport fire and let the songs soothe your soul after a long day of strike. Gather one last time before we leave the magical world of Borderland. The concert will be a moment to reflect on what you want to carry with you as the journey continues beyond the burn.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1215"
+        }
       }
     },
     {
@@ -50424,7 +55359,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A warm communal cuddle-nest in the Summerge tent, held by Regina through the small hours. Crawl in, get cozy, be held against the cold and the loneliness. 🐸🌙",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1216"
+        }
       }
     },
     {
@@ -50456,7 +55395,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Time capsules: portals to the past, filled with memories for future generations. Seal photographs, letters or trinkets — 4 capsules, one per cardinal direction, co-created and sealed by different neighborhoods at the end of this year's Borderland. In 2027 they'll be buried under permanent art, for future archaeologists or extraterrestrials to wonder what strange not-a-cult walked this land.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1217"
+        }
       }
     },
     {
@@ -50501,7 +55444,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Melt into the soft hours with a slow, juicy yin yoga practice for femmes loving femmes (butches & nb folks included). Long-held poses, deep breath, gentle touch, come home to your body by the water. All levels, all bodies. Daily at 11, bring yourself, leave puddly 🐸",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_table",
+          "cellRef": "B1218"
+        }
       }
     }
   ],
@@ -50532,7 +55479,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come naked. Birch whisking and scrub. Served by towel boy. Book a one hour session, and you will get a pampered. Totally non-scientifically inspired by the Lithuanian sauna tradition.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A2"
+        }
       }
     },
     {
@@ -50559,7 +55510,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A soft, heart-centered sanctuary rooted in connection, presence, and feminine support. We warmly invite all women who feel aligned with the intention of the camp to contribute. The values of the camp: softness, respect, authenticity, and a desire to support one another.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A3"
+        }
       }
     },
     {
@@ -50588,7 +55543,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Njorunns Garden is the magical grove of many possibilities in the heart of Borderlands downtown, a welcoming space among the trees with flowers, fairy lights, a pavilion, a campfire, and PA. Here we host everything from braiding workshops, Handpan jam, Goa morning and snippets of our favorite books during the day to Nordic traditional song circle, pre-parties and Chai during the evening. Come and join for our many offerings or create one in our beautiful garden!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A4"
+        }
       }
     },
     {
@@ -50616,7 +55575,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "🌿A lakeside sanctuary of steam, tea, ritual and connection. Through heat, herbs, sound and meditation, we create a sauna experience. Sweat, sip tea by the fire, then cool off in the lake. 🫖🔥💧Banya ceremonies morning to evening. Drop-in or sign up ahead. 🧖🪵 Bring towel & cup. ✨",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A5"
+        }
       }
     },
     {
@@ -50644,7 +55607,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Heart is a calm sanctuary in the middle of Borderland's chaos — a yurt dedicated to workshops, movement, and genuine human connection: yoga, dance, sound, massage, somatic practices. Got a workshop and nowhere to host it? Show up — there might be a free slot. We also have a cuddle-puddle tee-pee, small tearoom and shisha! No loud sound — no public sex — no drama!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A6"
+        }
       }
     },
     {
@@ -50671,7 +55638,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Go beyond your wildest dreams! Touch Divine is back with an amazing 60 m2 decorated tent with soft tatami-floor. This year we offer Contact jam, Embodied futuring lab, Dough ritual, Conscious shibari, Ecstatic breastfeeding, Zenith of softness, Sex ritual for clowns, Shamanic dream workshop, Money-healing ceremony and more.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A7"
+        }
       }
     },
     {
@@ -50696,7 +55667,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "In this workshop we explore mingling and play on the dance floor. How do we create a dance floor that's a little more interactive, respectful and playful? Easy party steps will be handed out! No prior experience of dancing, mingling or sense of humor is required. Come as you are with curiosity in you back pocket!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A8"
+        }
       }
     },
     {
@@ -50725,7 +55700,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "An always open, physical playground with bars, parallells, rings and other training equipment to have fun with movement. Made for hanging out, working out, climbing and playing outside. There’s challenges & workouts to do on your own, or at our workshops. (Bring an adult if under 15).",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A9"
+        }
       }
     },
     {
@@ -50755,7 +55734,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A soft, watery sanctuary for femmes loving femmes (butches & nonbinary folks included). Daily yin yoga, lake swims under the lesbian flag, tea ceremony, soul-matchmaking & slow dating. Come single, leave with a girlfriend, a cat & a shared lease 🐸 Open all week.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A10"
+        }
       }
     },
     {
@@ -50783,7 +55766,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come during the day to practice poi, staff and other flow arts. We offer various workshops, but drop by anytime and if you're lucky, someone is around to teach you. Come at night and be awed by mesmerizing fire dancers, or take your own props out for a burn (nightly safety training required!).",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A11"
+        }
       }
     },
     {
@@ -50808,7 +55795,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "House of Lemuria brings you a dream inspired by the myth of Lemuria: A utopian civilization believed to have existed millions of years ago. The passage to Lemuria unfolds as an ongoing immersive performance, inhabited by characters that exist beyond time. You are invited to enter at specific times when the house is open, as well as during parties, workshops and performances. Come hang out in the house or enjoy an afternoon in our backyard.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A12"
+        }
       }
     },
     {
@@ -50838,7 +55829,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Want to host or facilitate a workshop or something else but don't have the space? Use our space! Create something meaningful in a flexible setting. No fixed purpose, just possibility. Be mindful of the space and area. Underwear stays on! Book your timeslot and read more here - www.ror.staeger.se",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A13"
+        }
       }
     },
     {
@@ -50867,7 +55862,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "DanSINg is Club SIN’s covered dance temple, where disco, funk, house, techno, live acts, pole dancers, cages, flames, and sinful bodies meet. Come lose yourself in sweaty joy, silly desire, wicked grooves, and collective delirium, from daytime sparkle to late-night sin, rain or shine under the roof with us!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A14"
+        }
       }
     },
     {
@@ -50892,7 +55891,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Offering calm workshops as talks, breathwork, meditation and movement and a Teastand",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A15"
+        }
       }
     },
     {
@@ -50917,7 +55920,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Pool, showers and potentially the bouncing castle.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A16"
+        }
       }
     },
     {
@@ -50942,7 +55949,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Those of you who have experienced the Alien Embassy already know us, and this year we are setting up an outpost camp. As all diplomats, we are eager to facilitate earthly relationships and cultural exchange, including The Mars Mellow Café, The Ininite Cuddle Cave, and Earth Alien Movement Training.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A17"
+        }
       }
     },
     {
@@ -50967,7 +55978,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A dreamy camp with focus on sexy playfulness hosting pleasurable embodied workshop, cuddles and love! ❤️‍🔥",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A18"
+        }
       }
     },
     {
@@ -50992,7 +56007,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Camp and Workshop Tent (40 m²) Beautifully decorated and equipped with comfortable yogamats and flooring. We will offer breathwork sessions, tantric workshops, and more—and we may also be able to host your workshops.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A19"
+        }
       }
     },
     {
@@ -51017,7 +56036,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Rope play, sex magic, orgasmic breathwork",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A20"
+        }
       }
     },
     {
@@ -51042,7 +56065,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We are a heart-centered, playful, embodied camp, primarily a cozy place for sleeping and landing, but we will also share music, meditation and breathwork as some of our superskills. We will also offer a golf-car to confess sins in.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A21"
+        }
       }
     },
     {
@@ -51067,7 +56094,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "What is your wildest longing for this year's BL? Meet the love of your life? Eye-gaze with a cat? Why wait — come cheat Miss Reality! We circle up, you share a Borderland-wish, and together we bring it to life through spontaneous roleplay and collective imagination. No acting skills needed — just curiosity. Note: not a nudity/sex-positive space; all desires welcome, fully clothed.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A22"
+        }
       }
     },
     {
@@ -51094,7 +56125,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Mermaid Cave will return as a safe haven for burners, sailors, and denizens of the deep. It is an island of serenity in the middle of the party, providing a comfortable place to let the storm pass. The Mermaid cave will be a soft and cosy chill area, protected from the elements and lit up in a careful balance of mood and visibility. The Mermaid cave is built and tendered by Borderlands oldest camp; the Mermaid camp",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A23"
+        }
       }
     },
     {
@@ -51112,7 +56147,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Wash the Dirty Burners. A warm off-grid shower for dusty humans. Bring 6 liters of water (I'll try to store some as well) and enjoy a minute or two of hot, wet bliss. Greywater is collected and filtered to minimize environmental impact. Open once set up.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A24"
+        }
       }
     },
     {
@@ -51138,7 +56177,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Forest Is For Rest is an oasis for relaxation - open all week. Beautiful fabrics woven into the trees, hammocks, swings and art create a sanctuary of shade and relaxation. Come take a nap or connect with a friend. Sound Journey Jomo Tuesday 13.30. A kid-free quiet zone.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A25"
+        }
       }
     },
     {
@@ -51163,7 +56206,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A great place to change your tampon! Take what you need, use the space if you want, bring your moop with you when you go. All who bleed are welcome.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A26"
+        }
       }
     },
     {
@@ -51190,7 +56237,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A sign for writing your desires out loud. Make an offer, or ask for one. A massage, a poem, a a kiss. Name a time and meet right here (or elsewhere if it rains). Then show up and wait staying present. Feel the butterflies not knowing who shows up. Maybe a knight in shining armor, maybe an experience speaking your truth and staying with it, or an occasion to hold your boundaries. Analog only. No phones.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A27"
+        }
       }
     },
     {
@@ -51208,7 +56259,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Need a dad for a moment? Pull up a chair. Ask for advice, a hug, approval, understanding, life skills, or answers to impossible questions. Cry, laugh, rant, or just sit together. Make an appointment (call +45 51 90 31 49) or let the playa find me.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A28"
+        }
       }
     },
     {
@@ -51233,7 +56288,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Sit down, get a buzzcut, and leave with a coffee and a war story. No appointment needed. No regrets guaranteed. Open when we feel like it. Swing by The Green Zone and see if the barber is in.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A29"
+        }
       }
     },
     {
@@ -51260,7 +56319,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Hot tubs by the lake! Operating hours monday - thursday 21-00 (ish!) till 00.00 (ish!)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A30"
+        }
       }
     },
     {
@@ -51288,7 +56351,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Only at the times announced",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A31"
+        }
       }
     },
     {
@@ -51311,7 +56378,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A music stage built on the love for music, light and sound. Step into Ångström and experience ambient journeys and live performances. Here, every frequency is felt, every beam of light is shaped, and every moment invites you to slow down, drift, and connect. One Ångström is the wavelength scale of visible light — a small promise to treat sound and light with the precision they deserve.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A32"
+        }
       }
     },
     {
@@ -51336,7 +56407,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Cute little sauna plus lounge with hammock and sunbathing beds, plus space for clothes",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A33"
+        }
       }
     },
     {
@@ -51361,7 +56436,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "HQ is the small red wooden house behind the barn, by the water station — home of the Clown Police and Helm. At least one Clown is always here, day and night, also on radio. Your first point of contact for anything that isn't a medical emergency. Friendly, sober Borderlings — not rangers, just participants with hugs, answers, and direct access to emergency services.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A34"
+        }
       }
     },
     {
@@ -51386,7 +56465,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "After the perfect and long party, you need a smooth transition to calm down, laugh and love and talk about your experiences to some chill music and maybe a last bit of magic to last. This is the MortyCave concept. We create the most soothing surroundings to let go of your night and go to bed.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A35"
+        }
       }
     },
     {
@@ -51411,7 +56494,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Our mostly Finnish camp has a large(!) communal hangout tent with comfy stuff and star projector for all",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A36"
+        }
       }
     },
     {
@@ -51436,7 +56523,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Offering a simple reset with sacred plants (hapé, sananga etc.) & 1:1 meditation/spaceholding.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A37"
+        }
       }
     },
     {
@@ -51461,7 +56552,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Camp Holy Mess is a cozy, heart-centered Borderland camp focused on connection, playfulness, creativity, and deep presence. We value authentic relating, shared responsibility, softness, spontaneity, and collective magic. Expect lakeside hangs, nourishing food, silly moments, meaningful conversations",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A38"
+        }
       }
     },
     {
@@ -51486,7 +56581,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A veterinary clinic to check the health of borderlings animals.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A39"
+        }
       }
     },
     {
@@ -51511,7 +56610,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Chill camp with old friends, new friends and good vibes. We offer a no bullshit peaceful villa where you can relax, connect and have good conversations. Come by if you seek a small break from all the chaos in town- there might even be some tea, tarot, soundhealing or massage in it for you ;)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A40"
+        }
       }
     },
     {
@@ -51536,7 +56639,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Offering introspection and exploration. Possibly a smaller outdoor gym.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A41"
+        }
       }
     },
     {
@@ -51561,7 +56668,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A firepit to chill around in the cold nights",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A42"
+        }
       }
     },
     {
@@ -51586,7 +56697,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Slippery crawlers of the south Bison fields. Find us on a sunny rock. Shedding skin is the new fab. Welcome to Sssssouth Bison'ssss Sssssexy Pythonssss 🐍🐍🐍 Previously hidden behind the innocent name of \"Frisky's Fish Pond,\" they were actually deadly pythons all along.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A43"
+        }
       }
     },
     {
@@ -51611,7 +56726,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Ice pops, support talks, daytime hangs, music, shade, dancing and somewhere in the middle of it all: a proper wedding. Come by if you need something cold, warm, or simply a place to exist ❤️",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A44"
+        }
       }
     },
     {
@@ -51636,7 +56755,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Tipi for AA meetings and Sensual Workshops",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A45"
+        }
       }
     },
     {
@@ -51661,7 +56784,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "✨ Cuddles & Jazz ✨ The Antra.world camp is back to bring a cozy cuddlespace and soothing, smooth Jazz concerts for all the beautiful borderlings to come and relax, hang out, cuddle and land. The camp members will also have their tents here as their dedicated sleeping area.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A46"
+        }
       }
     },
     {
@@ -51686,7 +56813,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A camp who believe deeply in openness, softness, connection, and community. At the heart of our camp is a shared tipi — a home where the door is always open Offering a (moving) throne of appreciation, with care, and nurturing for tired hippies, around Borderland.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A47"
+        }
       }
     },
     {
@@ -51709,7 +56840,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "This will be a portal for people to connect to themselves and to the land amidst the chaos of the borderland",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A48"
+        }
       }
     },
     {
@@ -51734,7 +56869,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Panncaces and massage. Chill vibes and low key music",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A49"
+        }
       }
     },
     {
@@ -51759,7 +56898,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come by for a ceremonial grade cacao, a hang-out, sit-down or workshop in our wonderful tipi.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A50"
+        }
       }
     },
     {
@@ -51784,7 +56927,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "4 happy campers offering Concious Cosmetics testing, relaxing kundalini massages, and soulful private partner dance classes.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A51"
+        }
       }
     },
     {
@@ -51812,7 +56959,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "I support your sparkle or help with textile repairs. I can also teach you how to use a sewing machine and help yourself. Every day from 12:00 to 14:00. If I'm not there, find my number behind the windscreen.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A52"
+        }
       }
     },
     {
@@ -51839,7 +56990,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come for the coffee - stay for the benefits! Our space is your space. A cosy living room where you can get caffeinated, pizza sedated and shisha vibrated. Open 25/7, 8 days a week.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A53"
+        }
       }
     },
     {
@@ -51867,7 +57022,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "An emotionally safe space. Need to catch you breath? Have a great story to share but noone to listen? Need a a shiukder to cry on? Come as you are, sit down by the altar, see what the tarot has in store for you or take a quiet moment for yourself, anything and anyone is welcome here. Doggie cuddles from Lucy the lab is also available.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A54"
+        }
       }
     },
     {
@@ -51897,7 +57056,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A small ritual space for fresh bodies, sparkly bits, and a moment to admire yourself.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A55"
+        }
       }
     },
     {
@@ -51922,7 +57085,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Play with natural clay at this evolving, transitory art space",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A56"
+        }
       }
     },
     {
@@ -51950,7 +57117,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A creative sanctuary for painting, drawing, experimenting and making. A place to create, add to something, or follow your own inspiration. Basic materials are available whenever creativity strikes, with extra magic added when I’m around. Open for visitors anytime.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A57"
+        }
       }
     },
     {
@@ -51975,7 +57146,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "At this kingdom of nomnomnom you'll find warm pancakes, countless toppings, and a soft place to land. New this year: a crafting table for quiet creating or unleashing the creative chaos gremlin inside you. New shenanigans guaranteed daily, but our chill, cozy cafe stays just the same.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A58"
+        }
       }
     },
     {
@@ -52000,7 +57175,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Need some polish? We got you covered! Come by and do your nails!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A59"
+        }
       }
     },
     {
@@ -52027,7 +57206,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Shimmering by the Forest Edge is a low-sensory camp. Unwind under fairy lights with gentle crafting, meditation, or sound journeys. Relax by the fire, or find a dream of peace in our \"forest is for rest\" hammocks. On select evenings, gather for warm vegan chai. Everyone is welcome. A safe space.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A60"
+        }
       }
     },
     {
@@ -52054,7 +57237,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Queers & FLINTA* (women, lesbians, intersex, non-binary, trans & agender people), ready for a safer space full of care, creativity & community? Enjoy sauna, massages, make-up magic, fresh fruit, workshops and beautiful connections. Come by and let’s shine together!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A61"
+        }
       }
     },
     {
@@ -52081,7 +57268,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The MŸS Dome is a wooden structure that invites you to relax, dream, or dance, protected from the elements. A sphere like its own universe. Stretch your limbs and prick up your ears when the MŸS Crew has enchanted you with quirky vinyl sessions, downtempo DJ sets, or experimental live music featuring synths and guitars.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A62"
+        }
       }
     },
     {
@@ -52108,7 +57299,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come and embrace your inner child. We have a cozy tipi tent where you can play with bricks like back in your childhood room. Several different sized sets with instructions and mixed brick boxes are waiting for you. Perfect place to take a little break from all the BL madness. Accessible every day 9am - 19pm",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A63"
+        }
       }
     },
     {
@@ -52135,7 +57330,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We're bringing Orgone back — the largest Orgone accumulation project in history! Orgone is life force, cosmic energy, described by Wilhelm Reich in the 1930s. A workshop, experiment and ritual — a trip into the muddy waters of pseudo-science, gathering life-positive energy. We build Monday and Tuesday; the rest of the week the accumulators are open for experiencing.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A64"
+        }
       }
     },
     {
@@ -52160,7 +57359,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Borderland can bring up a variety of colourful emotions — sometimes you need a quiet place to sit with yourself and let your imagination flow. That's the Imaginarium. Draw or paint whatever's on your mind, quietly colour an elephant, add to a collaborative painting or draw a guidance card. No classes, no expectations, no spectators. Open for everyone — future adults in training under supervision, please.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A65"
+        }
       }
     },
     {
@@ -52189,7 +57392,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A space to slow down and write. We share background on political prisoners imprisoned for resisting fascism and oppression, and invite you to write them letters of solidarity. But you can also write to friends or your (chosen) family - we collect and send all letters after Borderland.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A66"
+        }
       }
     },
     {
@@ -52216,7 +57423,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Amid all the radical inclusion, frogs bring a 12th principle: radical exclusion — a froggy sanctuary to hop off to when things become a bit too croakey. Feel, reflect, slime - or just be a tiny frog for a while. This is a retreat for people who seek a moment of rest in SOLITUDE, with a trusted amphibian+ if needed - Fluffy blankets + sensory comforts/crafts assured",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A67"
+        }
       }
     },
     {
@@ -52243,7 +57454,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Drop by our camp and see if you're lucky — a croquis drawing kit might be free to borrow. Grab one, wander to the lake, and sketch the sunbathers in the afternoon light. No skill needed, just curious eyes and a willing hand. Return it when you're done so the next artist can feel lucky too.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A68"
+        }
       }
     },
     {
@@ -52273,7 +57488,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A Casting Call Step into the spotlight and let your front goodies audition for the role they were born to play. If you're selected (spoiler: you probably will be), you'll become the star of your very own sculptural masterpiece. An unforgettable experience where you'll be gently pampered, admired, asked to hold perfectly still, and immortalized in plaster. A memory you'll keep forever... or at least until you decide otherwise.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A69"
+        }
       }
     },
     {
@@ -52298,7 +57517,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Ceramic alchemy at the Amber Burn. A sanctuary of clay and a ritual of fire. Transform raw earth into rainbow or structural glaze art through the magic of Raku.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A70"
+        }
       }
     },
     {
@@ -52323,7 +57546,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Cosy little camp of friends offering toothpaste testing mornings (at 11 each day). Will also be making suncatchers and crepes for wandering souls needing a rest.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A71"
+        }
       }
     },
     {
@@ -52348,7 +57575,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Everything you need to get your nails burn-ready is right here. Grab a polish, get creative, and do it yourself whenever you want!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A72"
+        }
       }
     },
     {
@@ -52373,7 +57604,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Enjoy Borderland's best thrift shop! And Java the Hut's camping grounds.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A73"
+        }
       }
     },
     {
@@ -52398,7 +57633,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We are a small camp from Belgium who will offer some chill arts and crafts on a mobile chariot. We will go around the playa with our cart to make fuzzy monster creatures. Watch out, they can bite :).",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A74"
+        }
       }
     },
     {
@@ -52428,7 +57667,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Hexemutters Galehus Warning: experimental medicine cabinet. 41 remedies — yours to judge, yours to draw. Side effects include self-knowledge, mild existential crisis and uncontrollable honesty. We are not responsible for what the cards unlock. Open. Always open. We never sleep.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A75"
+        }
       }
     },
     {
@@ -52456,7 +57699,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Ever wondered if you should see a therapist, or what they really think of you? Explore your inner world in a quick, impactful session with fearless therapists who help you understand yourself more deeply. DISCLAIMER: This is not a substitute for therapy. We are not mental health professionals. If you need care, seek professional help.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A76"
+        }
       }
     },
     {
@@ -52483,7 +57730,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Do you dare to Krawl into the tunnel? KetunKolo (fin. fox hole) where lost wanderers rejuvenate and foxy rituals happen. Strange, mysterious and Konfusing things happen there. What's waiting for you in the hole?",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A77"
+        }
       }
     },
     {
@@ -52510,7 +57761,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The figging station returns with a new generation of treatment specialists! We've travelled far and wide to build the most holistic figging treatment to date — the most complete ginger-based treatments. Your root chakra will open, your aura will regain its colors. All with a simple insertion of ginger up your asshole. Come experience the most powerful version of the legendary figging treatment yet. Now with moxibustion.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A78"
+        }
       }
     },
     {
@@ -52537,7 +57792,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "If the fates so choose, you might be invited to enter the Sea Witches Lair. You never know will you receive an incantation, a curse or a divination, but your destiny will have been irrevocably changed.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A79"
+        }
       }
     },
     {
@@ -52565,7 +57824,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "THE RECEPTION is here to grant your deepest desires - provided you can pick out the correct form for that desire. Get your official bubble license. File a noise complaint. Apply for a cleansing ritual. Opening Hours are between now and sometimes during off-world business days. Your number is next.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A80"
+        }
       }
     },
     {
@@ -52593,7 +57856,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Genie's Lamp is an intimate, sensual oasis, inspired by One Thousand and One Nights—a space designed to feel like stepping inside a genie's lamp. The space will mainly be open during it's scheduled dreams & workshops, but if you drop by you might just get a private tour.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A81"
+        }
       }
     },
     {
@@ -52607,7 +57874,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Throughout their travels, the Storyteller has gathered innumerable stories about all manner of wondrous things. The only guarantee is that the story you will hear has never been told before and will never be told again. So look out for the Storyteller to hear a unique tale told only for you.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A82"
+        }
       }
     },
     {
@@ -52635,7 +57906,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "♥️HEARTSPACE♥️ Disconnected and lost in the magic? We welcome you to THE HEARTSPACE – a red portal for souls longing to soften and return Open heart meditation between 9-11 am",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A83"
+        }
       }
     },
     {
@@ -52662,7 +57937,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome once again to the Temple of Sound 🪐 Enter an ancient world of healing sounds and powerful vibrations to alter your state of consciousness and Awaken 🌌 A sacred space for breathework, sound healing and medicine music.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A84"
+        }
       }
     },
     {
@@ -52689,7 +57968,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Tiny camp offering some nice teas prepared in gong fu cha style: open only when announced.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A85"
+        }
       }
     },
     {
@@ -52719,7 +58002,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "SIN Salabim is Club SIN's exclusive members' lounge, where indulgence meets luxury. Entry has its price, but once inside, every pleasure is free. Relax, indulge, connect and explore—because the richest rewards aren't always made of gold.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A86"
+        }
       }
     },
     {
@@ -52744,7 +58031,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Day and night, the Fire burns bright. There’s always room for more people. We’ll sing together, enjoy each other’s company, and keep warm throughout the night. There’s always room for more people at the Fire, and we have plenty of space for co-creation.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A87"
+        }
       }
     },
     {
@@ -52769,7 +58060,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Temple of We Are Not A Cult - A Temple that in no way resembles that of a cult.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A88"
+        }
       }
     },
     {
@@ -52799,7 +58094,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Sober 18+ Sex positive Magic workshops",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A89"
+        }
       }
     },
     {
@@ -52824,7 +58123,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "If you play just one quest game at The Borderland, don't play ours! Questicles promises one thing: ours is the worst — frustrating, time-wasting, utterly pointless. No prize. (Okay, a sticker.) A site-wide, multi-day immersive quest / theatre project that reshapes your event. There is a curse on the Borderland. We cast it. Because we don't like you!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A90"
+        }
       }
     },
     {
@@ -52849,7 +58152,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Formally known as the Bubble Wotch of Citrus Rains, she has now moved to a new neighborhood. Filled with synchronicity, madness and potions.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A91"
+        }
       }
     },
     {
@@ -52872,7 +58179,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Transcendental Forest Temple 🛕✨ Dreaming of your perfect hideaway from the hustle-and-bustle of Borderland. 🌀",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A92"
+        }
       }
     },
     {
@@ -52897,7 +58208,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "tribal jam sessions with singing and percussions intuitive painting tribal dance movement",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A93"
+        }
       }
     },
     {
@@ -52922,7 +58237,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Offering conversations that transform",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A94"
+        }
       }
     },
     {
@@ -52947,7 +58266,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come in with a secret, leave lighter",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A95"
+        }
       }
     },
     {
@@ -52974,7 +58297,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Do you need your art car to reach somewhere but you don't have time? Do you have a ridden task nees completion but you're having too much fun? Did your friend arrive late from the parking lot, but you're naked in the lake dancing? This is where we come in! full valet service. we will drive your art car where it needs to go, safely and surely.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A96"
+        }
       }
     },
     {
@@ -52991,7 +58318,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "It's a rolling golden shower kareoke - no funny business. Well... it is fun!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A97"
+        }
       }
     },
     {
@@ -53019,7 +58350,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Walk into the barn any time, day or night, and make a sign for yourself or others. or order one for a random hippie to make for you. or just sit on a pillow, drink tea, and watch the art happen. cosy creative chaos, self-organising, open 24/7 from buildweek onwards ✧˖°࿐",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A98"
+        }
       }
     },
     {
@@ -53044,7 +58379,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Deep in the forest, a delicate cocoon rests between the trees, neither shelter nor sculpture, but a real threshold. Those who dare to enter are not spectators nor participants, not yet anything at all.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A99"
+        }
       }
     },
     {
@@ -53072,7 +58411,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Are you having too much fun? Make a visit to the permits office to ensure full compliance with 137.6-c F.U.N standards on emotionally pragmatic burning. Consider signing up for our workshop, \"Leave no trace (in hearts and minds)\". Experience may vary, we apologize for any convenience or conviviality this may cause. For complaints, please howl into the void or reach out to noreply@fun.com",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A100"
+        }
       }
     },
     {
@@ -53100,7 +58443,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "An immersive satanic dreamscape in the silo featuring aerial sock-wrestling battles, crowd spectacle, and chaotic, participatory combat, among other weird shit.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A101"
+        }
       }
     },
     {
@@ -53123,7 +58470,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A dimension within a parallel universe. A space for recharging and connecting with the earth and the mycelium. Come here to be transported into another realm. A cozy space with lots of love and heart. Borderland can be overwhelming at times. Find us when things seem intense or just too much. During the daytime you will find us here drinking chai, meditating, giving massages and just a chill cozy space. At night the mycelium might be resting. But you never know. Hope to see you there!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A102"
+        }
       }
     },
     {
@@ -53150,7 +58501,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Post Office is the official delivery service for all goods and letters across the playa. A love letter to your playa crush? A hug for a friend or an urgent request for candies? Come visit one of our three locations , slot your item through the post box (or speak to one of our representatives on site) and watch the magic of postal work in action. We have postcards! We have pens! Open for drop offs 24/7! The Post Office - We Deliver!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A103"
+        }
       }
     },
     {
@@ -53175,7 +58530,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A black tent. A Bohemian witch. An AI oracle. Step across the threshold where ancient mystery meets machine intelligence. Tea, cookies, strange questions, stranger answers. Not a fortune teller — a mirror. Ask the Oraculum. Remember what you already know.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A104"
+        }
       }
     },
     {
@@ -53200,7 +58559,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A Persian oasis in the middle of cold soaky Scandinavia. Come in and warm yourself under our Korsi - a heated, low-table covered with blankets which families traditionally gather around during the harsh winters of northern and central Iran. Join us here to escape the frosty nights. Forget about your sauna, temazcal and what not. Warmth comes from good company, a cup of masala chai and good music ☕",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A105"
+        }
       }
     },
     {
@@ -53229,7 +58592,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The hot sauna aka Sompasauna will be operational 24/7 right on the water in Sunny hill. Self service, add firewood, carry water, make it hot!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A106"
+        }
       }
     },
     {
@@ -53256,7 +58623,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Borderland is a spectacle! Witness The Great Borderling Migration - Enjoy a curated expedition into this strange world of burners and hippies. Our expert field guide, D[ai]vid Attenborough, will help you learn about some of the countless creatures you might see on the Playa, all from the comfort and safety of our observation window. So grab a seat, hold onto your binoculars, and take it all in - today you're a naturalist on safari",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A107"
+        }
       }
     },
     {
@@ -53281,7 +58652,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "“I wonder if I shall fall right through the earth.” Alice said - and so she did. She fell all the way into the mysterious wonderland of Morocco, which, for some reason, was located in the Swedish forest. Fall down the rabbit hole into a magical place of colorful glittering fabrics, spicy tea-parties and mystical characters. And don’t worry about being a little crazy, after all: we’re all mad here.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A108"
+        }
       }
     },
     {
@@ -53306,7 +58681,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to Gate Of Alvheim! 🧝‍♂️ The elves sacred ritual space. When Alvheims Gate opens on Thursday; Expect elves dancing, mystical art co-created with nature and profound psychedelic dance music imbued with ceremonies and rituals. Workshops during daytime and refreshments in the bar. Collaborating with Kishmastle Spacestation and fungal refugee to create a full week complete and mystical dance resort. Hope we see you in the misty forest!🌲🌳💚",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A109"
+        }
       }
     },
     {
@@ -53323,7 +58702,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Step into our chai cave where the air hums with sacred vibrations and the aroma of cardamom hangs thick enough make you question that Borderland is 'apolitical'. When you emerge from your mantra-induced coma, join us for chai-fueled conversations about how the 11 principles are radical and political - and how great that is!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A110"
+        }
       }
     },
     {
@@ -53348,7 +58731,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Gentle art installation in the lookout, next to tea by the sea and metal bison. When the sun goes down, mycelium sparks to life.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A111"
+        }
       }
     },
     {
@@ -53362,7 +58749,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We are building the official Borderland Phone Network! We want you to use it for any phone-calling needs you may have. It could be a key in some puzzle game you are running. You could have phone support of some kind at certain times. If you for some reason have use for a small phone network where you can call the other phone booths with special telephone numbers, feel free to do so. Contact me for more information: username Ricky @ borderland discord.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A112"
+        }
       }
     },
     {
@@ -53387,7 +58778,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Keepers of Le Observable Universe cordially invite you to come and see Le Observable Universe, which they very diligently and safely keep for all of us to enjoy in the form of an audiovisual installation. Pass by their camp in the far west of the Highlands any day from Tuesday to Saturday after darkness reins in the sky.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A113"
+        }
       }
     },
     {
@@ -53412,7 +58807,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Searching for a new look? Stop by Explorers Clothing Swap, open 24/7. Leave one, take one.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A114"
+        }
       }
     },
     {
@@ -53440,7 +58839,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The walls are clear but the light plays tricks. Colored walls cast the inside in shifting hues, making what's visible feel uncertain. Step inside The Glass House and open The Cabinets of Half-Remembered Things. Each drawer holds a lie you were told, a lie you still believe. Leave one of your own.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A115"
+        }
       }
     },
     {
@@ -53467,7 +58870,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Hammockstar is a chill art installation where you can hang out. The sun is shining, you wander around, maybe just got a fresh cup of coffee an suddenly there comes a place that is inviting you to relax and let your soul dangle. While the hammock is hugging you and you gaze into the sky and over the playa, you may dream away, you may meet the eyes of a strager in the hammock next to you and this might be a start of a beautiful connection.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A116"
+        }
       }
     },
     {
@@ -53495,7 +58902,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Sinnergirl is a six metre tall effigy with two faces, angel and demon, holding a glowing brain as a gift. Four walls of Pain, Grief, Hope, and Joy invite Borderlings to leave their testimonies. At night, projections and LEDs bring her to life before she burns into memory, ash, and light.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A117"
+        }
       }
     },
     {
@@ -53520,7 +58931,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Our name tells the story of sincere seriousness and serious silliness. We ground in the radical roots of Justice and Joy to navigate the world, a place to explore Dangerous Ideas that dismantle, unlearn, and meet the world as it is - a magically interconnected and sacred web of life.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A118"
+        }
       }
     },
     {
@@ -53549,7 +58964,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A private magical ritual and interactive art game for small groups of 2-8 that we run all night.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A119"
+        }
       }
     },
     {
@@ -53576,7 +58995,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Lie beneath a 6m ring of 8,000 living LED lights as they breathe with you. The Cosmic Portal blurs dreams and the waking life. A hammock between dimensions, woven in color. Live artists and DJs will guide you to the far reaches of the cosmos. Always open, alive at night. In the Barn, top floor.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A120"
+        }
       }
     },
     {
@@ -53604,7 +59027,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Where the mannequin points, you must follow! When the mannequin points you in, come join us in our imaginarium for a brew, a soothing warm beverage, cup of tea. Our home made tea blends and small bites will help you to gather your strength ready for your next side quest.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A121"
+        }
       }
     },
     {
@@ -53631,7 +59058,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Pick up the walkie-talkie placed on the station next to the Sanctuary crossroads (close to the Villa Toilets) and give the Fuckery a call on our playnight evenings (Tue-Thu 21-05). The other walkie-talkie (the fuckie-talkie) lives inside the Fuckery playspace tent, where one of our playnight angels will pick up your call and facilitate broadcast transmissions from willing horny people to you.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A122"
+        }
       }
     },
     {
@@ -53645,7 +59076,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A constellation of small, intimate silent movie theaters scattered through the dark woods — each a self-contained pocket of light and shadow, inspired by the visual language of David Lynch and Gregory Crewdson. Some screen classic silent films, some experimental and surrealist shorts. At least one will show something you cannot fully explain afterwards but will think about for the rest of Borderland.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A123"
+        }
       }
     },
     {
@@ -53661,7 +59096,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Flock is a scattered constellation of birdhouses throughout the dark forests — each one a tiny, fully functional rave. Strobing LEDs, the suggestion of a crowd of no one, music that takes itself completely seriously despite emanating from something a sparrow might live in. Each birdhouse is its own ecosystem. Different music. Different light palette. Different vibe. A rave is a rave whether it fits 2000 people or zero. The forest doesn't care.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A124"
+        }
       }
     },
     {
@@ -53686,7 +59125,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "An immersive playground for the senses. A traveling way of life. A gathering of analog lovers and performers of all kinds. A place to arrive, build, connect, exchange, flirt, create, rest and play.. We step away from the digital world and return to the present moment: Analog sound and real presence — vinyl, tapes, reel-to-reel tape, synthesizer, live instruments, radios and warm human sound.. Come to visit us in person and let your inner child play.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A125"
+        }
       }
     },
     {
@@ -53713,7 +59156,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to the worlds first museum solely dedicated to Bad Arts, and the aesthetic, artistic and academic center for the Bad Arts movement.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A126"
+        }
       }
     },
     {
@@ -53738,7 +59185,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We are Sound Camp RA and will host a \"closing build week party\" on Monday. We obey the sun god RA and his fight during the night so we all get to have a new morning sunrise. We play weird ravy shit.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A127"
+        }
       }
     },
     {
@@ -53761,7 +59212,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Step into this interview, play, have fun, listen, listen, listen and then ask interesting questions, with a twist, if you want. Maybe you see yourself or your interviewer/interviewee in another light in this installation. A successful interview might have something hard and spanking nice for you.. Part of The Maze in the villa so opening times might differ.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A128"
+        }
       }
     },
     {
@@ -53786,7 +59241,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Next to our detective's bureau, a confession chamber opens. A small desk, a chair, paper and pens. What have you done wrong in Borderland? What are you ashamed of? Write it down and drop it in the mailbox — and be rewarded for your honesty with entry to the second chamber, where you'll see the (anonymous) notes of your fellow visitors and realize: nobody's perfect. The craziest and most \"forbidden\" things happen…",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A129"
+        }
       }
     },
     {
@@ -53813,7 +59272,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Step into a magical underwater world where relaxation meets creativity. Our wellness tent is designed to transport you into a dreamy oceanic realm, filled with shimmering colors and soothing sensations. Enjoy custom-blended massage oils, vibrant body painting, and artistic decorations. Treat yourself or get treated from us in our spacious cuddle corner. Let yourself be pampered in an atmosphere of pure enchantment! ✨️✨️✨️",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A130"
+        }
       }
     },
     {
@@ -53842,7 +59305,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to the vibrant world of fotons, where smoke and mirrors may trick your brain, and forever leave the most beautiful stain. A tower of light - where dreams blend seamlessly in with reality!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A131"
+        }
       }
     },
     {
@@ -53865,7 +59332,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "It's time to pay our thankyous to the Gods of Borderland. You can bring your offerings, prayers and sacrifice. Opening on Tuesday.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A132"
+        }
       }
     },
     {
@@ -53888,7 +59359,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A light, sound and smell installation beneath the trees 🌳 On the path to the lake near Eastern Slope. Let yourself oscillate and dream away.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A133"
+        }
       }
     },
     {
@@ -53913,7 +59388,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Saunacave is built into the earth, warmed by a wood fire, offering ceremonies and lovely Aufguss sessions. The Dome is our space for gifting — live music, dance and ceremonies. Check the Noticeboard for daily programs. Open approx. morning till evening (sometimes night), except Fri & Sat night when we open according to our mood (: Bring a towel (obligatory to sit on) & drinking water. And lots of love ♥️",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A134"
+        }
       }
     },
     {
@@ -53931,7 +59410,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Legs are for losers. Slimily and slowly royally sliding along the Borderlands is the new way to get anywhere. This is the Royal Snail - but roaming. The Royal Snail Art Car",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A135"
+        }
       }
     },
     {
@@ -53960,7 +59443,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Show up drop-in, or even better, pre-book via mail since spots are limited! Contact me if you want to cancel or will get late, otherwise your place might go to a drop-in if you do not show up on time. Want to brainstorm an idea beforehand Borderland? Contact me via email: fanny.henriksson1@gmail.com",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A136"
+        }
       }
     },
     {
@@ -53983,7 +59470,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The 'Moaning Swings' art installation.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A137"
+        }
       }
     },
     {
@@ -54008,7 +59499,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A gaggle of germs bringing interactive art installations, workshops, big laughs and chill vibes.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A138"
+        }
       }
     },
     {
@@ -54033,7 +59528,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Somewhere between a playground and a daydream, this kinetic sculpture invites you to sit, sway… and maybe forget gravity for a while. Designed for 1–3 people, it takes the familiar language of a swing and teaches it to grow wings. Above, vast translucent sails — part butterfly, part underwater creature, part cosmos dancer — stretch nearly three meters wide, their burgundy organza shimmering with violet reflections.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A139"
+        }
       }
     },
     {
@@ -54058,7 +59557,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Radical self-entertainment, tiny art, and shade. Connected to dream-area across the fire road. Squak.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A140"
+        }
       }
     },
     {
@@ -54083,7 +59586,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A lighthouse to guide you safely home to harbour. A place to hang out & experience the view of the chaos below. Tiny art & big birds. The period palace.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A141"
+        }
       }
     },
     {
@@ -54108,7 +59615,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "F33 project. A human-sized bird’s nest floating in the meadow. Climb in, steal inspiration, leave a sketch, and fly off with something new.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A142"
+        }
       }
     },
     {
@@ -54131,7 +59642,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A hydrogen balloon burns above the lake. Fire arrow, cello, a 4-metre spherical burn. A woof, not a bang. A second sunset.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A143"
+        }
       }
     },
     {
@@ -54156,7 +59671,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Royal Snail is on the move! Introducing...the Roaming Snail. Funky sounds, ridiculous shenanigans, slory holes, rum shots: all in a slow, snaily art carriage. This is an art car, but we will probably also have some little events at our public facing offering.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A144"
+        }
       }
     },
     {
@@ -54181,7 +59700,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Artcar camp with a \"busstop\" and a living room, our dreams is a tram that takes people around BL to pre set stops, for public offering we have a livingroom/lounge, and a \"start station\" for our tram(sbulance).",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A145"
+        }
       }
     },
     {
@@ -54206,7 +59729,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A workshop tent, art car, and confession booth. Offering speed dating and breakfast, daytime workshops",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A146"
+        }
       }
     },
     {
@@ -54231,7 +59758,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Ishara is a camp organzied around our scorpion shaped art car, which is both a light art piece at night and a DJ sound stage (with its own sound system onboard). We also offer a cozy tipi for anyone looking for a rain shelter, or a place to chill, play games and connect.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A147"
+        }
       }
     },
     {
@@ -54254,7 +59785,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Cro-sy returns — bigger, stranger, and more inviting than before. Building on the audio-visual light installation that delighted audiences at the Borderland 2025, this second edition transforms into a full sculpture garden to wander through: a curated landscape of works past and present, all woven together by color, sound, motion and interactivity.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A148"
+        }
       }
     },
     {
@@ -54279,7 +59814,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come to explore trippy sculptures.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A149"
+        }
       }
     },
     {
@@ -54304,7 +59843,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The EGGzistence art installation represents the legend about the creation of the world. It is believed that Perkūnas or Thunderer (Thor) – the god of thunder and lightning in Baltic mythology, created the world by laying an egg, from which fire was born and that is how life in the world was created.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A150"
+        }
       }
     },
     {
@@ -54318,7 +59861,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Dreamer´s Maze is an immersive interactive art experience, located in the Villa: 3 floors, 15+ rooms designed by different artists, connected by secret passages",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A151"
+        }
       }
     },
     {
@@ -54343,7 +59890,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Transcendental Forest Temple 🛕✨ Your perfect hideaway from the hustle-and-bustle of Borderland. Deep in the trees, something is glowing 💫 Part art. Part altar. All playground for the soul. A space to wander, rest, create… or completely lose track of time. Come alone for deep reflection, or melt into the moment with someone you love. Follow the lights, leave an offering, lie back, look up, and let yourself drift 🌲",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A152"
+        }
       }
     },
     {
@@ -54357,7 +59908,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Echoes of Alversjö is an interactive soundmap of Borderland. Borderlings will be able to interact with the installation to hear sounds from the Borderland. When they move their hands in front of the map, it will play sounds corresponding to the area their hands are. This allows them to go on a sound-journey through Borderland, or to create their very own soundscape.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A153"
+        }
       }
     },
     {
@@ -54382,7 +59937,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The art car Secret Sailors love boat will find its mooring there different times during the week and offer singing, cruising, a bar and other fun. Also part of the harbour is the sister artcar of Circus Max.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A154"
+        }
       }
     },
     {
@@ -54407,7 +59966,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Satirical ever-changing art project and info-zone, highlighting the creeping commodification of the Borderland. Want to own your very own Mike Moe Money advertising board? Get rich selling ad space!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A155"
+        }
       }
     },
     {
@@ -54432,7 +59995,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Art, Dance, Bar and daytime fun. supplied by dagsländor",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A156"
+        }
       }
     },
     {
@@ -54455,7 +60022,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Just a Lighthouse. It's very lit.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A157"
+        }
       }
     },
     {
@@ -54478,7 +60049,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Last years piano on the path to Muumimaa was appreciated by many. Borderland has unsurprisingly many piano players!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A158"
+        }
       }
     },
     {
@@ -54503,7 +60078,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We are a small group of storytellers with a flying van that will glow at night 🌌and will allow you to fly 🧚during the day",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A159"
+        }
       }
     },
     {
@@ -54526,7 +60105,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Pit is a sound experience during the night, taking place at a given moment announced later. The place is empty during daytime.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A160"
+        }
       }
     },
     {
@@ -54551,7 +60134,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A piece of string and some blinky lights. Black Rock City's most fashionable art installation. Simply place G String on your head and enjoy a 2 minute mind blowing experience. This installation's evolution was guided by the 10+ Principles and exhibits them all simultaneously. Thanks Fund33",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A161"
+        }
       }
     },
     {
@@ -54574,7 +60161,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "An 9m wide cozy, glowing sanctuary of spatial weaving with over 1km of programmable LEDs. Inspired by Japanese structural basketry (Kago)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A162"
+        }
       }
     },
     {
@@ -54599,7 +60190,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Sun is an immersive wooden space crowned by a glowing sphere — a symbolic sun suspended above. At its heart hangs a fire-place that welcomes and warms everyone. We see The Sun as a light and soft space, away from intensity, to be with others or with oneself, to soften and drop into presence. There’s a strong sense of light and illumination, in the structural and light elements of its design as much as in the philosophy of the piece. May the Sun support whatever needs to come to light and come to life there. Ultimately, this space is a celebration of light.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A163"
+        }
       }
     },
     {
@@ -54624,7 +60219,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "It a interactive tree lighted by beautiful leds",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A164"
+        }
       }
     },
     {
@@ -54647,7 +60246,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Relaxed, immersive art installation where burners can gather beneath glowing fish, jellyfish, and soft underwater lights. Audio-reactive sculptures drift overhead as slow bass, bubbling textures, and distant chimes surround the forest. Co-created with kids from Kidsville.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A165"
+        }
       }
     },
     {
@@ -54670,7 +60273,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "come play the piano and find out just how much it sparkles in the forest. or maybe it’ll attract the fae… take a chance and find out we have a specific ditch in mond and will use that, but for the sake of finding that god forsaken ditch, we’re reserving more area. contact us if you need!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A166"
+        }
       }
     },
     {
@@ -54693,7 +60300,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Chill space which adores octopuses and cats",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A167"
+        }
       }
     },
     {
@@ -54716,7 +60327,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Infinite Hippy Trap! Step inside The Void — a shimmering silver cube that seems to have slipped through a crack in reality and landed at The Borderlands. Built from reclaimed materials and fresh from Burning Nest and Nowhere, The Void returns bigger, bolder, and more mesmerising than ever. Whether you’re seeking a moment of calm, a spark of wonder, or a full-on mind-bending experience, The Void invites you to step inside… although you might find more than you bargained for within!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A168"
+        }
       }
     },
     {
@@ -54739,7 +60354,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Drop is a giant shiny suspended sculpture that looks like it's about to descend from space into the Alversjö playground — and when burners turn the lever, it sounds like it too. By day it gleams like an oil drop, futuristic and surreal; by night, silver/blue lighting gives it a water-like halo — mystical, hopeful, earthly and alien all at once. Switch the lights to yellow and red, and it becomes a burning flame.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A169"
+        }
       }
     },
     {
@@ -54762,7 +60381,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Listening Forest is a place for sound installations and other listening experiences.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A170"
+        }
       }
     },
     {
@@ -54785,7 +60408,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Temple of Digital Oblivion is a place to let go of your digital memories. You discover a shrine in the forest. You choose a picture and upload it to the installation (thanks to an app that you can pre-download or get on site via wifi). The picture is projected onto a wall of mist and once it dissolves, the photo gets deleted on your phone This installation is very likely to move somewhere totally elsewhere",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A171"
+        }
       }
     },
     {
@@ -54808,7 +60435,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Almost a bridge. Almost connecting till Hills and the temple area. Not for human consumption",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A172"
+        }
       }
     },
     {
@@ -54833,7 +60464,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Did you know that not EVERYBODY will go to Borderland? That's right, 99% of people are left behind! We're here to serve as living reminders, and you can too!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A173"
+        }
       }
     },
     {
@@ -54856,7 +60491,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A telescope with headphones, overlooking Borderland.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A174"
+        }
       }
     },
     {
@@ -54881,7 +60520,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Somewhere between logic and nonsense, lays the wonderland of Alice the malice. Shenanigans will happen everyday at 15:00 from Monday to Friday: Hat pimping workshop, fuzzy story reading time, our nutritious mad hatter tea party and other elusive surprises 🎩 ✨ We're all mad here, so shall we?",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A175"
+        }
       }
     },
     {
@@ -54908,7 +60551,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Slip into the role of an undercover gifter! Learn to discreetly place small gifts on people — without them noticing — through three stages of reverse pick-pocketing, distraction and body movement. Hands-on pair practice, lots of laughter. Wear something with accessible pockets (hoodie, cargo pants). No experience needed — just curiosity and respect.You said: Looking for that perfect accessory to take your Borderling Ensemble for the evening to the next level?",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A176"
+        }
       }
     },
     {
@@ -54933,7 +60580,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "One moment you’re surviving Borderland. The next you’re horizontal. Welcome to Chilldome, where pillows, blankets, beautiful lights, and a cozy atmosphere await. Stay for a moment, or until you forget why you came.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A177"
+        }
       }
     },
     {
@@ -54958,7 +60609,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A tiny château where curiosity is always on tap. Hidden between noble ambitions and terrible decisions, Château Vadeau welcomes wanderers, weirdos, artists and accidental aristocrats. By day we craft strange symbols and leave our marks on each other; by afternoon the courtyard becomes Tacos & Techno — sizzling food, cold craft beer, infectious beats. Come for a tattoo. Stay for a taco. Or drop by for whatever unexpected magic happens when good people gather.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A178"
+        }
       }
     },
     {
@@ -54983,7 +60638,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Kishmastlers have travelled space and collected music from all over the universe! Every day represents the sound and theme of a different planet. During daytime we have invited Bordelings to hold space (pun intended) gifting workshops, sound journeys and shenanigans. Wednesday is daytime party! Bring your quirkiest look (Ducks prioritized)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A179"
+        }
       }
     },
     {
@@ -55014,7 +60673,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Fuckery: Borderland's most unapologetic and sexiest camp cum community. Not a tantra workshop, BDSM playparty, swingers get-together or burner rave — we bring worlds together, with hosts like your nosy grandmother if she was also your fuckbuddy. Mindblowing workshops, hair-fucking PlayNights, and performances that leave you whispering \"Fuck Yeah!\"",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A180"
+        }
       }
     },
     {
@@ -55041,7 +60704,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The legendary sanctuary for your senses returns, serving weird and wonderful teas in a weird and wonderful way! We, a talented gang of misfits, invite you for tea and ceremonial happy hours. Step into our famous red tent, where time slows down — world-class teas, creative workshops, live music, DJ sets and a cozy fireplace. A welcoming space for deep conversations, unexpected art, and magical moments.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A181"
+        }
       }
     },
     {
@@ -55066,7 +60733,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come in, tell me a story, we will turn it into a song and record it. In max 30 min. Quality may vary.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A182"
+        }
       }
     },
     {
@@ -55091,7 +60762,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Just lovely :)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A183"
+        }
       }
     },
     {
@@ -55117,7 +60792,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We invite to playful, consent-based intimacy in a magical fox den where we explore presence, curiosity, and transformation by roleplaying the golden foxes.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A184"
+        }
       }
     },
     {
@@ -55144,7 +60823,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Why do we not burn treated wood? Why is eco-friendly soap and sunscreen important? Why can I not wear my pretty glitter? Peeing in the bush is fine, right? Take a short quiz about how the products and chemicals we use at Borderland affect organisms in the environment and get a cute prize!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A185"
+        }
       }
     },
     {
@@ -55172,7 +60855,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Drop by and get swept into the mesmerising world of crochet and handcraft! No prior experience needed — just curiosity. We provide all materials. Come overflowing with ideas, or completely blank, and leave with a small handmade memory to carry through the week. Wednesday, 12.30-16.30",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A186"
+        }
       }
     },
     {
@@ -55197,7 +60884,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Garden offers a place to slow down, land and reconnect — with yourself, with others, with nature and with what is actually here. We offer events focused on presence and connection incl. daily circling sessions, serve pancakes and invite you to come and spend time with the garden and gardeners.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A187"
+        }
       }
     },
     {
@@ -55222,7 +60913,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Letting people ride the bunny and unicorn on a a cloud of fluff.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A188"
+        }
       }
     },
     {
@@ -55249,7 +60944,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A place to return to when your inner child longs to be comforted and norished. Let us read you bed time stories, sing you lullabies & serve you blueberry tea. Look for our stuff in the guide, but more than that: look for our pop up schedule and signs in the arctic chill <3",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A189"
+        }
       }
     },
     {
@@ -55277,7 +60976,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Tantric Trolls invite you into a space where connection becomes something you can feel in the body — a glance, a breath, a boundary, a yes, a no. Through embodied rituals and guided workshops, we practice listening to desire without losing ourselves, expressing truth with clarity and respect, and discovering the tenderness that emerges when people dare to be real together. A place for courage, softness, consent and intimacy.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A190"
+        }
       }
     },
     {
@@ -55306,7 +61009,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We will go through some basic rope and knots skills that will help you and your camp through the next days. Beginner to advanced. No skills needed. BYOR (bring your own rope - if you have one) Disclaimer: We will only tie on non-living things. If you want to tie humans/lovers together, this is not the workshop you are looking for.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A191"
+        }
       }
     },
     {
@@ -55329,7 +61036,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Warm and cozy 7 m diameter bell tent for workshops at day and deep talk at night.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A192"
+        }
       }
     },
     {
@@ -55354,7 +61065,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Yggdrasil we have a tipi and welcome you to host workshops in it.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A193"
+        }
       }
     },
     {
@@ -55379,7 +61094,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A cosy camp of Beavers offering beavery things, like cucumbers for your sauna eyes and pickles for your soul. We will have a 75m2 strech tent for hanging out and also workshops / public offerings.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A194"
+        }
       }
     },
     {
@@ -55404,7 +61123,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "This tipi tent will offer many different workshops including AA-meetings, ACA mettings and other workshops",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A195"
+        }
       }
     },
     {
@@ -55420,7 +61143,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "When you've packed up all of your mojo, your tent feels impossibly far away, and truthfully.. you've got a tiny existential wobble brewing, come find us. Lazy Treats Hour will serve you hot toasties, silliness and giggles, plus a generous serving of camp love. Survival, but make it fabulous.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A196"
+        }
       }
     },
     {
@@ -55445,7 +61172,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Feel the bubbles and the ocean at our underwater-themed bar filled with non-alcoholic Schorle and playful bartenders. Don't know what Schorle is? Come find out!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A197"
+        }
       }
     },
     {
@@ -55461,7 +61192,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Vegan. Life-altering. Sourdough. Waffles. With homemade toppings! The Vegan Waffle Wagon will be here and there. Also appearing at some parties, happenings and workshops. Come find us if you want to eat (or maybe serve) waffles! We will have a printed schedule where you can sign up for a waffle serving shift!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A198"
+        }
       }
     },
     {
@@ -55486,7 +61221,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to Our Camp We've got a cozy living room with soft hay bales, lots of warm lights, and a bar right in the middle with some good background music. Everything you need to start your evening off in the best way.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A199"
+        }
       }
     },
     {
@@ -55512,7 +61251,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A cozy retreat from all the chaos: fire-heated bell tent, crackling outdoor fires, artisan pizza, live acoustic music. Slow down, stay awhile, and replenish both body and soul.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A200"
+        }
       }
     },
     {
@@ -55537,7 +61280,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come for semi-self-organized coffee of your choice (moka, phin, cezve, filter) and radically dangerous contemplative process (fortune telling, mug-reading, and more). Located in the waiting room of the reception of The Bureau of Justice, Joy, Bubbles, and Other Dangerous Ideas. Bureau APPROVED!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A201"
+        }
       }
     },
     {
@@ -55564,7 +61311,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Let's have a vacation! Bring your most awesome vacay-mode to The Crocket Corner — play croquet, sip crocktails, and enjoy a croque monsieur, served by chatty bartenders and a grumpy old grandpa. Let the traditional \"Swedish vacation\" begin! Croquet court open most non-curfew hours; bar open Tue–Thu 19–21. Grand Opening Tuesday with a croquet tournament — experts and beginners (with or without luck) welcome! Kids can play anytime except bar hours.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A202"
+        }
       }
     },
     {
@@ -55589,7 +61340,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Last year the Square was built. And water was brought. This year next to it, the outdoor BBQ area is in place. Firewood, bbq, charcoal, tables, benches are all there. Bring your ingredients, put it over the fire (fire it up if you are the first one there). Free and available for anyone to use. Dare to invite the unknown...",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A203"
+        }
       }
     },
     {
@@ -55618,7 +61373,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Your friendly, magical, quirky water hole in the hills. Enjoy the legendary One|Trick|Pony drink. All Glitter stallions, Phony Ponies and Massive Mules welcome. We're here 24/7: sun-baked afternoons, blissed-out nights, and those strange mornings where time doesn't matter.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A204"
+        }
       }
     },
     {
@@ -55643,7 +61402,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Grateful Grogg returns to bless Borderland with her sturdy presence! Offering tasty grogg, cold beer & rowdy parties. Need a jam space, someone to chat with, or just a wholesome place to rest? Open day, night & sunrise—though you might serve yourself & fellow Borderlings. Always welcome! 🍺",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A205"
+        }
       }
     },
     {
@@ -55668,7 +61431,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Coffee on a self-service basis, every day from 10:00–22:00. Grab a cup, stay awhile, challenge someone to a board game, and see where the conversation leads.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A206"
+        }
       }
     },
     {
@@ -55686,7 +61453,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Holy Cheese Temple: not food — a multi-sensory immersion into the essence of cheese. At night, the Black Temple appears east of the Lowlands. To enter: spirit cleansed with Holy Feta Water, then confess a sin to receive the Fermented Blood of the Vine. Drink, be absolved, and submerge into our Lacto Sensory Play Experience. In Caseus Veritas — in cheese we trust 🧀🙌🏻 You said: The legendary sanctuary for your senses returns, serving weird and wonderful teas in a weird and wonderful way!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A207"
+        }
       }
     },
     {
@@ -55713,7 +61484,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "My car Bob and I always dreamt of being a Bob-up Café and we will realize it at Borderland. Come by for a coffee, a cuddle, compliment or conversation. You'll get your decaf or caffeine fix with a dope conversationalist as a barista and a hang out space to unwind from the excitements of the playa.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A208"
+        }
       }
     },
     {
@@ -55738,7 +61513,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Le Bistro Français is a gift from a group of French friends to the Borderland community. We offer wine (with and without alcohol), peanuts and olives. Then, once a day, something shifts. The guinguette fades and the best goes up. Welcome to l'Heure Heureuse — our happy hour — where the whole neighbourhood is invited to celebrate absolutely nothing in particular, but with bubbles...",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A209"
+        }
       }
     },
     {
@@ -55763,7 +61542,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "What is it that you smelly - a hunger in your belly? In the morning when we wake, bread for you we bake! And in the darkness of the night, from the forest close at site; a wagon of baguette shows its silhouette.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A210"
+        }
       }
     },
     {
@@ -55788,7 +61571,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We're a wee camp w a dream to boost the people of the playa w cozy himalayan dumplings (mo:mo) pop-up, and have caffè corretto mornings <3 ° live, laugh, love, mo:mo, & margherita °",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A211"
+        }
       }
     },
     {
@@ -55815,7 +61602,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Looking for coffee? Come find our always open self service café! Push a button to brew a cup. Add vegan milk and sugar. Sit down and enjoy. The space offers soft music, cosy light and a few games.The rest is up to you.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A212"
+        }
       }
     },
     {
@@ -55829,7 +61620,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "There are hidden jars of vegan kimchii here at Borderland, will you find one and save your camp from kimchii-deficiency? First step is finding The Vegan Waffle Wagon, if the red flag is up it means you can get a map or clue and continue your quest!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A213"
+        }
       }
     },
     {
@@ -55857,7 +61652,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome Home, Darling is the place where you can take a break from the playa. Our big tent is cool and shaded by day, calm by night for cozy conversation. Some evenings, our soup kitchen cooks up food for hungry Borderlings. WHD also have a water truck you can borrow.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A214"
+        }
       }
     },
     {
@@ -55884,7 +61683,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Follow the scent of fresh-baked vegan cookies and spiced chai to a softly glowing yurt in the trees. Sink into vintage rugs and cushions, play games, enjoy live readings, or drift to mellow tunes. Your cozy sanctuary—always vegan, always warm.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A215"
+        }
       }
     },
     {
@@ -55912,7 +61715,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A koselig waffle café blooms on the playa for one golden afternoon. Warm waffles, brunost, jam, a wake-up shot — Norwegian hygge with a wink. Bring a cup, an open heart, and your slutiest secret. 🧇✨",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A216"
+        }
       }
     },
     {
@@ -55935,7 +61742,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A bar for salt addicts. Here, we celebrate our addiction. You can try our salt tasting experience, have savory cocktails or a salty snack. Anybody said mango sticky rice? We'll replenish you with alcohol-free electrolyte cocktails, or, electrococktails. Salt Rock City is the best (and maybe only) place to boast about how many kinds of salt you have in your kitchen. Salt-normative folks are welcome too ;)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A217"
+        }
       }
     },
     {
@@ -55962,7 +61773,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The Tahinians welcome you to indulge in the wonderful godly amazing deliciousness of Tahini at our beautiful Tahini temple. Tahini fika will be there always for you to enjoy in a nice relaxing atmosphere and if you are willing please join our religion and be blessed!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A218"
+        }
       }
     },
     {
@@ -55991,7 +61806,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Commit wicked sins or accept deserved punishments from our curated menus at SIN Bar, Club SIN's handcrafted wooden haven beside the dancefloor. Earn sincoins, ask nicely, and our SINtenders may reward you with cocktails, non-alcoholic delights, special snacks, and redeeming treats. Sinful tonight?",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A219"
+        }
       }
     },
     {
@@ -56016,7 +61835,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come effortlessly in and join us in our lounge. This is a place to just be - while still looking at the vibrant life at BL. Also there is waffles!!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A220"
+        }
       }
     },
     {
@@ -56041,7 +61864,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come and hang, literally, in our wodden hammock dome. This year we will add some fire, both literally and figuratively. Grilled cheese sandwiches, for even more chill.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A221"
+        }
       }
     },
     {
@@ -56066,7 +61893,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "- Chill area to hang - Low-key bar - Sandwiches, snacks and treats at different time of day or night.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A222"
+        }
       }
     },
     {
@@ -56091,7 +61922,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Food offering: jizz me up Toast for a toast",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A223"
+        }
       }
     },
     {
@@ -56116,7 +61951,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Art pieces and sausage parties.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A224"
+        }
       }
     },
     {
@@ -56141,7 +61980,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Hi! \"The popcorner\" dreamers here :) We have a popcorn wagon that will spontaneously server popcorn. Apart from that our camp has a lot of musicians so expect live music every now and then :)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A225"
+        }
       }
     },
     {
@@ -56166,7 +62009,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "20 jolly friends baking pizza for their cinema guests.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A226"
+        }
       }
     },
     {
@@ -56191,7 +62038,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We offer a cozy chill place and some good drinks for any mood.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A227"
+        }
       }
     },
     {
@@ -56216,7 +62067,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A welcoming and warm sanctuary centered around a cozy tipi with a wood stove, sheepskins, and hot herbal teas. A perfect spot to escape the cold, relax, and chill out.We live and sleep here,also:)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A228"
+        }
       }
     },
     {
@@ -56241,7 +62096,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Yachtees bring food and magic from far countries. Pop up offerings and events will enrich the neighbourhood with unexpected sweets and treats.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A229"
+        }
       }
     },
     {
@@ -56266,7 +62125,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We will hold some workshops e.g. painting with ultrablack paint, waffles, maybe circling and other nice things.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A230"
+        }
       }
     },
     {
@@ -56291,7 +62154,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Soup kitchen were you can come and enjoy our delicious food, we will also have a dining hall were you can sit down and eat in peace.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A231"
+        }
       }
     },
     {
@@ -56316,7 +62183,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "What can 2 happy campers offer? A) End of Coffee Bar (matcha, turmeric, cacao, tea) B) Vegan liquorice (sweet and salty) C) Idea Graveyard D) Colourful sunglasses shop",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A232"
+        }
       }
     },
     {
@@ -56341,7 +62212,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We're a mining operation on the asteroid known as Korova Rock with a mobile roid bar serving supplements, electrolytes, and also Milk+. Imagine The Fifth Element if Luc Besson had made slightly worse decisions, which would have made it considerably better.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A233"
+        }
       }
     },
     {
@@ -56366,7 +62241,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "There will be waffles",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A234"
+        }
       }
     },
     {
@@ -56391,7 +62270,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A Piano, and a Bar, both Pink",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A235"
+        }
       }
     },
     {
@@ -56416,7 +62299,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Kidsville Cantina... Think pancakes, waffles, grilled cheese...",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A236"
+        }
       }
     },
     {
@@ -56441,7 +62328,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A friendly gang of carrot lovers - come say hello and eat a carrot! This is both our camp and where we will be offering free carrots and possibly other vegetables for the hungry Borderlanders needing a healthy and tasty snack!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A237"
+        }
       }
     },
     {
@@ -56466,7 +62357,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Popup style waffle/muurikka pancake stand, likely on Tuesday, Wednesday and Thursday evenings.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A238"
+        }
       }
     },
     {
@@ -56489,7 +62384,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A BYO potluck space for food, treats, ideas and experiences. This is an experimental space where anyone from any corner of the world can bring anything they like to share with likeminded rainbow warriors. If you pass by hungry, you will not leave so. Licking your plate is OK!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A239"
+        }
       }
     },
     {
@@ -56512,7 +62411,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Protein banana pancakes, open hearted conversations and shamanic face paintings. We create a cozy space with a colorful van with fake candles and fairylights (LNT though).",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A240"
+        }
       }
     },
     {
@@ -56537,7 +62440,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Somewhere between camps, when the music dips and time feels softer… she appears. A small glowing setup — jars, sauces, something sweet, something hot. If you catch her eye: \"Have you been blessed yet?\" One pickle, chosen for you, dressed in honey, heat and a touch of shimmer. Some say it's a snack. Others say it's a moment. Find her if you can — she doesn't stay long.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A241"
+        }
       }
     },
     {
@@ -56562,7 +62469,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "✨🫖🌈 Do you need psytrance with your chai? Do you need some chai with your psytrance? This is where we will be making our mobile PsyChai offering. 🦝We fully have our racoon energy ready to help with any other shenanigans, capers and japes that need assistance! 🚐🐝Two in a friendly yellow van.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A242"
+        }
       }
     },
     {
@@ -56591,7 +62502,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come and play games with us, freaky lovers or Tipsy temptations",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A243"
+        }
       }
     },
     {
@@ -56616,7 +62531,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A smoky tent, cowboy hats, and the smell of bad decisions. BUCK Casino runs blackjack, poker and poker dice when the night calls for it. Come by late — you may lose your chips, your watch, and whatever dignity you had left. The house always wins. But you won't be able to stop.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A244"
+        }
       }
     },
     {
@@ -56630,7 +62549,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The lost city of Atlantis has risen close to the playa — now ruled by jellyfish, deep-sea creatures and mermaids. They've found a treasure chest they cannot open: three beings must manifest the old ideals of compassion, truth and humility to earn it. While you wait, visit The Cart at the gate for seaweed chips, blue schnapps, salty fish and green algae.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A245"
+        }
       }
     },
     {
@@ -56655,7 +62578,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Life is not always as successful as we want it to be, right? Come celebrate those moments we all call \"Failure\", which are actually great opportunities for adventures and growth. See what happens when success is literally not an option 👻 Facilitated time wasting, guided failures and 24/8 Self-served experiences available",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A246"
+        }
       }
     },
     {
@@ -56686,7 +62613,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "At the End of the Rainbow, where mystical creatures roam and magic fills the air, we host unforgettable parties where only your imagination sets the limits. Come play, express yourself freely, embody your sensuality, and explore your desires without judgment.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A247"
+        }
       }
     },
     {
@@ -56714,7 +62645,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Spike battle of Borderland 2026 (SBB26) is here for it's first edition! Bring your best energy and get ready for a great competition! Either come by yourself and make a team on the spot or come as a team. - Playing 2 vs 2 - Clothes on private parts are mandatory - Limited spots avaliable - Age limit 15 and above (younger can watch) It's a spikeball tournament. Playing in groups. Then those best handling the ball will play semi finals and then finals!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A248"
+        }
       }
     },
     {
@@ -56739,7 +62674,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Raw peeled ginger, hand-carved with competence, inserted with intention. The sweet burn of enlightenment awaits. Pops up when the time is right. BEWARE OF COPYCATS AND QUACKS!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A249"
+        }
       }
     },
     {
@@ -56764,7 +62703,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Come celebrate the souls who make The Borderland possible. A beautifully decorated lounge for rest, luxury and recharging for leads, founders, board members and anyone else with power and panache! A gift to the community, because without them the dream stops. Definitely not a honeypot.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A250"
+        }
       }
     },
     {
@@ -56789,7 +62732,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to the Jousting Jesters! Step into our medieval realm of knights, jesters, and merriment. Dance to medieval-inspired beats, test your skill in playful games, enjoy soul-shaking talks, and gather for our grand tournament, where honour, laughter, and glorious revelry await all who enter!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A251"
+        }
       }
     },
     {
@@ -56818,7 +62765,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Ordinary is overrated. Become the Dazzling Diva or one-of-a-kind Unique Unicorn of your dreams! Step into Borrow & Become — a living, pulsating wardrobe where you can borrow your outfit for the evening, reinvent yourself, or bring one piece and leave with another. Soft guidance, intuitive styling and a welcoming atmosphere. Come curious. Leave Legendary. Tuesday 17–19 & Friday 16–18. Welcome to the Peacock magic!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A252"
+        }
       }
     },
     {
@@ -56845,7 +62796,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Play area for our furry friends. Come and let your doggy roam free and play in a fenced in area with shade, toys and a little pool. Space is accessible every day 8am - 8pm",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A253"
+        }
       }
     },
     {
@@ -56873,7 +62828,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Do you have a certain dark, physical desire? Does it spell LATEX? Heck yes - we've got an event for you! Dress up or down in your finest black, and join us at Rest & Revelry for a swaggering tour around the playa. Let's strut our stuff, let's show others how to be spankalicious and sparkling in black. What, where, and how it ends? Come find out....",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A254"
+        }
       }
     },
     {
@@ -56900,7 +62859,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Step into a world of treasure hunters, magical beings, cursed bandits, lost riches, hidden secrets, and unforgettable adventures. Uncover clues, hear mysterious tales, and perhaps even find the Magical Compass. Only those with sharp minds, curious hearts, and a touch of daring will reveal the secrets hidden from ordinary travelers. Will you heed the call?",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A255"
+        }
       }
     },
     {
@@ -56936,7 +62899,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Borderland Special Olympics — a competition based on burn principles! We've added special secret sauce to games you already know: the old world in a new form your soul will recognize, where everyone competing is a winner! Keep an eye on the scoreboard throughout the week — the winning person or team earns a facilitated journey Saturday at 5pm, in the building constructed especially for this purpose!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A256"
+        }
       }
     },
     {
@@ -56966,7 +62933,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Born at Borderland, Club SIN fuses the hedonistic spirit of a nightclub with the co-creative energy of the Burner community. Expect casino games with a twist, a dance floor pulsing with sweaty disco and house beats, juicy workshops, and a bar serving deliciously wicked treats. But nothing is free at Club SIN: to play blackjack, poker or roulette, or order from our Menu of Treats, you'll need SINcoins — earned by committing playful sins or accepting delightful punishments.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A257"
+        }
       }
     },
     {
@@ -56995,7 +62966,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "CaSINo is Club SIN’s twisted casino, where sincoins, shame, dignity, luck, and temptation are all on the table. Play sinful casino games; blackjack, poker, and roulette, win juicy treats, accept delicious punishments, and gamble your comfort zone away. Come place your bet, commit your sins, and lose yourself with us tonight at caSINo...",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A258"
+        }
       }
     },
     {
@@ -57020,7 +62995,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A sacred rest stop for the curious, the contemplative, and the urgently inspired. Help yourself to something from the jars. Flip a card. Make a confession. Get questions answered about the backdoor play. No queue. Just you, questionable snacks, and the quiet wisdom that has always lived deep inside.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A259"
+        }
       }
     },
     {
@@ -57045,7 +63024,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We will have a day of racing and betting on the water slides! They will probably stay there for a couple more days as well. People have to rinse off in the shower before bathing",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A260"
+        }
       }
     },
     {
@@ -57070,7 +63053,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Small intentional community of hippies that used to chase the dream of having a fulfilling life in The Borderland. However, rising rents and gentrification pushed us to rethink our priorities and move to the countryside uhm Artic zone. Planned public offerings: - Popcorn station - Noseflute gifting",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A261"
+        }
       }
     },
     {
@@ -57095,7 +63082,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Teentown is the meeting place for burner teens.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A262"
+        }
       }
     },
     {
@@ -57120,7 +63111,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A playful, juicy oasis of sparkle and chaotic kitten energy at Borderland.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A263"
+        }
       }
     },
     {
@@ -57143,7 +63138,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "It's Pac-Man/Spank-Man chased by two Ghosts. This will a complete stage with beautiful lights and super tunes to Dance all night long!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A264"
+        }
       }
     },
     {
@@ -57168,7 +63167,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A noble makers spot for mega creatures and lost creators. Mega Mårran is brought to life from fabric, helium and a touch of Newton. True chemistry, pure physics, real magic. At dawn, sun-phobic Jelly finds shelter in the Jelly stable. Stick for corny pop, salt sprinkles, watermelon and mellow minds.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A265"
+        }
       }
     },
     {
@@ -57193,7 +63196,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Enter the respected Goussilie/Duphousse salon-masters of dramatic card divination and unlicensed spiritual guidance. With an ancient and somewhat questionable deck of cards, they will uncover fate and expose terrible decisions. Expect prophecies, accusations, emotional damage, and occasional wisdom.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A266"
+        }
       }
     },
     {
@@ -57216,7 +63223,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "BorderLAN takes place in the earth cellar by the red villa/Dreamers Maze. It's a 4-person \"LAN\" with a host, offering food, snacks and drinks over a 45 minute audiovisual and immersive gaming session. Outside of the booking slots, the space is open to anyone for play.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A267"
+        }
       }
     },
     {
@@ -57241,7 +63252,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Temple forest consciousness lab for all sorts of fun experiments of body and mind. AND Inclusive chill space (we accept all orientations: standing, sitting, laying, etc)",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A268"
+        }
       }
     },
     {
@@ -57266,7 +63281,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Welcome to the Safari Sightseeing Observation Post! Come and join the high ground, sit down and have a cigar. Lets observe the common people on the lowlands through our binoculars and have a colonial conversation.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A269"
+        }
       }
     },
     {
@@ -57289,7 +63308,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Transformation office aids you with your transformation, big or small.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A270"
+        }
       }
     },
     {
@@ -57314,7 +63337,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Lost in the dust and blinded by the noon sun? Follow the shimmer to Glittering Gold & Trinkets. We are a sensory oasis of shiny things, clinking treasures, and open hearts. Step inside our gilded canopy to trade a story for a charm, lounge on plush carpets, or find that perfect piece of playa flair",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A271"
+        }
       }
     },
     {
@@ -57339,7 +63366,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We will be offering a number of things, a spy bar, a bubble trouble experience, some shape shifting shows and so on. This will also be a coy hang out space.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A272"
+        }
       }
     },
     {
@@ -57362,7 +63393,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Protein banana pancakes, shamanic face paintings and black holes mindfucks. We create a cozy space with colorful vans, (fake) candles and fairylights.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A273"
+        }
       }
     },
     {
@@ -57387,7 +63422,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Take a seat at our buzzing table! Read the cards, find a topic, and let the (literal) sparks fly. The rules are simple: Both of you will attach a small electrode to your body before the discussion begins. If your friend talks bullshit, send them a shocking present, and see how much you really have in common.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A274"
+        }
       }
     },
     {
@@ -57414,7 +63453,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Looking for the perfect accessory to take your Borderling Ensemble to the next level? Head to the End of the Block Boutique — open Monday–Saturday, 10–12. An assortment of curated jewelry and accessories, possibly one made just for you. Plus Tania's world-famous penis cardigans (now in various sizes…). Self-serve, 1 item per person per day to spread the love. New baubles daily until we run out!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A275"
+        }
       }
     },
     {
@@ -57442,7 +63485,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We're bringing back the analog thrill of the phone call! Hidden on the Playa are two phone booths decked like your wildest 90s fever dream. The only rule: pick up when it rings. High-stakes social roulette — a spontaneous blind date, a grilling from a Smålandstidningen \"reporter\", or a debate about why horses aren't real. No DMs, no ghosting. Your boothy call is waiting!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A276"
+        }
       }
     },
     {
@@ -57467,7 +63514,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Unlicensed detectives solving any case badly. Join our questionable academy for absurd workshops, blue chai, snacks and the art of professional confusion. Collect your detective ID card at our camp, earn detective ranks and look incredibly professional until you accidentally solve a case.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A277"
+        }
       }
     },
     {
@@ -57481,7 +63532,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Need a partner for a workshop or someone to go on a date with? The Wing Women are here to make that awkward first move for you! We’ll help you find your festival crush or deliver your yearning message across the plains. Sometimes the most radical thing to do is outsource the flirting to the pros!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A278"
+        }
       }
     },
     {
@@ -57512,7 +63567,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Simple rules. Complex strategy. Infinite chaos. And one very personal piece of equipment. Welcome to the sport you never knew you needed. - open for visitors all the time",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A279"
+        }
       }
     },
     {
@@ -57537,7 +63596,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Feeling lost? Excellent! That means you're exactly where you need to be. Stop by the Lost Reception for directions, answers, or a little moral support. Our receptionist is also on a thrilling quest to figure out where everything is. She'll do her best to help you - but there's a chance you'll end up even more lost!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A280"
+        }
       }
     },
     {
@@ -57564,7 +63627,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We aim to be a kinder garden for \"grown ups\" but since our space is created by the same people who need a kinder garden, who knows what will emerge. Swing by and be silly with us and join our workshops!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A281"
+        }
       }
     },
     {
@@ -57592,7 +63659,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "For one hour only! Special shower will be offering the most unique of experiences. We will gather and store the graywater from the Hot sauna and you get to use it as shower water. Never before has it been possible to take a shower with the ass sweat of thousands of hippies. First come first served!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A282"
+        }
       }
     },
     {
@@ -57617,7 +63688,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "You know that thing lobsters do when they need to grow? They crawl into a little cave, rip off their entire shell, and sit there naked and vulnerable until a new one forms. Then they emerge bigger, stronger, and probably a little embarrassed. Come grow in our weird workshop cave.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A283"
+        }
       }
     },
     {
@@ -57642,7 +63717,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Formerly aNGRY oLD mEN art car garage - Redneck mechanic campsite",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A284"
+        }
       }
     },
     {
@@ -57667,7 +63746,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Luxury Spa Experience - Absolut Nonsense is an immersive art piece disguised as a luxury spa. We are creating a sensory illusion: a 100% dry “hot tub” where participants can enjoy the psychological benefits of a good soak, social bonding, and relaxation without a single drop of water.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A285"
+        }
       }
     },
     {
@@ -57692,7 +63775,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Swallow Express Taxi service",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A286"
+        }
       }
     },
     {
@@ -57717,7 +63804,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Björd Brainwork Bureau is a small blue camouflaged office at the edge of certainty that accepts all cases, especially those that cannot be explained. Something is being prepared or perhaps quietly misplaced. No one knows. You are welcome, particularly if you have no appointment.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A287"
+        }
       }
     },
     {
@@ -57742,7 +63833,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "An office where we write, edit and print our nnewspaper",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A288"
+        }
       }
     },
     {
@@ -57765,7 +63860,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "DMV Garage. This is where Muddy Vehicles gets inspected and fixed",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A289"
+        }
       }
     },
     {
@@ -57790,7 +63889,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "BIG rotating seesaw",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A290"
+        }
       }
     },
     {
@@ -57815,7 +63918,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Whether you are wandering in from the dust or actively seeking out one of our activities, the End of the Block Lounge offers a range of events over the week to amuse, distract and occupy a bit of your time at your Burn. Our events will be listed individually",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A291"
+        }
       }
     },
     {
@@ -57842,7 +63949,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A daytime, lakeside, golden hour sound camp where we engineer atmosphere in real time and cater for some refreshing electrolyte drinks. Carefully tuned for a warm, physical, high-fidelity dancefloor. Music matched to the moment, as the Swedish summer sunset slowly approaches over the beautiful waters.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A292"
+        }
       }
     },
     {
@@ -57873,7 +63984,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Old wooden structure with amazing light art and other art. Only enter when the doors are open. Closed doors means a workshop is in progress or we are offering bodies. Thursday and Friday afternoon are the safest times to admire art and architecture. At night it transforms into a decadent nightclub for sinners!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A293"
+        }
       }
     },
     {
@@ -57900,7 +64015,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Coffee is brewing. Live Radio Show happening. Storytelling open mic, between two ferns intervjues.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A294"
+        }
       }
     },
     {
@@ -57930,7 +64049,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A staple of Borderland, The Foxhole creates a sex positive sound camp where people can push their boundaries and safely explore their desires. The establishment is inspired by sultry French cabaret vibes and curated as a home. We create this experience, but most importantly, we embrace this experience together. Join us, and let’s embrace the journey together.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A295"
+        }
       }
     },
     {
@@ -57959,7 +64082,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Enter the world of fotons where Smoke and mirrors may trick your mind! Powerful vibrations of poetry and music will fill this space, come slow, life is no race!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A296"
+        }
       }
     },
     {
@@ -57987,7 +64114,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "WE LOVE TO JAM - AND YOU ARE WELCOME ! Come join us ! Play with us, dance, listen, relax! <3 Please Stop by for a workshop/spontanious jams etc.! \"Organized\" OPEN jams from 20-22 quiet jam from 22-24.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A297"
+        }
       }
     },
     {
@@ -58012,7 +64143,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Deep bass on a hand-crafted sound system. Jungle, drum & bass, dubstep, UK bass, garage and dub. Join us Monday, Wednesday, Friday and Saturday nights 22.00–05.00, plus daytime sessions: Dub & Drinks, Bass Yoga and Bass Meditation.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A298"
+        }
       }
     },
     {
@@ -58037,7 +64172,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Afternoon Beats & Mango Sour Beer.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A299"
+        }
       }
     },
     {
@@ -58066,7 +64205,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Community Space at Borderland, Workshops, Performance, Theatre. Designed by Borderlings, since 2014. Come and hang by the fire. Legendary Thursday Cabaret Nite",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A300"
+        }
       }
     },
     {
@@ -58097,7 +64240,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Deep within Glittertind, the Mountain King welcomes trolls, witches, ravers and all wandering creatures. Dovregubbens Hall: trolls stomp, goblins twerk, basslines ring — later, workshops and rituals. Trolltunga: a velvet yurt where philosophy and pleasure share the same breath. Bifröst: sound baths, ritual nonsense, mossy rugs. Leave stranger than you found it.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A301"
+        }
       }
     },
     {
@@ -58126,7 +64273,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "House of SIN is Club SIN’s 12x6m playground for sensual, kinky, sexual, silly, and sinful exploration. By day: workshops, rituals, games, slothing, and temptations. By night: sex+ afterparties. Step in, consent, and sin with us day and night...",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A302"
+        }
       }
     },
     {
@@ -58149,7 +64300,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "HYPERSTITION is going to the MOON and we are not coming back. 2026 is the final year for HYPERSTITION at Borderland. We are stepping up to take on the Valley (the legendary Muumima spot), more than doubling our size, light and sound. The Moon Dome is part of the Hyperstition dream universe, which also include the Black Box and Chrome Room.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A303"
+        }
       }
     },
     {
@@ -58174,7 +64329,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Queer-focused and inclusive events Pink Parachute: Day Parties, workshops, weird happenings. Velvet Lounge: a cozy place for uncanny relaxation",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A304"
+        }
       }
     },
     {
@@ -58199,7 +64358,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Tuesday- Saturday: Cosmic cloud Café Tuesday: Cosmic Fungal Frequencies sound journey Thursday: Cosmic Day Party",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A305"
+        }
       }
     },
     {
@@ -58224,7 +64387,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We are Sound Camp RA and will host a \" closing build week party\" on Monday. We obey the sun god RA and his fight during the night so we all get to have a new morning sunrise. We play weird ravy shit.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A306"
+        }
       }
     },
     {
@@ -58249,7 +64416,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Bringing some southern European vibes. Offering light music and other interactive offerings.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A307"
+        }
       }
     },
     {
@@ -58274,7 +64445,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "The horizon is shimmering, the water is calling, and the blue burner creatures are stirring once more. Welcome back to the Occult Oasis. This year, we’ve distilled our dreams into two distinct, immersive day-party voyages.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A308"
+        }
       }
     },
     {
@@ -58289,7 +64464,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Your new favorite dancefloor! Tired of boring repetetive techno? Need a place where you can truly move to the beats? A place to truly dance, be wild & free",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A309"
+        }
       }
     },
     {
@@ -58314,7 +64493,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "As S.O.U.N..D. map instructs, as partly funded provides and as possible to fulfill. Speakers directed SW and whole containerpark as an activity area",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A310"
+        }
       }
     },
     {
@@ -58339,7 +64522,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Ballroom Bliss – Disco with love! Wed - Fri 12–15, we're here spinning pure grooves next to our tipi. The free zone for all open-minded disco loving heartbreakers. Tiny dancefloor, ice-cold slushies, real vibes. No sad faces, no negativity. Not a large camp, two freecampers creating a social space!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A311"
+        }
       }
     },
     {
@@ -58364,7 +64551,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A gathering of soft explorers, building a safe space to take off and land. Day time music when suitable. Ground for spontaneous offerings, come gather with us!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A312"
+        }
       }
     },
     {
@@ -58389,7 +64580,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "A fun happy camp loving psytrance!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A313"
+        }
       }
     },
     {
@@ -58414,7 +64609,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "Chill music open format and good conversations hangout. Disco, Boogie, Rare Groove, Brazilian Grooves, Reggae & Dancehall. Late night-Vocal, soulful, garage, deep, disco, HOUSE.",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A314"
+        }
       }
     },
     {
@@ -58437,7 +64636,11 @@ const generatedSchedule: NormalizedSchedule = {
       "description": "We will put a big spinning disco ball here and play the song Like and Eagle with Dennis Parker on repeat the entire week. LOUDLY!",
       "source": {
         "pdf": "spreadsheet:1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0",
-        "page": 0
+        "page": 0,
+        "spreadsheet": {
+          "sheetName": "JOMO26_destinations",
+          "cellRef": "A315"
+        }
       }
     }
   ]

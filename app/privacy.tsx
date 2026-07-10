@@ -27,7 +27,7 @@ export default function PrivacyScreen() {
         </Text>
                 <Text style={styles.subheading}>Please note:</Text>
         <Text style={styles.body}>
-          The site does however use a small amount of google analytics, but I only track page views. This is to have an extra safety check for myself, to ensure that we are at a level of site visits that my hosting allows for free. I do not send custom analytics events for saved festival events, searches, filters, map interactions or anything else.  
+          The site does however use a small amount of google analytics, but I only track page views. This is to have an extra safety check for myself, to ensure that we are at a level of site visits that my hosting allows for free. I do not send custom analytics events for saved festival events, searches, filters, map interactions or anything else.{"\n"}{"\n"}As a solo dev who built this on my free time for fun, mistakes happen and i am not perfect. give me a shout and a chance to fix it. Username is Raviolan pretty much everywhere.
         </Text>
       </View>
         <Text style={styles.subheading}>And finally</Text>

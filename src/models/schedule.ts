@@ -112,6 +112,15 @@ export interface EventTimeRange {
   display: string;
 }
 
+export interface SourceMetadata {
+  pdf: string;
+  page: number;
+  spreadsheet?: {
+    sheetName: string;
+    cellRef: string;
+  };
+}
+
 export interface FestivalEvent {
   id: FestivalEventId;
   title: string;
@@ -127,10 +136,7 @@ export interface FestivalEvent {
   gridSquares?: GridSquareRef[];
   tags: FestivalTag[];
   description: string;
-  source: {
-    pdf: string;
-    page: number;
-  };
+  source: SourceMetadata;
 }
 
 export interface FestivalCampListing {
@@ -141,10 +147,7 @@ export interface FestivalCampListing {
   gridSquares?: GridSquareRef[];
   tags: FestivalTag[];
   description: string;
-  source: {
-    pdf: string;
-    page: number;
-  };
+  source: SourceMetadata;
 }
 
 export interface NormalizedSchedule {

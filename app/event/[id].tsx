@@ -20,6 +20,7 @@ import {
   resolveHostSelection
 } from "@/lib/scheduleQueries";
 import { subscribeToScrollToTop } from "@/lib/scrollToTopEvents";
+import type { SourceMetadata } from "@/models/schedule";
 import { theme } from "@/theme/theme";
 
 type EventDetailTab = "info" | "map";
@@ -130,7 +131,7 @@ export default function EventDetailScreen() {
 
           {saved.storageError ? <Text style={styles.warning}>{saved.storageError}</Text> : null}
 
-          <Text style={styles.source}>Source: {event.source.pdf}, page {event.source.page}</Text>
+          <Text style={styles.source}>Source: {formatSourceLabel(event.source)}</Text>
         </>
       )}
       <AppFooter />
@@ -237,6 +238,14 @@ function LinkedMetaBlock({
       </View>
     </View>
   );
+}
+
+function formatSourceLabel(source: SourceMetadata) {
+  if (source.spreadsheet) {
+    return `${source.spreadsheet.sheetName}, Cell ${source.spreadsheet.cellRef}`;
+  }
+
+  return `${source.pdf}, page ${source.page}`;
 }
 
 const styles = StyleSheet.create({

@@ -25,10 +25,25 @@ const outputPath = path.join(rootDir, "src/data/generatedSchedule.ts");
 
 const sheetId = "1g4EQzlX2hg0TLq2WOUgSIbY4WyCzDTtizdw7eRB7XR0";
 const spreadsheetSource = `spreadsheet:${sheetId}`;
+const ROW_NUMBER = Symbol("spreadsheetRowNumber");
+const HEADER_INDEX_BY_NAME = Symbol("spreadsheetHeaderIndexByName");
+const sourceFieldBySheet = {
+  events: "Title",
+  destinations: "Title"
+};
 const publishedTabs = {
-  events: 1641296636,
-  destinations: 1926215512,
-  placement: 925400118
+  events: {
+    gid: 1641296636,
+    sheetName: "JOMO26_table"
+  },
+  destinations: {
+    gid: 1926215512,
+    sheetName: "JOMO26_destinations"
+  },
+  placement: {
+    gid: 925400118,
+    sheetName: "JOMO26_placement"
+  }
 };
 
 const supportedTags = [
@@ -215,9 +230,9 @@ async function loadBaselineSchedule() {
 
 async function fetchPublishedSheets() {
   const [eventsCsv, destinationsCsv, placementCsv] = await Promise.all([
-    fetchSheetCsv(publishedTabs.events),
-    fetchSheetCsv(publishedTabs.destinations),
-    fetchSheetCsv(publishedTabs.placement)
+    fetchSheetCsv(publishedTabs.events.gid),
+    fetchSheetCsv(publishedTabs.destinations.gid),
+    fetchSheetCsv(publishedTabs.placement.gid)
   ]);
 
   return {
@@ -290,13 +305,25 @@ function parseCsv(csvText) {
 
   const [headerRow = [], ...dataRows] = rows;
   const headers = headerRow.map((value) => value.trim());
+  const headerIndexByName = new Map(headers.map((header, index) => [header, index]));
 
-  return dataRows.map((dataRow) =>
-    headers.reduce((entry, header, index) => {
+  return dataRows.map((dataRow, dataRowIndex) => {
+    const entry = headers.reduce((entry, header, index) => {
       entry[header] = (dataRow[index] ?? "").trim();
       return entry;
-    }, {})
-  );
+    }, {});
+
+    Object.defineProperties(entry, {
+      [ROW_NUMBER]: {
+        value: dataRowIndex + 2
+      },
+      [HEADER_INDEX_BY_NAME]: {
+        value: headerIndexByName
+      }
+    });
+
+    return entry;
+  });
 }
 
 function normalizeSpreadsheetEvent(row, context) {
@@ -351,10 +378,10 @@ function normalizeSpreadsheetEvent(row, context) {
     ...(gridSquares?.length ? { gridSquares } : {}),
     tags: parseTagsFromEventRow(row, context.unknownTags),
     description: cleanMultilineText(row.Description ?? ""),
-    source: {
-      pdf: spreadsheetSource,
-      page: 0
-    }
+    source: buildSpreadsheetSource(row, {
+      fieldName: sourceFieldBySheet.events,
+      sheetName: publishedTabs.events.sheetName
+    })
   });
 }
 
@@ -377,11 +404,47 @@ function normalizeSpreadsheetDestination(row, context) {
     ...(gridSquares.length > 0 ? { gridSquares } : {}),
     tags: parseTagsFromText(row.Tags ?? "", context.unknownTags),
     description: cleanMultilineText(row.Description ?? ""),
-    source: {
-      pdf: spreadsheetSource,
-      page: 0
-    }
+    source: buildSpreadsheetSource(row, {
+      fieldName: sourceFieldBySheet.destinations,
+      sheetName: publishedTabs.destinations.sheetName
+    })
   });
+}
+
+function buildSpreadsheetSource(row, { fieldName, sheetName }) {
+  return {
+    pdf: spreadsheetSource,
+    page: 0,
+    spreadsheet: {
+      sheetName,
+      cellRef: getSpreadsheetCellRef(row, fieldName)
+    }
+  };
+}
+
+function getSpreadsheetCellRef(row, fieldName) {
+  const rowNumber = row[ROW_NUMBER];
+  const headerIndexByName = row[HEADER_INDEX_BY_NAME];
+  const columnIndex = headerIndexByName?.get(fieldName);
+
+  if (!rowNumber || columnIndex === undefined) {
+    throw new Error(`Could not derive spreadsheet cell reference for field "${fieldName}".`);
+  }
+
+  return `${toSpreadsheetColumnLabel(columnIndex + 1)}${rowNumber}`;
+}
+
+function toSpreadsheetColumnLabel(columnNumber) {
+  let label = "";
+  let remainder = columnNumber;
+
+  while (remainder > 0) {
+    const next = (remainder - 1) % 26;
+    label = String.fromCharCode(65 + next) + label;
+    remainder = Math.floor((remainder - 1) / 26);
+  }
+
+  return label;
 }
 
 function preserveEventIds(nextEvents, baselineEvents) {
