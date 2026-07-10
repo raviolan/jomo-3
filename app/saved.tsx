@@ -8,7 +8,7 @@ import { EventCard } from "@/components/EventCard";
 import { UndoNotice } from "@/components/UndoNotice";
 import { useSavedEvents } from "@/hooks/useSavedEvents";
 import { clearReturnContext, getReturnContext, setReturnContext } from "@/lib/returnNavigation";
-import { getAllEvents, getEventEndTime, getEventStartTime, getScheduleDays } from "@/lib/scheduleQueries";
+import { getAllEvents, getEventById, getEventEndTime, getEventHref, getEventStartTime, getScheduleDays } from "@/lib/scheduleQueries";
 import { subscribeToScrollToTop } from "@/lib/scrollToTopEvents";
 import { theme } from "@/theme/theme";
 import type { FestivalDay, FestivalEvent } from "@/models/schedule";
@@ -464,7 +464,10 @@ function SavedScheduleView({
           now={now}
           onOpenEvent={(eventId) => {
             onBeforeNavigate();
-            router.push(`/event/${eventId}`);
+            const event = getEventById(eventId);
+            if (event) {
+              router.push(getEventHref(event));
+            }
           }}
         />
       ) : (
@@ -479,7 +482,10 @@ function SavedScheduleView({
               onBeforeNavigate={onBeforeNavigate}
               onOpenEvent={(eventId) => {
                 onBeforeNavigate();
-                router.push(`/event/${eventId}`);
+                const event = getEventById(eventId);
+                if (event) {
+                  router.push(getEventHref(event));
+                }
               }}
             />
           ))}

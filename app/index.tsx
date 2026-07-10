@@ -22,6 +22,7 @@ import {
   getDefaultHomeDayId,
   getDisplayTagLabel,
   getEventEndTime,
+  getEventHref,
   getMatchedCampHostLabelForEvent,
   getMatchedHostLabelForEvent,
   getEventSuggestions,
@@ -703,7 +704,7 @@ function EventSuggestionButton({
 }) {
   return (
     <View style={[styles.suggestionButton, styles.campSuggestionRow]}>
-      <Link href={`/event/${event.id}`} asChild>
+      <Link href={getEventHref(event)} asChild>
         <Pressable accessibilityRole="link" onPress={onSelect} style={styles.campSuggestionLabelButton}>
           <Text style={styles.suggestionText}>{event.title}</Text>
         </Pressable>

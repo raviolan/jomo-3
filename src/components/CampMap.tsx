@@ -296,6 +296,7 @@ export function CampMap({
       ) : (
         <View style={[styles.frameBase, styles.staticMapFrame]}>
           <Image source={campgroundMapImage} style={styles.mapImage} resizeMode="contain" />
+          {showGridLabels ? <StaticGridLabelOverlay /> : null}
           <View pointerEvents="box-none" style={styles.markerLayer}>
             {mapOverlay}
           </View>
@@ -389,6 +390,31 @@ function GridSquareMarker({ label }: { label: string }) {
   );
 }
 
+function StaticGridLabelOverlay() {
+  return (
+    <View pointerEvents="none" style={styles.staticLabelOverlay}>
+      {GRID_COLUMNS.map((column) => {
+        const square = createGridSquareRef(column, 1);
+        const bounds = getGridColumnBounds(square);
+        return (
+          <View key={column} style={[styles.staticColumnLabelBox, getStaticAxisLabelStyle(bounds, "column")]}>
+            <Text style={styles.axisLabelText}>{column}</Text>
+          </View>
+        );
+      })}
+      {GRID_ROWS.map((row) => {
+        const square = createGridSquareRef("A", row);
+        const bounds = getGridRowBounds(square);
+        return (
+          <View key={row} style={[styles.staticRowLabelBox, getStaticAxisLabelStyle(bounds, "row")]}>
+            <Text style={styles.axisLabelText}>{row}</Text>
+          </View>
+        );
+      })}
+    </View>
+  );
+}
+
 function getAxisLabelStyle(
   bounds: { x: number; y: number; width: number; height: number },
   axis: "column" | "row",
@@ -425,6 +451,21 @@ function getMapRectStyle(
     top: toPercent(bounds.y, CAMP_MAP_IMAGE.height),
     width: toPercent(bounds.width, CAMP_MAP_IMAGE.width)
   };
+}
+
+function getStaticAxisLabelStyle(
+  bounds: { x: number; y: number; width: number; height: number },
+  axis: "column" | "row"
+): ViewStyle {
+  return axis === "column"
+    ? {
+        left: toPercent(bounds.x, CAMP_MAP_IMAGE.width),
+        width: toPercent(bounds.width, CAMP_MAP_IMAGE.width)
+      }
+    : {
+        height: toPercent(bounds.height, CAMP_MAP_IMAGE.height),
+        top: toPercent(bounds.y, CAMP_MAP_IMAGE.height)
+      };
 }
 
 function handleScrollFrameLayout(
@@ -914,6 +955,36 @@ const styles = StyleSheet.create({
   },
   staticMapFrame: {
     aspectRatio: CAMP_MAP_IMAGE.width / CAMP_MAP_IMAGE.height
+  },
+  staticColumnLabelBox: {
+    alignItems: "center",
+    backgroundColor: "rgba(250, 245, 239, 0.9)",
+    borderBottomColor: theme.colors.borderSoft,
+    borderBottomWidth: 1,
+    justifyContent: "flex-start",
+    minHeight: 18,
+    paddingTop: 2,
+    position: "absolute",
+    top: 0,
+    zIndex: 4
+  },
+  staticLabelOverlay: {
+    ...StyleSheet.absoluteFillObject,
+    pointerEvents: "none",
+    zIndex: 4
+  },
+  staticRowLabelBox: {
+    alignItems: "flex-start",
+    backgroundColor: "rgba(250, 245, 239, 0.9)",
+    borderRightColor: theme.colors.borderSoft,
+    borderRightWidth: 1,
+    justifyContent: "center",
+    left: 0,
+    minWidth: 20,
+    paddingLeft: 3,
+    position: "absolute",
+    width: "8.5%",
+    zIndex: 4
   },
   title: {
     color: theme.colors.brand,

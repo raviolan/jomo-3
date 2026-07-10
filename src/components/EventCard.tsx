@@ -2,7 +2,7 @@ import { Link } from "expo-router";
 import { Pressable, StyleSheet, Text, View } from "react-native";
 
 import { HeartIcon } from "@/components/HeartIcon";
-import { getDayLabelForEvent } from "@/lib/scheduleQueries";
+import { getDayLabelForEvent, getEventHref } from "@/lib/scheduleQueries";
 import type { FestivalEvent } from "@/models/schedule";
 import { theme } from "@/theme/theme";
 
@@ -17,7 +17,7 @@ interface EventCardProps {
 
 export function EventCard({ event, campHostLabel, hostLabel, isSaved, onBeforeNavigate, onToggleSaved }: EventCardProps) {
   return (
-    <Link href={`/event/${event.id}`} asChild>
+    <Link href={getEventHref(event)} asChild>
       <Pressable onPress={onBeforeNavigate} style={styles.card}>
         <View style={styles.header}>
           <View style={styles.timeBlock}>

@@ -57,7 +57,16 @@ interface SearchIndex {
   full: SearchFieldIndex;
 }
 
+interface EventRouteSlugAudit {
+  duplicateBaseSlugCount: number;
+  duplicateBaseSlugs: string[];
+  duplicateFinalSlugCount: number;
+}
+
 const byId = new Map(schedule.events.map((event) => [event.id, event]));
+const routeSlugAudit = createEventRouteSlugAudit(schedule.events);
+const routeSlugByEventId = buildEventRouteSlugMap(schedule.events);
+const eventIdByRouteParam = buildEventRouteParamMap(schedule.events, routeSlugByEventId);
 const campListingsById = new Map(schedule.campListings.map((listing) => [listing.id, listing]));
 const campListingsByName = new Map(schedule.campListings.map((listing) => [normalizeCampHostKey(listing.name), listing]));
 const campListingsByCanonicalName = schedule.campListings.reduce((map, listing) => {
@@ -104,6 +113,23 @@ export function getAllEvents(): FestivalEvent[] {
 
 export function getEventById(id: FestivalEventId): FestivalEvent | undefined {
   return byId.get(id);
+}
+
+export function getEventRouteSlug(event: FestivalEvent): string {
+  return routeSlugByEventId.get(event.id) ?? buildRouteSlugCandidate(event, event.id);
+}
+
+export function getEventHref(event: FestivalEvent): `/event/${string}` {
+  return `/event/${getEventRouteSlug(event)}`;
+}
+
+export function getEventByRouteParam(eventParam: string): FestivalEvent | undefined {
+  const eventId = eventIdByRouteParam.get(eventParam);
+  return eventId ? byId.get(eventId) : undefined;
+}
+
+export function getEventRouteSlugAudit(): EventRouteSlugAudit {
+  return routeSlugAudit;
 }
 
 export function getEventHosts(event: FestivalEvent): string[] {
@@ -477,6 +503,78 @@ function normalizeSearch(value: string): string {
   return normalizeAssociationKey(value).replace(/\band\b/g, " and ").replace(/\s+/g, " ").trim();
 }
 
+function buildEventRouteSlugMap(events: FestivalEvent[]): Map<FestivalEventId, string> {
+  const groupedEvents = new Map<string, FestivalEvent[]>();
+
+  for (const event of events) {
+    const baseSlug = buildRouteSlugCandidate(event);
+    const existing = groupedEvents.get(baseSlug) ?? [];
+    existing.push(event);
+    groupedEvents.set(baseSlug, existing);
+  }
+
+  const slugMap = new Map<FestivalEventId, string>();
+  const assignedSlugs = new Set<string>();
+
+  for (const [baseSlug, grouped] of groupedEvents.entries()) {
+    const sortedEvents = [...grouped].sort((left, right) => left.id.localeCompare(right.id));
+
+    if (sortedEvents.length === 1) {
+      slugMap.set(sortedEvents[0].id, baseSlug);
+      assignedSlugs.add(baseSlug);
+      continue;
+    }
+
+    for (const event of sortedEvents) {
+      const slugWithSuffix = `${baseSlug}-${createShortStableSuffix(event.id)}`;
+
+      if (assignedSlugs.has(slugWithSuffix)) {
+        throw new Error(`Duplicate event route slug generated for event ${event.id}: ${slugWithSuffix}`);
+      }
+
+      slugMap.set(event.id, slugWithSuffix);
+      assignedSlugs.add(slugWithSuffix);
+    }
+  }
+
+  return slugMap;
+}
+
+function buildEventRouteParamMap(
+  events: FestivalEvent[],
+  slugMap: Map<FestivalEventId, string>
+): Map<string, FestivalEventId> {
+  const routeParams = new Map<string, FestivalEventId>();
+
+  for (const event of events) {
+    routeParams.set(event.id, event.id);
+
+    const slug = slugMap.get(event.id);
+    if (!slug) {
+      continue;
+    }
+
+    const existingEventId = routeParams.get(slug);
+    if (existingEventId && existingEventId !== event.id) {
+      throw new Error(`Duplicate event route param detected for slug ${slug}`);
+    }
+
+    routeParams.set(slug, event.id);
+  }
+
+  return routeParams;
+}
+
+function buildRouteSlugCandidate(event: FestivalEvent, fallbackSeed?: string): string {
+  const titleSlug = slugifyRouteSegment(event.title);
+  const datePart = event.date;
+  const timePart = event.time.start.replace(":", "");
+  const fallbackSegment = fallbackSeed ? createShortStableSuffix(fallbackSeed) : "event";
+  const namePart = titleSlug || `event-${fallbackSegment}`;
+
+  return `${namePart}-${datePart}-${timePart}`;
+}
+
 function normalizeTagKey(value: string): string {
   return normalizeSearch(value);
 }
@@ -536,6 +634,52 @@ function getEventSearchIndex(event: FestivalEvent): SearchIndex {
     ],
     [event.description]
   );
+}
+
+function slugifyRouteSegment(value: string): string {
+  return value
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLocaleLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 64);
+}
+
+function createShortStableSuffix(value: string): string {
+  let hash = 2166136261;
+
+  for (let index = 0; index < value.length; index += 1) {
+    hash ^= value.charCodeAt(index);
+    hash = Math.imul(hash, 16777619);
+  }
+
+  return (hash >>> 0).toString(36).slice(0, 6).padStart(6, "0");
+}
+
+function createEventRouteSlugAudit(events: FestivalEvent[]): EventRouteSlugAudit {
+  const baseSlugCounts = new Map<string, number>();
+
+  for (const event of events) {
+    const baseSlug = buildRouteSlugCandidate(event);
+    baseSlugCounts.set(baseSlug, (baseSlugCounts.get(baseSlug) ?? 0) + 1);
+  }
+
+  const duplicateBaseSlugs = Array.from(baseSlugCounts.entries())
+    .filter(([, count]) => count > 1)
+    .map(([slug]) => slug)
+    .sort();
+  const finalSlugCounts = new Map<string, number>();
+
+  for (const slug of buildEventRouteSlugMap(events).values()) {
+    finalSlugCounts.set(slug, (finalSlugCounts.get(slug) ?? 0) + 1);
+  }
+
+  return {
+    duplicateBaseSlugCount: duplicateBaseSlugs.length,
+    duplicateBaseSlugs,
+    duplicateFinalSlugCount: Array.from(finalSlugCounts.values()).filter((count) => count > 1).length
+  };
 }
 
 function compareSuggestedEvents(a: FestivalEvent, b: FestivalEvent, searchQuery: SearchQuery): number {

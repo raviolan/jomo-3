@@ -13,7 +13,7 @@ import { getReturnContext, getReturnHref } from "@/lib/returnNavigation";
 import {
   getDayLabelForEvent,
   getDisplayTagLabel,
-  getEventById,
+  getEventByRouteParam,
   getRawCampHostLabelsForEvent,
   getRawHostLabelsForEvent,
   resolveCampHostSelection,
@@ -27,8 +27,8 @@ type EventDetailTab = "info" | "map";
 export default function EventDetailScreen() {
   const scrollViewRef = useRef<ScrollView>(null);
   const router = useRouter();
-  const { id } = useLocalSearchParams<{ id: string }>();
-  const event = typeof id === "string" ? getEventById(id) : undefined;
+  const { id: eventParam } = useLocalSearchParams<{ id: string }>();
+  const event = typeof eventParam === "string" ? getEventByRouteParam(eventParam) : undefined;
   const saved = useSavedEvents();
   const [activeTab, setActiveTab] = useState<EventDetailTab>("info");
   const hasMap = Boolean(event?.gridSquares?.length);
@@ -47,7 +47,7 @@ export default function EventDetailScreen() {
     if (!hasMap) {
       setActiveTab("info");
     }
-  }, [hasMap, id]);
+  }, [eventParam, hasMap]);
 
   if (!event) {
     return (
@@ -86,7 +86,7 @@ export default function EventDetailScreen() {
       {activeTab === "map" && event.gridSquares?.length ? (
         <View style={styles.metaGrid}>
           <MetaBlock label="Location" value={<LinkifiedText style={styles.metaValue} text={event.location.name} />} />
-          <CampMap highlightedSquares={event.gridSquares} onGridSquarePress={() => setActiveTab("info")} />
+          <CampMap highlightedSquares={event.gridSquares} onGridSquarePress={() => setActiveTab("info")} showGridLabels />
         </View>
       ) : (
         <>
