@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 
-import type { FestivalEvent, FestivalEventId, SavedEventState } from "@/models/schedule";
+import type { FestivalEvent, FestivalEventId, SavedCampState, SavedEventState } from "@/models/schedule";
 import { getCanonicalCampHost, getEventById, getEventCampHosts } from "@/lib/scheduleQueries";
 import {
   createSavedEventState,
@@ -28,7 +28,10 @@ export function useSavedEvents() {
           setSavedState(
             createSavedEventState({
               ...state,
-              savedCampHosts: state.savedCampHosts.map(getCanonicalCampHost)
+              savedCamps: state.savedCamps.map((savedCamp) => ({
+                ...savedCamp,
+                campHost: getCanonicalCampHost(savedCamp.campHost)
+              }))
             })
           );
         }
@@ -62,7 +65,18 @@ export function useSavedEvents() {
   }, [undoState]);
 
   const savedEventIdSet = useMemo(() => new Set(savedState.savedEventIds), [savedState.savedEventIds]);
-  const savedCampHostSet = useMemo(() => new Set(savedState.savedCampHosts), [savedState.savedCampHosts]);
+  const savedCampStateByHost = useMemo(
+    () => new Map(savedState.savedCamps.map((savedCamp) => [savedCamp.campHost, savedCamp])),
+    [savedState.savedCamps]
+  );
+  const savedCampHostSet = useMemo(() => new Set(savedState.savedCamps.map((savedCamp) => savedCamp.campHost)), [savedState.savedCamps]);
+  const savedCampHostsWithEventsSet = useMemo(
+    () =>
+      new Set(
+        savedState.savedCamps.filter((savedCamp) => savedCamp.includeEvents).map((savedCamp) => savedCamp.campHost)
+      ),
+    [savedState.savedCamps]
+  );
   const hiddenEventIdSet = useMemo(() => new Set(savedState.hiddenEventIds), [savedState.hiddenEventIds]);
 
   const persist = useCallback(async (nextState: SavedEventState, undo?: UndoState) => {
@@ -91,8 +105,8 @@ export function useSavedEvents() {
 
   const isEventSavedByCamp = useCallback(
     (event: FestivalEvent) =>
-      getEventCampHosts(event).some((campHost) => savedCampHostSet.has(campHost)),
-    [savedCampHostSet]
+      getEventCampHosts(event).some((campHost) => savedCampHostsWithEventsSet.has(campHost)),
+    [savedCampHostsWithEventsSet]
   );
 
   const isEventSaved = useCallback(
@@ -159,6 +173,34 @@ export function useSavedEvents() {
     [savedCampHostSet]
   );
 
+  const getSavedCamp = useCallback(
+    (campHost: string): SavedCampState | undefined => savedCampStateByHost.get(getCanonicalCampHost(campHost)),
+    [savedCampStateByHost]
+  );
+
+  const isCampSavedWithEvents = useCallback(
+    (campHost: string) => Boolean(getSavedCamp(campHost)?.includeEvents),
+    [getSavedCamp]
+  );
+
+  const saveCamp = useCallback(
+    (campHost: string, includeEvents: boolean) => {
+      const canonicalCampHost = getCanonicalCampHost(campHost);
+
+      commitState({
+        ...savedState,
+        savedCamps: [
+          ...savedState.savedCamps.filter((savedCamp) => savedCamp.campHost !== canonicalCampHost),
+          {
+            campHost: canonicalCampHost,
+            includeEvents
+          }
+        ]
+      });
+    },
+    [commitState, savedState]
+  );
+
   const toggleSavedCamp = useCallback(
     (campHost: string) => {
       const canonicalCampHost = getCanonicalCampHost(campHost);
@@ -168,17 +210,12 @@ export function useSavedEvents() {
         commitState(
           {
             ...savedState,
-            savedCampHosts: savedState.savedCampHosts.filter((item) => item !== canonicalCampHost)
+            savedCamps: savedState.savedCamps.filter((savedCamp) => savedCamp.campHost !== canonicalCampHost)
           },
           { label: "Camp removed", state: previousState }
         );
         return;
       }
-
-      commitState({
-        ...savedState,
-        savedCampHosts: [...savedState.savedCampHosts, canonicalCampHost]
-      });
     },
     [commitState, savedCampHostSet, savedState]
   );
@@ -186,10 +223,15 @@ export function useSavedEvents() {
   const savedCampEvents = useCallback(
     (campHost: string, events: FestivalEvent[]) => {
       const canonicalCampHost = getCanonicalCampHost(campHost);
+      const savedCamp = savedCampStateByHost.get(canonicalCampHost);
+
+      if (!savedCamp?.includeEvents) {
+        return [];
+      }
 
       return events.filter((event) => getEventCampHosts(event).includes(canonicalCampHost));
     },
-    []
+    [savedCampStateByHost]
   );
 
   const undoLastAction = useCallback(() => {
@@ -209,12 +251,16 @@ export function useSavedEvents() {
     isHydrating,
     storageError,
     hiddenEventIds: savedState.hiddenEventIds,
-    savedCampHosts: savedState.savedCampHosts,
+    savedCampHosts: savedState.savedCamps.map((savedCamp) => savedCamp.campHost),
+    savedCamps: savedState.savedCamps,
     savedEventIds: savedState.savedEventIds,
     undoLabel: undoState?.label,
     clearUndo,
+    getSavedCamp,
     isCampSaved,
+    isCampSavedWithEvents,
     isSaved,
+    saveCamp,
     savedCampEvents,
     savedEvents,
     toggleSaved,

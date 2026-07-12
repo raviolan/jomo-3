@@ -11,7 +11,7 @@ import { clearReturnContext, getReturnContext, setReturnContext } from "@/lib/re
 import { getAllEvents, getEventById, getEventEndTime, getEventHref, getEventStartTime, getScheduleDays } from "@/lib/scheduleQueries";
 import { subscribeToScrollToTop } from "@/lib/scrollToTopEvents";
 import { theme } from "@/theme/theme";
-import type { FestivalDay, FestivalEvent } from "@/models/schedule";
+import type { FestivalDay, FestivalEvent, SavedCampState } from "@/models/schedule";
 
 type SavedTab = "events" | "camps" | "schedule";
 type ScheduleRange = "1day" | "3days" | "week";
@@ -95,9 +95,13 @@ export default function SavedScreen() {
   const events = saved.savedEvents(allEvents);
   const days = getScheduleDays();
   const eventGroups = useMemo(() => groupSavedEventsByDay(events, days), [days, events]);
-  const savedCampHosts = useMemo(
-    () => [...saved.savedCampHosts].sort((a, b) => a.localeCompare(b)),
-    [saved.savedCampHosts]
+  const savedCamps = useMemo(
+    () => [...saved.savedCamps].sort((a, b) => a.campHost.localeCompare(b.campHost)),
+    [saved.savedCamps]
+  );
+  const selectedSavedCamp = useMemo(
+    () => savedCamps.find((savedCamp) => savedCamp.campHost === selectedCampHost),
+    [savedCamps, selectedCampHost]
   );
   const selectedCampEvents = useMemo(
     () => (selectedCampHost ? savedCampEvents(selectedCampHost, allEvents) : []),
@@ -180,7 +184,7 @@ export default function SavedScreen() {
         <Text style={styles.subtitle}>
           {saved.isHydrating
             ? "Loading saved items..."
-            : `${events.length} events and ${savedCampHosts.length} camps saved locally.`}
+            : `${events.length} events and ${savedCamps.length} camps saved locally.`}
         </Text>
       </View>
 
@@ -216,7 +220,7 @@ export default function SavedScreen() {
           {events.length === 0 ? (
             <EmptyState
               title="No saved events yet"
-              body="Save events or camps to build a local plan for the festival."
+              body="Save events or save camps with all their events to build a local plan for the festival."
             />
           ) : (
             eventGroups.map((group) => (
@@ -258,37 +262,50 @@ export default function SavedScreen() {
             </Pressable>
           </View>
           <Text style={styles.campTitle}>{selectedCampHost}</Text>
+          <Text style={styles.campStatus}>
+            {selectedSavedCamp?.includeEvents ? "Camp + events saved" : "Camp saved for directory only"}
+          </Text>
           <View style={styles.list}>
-            {selectedCampEventGroups.map((group) => (
-              <View key={group.dayId} style={styles.dayGroup}>
-                <SavedDayDivider label={group.label} />
-                {group.events.map((event) => (
-                  <EventCard
-                    event={event}
-                    isSaved={saved.isSaved(event.id)}
-                    key={event.id}
-                    onBeforeNavigate={captureReturnContext}
-                    onToggleSaved={saved.toggleSaved}
-                  />
-                ))}
-              </View>
-            ))}
+            {selectedSavedCamp?.includeEvents ? (
+              selectedCampEventGroups.map((group) => (
+                <View key={group.dayId} style={styles.dayGroup}>
+                  <SavedDayDivider label={group.label} />
+                  {group.events.map((event) => (
+                    <EventCard
+                      event={event}
+                      isSaved={saved.isSaved(event.id)}
+                      key={event.id}
+                      onBeforeNavigate={captureReturnContext}
+                      onToggleSaved={saved.toggleSaved}
+                    />
+                  ))}
+                </View>
+              ))
+            ) : (
+              <EmptyState
+                title="No camp events included"
+                body="This camp is saved for directory/following only, so its events are not added to Saved Events or Schedule."
+              />
+            )}
           </View>
         </View>
       ) : (
         <View style={styles.list}>
-          {savedCampHosts.length === 0 ? (
-            <EmptyState title="No saved camps yet" body="Save camps from the Camps view to follow all of their events." />
+          {savedCamps.length === 0 ? (
+            <EmptyState
+              title="No saved camps yet"
+              body="Save camps from the Camps view to follow them, with or without adding all their events."
+            />
           ) : (
-            savedCampHosts.map((campHost) => (
+            savedCamps.map((savedCamp) => (
               <Pressable
                 accessibilityRole="button"
-                key={campHost}
-                onPress={() => openSavedCamp(campHost)}
+                key={savedCamp.campHost}
+                onPress={() => openSavedCamp(savedCamp.campHost)}
                 style={styles.campRow}
               >
-                <Text style={styles.campRowTitle}>{campHost}</Text>
-                <Text style={styles.campRowMeta}>View</Text>
+                <Text style={styles.campRowTitle}>{savedCamp.campHost}</Text>
+                <Text style={styles.campRowMeta}>{getSavedCampLabel(savedCamp)}</Text>
               </Pressable>
             ))
           )}
@@ -359,7 +376,7 @@ function SavedScheduleView({
     return (
       <EmptyState
         title="No saved schedule yet"
-        body="Saved events and events from saved camps will appear in your visual schedule."
+        body="Saved events and events from camps saved with all their events will appear in your visual schedule."
       />
     );
   }
@@ -493,6 +510,10 @@ function SavedScheduleView({
       )}
     </View>
   );
+}
+
+function getSavedCampLabel(savedCamp: SavedCampState) {
+  return savedCamp.includeEvents ? "Camp + events" : "Camp only";
 }
 
 function ScheduleDaySection({
@@ -1309,6 +1330,11 @@ const styles = StyleSheet.create({
     color: theme.colors.text,
     fontSize: 24,
     fontWeight: "900"
+  },
+  campStatus: {
+    color: theme.colors.textMuted,
+    fontSize: 13,
+    fontWeight: "800"
   },
   content: {
     gap: 18,

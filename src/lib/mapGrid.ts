@@ -1,5 +1,17 @@
 import type { GridColumn, GridRow, GridSquareRef } from "@/models/schedule";
 
+export interface MapGridBounds {
+  x: number;
+  y: number;
+  width: number;
+  height: number;
+}
+
+export interface MapGridGeometry {
+  columnGuides: readonly number[];
+  rowGuides: readonly number[];
+}
+
 export const GRID_COLUMNS = [
   "A",
   "B",
@@ -65,16 +77,26 @@ export const CAMP_MAP_IMAGE = {
   rotationDegrees: -11
 } as const;
 
-export const CAMP_MAP_GRID_BOUNDS = {
+export const CAMP_MAP_GRID_BOUNDS: MapGridBounds = {
   x: 0,
   y: 0,
   width: CAMP_MAP_IMAGE.width,
   height: CAMP_MAP_IMAGE.height
 } as const;
 
-export const CAMP_MAP_CELL = {
-  width: CAMP_MAP_GRID_BOUNDS.width / GRID_COLUMNS.length,
-  height: CAMP_MAP_GRID_BOUNDS.height / GRID_ROWS.length
+export const CAMP_MAP_GRID_GEOMETRY = createUniformGridGeometry(CAMP_MAP_GRID_BOUNDS);
+
+// Page-2 is close to uniform, but the crop trims the far edges enough that a single divided
+// rectangle drifts across the map. Use explicit guide lines for plaza-mode calibration.
+export const INFO_PLAZA_MAP_GRID_GEOMETRY: MapGridGeometry = {
+  columnGuides: [
+    0, 32, 62, 92, 122, 152, 182, 212, 243, 273, 303, 333, 363, 393, 423, 453, 483, 513, 543, 573, 603, 633, 663,
+    694, 724, 754, 767
+  ],
+  rowGuides: [
+    0, 28, 60, 92, 124, 153, 183, 213, 242, 272, 301, 330, 360, 389, 419, 448, 478, 507, 536, 566, 595, 624, 654,
+    683, 712, 742, 771, 795
+  ]
 } as const;
 
 const gridColumnSet = new Set<string>(GRID_COLUMNS);
@@ -129,37 +151,56 @@ export function getAdjacentGridSquares(square: GridSquareRef): GridSquareRef[] {
   );
 }
 
-export function getGridSquareBounds(square: GridSquareRef) {
+export function getGridSquareBounds(square: GridSquareRef, gridGeometry: MapGridGeometry = CAMP_MAP_GRID_GEOMETRY) {
   const columnIndex = GRID_COLUMNS.indexOf(square.column);
   const rowIndex = GRID_ROWS.indexOf(square.row);
+  const x = gridGeometry.columnGuides[columnIndex];
+  const nextX = gridGeometry.columnGuides[columnIndex + 1];
+  const y = gridGeometry.rowGuides[rowIndex];
+  const nextY = gridGeometry.rowGuides[rowIndex + 1];
 
   return {
-    x: CAMP_MAP_GRID_BOUNDS.x + columnIndex * CAMP_MAP_CELL.width,
-    y: CAMP_MAP_GRID_BOUNDS.y + rowIndex * CAMP_MAP_CELL.height,
-    width: CAMP_MAP_CELL.width,
-    height: CAMP_MAP_CELL.height
+    x,
+    y,
+    width: nextX - x,
+    height: nextY - y
   };
 }
 
-export function getGridRowBounds(square: GridSquareRef) {
+export function getGridRowBounds(square: GridSquareRef, gridGeometry: MapGridGeometry = CAMP_MAP_GRID_GEOMETRY) {
   const rowIndex = GRID_ROWS.indexOf(square.row);
+  const y = gridGeometry.rowGuides[rowIndex];
+  const nextY = gridGeometry.rowGuides[rowIndex + 1];
 
   return {
-    x: CAMP_MAP_GRID_BOUNDS.x,
-    y: CAMP_MAP_GRID_BOUNDS.y + rowIndex * CAMP_MAP_CELL.height,
-    width: CAMP_MAP_GRID_BOUNDS.width,
-    height: CAMP_MAP_CELL.height
+    x: gridGeometry.columnGuides[0],
+    y,
+    width: gridGeometry.columnGuides[gridGeometry.columnGuides.length - 1] - gridGeometry.columnGuides[0],
+    height: nextY - y
   };
 }
 
-export function getGridColumnBounds(square: GridSquareRef) {
+export function getGridColumnBounds(square: GridSquareRef, gridGeometry: MapGridGeometry = CAMP_MAP_GRID_GEOMETRY) {
   const columnIndex = GRID_COLUMNS.indexOf(square.column);
+  const x = gridGeometry.columnGuides[columnIndex];
+  const nextX = gridGeometry.columnGuides[columnIndex + 1];
 
   return {
-    x: CAMP_MAP_GRID_BOUNDS.x + columnIndex * CAMP_MAP_CELL.width,
-    y: CAMP_MAP_GRID_BOUNDS.y,
-    width: CAMP_MAP_CELL.width,
-    height: CAMP_MAP_GRID_BOUNDS.height
+    x,
+    y: gridGeometry.rowGuides[0],
+    width: nextX - x,
+    height: gridGeometry.rowGuides[gridGeometry.rowGuides.length - 1] - gridGeometry.rowGuides[0]
+  };
+}
+
+function createUniformGridGeometry(bounds: MapGridBounds): MapGridGeometry {
+  return {
+    columnGuides: Array.from({ length: GRID_COLUMNS.length + 1 }, (_, index) =>
+      index === GRID_COLUMNS.length ? bounds.x + bounds.width : bounds.x + (bounds.width / GRID_COLUMNS.length) * index
+    ),
+    rowGuides: Array.from({ length: GRID_ROWS.length + 1 }, (_, index) =>
+      index === GRID_ROWS.length ? bounds.y + bounds.height : bounds.y + (bounds.height / GRID_ROWS.length) * index
+    )
   };
 }
 

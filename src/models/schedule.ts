@@ -158,9 +158,14 @@ export interface NormalizedSchedule {
   campListings: FestivalCampListing[];
 }
 
+export interface SavedCampState {
+  campHost: string;
+  includeEvents: boolean;
+}
+
 export interface SavedEventState {
   savedEventIds: FestivalEventId[];
-  savedCampHosts: string[];
+  savedCamps: SavedCampState[];
   hiddenEventIds: FestivalEventId[];
   updatedAt: string;
 }

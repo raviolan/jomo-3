@@ -20,12 +20,14 @@ import {
 import {
   ALL_GRID_SQUARES,
   CAMP_MAP_IMAGE,
+  CAMP_MAP_GRID_GEOMETRY,
   GRID_COLUMNS,
   GRID_ROWS,
   createGridSquareRef,
   getGridColumnBounds,
   getGridRowBounds,
-  getGridSquareBounds
+  getGridSquareBounds,
+  type MapGridGeometry
 } from "@/lib/mapGrid";
 import type { GridSquareRef } from "@/models/schedule";
 import { theme } from "@/theme/theme";
@@ -56,7 +58,18 @@ type TouchEventPayload = NativeTouchEvent & {
   touches?: TouchLike[];
 };
 
+interface CampMapOverlayMarker {
+  offset?: {
+    x: number;
+    y: number;
+  };
+  key: string;
+  label: string;
+  square: GridSquareRef;
+}
+
 interface CampMapProps {
+  baseMapImageSource?: ImageSourcePropType;
   campHighlightSquares?: GridSquareRef[];
   campInfo?: {
     camps: string[];
@@ -64,22 +77,31 @@ interface CampMapProps {
     onClose: () => void;
     square: GridSquareRef;
   };
+  gridGeometry?: MapGridGeometry;
   highlightedSquares: GridSquareRef[];
+  highlightedSquaresVariant?: "marker" | "outline";
   interactiveSquares?: "highlighted" | "all";
   mode?: "static" | "scrollable";
   onGridSquarePress?: (gridSquare: GridSquareRef) => void;
+  overlayMarkers?: CampMapOverlayMarker[];
   showHighlightedSquareLabel?: boolean;
+  showSelectionSummary?: boolean;
   showGridLabels?: boolean;
 }
 
 export function CampMap({
+  baseMapImageSource = campgroundMapImage,
   campHighlightSquares = [],
   campInfo,
+  gridGeometry = CAMP_MAP_GRID_GEOMETRY,
   highlightedSquares,
+  highlightedSquaresVariant = "marker",
   interactiveSquares = "highlighted",
   mode = "static",
   onGridSquarePress,
+  overlayMarkers = [],
   showHighlightedSquareLabel = true,
+  showSelectionSummary = true,
   showGridLabels = mode === "scrollable"
 }: CampMapProps) {
   const { height: windowHeight } = useWindowDimensions();
@@ -111,13 +133,22 @@ export function CampMap({
         <View
           key={`camp-${square.key}`}
           pointerEvents="none"
-          style={[styles.campMarker, getMapRectStyle(getGridSquareBounds(square), mode, zoomScale)]}
+          style={[styles.campMarker, getMapRectStyle(getGridSquareBounds(square, gridGeometry), mode, zoomScale)]}
         />
       ))}
+      {overlayMarkers.map((marker) => (
+        <View
+          key={marker.key}
+          pointerEvents="none"
+          style={[styles.overlayMarker, getOverlayMarkerStyle(marker.square, mode, zoomScale, gridGeometry, marker.offset)]}
+        >
+          <Text style={styles.overlayMarkerLabel}>{marker.label}</Text>
+        </View>
+      ))}
       {highlightedSquares.map((square) => {
-        const cellStyle = getMapRectStyle(getGridSquareBounds(square), mode, zoomScale);
-        const rowStyle = getMapRectStyle(getGridRowBounds(square), mode, zoomScale);
-        const columnStyle = getMapRectStyle(getGridColumnBounds(square), mode, zoomScale);
+        const cellStyle = getMapRectStyle(getGridSquareBounds(square, gridGeometry), mode, zoomScale);
+        const rowStyle = getMapRectStyle(getGridRowBounds(square, gridGeometry), mode, zoomScale);
+        const columnStyle = getMapRectStyle(getGridColumnBounds(square, gridGeometry), mode, zoomScale);
 
         if (isEventDetailHighlightMode) {
           return (
@@ -141,6 +172,10 @@ export function CampMap({
               )}
             </View>
           );
+        }
+
+        if (highlightedSquaresVariant === "outline") {
+          return <View key={square.key} pointerEvents="none" style={[styles.referenceSquareHighlight, cellStyle]} />;
         }
 
         if (onGridSquarePress) {
@@ -186,18 +221,18 @@ export function CampMap({
               style={[
                 styles.pressTarget,
                 interactiveSquares === "highlighted" && styles.highlightPressTarget,
-                getMapRectStyle(getGridSquareBounds(square), mode, zoomScale)
+                getMapRectStyle(getGridSquareBounds(square, gridGeometry), mode, zoomScale)
               ]}
             />
           ))
         : null}
-      {campInfo ? <CampInfoOverlay info={campInfo} mode={mode} scale={zoomScale} /> : null}
+      {campInfo ? <CampInfoOverlay gridGeometry={gridGeometry} info={campInfo} mode={mode} scale={zoomScale} /> : null}
     </>
   );
 
   return (
     <View style={styles.container}>
-      {highlightedSquares.length > 0 ? (
+      {showSelectionSummary && highlightedSquares.length > 0 ? (
         <View style={styles.header}>
           <Text style={styles.title}>Show on map</Text>
           <Text style={styles.refs}>{labels}</Text>
@@ -242,9 +277,11 @@ export function CampMap({
                 <View style={[styles.columnTrack, { transform: [{ translateX: -scrollX }], width: scrollableMapWidth }]}>
                   {GRID_COLUMNS.map((column) => {
                     const square = createGridSquareRef(column, 1);
-                    const bounds = getGridColumnBounds(square);
                     return (
-                      <View key={column} style={[styles.columnLabelBox, getAxisLabelStyle(bounds, "column", zoomScale)]}>
+                      <View
+                        key={column}
+                        style={[styles.columnLabelBox, getAxisLabelStyle(getGridColumnBounds(square, gridGeometry), "column", zoomScale)]}
+                      >
                         <Text style={styles.axisLabelText}>{column}</Text>
                       </View>
                     );
@@ -255,9 +292,11 @@ export function CampMap({
                 <View style={[styles.rowTrack, { height: scrollableMapHeight, transform: [{ translateY: -scrollY }] }]}>
                   {GRID_ROWS.map((row) => {
                     const square = createGridSquareRef("A", row);
-                    const bounds = getGridRowBounds(square);
                     return (
-                      <View key={row} style={[styles.rowLabelBox, getAxisLabelStyle(bounds, "row", zoomScale)]}>
+                      <View
+                        key={row}
+                        style={[styles.rowLabelBox, getAxisLabelStyle(getGridRowBounds(square, gridGeometry), "row", zoomScale)]}
+                      >
                         <Text style={styles.axisLabelText}>{row}</Text>
                       </View>
                     );
@@ -287,7 +326,7 @@ export function CampMap({
                 style={styles.verticalScroll}
               >
                 <View style={[styles.pixelMapCanvas, { height: scrollableMapHeight, width: scrollableMapWidth }]}>
-                  <Image source={campgroundMapImage} style={[styles.pixelMapImage, { height: scrollableMapHeight, width: scrollableMapWidth }]} />
+                  <Image source={baseMapImageSource} style={[styles.pixelMapImage, { height: scrollableMapHeight, width: scrollableMapWidth }]} />
                   <View pointerEvents="box-none" style={styles.markerLayer}>
                     {mapOverlay}
                   </View>
@@ -298,8 +337,8 @@ export function CampMap({
         </View>
       ) : (
         <View style={[styles.frameBase, styles.staticMapFrame]}>
-          <Image source={campgroundMapImage} style={styles.mapImage} resizeMode="contain" />
-          {showGridLabels ? <StaticGridLabelOverlay /> : null}
+          <Image source={baseMapImageSource} style={styles.mapImage} resizeMode="contain" />
+          {showGridLabels ? <StaticGridLabelOverlay gridGeometry={gridGeometry} /> : null}
           <View pointerEvents="box-none" style={styles.markerLayer}>
             {mapOverlay}
           </View>
@@ -310,10 +349,12 @@ export function CampMap({
 }
 
 function CampInfoOverlay({
+  gridGeometry,
   info,
   mode,
   scale = 1
 }: {
+  gridGeometry: MapGridGeometry;
   info: {
     camps: string[];
     onCampPress: (camp: string) => void;
@@ -323,8 +364,8 @@ function CampInfoOverlay({
   mode: "static" | "scrollable";
   scale?: number;
 }) {
-  const squareBounds = getGridSquareBounds(info.square);
-  const anchor = getGridSquareCenter(info.square, mode, scale);
+  const squareBounds = getGridSquareBounds(info.square, gridGeometry);
+  const anchor = getGridSquareCenter(info.square, mode, scale, gridGeometry);
   const isBelowAnchor = anchor.yPercent < 50;
   const squareTopValue = mode === "scrollable" ? squareBounds.y * scale : (squareBounds.y / CAMP_MAP_IMAGE.height) * 100;
   const squareBottomValue =
@@ -393,23 +434,27 @@ function GridSquareMarker({ label }: { label: string }) {
   );
 }
 
-function StaticGridLabelOverlay() {
+function StaticGridLabelOverlay({ gridGeometry }: { gridGeometry: MapGridGeometry }) {
   return (
     <View pointerEvents="none" style={styles.staticLabelOverlay}>
       {GRID_COLUMNS.map((column) => {
         const square = createGridSquareRef(column, 1);
-        const bounds = getGridColumnBounds(square);
         return (
-          <View key={column} style={[styles.staticColumnLabelBox, getStaticAxisLabelStyle(bounds, "column")]}>
+          <View
+            key={column}
+            style={[styles.staticColumnLabelBox, getStaticAxisLabelStyle(getGridColumnBounds(square, gridGeometry), "column")]}
+          >
             <Text style={styles.axisLabelText}>{column}</Text>
           </View>
         );
       })}
       {GRID_ROWS.map((row) => {
         const square = createGridSquareRef("A", row);
-        const bounds = getGridRowBounds(square);
         return (
-          <View key={row} style={[styles.staticRowLabelBox, getStaticAxisLabelStyle(bounds, "row")]}>
+          <View
+            key={row}
+            style={[styles.staticRowLabelBox, getStaticAxisLabelStyle(getGridRowBounds(square, gridGeometry), "row")]}
+          >
             <Text style={styles.axisLabelText}>{row}</Text>
           </View>
         );
@@ -454,6 +499,26 @@ function getMapRectStyle(
     top: toPercent(bounds.y, CAMP_MAP_IMAGE.height),
     width: toPercent(bounds.width, CAMP_MAP_IMAGE.width)
   };
+}
+
+function getOverlayMarkerStyle(
+  square: GridSquareRef,
+  mode: "static" | "scrollable",
+  scale = 1,
+  gridGeometry: MapGridGeometry = CAMP_MAP_GRID_GEOMETRY,
+  offset?: { x: number; y: number }
+): ViewStyle {
+  const anchor = getGridSquareCenter(square, mode, scale, gridGeometry, offset);
+
+  return mode === "scrollable"
+    ? {
+        left: anchor.xValue,
+        top: anchor.yValue
+      }
+    : {
+        left: toPercent(anchor.xPercent, 100),
+        top: toPercent(anchor.yPercent, 100)
+      };
 }
 
 function getStaticAxisLabelStyle(
@@ -617,16 +682,25 @@ function toPercent(value: number, total: number): `${number}%` {
   return `${(value / total) * 100}%`;
 }
 
-function getGridSquareCenter(square: GridSquareRef, mode: "static" | "scrollable", scale = 1) {
-  const bounds = getGridSquareBounds(square);
-  const xValue = (bounds.x + bounds.width / 2) * scale;
-  const yValue = (bounds.y + bounds.height / 2) * scale;
-  const xPercent = ((bounds.x + bounds.width / 2) / CAMP_MAP_IMAGE.width) * 100;
-  const yPercent = ((bounds.y + bounds.height / 2) / CAMP_MAP_IMAGE.height) * 100;
+function getGridSquareCenter(
+  square: GridSquareRef,
+  mode: "static" | "scrollable",
+  scale = 1,
+  gridGeometry: MapGridGeometry = CAMP_MAP_GRID_GEOMETRY,
+  offset?: { x: number; y: number }
+) {
+  const bounds = getGridSquareBounds(square, gridGeometry);
+  const offsetX = offset?.x ?? 0;
+  const offsetY = offset?.y ?? 0;
+  const anchorX = bounds.x + bounds.width * (0.5 + offsetX);
+  const anchorY = bounds.y + bounds.height * (0.5 + offsetY);
+  const yValue = anchorY * scale;
+  const xPercent = (anchorX / CAMP_MAP_IMAGE.width) * 100;
+  const yPercent = (anchorY / CAMP_MAP_IMAGE.height) * 100;
 
   return {
     xPercent,
-    xValue,
+    xValue: anchorX * scale,
     yPercent,
     yValue
   };
@@ -878,6 +952,28 @@ const styles = StyleSheet.create({
     position: "absolute",
     zIndex: 2
   },
+  overlayMarker: {
+    alignItems: "center",
+    backgroundColor: "rgba(255, 248, 165, 0.96)",
+    borderColor: "#4f3a00",
+    borderRadius: 999,
+    borderWidth: 1.5,
+    height: 22,
+    justifyContent: "center",
+    marginLeft: -11,
+    marginTop: -11,
+    minWidth: 22,
+    paddingHorizontal: 5,
+    position: "absolute",
+    zIndex: 3
+  },
+  overlayMarkerLabel: {
+    color: "#4f3a00",
+    fontSize: 11,
+    fontWeight: "900",
+    lineHeight: 13,
+    textAlign: "center"
+  },
   markerCell: {
     alignItems: "center",
     backgroundColor: "rgba(255, 159, 207, 0.48)",
@@ -927,6 +1023,14 @@ const styles = StyleSheet.create({
     color: theme.colors.text,
     fontSize: 13,
     fontWeight: "900"
+  },
+  referenceSquareHighlight: {
+    backgroundColor: "rgba(255, 248, 165, 0.2)",
+    borderColor: "rgba(255, 242, 134, 0.96)",
+    borderRadius: 3,
+    borderWidth: 2,
+    position: "absolute",
+    zIndex: 2
   },
   rowLabelBox: {
     alignItems: "center",

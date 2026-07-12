@@ -1,7 +1,7 @@
 import { Children, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { ReactNode } from "react";
 import { Link, useFocusEffect, useLocalSearchParams, useRouter } from "expo-router";
-import { Pressable, ScrollView, StyleSheet, Text, TextInput, View } from "react-native";
+import { Modal, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from "react-native";
 
 import { AppFooter } from "@/components/AppFooter";
 import { DayTabs } from "@/components/DayTabs";
@@ -69,6 +69,7 @@ export default function ScheduleScreen() {
   const [collapsedCampDayIds, setCollapsedCampDayIds] = useState<string[]>([]);
   const [isPastEventsExpanded, setIsPastEventsExpanded] = useState(false);
   const [pendingRestoreScrollY, setPendingRestoreScrollY] = useState<number | undefined>();
+  const [pendingCampSaveHost, setPendingCampSaveHost] = useState<string | null>(null);
   const saved = useSavedEvents();
   const hasActiveFilters = isCampMode
     ? query.trim().length > 0 || selectedCampHosts.length > 0
@@ -296,6 +297,28 @@ export default function ScheduleScreen() {
     }
   }
 
+  function requestCampSave(campHost: string) {
+    if (saved.isCampSaved(campHost)) {
+      saved.toggleSavedCamp(campHost);
+      return;
+    }
+
+    setPendingCampSaveHost(campHost);
+  }
+
+  function closeCampSaveDialog() {
+    setPendingCampSaveHost(null);
+  }
+
+  function confirmCampSave(includeEvents: boolean) {
+    if (!pendingCampSaveHost) {
+      return;
+    }
+
+    saved.saveCamp(pendingCampSaveHost, includeEvents);
+    setPendingCampSaveHost(null);
+  }
+
   function addTag(tag: FestivalTag) {
     setSelectedTags((current) => (current.includes(tag) ? current : [...current, tag]));
     setQuery("");
@@ -415,7 +438,7 @@ export default function ScheduleScreen() {
                 isSaved={saved.isCampSaved(campHost)}
                 key={campHost}
                 onSelect={() => openCampSuggestion(campHost)}
-                onToggleSaved={() => saved.toggleSavedCamp(campHost)}
+                onToggleSaved={() => requestCampSave(campHost)}
               />
             ))}
           </SuggestionGroup>
@@ -528,7 +551,7 @@ export default function ScheduleScreen() {
                 <Pressable
                   accessibilityRole="button"
                   key={campHost}
-                  onPress={() => saved.toggleSavedCamp(campHost)}
+                  onPress={() => requestCampSave(campHost)}
                   style={[styles.campSaveButton, isSaved && styles.campSaveButtonActive]}
                 >
                   <Text style={[styles.campSaveButtonText, isSaved && styles.campSaveButtonTextActive]}>
@@ -566,7 +589,7 @@ export default function ScheduleScreen() {
           campHosts={campHosts}
           isCampSaved={saved.isCampSaved}
           onSelectCamp={openCampHost}
-          onToggleSavedCamp={saved.toggleSavedCamp}
+          onToggleSavedCamp={requestCampSave}
           query={query}
         />
       ) : isCampMode ? (
@@ -637,6 +660,12 @@ export default function ScheduleScreen() {
           </View>
         </>
       )}
+      <CampSaveDialog
+        campHost={pendingCampSaveHost}
+        onClose={closeCampSaveDialog}
+        onSaveCampOnly={() => confirmCampSave(false)}
+        onSaveCampWithEvents={() => confirmCampSave(true)}
+      />
       <AppFooter />
     </ScrollView>
   );
@@ -798,6 +827,42 @@ function CampIndex({
         );
       })}
     </View>
+  );
+}
+
+function CampSaveDialog({
+  campHost,
+  onClose,
+  onSaveCampOnly,
+  onSaveCampWithEvents
+}: {
+  campHost: string | null;
+  onClose: () => void;
+  onSaveCampOnly: () => void;
+  onSaveCampWithEvents: () => void;
+}) {
+  return (
+    <Modal animationType="fade" onRequestClose={onClose} transparent visible={campHost !== null}>
+      <View style={styles.modalBackdrop}>
+        <Pressable accessibilityRole="button" onPress={onClose} style={styles.modalBackdropPressable} />
+        <View style={styles.modalCard}>
+          <Text style={styles.modalEyebrow}>Save camp</Text>
+          <Text style={styles.modalTitle}>{campHost}</Text>
+          <Text style={styles.modalBody}>Do you want to follow just the camp, or save the camp and all their events?</Text>
+          <View style={styles.modalActions}>
+            <Pressable accessibilityRole="button" onPress={onSaveCampOnly} style={styles.modalOptionButton}>
+              <Text style={styles.modalOptionButtonText}>Just this camp please!</Text>
+            </Pressable>
+            <Pressable accessibilityRole="button" onPress={onSaveCampWithEvents} style={styles.modalOptionButton}>
+              <Text style={styles.modalOptionButtonText}>Add all their events to my saves</Text>
+            </Pressable>
+          </View>
+          <Pressable accessibilityRole="button" onPress={onClose} style={styles.modalCancelButton}>
+            <Text style={styles.modalCancelButtonText}>Cancel</Text>
+          </Pressable>
+        </View>
+      </View>
+    </Modal>
   );
 }
 
@@ -1303,6 +1368,72 @@ const styles = StyleSheet.create({
   list: {
     gap: 12,
     paddingHorizontal: theme.spacing.screenX
+  },
+  modalActions: {
+    gap: 10
+  },
+  modalBackdrop: {
+    alignItems: "center",
+    backgroundColor: "rgba(21, 19, 17, 0.42)",
+    flex: 1,
+    justifyContent: "center",
+    padding: 20
+  },
+  modalBackdropPressable: {
+    ...StyleSheet.absoluteFillObject
+  },
+  modalBody: {
+    color: theme.colors.text,
+    fontSize: 14,
+    lineHeight: 20
+  },
+  modalCancelButton: {
+    alignItems: "center",
+    paddingVertical: 4
+  },
+  modalCancelButtonText: {
+    color: theme.colors.textMuted,
+    fontSize: 13,
+    fontWeight: "800"
+  },
+  modalCard: {
+    backgroundColor: theme.surfaces.card,
+    borderColor: theme.colors.border,
+    borderRadius: 16,
+    borderWidth: 1,
+    gap: 12,
+    maxWidth: 420,
+    padding: 18,
+    width: "100%"
+  },
+  modalEyebrow: {
+    color: theme.colors.brand,
+    fontSize: 12,
+    fontWeight: "900",
+    textTransform: "uppercase"
+  },
+  modalOptionButton: {
+    alignItems: "center",
+    backgroundColor: theme.surfaces.input,
+    borderColor: theme.colors.border,
+    borderRadius: 12,
+    borderWidth: 1,
+    minHeight: 48,
+    justifyContent: "center",
+    paddingHorizontal: 14,
+    paddingVertical: 12
+  },
+  modalOptionButtonText: {
+    color: theme.colors.text,
+    fontSize: 14,
+    fontWeight: "900",
+    textAlign: "center"
+  },
+  modalTitle: {
+    color: theme.colors.text,
+    fontSize: 22,
+    fontWeight: "900",
+    lineHeight: 27
   },
   pastGroup: {
     gap: 8
