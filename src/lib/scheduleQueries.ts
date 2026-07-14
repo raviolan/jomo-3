@@ -485,10 +485,14 @@ export function sortEventsForSelectedDay(
 }
 
 export function getEventStartTime(event: FestivalEvent): number {
-  return createLocalDateTime(event.date, event.time.start).getTime();
+  return getEventDateRange(event).start.getTime();
 }
 
 export function getEventEndTime(event: FestivalEvent): number {
+  return getEventDateRange(event).end.getTime();
+}
+
+export function getEventDateRange(event: FestivalEvent): { start: Date; end: Date } {
   const start = createLocalDateTime(event.date, event.time.start);
   const end = createLocalDateTime(event.date, event.time.end);
 
@@ -496,7 +500,7 @@ export function getEventEndTime(event: FestivalEvent): number {
     end.setDate(end.getDate() + 1);
   }
 
-  return end.getTime();
+  return { start, end };
 }
 
 function normalizeSearch(value: string): string {

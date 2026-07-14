@@ -1,5 +1,7 @@
 export type FestivalEventId = string;
 
+export const FESTIVAL_TIMEZONE = "Europe/Stockholm";
+
 export type GridColumn =
   | "A"
   | "B"

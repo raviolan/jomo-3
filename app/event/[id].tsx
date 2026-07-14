@@ -9,6 +9,7 @@ import { EmptyState } from "@/components/EmptyState";
 import { LinkifiedText } from "@/components/LinkifiedText";
 import { UndoNotice } from "@/components/UndoNotice";
 import { useSavedEvents } from "@/hooks/useSavedEvents";
+import { exportEventAsCalendarFile } from "@/lib/calendarExport";
 import { getReturnContext, getReturnHref } from "@/lib/returnNavigation";
 import {
   getDayLabelForEvent,
@@ -32,6 +33,7 @@ export default function EventDetailScreen() {
   const event = typeof eventParam === "string" ? getEventByRouteParam(eventParam) : undefined;
   const saved = useSavedEvents();
   const [activeTab, setActiveTab] = useState<EventDetailTab>("info");
+  const [calendarExportError, setCalendarExportError] = useState<string | null>(null);
   const hasMap = Boolean(event?.gridSquares?.length);
   const eventHosts = event ? getRawHostLabelsForEvent(event) : [];
   const eventCampHosts = event ? getRawCampHostLabelsForEvent(event) : [];
@@ -64,6 +66,14 @@ export default function EventDetailScreen() {
   }
 
   const isSaved = saved.isSaved(event.id);
+  const handleCalendarExport = () => {
+    try {
+      exportEventAsCalendarFile(event);
+      setCalendarExportError(null);
+    } catch (error) {
+      setCalendarExportError(error instanceof Error ? error.message : "Calendar export failed.");
+    }
+  };
 
   return (
     <ScrollView ref={scrollViewRef} style={styles.screen} contentContainerStyle={styles.content}>
@@ -119,17 +129,24 @@ export default function EventDetailScreen() {
             ) : null}
           </View>
 
-          <Pressable
-            accessibilityRole="button"
-            onPress={() => saved.toggleSaved(event.id)}
-            style={[styles.saveButton, isSaved && styles.saveButtonActive]}
-          >
-            <Text style={[styles.saveButtonText, isSaved && styles.saveButtonTextActive]}>
-              {isSaved ? "Saved locally" : "Save event"}
-            </Text>
-          </Pressable>
+          <View style={styles.actionRow}>
+            <Pressable
+              accessibilityRole="button"
+              onPress={() => saved.toggleSaved(event.id)}
+              style={[styles.saveButton, isSaved && styles.saveButtonActive]}
+            >
+              <Text style={[styles.saveButtonText, isSaved && styles.saveButtonTextActive]}>
+                {isSaved ? "Saved locally" : "Save event"}
+              </Text>
+            </Pressable>
+
+            <Pressable accessibilityRole="button" onPress={handleCalendarExport} style={styles.calendarButton}>
+              <Text style={styles.calendarButtonText}>Add to Calendar</Text>
+            </Pressable>
+          </View>
 
           {saved.storageError ? <Text style={styles.warning}>{saved.storageError}</Text> : null}
+          {calendarExportError ? <Text style={styles.warning}>{calendarExportError}</Text> : null}
 
           <Text style={styles.source}>Source: {formatSourceLabel(event.source)}</Text>
         </>
@@ -269,6 +286,25 @@ const styles = StyleSheet.create({
     fontSize: 13,
     fontWeight: "900",
     textTransform: "uppercase"
+  },
+  actionRow: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    gap: 10
+  },
+  calendarButton: {
+    alignItems: "center",
+    backgroundColor: theme.surfaces.card,
+    borderColor: theme.colors.border,
+    borderRadius: 999,
+    borderWidth: 1,
+    paddingHorizontal: 16,
+    paddingVertical: 12
+  },
+  calendarButtonText: {
+    color: theme.colors.text,
+    fontSize: 15,
+    fontWeight: "900"
   },
   content: {
     gap: 18,
