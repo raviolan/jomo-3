@@ -92,6 +92,7 @@ export default function SavedScreen() {
   const [scheduleRange, setScheduleRange] = useState<ScheduleRange>("1day");
   const [selectedCampHost, setSelectedCampHost] = useState<string | undefined>();
   const [isSavedScheduleTransferOpen, setIsSavedScheduleTransferOpen] = useState(false);
+  const [isSavedScheduleTransferHelpOpen, setIsSavedScheduleTransferHelpOpen] = useState(false);
   const [calendarExportError, setCalendarExportError] = useState<string | null>(null);
   const [isImportDialogOpen, setIsImportDialogOpen] = useState(false);
   const [pendingSavedScheduleImport, setPendingSavedScheduleImport] = useState<{
@@ -286,14 +287,38 @@ export default function SavedScreen() {
 
           {isSavedScheduleTransferOpen ? (
             <View style={styles.savedScheduleTransferPanel}>
-              <View style={styles.savedScheduleTransferActions}>
-                <Pressable accessibilityRole="button" onPress={exportSavedSchedule} style={styles.savedScheduleTransferButton}>
-                  <Text style={styles.savedScheduleTransferButtonText}>Export saved schedule</Text>
-                </Pressable>
-                <Pressable accessibilityRole="button" onPress={importSavedSchedule} style={styles.savedScheduleTransferButton}>
-                  <Text style={styles.savedScheduleTransferButtonText}>Import saved schedule</Text>
+              <View style={styles.savedScheduleTransferToolbar}>
+                <View style={styles.savedScheduleTransferActions}>
+                  <Pressable accessibilityRole="button" onPress={exportSavedSchedule} style={styles.savedScheduleTransferButton}>
+                    <Text style={styles.savedScheduleTransferButtonText}>Export saved schedule</Text>
+                  </Pressable>
+                  <Pressable accessibilityRole="button" onPress={importSavedSchedule} style={styles.savedScheduleTransferButton}>
+                    <Text style={styles.savedScheduleTransferButtonText}>Import saved schedule</Text>
+                  </Pressable>
+                </View>
+                <Pressable
+                  accessibilityRole="button"
+                  accessibilityState={{ expanded: isSavedScheduleTransferHelpOpen }}
+                  onPress={() => setIsSavedScheduleTransferHelpOpen((currentValue) => !currentValue)}
+                  style={styles.savedScheduleTransferHelpTrigger}
+                >
+                  <View style={styles.savedScheduleTransferHelpIcon}>
+                    <Text style={styles.savedScheduleTransferHelpIconText}>i</Text>
+                  </View>
+                  <Text style={styles.savedScheduleTransferHelpText}>What is this?</Text>
                 </Pressable>
               </View>
+
+              {isSavedScheduleTransferHelpOpen ? (
+                <View style={styles.savedScheduleTransferHelpCard}>
+                  <Text style={styles.savedScheduleTransferHelpBody}>
+                    Export your saved schedule as a JSON backup file.
+                  </Text>
+                  <Text style={styles.savedScheduleTransferHelpBody}>
+                    You can import that file on another device, browser, or Home Screen app to bring over your saved events and camps.
+                  </Text>
+                </View>
+              ) : null}
 
               {pendingSavedScheduleImport ? (
                 <View style={styles.pendingImportCard}>
@@ -1820,6 +1845,46 @@ const styles = StyleSheet.create({
   savedScheduleTransferPanel: {
     gap: 10
   },
+  savedScheduleTransferHelpBody: {
+    color: theme.colors.text,
+    fontSize: 13,
+    lineHeight: 18
+  },
+  savedScheduleTransferHelpCard: {
+    backgroundColor: theme.surfaces.card,
+    borderColor: theme.colors.borderSoft,
+    borderRadius: 10,
+    borderWidth: 1,
+    gap: 6,
+    padding: 12
+  },
+  savedScheduleTransferHelpIcon: {
+    alignItems: "center",
+    borderColor: theme.colors.brand,
+    borderRadius: 999,
+    borderWidth: 1,
+    height: 18,
+    justifyContent: "center",
+    width: 18
+  },
+  savedScheduleTransferHelpIconText: {
+    color: theme.colors.brand,
+    fontSize: 11,
+    fontWeight: "900"
+  },
+  savedScheduleTransferHelpText: {
+    color: theme.colors.brand,
+    fontSize: 12,
+    fontWeight: "900"
+  },
+  savedScheduleTransferHelpTrigger: {
+    alignItems: "center",
+    alignSelf: "flex-start",
+    flexDirection: "row",
+    gap: 6,
+    paddingHorizontal: 4,
+    paddingVertical: 8
+  },
   savedScheduleTransferSection: {
     gap: 8
   },
@@ -1859,6 +1924,13 @@ const styles = StyleSheet.create({
     color: theme.colors.text,
     fontSize: 13,
     fontWeight: "900"
+  },
+  savedScheduleTransferToolbar: {
+    alignItems: "center",
+    flexDirection: "row",
+    flexWrap: "wrap",
+    gap: 8,
+    justifyContent: "space-between"
   },
   savedScheduleTransferNotice: {
     borderRadius: 8,
