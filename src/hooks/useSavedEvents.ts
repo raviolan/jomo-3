@@ -5,6 +5,7 @@ import { getCanonicalCampHost, getEventById, getEventCampHosts } from "@/lib/sch
 import {
   createSavedEventState,
   loadSavedEventState,
+  parseSavedEventStateJson,
   saveSavedEventState
 } from "@/storage/savedEventsStore";
 
@@ -247,6 +248,17 @@ export function useSavedEvents() {
   }, []
   );
 
+  const exportSavedState = useCallback(() => createSavedEventState(savedState), [savedState]);
+
+  const importSavedState = useCallback(
+    async (rawValue: string) => {
+      const nextState = createSavedEventState(parseSavedEventStateJson(rawValue));
+      await persist(nextState);
+      return nextState;
+    },
+    [persist]
+  );
+
   return {
     isHydrating,
     storageError,
@@ -257,6 +269,8 @@ export function useSavedEvents() {
     undoLabel: undoState?.label,
     clearUndo,
     getSavedCamp,
+    exportSavedState,
+    importSavedState,
     isCampSaved,
     isCampSavedWithEvents,
     isSaved,

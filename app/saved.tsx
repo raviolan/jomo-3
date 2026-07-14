@@ -8,6 +8,7 @@ import { EventCard } from "@/components/EventCard";
 import { UndoNotice } from "@/components/UndoNotice";
 import { useSavedEvents } from "@/hooks/useSavedEvents";
 import { exportEventsAsCalendarFile } from "@/lib/calendarExport";
+import { downloadJsonFile, pickJsonFile } from "@/lib/jsonFileTransfer";
 import { clearReturnContext, getReturnContext, setReturnContext } from "@/lib/returnNavigation";
 import { getAllEvents, getEventById, getEventEndTime, getEventHref, getEventStartTime, getScheduleDays } from "@/lib/scheduleQueries";
 import { subscribeToScrollToTop } from "@/lib/scrollToTopEvents";
@@ -90,7 +91,12 @@ export default function SavedScreen() {
   const [activeTab, setActiveTab] = useState<SavedTab>("events");
   const [scheduleRange, setScheduleRange] = useState<ScheduleRange>("1day");
   const [selectedCampHost, setSelectedCampHost] = useState<string | undefined>();
+  const [isSavedScheduleTransferOpen, setIsSavedScheduleTransferOpen] = useState(false);
   const [calendarExportError, setCalendarExportError] = useState<string | null>(null);
+  const [savedScheduleTransferNotice, setSavedScheduleTransferNotice] = useState<{
+    message: string;
+    tone: "error" | "success";
+  } | null>(null);
   const saved = useSavedEvents();
   const savedCampEvents = saved.savedCampEvents;
   const allEvents = useMemo(() => getAllEvents(), []);
@@ -182,6 +188,39 @@ export default function SavedScreen() {
     }
   }
 
+  async function exportSavedSchedule() {
+    try {
+      await downloadJsonFile(saved.exportSavedState(), "jomo-saved-schedule");
+      setSavedScheduleTransferNotice(null);
+    } catch (error) {
+      setSavedScheduleTransferNotice({
+        message: error instanceof Error ? error.message : "Saved schedule export failed.",
+        tone: "error"
+      });
+    }
+  }
+
+  async function importSavedSchedule() {
+    try {
+      const selectedFile = await pickJsonFile();
+
+      if (!selectedFile) {
+        return;
+      }
+
+      await saved.importSavedState(selectedFile.text);
+      setSavedScheduleTransferNotice({
+        message: `Imported saved schedule from ${selectedFile.fileName}.`,
+        tone: "success"
+      });
+    } catch (error) {
+      setSavedScheduleTransferNotice({
+        message: error instanceof Error ? error.message : "Saved schedule import failed.",
+        tone: "error"
+      });
+    }
+  }
+
   return (
     <ScrollView
       ref={scrollViewRef}
@@ -199,10 +238,46 @@ export default function SavedScreen() {
             ? "Loading saved items..."
             : `${events.length} events and ${savedCamps.length} camps saved locally.`}
         </Text>
+        <View style={styles.savedScheduleTransferSection}>
+          <Pressable
+            accessibilityRole="button"
+            accessibilityState={{ expanded: isSavedScheduleTransferOpen }}
+            onPress={() => setIsSavedScheduleTransferOpen((currentValue) => !currentValue)}
+            style={styles.savedScheduleTransferToggle}
+          >
+            <Text style={styles.savedScheduleTransferToggleText}>
+              {isSavedScheduleTransferOpen ? "Hide backup & restore" : "Backup & restore"}
+            </Text>
+            <Text style={styles.savedScheduleTransferToggleGlyph}>{isSavedScheduleTransferOpen ? "−" : "+"}</Text>
+          </Pressable>
+
+          {isSavedScheduleTransferOpen ? (
+            <View style={styles.savedScheduleTransferActions}>
+              <Pressable accessibilityRole="button" onPress={exportSavedSchedule} style={styles.savedScheduleTransferButton}>
+                <Text style={styles.savedScheduleTransferButtonText}>Export saved schedule</Text>
+              </Pressable>
+              <Pressable accessibilityRole="button" onPress={importSavedSchedule} style={styles.savedScheduleTransferButton}>
+                <Text style={styles.savedScheduleTransferButtonText}>Import saved schedule</Text>
+              </Pressable>
+            </View>
+          ) : null}
+        </View>
       </View>
 
       {saved.storageError ? <Text style={styles.warning}>{saved.storageError}</Text> : null}
       {calendarExportError ? <Text style={styles.warning}>{calendarExportError}</Text> : null}
+      {savedScheduleTransferNotice ? (
+        <Text
+          style={[
+            styles.savedScheduleTransferNotice,
+            savedScheduleTransferNotice.tone === "error"
+              ? styles.savedScheduleTransferNoticeError
+              : styles.savedScheduleTransferNoticeSuccess
+          ]}
+        >
+          {savedScheduleTransferNotice.message}
+        </Text>
+      ) : null}
       <UndoNotice label={saved.undoLabel} onUndo={saved.undoLastAction} />
 
       <View style={styles.segmented}>
@@ -1530,6 +1605,66 @@ const styles = StyleSheet.create({
     color: theme.colors.text,
     fontSize: 12,
     fontWeight: "900"
+  },
+  savedScheduleTransferActions: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    gap: 8
+  },
+  savedScheduleTransferSection: {
+    gap: 8
+  },
+  savedScheduleTransferButton: {
+    alignItems: "center",
+    backgroundColor: theme.surfaces.chrome,
+    borderColor: theme.colors.border,
+    borderRadius: 999,
+    borderWidth: 1,
+    paddingHorizontal: 12,
+    paddingVertical: 8
+  },
+  savedScheduleTransferButtonText: {
+    color: theme.colors.text,
+    fontSize: 12,
+    fontWeight: "900"
+  },
+  savedScheduleTransferToggle: {
+    alignItems: "center",
+    alignSelf: "flex-start",
+    backgroundColor: theme.surfaces.card,
+    borderColor: theme.colors.borderSoft,
+    borderRadius: 8,
+    borderWidth: 1,
+    flexDirection: "row",
+    gap: 10,
+    paddingHorizontal: 12,
+    paddingVertical: 9
+  },
+  savedScheduleTransferToggleGlyph: {
+    color: theme.colors.brand,
+    fontSize: 16,
+    fontWeight: "900",
+    lineHeight: 18
+  },
+  savedScheduleTransferToggleText: {
+    color: theme.colors.text,
+    fontSize: 13,
+    fontWeight: "900"
+  },
+  savedScheduleTransferNotice: {
+    borderRadius: 8,
+    borderWidth: 1,
+    padding: 12
+  },
+  savedScheduleTransferNoticeError: {
+    backgroundColor: theme.colors.warningBackground,
+    borderColor: theme.colors.warningBorder,
+    color: theme.colors.warningText
+  },
+  savedScheduleTransferNoticeSuccess: {
+    backgroundColor: theme.surfaces.card,
+    borderColor: theme.colors.borderSoft,
+    color: theme.colors.text
   },
   rangePillTextActive: {
     color: theme.colors.textOnDark

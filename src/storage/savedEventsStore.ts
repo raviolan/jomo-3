@@ -12,23 +12,7 @@ export async function loadSavedEventState(): Promise<SavedEventState> {
   }
 
   try {
-    const parsed = JSON.parse(rawValue) as Partial<SavedEventState> & {
-      savedCampHosts?: unknown;
-    };
-    const savedEventIds = Array.isArray(parsed.savedEventIds)
-      ? parsed.savedEventIds.filter((id): id is FestivalEventId => typeof id === "string")
-      : [];
-    const savedCamps = parseSavedCamps(parsed);
-    const hiddenEventIds = Array.isArray(parsed.hiddenEventIds)
-      ? parsed.hiddenEventIds.filter((id): id is FestivalEventId => typeof id === "string")
-      : [];
-
-    return createSavedEventState({
-      hiddenEventIds,
-      savedCamps,
-      savedEventIds,
-      updatedAt: typeof parsed.updatedAt === "string" ? parsed.updatedAt : fallback.updatedAt
-    });
+    return sanitizeSavedEventState(JSON.parse(rawValue), fallback.updatedAt);
   } catch {
     return fallback;
   }
@@ -36,6 +20,22 @@ export async function loadSavedEventState(): Promise<SavedEventState> {
 
 export async function saveSavedEventState(state: SavedEventState): Promise<void> {
   await localStorageAdapter.setItem(STORAGE_KEY, JSON.stringify(state));
+}
+
+export function parseSavedEventStateJson(rawValue: string): SavedEventState {
+  let parsed: unknown;
+
+  try {
+    parsed = JSON.parse(rawValue);
+  } catch {
+    throw new Error("Saved schedule file is not valid JSON.");
+  }
+
+  if (!isSavedEventStateInput(parsed)) {
+    throw new Error("Saved schedule file does not match the expected format.");
+  }
+
+  return sanitizeSavedEventState(parsed);
 }
 
 export function createSavedEventState({
@@ -61,7 +61,28 @@ function createEmptyState(): SavedEventState {
   };
 }
 
-function parseSavedCamps(parsed: Partial<SavedEventState> & { savedCampHosts?: unknown }): SavedCampState[] {
+function sanitizeSavedEventState(input: SavedEventStateInput, fallbackUpdatedAt = new Date(0).toISOString()): SavedEventState {
+  const savedEventIds = Array.isArray(input.savedEventIds)
+    ? input.savedEventIds.filter((id): id is FestivalEventId => typeof id === "string")
+    : [];
+  const savedCamps = parseSavedCamps(input);
+  const hiddenEventIds = Array.isArray(input.hiddenEventIds)
+    ? input.hiddenEventIds.filter((id): id is FestivalEventId => typeof id === "string")
+    : [];
+
+  return createSavedEventState({
+    hiddenEventIds,
+    savedCamps,
+    savedEventIds,
+    updatedAt: typeof input.updatedAt === "string" ? input.updatedAt : fallbackUpdatedAt
+  });
+}
+
+type SavedEventStateInput = Partial<SavedEventState> & {
+  savedCampHosts?: unknown;
+};
+
+function parseSavedCamps(parsed: SavedEventStateInput): SavedCampState[] {
   if (Array.isArray(parsed.savedCamps)) {
     return parsed.savedCamps.filter(isSavedCampState);
   }
@@ -76,6 +97,20 @@ function parseSavedCamps(parsed: Partial<SavedEventState> & { savedCampHosts?: u
   }
 
   return [];
+}
+
+function isSavedEventStateInput(value: unknown): value is SavedEventStateInput {
+  if (!value || typeof value !== "object") {
+    return false;
+  }
+
+  return (
+    "savedEventIds" in value ||
+    "savedCamps" in value ||
+    "savedCampHosts" in value ||
+    "hiddenEventIds" in value ||
+    "updatedAt" in value
+  );
 }
 
 function dedupeSavedCamps(savedCamps: SavedCampState[]): SavedCampState[] {
