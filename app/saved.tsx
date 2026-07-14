@@ -383,11 +383,13 @@ function SavedScheduleView({
   }
 
   function showPreviousScheduleDayWindow() {
-    setScheduleStartDayIndex((currentIndex) => clampNumber(currentIndex - 1, 0, maxStartDayIndex));
+    const navigationStep = getScheduleWindowNavigationStep(range);
+    setScheduleStartDayIndex((currentIndex) => clampNumber(currentIndex - navigationStep, 0, maxStartDayIndex));
   }
 
   function showNextScheduleDayWindow() {
-    setScheduleStartDayIndex((currentIndex) => clampNumber(currentIndex + 1, 0, maxStartDayIndex));
+    const navigationStep = getScheduleWindowNavigationStep(range);
+    setScheduleStartDayIndex((currentIndex) => clampNumber(currentIndex + navigationStep, 0, maxStartDayIndex));
   }
 
   function showDefaultScheduleDayWindow() {
@@ -913,6 +915,14 @@ function getDefaultScheduleStartDayIndex(days: FestivalDay[], now: Date): number
   const todayIndex = validDays.findIndex((day) => day.date === today);
 
   return Math.max(todayIndex, 0);
+}
+
+function getScheduleWindowNavigationStep(range: ScheduleRange): number {
+  if (range === "week") {
+    return 0;
+  }
+
+  return 1;
 }
 
 function getMaxScheduleStartDayIndex(dayCount: number, range: ScheduleRange): number {
