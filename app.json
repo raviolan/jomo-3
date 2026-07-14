@@ -9,8 +9,12 @@
       "web"
     ],
     "web": {
+      "name": "JOMO 2.0",
+      "shortName": "JOMO 2.0",
       "bundler": "metro",
-      "output": "single"
+      "output": "single",
+      "themeColor": "#fff4df",
+      "backgroundColor": "#fff4df"
     },
     "experiments": {
       "typedRoutes": true
