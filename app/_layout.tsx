@@ -34,11 +34,11 @@ export default function RootLayout() {
               headerTintColor: theme.colors.text
             }}
           >
-            <Stack.Screen name="index" options={{ title: "JOMO 2.0" }} />
-            <Stack.Screen name="saved" options={{ title: "Saved events" }} />
-            <Stack.Screen name="map/index" options={{ title: "Map" }} />
-            <Stack.Screen name="map/[square]" options={{ title: "Grid square" }} />
-            <Stack.Screen name="event/[id]" options={{ title: "Event" }} />
+            <Stack.Screen name="index" options={{ headerShown: false, title: "JOMO 2.0" }} />
+            <Stack.Screen name="saved" options={{ headerShown: false, title: "Saved events" }} />
+            <Stack.Screen name="map/index" options={{ headerShown: false, title: "Map" }} />
+            <Stack.Screen name="map/[square]" options={{ headerShown: false, title: "Grid square" }} />
+            <Stack.Screen name="event/[id]" options={{ headerShown: false, title: "Event" }} />
             <Stack.Screen name="privacy" options={{ title: "Privacy" }} />
           </Stack>
         </ThemeProvider>
