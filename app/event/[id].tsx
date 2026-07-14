@@ -141,7 +141,7 @@ export default function EventDetailScreen() {
             </Pressable>
 
             <Pressable accessibilityRole="button" onPress={handleCalendarExport} style={styles.calendarButton}>
-              <Text style={styles.calendarButtonText}>Add to Calendar</Text>
+              <Text style={styles.calendarButtonText}>Export to device calendar</Text>
             </Pressable>
           </View>
 

@@ -1031,7 +1031,9 @@ function SavedDayDivider({
           onPress={onExport}
           style={[styles.dayExportButton, !canExport && styles.dayExportButtonDisabled]}
         >
-          <Text style={[styles.dayExportButtonText, !canExport && styles.dayExportButtonTextDisabled]}>Export .ics</Text>
+          <Text style={[styles.dayExportButtonText, !canExport && styles.dayExportButtonTextDisabled]}>
+            Export to device calendar
+          </Text>
         </Pressable>
       ) : null}
     </View>
