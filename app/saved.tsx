@@ -7,6 +7,7 @@ import { EmptyState } from "@/components/EmptyState";
 import { EventCard } from "@/components/EventCard";
 import { UndoNotice } from "@/components/UndoNotice";
 import { useSavedEvents } from "@/hooks/useSavedEvents";
+import { exportEventsAsCalendarFile } from "@/lib/calendarExport";
 import { clearReturnContext, getReturnContext, setReturnContext } from "@/lib/returnNavigation";
 import { getAllEvents, getEventById, getEventEndTime, getEventHref, getEventStartTime, getScheduleDays } from "@/lib/scheduleQueries";
 import { subscribeToScrollToTop } from "@/lib/scrollToTopEvents";
@@ -89,6 +90,7 @@ export default function SavedScreen() {
   const [activeTab, setActiveTab] = useState<SavedTab>("events");
   const [scheduleRange, setScheduleRange] = useState<ScheduleRange>("1day");
   const [selectedCampHost, setSelectedCampHost] = useState<string | undefined>();
+  const [calendarExportError, setCalendarExportError] = useState<string | null>(null);
   const saved = useSavedEvents();
   const savedCampEvents = saved.savedCampEvents;
   const allEvents = useMemo(() => getAllEvents(), []);
@@ -169,6 +171,17 @@ export default function SavedScreen() {
     setSelectedCampHost(undefined);
   }
 
+  function exportSavedDay(group: SavedEventDayGroup) {
+    try {
+      exportEventsAsCalendarFile(group.events, {
+        fileNameBase: createSavedDayFileName(group.label)
+      });
+      setCalendarExportError(null);
+    } catch (error) {
+      setCalendarExportError(error instanceof Error ? error.message : "Calendar export failed.");
+    }
+  }
+
   return (
     <ScrollView
       ref={scrollViewRef}
@@ -189,6 +202,7 @@ export default function SavedScreen() {
       </View>
 
       {saved.storageError ? <Text style={styles.warning}>{saved.storageError}</Text> : null}
+      {calendarExportError ? <Text style={styles.warning}>{calendarExportError}</Text> : null}
       <UndoNotice label={saved.undoLabel} onUndo={saved.undoLastAction} />
 
       <View style={styles.segmented}>
@@ -225,7 +239,11 @@ export default function SavedScreen() {
           ) : (
             eventGroups.map((group) => (
               <View key={group.dayId} style={styles.dayGroup}>
-                <SavedDayDivider label={group.label} />
+                <SavedDayDivider
+                  canExport={group.events.length > 0}
+                  label={group.label}
+                  onExport={() => exportSavedDay(group)}
+                />
                 {group.events.map((event) => (
                   <EventCard
                     event={event}
@@ -269,7 +287,11 @@ export default function SavedScreen() {
             {selectedSavedCamp?.includeEvents ? (
               selectedCampEventGroups.map((group) => (
                 <View key={group.dayId} style={styles.dayGroup}>
-                  <SavedDayDivider label={group.label} />
+                  <SavedDayDivider
+                    canExport={group.events.length > 0}
+                    label={group.label}
+                    onExport={() => exportSavedDay(group)}
+                  />
                   {group.events.map((event) => (
                     <EventCard
                       event={event}
@@ -818,14 +840,44 @@ function CurrentTimeGuide({ top }: { top: number }) {
   );
 }
 
-function SavedDayDivider({ label }: { label: string }) {
+function SavedDayDivider({
+  canExport,
+  label,
+  onExport
+}: {
+  canExport: boolean;
+  label: string;
+  onExport?: () => void;
+}) {
   return (
     <View style={styles.dayDivider}>
-      <View style={styles.dayDividerLine} />
-      <Text style={styles.dayDividerText}>{shortDayLabel(label).split(/\s+/)[0]}</Text>
-      <View style={styles.dayDividerLine} />
+      <View style={styles.dayDividerLabelRow}>
+        <View style={styles.dayDividerLine} />
+        <Text style={styles.dayDividerText}>{shortDayLabel(label).split(/\s+/)[0]}</Text>
+        <View style={styles.dayDividerLine} />
+      </View>
+      {onExport ? (
+        <Pressable
+          accessibilityRole="button"
+          disabled={!canExport}
+          onPress={onExport}
+          style={[styles.dayExportButton, !canExport && styles.dayExportButtonDisabled]}
+        >
+          <Text style={[styles.dayExportButtonText, !canExport && styles.dayExportButtonTextDisabled]}>Export .ics</Text>
+        </Pressable>
+      ) : null}
     </View>
   );
+}
+
+function createSavedDayFileName(label: string): string {
+  const safeLabel = shortDayLabel(label)
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 40);
+
+  return safeLabel ? `jomo-${safeLabel}-saved-events` : "jomo-saved-events";
 }
 
 function getDisplayedScheduleDays(
@@ -1369,7 +1421,15 @@ const styles = StyleSheet.create({
     alignItems: "center",
     flexDirection: "row",
     gap: 10,
+    justifyContent: "space-between",
     paddingVertical: 4
+  },
+  dayDividerLabelRow: {
+    alignItems: "center",
+    flex: 1,
+    flexDirection: "row",
+    gap: 10,
+    minWidth: 0
   },
   dayDividerLine: {
     backgroundColor: theme.colors.borderSoft,
@@ -1382,6 +1442,26 @@ const styles = StyleSheet.create({
     fontSize: 12,
     fontWeight: "900",
     textTransform: "uppercase"
+  },
+  dayExportButton: {
+    alignItems: "center",
+    backgroundColor: theme.surfaces.chrome,
+    borderColor: theme.colors.border,
+    borderRadius: 999,
+    borderWidth: 1,
+    paddingHorizontal: 10,
+    paddingVertical: 7
+  },
+  dayExportButtonDisabled: {
+    opacity: 0.42
+  },
+  dayExportButtonText: {
+    color: theme.colors.text,
+    fontSize: 11,
+    fontWeight: "900"
+  },
+  dayExportButtonTextDisabled: {
+    color: theme.colors.textMuted
   },
   dayGroup: {
     gap: 12

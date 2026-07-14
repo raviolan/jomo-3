@@ -4,12 +4,23 @@ import { FESTIVAL_TIMEZONE, type FestivalEvent } from "@/models/schedule";
 const CALENDAR_PROD_ID = "-//JOMO 2.0//Festival Schedule//EN";
 
 export function exportEventAsCalendarFile(event: FestivalEvent): void {
+  exportEventsAsCalendarFile([event], { fileNameBase: createCalendarFileNameBase(event.title, event.id) });
+}
+
+export function exportEventsAsCalendarFile(
+  events: FestivalEvent[],
+  options?: { fileNameBase?: string }
+): void {
   if (typeof document === "undefined" || typeof Blob === "undefined" || typeof URL === "undefined") {
     throw new Error("Calendar export is only available in the web app.");
   }
 
-  const payload = createEventCalendarPayload(event);
-  const fileName = createCalendarFileName(event);
+  if (events.length === 0) {
+    throw new Error("No events available for calendar export.");
+  }
+
+  const payload = createEventCalendarPayload(events);
+  const fileName = `${options?.fileNameBase ?? "jomo-saved-events"}.ics`;
   const blob = new Blob([payload], { type: "text/calendar;charset=utf-8" });
   const objectUrl = URL.createObjectURL(blob);
   const link = document.createElement("a");
@@ -29,14 +40,24 @@ export function exportEventAsCalendarFile(event: FestivalEvent): void {
   }, 0);
 }
 
-function createEventCalendarPayload(event: FestivalEvent): string {
-  const { start, end } = getEventDateRange(event);
+function createEventCalendarPayload(events: FestivalEvent[]): string {
   const lines = [
     "BEGIN:VCALENDAR",
     "VERSION:2.0",
     "CALSCALE:GREGORIAN",
     "METHOD:PUBLISH",
     `PRODID:${CALENDAR_PROD_ID}`,
+    ...events.flatMap(createEventLines),
+    "END:VCALENDAR"
+  ];
+
+  return `${lines.flatMap(foldIcsLine).join("\r\n")}\r\n`;
+}
+
+function createEventLines(event: FestivalEvent): string[] {
+  const { start, end } = getEventDateRange(event);
+
+  return [
     "BEGIN:VEVENT",
     `UID:${escapeIcsText(createEventUid(event))}`,
     `DTSTAMP:${formatUtcDateTime(new Date())}`,
@@ -45,25 +66,22 @@ function createEventCalendarPayload(event: FestivalEvent): string {
     `SUMMARY:${escapeIcsText(event.title)}`,
     `DESCRIPTION:${escapeIcsText(event.description || "No description provided.")}`,
     `LOCATION:${escapeIcsText(event.location.name)}`,
-    "END:VEVENT",
-    "END:VCALENDAR"
+    "END:VEVENT"
   ];
-
-  return `${lines.flatMap(foldIcsLine).join("\r\n")}\r\n`;
 }
 
 function createEventUid(event: FestivalEvent): string {
   return `${event.id}@jomo-2.local`;
 }
 
-function createCalendarFileName(event: FestivalEvent): string {
-  const safeTitle = event.title
+function createCalendarFileNameBase(title: string, fallback: string): string {
+  const safeTitle = title
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "")
     .slice(0, 50);
 
-  return `${safeTitle || event.id}.ics`;
+  return safeTitle || fallback;
 }
 
 function escapeIcsText(value: string): string {
