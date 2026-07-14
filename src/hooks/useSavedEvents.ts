@@ -5,6 +5,7 @@ import { getCanonicalCampHost, getEventById, getEventCampHosts } from "@/lib/sch
 import {
   createSavedEventState,
   loadSavedEventState,
+  mergeSavedEventStates,
   parseSavedEventStateJson,
   saveSavedEventState
 } from "@/storage/savedEventsStore";
@@ -251,12 +252,13 @@ export function useSavedEvents() {
   const exportSavedState = useCallback(() => createSavedEventState(savedState), [savedState]);
 
   const importSavedState = useCallback(
-    async (rawValue: string) => {
-      const nextState = createSavedEventState(parseSavedEventStateJson(rawValue));
+    async (rawValue: string, mode: "replace" | "combine") => {
+      const importedState = createSavedEventState(parseSavedEventStateJson(rawValue));
+      const nextState = mode === "combine" ? mergeSavedEventStates(savedState, importedState) : importedState;
       await persist(nextState);
       return nextState;
     },
-    [persist]
+    [persist, savedState]
   );
 
   return {

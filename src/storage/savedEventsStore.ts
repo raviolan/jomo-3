@@ -1,4 +1,5 @@
 import type { FestivalEventId, SavedCampState, SavedEventState } from "@/models/schedule";
+import { getCanonicalCampHost } from "@/lib/scheduleQueries";
 import { localStorageAdapter } from "@/storage/localStorageAdapter";
 
 const STORAGE_KEY = "jomo-2.saved-events";
@@ -38,6 +39,27 @@ export function parseSavedEventStateJson(rawValue: string): SavedEventState {
   return sanitizeSavedEventState(parsed);
 }
 
+export function mergeSavedEventStates(currentState: SavedEventState, importedState: SavedEventState): SavedEventState {
+  const savedCampsByHost = new Map<string, SavedCampState>();
+
+  for (const savedCamp of [...currentState.savedCamps, ...importedState.savedCamps]) {
+    const canonicalCampHost = getCanonicalCampHost(savedCamp.campHost);
+    const existing = savedCampsByHost.get(canonicalCampHost);
+
+    savedCampsByHost.set(canonicalCampHost, {
+      campHost: canonicalCampHost,
+      includeEvents: Boolean(existing?.includeEvents || savedCamp.includeEvents)
+    });
+  }
+
+  return createSavedEventState({
+    hiddenEventIds: [...currentState.hiddenEventIds, ...importedState.hiddenEventIds],
+    savedCamps: Array.from(savedCampsByHost.values()),
+    savedEventIds: [...currentState.savedEventIds, ...importedState.savedEventIds],
+    updatedAt: new Date().toISOString()
+  });
+}
+
 export function createSavedEventState({
   hiddenEventIds = [],
   savedCamps = [],
@@ -65,7 +87,10 @@ function sanitizeSavedEventState(input: SavedEventStateInput, fallbackUpdatedAt 
   const savedEventIds = Array.isArray(input.savedEventIds)
     ? input.savedEventIds.filter((id): id is FestivalEventId => typeof id === "string")
     : [];
-  const savedCamps = parseSavedCamps(input);
+  const savedCamps = parseSavedCamps(input).map((savedCamp) => ({
+    ...savedCamp,
+    campHost: getCanonicalCampHost(savedCamp.campHost)
+  }));
   const hiddenEventIds = Array.isArray(input.hiddenEventIds)
     ? input.hiddenEventIds.filter((id): id is FestivalEventId => typeof id === "string")
     : [];

@@ -93,6 +93,11 @@ export default function SavedScreen() {
   const [selectedCampHost, setSelectedCampHost] = useState<string | undefined>();
   const [isSavedScheduleTransferOpen, setIsSavedScheduleTransferOpen] = useState(false);
   const [calendarExportError, setCalendarExportError] = useState<string | null>(null);
+  const [isImportDialogOpen, setIsImportDialogOpen] = useState(false);
+  const [pendingSavedScheduleImport, setPendingSavedScheduleImport] = useState<{
+    fileName: string;
+    text: string;
+  } | null>(null);
   const [savedScheduleTransferNotice, setSavedScheduleTransferNotice] = useState<{
     message: string;
     tone: "error" | "success";
@@ -208,16 +213,44 @@ export default function SavedScreen() {
         return;
       }
 
-      await saved.importSavedState(selectedFile.text);
-      setSavedScheduleTransferNotice({
-        message: `Imported saved schedule from ${selectedFile.fileName}.`,
-        tone: "success"
-      });
+      setPendingSavedScheduleImport(selectedFile);
+      setIsImportDialogOpen(false);
+      setSavedScheduleTransferNotice(null);
     } catch (error) {
       setSavedScheduleTransferNotice({
         message: error instanceof Error ? error.message : "Saved schedule import failed.",
         tone: "error"
       });
+    }
+  }
+
+  function cancelPendingSavedScheduleImport() {
+    setPendingSavedScheduleImport(null);
+    setIsImportDialogOpen(false);
+  }
+
+  async function confirmSavedScheduleImport(mode: "replace" | "combine") {
+    if (!pendingSavedScheduleImport) {
+      return;
+    }
+
+    try {
+      await saved.importSavedState(pendingSavedScheduleImport.text, mode);
+      setSavedScheduleTransferNotice({
+        message:
+          mode === "replace"
+            ? `Replaced saved schedule with ${pendingSavedScheduleImport.fileName}.`
+            : `Combined current saved schedule with ${pendingSavedScheduleImport.fileName} and removed duplicates.`,
+        tone: "success"
+      });
+      setPendingSavedScheduleImport(null);
+      setIsImportDialogOpen(false);
+    } catch (error) {
+      setSavedScheduleTransferNotice({
+        message: error instanceof Error ? error.message : "Saved schedule import failed.",
+        tone: "error"
+      });
+      setIsImportDialogOpen(false);
     }
   }
 
@@ -252,13 +285,38 @@ export default function SavedScreen() {
           </Pressable>
 
           {isSavedScheduleTransferOpen ? (
-            <View style={styles.savedScheduleTransferActions}>
-              <Pressable accessibilityRole="button" onPress={exportSavedSchedule} style={styles.savedScheduleTransferButton}>
-                <Text style={styles.savedScheduleTransferButtonText}>Export saved schedule</Text>
-              </Pressable>
-              <Pressable accessibilityRole="button" onPress={importSavedSchedule} style={styles.savedScheduleTransferButton}>
-                <Text style={styles.savedScheduleTransferButtonText}>Import saved schedule</Text>
-              </Pressable>
+            <View style={styles.savedScheduleTransferPanel}>
+              <View style={styles.savedScheduleTransferActions}>
+                <Pressable accessibilityRole="button" onPress={exportSavedSchedule} style={styles.savedScheduleTransferButton}>
+                  <Text style={styles.savedScheduleTransferButtonText}>Export saved schedule</Text>
+                </Pressable>
+                <Pressable accessibilityRole="button" onPress={importSavedSchedule} style={styles.savedScheduleTransferButton}>
+                  <Text style={styles.savedScheduleTransferButtonText}>Import saved schedule</Text>
+                </Pressable>
+              </View>
+
+              {pendingSavedScheduleImport ? (
+                <View style={styles.pendingImportCard}>
+                  <Text style={styles.pendingImportLabel}>Selected file</Text>
+                  <Text numberOfLines={2} style={styles.pendingImportFileName}>
+                    {pendingSavedScheduleImport.fileName}
+                  </Text>
+                  <View style={styles.pendingImportActions}>
+                    <Pressable
+                      accessibilityRole="button"
+                      onPress={() => setIsImportDialogOpen(true)}
+                      style={[styles.savedScheduleTransferButton, styles.pendingImportPrimaryButton]}
+                    >
+                      <Text style={[styles.savedScheduleTransferButtonText, styles.pendingImportPrimaryButtonText]}>
+                        Continue import
+                      </Text>
+                    </Pressable>
+                    <Pressable accessibilityRole="button" onPress={cancelPendingSavedScheduleImport} style={styles.pendingImportCancelButton}>
+                      <Text style={styles.pendingImportCancelButtonText}>Cancel</Text>
+                    </Pressable>
+                  </View>
+                </View>
+              ) : null}
             </View>
           ) : null}
         </View>
@@ -279,6 +337,39 @@ export default function SavedScreen() {
         </Text>
       ) : null}
       <UndoNotice label={saved.undoLabel} onUndo={saved.undoLastAction} />
+
+      {isImportDialogOpen && pendingSavedScheduleImport ? (
+        <View style={styles.importDialogScrim}>
+          <View style={styles.importDialog}>
+            <View style={styles.importDialogHeader}>
+              <Text style={styles.importDialogTitle}>Confirm saved schedule import</Text>
+              <Pressable accessibilityRole="button" onPress={cancelPendingSavedScheduleImport} style={styles.importDialogCloseButton}>
+                <Text style={styles.importDialogCloseButtonText}>Close</Text>
+              </Pressable>
+            </View>
+            <Text style={styles.importDialogBody}>File selected: {pendingSavedScheduleImport.fileName}</Text>
+            <Text style={styles.importDialogBody}>
+              Replace removes the current local saved schedule and uses only this file. Combine keeps both your current local saved schedule and the imported file, and removes duplicates automatically.
+            </Text>
+            <View style={styles.importDialogActions}>
+              <Pressable
+                accessibilityRole="button"
+                onPress={() => confirmSavedScheduleImport("replace")}
+                style={[styles.importDialogActionButton, styles.importDialogReplaceButton]}
+              >
+                <Text style={styles.importDialogReplaceButtonText}>Replace current schedule</Text>
+              </Pressable>
+              <Pressable
+                accessibilityRole="button"
+                onPress={() => confirmSavedScheduleImport("combine")}
+                style={styles.importDialogActionButton}
+              >
+                <Text style={styles.importDialogActionButtonText}>Combine schedules</Text>
+              </Pressable>
+            </View>
+          </View>
+        </View>
+      ) : null}
 
       <View style={styles.segmented}>
         <Pressable
@@ -1554,8 +1645,121 @@ const styles = StyleSheet.create({
   header: {
     gap: 4
   },
+  importDialog: {
+    backgroundColor: theme.surfaces.cardStrong,
+    borderColor: theme.colors.border,
+    borderRadius: 12,
+    borderWidth: 1,
+    gap: 12,
+    maxWidth: 420,
+    padding: 16,
+    width: "100%"
+  },
+  importDialogActionButton: {
+    alignItems: "center",
+    backgroundColor: theme.surfaces.chrome,
+    borderColor: theme.colors.border,
+    borderRadius: 10,
+    borderWidth: 1,
+    paddingHorizontal: 12,
+    paddingVertical: 11
+  },
+  importDialogActions: {
+    gap: 10
+  },
+  importDialogActionButtonText: {
+    color: theme.colors.text,
+    fontSize: 13,
+    fontWeight: "900",
+    textAlign: "center"
+  },
+  importDialogBody: {
+    color: theme.colors.text,
+    fontSize: 14,
+    lineHeight: 19
+  },
+  importDialogCloseButton: {
+    alignItems: "center",
+    paddingHorizontal: 4,
+    paddingVertical: 4
+  },
+  importDialogCloseButtonText: {
+    color: theme.colors.brand,
+    fontSize: 12,
+    fontWeight: "900"
+  },
+  importDialogHeader: {
+    alignItems: "center",
+    flexDirection: "row",
+    gap: 12,
+    justifyContent: "space-between"
+  },
+  importDialogReplaceButton: {
+    backgroundColor: theme.colors.brandDark,
+    borderColor: theme.colors.brandDark
+  },
+  importDialogReplaceButtonText: {
+    color: theme.colors.textOnDark,
+    fontSize: 13,
+    fontWeight: "900",
+    textAlign: "center"
+  },
+  importDialogScrim: {
+    alignItems: "center",
+    backgroundColor: "rgba(32, 24, 29, 0.28)",
+    borderRadius: 12,
+    padding: 12
+  },
+  importDialogTitle: {
+    color: theme.colors.text,
+    flex: 1,
+    fontSize: 18,
+    fontWeight: "900"
+  },
   list: {
     gap: 12
+  },
+  pendingImportActions: {
+    alignItems: "center",
+    flexDirection: "row",
+    flexWrap: "wrap",
+    gap: 8
+  },
+  pendingImportCancelButton: {
+    alignItems: "center",
+    paddingHorizontal: 8,
+    paddingVertical: 8
+  },
+  pendingImportCancelButtonText: {
+    color: theme.colors.brand,
+    fontSize: 12,
+    fontWeight: "900"
+  },
+  pendingImportCard: {
+    backgroundColor: theme.surfaces.card,
+    borderColor: theme.colors.borderSoft,
+    borderRadius: 10,
+    borderWidth: 1,
+    gap: 6,
+    padding: 12
+  },
+  pendingImportFileName: {
+    color: theme.colors.text,
+    fontSize: 14,
+    fontWeight: "900"
+  },
+  pendingImportLabel: {
+    color: theme.colors.textMuted,
+    fontSize: 11,
+    fontWeight: "900",
+    textTransform: "uppercase"
+  },
+  pendingImportPrimaryButton: {
+    backgroundColor: theme.colors.brandDark,
+    borderColor: theme.colors.brandDark
+  },
+  pendingImportPrimaryButtonText: {
+    color: theme.colors.textOnDark
   },
   multiDayDenseColumn: {
     paddingLeft: 3,
@@ -1610,6 +1814,9 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     flexWrap: "wrap",
     gap: 8
+  },
+  savedScheduleTransferPanel: {
+    gap: 10
   },
   savedScheduleTransferSection: {
     gap: 8
