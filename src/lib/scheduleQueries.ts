@@ -63,19 +63,6 @@ interface EventRouteSlugAudit {
   duplicateFinalSlugCount: number;
 }
 
-const byId = new Map(schedule.events.map((event) => [event.id, event]));
-const routeSlugAudit = createEventRouteSlugAudit(schedule.events);
-const routeSlugByEventId = buildEventRouteSlugMap(schedule.events);
-const eventIdByRouteParam = buildEventRouteParamMap(schedule.events, routeSlugByEventId);
-const campListingsById = new Map(schedule.campListings.map((listing) => [listing.id, listing]));
-const campListingsByName = new Map(schedule.campListings.map((listing) => [normalizeCampHostKey(listing.name), listing]));
-const campListingsByCanonicalName = schedule.campListings.reduce((map, listing) => {
-  const canonicalName = getCanonicalCampHost(listing.name);
-  const existing = map.get(canonicalName) ?? [];
-  existing.push(listing);
-  map.set(canonicalName, existing);
-  return map;
-}, new Map<string, FestivalCampListing[]>());
 const tagAliases: Record<FestivalTag, string[]> = {
   "Kids friendly": ["Kid-friendly", "Kid friendly", "Little monkey", "🐒"],
   "Adults only": ["Adult only", "Adults", "Big monkey", "🦍"],
@@ -102,21 +89,38 @@ const tagIcons: Record<FestivalTag, string> = {
   "Queer-inclusive": "🌈",
   "Queer-focused": "🌈🌈"
 };
+let allEventsCache: FestivalEvent[] | undefined;
+let byIdCache: Map<FestivalEventId, FestivalEvent> | undefined;
+let campHostsCache: string[] | undefined;
+let campListingsByCanonicalNameCache: Map<string, FestivalCampListing[]> | undefined;
+let campListingsByIdCache: Map<string, FestivalCampListing> | undefined;
+let campListingsByNameCache: Map<string, FestivalCampListing> | undefined;
+let campListingsCache: FestivalCampListing[] | undefined;
+let categoriesCache: FestivalCategory[] | undefined;
+let eventIdByRouteParamCache: Map<string, FestivalEventId> | undefined;
+let eventSearchIndexByIdCache: Map<FestivalEventId, SearchIndex> | undefined;
+let routeSlugAuditCache: EventRouteSlugAudit | undefined;
+let routeSlugByEventIdCache: Map<FestivalEventId, string> | undefined;
+let tagsCache: FestivalTag[] | undefined;
 
 export function getScheduleDays(): FestivalDay[] {
   return schedule.days;
 }
 
 export function getAllEvents(): FestivalEvent[] {
-  return sortEvents(schedule.events);
+  if (!allEventsCache) {
+    allEventsCache = sortEvents(schedule.events);
+  }
+
+  return allEventsCache;
 }
 
 export function getEventById(id: FestivalEventId): FestivalEvent | undefined {
-  return byId.get(id);
+  return getEventByIdMap().get(id);
 }
 
 export function getEventRouteSlug(event: FestivalEvent): string {
-  return routeSlugByEventId.get(event.id) ?? buildRouteSlugCandidate(event, event.id);
+  return getRouteSlugByEventIdMap().get(event.id) ?? buildRouteSlugCandidate(event, event.id);
 }
 
 export function getEventHref(event: FestivalEvent): `/event/${string}` {
@@ -124,12 +128,16 @@ export function getEventHref(event: FestivalEvent): `/event/${string}` {
 }
 
 export function getEventByRouteParam(eventParam: string): FestivalEvent | undefined {
-  const eventId = eventIdByRouteParam.get(eventParam);
-  return eventId ? byId.get(eventId) : undefined;
+  const eventId = getEventIdByRouteParamMap().get(eventParam);
+  return eventId ? getEventByIdMap().get(eventId) : undefined;
 }
 
 export function getEventRouteSlugAudit(): EventRouteSlugAudit {
-  return routeSlugAudit;
+  if (!routeSlugAuditCache) {
+    routeSlugAuditCache = createEventRouteSlugAudit(schedule.events);
+  }
+
+  return routeSlugAuditCache;
 }
 
 export function getEventHosts(event: FestivalEvent): string[] {
@@ -158,25 +166,29 @@ export function getEventsForAdjacentGridSquares(square: GridSquareRef): Festival
 }
 
 export function getCampListings(): FestivalCampListing[] {
-  return [...schedule.campListings].sort((a, b) => a.name.localeCompare(b.name));
+  if (!campListingsCache) {
+    campListingsCache = [...schedule.campListings].sort((a, b) => a.name.localeCompare(b.name));
+  }
+
+  return campListingsCache;
 }
 
 export function getCampListingById(id: string): FestivalCampListing | undefined {
-  return campListingsById.get(id);
+  return getCampListingsByIdMap().get(id);
 }
 
 export function getCampListingByName(name: string): FestivalCampListing | undefined {
   const normalizedName = normalizeCampHostKey(name);
-  const directMatch = campListingsByName.get(normalizedName);
+  const directMatch = getCampListingsByNameMap().get(normalizedName);
   if (directMatch) {
     return directMatch;
   }
 
-  return campListingsByCanonicalName.get(getCanonicalCampHost(name))?.[0];
+  return getCampListingsByCanonicalNameMap().get(getCanonicalCampHost(name))?.[0];
 }
 
 export function getCampListingsForCampHost(name: string): FestivalCampListing[] {
-  return campListingsByCanonicalName.get(getCanonicalCampHost(name)) ?? [];
+  return getCampListingsByCanonicalNameMap().get(getCanonicalCampHost(name)) ?? [];
 }
 
 export function getCampLocationsByGridSquare(): CampLocationGroup[] {
@@ -263,23 +275,31 @@ export function getMatchedHostLabelForEvent(event: FestivalEvent, canonicalHosts
 }
 
 export function getCategories(): FestivalCategory[] {
-  return Array.from(new Set(schedule.events.map((event) => event.category))).sort();
+  if (!categoriesCache) {
+    categoriesCache = Array.from(new Set(schedule.events.map((event) => event.category))).sort();
+  }
+
+  return categoriesCache;
 }
 
 export function getTags(): FestivalTag[] {
-  const presentTags = new Set(schedule.events.flatMap((event) => event.tags).map(getCanonicalTag));
-  const stableTagOrder: FestivalTag[] = [
-    "Kids friendly",
-    "Adults only",
-    "Sex positive",
-    "Sober",
-    "Sensory content",
-    "Triggering themes",
-    "Queer-inclusive",
-    "Queer-focused"
-  ];
+  if (!tagsCache) {
+    const presentTags = new Set(schedule.events.flatMap((event) => event.tags).map(getCanonicalTag));
+    const stableTagOrder: FestivalTag[] = [
+      "Kids friendly",
+      "Adults only",
+      "Sex positive",
+      "Sober",
+      "Sensory content",
+      "Triggering themes",
+      "Queer-inclusive",
+      "Queer-focused"
+    ];
 
-  return stableTagOrder.filter((tag) => presentTags.has(tag));
+    tagsCache = stableTagOrder.filter((tag) => presentTags.has(tag));
+  }
+
+  return tagsCache;
 }
 
 export function getCanonicalTag(tag: string): FestivalTag {
@@ -334,20 +354,26 @@ export function getEventSuggestions(query: string, limit = 6, dayId?: string): F
 }
 
 export function getCampHosts(): string[] {
-  const byNormalizedName = new Map<string, string>();
+  if (!campHostsCache) {
+    const byNormalizedName = new Map<string, string>();
 
-  for (const campHost of schedule.events.flatMap(getEventCampHosts)) {
-    byNormalizedName.set(normalizeCampHostKey(campHost), campHost);
-  }
-
-  for (const listing of schedule.campListings) {
-    const normalizedName = normalizeCampHostKey(getCanonicalCampHost(listing.name));
-    if (!byNormalizedName.has(normalizedName)) {
-      byNormalizedName.set(normalizedName, getCanonicalCampHost(listing.name));
+    for (const campHost of schedule.events.flatMap(getEventCampHosts)) {
+      byNormalizedName.set(normalizeCampHostKey(campHost), campHost);
     }
+
+    for (const listing of schedule.campListings) {
+      const normalizedName = normalizeCampHostKey(getCanonicalCampHost(listing.name));
+      if (!byNormalizedName.has(normalizedName)) {
+        byNormalizedName.set(normalizedName, getCanonicalCampHost(listing.name));
+      }
+    }
+
+    campHostsCache = Array.from(byNormalizedName.values()).sort((a, b) =>
+      getCampHostSortKey(a).localeCompare(getCampHostSortKey(b))
+    );
   }
 
-  return Array.from(byNormalizedName.values()).sort((a, b) => getCampHostSortKey(a).localeCompare(getCampHostSortKey(b)));
+  return campHostsCache;
 }
 
 export function campHostMatchesQuery(campHost: string, query: string): boolean {
@@ -611,6 +637,11 @@ function getSearchPartsFromCampListing(listing: FestivalCampListing): string[] {
 }
 
 function getEventSearchIndex(event: FestivalEvent): SearchIndex {
+  const cachedIndex = getEventSearchIndexByIdMap().get(event.id);
+  if (cachedIndex) {
+    return cachedIndex;
+  }
+
   const eventHosts = getEventHosts(event);
   const eventCampHosts = getEventCampHosts(event);
   const rawHosts = getRawHostLabelsForEvent(event);
@@ -619,7 +650,7 @@ function getEventSearchIndex(event: FestivalEvent): SearchIndex {
   const hostAliases = eventHosts.flatMap(getHostAliasesForCanonical);
   const gridTerms = (event.gridSquares ?? []).flatMap((square) => [square.key, square.label]);
 
-  return createSearchIndex(
+  const index = createSearchIndex(
     [event.title],
     [
       event.category,
@@ -638,6 +669,9 @@ function getEventSearchIndex(event: FestivalEvent): SearchIndex {
     ],
     [event.description]
   );
+
+  getEventSearchIndexByIdMap().set(event.id, index);
+  return index;
 }
 
 function slugifyRouteSegment(value: string): string {
@@ -866,4 +900,66 @@ function toLocalDateString(date: Date): string {
   const day = String(date.getDate()).padStart(2, "0");
 
   return `${year}-${month}-${day}`;
+}
+
+function getCampListingsByCanonicalNameMap(): Map<string, FestivalCampListing[]> {
+  if (!campListingsByCanonicalNameCache) {
+    campListingsByCanonicalNameCache = schedule.campListings.reduce((map, listing) => {
+      const canonicalName = getCanonicalCampHost(listing.name);
+      const existing = map.get(canonicalName) ?? [];
+      existing.push(listing);
+      map.set(canonicalName, existing);
+      return map;
+    }, new Map<string, FestivalCampListing[]>());
+  }
+
+  return campListingsByCanonicalNameCache;
+}
+
+function getCampListingsByIdMap(): Map<string, FestivalCampListing> {
+  if (!campListingsByIdCache) {
+    campListingsByIdCache = new Map(schedule.campListings.map((listing) => [listing.id, listing]));
+  }
+
+  return campListingsByIdCache;
+}
+
+function getCampListingsByNameMap(): Map<string, FestivalCampListing> {
+  if (!campListingsByNameCache) {
+    campListingsByNameCache = new Map(schedule.campListings.map((listing) => [normalizeCampHostKey(listing.name), listing]));
+  }
+
+  return campListingsByNameCache;
+}
+
+function getEventByIdMap(): Map<FestivalEventId, FestivalEvent> {
+  if (!byIdCache) {
+    byIdCache = new Map(schedule.events.map((event) => [event.id, event]));
+  }
+
+  return byIdCache;
+}
+
+function getEventIdByRouteParamMap(): Map<string, FestivalEventId> {
+  if (!eventIdByRouteParamCache) {
+    eventIdByRouteParamCache = buildEventRouteParamMap(schedule.events, getRouteSlugByEventIdMap());
+  }
+
+  return eventIdByRouteParamCache;
+}
+
+function getEventSearchIndexByIdMap(): Map<FestivalEventId, SearchIndex> {
+  if (!eventSearchIndexByIdCache) {
+    eventSearchIndexByIdCache = new Map();
+  }
+
+  return eventSearchIndexByIdCache;
+}
+
+function getRouteSlugByEventIdMap(): Map<FestivalEventId, string> {
+  if (!routeSlugByEventIdCache) {
+    routeSlugByEventIdCache = buildEventRouteSlugMap(schedule.events);
+  }
+
+  return routeSlugByEventIdCache;
 }

@@ -29,12 +29,24 @@ const webBackgroundStyle: React.CSSProperties = {
   zIndex: 0
 };
 
+const lightweightWebBackgroundStyle: React.CSSProperties = {
+  ...webBackgroundStyle,
+  backgroundImage: `linear-gradient(180deg, ${clouds.mintCream} 0%, ${clouds.cream} 100%)`
+};
+
 export function AppBackground() {
   if (Platform.OS === "web") {
+    const isStandaloneWebApp =
+      typeof navigator !== "undefined" &&
+      "standalone" in navigator &&
+      typeof navigator.standalone === "boolean" &&
+      navigator.standalone;
+    const isNarrowViewport = typeof window !== "undefined" ? window.innerWidth < 820 : false;
+
     return React.createElement("div", {
       "aria-hidden": true,
       "data-jomo-background": "true",
-      style: webBackgroundStyle
+      style: isStandaloneWebApp && isNarrowViewport ? lightweightWebBackgroundStyle : webBackgroundStyle
     });
   }
 
